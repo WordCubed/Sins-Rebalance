@@ -90,7 +90,7 @@ planetUpgradeDef
 				crystal 0.000000
 			upgradeTime 0.000000
 			maxPopulation 3.000000
-			populationGrowthRate 0.012500
+			populationGrowthRate 2.000000
 			developmentTaxPenalty -0.150000
 		stage
 			price
@@ -99,7 +99,7 @@ planetUpgradeDef
 				crystal 60.000000
 			upgradeTime 5.000000
 			maxPopulation 4.000000
-			populationGrowthRate 0.025000
+			populationGrowthRate 2.000000
 			developmentTaxPenalty -0.100000
 		stage
 			price
@@ -108,7 +108,7 @@ planetUpgradeDef
 				crystal 120.000000
 			upgradeTime 10.000000
 			maxPopulation 7.000000
-			populationGrowthRate 0.029167
+			populationGrowthRate 2.000000
 			developmentTaxPenalty 0.000000
 		stage
 			price
@@ -117,7 +117,7 @@ planetUpgradeDef
 				crystal 360.000000
 			upgradeTime 30.000000
 			maxPopulation 10.000000
-			populationGrowthRate 0.041667
+			populationGrowthRate 2.000000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
 		stageCount 4
@@ -354,7 +354,7 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 4725.000000
+	creditsOnStrippedToTheCore 10980.000000
 	metalOnStrippedToTheCore 7200.000000
 	crystalOnStrippedToTheCore 7200.000000
 	extraScuttleTimeOnStrip 5.000000

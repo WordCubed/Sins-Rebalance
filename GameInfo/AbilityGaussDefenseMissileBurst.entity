@@ -7,11 +7,12 @@ buffType "BuffGaussDefenseMissileBurst"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 6
+	numObjects 7
+	object "Fighter"
 	object "Corvette"
 	object "Frigate"
-	object "Titan"
 	object "CapitalShip"
+	object "Titan"
 	object "PlanetModule"
 	object "StarBase"
 	numSpaces 1

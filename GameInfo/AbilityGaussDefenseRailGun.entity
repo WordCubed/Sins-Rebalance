@@ -18,8 +18,8 @@ targetFilter
 	numConstraints 1
 	constraint "NotInvulnerable"
 range
-	Level:0 75000.000000
-	Level:1 75000.000000
+	Level:0 83333.000000
+	Level:1 83333.000000
 	Level:2 0.000000
 	Level:3 0.000000
 effectInfo

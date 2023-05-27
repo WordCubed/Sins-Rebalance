@@ -1,5 +1,20 @@
 TXT
-NumStrings 8662
+NumStrings 8667
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SYNERGY_DESCRIPTION"
+	Value "Grants the Synergy ability to Beam Defense Platforms, allowing them to amplify the damage and shields of other nearby defense platforms. A 12.5% damage bonus that stacks up to 50%."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_1_DESCRIPTION"
+	Value "Grants access to the Titan Foundry and allows you to begin summoning the Vorastra Titan, a massive warship of immense power."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_2_DESCRIPTION"
+	Value "Allows you to continue summoning the Vorastra Titan."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_3_DESCRIPTION"
+	Value "Allows you to continue summoning the Vorastra Titan."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_4_DESCRIPTION"
+	Value "Allows you to finish recovery of the Vorastra Titan and launch it against your empire's enemies."
 StringInfo
 	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_NAME"
 	Value "Spawn Phase Stabilizer"
@@ -116,7 +131,7 @@ StringInfo
 	Value "Death Rites"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_DESCRIPTION"
-	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen comrade. A 15% damage buff that stacks up to 6 times, for a total bonus of up to 90%."
+	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen comrade. A 10% damage buff that stacks up to 5 times, for a total bonus of up to 50%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1_DESCRIPTION"
 	Value "Grants access to the Titan Foundry and allows you to begin construction on the Eradica Titan, a massive warship of immense power."
@@ -593,31 +608,31 @@ StringInfo
 	Value "Wave Subject 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE0_DESCRIPTION"
-	Value "Increases the damage of all Wave weapons."
+	Value "Increases the damage of all Wave & Disintegrator weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE1_NAME"
 	Value "Wave Subject 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE1_DESCRIPTION"
-	Value "Further increases the damage of all Wave weapons."
+	Value "Further increases the damage of all Wave & Disintegrator weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE2_NAME"
 	Value "Wave Subject 3"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE2_DESCRIPTION"
-	Value "Further increases the damage of all Wave weapons."
+	Value "Further increases the damage of all Wave & Disintegrator weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS_NAME"
 	Value "Wave Subject 4"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS_DESCRIPTION"
-	Value "Further increases the damage of all Wave weapons."
+	Value "Further increases the damage of all Wave & Disintegrator weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS1_NAME"
 	Value "Wave Subject 5"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS1_DESCRIPTION"
-	Value "Further increases the damage of all Wave weapons."
+	Value "Further increases the damage of all Wave & Disintegrator weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_PULSEGUN0_NAME"
 	Value "Pulse Subject 1"
@@ -890,7 +905,7 @@ StringInfo
 	Value "More militia teams temporarily join ship crews within the gravity well, further bolstering armor and weapon damage within friendly territory."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_A_PLANET_DESCRIPTION"
-	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships one time & permanently increasing weapon damage by 10%. (Stacks for a total of 40% damage.)"
+	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships one time & permanently increasing weapon damage by 10%. (Stacks up to a total 30% bonus.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPPHASE_NAME"
 	Value "Unstoppable Scouting"

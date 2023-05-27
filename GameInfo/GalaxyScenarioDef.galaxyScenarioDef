@@ -2844,7 +2844,7 @@ planetItemsTemplate
 				item "Psi:Module:MetalExtractor"
 				item "Psi:Module:MetalExtractor"
 				item "Psi:Module:MetalExtractor"
-				item "Psi:CapitalShip:PlanetPsionic"
+				item "Psi:CapitalShip:Siege"
 				item "Psi:Frigate:Light"
 				item "Psi:Frigate:Light"
 				item "Psi:Frigate:Light"

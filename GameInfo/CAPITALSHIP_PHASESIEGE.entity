@@ -84,10 +84,7 @@ NameStringID "IDS_CAPITALSHIP_PHASESIEGE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PHASESIEGE_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_PHASESIEGE"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE2"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

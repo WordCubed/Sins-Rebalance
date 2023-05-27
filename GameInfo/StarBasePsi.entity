@@ -27,10 +27,10 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 400.000000
-	DamagePerBank:BACK 400.000000
-	DamagePerBank:LEFT 400.000000
-	DamagePerBank:RIGHT 400.000000
+	DamagePerBank:FRONT 325.000000
+	DamagePerBank:BACK 325.000000
+	DamagePerBank:LEFT 325.000000
+	DamagePerBank:RIGHT 325.000000
 	Range 11000.000000
 	PreBuffCooldownTime 20.000000
 	CanFireAtFighter FALSE
@@ -116,10 +116,10 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "LASERPSI"
-	DamagePerBank:FRONT 62.500000
-	DamagePerBank:BACK 62.500000
-	DamagePerBank:LEFT 62.500000
-	DamagePerBank:RIGHT 62.500000
+	DamagePerBank:FRONT 81.250000
+	DamagePerBank:BACK 81.250000
+	DamagePerBank:LEFT 81.250000
+	DamagePerBank:RIGHT 81.250000
 	Range 10000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE

@@ -68,10 +68,10 @@ ringColor ffdafcff
 cloudLayerTextureName "PlanetCloudLayer"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 4
+	totalMaxResourceAsteroids 5
 	metalResourceAsteroidSetup
-		minCount 1
-		maxCount 1
+		minCount 2
+		maxCount 2
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
@@ -105,7 +105,7 @@ planetUpgradeDef
 				crystal 0.000000
 			upgradeTime 0.000000
 			maxPopulation 72.000000
-			populationGrowthRate 0.300000
+			populationGrowthRate 2.000000
 			developmentTaxPenalty -0.360000
 		stage
 			price
@@ -114,7 +114,7 @@ planetUpgradeDef
 				crystal 60.000000
 			upgradeTime 5.000000
 			maxPopulation 96.000000
-			populationGrowthRate 0.400000
+			populationGrowthRate 2.000000
 			developmentTaxPenalty -0.240000
 		stage
 			price
@@ -123,7 +123,7 @@ planetUpgradeDef
 				crystal 120.000000
 			upgradeTime 10.000000
 			maxPopulation 168.000000
-			populationGrowthRate 0.700000
+			populationGrowthRate 2.000000
 			developmentTaxPenalty 0.000000
 		stage
 			price
@@ -132,7 +132,7 @@ planetUpgradeDef
 				crystal 360.000000
 			upgradeTime 30.000000
 			maxPopulation 240.000000
-			populationGrowthRate 1.000000
+			populationGrowthRate 2.000000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
 		stageCount 4
@@ -299,8 +299,8 @@ planetUpgradeDef
 				metal 360.000000
 				crystal 720.000000
 			upgradeTime 30.000000
-			maxPopulation 50.000000
-			populationGrowthRate 0.208333
+			maxPopulation 120.000000
+			populationGrowthRate 2.000000
 			tradeIncomeModifier -0.500000
 			shipBuildRateModifier -0.500000
 			cultureSpreadRateModifier 0.500000
@@ -322,7 +322,7 @@ planetUpgradeDef
 				metal 360.000000
 				crystal 720.000000
 			upgradeTime 30.000000
-			maxPopulation -50.000000
+			maxPopulation -120.000000
 			tradeIncomeModifier 1.000000
 			shipBuildRateModifier 0.500000
 			cultureSpreadRateModifier -0.500000
@@ -379,8 +379,8 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 32400.000000
-	metalOnStrippedToTheCore 3600.000000
+	creditsOnStrippedToTheCore 20160.000000
+	metalOnStrippedToTheCore 7200.000000
 	crystalOnStrippedToTheCore 10800.000000
 	extraScuttleTimeOnStrip 5.000000
 dlcId 204880

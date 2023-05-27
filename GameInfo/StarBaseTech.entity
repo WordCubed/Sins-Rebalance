@@ -27,10 +27,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 40.625000
-	DamagePerBank:BACK 40.625000
-	DamagePerBank:LEFT 40.625000
-	DamagePerBank:RIGHT 40.625000
+	DamagePerBank:FRONT 81.250000
+	DamagePerBank:BACK 81.250000
+	DamagePerBank:LEFT 81.250000
+	DamagePerBank:RIGHT 81.250000
 	Range 166667.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
@@ -111,10 +111,10 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 487.500000
-	DamagePerBank:BACK 487.500000
-	DamagePerBank:LEFT 487.500000
-	DamagePerBank:RIGHT 487.500000
+	DamagePerBank:FRONT 325.000000
+	DamagePerBank:BACK 325.000000
+	DamagePerBank:LEFT 325.000000
+	DamagePerBank:RIGHT 325.000000
 	Range 166667.000000
 	PreBuffCooldownTime 20.000000
 	CanFireAtFighter FALSE

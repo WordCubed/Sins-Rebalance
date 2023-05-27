@@ -80,10 +80,7 @@ NameStringID "IDS_CAPITALSHIP_PSISPECIALCOMBAT_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PSISPECIALCOMBATLOYALIST_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_PSIBATTLESHIP2"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_MAXCAPITALSHIPSPSI1"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
@@ -106,10 +103,10 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 1250.000000
-	DamagePerBank:BACK 1250.000000
-	DamagePerBank:LEFT 1250.000000
-	DamagePerBank:RIGHT 1250.000000
+	DamagePerBank:FRONT 1500.000000
+	DamagePerBank:BACK 1500.000000
+	DamagePerBank:LEFT 1500.000000
+	DamagePerBank:RIGHT 1500.000000
 	Range 6000.000000
 	PreBuffCooldownTime 20.000000
 	CanFireAtFighter FALSE
@@ -192,12 +189,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERPSI"
-	DamagePerBank:FRONT 120.000000
-	DamagePerBank:BACK 120.000000
-	DamagePerBank:LEFT 120.000000
-	DamagePerBank:RIGHT 120.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 6000.000000
-	PreBuffCooldownTime 6.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.200000

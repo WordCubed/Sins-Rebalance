@@ -41,7 +41,7 @@ researchModifier
 researchModifier
 	modifierType "AllegianceFromCultureMaxPerc"
 	baseValue 0.000000
-	perLevelValue 0.025000
+	perLevelValue 0.033334
 researchModifier
 	modifierType "CultureAntimatterRegenAmount"
 	baseValue 0.000000

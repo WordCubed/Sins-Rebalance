@@ -8,7 +8,7 @@ NameStringID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONTECH_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONTECH_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 2 ]
+	pos [ 2 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0

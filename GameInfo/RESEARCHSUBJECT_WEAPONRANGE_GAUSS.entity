@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "WeaponRangeAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.166667
 	linkedWeaponClass "GAUSS"
 artifactPicture ""
 uniqueOverlayBrush ""

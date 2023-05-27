@@ -80,10 +80,7 @@ NameStringID "IDS_CAPITALSHIP_PSIBATTLEPSIONIC_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PSIBATTLEPSIONIC_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_PSIBATTLEPSIONIC"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_MAXCAPITALSHIPSPSI0"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

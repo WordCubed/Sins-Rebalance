@@ -80,10 +80,7 @@ NameStringID "IDS_CAPITALSHIP_TECHSIEGE_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_TECHSIEGE_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_TECHSIEGE"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_MAXCAPITALSHIPSTECH2"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
