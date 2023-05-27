@@ -1,0 +1,355 @@
+TXT2
+SinsArchiveVersion 194
+entityType "Planet"
+meshInfoCount 1
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_SHIP_GRAVEYARD"
+	asteroidTemplate "Graveyard"
+	dustCloudTemplate "PuffyDense"
+	meshName "Outpost"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "MAINVIEWICON_PLANET_SHIP_GRAVEYARD"
+	smallHudIcon "HUDICONSMALL_PLANET_SHIP_GRAVEYARD"
+	infoCardIcon "INFOCARDICON_PLANET_SHIP_GRAVEYARD"
+	mainViewIcon "MAINVIEWICON_PLANET_SHIP_GRAVEYARD"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_SHIP_GRAVEYARD"
+	picture "PICTURE_PLANET_SHIP_GRAVEYARD"
+	shouldPrefer FALSE
+minZoomDistanceMult 3.200000
+glowColor 0
+ringColor 0
+cloudLayerTextureName ""
+planetResourceSetupInfo
+	asteroidSpawnAngleVariance 3.141593
+	totalMaxResourceAsteroids 6
+	metalResourceAsteroidSetup
+		minCount 4
+		maxCount 4
+		extractionRate 0.500000
+		refineryRate 0.083333
+		maxRefineryCount 3
+	crystalResourceAsteroidSetup
+		minCount 2
+		maxCount 2
+		extractionRate 0.500000
+		refineryRate 0.083333
+		maxRefineryCount 3
+	neutralMetalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.500000
+		refineryRate 0.083333
+		maxRefineryCount 3
+	neutralCrystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.500000
+		refineryRate 0.083333
+		maxRefineryCount 3
+isAsteroid TRUE
+healthRegenRate 25.000000
+planetUpgradeDef
+	path:Population
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 6.000000
+			populationGrowthRate 0.025000
+			developmentTaxPenalty -0.300000
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 5.000000
+			maxPopulation 8.000000
+			populationGrowthRate 0.050000
+			developmentTaxPenalty -0.200000
+		stage
+			price
+				credits 80.000000
+				metal 160.000000
+				crystal 120.000000
+			upgradeTime 10.000000
+			maxPopulation 14.000000
+			populationGrowthRate 0.058333
+			developmentTaxPenalty 0.000000
+		stage
+			price
+				credits 240.000000
+				metal 480.000000
+				crystal 360.000000
+			upgradeTime 30.000000
+			maxPopulation 20.000000
+			populationGrowthRate 0.083333
+			developmentTaxPenalty 0.000000
+	path:CivilianModules
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 3.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 5.000000
+			maxModuleSlotCount:Civilian 6.000000
+			maxModuleConstructorCount 2
+		stage
+			price
+				credits 80.000000
+				metal 160.000000
+				crystal 120.000000
+			upgradeTime 10.000000
+			maxModuleSlotCount:Civilian 12.000000
+			maxModuleConstructorCount 3
+		stage
+			price
+				credits 240.000000
+				metal 480.000000
+				crystal 360.000000
+			upgradeTime 30.000000
+			maxModuleSlotCount:Civilian 18.000000
+			maxModuleConstructorCount 4
+	path:TacticalModules
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 16.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 5.000000
+			maxModuleSlotCount:Tactical 22.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 80.000000
+				metal 160.000000
+				crystal 120.000000
+			upgradeTime 10.000000
+			maxModuleSlotCount:Tactical 34.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 240.000000
+				metal 480.000000
+				crystal 360.000000
+			upgradeTime 30.000000
+			maxModuleSlotCount:Tactical 48.000000
+			maxModuleConstructorCount 0
+	path:Home
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+		stage
+			price
+				credits 360.000000
+				metal 360.000000
+				crystal 720.000000
+			upgradeTime 30.000000
+			isHomePlanet TRUE
+			homePlanetTaxRateBonus 10.000000
+			homePlanetMetalIncomeBonus 3.000000
+			homePlanetCrystalIncomeBonus 3.000000
+	path:ArtifactLevel
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+		stage
+			price
+				credits 20.000000
+				metal 80.000000
+				crystal 30.000000
+			upgradeTime 5.000000
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 5.000000
+		stage
+			price
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 30.000000
+	path:Infrastructure
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 2500.000000
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 5.000000
+			maxHealth 3200.000000
+		stage
+			price
+				credits 80.000000
+				metal 160.000000
+				crystal 120.000000
+			upgradeTime 10.000000
+			maxHealth 4600.000000
+		stage
+			price
+				credits 240.000000
+				metal 480.000000
+				crystal 360.000000
+			upgradeTime 30.000000
+			maxHealth 6000.000000
+	path:Social
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+		stage
+			price
+				credits 360.000000
+				metal 360.000000
+				crystal 720.000000
+			upgradeTime 30.000000
+			maxPopulation 5.000000
+			populationGrowthRate 0.020833
+			tradeIncomeModifier -0.500000
+			shipBuildRateModifier -0.500000
+			cultureSpreadRateModifier 0.500000
+	path:Industry
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+		stage
+			price
+				credits 360.000000
+				metal 360.000000
+				crystal 720.000000
+			upgradeTime 30.000000
+			maxPopulation -5.000000
+			tradeIncomeModifier 1.000000
+			shipBuildRateModifier 0.500000
+			cultureSpreadRateModifier -0.500000
+	path:Smuggler
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+		stage
+			price
+				credits 360.000000
+				metal 360.000000
+				crystal 720.000000
+			upgradeTime 30.000000
+			corruptionPercent 0.750000
+			smugglingPercent 0.025000
+ringsChance 0.000000
+isColonizable TRUE
+planetTypeForResearch "Iron"
+skyboxScalarsCount 5
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+requiredPlanetBonusesCount 2
+bonus "PlanetBonusHarsh"
+bonus "PlanetBonusPlanetoid"
+possibleRandomPlanetBonusesCount 4
+bonus "PlanetBonusAncientTradeRoutes"
+bonus "PlanetBonusCalmInTheStorm"
+bonus "PlanetBonusDepletedMines"
+bonus "PlanetBonusSlums"
+ambienceSoundID ""
+renderAsVolcanic FALSE
+planetRuinDef
+	ruinPlanetType "PlanetDeadAsteroid"
+	attachType "Center"
+	effectName "StripToTheCore_Planet_Asteroid"
+	startTime 10.000000
+	soundID "EFFECT_STRIPPEDTOTHECORE"
+	creditsOnStrippedToTheCore 16200.000000
+	metalOnStrippedToTheCore 14400.000000
+	crystalOnStrippedToTheCore 7200.000000
+	extraScuttleTimeOnStrip 5.000000
+dlcId 255910
+ShieldMeshName "Shield_PlanetSmall"
+renderShield TRUE
+moveAreaRadius 12000.000000
+hyperspaceExitRadius 12000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 1
+maxSpaceMineCountPerPlayer 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

@@ -1,0 +1,85 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 56.000000
+	maxFleetPoints 56.000000
+	requiredShipCount 4
+	requiredShip
+		type "FrigatePhaseLongRange"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigatePhaseAntiFighter"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigatePhaseSiege"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigatePhaseMineLayer"
+		minCount 2
+		maxCount 2
+	randomShipCount 0
+spawnShipsArrivalDelayTime 3.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 6720.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+metalCost
+	Level:0 1344.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+crystalCost
+	Level:0 672.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+requiredShipSlots
+	Level:0 40.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 80.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_FLEETBEACON_NAME"
+descStringID "IDS_ABILITY_FLEETBEACON_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_FLEETBEACON"
+smallHudIcon "HUDICON_ABILITY_FLEETBEACON"
+infoCardIcon ""

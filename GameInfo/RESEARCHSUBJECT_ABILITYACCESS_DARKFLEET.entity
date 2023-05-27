@@ -1,0 +1,39 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 7 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_4"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 2400.000000
+	metal 300.000000
+	crystal 600.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

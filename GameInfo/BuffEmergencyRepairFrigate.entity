@@ -1,0 +1,68 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_LastStandActivate"
+		mediumEffectName "Ability_LastStandActivate"
+		largeEffectName "Ability_LastStandActivate"
+		soundID "EFFECT_REPAIR_TECH"
+instantAction
+	buffInstantActionType "RestoreHullPoints"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	hull
+		Level:0 500.000000
+		Level:1 750.000000
+		Level:2 1000.000000
+		Level:3 0.000000
+instantAction
+	buffInstantActionType "RestoreShieldPoints"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	shields
+		Level:0 250.000000
+		Level:1 375.000000
+		Level:2 500.000000
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "MaxHullPoints"
+	value
+		Level:0 -250.000000
+		Level:1 -375.000000
+		Level:2 -500.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "MaxShieldPoints"
+	value
+		Level:0 -125.000000
+		Level:1 -187.000000
+		Level:2 -250.000000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

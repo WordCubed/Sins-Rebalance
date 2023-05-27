@@ -1,0 +1,50 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnHyperspaceExit"
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 160.000000
+		maxFleetPoints 160.000000
+		requiredShipCount 0
+		randomShipCount 5
+		randomShip
+			type "FrigatePhaseHeavy"
+			weight 4
+		randomShip
+			type "FrigatePhaseCarrier"
+			weight 4
+		randomShip
+			type "FrigatePhaseUtility0"
+			weight 4
+		randomShip
+			type "FrigatePhaseUtility1"
+			weight 4
+		randomShip
+			type "FrigatePhaseMineLayer"
+			weight 4
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
+instantAction
+	buffInstantActionType "GiveExperience"
+	instantActionTriggerType "OnDelay"
+	delayTime 10.000000
+	experienceToGive 6000.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 0

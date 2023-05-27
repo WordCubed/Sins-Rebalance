@@ -1,0 +1,56 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "CreateSquad"
+instantActionTriggerType "AlwaysPerform"
+squadType "SquadPhaseBomber"
+numSquads
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 3.000000
+	Level:3 3.000000
+expiryTime
+	Level:0 45.000000
+	Level:1 45.000000
+	Level:2 45.000000
+	Level:3 45.000000
+spawnSquadSoundID "EFFECT_DEPLOYCOMBATTURRET"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 2.000000
+	Level:1 5.000000
+	Level:2 8.000000
+	Level:3 8.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 90.000000
+	Level:3 90.000000
+cooldownTime
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 90.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SPAWNSQUAD_NAME"
+descStringID "IDS_ABILITY_SPAWNSQUAD_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SPAWNSQUAD"
+smallHudIcon "HUDICON_ABILITY_SPAWNSQUAD"
+infoCardIcon ""

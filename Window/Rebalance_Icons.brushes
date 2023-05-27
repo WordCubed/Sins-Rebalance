@@ -1,0 +1,382 @@
+TXT2
+SinsArchiveVersion 194
+onlyLoadOnDemand FALSE
+brushCount 21
+brush
+	name "HUDICON_Custom_SuperLaser1"
+	content "States"
+	Disabled
+		fileName "Buttons_Research2_Disabled"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research2_Pressed"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research2_CursorOver"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research2_Normal"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research2_Normal"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+brush
+	name "HUDICON_Custom_SuperLaser2"
+	content "States"
+	Disabled
+		fileName "Buttons_Research2_Disabled"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research2_Pressed"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research2_CursorOver"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research2_Normal"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research2_Normal"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_GREENHOUSE_0"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 209 , 68 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 209 , 68 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 209 , 68 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 209 , 68 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 209 , 68 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_GREENHOUSE_1"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 260 , 31 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 260 , 31 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 260 , 31 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 260 , 31 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 260 , 31 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_DEFENSIVENANITES"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 158 , 882 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 158 , 882 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 158 , 882 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 158 , 882 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 158 , 882 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_HULLNANITES"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 364 , 697 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 364 , 697 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 364 , 697 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 364 , 697 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 364 , 697 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_CARGOSHIPCAPACITY2"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 668 , 179 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 668 , 179 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 668 , 179 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 668 , 179 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 668 , 179 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAPICETECH1"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 209 , 105 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 209 , 105 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 209 , 105 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 209 , 105 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 209 , 105 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_SUPERLASER0"
+	content "States"
+	Disabled
+		fileName "Buttons_Research2_Disabled"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research2_Pressed"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research2_CursorOver"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research2_Normal"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research2_Normal"
+		pixelBox [ 160 , 448 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_SUPERLASER1"
+	content "States"
+	Disabled
+		fileName "Buttons_Research2_Disabled"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research2_Pressed"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research2_CursorOver"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research2_Normal"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research2_Normal"
+		pixelBox [ 211 , 448 , 47 , 33 ]
+brush
+	name "HUDICON_PLANETBONUS_JEWELOFTHEGALAXY"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 52 , 75 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 52 , 75 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 52 , 75 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 52 , 75 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 52 , 75 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_ABUNDANCE"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 75 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 75 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 75 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 75 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 75 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_CRATER"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 99 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 99 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 99 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 99 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 99 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_CALM"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 77 , 3 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 77 , 3 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 77 , 3 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 77 , 3 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 77 , 3 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_TORNADO"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 27 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 27 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 27 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 27 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 27 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_CLOUDS"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 171 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 171 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 171 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 171 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 171 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_SPOTLIGHT"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 51 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 51 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 51 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 51 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 127 , 51 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_FACTORIES"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 99 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 99 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 99 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 99 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 99 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_FORESTS"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 3 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 3 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 3 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 3 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 2 , 3 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_CYCLONE"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 27 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 27 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 27 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 27 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 102 , 27 , 22 , 22 ]
+brush
+	name "HUDICON_PLANETBONUS_VIOLETFIRE"
+	content "States"
+	Disabled
+		fileName "PlanetBonuses"
+		pixelBox [ 27 , 195 , 22 , 22 ]
+	Pressed
+		fileName "PlanetBonuses"
+		pixelBox [ 27 , 195 , 22 , 22 ]
+	CursorOver
+		fileName "PlanetBonuses"
+		pixelBox [ 27 , 195 , 22 , 22 ]
+	Focused
+		fileName "PlanetBonuses"
+		pixelBox [ 27 , 195 , 22 , 22 ]
+	Normal
+		fileName "PlanetBonuses"
+		pixelBox [ 27 , 195 , 22 , 22 ]

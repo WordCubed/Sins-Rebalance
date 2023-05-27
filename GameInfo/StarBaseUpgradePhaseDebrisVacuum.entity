@@ -1,0 +1,77 @@
+TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEDEBRISVACUUM_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEDEBRISVACUUM_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
+	smallHudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 200.000000
+		crystal 100.000000
+	upgradeTime 10.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEDEBRISVACUUM_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEDEBRISVACUUM_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_DEBRISVACUUM"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
+	smallHudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum0"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 120.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 1.000000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 200.000000
+		crystal 100.000000
+	upgradeTime 10.000000
+	nameStringID "IDS_STARBASEUPGRADEPHASEDEBRISVACUUM_NAME"
+	descStringID "IDS_STARBASEUPGRADEPHASEDEBRISVACUUM_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum1"
+	smallHudIcon "HUDIconStarBaseUpgradePhaseDebrisVacuum1"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 120.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 1.000000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+xpModifier 1000.000000

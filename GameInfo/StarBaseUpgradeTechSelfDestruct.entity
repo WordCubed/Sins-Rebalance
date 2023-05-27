@@ -1,0 +1,65 @@
+TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADETECHSELFDESTRUCT_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHSELFDESTRUCT_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechSelfDestruct0"
+	smallHudIcon "HUDIconStarBaseUpgradeTechSelfDestruct0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 200.000000
+		crystal 100.000000
+	upgradeTime 10.000000
+	nameStringID "IDS_STARBASEUPGRADETECHSELFDESTRUCT_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHSELFDESTRUCT_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_SELFDESTRUCT"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechSelfDestruct0"
+	smallHudIcon "HUDIconStarBaseUpgradeTechSelfDestruct0"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 200.000000
+		crystal 100.000000
+	upgradeTime 10.000000
+	nameStringID "IDS_STARBASEUPGRADETECHSELFDESTRUCT_NAME"
+	descStringID "IDS_STARBASEUPGRADETECHSELFDESTRUCT_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechSelfDestruct1"
+	smallHudIcon "HUDIconStarBaseUpgradeTechSelfDestruct1"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+xpModifier 1000.000000

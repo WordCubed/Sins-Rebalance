@@ -1,0 +1,44 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_ABILITY_MISSILEBARRAGE"
+smallHudIcon "HUDICON_ABILITY_MISSILEBARRAGE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_MISSILETECH4_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_MISSILETECH4_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 6 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_WEAPONDAMAGE_MISSILETECH3"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 80.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 1600.000000
+	metal 200.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "MISSILE"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

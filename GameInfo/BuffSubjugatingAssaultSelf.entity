@@ -1,0 +1,81 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "TitanAbility_Psi_SubjugatingAssault"
+		mediumEffectName "TitanAbility_Psi_SubjugatingAssault"
+		largeEffectName "TitanAbility_Psi_SubjugatingAssault"
+		soundID "EFFECT_SUBJUGATION"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 3
+	weaponClassForWeaponPassive "POINTDEFENSELASER"
+	weaponClassForWeaponPassive "PLASMA"
+	weaponClassForWeaponPassive "SPIRITBLADE"
+	passiveWeaponEffectChance
+		Level:0 0.055556
+		Level:1 0.111111
+		Level:2 0.166667
+		Level:3 0.000000
+	buffType "BuffSubjugatingAssaultSelfTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 2
+		object "Corvette"
+		object "Frigate"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "IsControllable"
+		constraint "NotFlagship"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 3
+	weaponClassForWeaponPassive "POINTDEFENSELASER"
+	weaponClassForWeaponPassive "PLASMA"
+	weaponClassForWeaponPassive "SPIRITBLADE"
+	passiveWeaponEffectChance
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	buffType "BuffSubjugatingAssaultSelfAMDrain"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.833333
+		Level:1 0.166667
+		Level:2 0.250000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AntiMatterDepleted"

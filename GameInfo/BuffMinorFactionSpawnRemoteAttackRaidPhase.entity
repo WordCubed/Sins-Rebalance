@@ -1,0 +1,114 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 3
+	spawnShips
+		minFleetPoints 84.000000
+		maxFleetPoints 84.000000
+		requiredShipCount 6
+		requiredShip
+			type "FrigatePsiLongRange"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiSiege"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiUtility0"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiUtility1"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiCarrier"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiHeavy"
+			minCount 2
+			maxCount 2
+		randomShipCount 0
+	spawnShips
+		minFleetPoints 126.000000
+		maxFleetPoints 84.000000
+		requiredShipCount 6
+		requiredShip
+			type "FrigatePsiLongRange"
+			minCount 3
+			maxCount 3
+		requiredShip
+			type "FrigatePsiSiege"
+			minCount 3
+			maxCount 3
+		requiredShip
+			type "FrigatePsiUtility0"
+			minCount 3
+			maxCount 3
+		requiredShip
+			type "FrigatePsiUtility1"
+			minCount 3
+			maxCount 3
+		requiredShip
+			type "FrigatePsiCarrier"
+			minCount 3
+			maxCount 3
+		requiredShip
+			type "FrigatePsiHeavy"
+			minCount 3
+			maxCount 3
+		randomShipCount 0
+	spawnShips
+		minFleetPoints 168.000000
+		maxFleetPoints 168.000000
+		requiredShipCount 6
+		requiredShip
+			type "FrigatePsiLongRange"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiSiege"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiUtility0"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiUtility1"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiCarrier"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiHeavy"
+			minCount 4
+			maxCount 4
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "MinorFactionAttackRaid"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

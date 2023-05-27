@@ -1,0 +1,47 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_INTER_SPECIES_RELATIONS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_INTER_SPECIES_RELATIONS"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_INTER_SPECIES_RELATIONS_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_INTER_SPECIES_RELATIONS_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 1 , 2 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ENVOY_PROTOTYPE_VASARI"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 15.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 300.000000
+	metal 37.500000
+	crystal 75.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 1
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "RelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.500000
+researchModifier
+	modifierType "SelfRelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.750000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

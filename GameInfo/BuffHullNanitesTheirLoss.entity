@@ -1,0 +1,80 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Buff_SabotageEngines"
+		mediumEffectName "Buff_SabotageEngines"
+		largeEffectName "Buff_SabotageEngines"
+		soundID "EFFECT_DEMOLITIONBOTS"
+instantAction
+	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffHullNanitesOurGain"
+	travelSpeed 1500.000000
+	hasWeaponEffects TRUE
+		weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "Center"
+	canWeaponEffectHitHull FALSE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "CapitalBuff_Null"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_DEMOLITIONBOTSLAUNCH"
+		hitEffectName ""
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		projectileTravelEffectName "Ability_SabotageEnginesTravel"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "MaxHullPoints"
+	value
+		Level:0 -450.000000
+		Level:1 -675.000000
+		Level:2 -900.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "MaxShieldPoints"
+	value
+		Level:0 -450.000000
+		Level:1 -675.000000
+		Level:2 -900.000000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 40.000000
+		Level:1 40.000000
+		Level:2 40.000000
+		Level:3 0.000000

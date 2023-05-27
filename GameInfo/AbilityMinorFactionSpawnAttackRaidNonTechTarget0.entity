@@ -1,0 +1,165 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanetWithTarget"
+instantActionTriggerType "AlwaysPerform"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "IsExplored"
+	constraint "NotIsTech"
+spawnShipsLevelCount 3
+spawnShips
+	minFleetPoints 100.000000
+	maxFleetPoints 100.000000
+	requiredShipCount 7
+	requiredShip
+		type "FrigateTechSiege"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigateTechAntiFighter"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigateTechAntiModule"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigateTechCarrier"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigateTechUtility0"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigateTechUtility1"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigateTechHeavy"
+		minCount 2
+		maxCount 2
+	randomShipCount 0
+spawnShips
+	minFleetPoints 150.000000
+	maxFleetPoints 150.000000
+	requiredShipCount 7
+	requiredShip
+		type "FrigateTechSiege"
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "FrigateTechAntiFighter"
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "FrigateTechAntiModule"
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "FrigateTechCarrier"
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "FrigateTechUtility0"
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "FrigateTechUtility1"
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "FrigateTechHeavy"
+		minCount 3
+		maxCount 3
+	randomShipCount 0
+spawnShips
+	minFleetPoints 200.000000
+	maxFleetPoints 200.000000
+	requiredShipCount 7
+	requiredShip
+		type "FrigateTechSiege"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigateTechAntiFighter"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigateTechAntiModule"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigateTechCarrier"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigateTechUtility0"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigateTechUtility1"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigateTechHeavy"
+		minCount 4
+		maxCount 4
+	randomShipCount 0
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "MinorFactionAttackRaid"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchFloatModifierValue"
+sourceResearchFloatModifierType "MinorFactionAbilityLevel"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 6000.000000
+	Level:1 9000.000000
+	Level:2 12000.000000
+	Level:3 12000.000000
+metalCost
+	Level:0 1200.000000
+	Level:1 1800.000000
+	Level:2 2400.000000
+	Level:3 2400.000000
+crystalCost
+	Level:0 600.000000
+	Level:1 900.000000
+	Level:2 1200.000000
+	Level:3 1200.000000
+cooldownTime
+	Level:0 480.000000
+	Level:1 480.000000
+	Level:2 480.000000
+	Level:3 480.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAIDNONTECHTARGET_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAIDNONTECHTARGET_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNATTACKRAIDNONTECHTARGET0"
+smallHudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNATTACKRAIDNONTECHTARGET0"
+infoCardIcon ""

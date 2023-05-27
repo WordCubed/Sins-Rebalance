@@ -1,0 +1,68 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "TitanAbility_Psi_SuppressionAura_TargetBuff_Small"
+		mediumEffectName "TitanAbility_Psi_SuppressionAura_TargetBuff_Medium"
+		largeEffectName "TitanAbility_Psi_SuppressionAura_TargetBuff_Large"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 4
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 -0.166667
+		Level:1 -0.333333
+		Level:2 -0.500000
+		Level:3 -0.000000
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -0.450000
+		Level:1 -0.675000
+		Level:2 -0.900000
+		Level:3 -0.000000
+entityModifier
+	buffEntityModifierType "AbilityCooldownRate"
+	value
+		Level:0 -0.500000
+		Level:1 -0.750000
+		Level:2 -1.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "AntimatterCostOfNonUltimates"
+	value
+		Level:0 0.500000
+		Level:1 0.750000
+		Level:2 1.000000
+		Level:3 0.000000
+numEntityBoolModifiers 1
+entityBoolModifier "DisableRegeneration"
+numFinishConditions 3
+finishCondition
+	finishConditionType "OutOfRange"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 0.000000
+

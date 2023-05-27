@@ -1,0 +1,47 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_POLITICAL_KICKBACKS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_POLITICAL_KICKBACKS"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_POLITICAL_KICKBACKS_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_POLITICAL_KICKBACKS_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 5 , 3 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_UNIVERSAL_NEGOTIATION"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 1200.000000
+	metal 150.000000
+	crystal 300.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "TemporaryRelationshipFromGiveResourceMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.000000
+researchModifier
+	modifierType "TemporaryRelationshipFromGiveCreditsValueAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.000000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

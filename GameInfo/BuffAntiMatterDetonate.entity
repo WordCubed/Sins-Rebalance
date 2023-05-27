@@ -1,0 +1,84 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 4
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalBuff_AntiMatterDetonate"
+		mediumEffectName "CapitalBuff_AntiMatterDetonate"
+		largeEffectName "CapitalBuff_AntiMatterDetonate"
+		soundID "EFFECT_DETONATEANTIMATTER"
+instantAction
+	buffInstantActionType "DoInterrupt"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "ApplyBuffToSelfWithFilter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffAntiMatterDetonateDisable"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "Frigate"
+		object "CapitalShip"
+		object "Titan"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "BuffAntiHarmonicsAOE"
+	conditionBuffShortName ""
+	buffType "BuffAntiMatterDetonateDouble"
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatterAndDoDamage"
+	drainAntiMatterRate
+		Level:0 16.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	damageRate
+		Level:0 160.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	isDamageShared FALSE
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

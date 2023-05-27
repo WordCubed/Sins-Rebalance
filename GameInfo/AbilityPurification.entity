@@ -1,0 +1,67 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffPurificationSelf"
+targetFilter
+	numOwnerships 1
+	ownership "Player"
+	numObjects 1
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 5000.000000
+	Level:1 7500.000000
+	Level:2 10000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "TitanAbility_Cherubim_Purification_Activate"
+	mediumEffectName "TitanAbility_Cherubim_Purification_Activate"
+	largeEffectName "TitanAbility_Cherubim_Purification_Activate"
+	soundID "EFFECT_PURIFICATION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "HullDamageExceedsAmount"
+onlyAutoCastWhenTargetHullDamageExceedsAmount
+	Level:0 3333.000000
+	Level:1 6667.000000
+	Level:2 10000.000000
+	Level:3 0.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_PURIFICATION_NAME"
+descStringID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PURIFICATION"
+smallHudIcon "HUDICON_ABILITY_PURIFICATION"
+infoCardIcon ""

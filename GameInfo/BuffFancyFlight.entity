@@ -1,0 +1,43 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 6.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_EliteCrews_Buff"
+		mediumEffectName "Ability_EliteCrews_Buff"
+		largeEffectName "Ability_EliteCrews_Buff"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageTarget"
+	value
+		Level:0 -0.333333
+		Level:1 -0.666667
+		Level:2 -1.000000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 7.500000
+		Level:1 7.500000
+		Level:2 7.500000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

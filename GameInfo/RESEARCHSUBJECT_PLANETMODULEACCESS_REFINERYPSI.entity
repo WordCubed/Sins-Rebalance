@@ -1,0 +1,46 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYPSI"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYPSI"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYPSI_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYPSI_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 6 , 4 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_STRUCTUREWORK_METALEXTRACTPSI2"
+		Level 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_MARKETPSI"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 80.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 1600.000000
+	metal 200.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ExtractionRateFromResourceFocus"
+	baseValue 0.000000
+	perLevelValue 0.083334
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

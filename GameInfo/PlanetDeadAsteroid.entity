@@ -1,0 +1,256 @@
+TXT2
+SinsArchiveVersion 194
+entityType "Planet"
+meshInfoCount 5
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_DEADASTEROID"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Sparse"
+	meshName "AsteroidBig00"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_DEADASTEROID0"
+	smallHudIcon "HUDICONSMALL_PLANET_DEADASTEROID0"
+	infoCardIcon "INFOCARDICON_PLANET_DEADASTEROID0"
+	mainViewIcon "MAINVIEWICON_PLANET_DEADASTEROID0"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DEADASTEROID0"
+	picture "PICTURE_PLANET_DEADASTEROID0"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_DEADASTEROID"
+	asteroidTemplate "Sparse"
+	dustCloudTemplate "Sparse"
+	meshName "AsteroidBig01"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_DEADASTEROID1"
+	smallHudIcon "HUDICONSMALL_PLANET_DEADASTEROID1"
+	infoCardIcon "INFOCARDICON_PLANET_DEADASTEROID1"
+	mainViewIcon "MAINVIEWICON_PLANET_DEADASTEROID1"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DEADASTEROID1"
+	picture "PICTURE_PLANET_DEADASTEROID1"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_DEADASTEROID"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "GrittySparse"
+	meshName "AsteroidBig02"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_DEADASTEROID2"
+	smallHudIcon "HUDICONSMALL_PLANET_DEADASTEROID2"
+	infoCardIcon "INFOCARDICON_PLANET_DEADASTEROID2"
+	mainViewIcon "MAINVIEWICON_PLANET_DEADASTEROID2"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DEADASTEROID2"
+	picture "PICTURE_PLANET_DEADASTEROID2"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_DEADASTEROID"
+	asteroidTemplate "Sparse"
+	dustCloudTemplate "Dense"
+	meshName "AsteroidBig03"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_ASTEROID3"
+	smallHudIcon "HUDICONSMALL_PLANET_DEADASTEROID3"
+	infoCardIcon "INFOCARDICON_PLANET_DEADASTEROID3"
+	mainViewIcon "MAINVIEWICON_PLANET_DEADASTEROID3"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DEADASTEROID3"
+	picture "PICTURE_PLANET_DEADASTEROID3"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_DEADASTEROID"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "Empty"
+	meshName "AsteroidBig04"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_DEADASTEROID4"
+	smallHudIcon "HUDICONSMALL_PLANET_DEADASTEROID4"
+	infoCardIcon "INFOCARDICON_PLANET_DEADASTEROID4"
+	mainViewIcon "MAINVIEWICON_PLANET_DEADASTEROID4"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_DEADASTEROID4"
+	picture "PICTURE_PLANET_DEADASTEROID4"
+	shouldPrefer FALSE
+minZoomDistanceMult 2.000000
+glowColor 0
+ringColor 0
+cloudLayerTextureName ""
+planetResourceSetupInfo
+	asteroidSpawnAngleVariance 3.141593
+	totalMaxResourceAsteroids 0
+	metalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	crystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	neutralMetalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	neutralCrystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+isAsteroid TRUE
+healthRegenRate 25.000000
+planetUpgradeDef
+	path:Population
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			developmentTaxPenalty 0.000000
+	path:CivilianModules
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 0.000000
+			maxModuleConstructorCount 0
+	path:TacticalModules
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 0.000000
+			maxModuleConstructorCount 0
+	path:Home
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+	path:ArtifactLevel
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+	path:Infrastructure
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 0.000000
+	path:Social
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Industry
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Smuggler
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+ringsChance 0.000000
+isColonizable FALSE
+planetTypeForResearch "Uncolonizable"
+skyboxScalarsCount 5
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+requiredPlanetBonusesCount 0
+possibleRandomPlanetBonusesCount 0
+ambienceSoundID ""
+renderAsVolcanic FALSE
+planetRuinDef
+	ruinPlanetType ""
+	attachType "Center"
+	effectName ""
+	startTime 0.000000
+	soundID ""
+	creditsOnStrippedToTheCore 0.000000
+	metalOnStrippedToTheCore 0.000000
+	crystalOnStrippedToTheCore 0.000000
+	extraScuttleTimeOnStrip 0.000000
+dlcId 204880
+ShieldMeshName ""
+renderShield TRUE
+moveAreaRadius 12000.000000
+hyperspaceExitRadius 12000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 0
+maxSpaceMineCountPerPlayer 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

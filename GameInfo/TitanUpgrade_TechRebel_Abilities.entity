@@ -1,0 +1,61 @@
+TXT2
+SinsArchiveVersion 194
+entityType "TitanUpgrade"
+stageCount 3
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDIconTitanTechRebelAbilityUpgrade0"
+	smallHudIcon "HUDIconTitanTechRebelAbilityUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 8
+	hudIcon "HUDIconTitanTechRebelAbilityUpgrade0"
+	smallHudIcon "HUDIconTitanTechRebelAbilityUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 80.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 0.200000
+	upgradeProperty
+		propertyType "AbilityCooldownRate"
+		value 0.166667
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 9
+	hudIcon "HUDIconTitanTechRebelAbilityUpgrade1"
+	smallHudIcon "HUDIconTitanTechRebelAbilityUpgrade1"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 160.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 0.400000
+	upgradeProperty
+		propertyType "AbilityCooldownRate"
+		value 0.333333
+	upgradeBoolPropertyCount 0

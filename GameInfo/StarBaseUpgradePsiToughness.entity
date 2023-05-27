@@ -1,0 +1,110 @@
+TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPSITOUGHNESS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSITOUGHNESS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiToughness0"
+	smallHudIcon "HUDIconStarBaseUpgradePsiToughness0"
+	infoCardIcon ""
+	upgradePropertyCount 6
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 10000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 31.250000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 20000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 83.333333
+	upgradeProperty
+		propertyType "MaxShieldMitigation"
+		value 0.700000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 20.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 200.000000
+		crystal 100.000000
+	upgradeTime 10.000000
+	nameStringID "IDS_STARBASEUPGRADEPSITOUGHNESS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSITOUGHNESS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiToughness0"
+	smallHudIcon "HUDIconStarBaseUpgradePsiToughness0"
+	infoCardIcon ""
+	upgradePropertyCount 6
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 12500.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 39.062500
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 25000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 104.166667
+	upgradeProperty
+		propertyType "MaxShieldMitigation"
+		value 0.700000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 20.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 200.000000
+		crystal 100.000000
+	upgradeTime 10.000000
+	nameStringID "IDS_STARBASEUPGRADEPSITOUGHNESS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSITOUGHNESS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiToughness1"
+	smallHudIcon "HUDIconStarBaseUpgradePsiToughness1"
+	infoCardIcon ""
+	upgradePropertyCount 6
+	upgradeProperty
+		propertyType "MaxHullPoints"
+		value 15000.000000
+	upgradeProperty
+		propertyType "HullPointRestoreRate"
+		value 46.875000
+	upgradeProperty
+		propertyType "MaxShieldPoints"
+		value 30000.000000
+	upgradeProperty
+		propertyType "ShieldPointRestoreRate"
+		value 125.000000
+	upgradeProperty
+		propertyType "MaxShieldMitigation"
+		value 0.700000
+	upgradeProperty
+		propertyType "BaseArmorPoints"
+		value 20.000000
+	upgradeBoolPropertyCount 0
+xpModifier 200.000000

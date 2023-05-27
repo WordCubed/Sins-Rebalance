@@ -1,0 +1,81 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 6.000000
+	maxFleetPoints 6.000000
+	requiredShipCount 3
+	requiredShip
+		type "FrigatePhaseScout"
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "FrigatePhaseStarBaseConstructor"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigatePhaseEnvoy"
+		minCount 1
+		maxCount 1
+	randomShipCount 0
+spawnShipsArrivalDelayTime 3.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 720.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+metalCost
+	Level:0 144.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+crystalCost
+	Level:0 72.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+requiredShipSlots
+	Level:0 6.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 34.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DARKSUPPORTFLEET_NAME"
+descStringID "IDS_ABILITY_DARKSUPPORTFLEET_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DARKSUPPORTFLEET"
+smallHudIcon "HUDICON_ABILITY_DARKSUPPORTFLEET"
+infoCardIcon ""

@@ -1,0 +1,92 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanetWithTarget"
+instantActionTriggerType "AlwaysPerform"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "IsExplored"
+spawnShipsLevelCount 3
+spawnShips
+	minFleetPoints 32.000000
+	maxFleetPoints 32.000000
+	requiredShipCount 1
+	requiredShip
+		type "FrigateTechSiege"
+		minCount 8
+		maxCount 8
+	randomShipCount 0
+spawnShips
+	minFleetPoints 48.000000
+	maxFleetPoints 48.000000
+	requiredShipCount 1
+	requiredShip
+		type "FrigateTechSiege"
+		minCount 12
+		maxCount 12
+	randomShipCount 0
+spawnShips
+	minFleetPoints 64.000000
+	maxFleetPoints 64.000000
+	requiredShipCount 1
+	requiredShip
+		type "FrigateTechSiege"
+		minCount 16
+		maxCount 16
+	randomShipCount 0
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "MinorFactionSiegeRaid"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchFloatModifierValue"
+sourceResearchFloatModifierType "MinorFactionAbilityLevel"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 3000.000000
+	Level:1 4500.000000
+	Level:2 6000.000000
+	Level:3 6000.000000
+metalCost
+	Level:0 600.000000
+	Level:1 900.000000
+	Level:2 1200.000000
+	Level:3 1200.000000
+crystalCost
+	Level:0 300.000000
+	Level:1 450.000000
+	Level:2 600.000000
+	Level:3 600.000000
+cooldownTime
+	Level:0 480.000000
+	Level:1 480.000000
+	Level:2 480.000000
+	Level:3 480.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MINORFACTIONSPAWNSIEGERAID_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONSPAWNSIEGERAID_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNSIEGERAIDTECH"
+smallHudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNSIEGERAIDTECH"
+infoCardIcon ""

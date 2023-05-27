@@ -1,0 +1,1424 @@
+##############
+#Effects List#
+##############
+###Vasari
+#PulseGun (light)
+#PulseGun (medium)
+#PulseGun (heavy)
+#FlashBeam (fighter)
+#FlashBeam (light)
+#FlashBeam (medium)
+#FlashBeam (heavy)
+#FlashBeam (titan)
+#PhaseMissile (light)
+#PhaseMissile (medium)
+#PhaseMissile (heavy)
+#PhaseMissile (starbase)
+#PhaseCannon (titan)
+#Wave (light)
+#Wave (medium)
+#Wave (heavy)
+#Wave (titan)
+#ChaosBolt (starbase)
+###TEC
+#Autocannon (fighter light)
+#Autocannon (capital light)
+#Autocannon (medium)
+#Autocannon (heavy)
+#Autocannon (titan)
+#LaserTech (light)
+#LaserTech (medium)
+#LaserTech (capital)
+#LaserTech (starbase)
+#Missile (frigate light)
+#Missile (capital light)
+#Missile (frigate heavy)
+#Missile (capital heavy)
+#Flak (titan)
+#BeamTech (heavy)
+#BeamTech (titan)
+#BeamTech (starbase)
+#Gauss (titan)
+###Advent
+#PointDefense (medium)
+#PointDefense (heavy)
+#LaserPsi (fighter light)
+#LaserPsi (frigate light)
+#LaserPsi (medium)
+#LaserPsi (heavy)
+#LaserPsi (titan)
+#Plasma (frigate light)
+#Plasma (capital light)
+#Plasma (medium)
+#Plasma (heavy)
+#Plasma (titan)
+#BeamPsi (fighter light)
+#BeamPsi (medium)
+#BeamPsi (heavy)
+#BeamPsi (titan)
+#SpiritBlade (heavy)
+
+#################
+#Weapon Effects #
+#################
+##Vasari
+#PulseGun (light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalPulseGunLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalPulseGunLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseCapitalPulseGunLight_Travel"
+#PulseGun (medium)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_GreaterNanitePulseGun_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalPulseGunMedium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GreaterNanitePulseGun_Travel"
+#PulseGun (heavy)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalPulseGunHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalPulseGunHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseCapitalPulseGunHeavy_Travel"
+#FlashBeam (fighter)
+#duration 0.166667
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamFighter_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMLIGHT_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMLIGHT_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+		beamWidth 25.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#FlashBeam (fighter)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamFighter_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMLIGHT_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMLIGHT_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+		beamWidth 10.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#FlashBeam (light)
+#duration 0.200000
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMLIGHT_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMLIGHT_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+		beamWidth 50.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#FlashBeam (medium)
+#duration 0.250000
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 2
+		burstDelay 1.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamMedium_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamMedium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMMEDIUM_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMMEDIUM_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Medium"
+		beamWidth 100.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#FlashBeam (heavy)
+#duration 0.333333
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 3
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+		beamWidth 200.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#FlashBeam (titan)
+#duration 0.500000
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 3
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+		beamWidth 400.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#PhaseMissile (light)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILELIGHT_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILELIGHT_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileFrigate_Travel"
+		missileStartTurningDistance 10.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 1.000000
+#PhaseMissile (medium)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileMedium_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileMedium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileMedium_Travel"
+		missileStartTurningDistance 100.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 6.000000
+#PhaseMissile (heavy)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileHeavy_Travel"
+		missileStartTurningDistance 100.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 3.000000
+#PhaseMissile (capital heavy)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileCapShip_Travel"
+		missileStartTurningDistance 100.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 3.000000
+#PhaseMissile (starbase)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileStarbase_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileStarbase_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileStarbase_Travel"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 2.708997
+		missileMaxSlowTurnTime 6.000000
+#PhaseCannon (titan)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.200000
+		muzzleEffectName "Weapon_PhaseCannon_Muzzle"
+		muzzleSoundMinRespawnTime 0.050000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECANNON_MUZZLE"
+			sound "WEAPON_PHASECANNON_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCannon_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseCannon_Travel"
+#Wave (light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalWaveLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALWAVELIGHT_MUZZLE"
+			sound "WEAPON_PHASECAPITALWAVELIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseWaveCannon_CapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseWaveCannon_Frigate_Travel"
+#Wave (medium)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalWaveMedium_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseWaveCannon_Frigate_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseWaveCannon_Frigate_Travel"
+#Wave (heavy)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalWaveHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALWAVEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALWAVEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseWaveCannon_CapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseWaveCannon_CapShip_Travel"
+#Wave (titan)
+	PointStaggerDelay 0.250000
+	TravelSpeed 3600.000000
+	Duration 0.000000
+...
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.050000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PulseWave_Titan_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PULSEWAVE_MUZZLE"
+			sound "WEAPON_PULSEWAVE_MUZZLE_ALT1"
+		hitEffectName "Weapon_PulseWave_Titan_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PulseWave_Titan_Travel"
+#ChaosBolt (starbase)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 10
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseStarBaseChaosBolt_Muzzle"
+		muzzleSoundMinRespawnTime 0.300000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALCHAOSBOLT_MUZZLE_ALT1"
+			sound "WEAPON_PHASECAPITALCHAOSBOLT_MUZZLE"
+		hitEffectName "Weapon_PhaseStarBaseChaosBolt_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseStarBaseChaosBolt_Travel"
+##TEC
+#Autocannon (fighter light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_AutoCannonFighter_Muzzle"
+		muzzleSoundMinRespawnTime 10.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_AutoCannonFighter_Travel"
+#Autocannon (capital light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 8
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalAutoCannonLight_Muzzle"
+		muzzleSoundMinRespawnTime 10.000000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_TechCapitalAutoCannonLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_TechCapitalAutoCannonLight_Travel"
+#Autocannon (medium)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 6
+		burstDelay 0.120000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_AutoCannonCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 10.000000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_AutoCannonCapShip_Travel"
+#Autocannon (heavy)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 15
+		burstDelay 0.060000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_TechCapitalAutoCannonHeavy_Travel"
+#Autocannon (titan)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 8
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_AutoCannonTitan_Muzzle"
+		muzzleSoundMinRespawnTime 10.000000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_AutoCannonTitan_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_AutoCannonTitan_Travel"
+#LaserTech (light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_FrigateLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.400000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE"
+			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_FrigateLaser_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_FrigateLaser_Travel"
+#LaserTech (medium)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.400000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalLaserMedium_Muzzle"
+		muzzleSoundMinRespawnTime 0.300000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_TechCapitalLaserMedium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_TechCapitalLaserMedium_Travel"
+#LaserTech (capital)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_CapitalLaser_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_CapitalLaser_Travel"
+#LaserTech (starbase)
+		WeaponEffects
+		weaponType "Projectile"
+		burstCount 5
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_StarbaseLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.300000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALFIREBALLHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_StarbaseLaser_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_StarbaseLaser_Travel"
+#BeamTech (medium)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_CapitalBeam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Tech_CapitalBeam_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECHCAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "TechCapitalBeam_Glow"
+		beamCoreTextureName "TechCapitalBeam_Core"
+		beamWidth 50.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#BeamTech (heavy)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_CapitalBeam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Tech_CapitalBeam_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECHCAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "TechCapitalBeam_Glow"
+		beamCoreTextureName "TechCapitalBeam_Core"
+		beamWidth 100.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#BeamTech (titan)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_TitanBeam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Tech_TitanBeam_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECHSTARBASEBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "TechStarBaseBeam_Glow"
+		beamCoreTextureName "TechStarBaseBeam_Core"
+		beamWidth 200.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+#BeamTech (starbase)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_StarbaseBeam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Tech_StarbaseBeam_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECHSTARBASEBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "TechStarBaseBeam_Glow"
+		beamCoreTextureName "TechStarBaseBeam_Core"
+		beamWidth 200.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+#Missile (frigate light)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALMISSILELIGHT_MUZZLE"
+			sound "WEAPON_TECHCAPITALMISSILELIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+		missileStartTurningDistance 100.000000
+		missileSlowTurnRate 1.208997
+		missileMaxSlowTurnTime 6.000000
+#Missile (capital light)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALMISSILELIGHT_MUZZLE"
+			sound "WEAPON_TECHCAPITALMISSILELIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+		missileStartTurningDistance 100.000000
+		missileSlowTurnRate 1.208997
+		missileMaxSlowTurnTime 6.000000
+#Missile (frigate heavy)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_MissileFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_MissileFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 1.208997
+		missileMaxSlowTurnTime 6.000000
+#Missile (capital heavy)
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+...
+	PointStaggerDelay 0.080000
+...
+	Duration 0.000000
+...
+		WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 1.208997
+		missileMaxSlowTurnTime 6.000000
+#Flak (titan)
+WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "FLAK"
+...
+	PointStaggerDelay 0.100000
+...
+	Duration 0.000000
+...
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_TitanFlakBurst_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_TECHFLAKBURST_MUZZLE"
+		hitEffectName "Weapon_Tech_TitanFlakBurst_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_TitanFlakBurst_Travel"
+#Gauss (titan)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.200000
+		fireDelay 0.200000
+		muzzleEffectName "Weapon_Tech_TitanGaussCannon_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_TECH_GAUSSCANNON_MUZZLE"
+		hitEffectName "Weapon_Tech_TitanGaussCannon_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_TitanGaussCannon_Travel"		
+##Advent
+#LaserPsi (fighter light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_LaserFighter_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE"
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_LaserFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_LaserFighter_Travel"
+#LaserPsi (frigate light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 6
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_PsiCapitalLaserLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PsiCapitalLaserLight_Travel"
+#LaserPsi (medium)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_LaserFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 0.210000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_LaserFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_LaserFrigate_Travel"
+#LaserPsi (heavy)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_LaserCapital_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Psi_LaserCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_LaserCapital_Travel"
+#LaserPsi (titan)
+	PointStaggerDelay 0.200000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+...
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_LaserTitan_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PsiCapitalLaserHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PsiCapitalLaserHeavy_Travel"
+#PointDefense (fighter light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 6
+		burstDelay 0.050000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PointDefense_Corvette_Muzzle"
+		muzzleSoundMinRespawnTime 0.210000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE"
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PointDefense_Corvette_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PointDefense_Corvette_Travel"
+#PointDefense (medium)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 6
+		burstDelay 0.050000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PointDefense_Corvette_Muzzle"
+		muzzleSoundMinRespawnTime 0.210000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PointDefense_Corvette_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PointDefense_Corvette_Travel"
+#PointDefense (heavy)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PointDefense_Large_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Psi_PointDefense_Large_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PointDefense_Large_Travel"
+#BeamPsi (fighter light)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_BeamFighter_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Psi_BeamFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_PSISUPPORTBEAMLIGHT_TRAVEL"
+		beamGlowTextureName "PsiSupportBeam_Glow"
+		beamCoreTextureName "PsiSupportBeam_Core"
+		beamWidth 25.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#BeamPsi (medium)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_BeamFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Psi_BeamFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALBEAMMEDIUM_TRAVEL"
+		beamGlowTextureName "PsiCapitalBeam_Glow"
+		beamCoreTextureName "PsiCapitalBeam_Core"
+		beamWidth 50.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#BeamPsi (heavy)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Psi_BeamCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "PsiCapitalBeam_Glow"
+		beamCoreTextureName "PsiCapitalBeam_Core"
+		beamWidth 100.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#BeamPsi (titan)
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_BeamTitan_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Psi_BeamTitan_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "PsiCapitalBeam_Glow"
+		beamCoreTextureName "PsiCapitalBeam_Core"
+		beamWidth 200.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+#Plasma (frigate light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PlasmaFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALPLASMALIGHT_MUZZLE"
+		hitEffectName "Weapon_Psi_PlasmaFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaFrigate_Travel"
+#Plasma (capital light)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 5
+		burstDelay 0.150000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALPLASMALIGHT_MUZZLE"
+		hitEffectName "Weapon_PsiCapitalPlasmaLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PsiCapitalPlasmaLight_Travel"
+#Plasma (medium)
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	PointStaggerDelay 0.200000
+	TravelSpeed 1750.000000
+	Duration 0.000000
+...
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PlasmaFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 0.210000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PlasmaFrigate_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaFrigate_Travel"
+#Plasma (heavy)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PlasmaCapital_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PlasmaCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaCapital_Travel"
+#Plasma (starbase)
+	PointStaggerDelay 0.400000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+...
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PlasmaStarbase_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PlasmaStarbase_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaStarbase_Travel"
+#Plasma (titan)
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.750000
+		fireDelay 0.010000
+		muzzleEffectName "Weapon_Psi_PlasmaTitan_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PlasmaTitan_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaTitan_Travel"
+#Spirit Blade (heavy)
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiSpirit_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALSPIRIT_MUZZLE"
+		hitEffectName "Weapon_PsiSpirit_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALSPIRIT_IMPACT"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALSPIRIT_IMPACT"
+		missileTravelEffectName "Weapon_PsiSpirit_Travel"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 1.708997
+		missileMaxSlowTurnTime 6.000000

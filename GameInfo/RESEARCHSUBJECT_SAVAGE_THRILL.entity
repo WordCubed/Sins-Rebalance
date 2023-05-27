@@ -1,0 +1,42 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_SAVAGETHRILL"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SAVAGETHRILL"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_SAVAGE_THRILL_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_SAVAGE_THRILL_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 4 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_EXTREME_XENOPHOBIA"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 800.000000
+	metal 100.000000
+	crystal 200.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "ApplyBuffToPlanetAfterPlayerDestroys"
+	buffToApply "BuffSavageThrillPlanet"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

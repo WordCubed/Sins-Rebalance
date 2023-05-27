@@ -1,0 +1,54 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CapitalAbility_ResurrectionActivateTarget"
+		mediumEffectName "CapitalAbility_ResurrectionActivateTarget"
+		largeEffectName "CapitalAbility_ResurrectionActivateTarget"
+		soundID "EFFECT_RESURRECTION"
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "BuffDivineProtectionSpawn"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 15.000000
+	buffType "BuffDivineProtectionDeSpawn"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 1
+entityBoolModifier "CannotBeDamaged"
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 7.500000
+		Level:1 11.250000
+		Level:2 15.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

@@ -1,0 +1,87 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 3
+instantAction
+	buffInstantActionType "TeleportTowardsTarget"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	teleportStopOffset 250.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetWithTravel"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	buffType "BuffHitAndRunTarget"
+		targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "Frigate"
+		object "CapitalShip"
+		object "Titan"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "NotInvulnerable"
+	range
+		Level:0 3000.000000
+		Level:1 3000.000000
+		Level:2 3000.000000
+		Level:3 0.000000
+	travelSpeed 3000.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.200000
+		muzzleEffectName "Weapon_PhaseCannon_Muzzle"
+		muzzleSoundMinRespawnTime 0.050000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECANNON_MUZZLE"
+			sound "WEAPON_PHASECANNON_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCannon_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseCannon_Travel"
+instantAction
+	buffInstantActionType "TeleportTowardsArbitraryTarget"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasHullLessThanPerc"
+	hullPerc
+		Level:0 0.333333
+		Level:1 0.333333
+		Level:2 0.333333
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 3
+finishCondition
+	finishConditionType "AnyOnConditionInstantActionDone"
+finishCondition
+	finishConditionType "EnterHyperspace"
+finishCondition
+	finishConditionType "OwnerChanged"

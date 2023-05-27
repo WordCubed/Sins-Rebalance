@@ -1,0 +1,93 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 3
+spawnShips
+	minFleetPoints 20.000000
+	maxFleetPoints 20.000000
+	requiredShipCount 1
+	requiredShip
+		type "CAPITALSHIP_PHASESCOUT"
+		minCount 1
+		maxCount 1
+	randomShipCount 0
+spawnShips
+	minFleetPoints 20.000000
+	maxFleetPoints 20.000000
+	requiredShipCount 1
+	requiredShip
+		type "CAPITALSHIP_PHASESCOUT"
+		minCount 1
+		maxCount 1
+	randomShipCount 0
+spawnShips
+	minFleetPoints 20.000000
+	maxFleetPoints 20.000000
+	requiredShipCount 1
+	requiredShip
+		type "CAPITALSHIP_PHASESCOUT"
+		minCount 1
+		maxCount 1
+	randomShipCount 0
+spawnShipsArrivalDelayTime 0.000000
+spawnShipsHyperspaceSpawnType "FromFactories"
+shouldAdoptFirstSpawnersMinorFactionState FALSE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchFloatModifierValue"
+sourceResearchFloatModifierType "MinorFactionAbilityLevel"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveCapitalCrew"
+creditCost
+	Level:0 3000.000000
+	Level:1 3000.000000
+	Level:2 3000.000000
+	Level:3 3000.000000
+metalCost
+	Level:0 600.000000
+	Level:1 600.000000
+	Level:2 600.000000
+	Level:3 600.000000
+crystalCost
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+requiredShipSlots
+	Level:0 20.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 20.000000
+requiredCapitalShipSlots
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 225.000000
+	Level:2 150.000000
+	Level:3 150.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT"
+smallHudIcon "HUDICON_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT"
+infoCardIcon ""

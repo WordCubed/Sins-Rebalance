@@ -1,0 +1,4 @@
+AbilitySpeedBoost
+AbilityCreateCombatNanites
+AbilityCloneFrigate
+AbilityCreateAssaultNanites (AbilityNaniteAssaultBeam)

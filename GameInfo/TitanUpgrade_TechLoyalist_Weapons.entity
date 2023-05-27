@@ -1,0 +1,81 @@
+TXT2
+SinsArchiveVersion 194
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDIconTitanTechLoyalistWeaponUpgrade0"
+	smallHudIcon "HUDIconTitanTechLoyalistWeaponUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 1
+	hudIcon "HUDIconTitanTechLoyalistWeaponUpgrade0"
+	smallHudIcon "HUDIconTitanTechLoyalistWeaponUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.250000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 3
+	hudIcon "HUDIconTitanTechLoyalistWeaponUpgrade1"
+	smallHudIcon "HUDIconTitanTechLoyalistWeaponUpgrade1"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.500000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 5
+	hudIcon "HUDIconTitanTechLoyalistWeaponUpgrade2"
+	smallHudIcon "HUDIconTitanTechLoyalistWeaponUpgrade2"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.750000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 7
+	hudIcon "HUDIconTitanTechLoyalistWeaponUpgrade2"
+	smallHudIcon "HUDIconTitanTechLoyalistWeaponUpgrade2"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 1.000000
+	upgradeBoolPropertyCount 0

@@ -1,0 +1,51 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffPirateEmbargoSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Buff_EmbargoOnSelf"
+	mediumEffectName "Buff_EmbargoOnSelf"
+	largeEffectName "Buff_EmbargoOnSelf"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_EMBARGOPIRATE"
+aiUseTime "OnlyWhenOrbitingEnemyPlanet"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 30.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_EMBARGOPIRATE"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_EMBARGO_NAME"
+descStringID "IDS_ABILITY_EMBARGO_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_EMBARGO"
+smallHudIcon "HUDICON_ABILITY_EMBARGO"
+infoCardIcon ""

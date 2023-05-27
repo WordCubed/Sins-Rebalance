@@ -1,0 +1,77 @@
+TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPSICULTURE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSICULTURE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiCulture0"
+	smallHudIcon "HUDIconStarBaseUpgradePsiCulture0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 200.000000
+		crystal 100.000000
+	upgradeTime 10.000000
+	nameStringID "IDS_STARBASEUPGRADEPSICULTURE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSICULTURE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_CULTURE"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiCulture0"
+	smallHudIcon "HUDIconStarBaseUpgradePsiCulture0"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 2.000000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.500000
+	upgradeProperty
+		propertyType "CultureMeshLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 200.000000
+		crystal 100.000000
+	upgradeTime 10.000000
+	nameStringID "IDS_STARBASEUPGRADEPSICULTURE_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSICULTURE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiCulture1"
+	smallHudIcon "HUDIconStarBaseUpgradePsiCulture1"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 4.000000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 1.000000
+	upgradeProperty
+		propertyType "CultureMeshLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+xpModifier 200.000000

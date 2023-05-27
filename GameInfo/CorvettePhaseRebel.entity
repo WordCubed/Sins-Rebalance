@@ -1,0 +1,206 @@
+TXT2
+SinsArchiveVersion 194
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Corvette"
+statCountType "FrigateCorvette"
+mainViewIcon "MAINVIEWICON_CORVETTE_PHASE"
+picture "CORVETTEPICTURE_PHASE_LOYALIST"
+NameStringID "IDS_CORVETTE_PHASEREBEL_NAME"
+DescriptionStringID "IDS_CORVETTE_PHASEREBEL_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_PHASE"
+basePrice
+	credits 360.000000
+	metal 72.000000
+	crystal 36.000000
+slotCount 3.000000
+BuildTime 18.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 60.000000
+MaxHullPoints 1125.000000
+MaxShieldPoints 1125.000000
+HullPointRestoreRate 2.343750
+ShieldPointRestoreRate 4.687500
+BaseArmorPoints 10.000000
+maxMitigation 0.500000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_CORVETTEACCESS_PHASEREBEL"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 10
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "HUDICON_CORVETTE_PHASE"
+smallHudIcon "MAINVIEWICON_CORVETTE_PHASE"
+infoCardIcon "INFOCARDICON_CORVETTE_PHASE"
+minZoomDistanceMult 6.000000
+NumWeapons 2
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "FLASHBEAM"
+	DamagePerBank:FRONT 187.500000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 0.000000
+	Duration 0.100000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMLIGHT_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMLIGHT_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+		beamWidth 50.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CORVETTE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 375.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.000000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileBomber_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileBomber_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileBomber_Travel"
+		missileStartTurningDistance 10.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 1.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 750.000000
+ShieldMeshName "Corvette_PhaseLoyalist_Shield"
+renderShield TRUE
+maxAccelerationLinear 750.000000
+maxAccelerationStrafe 225.000000
+maxDecelerationLinear 1500.000000
+maxAccelerationAngular 75.000000
+maxDecelerationAngular 112.500000
+maxSpeedLinear 1350.000000
+maxRollRate 3.000000
+maxRollAngle 52.500000
+useCustomHyperspaceEffects FALSE
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_0"
+SoundID "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_1"
+SoundID "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 3
+SoundID "CORVETTE_PHASEREBEL_ONCREATION_0"
+SoundID "ONCREATION_PHASECORVETTE_ALT1"
+SoundID "ONCREATION_PHASECORVETTE_ALT2"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_0"
+SoundID "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_1"
+SoundID "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CORVETTE_PHASEREBEL_ONSELECTED_0"
+SoundID "CORVETTE_PHASEREBEL_ONSELECTED_1"
+SoundID "CORVETTE_PHASEREBEL_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CORVETTE_PHASEREBEL_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Corvette_PhaseRebel"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_CorvettePhase"
+ExplosionName "Frigate0"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "AbilityDisableShieldEmitters"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

@@ -1,0 +1,348 @@
+###Colonizable
+healthRegenRate 25.000000
+planetUpgradeDef
+	path:Population
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 3.000000
+			populationGrowthRate 0.012500
+			developmentTaxPenalty -0.150000
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 10.000000
+			maxPopulation 4.000000
+			populationGrowthRate 0.025000
+			developmentTaxPenalty -0.100000
+		stage
+			price
+				credits 80.000000
+				metal 160.000000
+				crystal 120.000000
+			upgradeTime 20.000000
+			maxPopulation 7.000000
+			populationGrowthRate 0.029167
+			developmentTaxPenalty 0.000000
+		stage
+			price
+				credits 240.000000
+				metal 480.000000
+				crystal 360.000000
+			upgradeTime 60.000000
+			maxPopulation 10.000000
+			populationGrowthRate 0.041667
+			developmentTaxPenalty 0.000000
+	path:CivilianModules
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 3.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 10.000000
+			maxModuleSlotCount:Civilian 6.000000
+			maxModuleConstructorCount 2
+		stage
+			price
+				credits 80.000000
+				metal 160.000000
+				crystal 120.000000
+			upgradeTime 20.000000
+			maxModuleSlotCount:Civilian 12.000000
+			maxModuleConstructorCount 3
+		stage
+			price
+				credits 240.000000
+				metal 480.000000
+				crystal 360.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Civilian 18.000000
+			maxModuleConstructorCount 4
+	path:TacticalModules
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 16.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 10.000000
+			maxModuleSlotCount:Tactical 22.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 80.000000
+				metal 160.000000
+				crystal 120.000000
+			upgradeTime 20.000000
+			maxModuleSlotCount:Tactical 34.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 240.000000
+				metal 480.000000
+				crystal 360.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Tactical 48.000000
+			maxModuleConstructorCount 0
+	path:Home
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+		stage
+			price
+				credits 360.000000
+				metal 360.000000
+				crystal 720.000000
+			upgradeTime 60.000000
+			isHomePlanet TRUE
+			homePlanetTaxRateBonus 10.000000
+			homePlanetMetalIncomeBonus 2.000000
+			homePlanetCrystalIncomeBonus 2.000000
+	path:ArtifactLevel
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+		stage
+			price
+				credits 20.000000
+				metal 80.000000
+				crystal 30.000000
+			upgradeTime 5.000000
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 10.000000
+		stage
+			price
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 30.000000
+	path:Infrastructure
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 2500.000000
+		stage
+			price
+				credits 40.000000
+				metal 80.000000
+				crystal 60.000000
+			upgradeTime 10.000000
+			maxHealth 3200.000000
+		stage
+			price
+				credits 80.000000
+				metal 160.000000
+				crystal 120.000000
+			upgradeTime 20.000000
+			maxHealth 4600.000000
+		stage
+			price
+				credits 240.000000
+				metal 480.000000
+				crystal 360.000000
+			upgradeTime 60.000000
+			maxHealth 6000.000000
+	path:Social
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+		stage
+			price
+				credits 360.000000
+				metal 360.000000
+				crystal 720.000000
+			upgradeTime 60.000000
+			maxPopulation 5.000000
+			populationGrowthRate 0.020833
+			tradeIncomeModifier -0.500000
+			shipBuildRateModifier -0.500000
+			cultureSpreadRateModifier 0.500000
+	path:Industry
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+		stage
+			price
+				credits 360.000000
+				metal 360.000000
+				crystal 720.000000
+			upgradeTime 60.000000
+			maxPopulation -5.000000
+			tradeIncomeModifier 1.000000
+			shipBuildRateModifier 0.500000
+			cultureSpreadRateModifier -0.500000
+	path:Smuggler
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+		stage
+			price
+				credits 360.000000
+				metal 360.000000
+				crystal 720.000000
+			upgradeTime 60.000000
+			corruptionPercent 0.750000
+			smugglingPercent 0.025000
+###Uncolonizable
+planetUpgradeDef
+	path:Population
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 10.000000
+			populationGrowthRate 0.000000
+			developmentTaxPenalty 0.000000
+	path:CivilianModules
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 0.000000
+			maxModuleConstructorCount 0
+	path:TacticalModules
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 0.000000
+			maxModuleConstructorCount 0
+	path:Home
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+	path:ArtifactLevel
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+	path:Infrastructure
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 0.000000
+	path:Social
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Industry
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Smuggler
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000

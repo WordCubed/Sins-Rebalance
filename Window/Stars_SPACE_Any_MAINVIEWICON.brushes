@@ -1,0 +1,274 @@
+TXT2
+SinsArchiveVersion 194
+onlyLoadOnDemand FALSE
+brushCount 15
+brush
+	name "Stars_STAR_Pulsar_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Star"
+		pixelBox [ 0 , 0 , 205 , 205 ]
+	Pressed
+		fileName "Stars_ICON_Star"
+		pixelBox [ 0 , 0 , 205 , 205 ]
+	CursorOver
+		fileName "Stars_ICON_Star"
+		pixelBox [ 0 , 0 , 205 , 205 ]
+	Focused
+		fileName "Stars_ICON_Star"
+		pixelBox [ 0 , 0 , 205 , 205 ]
+	Normal
+		fileName "Stars_ICON_Star"
+		pixelBox [ 0 , 0 , 205 , 205 ]
+brush
+	name "Stars_SPACE_Planetoid_PirateBase_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 350 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 350 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 350 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 350 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 350 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planet_Ecumenopolis_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 400 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 400 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 400 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 400 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 400 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planet_Crumbling_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 400 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 400 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 400 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 400 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 400 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 300 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 300 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 300 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 300 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 300 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planet_Tropical_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 300 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 300 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 300 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 300 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 300 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planet_Arctic_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 0 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 0 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 0 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 0 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 0 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planet_Ice_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 350 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 350 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 350 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 350 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 350 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planetoid_Robotic_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 400 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 400 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 400 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 400 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 50 , 400 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planetoid_Crumbling_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 400 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 400 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 400 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 400 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 400 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planetoid_Arctic_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 200 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 200 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 200 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 200 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 100 , 200 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planetoid_Ice_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 350 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 350 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 350 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 350 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 150 , 350 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planetoid_Desert_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 350 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 350 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 350 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 350 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 350 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planetoid_Tropical_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 250 , 350 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 250 , 350 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 250 , 350 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 250 , 350 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 250 , 350 , 50 , 50 ]
+brush
+	name "Stars_SPACE_Planetoid_Ecumenopolis_MAINVIEWICON"
+	content "States"
+	Disabled
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 150 , 50 , 50 ]
+	Pressed
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 150 , 50 , 50 ]
+	CursorOver
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 150 , 50 , 50 ]
+	Focused
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 150 , 50 , 50 ]
+	Normal
+		fileName "Stars_ICON_Planet"
+		pixelBox [ 200 , 150 , 50 , 50 ]

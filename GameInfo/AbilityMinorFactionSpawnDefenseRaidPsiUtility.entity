@@ -1,0 +1,116 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanetWithTarget"
+instantActionTriggerType "AlwaysPerform"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "IsExplored"
+spawnShipsLevelCount 3
+spawnShips
+	minFleetPoints 80.000000
+	maxFleetPoints 80.000000
+	requiredShipCount 3
+	requiredShip
+		type "FrigatePsiAntiFighter"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigatePsiUtility0"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigatePsiUtility1"
+		minCount 4
+		maxCount 4
+	randomShipCount 0
+spawnShips
+	minFleetPoints 120.000000
+	maxFleetPoints 120.000000
+	requiredShipCount 3
+	requiredShip
+		type "FrigatePsiAntiFighter"
+		minCount 6
+		maxCount 6
+	requiredShip
+		type "FrigatePsiUtility0"
+		minCount 6
+		maxCount 6
+	requiredShip
+		type "FrigatePsiUtility1"
+		minCount 6
+		maxCount 6
+	randomShipCount 0
+spawnShips
+	minFleetPoints 160.000000
+	maxFleetPoints 160.000000
+	requiredShipCount 3
+	requiredShip
+		type "FrigatePsiAntiFighter"
+		minCount 8
+		maxCount 8
+	requiredShip
+		type "FrigatePsiUtility0"
+		minCount 8
+		maxCount 8
+	requiredShip
+		type "FrigatePsiUtility1"
+		minCount 8
+		maxCount 8
+	randomShipCount 0
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "MinorFactionDefenseRaid"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchFloatModifierValue"
+sourceResearchFloatModifierType "MinorFactionAbilityLevel"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 6000.000000
+	Level:1 9000.000000
+	Level:2 12000.000000
+	Level:3 12000.000000
+metalCost
+	Level:0 1200.000000
+	Level:1 1800.000000
+	Level:2 2400.000000
+	Level:3 2400.000000
+crystalCost
+	Level:0 600.000000
+	Level:1 900.000000
+	Level:2 1200.000000
+	Level:3 1200.000000
+cooldownTime
+	Level:0 480.000000
+	Level:1 480.000000
+	Level:2 480.000000
+	Level:3 480.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAIDPSIUTILITY_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONSPAWNDEFENSERAIDPSIUTILITY_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNDEFENSERAIDPSIUTILITY"
+smallHudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNDEFENSERAIDPSIUTILITY"
+infoCardIcon ""

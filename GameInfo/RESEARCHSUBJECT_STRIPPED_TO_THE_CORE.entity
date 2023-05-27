@@ -1,0 +1,47 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_STRIPPEDTOTHECORE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_STRIPPEDTOTHECORE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 7 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_SHIPBOARD_LABS_2"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 2400.000000
+	metal 300.000000
+	crystal 600.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 3
+researchModifier
+	modifierType "StripPlanetsOnScuttle"
+researchModifier
+	modifierType "ApplyBuffToPlanetsAfterScuttle"
+	buffToApply "BuffStrippedToTheCoreSelf"
+researchModifier
+	modifierType "ApplyBuffToAllOwnedShipsWhenOwnedPlanetFalls"
+	buffToApply "BuffPlanetLoss"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush "RebellionResearchOverlay"
+dlcId 204880

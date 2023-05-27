@@ -1,0 +1,113 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffPhaseBeamTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "Frigate"
+	object "CapitalShip"
+	object "Titan"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "HasWeapons"
+	constraint "NotInvulnerable"
+range
+	Level:0 7500.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+maxTargetCount
+	Level:0 1.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+travelSpeed 0.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Beam"
+	burstCount 10
+	burstDelay 1.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PhaseCapitalFlashBeamCapShip_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound ""
+	hitEffectName "Weapon_PhaseCapitalFlashBeamCapShip_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	beamEffectSounds
+		soundCount 2
+		sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL"
+		sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL_ALT1"
+	beamGlowTextureName "PhaseCapitalBeam_Glow"
+	beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+	beamWidth 1600.000000
+	beamGlowColor ff0000ff
+	beamCoreColor ff0000ff
+	beamTilingRate 3.000000
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 1
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 9.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 120.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_PHASEBEAM_NAME"
+descStringID "IDS_ABILITY_PHASEBEAM_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_BEAMBLAST"
+smallHudIcon "HUDICON_ABILITY_BEAMBLAST"
+infoCardIcon ""

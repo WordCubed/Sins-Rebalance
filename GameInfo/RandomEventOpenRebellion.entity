@@ -1,0 +1,74 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ChangePlayerIndexToNeutral"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 240.000000
+		maxFleetPoints 240.000000
+		requiredShipCount 7
+		requiredShip
+			type "CorvetteTechRebel"
+			minCount 8
+			maxCount 8
+		requiredShip
+			type "FrigateTechSiege"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigateTechUtility0"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigateTechUtility1"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigateTechCarrier"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigateTechAntiModule"
+			minCount 8
+			maxCount 8
+		requiredShip
+			type "FrigateTechHeavy"
+			minCount 4
+			maxCount 4
+		randomShipCount 3
+		randomShip
+			type "CAPITALSHIP_TECHBATTLESHIP"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_TECHSUPPORT"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_TECHTRANSPORT"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

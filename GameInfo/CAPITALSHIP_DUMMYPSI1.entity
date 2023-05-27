@@ -1,0 +1,199 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "CapitalShip"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 0.000000
+basePopulationKilled 0.000000
+bombingFreqTime 10.000000
+baseRange 4000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHCARRIER"
+basePrice
+	credits 10000000.000000
+	metal 10000000.000000
+	crystal 10000000.000000
+slotCount 0.000000
+BuildTime 0.000000
+MaxHullPoints
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
+MaxShieldPoints
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
+HullPointRestoreRate
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
+ShieldPointRestoreRate
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
+ArmorPointsFromExperience
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
+maxMitigation
+	StartValue 0.500000
+	ValueIncreasePerLevel 0.000100
+MaxAntiMatter
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000100
+AntiMatterRestoreRate
+	StartValue 1.000000
+	ValueIncreasePerLevel 0.000100
+CultureProtectRate
+	StartValue 1.000000
+	ValueIncreasePerLevel 0.000100
+NameStringID "IDS_DUMMY"
+DescriptionStringID "IDS_DUMMY"
+picture ""
+Prerequisites
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_DUMMYPSI0"
+		Level 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_DUMMYPSI1"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipCarrier"
+numRandomDebrisLarge 5
+numRandomDebrisSmall 18
+numSpecificDebris 1
+specificDebrisMeshName "DebrisTechLarge"
+armorType "CapitalShip"
+hudIcon ""
+smallHudIcon ""
+infoCardIcon ""
+minZoomDistanceMult 1.650000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "FLAK"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.100000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_TitanFlakBurst_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_TECHFLAKBURST_MUZZLE"
+		hitEffectName "Weapon_Tech_TitanFlakBurst_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_TitanFlakBurst_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+mass 10000.000000
+ShieldMeshName ""
+renderShield TRUE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 10.000000
+maxSpeedLinear 450.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+useCustomHyperspaceEffects FALSE
+squadTypeEntityDef:0 "SquadTechCombat"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "SquadTechBomber"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID ""
+NumSoundsFor:ONCREATION 1
+SoundID ""
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID ""
+NumSoundsFor:ONSELECTED 1
+SoundID ""
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID ""
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName ""
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName ""
+ExplosionName "Frigate1"
+CommandPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+EngineSoundID ""
+formationRank 2
+minShadow 0.000000
+maxShadow 0.400000
