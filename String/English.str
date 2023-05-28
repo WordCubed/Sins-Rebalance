@@ -20,7 +20,7 @@ StringInfo
 	Value "Spawn Phase Stabilizer"
 StringInfo
 	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_DESCRIPTION"
-	Value "Spawns a phase stabilizer module in the current gravity well. When used with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves. On enemy planets, mimics the effects of the Vasari Phasic Superweapon."
+	Value "Spawns a phase stabilizer module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
 	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 10% damage bonus to all ships present (or nearby) for the battle. (Damage bonus stacks up to 40%.)"
@@ -32,7 +32,7 @@ StringInfo
 	Value "If you successfully stop an invasion of one of your planets, all units orbiting that planet and neighboring planets gain a permanent 10% damage bonus (stacks up to 40%)."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
-	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of credits, metal and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, with each planet you lose—by your own hand or your enemies'—you gain a permanent 10% damage bonus (stacking up to 50%)."
+	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of credits, metal, and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, with each planet you lose—by your own hand or your enemies'—you gain a permanent 10% damage bonus (stacking up to 50%)."
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
 	Value "As the titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."

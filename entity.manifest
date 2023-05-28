@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2134
+entityNameCount 2133
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -909,7 +909,6 @@ entityName "BuffTheMawSelf.entity"
 entityName "BuffTimedChargesActivated.entity"
 entityName "BuffTimedChargesPlacing.entity"
 entityName "BuffTitanFleetBeacon.entity"
-entityName "BuffTitanSpawnPhaseNetwork.entity"
 entityName "BuffTransferAntiMatterCaster.entity"
 entityName "BuffTransferAntiMatterTarget.entity"
 entityName "BuffUnityMassSelf.entity"
