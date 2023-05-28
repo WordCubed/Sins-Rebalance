@@ -37,12 +37,12 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.150000
+	perLevelValue 0.166667
 	linkedWeaponClass "GAUSS"
 researchModifier
 	modifierType "WeaponRangeAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.166667
+	perLevelValue 0.050000
 	linkedWeaponClass "GAUSS"
 artifactPicture ""
 uniqueOverlayBrush ""

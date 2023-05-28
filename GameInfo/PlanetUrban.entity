@@ -333,13 +333,13 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 0.700000
 	ambientScalar 0.250000
-requiredPlanetBonusesCount 2
+requiredPlanetBonusesCount 3
 bonus "PlanetBonusUrbanBenefits"
 bonus "PlanetBonusUrbanCosts"
-possibleRandomPlanetBonusesCount 6
+bonus "PlanetBonusExtremelyNice"
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusCulturalHub"
-bonus "PlanetBonusExtremelyNice"
 bonus "PlanetBonusJewelOfTheGalaxy"
 bonus "PlanetBonusMildWeather"
 bonus "PlanetBonusProminent"

@@ -2,7 +2,7 @@ TXT
 NumStrings 8667
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SYNERGY_DESCRIPTION"
-	Value "Grants the Synergy ability to Beam Defense Platforms, allowing them to amplify the damage and shields of other nearby defense platforms. A 12.5% damage bonus that stacks up to 50%."
+	Value "Grants the Synergy ability to Beam Defense Platforms, allowing them to amplify the damage and shields of other nearby defense platforms. A 16.7% damage bonus that stacks up to 50%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_1_DESCRIPTION"
 	Value "Grants access to the Titan Foundry and allows you to begin summoning the Vorastra Titan, a massive warship of immense power."
@@ -1277,16 +1277,16 @@ StringInfo
 	Value "Demoralizes an enemy ship's crew so thoroughly that it can no longer move and fight as effectively."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECH_DESCRIPTION"
-	Value "The Trader Emergency Coalition favors terran & aquatic planets. They have the weakest culture of the races but the best economy & ship production. TEC ships emphasize hull points & armor over shield points & mitigation."
+	Value "The Trader Emergency Coalition favors terran & aquatic planets. Have the weakest culture but the best economy & ship production. TEC ships emphasize hull points & armor over shield points & mitigation. Their superweapon directly destroys colonies."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSI_DESCRIPTION"
-	Value "The Advent favor arid, desolate, & cold planets. They have the strongest culture. Their ships emphasize shield points & shield mitigation over hull points & armor."
+	Value "The Advent favor arid, desolate, & cold planets. Have the strongest culture. Their ships emphasize shield points & shield mitigation over hull points & armor. Their superweapon projects their culture onto enemy colonies."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASE_DESCRIPTION"
-	Value "The Vasari favor hazardous, metallic, & unusually-sized planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
+	Value "The Vasari favor hazardous, metallic, & weirdly-sized planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield. Their superweapons projects a Phase Gate onto an enemy colony."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
-	Value "TEC Loyalists are meant for turtling. With research, they have large buffs for fighting in any gravity well they (or an ally) control, their defensive structures are tougher and stronger, and their planetary shields block all damage to colonies. Their superweapons are cheaper and they can build more of them. Weaker on the offense, they may find it hard to expand in the late-game. Needs the least micromanagement of all factions."
+	Value "TEC Loyalists are meant for turtling. With research, they have large buffs for fighting in any gravity well they (or an ally) control, additional buffs for repelling attacks into their territory, their defensive structures are tougher and stronger, and their planetary shields block all damage to colonies. Their superweapons are cheaper and they can build more of them. Weaker on the offense, they may find it hard to expand in the late-game."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
 	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for destroying enemy colonies, allowing them to steamroll deep into enemy territory. However, they are weaker in defensive battles."

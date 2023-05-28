@@ -11,7 +11,8 @@ isChannelling FALSE
 numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "AlwaysPerform"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	buffType "BuffGravityPulseTargetSlowed"
 	effectInfo
 		effectAttachInfo
@@ -26,4 +27,4 @@ numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AnyOnConditionInstantActionDone"
+	finishConditionType "AllOnDelayInstantActionsDone"

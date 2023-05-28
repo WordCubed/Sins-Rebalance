@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 4
+stackingLimit 3
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable TRUE
@@ -15,17 +15,17 @@ numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 0.125000
-		Level:1 0.125000
-		Level:2 0.125000
-		Level:3 0.125000
+		Level:0 0.166667
+		Level:1 0.166667
+		Level:2 0.166667
+		Level:3 0.166667
 entityModifier
 	buffEntityModifierType "MaxShieldPoints"
 	value
-		Level:0 1250.000000
-		Level:1 1250.000000
-		Level:2 1250.000000
-		Level:3 1250.000000
+		Level:0 1667.000000
+		Level:1 1667.000000
+		Level:2 1667.000000
+		Level:3 1667.000000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition

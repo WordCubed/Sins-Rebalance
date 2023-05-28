@@ -353,8 +353,8 @@ planetRuinDef
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
 	creditsOnStrippedToTheCore 13680.000000
-	metalOnStrippedToTheCore 3600.000000
-	crystalOnStrippedToTheCore 3600.000000
+	metalOnStrippedToTheCore 7200.000000
+	crystalOnStrippedToTheCore 7200.000000
 	extraScuttleTimeOnStrip 5.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"
