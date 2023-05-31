@@ -8,12 +8,12 @@ NameStringID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_DIRECTIONALSHIELD_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_DIRECTIONALSHIELD_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 5 , 2 ]
+	pos [ 5 , 1 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_STARBASEWEAPONBANKTARGETSPHASE"
+		Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_DEBRISVACUUM"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

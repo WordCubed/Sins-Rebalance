@@ -5,9 +5,9 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 56.000000
-	maxFleetPoints 56.000000
-	requiredShipCount 4
+	minFleetPoints 92.000000
+	maxFleetPoints 92.000000
+	requiredShipCount 5
 	requiredShip
 		type "FrigatePhaseLongRange"
 		minCount 4
@@ -18,12 +18,16 @@ spawnShips
 		maxCount 4
 	requiredShip
 		type "FrigatePhaseSiege"
-		minCount 2
-		maxCount 2
+		minCount 4
+		maxCount 4
 	requiredShip
 		type "FrigatePhaseMineLayer"
-		minCount 2
-		maxCount 2
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "CorvettePhaseLoyalist"
+		minCount 4
+		maxCount 4
 	randomShipCount 0
 spawnShipsArrivalDelayTime 3.000000
 spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -36,7 +40,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -46,27 +50,27 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 creditCost
-	Level:0 6720.000000
+	Level:0 13800.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 metalCost
-	Level:0 1344.000000
+	Level:0 2760.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 crystalCost
-	Level:0 672.000000
+	Level:0 1380.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 requiredShipSlots
-	Level:0 40.000000
+	Level:0 60.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 80.000000
+	Level:0 30.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
@@ -74,7 +78,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ABILITYACCESS_FLEETBEACON"
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

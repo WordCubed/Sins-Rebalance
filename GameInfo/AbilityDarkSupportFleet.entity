@@ -5,8 +5,8 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 6.000000
-	maxFleetPoints 6.000000
+	minFleetPoints 8.000000
+	maxFleetPoints 8.000000
 	requiredShipCount 3
 	requiredShip
 		type "FrigatePhaseScout"
@@ -14,8 +14,8 @@ spawnShips
 		maxCount 3
 	requiredShip
 		type "FrigatePhaseStarBaseConstructor"
-		minCount 2
-		maxCount 2
+		minCount 4
+		maxCount 4
 	requiredShip
 		type "FrigatePhaseEnvoy"
 		minCount 1
@@ -42,17 +42,17 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveShipSlots"
 creditCost
-	Level:0 720.000000
+	Level:0 1200.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 metalCost
-	Level:0 144.000000
+	Level:0 240.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 crystalCost
-	Level:0 72.000000
+	Level:0 120.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
@@ -62,7 +62,7 @@ requiredShipSlots
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 34.000000
+	Level:0 30.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000

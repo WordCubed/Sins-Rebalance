@@ -797,16 +797,16 @@ researchScreenData
 		blockCount 3
 		block
 			area [ 50 , 93 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleNonCombat0Tech"
-			picture "ResearchScreenBlockPictureNonCombat0Tech"
-		block
-			area [ 50 , 295 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat1Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat1Tech"
 			title "IDSResearchScreenBlockTitleNonCombat1Tech"
 			picture "ResearchScreenBlockPictureNonCombat1Tech"
+		block
+			area [ 50 , 295 , 690 , 192 ]
+			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
+			title "IDSResearchScreenBlockTitleNonCombat0Tech"
+			picture "ResearchScreenBlockPictureNonCombat0Tech"
 		block
 			area [ 50 , 497 , 690 , 144 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Tech"

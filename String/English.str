@@ -701,28 +701,28 @@ StringInfo
 	Value "Necessity and desperation for victory fuel further improvements in weapons. Increases damage of all main Vasari weapon types."
 StringInfo
 	ID "IDS_ABILITY_FLEETBEACON_NAME"
-	Value "Returning Armada"
+	Value "Summon Frigate Fleet"
 StringInfo
 	ID "IDS_ABILITY_FLEETBEACON_DESCRIPTION"
-	Value "Other remnants of the Dark Fleet are contacted and summoned, causing them to arrive via Phase Stabilizers constructed by your empire."
+	Value "Other remnants of the Dark Fleet are contacted and summoned, causing them to arrive via Phase Stabilizers constructed by your empire. Summons 4 each of Long-Range Frigates, Anti-Fighter Frigates, Siege Frigates, Anti-Module Cruisers, and Corvettes."
 StringInfo
 	ID "IDS_ABILITY_DARKCOMBATFLEET_NAME"
 	Value "Summon Cruiser Fleet"
 StringInfo
 	ID "IDS_ABILITY_DARKCOMBATFLEET_DESCRIPTION"
-	Value "A group of cruisers are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 2 Heavy cruisers, 2 Carrier cruisers, 1 Combat Support cruiser, and 3 Healer Support cruisers."
+	Value "A group of cruisers are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 2 Heavy cruisers, 1 Carrier cruisers, 1 Combat Support cruiser, and 4 Healer Support cruisers."
 StringInfo
 	ID "IDS_ABILITY_DARKSUPPORTFLEET_NAME"
 	Value "Summon Support Fleet"
 StringInfo
 	ID "IDS_ABILITY_DARKSUPPORTFLEET_DESCRIPTION"
-	Value "A group of support ships are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons an Envoy, 3 Scouts, and 2 Starbase Constructors."
+	Value "A group of support ships are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons an Envoy, 3 Scouts, and 4 Starbase Constructors."
 StringInfo
 	ID "IDS_ABILITY_DARKCAPITALSHIP_NAME"
 	Value "Summon Capital Ship Fleet"
 StringInfo
 	ID "IDS_ABILITY_DARKCAPITALSHIP_DESCRIPTION"
-	Value "A group of capital ships is summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 2 Healer Colonist, 2 Assault, 2 Battleship, 2 Combat Support, 1 Carrier, and 1 Siege capitals."
+	Value "A group of capital ships is summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 4 Healer Colonist, 1 Assault, 4 Battleship, 1 Combat Support, 1 Carrier, and 1 Siege capitalships."
 StringInfo
 	ID "IDS_ABILITY_REACTIVENANITEARMOR_NAME"
 	Value "Reactive Nanite Plating"
@@ -1277,31 +1277,31 @@ StringInfo
 	Value "Demoralizes an enemy ship's crew so thoroughly that it can no longer move and fight as effectively."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECH_DESCRIPTION"
-	Value "The Trader Emergency Coalition favors terran & aquatic planets. Have the weakest culture but the best economy & ship production. TEC ships emphasize hull points & armor over shield points & mitigation. Their superweapon directly destroys colonies."
+	Value "The Trader Emergency Coalition favors terran & aquatic planets. Have the weakest culture but the best economy & ship production. TEC ships emphasize hull points & armor over shield points & mitigation."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSI_DESCRIPTION"
-	Value "The Advent favor arid, desolate, & cold planets. Have the strongest culture. Their ships emphasize shield points & shield mitigation over hull points & armor. Their superweapon projects their culture onto enemy colonies."
+	Value "The Advent favor arid, desolate, & cold planets. Have the strongest culture. Their ships emphasize shield points & shield mitigation over hull points & armor."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASE_DESCRIPTION"
-	Value "The Vasari favor hazardous, metallic, & weirdly-sized planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield. Their superweapons projects a Phase Gate onto an enemy colony."
+	Value "The Vasari favor hazardous, metallic, & weirdly-sized planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
-	Value "TEC Loyalists are meant for turtling. With research, they have large buffs for fighting in any gravity well they (or an ally) control, additional buffs for repelling attacks into their territory, their defensive structures are tougher and stronger, and their planetary shields block all damage to colonies. Their superweapons are cheaper and they can build more of them. Weaker on the offense, they may find it hard to expand in the late-game."
+	Value "TEC Loyalists are meant for turtling. With research, they have gain buffs while fighting in any gravity well they or an ally control (+50% damage) & additional bonuses for repelling attacks into their territory (10% per incursion repelled, capped at 40%). Their defensive structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. Weaker on the offense, they may find it hard to expand in the late-game."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
-	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for destroying enemy colonies, allowing them to steamroll deep into enemy territory. However, they are weaker in defensive battles."
+	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory (+40% damage), and they receive further buffs for destroying enemy colonies (+10% each, capped at 50%), allowing them to steamroll deep into enemy territory. However, they are weaker in defensive battles."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines."
+	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+30% allegiance, the highest in the game) and military bonuses (+50% damage buff) their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
-	Value "Advent Rebels have some nasty abilities. With research, many frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buff increases with each loss they take, allowing weakened fleets to punch above their weight. Requires micromanagement to get the most out of them, but in theory the most frustrating faction to fight against."
+	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take (+10% damage bonus per ship or planet they lose, up to 90%), allowing weakened empires to punch above their weight."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
-	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and raze planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs and can use debris from destroyed ships to restore health. Any ships they lose can be replaced using their Dark Fleet summons ability."
+	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and raze planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. They gain a 40% damage buff in neutral wells, plus another 10% damage buff for losing planets (capped at 50%)."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
-	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. However, they lose their best buff during lengthy battles. They need micromanaging, cycling fleets in and out of phase space to stay strong."
+	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs (+90% damage) at the end of a phase jump. However, they lose that buff during battles longer than a few minutes. They need micromanaging, cycling fleets in and out of phase space to stay strong. A good ally, they get damage buffs (+10% per ally) when reinforcing an ally in battle and can let allies use their phase gates."
 StringInfo
 	ID "IDS_FRIGATE_PIRATESIEGE_DESCRIPTION"
 	Value "A medium frigate that sacrifices conventional combat strength for planetary bombardment weapons."
