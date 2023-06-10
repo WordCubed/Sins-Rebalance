@@ -6,7 +6,7 @@ instantActionTriggerType "AlwaysPerform"
 buffType "BuffPhaseOrbitalCannon"
 targetFilter
 	numOwnerships 1
-	ownership "Enemy"
+	ownership "AlliedOrEnemy"
 	numObjects 1
 	object "Planet"
 	numSpaces 1

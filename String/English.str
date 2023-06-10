@@ -1,5 +1,11 @@
 TXT
-NumStrings 8667
+NumStrings 8669
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ALL_FOR_ONE_DESCRIPTION"
+	Value "Your forces gain a 10% damage bonus for each allied empire present in the current gravity well."
+StringInfo
+	ID "IDS_ABILITY_DIPLOMATIC_IMMUNITY_DESCRIPTION"
+	Value "Broadcasts of peace prevent the envoy from being the target of enemy fire."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SYNERGY_DESCRIPTION"
 	Value "Grants the Synergy ability to Beam Defense Platforms, allowing them to amplify the damage and shields of other nearby defense platforms. A 16.7% damage bonus that stacks up to 50%."
@@ -722,7 +728,7 @@ StringInfo
 	Value "Summon Capital Ship Fleet"
 StringInfo
 	ID "IDS_ABILITY_DARKCAPITALSHIP_DESCRIPTION"
-	Value "A group of capital ships is summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 4 Healer Colonist, 1 Assault, 4 Battleship, 1 Combat Support, 1 Carrier, and 1 Siege capitalships."
+	Value "A group of capital ships is summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 3 Healer Colonists, 1 Assault, 1 Battleship, 1 Combat Support, 1 Carrier, and 1 Siege capitalship."
 StringInfo
 	ID "IDS_ABILITY_REACTIVENANITEARMOR_NAME"
 	Value "Reactive Nanite Plating"
@@ -1286,22 +1292,22 @@ StringInfo
 	Value "The Vasari favor hazardous, metallic, & weirdly-sized planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
-	Value "TEC Loyalists are meant for turtling. With research, they have gain buffs while fighting in any gravity well they or an ally control (+50% damage) & additional bonuses for repelling attacks into their territory (10% per incursion repelled, capped at 40%). Their defensive structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. Weaker on the offense, they may find it hard to expand in the late-game."
+	Value "TEC Loyalists are meant for turtling. With research, they gain large buffs for defending themselves. Their tactical structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. Weaker on the offense, they may find it hard to expand in the late-game. MAIN DAMAGE BUFFS: +50% in friendly wells; +10% per invasion repelled (capped at 40%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
-	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory (+40% damage), and they receive further buffs for destroying enemy colonies (+10% each, capped at 50%), allowing them to steamroll deep into enemy territory. However, they are weaker in defensive battles."
+	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for destroying enemy colonies, allowing them to steamroll deep into enemy territory. However, they are weaker in defensive battles. MAIN DAMAGE BUFFS: +40% in enemy wells; +10% per enemy planet destroyed (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+30% allegiance, the highest in the game) and military bonuses (+50% damage buff) their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines."
+	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+35% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +10% per invasion repelled (capped at 40%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
-	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take (+10% damage bonus per ship or planet they lose, up to 90%), allowing weakened empires to punch above their weight."
+	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +10% per ship lost (capped at 60%); +10% per planet lost (capped at 30%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
-	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and raze planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. They gain a 40% damage buff in neutral wells, plus another 10% damage buff for losing planets (capped at 50%)."
+	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and raze planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +40% in neutral wells; +10% per planet lost (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
-	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs (+90% damage) at the end of a phase jump. However, they lose that buff during battles longer than a few minutes. They need micromanaging, cycling fleets in and out of phase space to stay strong. A good ally, they get damage buffs (+10% per ally) when reinforcing an ally in battle and can let allies use their phase gates."
+	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. However, they lose that buff during battles longer than a few minutes. They need micromanaging, cycling fleets in and out of phase space to stay strong. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. MAIN DAMAGE BUFFS: +90% at end of phase jump, +10% per ally present"
 StringInfo
 	ID "IDS_FRIGATE_PIRATESIEGE_DESCRIPTION"
 	Value "A medium frigate that sacrifices conventional combat strength for planetary bombardment weapons."

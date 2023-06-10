@@ -8,10 +8,10 @@ spawnPlanetModuleSoundID "EFFECT_DEPLOYSIEGETURRET"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
-isUltimateAbility TRUE
-maxNumLevels 1
+isUltimateAbility FALSE
+maxNumLevels 3
 levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityDLevel"
+sourcePropertyType "AbilityCLevel"
 aiUseTime "OnlyWhenOrbitingEnemyPlanet"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -21,16 +21,16 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatterAndNotBeAtStar"
 antiMatterCost
-	Level:0 300.000000
-	Level:1 0.000000
-	Level:2 0.000000
+	Level:0 480.000000
+	Level:1 360.000000
+	Level:2 240.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 300.000000
-	Level:1 0.000000
-	Level:2 0.000000
+	Level:0 480.000000
+	Level:1 360.000000
+	Level:2 240.000000
 	Level:3 0.000000
-orderAcknowledgementType "ONATTACKORDERISSUED"
+orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
