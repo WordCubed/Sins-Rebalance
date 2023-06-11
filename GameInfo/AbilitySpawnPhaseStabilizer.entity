@@ -9,9 +9,9 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 3
+maxNumLevels 1
 levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityCLevel"
+sourcePropertyType "AbilityDLevel"
 aiUseTime "OnlyWhenOrbitingEnemyPlanet"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -21,13 +21,13 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatterAndNotBeAtStar"
 antiMatterCost
-	Level:0 480.000000
-	Level:1 360.000000
+	Level:0 240.000000
+	Level:1 240.000000
 	Level:2 240.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 480.000000
-	Level:1 360.000000
+	Level:0 240.000000
+	Level:1 240.000000
 	Level:2 240.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"

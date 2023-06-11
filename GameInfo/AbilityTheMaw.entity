@@ -28,14 +28,14 @@ effectInfo
 needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
-isUltimateAbility TRUE
+isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityDLevel"
+sourcePropertyType "AbilityCLevel"
 aiUseTime "OnlyWhenManyTargetsInRangeOfBank"
 onlyAutoCastWhenTargetCountExceedsAmount
-	Level:0 6.000000
-	Level:1 6.000000
+	Level:0 3.000000
+	Level:1 4.000000
 	Level:2 6.000000
 	Level:3 0.000000
 onlyAutoCastWhenTargetsInBank "FRONT"
