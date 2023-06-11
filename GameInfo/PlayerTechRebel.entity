@@ -70,7 +70,7 @@ entities
 			entityDefName "FrigateTechTradeShip"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 164
+		count 163
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH1"
 		entityDefName "RESEARCHSUBJECT_SHIELDSTECH0"
@@ -153,7 +153,6 @@ entities
 		entityDefName "RESEARCHSUBJECT_HYPERSPACE_CHARGEUPTIMEDECREASE"
 		entityDefName "RESEARCHSUBJECT_HYPERSPACE_GALAXYTRAVELTECH"
 		entityDefName "RESEARCHSUBJECT_HYPERSPACE_WORMHOLETRAVELTECH"
-		entityDefName "RESEARCHSUBJECT_POPULATIONCAPDESERTTECH0"
 		entityDefName "RESEARCHSUBJECT_PLANETACCESS_ICETECH"
 		entityDefName "RESEARCHSUBJECT_POPULATIONCAPICETECH0"
 		entityDefName "RESEARCHSUBJECT_PLANETACCESS_IRONTECH"
@@ -797,16 +796,16 @@ researchScreenData
 		blockCount 3
 		block
 			area [ 50 , 93 , 690 , 192 ]
-			backdrop "ResearchScreenBlockBackdropNonCombat1Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat1Tech"
-			title "IDSResearchScreenBlockTitleNonCombat1Tech"
-			picture "ResearchScreenBlockPictureNonCombat1Tech"
-		block
-			area [ 50 , 295 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
 			title "IDSResearchScreenBlockTitleNonCombat0Tech"
 			picture "ResearchScreenBlockPictureNonCombat0Tech"
+		block
+			area [ 50 , 295 , 690 , 192 ]
+			backdrop "ResearchScreenBlockBackdropNonCombat1Tech"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat1Tech"
+			title "IDSResearchScreenBlockTitleNonCombat1Tech"
+			picture "ResearchScreenBlockPictureNonCombat1Tech"
 		block
 			area [ 50 , 497 , 690 , 144 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Tech"

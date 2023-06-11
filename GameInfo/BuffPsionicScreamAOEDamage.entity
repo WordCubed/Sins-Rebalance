@@ -15,9 +15,9 @@ instantAction
 	conditionBuffType "BuffFractureAOE"
 	conditionBuffShortName "IDS_BUFFSHORTNAME_FRACTURE"
 	damage
-		Level:0 112.500000
-		Level:1 173.750000
-		Level:2 225.000000
+		Level:0 100.000000
+		Level:1 150.000000
+		Level:2 200.000000
 		Level:3 0.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "PHYSICAL"

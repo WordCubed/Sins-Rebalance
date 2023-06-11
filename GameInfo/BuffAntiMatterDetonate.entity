@@ -8,7 +8,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 5
+numInstantActions 4
 instantAction
 	buffInstantActionType "PlayPersistantAttachedEffect"
 	instantActionTriggerType "OnDelay"
@@ -42,18 +42,6 @@ instantAction
 		space "Normal"
 		numConstraints 0
 instantAction
-	buffInstantActionType "DoDamage"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	damage
-		Level:0 900.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
-	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
-	damageType "PHYSICAL"
-	isDamageShared TRUE
-instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnCondition"
 	instantActionConditionType "IfOwnerHasBuff"
@@ -70,19 +58,25 @@ instantAction
 numPeriodicActions 0
 numOverTimeActions 1
 overTimeAction
-	buffOverTimeActionType "DrainAntiMatter"
+	buffOverTimeActionType "DrainAntiMatterAndDoDamage"
 	drainAntiMatterRate
-		Level:0 18.000000
+		Level:0 16.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
+	damageRate
+		Level:0 160.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	isDamageShared FALSE
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 10.000000
+		Level:0 15.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000

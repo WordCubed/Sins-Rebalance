@@ -84,7 +84,10 @@ NameStringID "IDS_CAPITALSHIP_PHASECARRIER_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PHASECARRIER_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_PHASECARRIER"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_MAXCAPITALSHIPSPHASE2"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

@@ -11,7 +11,10 @@ researchWindowLocation
 	pos [ 4 , 5 ]
 ResearchField "NonCombat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_SPEEDBUILDMODULE"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

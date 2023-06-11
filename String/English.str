@@ -1,32 +1,11 @@
 TXT
-NumStrings 8669
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_ALL_FOR_ONE_DESCRIPTION"
-	Value "Your forces gain a 10% damage bonus for each allied empire present in the current gravity well."
-StringInfo
-	ID "IDS_ABILITY_DIPLOMATIC_IMMUNITY_DESCRIPTION"
-	Value "Broadcasts of peace prevent the envoy from being the target of enemy fire."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SYNERGY_DESCRIPTION"
-	Value "Grants the Synergy ability to Beam Defense Platforms, allowing them to amplify the damage and shields of other nearby defense platforms. A 16.7% damage bonus that stacks up to 50%."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_1_DESCRIPTION"
-	Value "Grants access to the Titan Foundry and allows you to begin summoning the Vorastra Titan, a massive warship of immense power."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_2_DESCRIPTION"
-	Value "Allows you to continue summoning the Vorastra Titan."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_3_DESCRIPTION"
-	Value "Allows you to continue summoning the Vorastra Titan."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_4_DESCRIPTION"
-	Value "Allows you to finish recovery of the Vorastra Titan and launch it against your empire's enemies."
+NumStrings 8662
 StringInfo
 	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_NAME"
 	Value "Spawn Phase Stabilizer"
 StringInfo
 	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_DESCRIPTION"
-	Value "Spawns a phase stabilizer module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
+	Value "Spawns a phase stabilizer module in the current gravity well. When used with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves. On enemy planets, mimics the effects of the Vasari Phasic Superweapon."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
 	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 10% damage bonus to all ships present (or nearby) for the battle. (Damage bonus stacks up to 40%.)"
@@ -38,7 +17,7 @@ StringInfo
 	Value "If you successfully stop an invasion of one of your planets, all units orbiting that planet and neighboring planets gain a permanent 10% damage bonus (stacks up to 40%)."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
-	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of credits, metal, and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, with each planet you lose—by your own hand or your enemies'—you gain a permanent 10% damage bonus (stacking up to 50%)."
+	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of credits, metal and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, with each planet you lose—by your own hand or your enemies'—you gain a permanent 10% damage bonus (stacking up to 50%)."
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
 	Value "As the titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."
@@ -137,7 +116,7 @@ StringInfo
 	Value "Death Rites"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_DESCRIPTION"
-	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen comrade. A 10% damage buff that stacks up to 5 times, for a total bonus of up to 50%."
+	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen comrade. A 15% damage buff that stacks up to 6 times, for a total bonus of up to 90%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1_DESCRIPTION"
 	Value "Grants access to the Titan Foundry and allows you to begin construction on the Eradica Titan, a massive warship of immense power."
@@ -614,31 +593,31 @@ StringInfo
 	Value "Wave Subject 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE0_DESCRIPTION"
-	Value "Increases the damage of all Wave & Disintegrator weapons."
+	Value "Increases the damage of all Wave weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE1_NAME"
 	Value "Wave Subject 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE1_DESCRIPTION"
-	Value "Further increases the damage of all Wave & Disintegrator weapons."
+	Value "Further increases the damage of all Wave weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE2_NAME"
 	Value "Wave Subject 3"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE2_DESCRIPTION"
-	Value "Further increases the damage of all Wave & Disintegrator weapons."
+	Value "Further increases the damage of all Wave weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS_NAME"
 	Value "Wave Subject 4"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS_DESCRIPTION"
-	Value "Further increases the damage of all Wave & Disintegrator weapons."
+	Value "Further increases the damage of all Wave weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS1_NAME"
 	Value "Wave Subject 5"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ACCELERATED_WAVE_CANNONS1_DESCRIPTION"
-	Value "Further increases the damage of all Wave & Disintegrator weapons."
+	Value "Further increases the damage of all Wave weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_PULSEGUN0_NAME"
 	Value "Pulse Subject 1"
@@ -707,28 +686,28 @@ StringInfo
 	Value "Necessity and desperation for victory fuel further improvements in weapons. Increases damage of all main Vasari weapon types."
 StringInfo
 	ID "IDS_ABILITY_FLEETBEACON_NAME"
-	Value "Summon Frigate Fleet"
+	Value "Returning Armada"
 StringInfo
 	ID "IDS_ABILITY_FLEETBEACON_DESCRIPTION"
-	Value "Other remnants of the Dark Fleet are contacted and summoned, causing them to arrive via Phase Stabilizers constructed by your empire. Summons 4 each of Long-Range Frigates, Anti-Fighter Frigates, Siege Frigates, Anti-Module Cruisers, and Corvettes."
+	Value "Other remnants of the Dark Fleet are contacted and summoned, causing them to arrive via Phase Stabilizers constructed by your empire."
 StringInfo
 	ID "IDS_ABILITY_DARKCOMBATFLEET_NAME"
 	Value "Summon Cruiser Fleet"
 StringInfo
 	ID "IDS_ABILITY_DARKCOMBATFLEET_DESCRIPTION"
-	Value "A group of cruisers are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 2 Heavy cruisers, 1 Carrier cruisers, 1 Combat Support cruiser, and 4 Healer Support cruisers."
+	Value "A group of cruisers are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 2 Heavy cruisers, 2 Carrier cruisers, 1 Combat Support cruiser, and 3 Healer Support cruisers."
 StringInfo
 	ID "IDS_ABILITY_DARKSUPPORTFLEET_NAME"
 	Value "Summon Support Fleet"
 StringInfo
 	ID "IDS_ABILITY_DARKSUPPORTFLEET_DESCRIPTION"
-	Value "A group of support ships are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons an Envoy, 3 Scouts, and 4 Starbase Constructors."
+	Value "A group of support ships are summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons an Envoy, 3 Scouts, and 2 Starbase Constructors."
 StringInfo
 	ID "IDS_ABILITY_DARKCAPITALSHIP_NAME"
 	Value "Summon Capital Ship Fleet"
 StringInfo
 	ID "IDS_ABILITY_DARKCAPITALSHIP_DESCRIPTION"
-	Value "A group of capital ships is summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 3 Healer Colonists, 1 Assault, 1 Battleship, 1 Combat Support, 1 Carrier, and 1 Siege capitalship."
+	Value "A group of capital ships is summoned from the Dark Fleet and will arrive at the gravity well where the Phase Stabilizer resides. Summons 2 Healer Colonist, 2 Assault, 2 Battleship, 2 Combat Support, 1 Carrier, and 1 Siege capitals."
 StringInfo
 	ID "IDS_ABILITY_REACTIVENANITEARMOR_NAME"
 	Value "Reactive Nanite Plating"
@@ -911,7 +890,7 @@ StringInfo
 	Value "More militia teams temporarily join ship crews within the gravity well, further bolstering armor and weapon damage within friendly territory."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_A_PLANET_DESCRIPTION"
-	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships one time & permanently increasing weapon damage by 10%. (Stacks up to a total 30% bonus.)"
+	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships one time & permanently increasing weapon damage by 10%. (Stacks for a total of 40% damage.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPPHASE_NAME"
 	Value "Unstoppable Scouting"
@@ -1283,31 +1262,31 @@ StringInfo
 	Value "Demoralizes an enemy ship's crew so thoroughly that it can no longer move and fight as effectively."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECH_DESCRIPTION"
-	Value "The Trader Emergency Coalition favors terran & aquatic planets. Have the weakest culture but the best economy & ship production. TEC ships emphasize hull points & armor over shield points & mitigation."
+	Value "The Trader Emergency Coalition favors terran & aquatic planets. They have the weakest culture of the races but the best economy & ship production. TEC ships emphasize hull points & armor over shield points & mitigation."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSI_DESCRIPTION"
-	Value "The Advent favor arid, desolate, & cold planets. Have the strongest culture. Their ships emphasize shield points & shield mitigation over hull points & armor."
+	Value "The Advent favor arid, desolate, & cold planets. They have the strongest culture. Their ships emphasize shield points & shield mitigation over hull points & armor."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASE_DESCRIPTION"
-	Value "The Vasari favor hazardous, metallic, & weirdly-sized planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
+	Value "The Vasari favor hazardous, metallic, & unusually-sized planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
-	Value "TEC Loyalists are meant for turtling. With research, they gain large buffs for defending themselves. Their tactical structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. Weaker on the offense, they may find it hard to expand in the late-game. MAIN DAMAGE BUFFS: +50% in friendly wells; +10% per invasion repelled (capped at 40%)"
+	Value "TEC Loyalists are meant for turtling. With research, they have large buffs for fighting in any gravity well they (or an ally) control, their defensive structures are tougher and stronger, and their planetary shields block all damage to colonies. Their superweapons are cheaper and they can build more of them. Weaker on the offense, they may find it hard to expand in the late-game. Needs the least micromanagement of all factions."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
-	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for destroying enemy colonies, allowing them to steamroll deep into enemy territory. However, they are weaker in defensive battles. MAIN DAMAGE BUFFS: +40% in enemy wells; +10% per enemy planet destroyed (capped at 50%)"
+	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for destroying enemy colonies, allowing them to steamroll deep into enemy territory. However, they are weaker in defensive battles."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+35% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +10% per invasion repelled (capped at 40%)"
+	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
-	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +10% per ship lost (capped at 60%); +10% per planet lost (capped at 30%)"
+	Value "Advent Rebels have some nasty abilities. With research, many frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buff increases with each loss they take, allowing weakened fleets to punch above their weight. Requires micromanagement to get the most out of them, but in theory the most frustrating faction to fight against."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
-	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and raze planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +40% in neutral wells; +10% per planet lost (capped at 50%)"
+	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and raze planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs and can use debris from destroyed ships to restore health. Any ships they lose can be replaced using their Dark Fleet summons ability."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
-	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. However, they lose that buff during battles longer than a few minutes. They need micromanaging, cycling fleets in and out of phase space to stay strong. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. MAIN DAMAGE BUFFS: +90% at end of phase jump, +10% per ally present"
+	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. However, they lose their best buff during lengthy battles. They need micromanaging, cycling fleets in and out of phase space to stay strong."
 StringInfo
 	ID "IDS_FRIGATE_PIRATESIEGE_DESCRIPTION"
 	Value "A medium frigate that sacrifices conventional combat strength for planetary bombardment weapons."

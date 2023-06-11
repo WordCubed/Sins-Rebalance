@@ -40,7 +40,7 @@ stage
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "MaxAllegianceBonus"
-		value 0.025000
+		value 0.050000
 	upgradeBoolPropertyCount 0
 stage
 	price
@@ -60,6 +60,6 @@ stage
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "MaxAllegianceBonus"
-		value 0.050000
+		value 0.100000
 	upgradeBoolPropertyCount 0
 xpModifier 200.000000
