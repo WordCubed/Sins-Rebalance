@@ -40,7 +40,7 @@ stage
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "Population"
-		value 150.000000
+		value 333.333334
 	upgradeBoolPropertyCount 0
 stage
 	price
@@ -60,6 +60,6 @@ stage
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "Population"
-		value 300.000000
+		value 666.666667
 	upgradeBoolPropertyCount 0
 xpModifier 1000.000000

@@ -37,7 +37,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "StarBaseUpgradeCostAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.166667
+	perLevelValue -0.200000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880
