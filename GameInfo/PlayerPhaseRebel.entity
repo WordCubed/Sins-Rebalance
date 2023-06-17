@@ -50,7 +50,7 @@ entities
 		Page:0
 			count 6
 			entityDefName "FrigatePhaseLight"
-			entityDefName "CorvettePhaseLoyalist"
+			entityDefName "CorvettePhaseRebel"
 			entityDefName "FrigatePhaseLongRange"
 			entityDefName "FrigatePhaseSiege"
 			entityDefName "FrigatePhaseAntiFighter"
@@ -87,7 +87,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_FRIGATEACCESS_MINELAYERPHASE"
 		entityDefName "RESEARCHSUBJECT_FRIGATEACCESS_HEAVYPHASE"
 		entityDefName "RESEARCHSUBJECT_FRIGATEACCESS_CARRIERPHASE"
-		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILPHASEREBEL"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILPHASE"
 		entityDefName "RESEARCHSUBJECT_FRIGATEACCESS_SIEGEPHASE"
 		entityDefName "RESEARCHSUBJECT_PLANETBOMBING_RANGE"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_GRAVITYFIELD"

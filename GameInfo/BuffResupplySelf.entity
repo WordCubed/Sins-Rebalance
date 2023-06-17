@@ -46,8 +46,8 @@ periodicAction
 		numConstraints 1
 		constraint "NotSelf"
 	range
-		Level:0 12000.000000
-		Level:1 12000.000000
+		Level:0 166667.000000
+		Level:1 166667.000000
 		Level:2 0.000000
 		Level:3 0.000000
 	maxTargetCount

@@ -3,20 +3,38 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 2
+stackingLimit 1
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "MakeDead"
+	buffInstantActionType "DoDamage"
 	instantActionTriggerType "OnDelay"
-	delayTime 4.00000
+	delayTime 0.000000
+	damage
+		Level:0 999999.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
+	damageType "ENERGY"
+	isDamageShared TRUE
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
-numEntityBoolModifiers 0
+numEntityBoolModifiers 5
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "DisableConstruction"
+entityBoolModifier "DisableModuleFunctionality"
+entityBoolModifier "DisableRegeneration"
+entityBoolModifier "DisableWeapons"
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 180.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
