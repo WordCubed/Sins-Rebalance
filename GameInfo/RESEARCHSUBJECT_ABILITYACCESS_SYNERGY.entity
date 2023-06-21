@@ -8,7 +8,7 @@ NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SYNERGY_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SYNERGY_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 2 ]
+	pos [ 2 , 4 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0

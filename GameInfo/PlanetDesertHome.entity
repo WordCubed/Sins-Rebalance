@@ -89,7 +89,7 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxPopulation 75.000000
+			maxPopulation 105.000000
 			populationGrowthRate 2.000000
 			developmentTaxPenalty -3.750000
 		stage
@@ -98,7 +98,7 @@ planetUpgradeDef
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxPopulation 100.000000
+			maxPopulation 140.000000
 			populationGrowthRate 2.000000
 			developmentTaxPenalty -2.500000
 		stage
@@ -107,7 +107,7 @@ planetUpgradeDef
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxPopulation 175.000000
+			maxPopulation 245.000000
 			populationGrowthRate 2.000000
 			developmentTaxPenalty 0.000000
 		stage
@@ -116,7 +116,7 @@ planetUpgradeDef
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 30.000000
-			maxPopulation 250.000000
+			maxPopulation 350.000000
 			populationGrowthRate 2.000000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
@@ -361,10 +361,10 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 18900.000000
+	creditsOnStrippedToTheCore 25000.000000
 	metalOnStrippedToTheCore 7200.000000
 	crystalOnStrippedToTheCore 7200.000000
-	extraScuttleTimeOnStrip 5.000000
+	extraScuttleTimeOnStrip 0.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"
 renderShield TRUE

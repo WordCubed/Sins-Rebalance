@@ -44,9 +44,9 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_PSICARRIER"
 basePrice
-	credits 4200.000000
-	metal 700.000000
-	crystal 350.000000
+	credits 3600.000000
+	metal 720.000000
+	crystal 360.000000
 slotCount 24.000000
 BuildTime 180.000000
 MaxHullPoints

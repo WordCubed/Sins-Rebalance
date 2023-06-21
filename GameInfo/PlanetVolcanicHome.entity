@@ -400,7 +400,7 @@ planetRuinDef
 	creditsOnStrippedToTheCore 22320.000000
 	metalOnStrippedToTheCore 7200.000000
 	crystalOnStrippedToTheCore 7200.000000
-	extraScuttleTimeOnStrip 5.000000
+	extraScuttleTimeOnStrip 0.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"
 renderShield TRUE

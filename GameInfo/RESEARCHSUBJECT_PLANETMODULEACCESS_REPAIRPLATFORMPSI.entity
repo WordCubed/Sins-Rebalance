@@ -8,7 +8,7 @@ NameStringID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPSI_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 3 ]
+	pos [ 2 , 2 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0

@@ -8,12 +8,12 @@ NameStringID "IDS_RESEARCHSUBJECT_WEAPONFINALPSI_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_WEAPONFINALPSI_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 4 ]
+	pos [ 7 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_WEAPONCOOLDOWN_PLASMA2"
+		Subject "RESEARCHSUBJECT_WEAPONRANGE_BEAM2"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

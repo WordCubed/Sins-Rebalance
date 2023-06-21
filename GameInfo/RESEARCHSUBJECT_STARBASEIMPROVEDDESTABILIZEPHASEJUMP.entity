@@ -8,13 +8,13 @@ NameStringID "IDS_RESEARCHSUBJECT_STARBASEIMPROVEDDESTABILIZEPHASEJUMP_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_STARBASEIMPROVEDDESTABILIZEPHASEJUMP_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 5 , 4 ]
+	pos [ 5 , 3 ]
 ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_STARBASEWEAPONBANKTARGETSTECH"
-		Level 2
+		Subject "RESEARCHSUBJECT_TWIN_FORTRESSES"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
