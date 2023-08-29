@@ -45,8 +45,8 @@ instantAction
 		Level:2 2.600000
 		Level:3 2.600000
 	maxTargetCount
-		Level:0 12.000000
-		Level:1 18.000000
+		Level:0 24.000000
+		Level:1 24.000000
 		Level:2 24.000000
 		Level:3 0.000000
 	effectInfo

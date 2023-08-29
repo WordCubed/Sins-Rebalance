@@ -32,9 +32,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "HullAndAntimatter"
 hullCost
-	Level:0 7500.000000
-	Level:1 11250.000000
-	Level:2 15000.000000
+	Level:0 5000.000000
+	Level:1 7500.000000
+	Level:2 10000.000000
 	Level:3 0.000000
 antiMatterCost
 	Level:0 60.000000

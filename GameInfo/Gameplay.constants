@@ -16,7 +16,7 @@ GameplayConstants
 	unexploredPhaseLaneWidth 0.5
 	gravWellThickness 1.0
 	cannonsPerGravityWellRatio 1
-	cannonGravityWellRatioDenominator 3
+	cannonGravityWellRatioDenominator 2.5
 	maxAiCannons 6
 	preferNewAssetsGameCountThreshold 5
 	EconomyData

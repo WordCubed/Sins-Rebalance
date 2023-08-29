@@ -3,8 +3,8 @@ SinsArchiveVersion 194
 entityType "Titan"
 ability:0 "AbilityNanoLeech"
 ability:1 "AbilityNanoRemit"
-ability:2 "AbilityTheMaw"
-ability:3 "AbilitySpawnPhaseStabilizer"
+ability:2 "AbilitySpawnPhaseStabilizer"
+ability:3 "AbilityTheMaw"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

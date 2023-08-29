@@ -24,7 +24,7 @@ minExperienceLevelRequired
 	Level:1 3.000000
 	Level:2 6.000000
 	Level:3 0.000000
-aiUseTime "OnlyInCombat"
+aiUseTime "OnlyWhenOrbitingEnemyPlanet"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
