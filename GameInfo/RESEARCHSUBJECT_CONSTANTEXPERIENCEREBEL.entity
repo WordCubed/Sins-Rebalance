@@ -1,0 +1,48 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_CONSTANTEXPERIENCE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_CONSTANTEXPERIENCE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_CONSTANTEXPERIENCE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_CONSTANTEXPERIENCE_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 5 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 0.000000
+BaseCost
+	credits 1200.000000
+	metal 150.000000
+	crystal 300.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 3
+researchModifier
+	modifierType "ExperienceConstantGainRate"
+	baseValue 0.000000
+	perLevelValue 2.000000
+researchModifier
+	modifierType "ExperienceConstantGainLevelCap"
+	baseValue 0.000000
+	perLevelValue 3.000000
+researchModifier
+	modifierType "ExperienceAwardedAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.200000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

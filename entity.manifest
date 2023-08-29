@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2134
+entityNameCount 2135
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -1491,6 +1491,7 @@ entityName "RESEARCHSUBJECT_CLEANSE_AND_RENEW.entity"
 entityName "RESEARCHSUBJECT_COMMON_FUTURE.entity"
 entityName "RESEARCHSUBJECT_CONFLUENCE_OF_THE_UNITY.entity"
 entityName "RESEARCHSUBJECT_CONSTANTEXPERIENCE.entity"
+entityName "RESEARCHSUBJECT_CONSTANTEXPERIENCEREBEL.entity"
 entityName "RESEARCHSUBJECT_CORVETTEACCESS_PHASE.entity"
 entityName "RESEARCHSUBJECT_CORVETTEACCESS_PHASELOYALIST.entity"
 entityName "RESEARCHSUBJECT_CORVETTEACCESS_PHASEREBEL.entity"
