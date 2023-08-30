@@ -16,7 +16,7 @@ hasBombingLevels FALSE
 baseDamage 250.000000
 basePopulationKilled 3.000000
 bombingFreqTime 5.000000
-baseRange 4000.000000
+baseRange 6000.000000
 bombTransitTime 4.000000
 bombEffectCount 2
 bombEffectAngleVariance 2.500000

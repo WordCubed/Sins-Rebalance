@@ -45,8 +45,8 @@ bombEffectsDef
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_TECHSIEGE"
 basePrice
 	credits 3600.000000
-	metal 600.000000
-	crystal 300.000000
+	metal 720.000000
+	crystal 360.000000
 slotCount 24.000000
 BuildTime 180.000000
 MaxHullPoints
