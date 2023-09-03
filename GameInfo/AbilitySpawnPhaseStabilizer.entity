@@ -9,7 +9,7 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
+maxNumLevels 3
 levelSourceType "TitanUpgradeLevel"
 sourcePropertyType "AbilityCLevel"
 aiUseTime "OnlyWhenOrbitingEnemyPlanet"
