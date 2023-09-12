@@ -32,7 +32,7 @@ entryVehicleLaunchInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-afterColonizeBuffType "BuffPlanetConstructionBoost"
+afterColonizeBuffType "BuffTechCapitalColonize"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -68,7 +68,7 @@ researchPrerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_COLONIZE_NAME"
-descStringID "IDS_ABILITY_COLONIZEPHASE_DESCRIPTION"
+descStringID "IDS_ABILITY_COLONIZETECH_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_COLONIZEPHASE"
 smallHudIcon "HUDICON_ABILITY_COLONIZEPHASE"
 infoCardIcon ""
