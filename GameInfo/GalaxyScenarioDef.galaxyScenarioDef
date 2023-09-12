@@ -402,13 +402,12 @@ planetType
 planetType
 	designName "RandomHighPop"
 	designStringId "IDSGalaxyScenarioTypePlanetHighPop"
-	orbitBodyTypeCount 7
+	orbitBodyTypeCount 6
 	orbitBodyType "Desert"
-	orbitBodyType "Savannah"
-	orbitBodyType "Swamp"
 	orbitBodyType "Terran"
-	orbitBodyType "Tropical"
 	orbitBodyType "Industrial"
+	orbitBodyType "Swamp"
+	orbitBodyType "Tropical"
 	orbitBodyType "Oceanic"
 planetType
 	designName "RandomHighResourceColonizable"
