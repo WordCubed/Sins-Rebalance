@@ -449,7 +449,7 @@ planetType
 	orbitBodyType "PlasmaStorm"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "Cryo"
-	orbitBodyType "Carbon"
+	orbitBodyType "Arctic"
 	orbitBodyType "Hydrocarbon"
 planetType
 	designName "RandomHighResourceAll"
