@@ -34,7 +34,7 @@ GameplayConstants
 		allegiancePassiveLossRate -0.005000000
 		allegianceFriendlyMaxGainRate 0.005000000
 		allegianceEnemyMaxLossRate -0.005000000
-		allegianceGainFromCultureMax 0.05
+		allegianceGainFromCultureMax 0.10
 		startingPopulationPercOfMax 0.5
 		healthOnColonize 1000.0
 		healthRegenRatePercWhenBombed .200
@@ -983,7 +983,7 @@ GameplayConstants
 			FactionName "IDS_PLAYERFACTIONNAME_REBEL"
 			FactionName "IDS_PLAYERFACTIONNAME_LOYALIST"
 	playerTradeNetworkDef
-		incomeRateBonusPerLongestNodeDistanceNode .25
+		incomeRateBonusPerLongestNodeDistanceNode .1
 	targetTypeCounterData
 	aiData
 		aiRetreatThreshold 0.25
