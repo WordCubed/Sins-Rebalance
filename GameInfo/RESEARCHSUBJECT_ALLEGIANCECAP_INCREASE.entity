@@ -37,7 +37,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "AllegianceFromCultureMaxPerc"
 	baseValue 0.000000
-	perLevelValue 0.025000
+	perLevelValue 0.050000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
