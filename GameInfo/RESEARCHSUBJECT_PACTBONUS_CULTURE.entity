@@ -34,11 +34,11 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "AllegianceFromCultureMaxPerc"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "CultureResistPercent"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "CultureWeaponDamageAdjustment"
 	baseValue 0.000000
