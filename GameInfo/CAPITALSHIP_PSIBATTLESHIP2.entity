@@ -45,8 +45,8 @@ bombEffectsDef
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_PSIBATTLESHIP2"
 basePrice
 	credits 3000.000000
-	metal 500.000000
-	crystal 250.000000
+	metal 600.000000
+	crystal 300.000000
 slotCount 20.000000
 BuildTime 150.000000
 MaxHullPoints

@@ -9,7 +9,7 @@ floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation 0.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian -6.000000
-floatBonus:AdditiveSlotsTactical -16.000000
+floatBonus:AdditiveSlotsTactical -9.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
