@@ -332,7 +332,7 @@ StringInfo
 	Value "Resilient Metaloids"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_DESCRIPTION"
-	Value "A new compound grants faster hull regen & higher armor when incorporated into hull plating. Also reduces bombing damage taken by planets."
+	Value "A new compound grants faster hull regen & higher armor when incorporated into hull plating."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_NAME"
 	Value "Phase Accelerator"

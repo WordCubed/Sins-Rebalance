@@ -30,19 +30,15 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 2
 researchModifier
 	modifierType "HullPointsRegenAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.500000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "ArmorBaseAdjustment"
 	baseValue 0.000000
 	perLevelValue 2.500000
-researchModifier
-	modifierType "BombingDamageAsDamageTargetAdjustment"
-	baseValue 0.000000
-	perLevelValue -0.100000
 artifactPicture "ArtifactPictureHullRepairOverTimeIncrease"
 uniqueOverlayBrush ""
 dlcId 204880
