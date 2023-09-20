@@ -19,9 +19,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_PSIORBITALANTIMATTERRECHARGER"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 2.000000
 basePrice
-	credits 1200.000000
-	metal 200.000000
-	crystal 100.000000
+	credits 800.000000
+	metal 160.000000
+	crystal 80.000000
 NameStringID "IDS_PLANETMODULE_PSIORBITALANTIMATTERRECHARGER_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PSIORBITALANTIMATTERRECHARGER_DESCRIPTION"
 planetModuleRoleType "ANTIMATTERRECHARGER"
@@ -33,11 +33,11 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 12000.000000
-HullPointRestoreRate 30.000000
+MaxHullPoints 2000.000000
+HullPointRestoreRate 4.166667
 BaseArmorPoints 20.000000
-MaxShieldPoints 0.000000
-ShieldPointRestoreRate 0.000000
+MaxShieldPoints 4000.333333
+ShieldPointRestoreRate 16.666667
 maxShieldMitigation 0.700000
 ExperiencePointsForDestroying 150.000000
 resourceExtractionType "Invalid"

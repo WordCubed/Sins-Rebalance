@@ -30,11 +30,11 @@ Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 32000.000000
-HullPointRestoreRate 106.666667
+MaxHullPoints 8000.000000
+HullPointRestoreRate 16.666667
 BaseArmorPoints 15.000000
-MaxShieldPoints 0.000000
-ShieldPointRestoreRate 0.000000
+MaxShieldPoints 16000.000000
+ShieldPointRestoreRate 66.666667
 maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 400.000000
 resourceExtractionType "Invalid"

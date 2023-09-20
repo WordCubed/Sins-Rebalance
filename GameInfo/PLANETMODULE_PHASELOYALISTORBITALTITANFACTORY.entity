@@ -33,11 +33,11 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 48000.000000
-HullPointRestoreRate 200.000000
+MaxHullPoints 18000.000000
+HullPointRestoreRate 37.500000
 BaseArmorPoints 15.000000
-MaxShieldPoints 0.000000
-ShieldPointRestoreRate 0.000000
+MaxShieldPoints 18000.000000
+ShieldPointRestoreRate 75.000000
 maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 600.000000
 resourceExtractionType "Invalid"
