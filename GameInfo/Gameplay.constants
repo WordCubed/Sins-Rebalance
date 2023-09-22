@@ -140,7 +140,7 @@ GameplayConstants
 		AdditionalPriceModifierPerLevel 0.111112
 		AdditionalBuildTimeModifierPerLevel 0.111112
 	cultureData
-		minPropagatedCultureRate 0.001
+		minPropagatedCultureRate 0.010
 		culturePropagationPerc .5
 		cultureDecayRate -0.5
 		neutralOrbitBodyCultureRepelRateMultiplier 0.5

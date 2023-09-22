@@ -1,5 +1,11 @@
 TXT
-NumStrings 8669
+NumStrings 8671
+StringInfo
+	ID "IDS_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT_NAME"
+	Value "Buy Vasari Assault Capital"
+StringInfo
+	ID "IDS_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT_DESCRIPTION"
+	Value "The Minor Faction sells you a Vasari capital ship."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ALL_FOR_ONE_DESCRIPTION"
 	Value "Your forces gain a 10% damage bonus for each allied empire present in the current gravity well."
