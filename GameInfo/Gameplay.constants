@@ -37,9 +37,9 @@ GameplayConstants
 		allegianceGainFromCultureMax 0.10
 		startingPopulationPercOfMax 0.5
 		healthOnColonize 1000.0
-		healthRegenRatePercWhenBombed .200
+		healthRegenRatePercWhenBombed .500
 		considerBeingBombedTimeForHealthRegen 30
-		considerBeingBombedTimeForPopulationGrowth 120
+		considerBeingBombedTimeForPopulationGrowth 60
 		populationGrowthPercWhenBombed 0.20
 		moduleConstructorRespawnTime 30
 		moduleConstructorRespawnTimeWithEnemies 60
@@ -1192,7 +1192,7 @@ GameplayConstants
 		planet "PlanetBarren"
 		planet "PlanetShatteredMoon"
 		planet "PlanetShipGraveyard"
-		colonizablePlanetsWithMinorFactionsPercent 0.25
+		colonizablePlanetsWithMinorFactionsPercent 0.2
 		minConnectionDistanceToColonizedPlanets 2
 		minConnectionDistanceToSameFactionPlanets 5
 		minAdjacentPlanetCount 2
