@@ -37,7 +37,7 @@ GameplayConstants
 		allegianceGainFromCultureMax 0.10
 		startingPopulationPercOfMax 0.5
 		healthOnColonize 1000.0
-		healthRegenRatePercWhenBombed .500
+		healthRegenRatePercWhenBombed .200
 		considerBeingBombedTimeForHealthRegen 30
 		considerBeingBombedTimeForPopulationGrowth 60
 		populationGrowthPercWhenBombed 0.20
