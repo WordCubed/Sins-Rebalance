@@ -33,15 +33,19 @@ onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
 researchModifier
 	modifierType "CultureShieldRegenAmount"
 	baseValue 0.000000
-	perLevelValue 1.000000
+	perLevelValue 5.000000
 researchModifier
 	modifierType "CultureShieldMitigationAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.010000
+	perLevelValue 0.025000
+researchModifier
+	modifierType "ChanceToIgnoreShieldsAsDamageTarget"
+	baseValue 0.000000
+	perLevelValue -0.100000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

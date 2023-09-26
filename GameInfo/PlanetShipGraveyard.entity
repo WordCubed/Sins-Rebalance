@@ -341,8 +341,8 @@ planetRuinDef
 dlcId 255910
 ShieldMeshName "Shield_PlanetSmall"
 renderShield TRUE
-moveAreaRadius 12000.000000
-hyperspaceExitRadius 12000.000000
+moveAreaRadius 18000.000000
+hyperspaceExitRadius 18000.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 1
 maxSpaceMineCountPerPlayer 0
