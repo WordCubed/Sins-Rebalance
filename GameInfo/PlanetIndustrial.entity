@@ -335,7 +335,7 @@ skyboxScalars
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 2
 bonus "PlanetBonusIndustrialPowerhouse"
-bonus "PlanetBonusNice"
+bonus "PlanetBonusExtremelyNice"
 possibleRandomPlanetBonusesCount 8
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusAncientTradeRoutes"

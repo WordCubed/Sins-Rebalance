@@ -318,8 +318,7 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 0.700000
 	ambientScalar 0.250000
-requiredPlanetBonusesCount 1
-bonus "PlanetBonusHarsh"
+requiredPlanetBonusesCount 0
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusDepletedMines"

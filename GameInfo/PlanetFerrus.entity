@@ -363,8 +363,7 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 0.250000
-requiredPlanetBonusesCount 2
-bonus "PlanetBonusHarsh"
+requiredPlanetBonusesCount 1
 bonus "PlanetBonusMetalBonanza"
 possibleRandomPlanetBonusesCount 12
 bonus "PlanetBonusDenseCore"

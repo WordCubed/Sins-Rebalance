@@ -349,7 +349,7 @@ skyboxScalars
 	diffuseScalar 0.700000
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
-bonus "PlanetBonusNice"
+bonus "PlanetBonusExtremelyNice"
 possibleRandomPlanetBonusesCount 12
 bonus "PlanetBonusCulturalHub"
 bonus "PlanetBonusCulturalHub"

@@ -336,8 +336,7 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 0.200000
-requiredPlanetBonusesCount 1
-bonus "PlanetBonusHarsh"
+requiredPlanetBonusesCount 0
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmInTheStorm"
 bonus "PlanetBonusPartiallyTerraformed"

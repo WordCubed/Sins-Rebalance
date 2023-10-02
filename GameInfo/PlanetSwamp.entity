@@ -363,7 +363,8 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
-requiredPlanetBonusesCount 0
+requiredPlanetBonusesCount 1
+bonus "PlanetBonusNice"
 possibleRandomPlanetBonusesCount 6
 bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusForgettable"
