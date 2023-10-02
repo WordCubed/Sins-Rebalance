@@ -351,18 +351,22 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 0.200000
-requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 12
+requiredPlanetBonusesCount 1
+bonus "PlanetBonusNice"
+possibleRandomPlanetBonusesCount 15
+bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusCulturalHub"
+bonus "PlanetBonusCulturalHub"
+bonus "PlanetBonusJewelOfTheGalaxy"
+bonus "PlanetBonusJewelOfTheGalaxy"
 bonus "PlanetBonusJewelOfTheGalaxy"
 bonus "PlanetBonusLoyalGovernment"
-bonus "PlanetBonusNice"
+bonus "PlanetBonusProminent"
 bonus "PlanetBonusProminent"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
 bonus "PlanetBonusSubsurfaceMetalDeposits"
 bonus "PlanetBonusDisloyalGovernment"
-bonus "PlanetBonusForgettable"
 bonus "PlanetBonusSlums"
 bonus "PlanetBonusViolentStorms"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"

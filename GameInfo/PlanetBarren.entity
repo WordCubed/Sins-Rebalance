@@ -338,9 +338,10 @@ skyboxScalars
 	ambientScalar 0.150000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusBarren"
-possibleRandomPlanetBonusesCount 3
+possibleRandomPlanetBonusesCount 4
 bonus "PlanetBonusCalmInTheStorm"
-bonus "PlanetBonusForgettable"
+bonus "PlanetBonusFortified"
+bonus "PlanetBonusStrategicallyValuable"
 bonus "PlanetBonusStrategicallyValuable"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
@@ -360,7 +361,7 @@ renderShield TRUE
 moveAreaRadius 30000.000000
 hyperspaceExitRadius 30000.000000
 isWormhole FALSE
-maxStarBaseCountPerPlayer 1
+maxStarBaseCountPerPlayer 2
 maxSpaceMineCountPerPlayer 0
 minShadow 0.000000
 maxShadow 0.000000

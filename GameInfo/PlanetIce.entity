@@ -364,9 +364,8 @@ skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 6
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmInTheStorm"
-bonus "PlanetBonusForgettable"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusSanctuary"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"

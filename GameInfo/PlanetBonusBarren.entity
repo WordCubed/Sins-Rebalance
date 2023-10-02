@@ -25,7 +25,7 @@ floatBonus:PopulationGrowthPerc 0.000000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000
 intBonus:MaxSpaceMines 0
-intBonus:MaxStarbases 1
+intBonus:MaxStarbases 0
 intBonus:ModuleConstructors 1
 intBonus:SpacePonies 0
 dlcId 228601

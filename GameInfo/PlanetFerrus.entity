@@ -366,7 +366,7 @@ skyboxScalars
 requiredPlanetBonusesCount 2
 bonus "PlanetBonusHarsh"
 bonus "PlanetBonusMetalBonanza"
-possibleRandomPlanetBonusesCount 10
+possibleRandomPlanetBonusesCount 12
 bonus "PlanetBonusDenseCore"
 bonus "PlanetBonusDenseCore"
 bonus "PlanetBonusDenseCore"
@@ -374,9 +374,11 @@ bonus "PlanetBonusDenseCore"
 bonus "PlanetBonusDenseCore"
 bonus "PlanetBonusDepletedMines"
 bonus "PlanetBonusDisloyalGovernment"
-bonus "PlanetBonusForgettable"
+bonus "PlanetBonusFortified"
+bonus "PlanetBonusFortified"
 bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusPartiallyTerraformed"
+bonus "PlanetBonusSubsurfaceMetalDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

@@ -334,10 +334,9 @@ skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 9
+possibleRandomPlanetBonusesCount 8
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusDisloyalGovernment"
-bonus "PlanetBonusForgettable"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusPartiallyTerraformed"
