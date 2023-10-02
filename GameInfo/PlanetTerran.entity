@@ -379,7 +379,7 @@ skyboxScalars
 	diffuseScalar 0.700000
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
-bonus "PlanetBonusExtremelyNiceNice"
+bonus "PlanetBonusExtremelyNice"
 possibleRandomPlanetBonusesCount 13
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusCorruptGovernment"

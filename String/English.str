@@ -1,5 +1,14 @@
 TXT
-NumStrings 8671
+NumStrings 8674
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALREFINERY_NAME"
+	Value "Refinery"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYPHASE_NAME"
+	Value "Orbital Refineries"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REFINERYPHASE_DESCRIPTION"
+	Value "Grants access to the Refinery structure, which will dispatch cargo ships to gather refinable resources from extractors in nearby planetary systems."
 StringInfo
 	ID "IDS_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT_NAME"
 	Value "Buy Vasari Assault Capital"
