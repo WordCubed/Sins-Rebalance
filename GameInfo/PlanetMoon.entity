@@ -378,9 +378,8 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 1.000000
-requiredPlanetBonusesCount 2
+requiredPlanetBonusesCount 1
 bonus "PlanetBonusDwarf"
-bonus "PlanetBonusHarsh"
 possibleRandomPlanetBonusesCount 12
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusAncientTradeRoutes"
