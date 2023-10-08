@@ -9,9 +9,9 @@ relationshipDecayRate 0.000000
 happinessChangeForSuccess 0.050000
 happinessChangeForFailure -0.030000
 reward
-	credits 3000.000000
-	metal 450.000000
-	crystal 450.000000
+	credits 9000.000000
+	metal 1800.000000
+	crystal 1800.000000
 priceDemanded
 	credits 0.000000
 	metal 0.000000
