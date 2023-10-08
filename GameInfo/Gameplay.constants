@@ -608,9 +608,9 @@ GameplayConstants
 	researchSpeedData-Normal
 		researchRateGameSpeedScalar 0.0
 	researchSpeedData-Fast
-		researchRateGameSpeedScalar 1.0
-	researchSpeedData-Faster
 		researchRateGameSpeedScalar 2.0
+	researchSpeedData-Faster
+		researchRateGameSpeedScalar 4.0
 	incomeSpeedData-Slow
 		incomeRateGameSpeedScalar -0.5
 	incomeSpeedData-Normal
