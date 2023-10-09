@@ -320,13 +320,12 @@ skyboxScalars
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusNice"
-possibleRandomPlanetBonusesCount 7
-bonus "PlanetBonusCalmInTheStorm"
+possibleRandomPlanetBonusesCount 6
 bonus "PlanetBonusDepletedMines"
 bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusFertileSoil"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
-bonus "PlanetBonusSubsurfaceMetalDeposits"
+bonus "PlanetBonusFortified"
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusVacationDestination"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
