@@ -170,7 +170,7 @@ planetType
 planetType
 	designName "RandomColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomColonizable"
-	orbitBodyTypeCount 93
+	orbitBodyTypeCount 97
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
@@ -208,6 +208,10 @@ planetType
 	orbitBodyType "Cryo"
 	orbitBodyType "Cryo"
 	orbitBodyType "Cryo"
+	orbitBodyType "Desert"
+	orbitBodyType "Desert"
+	orbitBodyType "Desert"
+	orbitBodyType "Desert"
 	orbitBodyType "Desert"
 	orbitBodyType "Desert"
 	orbitBodyType "Desert"
@@ -330,8 +334,8 @@ planetType
 	orbitBodyType "MagneticCloud"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "Ferrus"
+	orbitBodyType "Volcanic"
 	orbitBodyType "Silicate"
-	orbitBodyType "ShipGraveyard"
 planetType
 	designName "RandomHighCrystalAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighCrystalAll"
@@ -560,11 +564,6 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "Savannah"
 planetType
-	designName "ShatteredMoon"
-	designStringId "IDSGalaxyScenarioTypePlanetShatteredMoon"
-	orbitBodyTypeCount 1
-	orbitBodyType "ShatteredMoon"
-planetType
 	designName "ShipGraveyard"
 	designStringId "IDSGalaxyScenarioTypePlanetShipGraveyard"
 	orbitBodyTypeCount 1
@@ -669,6 +668,11 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetRadiationStorm"
 	orbitBodyTypeCount 1
 	orbitBodyType "RadiationStorm"
+planetType
+	designName "ShatteredMoon"
+	designStringId "IDSGalaxyScenarioTypePlanetShatteredMoon"
+	orbitBodyTypeCount 1
+	orbitBodyType "ShatteredMoon"
 planetType
 	designName "Wormhole"
 	designStringId "IDSGalaxyScenarioTypePlanetWormhole"

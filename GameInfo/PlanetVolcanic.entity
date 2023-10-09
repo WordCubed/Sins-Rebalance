@@ -85,14 +85,14 @@ planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 6
 	metalResourceAsteroidSetup
-		minCount 3
-		maxCount 3
+		minCount 4
+		maxCount 4
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 3
-		maxCount 3
+		minCount 2
+		maxCount 2
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
@@ -389,12 +389,11 @@ skyboxScalars
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusExtremelyHarsh"
-possibleRandomPlanetBonusesCount 5
+possibleRandomPlanetBonusesCount 4
 bonus "PlanetBonusDenseCore"
 bonus "PlanetBonusFertileSoil"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
 bonus "PlanetBonusSubsurfaceMetalDeposits"
-bonus "PlanetBonusViolentStorms"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
