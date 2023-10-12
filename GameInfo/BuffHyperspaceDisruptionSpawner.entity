@@ -34,10 +34,10 @@ periodicAction
 		numConstraints 1
 		constraint "CanBeJumpBlocked"
 	range
-		Level:0 80000.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 166667.000000
+		Level:1 166667.000000
+		Level:2 166667.000000
+		Level:3 166667.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
