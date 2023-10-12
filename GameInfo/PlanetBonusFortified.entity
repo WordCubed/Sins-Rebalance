@@ -8,7 +8,7 @@ descStringID "IDS_PLANETBONUS_FORTIFIED_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation -10.000000
 floatBonus:AdditivePlanetHealth 4000.000000
-floatBonus:AdditiveSlotsCivilian -12.000000
+floatBonus:AdditiveSlotsCivilian -6.000000
 floatBonus:AdditiveSlotsTactical 30.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
