@@ -580,11 +580,11 @@ GameplayConstants
 		raidCost:3 32000
 		raidCost:4 64000
 	buildSpeedData-Slow
-		shipBuildRateGameSpeedScalar -1.0
-		moduleBuildRateGameSpeedScalar -1.0
+		shipBuildRateGameSpeedScalar -0.5
+		moduleBuildRateGameSpeedScalar -0.5
 	buildSpeedData-Normal
-		shipBuildRateGameSpeedScalar 2.0
-		moduleBuildRateGameSpeedScalar 2.0
+		shipBuildRateGameSpeedScalar 0.0
+		moduleBuildRateGameSpeedScalar 0.0
 	buildSpeedData-Fast
 		shipBuildRateGameSpeedScalar 4.0
 		moduleBuildRateGameSpeedScalar 4.0
@@ -599,10 +599,10 @@ GameplayConstants
 		allegianceShiftRateScalar 0.0
 	cultureSpeedData-Fast
 		cultureConnectionReferenceLength 750000
-		allegianceShiftRateScalar 1.0
+		allegianceShiftRateScalar 2.0
 	cultureSpeedData-Faster
 		cultureConnectionReferenceLength 1000000
-		allegianceShiftRateScalar 2.0
+		allegianceShiftRateScalar 4.0
 	researchSpeedData-Slow
 		researchRateGameSpeedScalar -0.5
 	researchSpeedData-Normal
@@ -1187,15 +1187,14 @@ GameplayConstants
 		npcIconOffset:PlanetIcon
 			xOffset 0
 			yOffset -52
-		colonizePlanetBlackListCount 4
+		colonizePlanetBlackListCount 3
 		planet "PlanetAsteroid"
 		planet "PlanetBarren"
-		planet "PlanetShatteredMoon"
 		planet "PlanetShipGraveyard"
 		colonizablePlanetsWithMinorFactionsPercent 0.2
-		minConnectionDistanceToColonizedPlanets 2
+		minConnectionDistanceToColonizedPlanets 3
 		minConnectionDistanceToSameFactionPlanets 5
-		minAdjacentPlanetCount 2
+		minAdjacentPlanetCount 4
 		infrastructurePlanetUpgradeLevel 4
 		populationPlanetUpgradeLevel 4
 		civilianModulesUpgradeLevel 4
