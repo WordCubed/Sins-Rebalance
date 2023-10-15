@@ -83,10 +83,10 @@ ringColor ffed8b3b
 cloudLayerTextureName "PlanetCloudLayer"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 6
+	totalMaxResourceAsteroids 5
 	metalResourceAsteroidSetup
-		minCount 4
-		maxCount 4
+		minCount 3
+		maxCount 3
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
@@ -404,7 +404,7 @@ planetRuinDef
 	soundID "EFFECT_STRIPPEDTOTHECORE"
 	creditsOnStrippedToTheCore 22320.000000
 	metalOnStrippedToTheCore 10800.000000
-	crystalOnStrippedToTheCore 10800.000000
+	crystalOnStrippedToTheCore 7200.000000
 	extraScuttleTimeOnStrip 0.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"
