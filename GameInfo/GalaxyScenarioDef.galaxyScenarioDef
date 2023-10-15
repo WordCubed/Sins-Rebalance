@@ -334,8 +334,8 @@ planetType
 	orbitBodyType "MagneticCloud"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "Ferrus"
+	orbitBodyType "ShipGraveyard"
 	orbitBodyType "Volcanic"
-	orbitBodyType "Silicate"
 planetType
 	designName "RandomHighCrystalAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighCrystalAll"
@@ -344,8 +344,8 @@ planetType
 	orbitBodyType "PlasmaStorm"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "Cryo"
-	orbitBodyType "Arctic"
 	orbitBodyType "Hydrocarbon"
+	orbitBodyType "Arctic"
 planetType
 	designName "RandomHighResourceAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighResourceAll"
@@ -455,9 +455,11 @@ planetType
 planetType
 	designName "RandomIron"
 	designStringId "IDSGalaxyScenarioTypePlanetIron"
-	orbitBodyTypeCount 4
+	orbitBodyTypeCount 6
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
+	orbitBodyType "Ferrus"
+	orbitBodyType "ShipGraveyard"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "Asteroid"
 planetType
