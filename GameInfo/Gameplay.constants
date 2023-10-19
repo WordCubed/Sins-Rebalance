@@ -599,10 +599,10 @@ GameplayConstants
 		allegianceShiftRateScalar 0.0
 	cultureSpeedData-Fast
 		cultureConnectionReferenceLength 750000
-		allegianceShiftRateScalar 2.0
+		allegianceShiftRateScalar 4.0
 	cultureSpeedData-Faster
 		cultureConnectionReferenceLength 1000000
-		allegianceShiftRateScalar 4.0
+		allegianceShiftRateScalar 16.0
 	researchSpeedData-Slow
 		researchRateGameSpeedScalar -0.5
 	researchSpeedData-Normal
