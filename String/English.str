@@ -1,5 +1,20 @@
 TXT
-NumStrings 8674
+NumStrings 8679
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_CLEANSE_AND_RENEW_DESCRIPTION"
+	Value "The Unity's followers gain the ability to harness energy from the gravity wells of newly conquered planets. Temporarily boosts antimatter regen rates and weapon damage."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ASSIMILATED_POPULACE_DESCRIPTION"
+	Value "The populace of newly conquered worlds embrace the message of the Unity with vigor, doubling the planet's tax income. Vital for overcoming the Advent's otherwise weak economy."
+StringInfo
+	ID "IDS_FRIGATE_TECHMODULECONSTRUCTOR_NAME"
+	Value "Constructor Ship"
+StringInfo
+	ID "IDS_FRIGATE_PSIMODULECONSTRUCTOR_NAME"
+	Value "Constructor Ship"
+StringInfo
+	ID "IDS_FRIGATE_PHASEMODULECONSTRUCTOR_NAME"
+	Value "Constructor Ship"
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALREFINERY_NAME"
 	Value "Refinery"
@@ -926,7 +941,7 @@ StringInfo
 	Value "More militia teams temporarily join ship crews within the gravity well, further bolstering armor and weapon damage within friendly territory."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_A_PLANET_DESCRIPTION"
-	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships one time & permanently increasing weapon damage by 10%. (Stacks up to a total 30% bonus.)"
+	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships one time & permanently increasing weapon damage by 10%. (Stacks up to a total 40% bonus.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPPHASE_NAME"
 	Value "Unstoppable Scouting"
@@ -1313,10 +1328,10 @@ StringInfo
 	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for destroying enemy colonies, allowing them to steamroll deep into enemy territory. However, they are weaker in defensive battles. MAIN DAMAGE BUFFS: +40% in enemy wells; +10% per enemy planet destroyed (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+90% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +10% per invasion repelled (capped at 40%)"
+	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+70% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +10% per invasion repelled (capped at 40%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
-	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +10% per ship lost (capped at 60%); +10% per planet lost (capped at 30%)"
+	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +10% per ship lost (capped at 50%); +40% per planet lost (capped at 30%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
 	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and raze planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +40% in neutral wells; +10% per planet lost (capped at 50%)"
