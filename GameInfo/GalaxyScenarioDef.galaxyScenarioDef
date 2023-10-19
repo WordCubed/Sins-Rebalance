@@ -426,7 +426,7 @@ planetType
 	orbitBodyType "Tropical"
 planetType
 	designName "RandomIce"
-	designStringId "IDSGalaxyScenarioTypePlanetIce"
+	designStringId "IDSGalaxyScenarioTypePlanetRandomIce"
 	orbitBodyTypeCount 3
 	orbitBodyType "Arctic"
 	orbitBodyType "Tundra"
@@ -464,14 +464,14 @@ planetType
 	orbitBodyType "Asteroid"
 planetType
 	designName "RandomTiny"
-	designStringId "IDSGalaxyScenarioTypePlanetDeviate"
+	designStringId "IDSGalaxyScenarioTypePlanetSmall"
 	orbitBodyTypeCount 3
 	orbitBodyType "Moon"
 	orbitBodyType "Asteroid"
 	orbitBodyType "ShipGraveyard"
 planetType
 	designName "RandomGiant"
-	designStringId "IDSGalaxyScenarioTypePlanetDeviate"
+	designStringId "IDSGalaxyScenarioTypePlanetBig"
 	orbitBodyTypeCount 2
 	orbitBodyType "GasGiant"
 	orbitBodyType "RockGiant"

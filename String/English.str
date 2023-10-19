@@ -1,5 +1,5 @@
 TXT
-NumStrings 8679
+NumStrings 8681
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CLEANSE_AND_RENEW_DESCRIPTION"
 	Value "The Unity's followers gain the ability to harness energy from the gravity wells of newly conquered planets. Temporarily boosts antimatter regen rates and weapon damage."
@@ -1328,7 +1328,7 @@ StringInfo
 	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for destroying enemy colonies, allowing them to steamroll deep into enemy territory. MAIN DAMAGE BUFFS: +40% in enemy wells; +10% per enemy planet destroyed (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+70% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +10% per invasion repelled (capped at 40%)"
+	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+80% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +10% per invasion repelled (capped at 40%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
 	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +10% per ship lost (capped at 50%); +10% per planet lost (capped at 40%)"
@@ -1375,7 +1375,7 @@ StringInfo
 	ID "IDSGalaxyScenarioTypePlanetWater"
 	Value "Random Water Planet"
 StringInfo
-	ID "IDSGalaxyScenarioTypePlanetIce"
+	ID "IDSGalaxyScenarioTypePlanetRandomIce"
 	Value "Random Ice Planet"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetArid"
@@ -1390,8 +1390,11 @@ StringInfo
 	ID "IDSGalaxyScenarioTypePlanetIron"
 	Value "Random Iron Planet"
 StringInfo
-	ID "IDSGalaxyScenarioTypePlanetDeviate"
-	Value "Random Deviate Planet"
+	ID "IDSGalaxyScenarioTypePlanetSmall"
+	Value "Random Tiny Planet"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetBig"
+	Value "Random Giant Planet"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetHighPop"
 	Value "Random High-Population Planet"
@@ -1446,6 +1449,9 @@ StringInfo
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetHydrocarbon"
 	Value "Hydrocarbon"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetIce"
+	Value "Arctic"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetMountains"
 	Value "Mountainous"
