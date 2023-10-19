@@ -40,10 +40,10 @@ stage
 	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "CultureSpreadRate"
-		value 2.000000
+		value 1.000000
 	upgradeProperty
 		propertyType "EnemyCultureRepelRate"
-		value 0.500000
+		value 1.000000
 	upgradeProperty
 		propertyType "CultureMeshLevel"
 		value 1.000000
@@ -66,10 +66,10 @@ stage
 	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "CultureSpreadRate"
-		value 4.000000
+		value 2.000000
 	upgradeProperty
 		propertyType "EnemyCultureRepelRate"
-		value 1.000000
+		value 2.000000
 	upgradeProperty
 		propertyType "CultureMeshLevel"
 		value 1.000000
