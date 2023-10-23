@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-Entanglement"
-browseName "Entanglement (ReBalance)"
+browseName "Entanglement (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_ENTANGLEMENT"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
@@ -21,11 +21,12 @@ quickStartHomePlanetUpgradeLevel:TacticalModules 4
 quickStartHomePlanetUpgradeLevel:Home 1
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
-recommendedGameTypeCount 2
+recommendedGameTypeCount 3
+recommendedGameType "TwoTeamsOfTwo"
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
-metersPerGalaxyUnit 51500.000000
-pixelsPerGalaxyUnit 11.119994
+metersPerGalaxyUnit 100000.000000
+pixelsPerGalaxyUnit 12.079993
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
@@ -218,7 +219,7 @@ star
 	planet
 		designName "Planet8"
 		inGameName ""
-		type "RandomArid"
+		type "RandomDesolate"
 		pos [ 63 , 6 ]
 		owner ""
 		isHomePlanet FALSE
@@ -243,7 +244,7 @@ star
 	planet
 		designName "Planet9"
 		inGameName ""
-		type "RandomDesolate"
+		type "RandomArid"
 		pos [ 62 , 11 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1490,7 +1491,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 67
+	connectionCount 80
 	connection
 		planetIndexA 0
 		planetIndexB -1
@@ -1549,11 +1550,6 @@ star
 	connection
 		planetIndexA 11
 		planetIndexB 10
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 13
-		planetIndexB 8
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1772,11 +1768,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 51
-		planetIndexB 21
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 21
 		planetIndexB 0
 		spawnProbability 1.000000
@@ -1824,6 +1815,81 @@ star
 	connection
 		planetIndexA 57
 		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 11
+		planetIndexB 46
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 52
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB 12
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 9
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 3
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 56
+		planetIndexB 50
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 50
+		planetIndexB 42
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 36
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 41
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 47
+		planetIndexB 1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 37
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 44
+		planetIndexB 45
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 39
+		planetIndexB 25
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 40
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 27
+		planetIndexB 49
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
