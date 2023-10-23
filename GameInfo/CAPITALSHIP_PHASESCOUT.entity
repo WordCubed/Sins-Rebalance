@@ -3,8 +3,8 @@ SinsArchiveVersion 194
 entityType "CapitalShip"
 ability:0 "AbilityHitAndRun"
 ability:1 "AbilityGravityWarhead"
-ability:2 "AbilityDisruptiveStrikes"
-ability:3 "AbilityDisintegration"
+ability:2 "AbilityPhaseGateCapital"
+ability:3 "AbilityDisruptiveStrikes"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

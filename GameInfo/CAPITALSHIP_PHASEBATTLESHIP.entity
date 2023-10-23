@@ -4,7 +4,7 @@ entityType "CapitalShip"
 ability:0 "AbilityNanoDisassembler"
 ability:1 "AbilityNanoAssembler"
 ability:2 "AbilityPowerSurge"
-ability:3 "AbilityPhaseBeam"
+ability:3 "AbilityDisintegration"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE

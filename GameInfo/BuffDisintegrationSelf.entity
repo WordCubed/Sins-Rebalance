@@ -57,7 +57,7 @@ numOverTimeActions 5
 overTimeAction
 	buffOverTimeActionType "DoDamageToTarget"
 	damageRate
-		Level:0 180.000000
+		Level:0 600.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
@@ -67,7 +67,7 @@ overTimeAction
 overTimeAction
 	buffOverTimeActionType "DoDamageToTarget"
 	damageRate
-		Level:0 180.000000
+		Level:0 600.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
@@ -77,21 +77,21 @@ overTimeAction
 overTimeAction
 	buffOverTimeActionType "RestoreHull"
 	hullRestoreRate
-		Level:0 180.000000
+		Level:0 450.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
 overTimeAction
 	buffOverTimeActionType "RestoreShields"
 	shieldRestoreRate
-		Level:0 180.000000
+		Level:0 450.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
 overTimeAction
 	buffOverTimeActionType "RestoreAntiMatter"
 	antiMatterRestoreRate
-		Level:0 8.000000
+		Level:0 20.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
@@ -101,7 +101,7 @@ numFinishConditions 4
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 20.000000
+		Level:0 10.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000

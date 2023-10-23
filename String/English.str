@@ -1,5 +1,8 @@
 TXT
-NumStrings 8681
+NumStrings 8682
+StringInfo
+	ID "IDS_ABILITY_DISINTEGRATION_DESCRIPTION"
+	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and antimatter. These gains are streamed back to the Battleship, replenishing it in turn."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CLEANSE_AND_RENEW_DESCRIPTION"
 	Value "The Unity's followers gain the ability to harness energy from the gravity wells of newly conquered planets. Temporarily boosts antimatter regen rates and weapon damage."
@@ -29,7 +32,7 @@ StringInfo
 	Value "Buy Vasari Assault Capital"
 StringInfo
 	ID "IDS_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT_DESCRIPTION"
-	Value "The Minor Faction sells you a Vasari capital ship."
+	Value "The Minor Faction sells you a Vasari ship capable of producing Phase Gates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ALL_FOR_ONE_DESCRIPTION"
 	Value "Your forces gain a 10% damage bonus for each allied empire present in the current gravity well."
@@ -989,13 +992,13 @@ StringInfo
 	Value "Thrill of Victory"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SAVAGE_THRILL_DESCRIPTION"
-	Value "Upon wiping out an enemy colony, the thrill of victory empowers your fleet to deal greater damage. Each subsequent victory grants more power. (Grants 10% bonus damage per defeated colony, up to 30%.)"
+	Value "Upon wiping out an enemy colony, the thrill of victory empowers your fleet to deal greater damage. Each subsequent victory grants more power. (Grants 10% bonus damage per defeated colony, up to 50%.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRENZY_NAME"
 	Value "Extreme Prejudice"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRENZY_DESCRIPTION"
-	Value "Your crews assault enemy territory with extreme prejudice. Boosts weapon damage by 30% upon entering an enemy gravity well, though the bonus expires upon should the local planet be colonized by yourself or an ally."
+	Value "Your crews assault enemy territory with extreme prejudice. Boosts weapon damage by 40% upon entering an enemy gravity well, though the bonus expires upon should the local planet be colonized by yourself or an ally."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CRUEL_HARVEST_NAME"
 	Value "Cruel Harvest"
@@ -1028,7 +1031,7 @@ StringInfo
 	Value "Civil Defense Act I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_REINFORCEDARMOR_DESCRIPTION"
-	Value "The TEC now places a higher priority on the survival of its civil workforce. Increases the hull strength and armor of Construction Frigates, Trade Ships and Refinery Ships."
+	Value "The TEC now places a higher priority on the survival of its civil workforce. Increases the hull strength and armor of Constructor Ships, Trade Ships and Refinery Ships."
 StringInfo
 	ID "IDS_DUMMY"
 	Value " "

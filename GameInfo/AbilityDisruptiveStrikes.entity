@@ -14,13 +14,13 @@ effectInfo
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
-isUltimateAbility FALSE
-maxNumLevels 3
+isUltimateAbility TRUE
+maxNumLevels 1
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
-	Level:0 2.000000
-	Level:1 5.000000
-	Level:2 8.000000
+	Level:0 9.000000
+	Level:1 0.000000
+	Level:2 0.000000
 	Level:3 0.000000
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
