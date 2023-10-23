@@ -37,7 +37,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ExtractionRateCrystalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.166668
+	perLevelValue 0.166666
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
