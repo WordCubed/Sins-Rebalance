@@ -30,19 +30,19 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 2
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
 	modifierType "PlanetUpgradeBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.500000
+	perLevelValue 3.000000
 	linkedPlanetUpgradeType "Invalid"
 researchModifier
 	modifierType "PlanetUpgradeCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.300000
+	perLevelValue 0.800000
 	linkedPlanetUpgradeType "CivilianModules"
 artifactPicture ""
 uniqueOverlayBrush ""
