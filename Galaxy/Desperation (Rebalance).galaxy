@@ -6,8 +6,8 @@ browsePictureName "ScenarioPicture-Desperation"
 browseName "Desperation (Rebalance)"
 browseDescription "With nothing but a single Barren planet and your homeworld to call your own, you are forced by desperation to take planets from your enemies. Don't let your desperation get the best of you."
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions FALSE
-planetArtifactDensity 0.600000
+randomizeStartingPositions TRUE
+planetArtifactDensity 1.000000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -21,16 +21,15 @@ quickStartHomePlanetUpgradeLevel:TacticalModules 4
 quickStartHomePlanetUpgradeLevel:Home 4
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
-recommendedGameTypeCount 2
-recommendedGameType "TwoTeamsOfThree"
+recommendedGameTypeCount 1
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 4.999989
+pixelsPerGalaxyUnit 6.319988
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 1126.000000
 nextStarNameUniqueId 1
-nextPlanetNameUniqueId 25
+nextPlanetNameUniqueId 29
 triggerCount 0
 starCount 1
 star
@@ -39,13 +38,13 @@ star
 	type "RandomStar"
 	pos [ 100 , 100 ]
 	radius 100.000000
-	planetCount 21
+	planetCount 25
 	planet
 		designName "Planet0"
 		inGameName ""
 		type "TerranHome"
 		pos [ 57 , 118 ]
-		owner "NewPlayer0"
+		owner "NewPlayer4"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -69,8 +68,8 @@ star
 		designName "Planet1"
 		inGameName ""
 		type "TerranHome"
-		pos [ 57 , 64 ]
-		owner "NewPlayer1"
+		pos [ 57 , 62 ]
+		owner "NewPlayer0"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -94,8 +93,8 @@ star
 		designName "Planet2"
 		inGameName ""
 		type "TerranHome"
-		pos [ 31 , 106 ]
-		owner "NewPlayer2"
+		pos [ 33 , 111 ]
+		owner "NewPlayer5"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -119,8 +118,8 @@ star
 		designName "Planet3"
 		inGameName ""
 		type "TerranHome"
-		pos [ 84 , 72 ]
-		owner "NewPlayer4"
+		pos [ 80 , 71 ]
+		owner "NewPlayer1"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -144,8 +143,8 @@ star
 		designName "Planet4"
 		inGameName ""
 		type "TerranHome"
-		pos [ 32 , 74 ]
-		owner "NewPlayer3"
+		pos [ 34 , 71 ]
+		owner "NewPlayer7"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -169,8 +168,8 @@ star
 		designName "Planet5"
 		inGameName ""
 		type "TerranHome"
-		pos [ 86 , 105 ]
-		owner "NewPlayer5"
+		pos [ 79 , 110 ]
+		owner "NewPlayer3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -244,7 +243,7 @@ star
 		designName "Planet9"
 		inGameName ""
 		type "AsteroidBelt"
-		pos [ 48 , 83 ]
+		pos [ 47 , 81 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -269,7 +268,7 @@ star
 		designName "Planet10"
 		inGameName ""
 		type "AsteroidBelt"
-		pos [ 57 , 78 ]
+		pos [ 57 , 77 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -294,7 +293,7 @@ star
 		designName "Planet11"
 		inGameName ""
 		type "AsteroidBelt"
-		pos [ 66 , 83 ]
+		pos [ 67 , 81 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -344,7 +343,7 @@ star
 		designName "Planet13"
 		inGameName ""
 		type "AsteroidBelt"
-		pos [ 47 , 97 ]
+		pos [ 47 , 98 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -369,7 +368,7 @@ star
 		designName "Planet14"
 		inGameName ""
 		type "AsteroidBelt"
-		pos [ 67 , 97 ]
+		pos [ 66 , 99 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -419,7 +418,7 @@ star
 		designName "Planet16"
 		inGameName ""
 		type "Barren"
-		pos [ 19 , 112 ]
+		pos [ 23 , 118 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -444,7 +443,7 @@ star
 		designName "Planet17"
 		inGameName ""
 		type "Barren"
-		pos [ 20 , 67 ]
+		pos [ 22 , 65 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -469,7 +468,7 @@ star
 		designName "Planet18"
 		inGameName ""
 		type "Barren"
-		pos [ 57 , 49 ]
+		pos [ 57 , 47 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -494,7 +493,7 @@ star
 		designName "Planet19"
 		inGameName ""
 		type "Barren"
-		pos [ 97 , 65 ]
+		pos [ 91 , 64 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -519,7 +518,7 @@ star
 		designName "Planet20"
 		inGameName ""
 		type "Barren"
-		pos [ 101 , 112 ]
+		pos [ 88 , 119 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -565,7 +564,107 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 41
+	planet
+		designName "Planet25"
+		inGameName ""
+		type "TerranHome"
+		pos [ 87 , 89 ]
+		owner "NewPlayer2"
+		isHomePlanet TRUE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet26"
+		inGameName ""
+		type "Barren"
+		pos [ 101 , 89 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet27"
+		inGameName ""
+		type "TerranHome"
+		pos [ 27 , 90 ]
+		owner "NewPlayer6"
+		isHomePlanet TRUE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet28"
+		inGameName ""
+		type "Barren"
+		pos [ 12 , 90 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 49
 	connection
 		planetIndexA 3
 		planetIndexB 18
@@ -771,10 +870,50 @@ star
 		planetIndexB -1
 		spawnProbability 1.000000
 		type "PhaseLane"
+	connection
+		planetIndexA 21
+		planetIndexB 6
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 21
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 21
+		planetIndexB 13
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 22
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB 7
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB 8
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB 12
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 23
+		spawnProbability 1.000000
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
-playerCount 6
+playerCount 8
 player
 	designName "NewPlayer0"
 	inGameName "NewPlayer0"
@@ -843,6 +982,32 @@ player
 player
 	designName "NewPlayer5"
 	inGameName "NewPlayer5"
+	overrideRaceName ""
+	teamIndex -1
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
+	playerType "Normal"
+	themeGroup ""
+	themeIndex 0
+	pictureGroup ""
+	pictureIndex 0
+player
+	designName "NewPlayer6"
+	inGameName "NewPlayer6"
+	overrideRaceName ""
+	teamIndex -1
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
+	playerType "Normal"
+	themeGroup ""
+	themeIndex 0
+	pictureGroup ""
+	pictureIndex 0
+player
+	designName "NewPlayer7"
+	inGameName "NewPlayer7"
 	overrideRaceName ""
 	teamIndex -1
 	startingCredits 18000
