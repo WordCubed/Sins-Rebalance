@@ -213,21 +213,21 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxHealth 1500.000000
+			maxHealth 2400.000000
 		stage
 			price
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxHealth 3000.000000
+			maxHealth 3600.000000
 		stage
 			price
 				credits 80.000000
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxHealth 4500.000000
+			maxHealth 4800.000000
 		stage
 			price
 				credits 240.000000
