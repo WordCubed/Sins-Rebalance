@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-RandomMedium"
-browseName "Random Medium"
+browseName "Random Medium-Small"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMMEDIUM"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
