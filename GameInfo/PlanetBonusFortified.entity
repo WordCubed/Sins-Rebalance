@@ -7,7 +7,7 @@ nameStringID "IDS_PLANETBONUS_FORTIFIED_NAME"
 descStringID "IDS_PLANETBONUS_FORTIFIED_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation -1.000000
-floatBonus:AdditivePlanetHealth 4000.000000
+floatBonus:AdditivePlanetHealth 3000.000000
 floatBonus:AdditiveSlotsCivilian -6.000000
 floatBonus:AdditiveSlotsTactical 30.000000
 floatBonus:AdditiveTaxIncome 0.000000
