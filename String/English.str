@@ -8,7 +8,7 @@ StringInfo
 	Value "The Unity's followers gain the ability to harness energy from the gravity wells of newly conquered planets. Temporarily boosts antimatter regen rates and weapon damage."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ASSIMILATED_POPULACE_DESCRIPTION"
-	Value "The populace of newly conquered worlds embrace the message of the Unity with vigor, permanently boosting the planet's tax income by 50%. Vital for overcoming the Advent's otherwise weak economy."
+	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting the planet's tax income. Vital for overcoming the Advent's otherwise weak economy."
 StringInfo
 	ID "IDS_FRIGATE_TECHMODULECONSTRUCTOR_NAME"
 	Value "Constructor Ship"

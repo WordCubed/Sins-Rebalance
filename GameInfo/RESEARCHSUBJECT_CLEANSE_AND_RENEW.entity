@@ -14,7 +14,7 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_ASSIMILATED_POPULACE"
-		Level 1
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
