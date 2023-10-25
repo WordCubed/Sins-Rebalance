@@ -371,19 +371,13 @@ planetType
 planetType
 	designName "RandomTech"
 	designStringId "IDSGalaxyScenarioTypePlanetTech"
-	orbitBodyTypeCount 12
+	orbitBodyTypeCount 6
 	orbitBodyType "Terran"
 	orbitBodyType "Industrial"
 	orbitBodyType "Mountains"
 	orbitBodyType "Oceanic"
 	orbitBodyType "Tropical"
 	orbitBodyType "Swamp"
-	orbitBodyType "Arctic"
-	orbitBodyType "Tundra"
-	orbitBodyType "Cryo"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Savannah"
 planetType
 	designName "RandomPsi"
 	designStringId "IDSGalaxyScenarioTypePlanetPsi"

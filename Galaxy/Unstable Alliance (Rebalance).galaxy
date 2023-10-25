@@ -4,7 +4,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UnstableAlliance"
 browseName "Unstable Alliance (Rebalance)"
-browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_UNSTABLEALLIANCE"
+browseDescription "Five empires vie for this system. You can't possibly take them all. Alliances are necessary, but with an uneven split, who will be left out? Who will be stuck in the smaller, weaker alliance? Don't let it be you."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
