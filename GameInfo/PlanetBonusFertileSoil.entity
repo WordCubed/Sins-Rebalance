@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 1
 nameStringID "IDS_PLANETBONUS_FERTILESOIL_NAME"
 descStringID "IDS_PLANETBONUS_FERTILESOIL_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation 100.000000
+floatBonus:AdditivePopulation 12.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000

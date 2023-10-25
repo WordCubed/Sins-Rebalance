@@ -6,8 +6,8 @@ maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_SLUMS_NAME"
 descStringID "IDS_PLANETBONUS_SLUMS_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation 100.000000
-floatBonus:AdditivePlanetHealth -2000.000000
+floatBonus:AdditivePopulation 24.000000
+floatBonus:AdditivePlanetHealth -3000.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 0.000000

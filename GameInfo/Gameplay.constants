@@ -12,12 +12,12 @@ GameplayConstants
 	jumpAngle 0
 	timeForPeaceTreatyCooldown 100
 	defaultGravWellColor FFFFFFFF
-	phaseLaneWidth 2.5
-	unexploredPhaseLaneWidth 0.5
+	phaseLaneWidth 4
+	unexploredPhaseLaneWidth 1.0
 	gravWellThickness 1.0
 	cannonsPerGravityWellRatio 1
 	cannonGravityWellRatioDenominator 3
-	maxAiCannons 8
+	maxAiCannons 6
 	preferNewAssetsGameCountThreshold 5
 	EconomyData
 		DefaultSalvageRefundPercent 0.333333
@@ -43,7 +43,7 @@ GameplayConstants
 		populationGrowthPercWhenBombed 0.20
 		moduleConstructorRespawnTime 30
 		moduleConstructorRespawnTimeWithEnemies 60
-		baseTaxRatePerPopulation 0.015
+		baseTaxRatePerPopulation 0.15
 		planetBaseAllegianceAtDistanceCount 11
 		allegiance 1.00
 		allegiance 0.90

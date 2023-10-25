@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_JEWELOFTHEGALAXY_NAME"
 descStringID "IDS_PLANETBONUS_JEWELOFTHEGALAXY_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.250000
-floatBonus:AdditivePopulation 200.000000
+floatBonus:AdditivePopulation 12.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000

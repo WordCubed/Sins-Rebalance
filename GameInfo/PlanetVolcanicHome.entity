@@ -119,35 +119,35 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxPopulation 12.000000
-			populationGrowthRate 2.000000
-			developmentTaxPenalty -0.600000
+			maxPopulation 1.000000
+			populationGrowthRate 0.250000
+			developmentTaxPenalty -0.200000
 		stage
 			price
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxPopulation 16.000000
-			populationGrowthRate 2.000000
-			developmentTaxPenalty -0.400000
+			maxPopulation 2.000000
+			populationGrowthRate 0.250000
+			developmentTaxPenalty -0.100000
 		stage
 			price
 				credits 80.000000
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxPopulation 28.000000
-			populationGrowthRate 2.000000
+			maxPopulation 3.000000
+			populationGrowthRate 0.250000
 			developmentTaxPenalty 0.000000
 		stage
 			price
 				credits 240.000000
 				metal 480.000000
 				crystal 360.000000
-			upgradeTime 30.000000
-			maxPopulation 40.000000
-			populationGrowthRate 2.000000
+			upgradeTime 20.000000
+			maxPopulation 4.000000
+			populationGrowthRate 0.250000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
 		stageCount 4
@@ -180,7 +180,7 @@ planetUpgradeDef
 				credits 240.000000
 				metal 480.000000
 				crystal 360.000000
-			upgradeTime 30.000000
+			upgradeTime 20.000000
 			maxModuleSlotCount:Civilian 18.000000
 			maxModuleConstructorCount 4
 	path:TacticalModules
@@ -191,7 +191,7 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxModuleSlotCount:Tactical 16.000000
+			maxModuleSlotCount:Tactical 12.000000
 			maxModuleConstructorCount 0
 		stage
 			price
@@ -199,7 +199,7 @@ planetUpgradeDef
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxModuleSlotCount:Tactical 22.000000
+			maxModuleSlotCount:Tactical 24.000000
 			maxModuleConstructorCount 0
 		stage
 			price
@@ -207,14 +207,14 @@ planetUpgradeDef
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxModuleSlotCount:Tactical 34.000000
+			maxModuleSlotCount:Tactical 36.000000
 			maxModuleConstructorCount 0
 		stage
 			price
 				credits 240.000000
 				metal 480.000000
 				crystal 360.000000
-			upgradeTime 30.000000
+			upgradeTime 20.000000
 			maxModuleSlotCount:Tactical 48.000000
 			maxModuleConstructorCount 0
 	path:Home
@@ -234,7 +234,7 @@ planetUpgradeDef
 				credits 360.000000
 				metal 360.000000
 				crystal 720.000000
-			upgradeTime 30.000000
+			upgradeTime 20.000000
 			isHomePlanet TRUE
 			homePlanetTaxRateBonus 19.200000
 			homePlanetMetalIncomeBonus 3.000000
@@ -264,7 +264,7 @@ planetUpgradeDef
 				credits 120.000000
 				metal 240.000000
 				crystal 180.000000
-			upgradeTime 30.000000
+			upgradeTime 20.000000
 	path:Infrastructure
 		stageCount 4
 		stage
@@ -273,27 +273,27 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxHealth 2500.000000
+			maxHealth 1500.000000
 		stage
 			price
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxHealth 3200.000000
+			maxHealth 3000.000000
 		stage
 			price
 				credits 80.000000
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxHealth 4600.000000
+			maxHealth 4500.000000
 		stage
 			price
 				credits 240.000000
 				metal 480.000000
 				crystal 360.000000
-			upgradeTime 30.000000
+			upgradeTime 20.000000
 			maxHealth 6000.000000
 	path:Social
 		stageCount 2
@@ -313,9 +313,9 @@ planetUpgradeDef
 				credits 360.000000
 				metal 360.000000
 				crystal 720.000000
-			upgradeTime 30.000000
-			maxPopulation 20.000000
-			populationGrowthRate 2.000000
+			upgradeTime 20.000000
+			maxPopulation 2.000000
+			populationGrowthRate 0.250000
 			tradeIncomeModifier -0.500000
 			shipBuildRateModifier -0.500000
 			cultureSpreadRateModifier 0.500000
@@ -336,8 +336,8 @@ planetUpgradeDef
 				credits 360.000000
 				metal 360.000000
 				crystal 720.000000
-			upgradeTime 30.000000
-			maxPopulation -20.000000
+			upgradeTime 20.000000
+			maxPopulation -2.000000
 			tradeIncomeModifier 1.000000
 			shipBuildRateModifier 0.500000
 			cultureSpreadRateModifier -0.500000
@@ -356,7 +356,7 @@ planetUpgradeDef
 				credits 360.000000
 				metal 360.000000
 				crystal 720.000000
-			upgradeTime 30.000000
+			upgradeTime 20.000000
 			corruptionPercent 0.750000
 			smugglingPercent 0.025000
 ringsChance 0.000000
@@ -397,7 +397,7 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 22320.000000
+	creditsOnStrippedToTheCore 22410.000000
 	metalOnStrippedToTheCore 7200.000000
 	crystalOnStrippedToTheCore 7200.000000
 	extraScuttleTimeOnStrip 0.000000

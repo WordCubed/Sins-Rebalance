@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_SANCTUARY_NAME"
 descStringID "IDS_PLANETBONUS_SANCTUARY_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation 25.000000
+floatBonus:AdditivePopulation 3.000000
 floatBonus:AdditivePlanetHealth 1000.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
