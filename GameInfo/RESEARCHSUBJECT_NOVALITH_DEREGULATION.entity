@@ -30,22 +30,22 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 7
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
 	modifierType "OrbitalCannonSlotCostAdjustment"
 	baseValue 0.000000
-	perLevelValue -2.000000
+	perLevelValue -1.000000
 researchModifier
 	modifierType "OrbitalCannonPriceAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.125000
+	perLevelValue 0.250000
 researchModifier
 	modifierType "OrbitalCannonMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 1.000000
+	perLevelValue 2.000000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

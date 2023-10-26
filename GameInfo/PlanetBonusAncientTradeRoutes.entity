@@ -8,7 +8,7 @@ descStringID "IDS_PLANETBONUS_ANCIENTTRADEROUTES_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation 0.000000
 floatBonus:AdditivePlanetHealth 0.000000
-floatBonus:AdditiveSlotsCivilian 3.000000
+floatBonus:AdditiveSlotsCivilian 1.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.250000
