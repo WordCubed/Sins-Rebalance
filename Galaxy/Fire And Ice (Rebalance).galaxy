@@ -92,7 +92,7 @@ star
 	planet
 		designName "Planet2"
 		inGameName ""
-		type "Mountains"
+		type "Terran"
 		pos [ 77 , 50 ]
 		owner ""
 		isHomePlanet FALSE
@@ -117,7 +117,7 @@ star
 	planet
 		designName "Planet3"
 		inGameName ""
-		type "Mountains"
+		type "Terran"
 		pos [ 50 , 76 ]
 		owner ""
 		isHomePlanet FALSE
@@ -142,7 +142,7 @@ star
 	planet
 		designName "Planet4"
 		inGameName ""
-		type "Mountains"
+		type "Terran"
 		pos [ 50 , 24 ]
 		owner ""
 		isHomePlanet FALSE
@@ -167,7 +167,7 @@ star
 	planet
 		designName "Planet5"
 		inGameName ""
-		type "Mountains"
+		type "Terran"
 		pos [ 21 , 50 ]
 		owner ""
 		isHomePlanet FALSE
@@ -542,7 +542,7 @@ star
 	planet
 		designName "Planet24"
 		inGameName ""
-		type "Desert"
+		type "Mountains"
 		pos [ 70 , 76 ]
 		owner ""
 		isHomePlanet FALSE
@@ -567,7 +567,7 @@ star
 	planet
 		designName "Planet25"
 		inGameName ""
-		type "Desert"
+		type "Mountains"
 		pos [ 75 , 70 ]
 		owner ""
 		isHomePlanet FALSE
@@ -592,7 +592,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "Desert"
+		type "Mountains"
 		pos [ 19 , 28 ]
 		owner ""
 		isHomePlanet FALSE
@@ -617,7 +617,7 @@ star
 	planet
 		designName "Planet27"
 		inGameName ""
-		type "Desert"
+		type "Mountains"
 		pos [ 25 , 24 ]
 		owner ""
 		isHomePlanet FALSE
@@ -808,10 +808,10 @@ player
 	designName "Player0"
 	inGameName "Player0"
 	overrideRaceName ""
-	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
+	teamIndex 0
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -821,10 +821,10 @@ player
 	designName "Player1"
 	inGameName "Player1"
 	overrideRaceName ""
-	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
+	teamIndex 0
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -834,10 +834,10 @@ player
 	designName "Player2"
 	inGameName "Player2"
 	overrideRaceName ""
-	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
+	teamIndex 1
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -847,10 +847,10 @@ player
 	designName "Player3"
 	inGameName "Player3"
 	overrideRaceName ""
-	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
+	teamIndex 1
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

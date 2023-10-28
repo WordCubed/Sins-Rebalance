@@ -4,7 +4,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName ""
 browseName "No Safe Haven"
-browseDescription "Beyond your home planet is the great unkown."
+browseDescription "Beyond your home planet is the great unkown. This map is randomized each time it is played, and is intended to be extra-challenging compared to other random maps."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
 planetArtifactDensity 0.600000
@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet10"
 		inGameName ""
-		type "Barren"
+		type "Random"
 		pos [ 249 , 140 ]
 		owner ""
 		isHomePlanet FALSE
@@ -267,7 +267,7 @@ star
 	planet
 		designName "Planet11"
 		inGameName ""
-		type "Barren"
+		type "Random"
 		pos [ 134 , 251 ]
 		owner ""
 		isHomePlanet FALSE
@@ -292,7 +292,7 @@ star
 	planet
 		designName "Planet12"
 		inGameName ""
-		type "Barren"
+		type "Random"
 		pos [ 248 , 371 ]
 		owner ""
 		isHomePlanet FALSE
@@ -317,7 +317,7 @@ star
 	planet
 		designName "Planet13"
 		inGameName ""
-		type "Barren"
+		type "Random"
 		pos [ 371 , 250 ]
 		owner ""
 		isHomePlanet FALSE
