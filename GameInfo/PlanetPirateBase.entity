@@ -89,25 +89,25 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxPopulation 0.250000
+			maxPopulation 1.000000
 			populationGrowthRate 0.250000
-			developmentTaxPenalty -0.050000
+			developmentTaxPenalty -0.200000
 		stage
 			price
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxPopulation 0.500000
+			maxPopulation 2.000000
 			populationGrowthRate 0.250000
-			developmentTaxPenalty -0.025000
+			developmentTaxPenalty -0.100000
 		stage
 			price
 				credits 80.000000
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxPopulation 0.750000
+			maxPopulation 3.000000
 			populationGrowthRate 0.250000
 			developmentTaxPenalty 0.000000
 		stage
@@ -116,7 +116,7 @@ planetUpgradeDef
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 20.000000
-			maxPopulation 1.000000
+			maxPopulation 4.000000
 			populationGrowthRate 0.250000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules

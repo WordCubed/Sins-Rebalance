@@ -19,9 +19,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_PSIORBITALBEAMDEFENSE"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 1.000000
 basePrice
-	credits 2400.000000
-	metal 480.000000
-	crystal 240.000000
+	credits 1600.000000
+	metal 320.000000
+	crystal 160.000000
 NameStringID "IDS_PLANETMODULE_PSIORBITALBEAMDEFENSE_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PSIORBITALBEAMDEFENSE_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
@@ -30,11 +30,11 @@ Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 6000.000000
-HullPointRestoreRate 12.500000
+MaxHullPoints 4000.000000
+HullPointRestoreRate 8.333333
 BaseArmorPoints 20.000000
-MaxShieldPoints 12000.000000
-ShieldPointRestoreRate 50.000000
+MaxShieldPoints 8000.000000
+ShieldPointRestoreRate 33.333333
 maxShieldMitigation 0.700000
 ExperiencePointsForDestroying 300.000000
 resourceExtractionType "Invalid"

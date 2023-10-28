@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "PlanetPopulationCapAdjustment"
 	baseValue 0.000000
-	perLevelValue 2.250000
+	perLevelValue 1.250000
 	linkedPlanetType "Asteroid"
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
