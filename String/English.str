@@ -212,7 +212,7 @@ StringInfo
 	Value "The Unity's influence becomes strong enough to overwhelm the free will of the entirety of your planets' populaces, increasing the spread of your empire's culture & your planets' allegiance cap. Your units also regenerate antimatter faster within your culture."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPHASE_NAME"
-	Value "Big & Small Evangelism"
+	Value "Big & Small Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPICEPSI0_NAME"
 	Value "Insulative Domes"

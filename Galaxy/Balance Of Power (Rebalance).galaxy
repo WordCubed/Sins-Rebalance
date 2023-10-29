@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-BalanceOfPower"
-browseName "IDS_CUSTOMGALAXY_NAME_BALANCEOFPOWER"
+browseName "Balance of Power (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_BALANCEOFPOWER"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
