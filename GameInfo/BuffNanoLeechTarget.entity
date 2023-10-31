@@ -30,9 +30,9 @@ numOverTimeActions 2
 overTimeAction
 	buffOverTimeActionType "DoDamage"
 	damageRate
-		Level:0 240.000000
-		Level:1 360.000000
-		Level:2 480.000000
+		Level:0 1800.000000
+		Level:1 2700.000000
+		Level:2 3600.000000
 		Level:3 0.000000
 	damageAffectType "AFFECTS_ONLY_HULL"
 	damageType "PHYSICAL"
