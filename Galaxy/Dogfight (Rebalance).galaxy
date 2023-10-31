@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-Dogfight"
-browseName "IDS_CUSTOMGALAXY_NAME_DOGFIGHT"
+browseName "Dogfight (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_DOGFIGHT"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE

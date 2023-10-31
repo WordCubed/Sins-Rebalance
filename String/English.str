@@ -1,5 +1,8 @@
 TXT
-NumStrings 8682
+NumStrings 8683
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
+	Value "This alien factory design can produce ships & modules faster than previously imaginable. Also increases your slots for factories."
 StringInfo
 	ID "IDS_ABILITY_DISINTEGRATION_DESCRIPTION"
 	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and antimatter. These gains are streamed back to the Battleship, replenishing it in turn."
