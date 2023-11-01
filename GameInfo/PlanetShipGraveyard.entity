@@ -277,7 +277,7 @@ planetUpgradeDef
 				metal 360.000000
 				crystal 720.000000
 			upgradeTime 20.000000
-			maxPopulation -1.000000
+			maxPopulation -2.000000
 			tradeIncomeModifier 1.000000
 			shipBuildRateModifier 0.500000
 			cultureSpreadRateModifier -0.500000
@@ -333,7 +333,7 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 6615.000000
+	creditsOnStrippedToTheCore 15930.000000
 	metalOnStrippedToTheCore 14400.000000
 	crystalOnStrippedToTheCore 3600.000000
 	extraScuttleTimeOnStrip 0.000000

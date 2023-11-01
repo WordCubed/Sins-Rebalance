@@ -355,7 +355,7 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 9450.000000
+	creditsOnStrippedToTheCore 15120.000000
 	metalOnStrippedToTheCore 7200.000000
 	crystalOnStrippedToTheCore 7200.000000
 	extraScuttleTimeOnStrip 0.000000
