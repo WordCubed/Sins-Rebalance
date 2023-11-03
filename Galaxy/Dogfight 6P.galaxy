@@ -3496,20 +3496,20 @@ player
 	designName "Player3"
 	inGameName "Player3"
 	overrideRaceName ""
-	teamIndex 0
+	teamIndex 1
 	startingCredits 18000
 	startingMetal 3600
 	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
-	themeIndex 0
+	themeIndex 1
 	pictureGroup ""
 	pictureIndex 0
 player
 	designName "Player4"
 	inGameName "Player4"
 	overrideRaceName ""
-	teamIndex 0
+	teamIndex 1
 	startingCredits 18000
 	startingMetal 3600
 	startingCrystal 1800
