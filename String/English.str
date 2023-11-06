@@ -1,5 +1,43 @@
 TXT
-NumStrings 8682
+NumStrings 8694
+StringInfo
+	ID "IDS_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_NAME"
+	Value "Civilian Lab"
+StringInfo
+	ID "IDS_PLANETMODULE_PSIORBITALNONCOMBATLABORATORY_NAME"
+	Value "Civilian Lab"
+StringInfo
+	ID "IDS_PLANETMODULE_PSIORBITALCOMBATLABORATORY_NAME"
+	Value "Military Lab"
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALNONCOMBATLABORATORY_NAME"
+	Value "Civilian Lab"
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALCOMBATLABORATORY_NAME"
+	Value "Military Lab"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PIRATE_MERCENARIES_DESCRIPTION"
+	Value "The Pirates throw their lot in with the rebellion, allowing you to purchase military aid through the Culture Center."
+StringInfo
+	ID "IDS_PLANETMODULE_TECHORBITALCULTURECENTER_NAME"
+	Value "Culture Center"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERTECH_DESCRIPTION"
+	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED_DESCRIPTION"
+	Value "Grants the Wail of the Sacrificed ability to your Culture Centers, allowing the local planet to sacrifice its population. Doing so unleashes a psionic wave that does heavy damage to all ships and structures in nearby gravity wells."
+StringInfo
+	ID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_NAME"
+	Value "Culture Center"
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPSI_DESCRIPTION"
+	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALCULTURECENTER_NAME"
+	Value "Culture Center"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPHASE_DESCRIPTION"
+	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
 	Value "This alien factory design can produce ships & modules faster than previously imaginable. Also increases your slots for factories."
@@ -2366,25 +2404,25 @@ StringInfo
 	Value "Disloyal Government"
 StringInfo
 	ID "IDS_PLANETBONUS_DISLOYALGOVERNMENT_DESC"
-	Value "This planet's government opposes your empire as much as they possibly can. Reduces logistical slots, tactical slots, and starbases."
+	Value "This planet's government opposes your empire as much as they possibly can. Reduces max allegiance."
 StringInfo
 	ID "IDS_PLANETBONUS_DWARF_NAME"
 	Value "Dwarf Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_DWARF_DESC"
-	Value "This planet is so small you can't build as many logistics and tactical structures around it. Also supports fewer starbases."
+	Value "This planet is so small you can't build as many logistics and tactical structures around it."
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYHARSH_NAME"
-	Value "Extremely Harsh Planet"
+	Value "Very Harsh Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYHARSH_DESC"
 	Value "The environment is harsh enough to make it much more expensive, and much slower, to upgrade the planet."
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYNICE_NAME"
-	Value "Extremely Pleasant Planet"
+	Value "Very Pleasant Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYNICE_DESC"
-	Value "This planet has proven extremely easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
+	Value "This planet has proven very easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
 StringInfo
 	ID "IDS_PLANETBONUS_FERTILESOIL_NAME"
 	Value "Fertile Soil"
@@ -2396,13 +2434,13 @@ StringInfo
 	Value "Forgettable Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_FORGETTABLE_DESC"
-	Value "Everybody keeps forgetting this planet exists. Is it a part of your empire? Did you even build anything there? Reduces logistics slots, tactical slots, trade income, and population growth."
+	Value "Everybody keeps forgetting this planet exists. Is it a part of your empire? Did you even build anything there? Reduces culture rate, trade income, and population growth."
 StringInfo
 	ID "IDS_PLANETBONUS_FORTIFIED_NAME"
 	Value "Fortified Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_FORTIFIED_DESC"
-	Value "This planet has been heavily fortified against attacks. Reduces max population, population rate, and logistics slots. But, it increases planet health, tactical slots, bombing resistance, and reduces weapon strength in general."
+	Value "This planet has been heavily fortified against attacks. Reduces max population, population rate, and logistics slots. But, it increases planet health, tactical slots, starbases, bombing resistance, and reduces weapon strength in general."
 StringInfo
 	ID "IDS_PLANETBONUS_GIANT_NAME"
 	Value "Giant Planet"
