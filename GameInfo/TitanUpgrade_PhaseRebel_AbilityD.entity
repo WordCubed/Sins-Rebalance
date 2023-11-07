@@ -22,7 +22,7 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	levelRequirement 5
+	levelRequirement 9
 	hudIcon "HUDICON_ABILITY_DISSEVER"
 	smallHudIcon "HUDICON_ABILITY_DISSEVER"
 	infoCardIcon ""

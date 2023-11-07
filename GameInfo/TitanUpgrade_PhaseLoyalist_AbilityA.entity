@@ -38,7 +38,7 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	levelRequirement 2
+	levelRequirement 3
 	hudIcon "HUDICON_ABILITY_MICROPHASEJUMP"
 	smallHudIcon "HUDICON_ABILITY_MICROPHASEJUMP"
 	infoCardIcon ""
@@ -54,7 +54,7 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	levelRequirement 4
+	levelRequirement 6
 	hudIcon "HUDICON_ABILITY_MICROPHASEJUMP"
 	smallHudIcon "HUDICON_ABILITY_MICROPHASEJUMP"
 	infoCardIcon ""

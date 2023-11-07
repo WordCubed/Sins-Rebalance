@@ -74,8 +74,8 @@ AntiMatterRestoreRate
 	StartValue 3.000000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
-	StartValue 4.125000
-	ValueIncreasePerLevel 0.375000
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
 NameStringID "IDS_TITAN_TECHREBEL_NAME"
 DescriptionStringID "IDS_TITAN_TECHREBEL_DESCRIPTION"
 picture "TITANPICTURE_TECHREBEL"

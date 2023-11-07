@@ -14,8 +14,8 @@ instantAction
 	instantActionTriggerType "OnHyperspaceExit"
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 160.000000
-		maxFleetPoints 160.000000
+		minFleetPoints 240.000000
+		maxFleetPoints 240.000000
 		requiredShipCount 0
 		randomShipCount 5
 		randomShip
