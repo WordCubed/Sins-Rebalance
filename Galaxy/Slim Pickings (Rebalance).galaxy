@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-SlimPickings"
-browseName "Slim Pickings (Rebalace)"
+browseName "Slim Pickings (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_SLIMPICKINGS"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE

@@ -1,5 +1,5 @@
 TXT
-NumStrings 8694
+NumStrings 8695
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_NAME"
 	Value "Civilian Lab"
@@ -30,6 +30,7 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_NAME"
 	Value "Culture Center"
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPSI_DESCRIPTION"
 	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
 StringInfo
