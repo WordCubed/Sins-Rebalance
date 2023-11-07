@@ -35,13 +35,13 @@ randomizerParams
 		startingCrystal 1800
 		homePlanetType "TerranHome"
 		homePlanetStarRadiusRange
-			minPercentage 0.900000
-			maxPercentage 0.950000
+			minPercentage 0.875000
+			maxPercentage 0.990000
 		areExtraPlanetsColonized FALSE
-		extraPlanetsMaxRadius 6.000000
+		extraPlanetsMaxRadius 10.000000
 		extraPlanetsRadiusRange
-			minPercentage 0.900000
-			maxPercentage 1.000000
+			minPercentage 0.875000
+			maxPercentage 0.990000
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -71,44 +71,39 @@ randomizerParams
 				minPercentage 0.125000
 				maxPercentage 0.250000
 			militiaColonizationPerc 0.000000
-			planetGroupCount 1
+			planetGroupCount 2
 			planetGroup
 				minCount 4
 				maxCount 4
 				planetTypeCount 1
 				planetType "PirateBase"
+			planetGroup
+				minCount 4
+				maxCount 4
+				planetTypeCount 1
+				planetType "Asteroid"
 		ring
 			starRadiusRange
 				minPercentage 0.375000
 				maxPercentage 0.500000
 			militiaColonizationPerc 0.000000
-			planetGroupCount 2
+			planetGroupCount 1
 			planetGroup
-				minCount 10
-				maxCount 10
+				minCount 16
+				maxCount 16
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
-			planetGroup
-				minCount 2
-				maxCount 2
-				planetTypeCount 1
-				planetType "Wormhole"
 		ring
 			starRadiusRange
 				minPercentage 0.625000
 				maxPercentage 0.750000
 			militiaColonizationPerc 0.000000
-			planetGroupCount 2
+			planetGroupCount 1
 			planetGroup
-				minCount 20
-				maxCount 20
+				minCount 24
+				maxCount 24
 				planetTypeCount 1
 				planetType "Random"
-			planetGroup
-				minCount 2
-				maxCount 2
-				planetTypeCount 1
-				planetType "Wormhole"
 		ring
 			starRadiusRange
 				minPercentage 0.875000
@@ -116,13 +111,13 @@ randomizerParams
 			militiaColonizationPerc 0.000000
 			planetGroupCount 2
 			planetGroup
-				minCount 30
-				maxCount 30
+				minCount 32
+				maxCount 32
 				planetTypeCount 1
 				planetType "RandomColonizable"
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "Wormhole"
 dlcID 204880

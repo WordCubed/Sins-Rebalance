@@ -38,10 +38,10 @@ randomizerParams
 			minPercentage 0.900000
 			maxPercentage 0.950000
 		areExtraPlanetsColonized FALSE
-		extraPlanetsMaxRadius 6.000000
+		extraPlanetsMaxRadius 10.000000
 		extraPlanetsRadiusRange
-			minPercentage 0.900000
-			maxPercentage 1.000000
+			minPercentage 0.875000
+			maxPercentage 0.990000
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -87,33 +87,23 @@ randomizerParams
 				minPercentage 0.375000
 				maxPercentage 0.500000
 			militiaColonizationPerc 0.000000
-			planetGroupCount 2
+			planetGroupCount 1
 			planetGroup
-				minCount 7
-				maxCount 7
+				minCount 9
+				maxCount 9
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
-			planetGroup
-				minCount 2
-				maxCount 2
-				planetTypeCount 1
-				planetType "Wormhole"
 		ring
 			starRadiusRange
 				minPercentage 0.625000
 				maxPercentage 0.750000
 			militiaColonizationPerc 0.000000
-			planetGroupCount 2
+			planetGroupCount 1
 			planetGroup
-				minCount 12
-				maxCount 12
+				minCount 14
+				maxCount 14
 				planetTypeCount 1
 				planetType "Random"
-			planetGroup
-				minCount 2
-				maxCount 2
-				planetTypeCount 1
-				planetType "Wormhole"
 		ring
 			starRadiusRange
 				minPercentage 0.875000
@@ -121,8 +111,8 @@ randomizerParams
 			militiaColonizationPerc 0.000000
 			planetGroupCount 2
 			planetGroup
-				minCount 18
-				maxCount 18
+				minCount 19
+				maxCount 19
 				planetTypeCount 1
 				planetType "RandomColonizable"
 			planetGroup
