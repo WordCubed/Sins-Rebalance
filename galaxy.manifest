@@ -1,9 +1,5 @@
 TXT
-<<<<<<< Updated upstream
-fileCount 42
-=======
 fileCount 44
->>>>>>> Stashed changes
 fileName "Agamemnon's Bounty (Rebalance)"
 fileName "Ancient Gifts (Rebalance)"
 fileName "Balance Of Power (Rebalance)"
@@ -24,10 +20,7 @@ fileName "Maelstrom (Rebalance)"
 fileName "Nebula"
 fileName "No Safe Haven"
 fileName "Random Huge (Multi-Star) (Rebalance)"
-<<<<<<< Updated upstream
-=======
 fileName "Random Huge (Single-Star) (Rebalance)"
->>>>>>> Stashed changes
 fileName "Random Large (Multi-Star) (Rebalance)"
 fileName "Random Large (Single-Star) (Rebalance)"
 fileName "Random Medium"

@@ -25,11 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfFive"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-<<<<<<< Updated upstream
-pixelsPerGalaxyUnit 0.200000
-=======
 pixelsPerGalaxyUnit 1.520000
->>>>>>> Stashed changes
 useRandomGenerator FALSE
 galaxyWidth 6537.299805
 galaxyHeight 6193.299805
@@ -122,11 +118,7 @@ star
 	planet
 		designName "WeightedRandom-3"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 1005 , 1076 ]
 		owner ""
 		isHomePlanet FALSE
@@ -326,11 +318,7 @@ star
 	planet
 		designName "WeightedRandom-11"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 1078 , 1044 ]
 		owner ""
 		isHomePlanet FALSE
@@ -380,11 +368,7 @@ star
 	planet
 		designName "WeightedRandom-13"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 1028 , 1090 ]
 		owner ""
 		isHomePlanet FALSE
@@ -459,11 +443,7 @@ star
 	planet
 		designName "WeightedRandom-16"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 929 , 1034 ]
 		owner ""
 		isHomePlanet FALSE
@@ -488,11 +468,7 @@ star
 	planet
 		designName "WeightedRandom-17"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 907 , 1016 ]
 		owner ""
 		isHomePlanet FALSE
@@ -542,11 +518,7 @@ star
 	planet
 		designName "WeightedRandom-19"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 917 , 929 ]
 		owner ""
 		isHomePlanet FALSE
@@ -571,11 +543,7 @@ star
 	planet
 		designName "WeightedRandom-20"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 968 , 900 ]
 		owner ""
 		isHomePlanet FALSE
@@ -625,11 +593,7 @@ star
 	planet
 		designName "WeightedRandom-22"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 1034 , 917 ]
 		owner ""
 		isHomePlanet FALSE
@@ -654,11 +618,7 @@ star
 	planet
 		designName "WeightedRandom-23"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 1084 , 933 ]
 		owner ""
 		isHomePlanet FALSE
@@ -883,11 +843,7 @@ star
 	planet
 		designName "RandomIceVolcanic-32"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 1105 , 997 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1977,11 +1933,7 @@ star
 	planet
 		designName "WeightedRandom-59"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 3085 , 1505 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2006,11 +1958,7 @@ star
 	planet
 		designName "WeightedRandom-60"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 3077 , 1548 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2085,11 +2033,7 @@ star
 	planet
 		designName "WeightedRandom-63"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 2988 , 1591 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2114,11 +2058,7 @@ star
 	planet
 		designName "WeightedRandom-64"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 2941 , 1586 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2143,11 +2083,7 @@ star
 	planet
 		designName "WeightedRandom-65"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 2918 , 1556 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2172,11 +2108,7 @@ star
 	planet
 		designName "WeightedRandom-66"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 2911 , 1510 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2226,11 +2158,7 @@ star
 	planet
 		designName "WeightedRandom-68"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 2934 , 1428 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2255,11 +2183,7 @@ star
 	planet
 		designName "WeightedRandom-69"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 2963 , 1421 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2334,11 +2258,7 @@ star
 	planet
 		designName "WeightedRandom-72"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 3083 , 1432 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2363,11 +2283,7 @@ star
 	planet
 		designName "WeightedRandom-73"
 		inGameName ""
-<<<<<<< Updated upstream
-		type "Random"
-=======
 		type "RandomColonizable"
->>>>>>> Stashed changes
 		pos [ 3099 , 1458 ]
 		owner ""
 		isHomePlanet FALSE
