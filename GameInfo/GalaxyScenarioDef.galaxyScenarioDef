@@ -308,13 +308,11 @@ planetType
 planetType
 	designName "RandomHighResourceColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetHighResourceColonizable"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 4
 	orbitBodyType "GasGiant"
 	orbitBodyType "RockGiant"
-	orbitBodyType "Silicate"
-	orbitBodyType "Carbon"
 	orbitBodyType "Volcanic"
-	orbitBodyType "Hydrocarbon"
+	orbitBodyType "Ice"
 planetType
 	designName "RandomSmallColonizableOrLowValueUncolonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetSmallColonizableOrLowValueUncolonizable"
@@ -449,13 +447,10 @@ planetType
 planetType
 	designName "RandomIron"
 	designStringId "IDSGalaxyScenarioTypePlanetIron"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 3
 	orbitBodyType "Ferrus"
-	orbitBodyType "Ferrus"
-	orbitBodyType "Ferrus"
+	orbitBodyType "Ferrus
 	orbitBodyType "ShipGraveyard"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "Asteroid"
 planetType
 	designName "RandomTiny"
 	designStringId "IDSGalaxyScenarioTypePlanetSmall"

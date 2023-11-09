@@ -1,9 +1,9 @@
 TXT
 versionNumber 193
 isBrowsable TRUE
-browsePictureName "ScenarioPicture-RandomMedium"
-browseName "Random Medium"
-browseDescription "Explore an uncharted star system and claim its riches while fending off up to 4 other factions. This map is randomly generated each time it is played."
+browsePictureName "ScenarioPicture-RandomHuge"
+browseName "Random Huge (Single-Star)"
+browseDescription "The galaxy is a big place. Up to 8 other empires exist in one huge system. Can you dominate them all? This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.6
@@ -38,7 +38,7 @@ randomizerParams
 			minPercentage 0.8
 			maxPercentage 0.9
 		areExtraPlanetsColonized FALSE
-		extraPlanetsMaxRadius 30
+		extraPlanetsMaxRadius 50
 		extraPlanetsRadiusRange
 			minPercentage 0.7
 			maxPercentage 0.99
@@ -49,39 +49,56 @@ randomizerParams
 			planetTypeCount 1
 			planetType "RandomNoResearchColonizable"
 		extraPlanetGroup
-			minCount 1
-			maxCount 1
+			minCount 2
+			maxCount 2
 			planetTypeCount 1
 			planetType "RandomHighPop"
 		extraPlanetGroup
-			minCount 1
-			maxCount 1
+			minCount 2
+			maxCount 2
 			planetTypeCount 1
 			planetType "RandomHighResourceColonizable"
 starCount 1
 	star
 		type "RandomStar"
-		radius 300
-		connectionStarRadiusRange .7
+		radius 500
+		connectionStarRadiusRange .65
 		connectionChance .75
-		maxPlayerCount 5
-		ringCount 3
+		maxPlayerCount 9
+		ringCount 5
+		ring
+			starRadiusRange
+				minPercentage 0.10
+				maxPercentage 0.15
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 3
+				maxCount 3
+				planetTypeCount 1
+				planetType "PirateBase"
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.15
+				maxPercentage 0.2
 			militiaColonizationPerc 0
-			planetGroupCount 2
+			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
-				planetTypeCount 1
-				planetType "PirateBase"
-			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 6
+				maxCount 6
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.25
+				maxPercentage 0.75
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 12
+				planetTypeCount 1
+				planetType "Random"
 		ring
 			starRadiusRange
 				minPercentage 0.2
@@ -89,8 +106,8 @@ starCount 1
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 25
-				maxCount 25
+				minCount 24
+				maxCount 24
 				planetTypeCount 1
 				planetType "RandomColonizable"
 		ring
@@ -100,8 +117,8 @@ starCount 1
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 3
+				maxCount 3
 				planetTypeCount 1
 				planetType "Wormhole"
 dlcID 204880

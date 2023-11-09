@@ -1,13 +1,13 @@
 TXT
 versionNumber 193
 isBrowsable TRUE
-browsePictureName "ScenarioPicture-RandomHugeRing"
-browseName "Fully Random Large Rings"
-browseDescription "Fight your way through the many rings of this solar system against up to 7 other empires. This map is randomly generated each time it is played, including the layout of the map itself."
+browsePictureName "ScenarioPicture-RandomMedium"
+browseName "Random Medium-Large"
+browseDescription "Explore an uncharted star system and claim its riches while fending off up to 5 other factions. This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
-planetBonusDensity 1.000000
+planetArtifactDensity 0.6
+planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
 normalStartHomePlanetUpgradeLevel:TacticalModules 4
@@ -23,25 +23,25 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.000000
+pixelsPerGalaxyUnit 1
 useRandomGenerator TRUE
 randomizerParams
 	starPosOffsetRange
-		minPercentage 10.000000
-		maxPercentage 15.000000
+		minPercentage 10.0
+		maxPercentage 15.0
 	playerParams
 		startingCredits 18000
 		startingMetal 3600
 		startingCrystal 1800
 		homePlanetType "TerranHome"
 		homePlanetStarRadiusRange
-			minPercentage 0.875000
-			maxPercentage 0.990000
+			minPercentage 0.8
+			maxPercentage 0.9
 		areExtraPlanetsColonized FALSE
-		extraPlanetsMaxRadius 10.000000
+		extraPlanetsMaxRadius 35
 		extraPlanetsRadiusRange
-			minPercentage 0.875000
-			maxPercentage 0.990000
+			minPercentage 0.7
+			maxPercentage 0.99
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -54,70 +54,54 @@ randomizerParams
 			planetTypeCount 1
 			planetType "RandomHighPop"
 		extraPlanetGroup
-			minCount 2
-			maxCount 2
+			minCount 1
+			maxCount 1
 			planetTypeCount 1
 			planetType "RandomHighResourceColonizable"
-	starCount 1
+starCount 1
 	star
 		type "RandomStar"
-		radius 1000.000000
-		connectionStarRadiusRange 0.490000
-		connectionChance 0.850000
-		maxPlayerCount 8
-		ringCount 4
+		radius 350
+		connectionStarRadiusRange .7
+		connectionChance .75
+		maxPlayerCount 6
+		ringCount 3
 		ring
 			starRadiusRange
-				minPercentage 0.125000
-				maxPercentage 0.250000
-			militiaColonizationPerc 0.000000
+				minPercentage 0.10
+				maxPercentage 0.15
+			militiaColonizationPerc 0
 			planetGroupCount 2
 			planetGroup
-				minCount 4
-				maxCount 4
+				minCount 3
+				maxCount 3
 				planetTypeCount 1
 				planetType "PirateBase"
 			planetGroup
-				minCount 4
-				maxCount 4
-				planetTypeCount 1
-				planetType "Asteroid"
-		ring
-			starRadiusRange
-				minPercentage 0.375000
-				maxPercentage 0.500000
-			militiaColonizationPerc 0.000000
-			planetGroupCount 1
-			planetGroup
-				minCount 16
-				maxCount 16
+				minCount 3
+				maxCount 3
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
 			starRadiusRange
-				minPercentage 0.625000
-				maxPercentage 0.750000
-			militiaColonizationPerc 0.000000
+				minPercentage 0.2
+				maxPercentage 0.8
+			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 24
-				maxCount 24
-				planetTypeCount 1
-				planetType "Random"
-		ring
-			starRadiusRange
-				minPercentage 0.875000
-				maxPercentage 0.990000
-			militiaColonizationPerc 0.000000
-			planetGroupCount 2
-			planetGroup
-				minCount 32
-				maxCount 32
+				minCount 30
+				maxCount 30
 				planetTypeCount 1
 				planetType "RandomColonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 1.0
+			militiaColonizationPerc 0
+			planetGroupCount 1
 			planetGroup
-				minCount 4
-				maxCount 4
+				minCount 3
+				maxCount 3
 				planetTypeCount 1
 				planetType "Wormhole"
 dlcID 204880
