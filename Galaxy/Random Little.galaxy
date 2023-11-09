@@ -2,7 +2,7 @@ TXT
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-RandomSmall"
-browseName "Random Little (Rebalance)"
+browseName "Random Little"
 browseDescription "Conquering this small solar system will be your first step towards galactic hegemony. This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
