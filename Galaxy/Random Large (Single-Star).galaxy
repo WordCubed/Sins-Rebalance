@@ -40,7 +40,7 @@ randomizerParams
 		areExtraPlanetsColonized FALSE
 		extraPlanetsMaxRadius 40
 		extraPlanetsRadiusRange
-			minPercentage 0.75
+			minPercentage 0.80
 			maxPercentage 0.99
 		extraPlanetGroupCount 3
 		extraPlanetGroup
