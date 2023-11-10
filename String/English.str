@@ -1,5 +1,32 @@
 TXT
-NumStrings 8695
+NumStrings 8704
+StringInfo
+	ID "IDS_FRIGATE_TECHENVOY_NAME"
+	Value "Envoy Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_PSIENVOY_NAME"
+	Value "Envoy Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_PHASEENVOY_NAME"
+	Value "Envoy Cruiser"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_NAME"
+	Value "Envoy Prototype"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_DESCRIPTION"
+	Value "Grants access to the Envoy cruiser—regal vessels that can improve relations with opposing factions."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_ADVENT_NAME"
+	Value "Envoy Prototype"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_ADVENT_DESCRIPTION"
+	Value "Grants access to the Envoy cruiser—majestic ships that will improve relations with opposing factions."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_VASARI_NAME"
+	Value "Envoy Prototype"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_VASARI_DESCRIPTION"
+	Value "Grants access to the Envoy cruiser—an intimidating craft that can improve your relationship with opposing factions"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_NAME"
 	Value "Civilian Lab"
