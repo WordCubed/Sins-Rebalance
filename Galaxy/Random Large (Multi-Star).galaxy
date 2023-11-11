@@ -1,0 +1,320 @@
+TXT
+versionNumber 193
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-RandomLarge"
+browseName "Random Large (Multi-Star)"
+browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMLARGEMULTI"
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.6
+planetBonusDensity 1.0
+normalStartHomePlanetUpgradeLevel:Population 4
+normalStartHomePlanetUpgradeLevel:CivilianModules 4
+normalStartHomePlanetUpgradeLevel:TacticalModules 4
+normalStartHomePlanetUpgradeLevel:Home 4
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 4
+normalStartHomePlanetUpgradeLevel:Infrastructure 4
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 4
+quickStartHomePlanetUpgradeLevel:TacticalModules 4
+quickStartHomePlanetUpgradeLevel:Home 4
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
+quickStartHomePlanetUpgradeLevel:Infrastructure 4
+recommendedGameTypeCount 3
+recommendedGameType "FFA"
+recommendedGameType "FourTeamsOfTwo"
+recommendedGameType "TwoTeamsOfFour"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 1
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.0
+		maxPercentage 15.0
+	playerParams
+		startingCredits 18000
+		startingMetal 3600
+		startingCrystal 1800
+		homePlanetType "TerranHome"
+		homePlanetStarRadiusRange
+			minPercentage 0.8
+			maxPercentage 0.9
+		areExtraPlanetsColonized FALSE
+		extraPlanetsMaxRadius 15
+		extraPlanetsRadiusRange
+			minPercentage 0.75
+			maxPercentage 0.99
+		extraPlanetGroupCount 3
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "RandomNoResearchColonizable"
+		extraPlanetGroup
+			minCount 2
+			maxCount 2
+			planetTypeCount 1
+			planetType "RandomHighPop"
+		extraPlanetGroup
+			minCount 2
+			maxCount 2
+			planetTypeCount 1
+			planetType "RandomHighResourceColonizable"
+starCount 5
+	star
+		type "NonSpecialStar"
+		radius 150
+		connectionStarRadiusRange .75
+		connectionChance 0.8
+		maxPlayerCount 2
+		ringCount 4
+		ring
+			starRadiusRange
+				minPercentage 0.1
+				maxPercentage 0.2
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.10
+				maxPercentage 0.33
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 4
+				maxCount 4
+				planetTypeCount 1
+				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.8
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 12
+				planetTypeCount 1
+				planetType "RandomColonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.33
+				maxPercentage 0.99
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"
+	star
+		type "NonSpecialStar"
+		radius 150
+		connectionStarRadiusRange .75
+		connectionChance 0.8
+		maxPlayerCount 2
+		ringCount 4
+		ring
+			starRadiusRange
+				minPercentage 0.1
+				maxPercentage 0.2
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.10
+				maxPercentage 0.33
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 4
+				maxCount 4
+				planetTypeCount 1
+				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.8
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 12
+				planetTypeCount 1
+				planetType "RandomColonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.33
+				maxPercentage 0.99
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"
+	star
+		type "NonSpecialStar"
+		radius 150
+		connectionStarRadiusRange .75
+		connectionChance 0.8
+		maxPlayerCount 2
+		ringCount 4
+		ring
+			starRadiusRange
+				minPercentage 0.1
+				maxPercentage 0.2
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.10
+				maxPercentage 0.33
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 4
+				maxCount 4
+				planetTypeCount 1
+				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.8
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 12
+				planetTypeCount 1
+				planetType "RandomColonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.33
+				maxPercentage 0.99
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"
+	star
+		type "NonSpecialStar"
+		radius 150
+		connectionStarRadiusRange .75
+		connectionChance 0.8
+		maxPlayerCount 2
+		ringCount 4
+		ring
+			starRadiusRange
+				minPercentage 0.1
+				maxPercentage 0.2
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.10
+				maxPercentage 0.33
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 4
+				maxCount 4
+				planetTypeCount 1
+				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.8
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 12
+				planetTypeCount 1
+				planetType "RandomColonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.33
+				maxPercentage 0.99
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"
+	star
+		type "SpecialStar"
+		radius 300
+		connectionStarRadiusRange .75
+		connectionChance 0.8
+		maxPlayerCount 0
+		ringCount 4
+		ring
+			starRadiusRange
+				minPercentage 0.1
+				maxPercentage 0.2
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 3
+				maxCount 3
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.10
+				maxPercentage 0.33
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 6
+				maxCount 6
+				planetTypeCount 1
+				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.8
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 12
+				planetTypeCount 1
+				planetType "RandomColonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.33
+				maxPercentage 0.99
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"
+dlcID 204880
+

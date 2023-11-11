@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "ThreeTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 0.800000
+pixelsPerGalaxyUnit 2.120000
 useRandomGenerator FALSE
 galaxyWidth 2100.000000
 galaxyHeight 1800.000000
@@ -1449,7 +1449,7 @@ star
 		designName "Planet61"
 		inGameName ""
 		type "TerranHome"
-		pos [ 1598 , 92 ]
+		pos [ 1596 , 91 ]
 		owner "NewPlayer3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
@@ -1524,7 +1524,7 @@ star
 		designName "Planet64"
 		inGameName ""
 		type "Oceanic"
-		pos [ 1598 , 36 ]
+		pos [ 1596 , 34 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1574,7 +1574,7 @@ star
 		designName "Planet66"
 		inGameName ""
 		type "Desert"
-		pos [ 1583 , 63 ]
+		pos [ 1580 , 63 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1649,7 +1649,7 @@ star
 		designName "Planet69"
 		inGameName ""
 		type "Volcanic"
-		pos [ 1631 , 91 ]
+		pos [ 1630 , 92 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1724,7 +1724,7 @@ star
 		designName "Planet72"
 		inGameName ""
 		type "Ice"
-		pos [ 1567 , 92 ]
+		pos [ 1562 , 91 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1749,7 +1749,7 @@ star
 		designName "Planet73"
 		inGameName ""
 		type "Oceanic"
-		pos [ 1778 , 283 ]
+		pos [ 1775 , 285 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1774,7 +1774,7 @@ star
 		designName "Planet74"
 		inGameName ""
 		type "Greenhouse"
-		pos [ 1750 , 248 ]
+		pos [ 1749 , 250 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1799,7 +1799,7 @@ star
 		designName "Planet75"
 		inGameName ""
 		type "Desert"
-		pos [ 1736 , 285 ]
+		pos [ 1735 , 286 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1949,7 +1949,7 @@ star
 		designName "Planet81"
 		inGameName ""
 		type "Volcanic"
-		pos [ 1729 , 218 ]
+		pos [ 1728 , 219 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2049,7 +2049,7 @@ star
 		designName "Planet85"
 		inGameName ""
 		type "Barren"
-		pos [ 1488 , 189 ]
+		pos [ 1486 , 190 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2374,7 +2374,7 @@ star
 		designName "Planet98"
 		inGameName ""
 		type "AntimatterFountain"
-		pos [ 1515 , 153 ]
+		pos [ 1516 , 155 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
