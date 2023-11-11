@@ -22,7 +22,7 @@ quickStartHomePlanetUpgradeLevel:Home 4
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
-recommendedGameType "TwoTeamsOfFive"
+recommendedGameType "TwoTeamsOfThree"
 metersPerGalaxyUnit 25000.000000
 pixelsPerGalaxyUnit 2.000003
 useRandomGenerator FALSE
@@ -1026,11 +1026,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 10
-		planetIndexB 21
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 15
 		planetIndexB 21
 		spawnProbability 1.000000
@@ -1053,21 +1048,6 @@ star
 	connection
 		planetIndexA 23
 		planetIndexB 16
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 22
-		planetIndexB 24
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 24
-		planetIndexB 16
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 20
-		planetIndexB 8
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1148,6 +1128,26 @@ star
 	connection
 		planetIndexA 32
 		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 10
+		planetIndexB 30
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 24
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 21
+		planetIndexB 24
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -2081,16 +2081,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 15
-		planetIndexB 2
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 2
-		planetIndexB 14
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 16
 		planetIndexB 14
 		spawnProbability 1.000000
@@ -2166,11 +2156,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 26
-		planetIndexB 1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 27
 		planetIndexB 26
 		spawnProbability 1.000000
@@ -2188,11 +2173,6 @@ star
 	connection
 		planetIndexA 10
 		planetIndexB 28
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 0
-		planetIndexB 30
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -2263,6 +2243,26 @@ star
 	connection
 		planetIndexA 22
 		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 30
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 26
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 1
+		planetIndexB 2
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -3502,7 +3502,7 @@ player
 	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
-	themeIndex 1
+	themeIndex 0
 	pictureGroup ""
 	pictureIndex 0
 player
