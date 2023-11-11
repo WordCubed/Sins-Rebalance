@@ -35,29 +35,29 @@ randomizerParams
 		startingCrystal 1800
 		homePlanetType "TerranHome"
 		homePlanetStarRadiusRange
-			minPercentage 0.75
+			minPercentage 0.66
 			maxPercentage 0.99
 		areExtraPlanetsColonized FALSE
-		extraPlanetsMaxRadius 20
+		extraPlanetsMaxRadius 30
 		extraPlanetsRadiusRange
-			minPercentage 0.75
+			minPercentage 0.66
 			maxPercentage 0.99
 		extraPlanetGroupCount 3
 		extraPlanetGroup
-			minCount 1
-			maxCount 1
+			minCount 2
+			maxCount 2
 			planetTypeCount 1
-			planetType "RandomNoResearchColonizable"
+			planetType "RandomTech"
 		extraPlanetGroup
-			minCount 1
-			maxCount 1
+			minCount 2
+			maxCount 2
 			planetTypeCount 1
-			planetType "RandomHighPop"
+			planetType "RandomPsi"
 		extraPlanetGroup
-			minCount 1
-			maxCount 1
+			minCount 2
+			maxCount 2
 			planetTypeCount 1
-			planetType "RandomHighResourceColonizable"
+			planetType "RandomPhase"
 starCount 1
 	star
 		type "RandomStar"
@@ -73,43 +73,21 @@ starCount 1
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 1
+				maxCount 1
 				planetTypeCount 1
 				planetType "PirateBase"
 		ring
 			starRadiusRange
-				minPercentage 0.25
-				maxPercentage 0.75
+				minPercentage 0.2
+				maxPercentage 0.8
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
 				minCount 6
 				maxCount 6
 				planetTypeCount 1
-				planetType "RandomTech"
-		ring
-			starRadiusRange
-				minPercentage 0.25
-				maxPercentage 0.75
-			militiaColonizationPerc 0
-			planetGroupCount 1
-			planetGroup
-				minCount 6
-				maxCount 6
-				planetTypeCount 1
-				planetType "RandomPsi"
-		ring
-			starRadiusRange
-				minPercentage 0.25
-				maxPercentage 0.75
-			militiaColonizationPerc 0
-			planetGroupCount 1
-			planetGroup
-				minCount 6
-				maxCount 6
-				planetTypeCount 1
-				planetType "RandomPhase"
+				planetType "RandomUncolonizable"
 		ring
 			starRadiusRange
 				minPercentage 0.33
