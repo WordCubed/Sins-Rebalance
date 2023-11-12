@@ -2,9 +2,9 @@
 SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
-browsePictureName "ScenarioPicture-RandomLarge"
-browseName "Random Large (Multi-Star) (Rebalance)"
-browseDescription "A new sector's expanse lays beyond your empire's foothold here. Venture out and establish your rule over up to five opposing factions. This map is randomly generated each time it is played."
+browsePictureName ""
+browseName "Entrenchment"
+browseDescription "Work with your allies to entrench yourself around your home star. But don't take too long! Your enemies are doing the same—and there is a third star to contest. Will you have entrenched yourself there, or will your enemies?"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
 planetArtifactDensity 0.600000
@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 3.559999
+pixelsPerGalaxyUnit 2.720000
 useRandomGenerator FALSE
 galaxyWidth 4887.299805
 galaxyHeight 3020.300049
@@ -2940,7 +2940,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 75
+	connectionCount 77
 	connection
 		planetIndexA 0
 		planetIndexB -1
@@ -3314,6 +3314,16 @@ star
 	connection
 		planetIndexA 50
 		planetIndexB 11
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 3
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA -1
+		planetIndexB 5
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -3925,7 +3935,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 40
+	connectionCount 41
 	connection
 		planetIndexA 0
 		planetIndexB 2
@@ -4124,6 +4134,11 @@ star
 	connection
 		planetIndexA 23
 		planetIndexB 17
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA -1
+		planetIndexB 3
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0

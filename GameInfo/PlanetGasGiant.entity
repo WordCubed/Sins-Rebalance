@@ -142,7 +142,7 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxModuleSlotCount:Civilian 3.000000
+			maxModuleSlotCount:Civilian 1.000000
 			maxModuleConstructorCount 1
 		stage
 			price
@@ -150,7 +150,7 @@ planetUpgradeDef
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxModuleSlotCount:Civilian 6.000000
+			maxModuleSlotCount:Civilian 2.000000
 			maxModuleConstructorCount 2
 		stage
 			price
@@ -158,7 +158,7 @@ planetUpgradeDef
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxModuleSlotCount:Civilian 12.000000
+			maxModuleSlotCount:Civilian 4.000000
 			maxModuleConstructorCount 3
 		stage
 			price
@@ -166,7 +166,7 @@ planetUpgradeDef
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 20.000000
-			maxModuleSlotCount:Civilian 18.000000
+			maxModuleSlotCount:Civilian 6.000000
 			maxModuleConstructorCount 4
 	path:TacticalModules
 		stageCount 4
@@ -176,7 +176,7 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxModuleSlotCount:Tactical 12.000000
+			maxModuleSlotCount:Tactical 3.000000
 			maxModuleConstructorCount 0
 		stage
 			price
@@ -184,7 +184,7 @@ planetUpgradeDef
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxModuleSlotCount:Tactical 24.000000
+			maxModuleSlotCount:Tactical 6.000000
 			maxModuleConstructorCount 0
 		stage
 			price
@@ -192,7 +192,7 @@ planetUpgradeDef
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxModuleSlotCount:Tactical 36.000000
+			maxModuleSlotCount:Tactical 9.000000
 			maxModuleConstructorCount 0
 		stage
 			price
@@ -200,7 +200,7 @@ planetUpgradeDef
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 20.000000
-			maxModuleSlotCount:Tactical 48.000000
+			maxModuleSlotCount:Tactical 12.000000
 			maxModuleConstructorCount 0
 	path:Home
 		stageCount 2
@@ -380,7 +380,7 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 22410.000000
+	creditsOnStrippedToTheCore 19170.000000
 	metalOnStrippedToTheCore 14400.000000
 	crystalOnStrippedToTheCore 14400.000000
 	extraScuttleTimeOnStrip 0.000000

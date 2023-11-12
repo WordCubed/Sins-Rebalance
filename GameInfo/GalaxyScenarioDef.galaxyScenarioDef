@@ -62,11 +62,11 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarBlackHole"
 	orbitBodyTypeCount 1
 	orbitBodyType "BlackHoleStar"
-planetTypeCount 64
+planetTypeCount 66
 planetType
 	designName "Random"
 	designStringId "IDSGalaxyScenarioTypePlanetAny"
-	orbitBodyTypeCount 100
+	orbitBodyTypeCount 106
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "DeadAsteroid"
@@ -125,6 +125,9 @@ planetType
 	orbitBodyType "Cryo"
 	orbitBodyType "Cryo"
 	orbitBodyType "Cryo"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
 	orbitBodyType "Desert"
 	orbitBodyType "Desert"
 	orbitBodyType "Desert"
@@ -143,6 +146,9 @@ planetType
 	orbitBodyType "GasGiant"
 	orbitBodyType "GasGiant"
 	orbitBodyType "GasGiant"
+	orbitBodyType "IceGiant"
+	orbitBodyType "IceGiant"
+	orbitBodyType "IceGiant"
 	orbitBodyType "RockGiant"
 	orbitBodyType "RockGiant"
 	orbitBodyType "RockGiant"
@@ -152,12 +158,12 @@ planetType
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
 	orbitBodyType "Hydrocarbon"
 	orbitBodyType "Hydrocarbon"
 	orbitBodyType "Hydrocarbon"
+	orbitBodyType "Toxic"
+	orbitBodyType "Toxic"
+	orbitBodyType "Toxic"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
@@ -170,7 +176,7 @@ planetType
 planetType
 	designName "RandomColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomColonizable"
-	orbitBodyTypeCount 97
+	orbitBodyTypeCount 101
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
@@ -208,10 +214,10 @@ planetType
 	orbitBodyType "Cryo"
 	orbitBodyType "Cryo"
 	orbitBodyType "Cryo"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
-	orbitBodyType "Desert"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
+	orbitBodyType "Greenhouse"
 	orbitBodyType "Desert"
 	orbitBodyType "Desert"
 	orbitBodyType "Desert"
@@ -240,6 +246,10 @@ planetType
 	orbitBodyType "RockGiant"
 	orbitBodyType "RockGiant"
 	orbitBodyType "RockGiant"
+	orbitBodyType "IceGiant"
+	orbitBodyType "IceGiant"
+	orbitBodyType "IceGiant"
+	orbitBodyType "IceGiant"
 	orbitBodyType "Moon"
 	orbitBodyType "Moon"
 	orbitBodyType "Moon"
@@ -248,14 +258,14 @@ planetType
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
 	orbitBodyType "Volcanic"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
-	orbitBodyType "Greenhouse"
 	orbitBodyType "Hydrocarbon"
 	orbitBodyType "Hydrocarbon"
 	orbitBodyType "Hydrocarbon"
 	orbitBodyType "Hydrocarbon"
+	orbitBodyType "Toxic"
+	orbitBodyType "Toxic"
+	orbitBodyType "Toxic"
+	orbitBodyType "Toxic"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
@@ -308,13 +318,12 @@ planetType
 planetType
 	designName "RandomHighResourceColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetHighResourceColonizable"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 5
 	orbitBodyType "GasGiant"
 	orbitBodyType "RockGiant"
-	orbitBodyType "Silicate"
-	orbitBodyType "Carbon"
+	orbitBodyType "IceGiant"
 	orbitBodyType "Volcanic"
-	orbitBodyType "Hydrocarbon"
+	orbitBodyType "Ice"
 planetType
 	designName "RandomSmallColonizableOrLowValueUncolonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetSmallColonizableOrLowValueUncolonizable"
@@ -329,33 +338,36 @@ planetType
 planetType
 	designName "RandomHighMetalAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighMetalAll"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 7
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
 	orbitBodyType "AsteroidBelt"
+	orbitBodyType "RockGiant"
 	orbitBodyType "Ferrus"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "Volcanic"
 planetType
 	designName "RandomHighCrystalAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighCrystalAll"
-	orbitBodyTypeCount 6
+	orbitBodyTypeCount 7
 	orbitBodyType "IceField"
 	orbitBodyType "PlasmaStorm"
 	orbitBodyType "AsteroidBelt"
+	orbitBodyType "IceGiant"
 	orbitBodyType "Cryo"
 	orbitBodyType "Hydrocarbon"
 	orbitBodyType "Arctic"
 planetType
 	designName "RandomHighResourceAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighResourceAll"
-	orbitBodyTypeCount 8
+	orbitBodyTypeCount 9
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "IceField"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RockGiant"
 	orbitBodyType "GasGiant"
+	orbitBodyType "IceGiant"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Cryo"
 planetType
@@ -383,7 +395,7 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetPsi"
 	orbitBodyTypeCount 9
 	orbitBodyType "Desert"
-	orbitBodyType "Desert"
+	orbitBodyType "Greenhouse"
 	orbitBodyType "Savannah"
 	orbitBodyType "Barren"
 	orbitBodyType "Silicate"
@@ -394,15 +406,16 @@ planetType
 planetType
 	designName "RandomPhase"
 	designStringId "IDSGalaxyScenarioTypePlanetPhase"
-	orbitBodyTypeCount 9
+	orbitBodyTypeCount 10
 	orbitBodyType "Volcanic"
-	orbitBodyType "Greenhouse"
+	orbitBodyType "Toxic"
 	orbitBodyType "Hydrocarbon"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Asteroid"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "GasGiant"
 	orbitBodyType "RockGiant"
+	orbitBodyType "IceGiant"
 	orbitBodyType "Moon"
 planetType
 	designName "RandomTerran"
@@ -449,13 +462,10 @@ planetType
 planetType
 	designName "RandomIron"
 	designStringId "IDSGalaxyScenarioTypePlanetIron"
-	orbitBodyTypeCount 6
-	orbitBodyType "Ferrus"
+	orbitBodyTypeCount 3
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
 	orbitBodyType "ShipGraveyard"
-	orbitBodyType "ShipGraveyard"
-	orbitBodyType "Asteroid"
 planetType
 	designName "RandomTiny"
 	designStringId "IDSGalaxyScenarioTypePlanetSmall"
@@ -525,6 +535,11 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "Ice"
 planetType
+	designName "IceGiant"
+	designStringId "IDSGalaxyScenarioTypePlanetIceGiant"
+	orbitBodyTypeCount 1
+	orbitBodyType "IceGiant"
+planetType
 	designName "Industrial"
 	designStringId "IDSGalaxyScenarioTypePlanetIndustrial"
 	orbitBodyTypeCount 1
@@ -584,6 +599,11 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetTerranHome"
 	orbitBodyTypeCount 1
 	orbitBodyType "TerranHome"
+planetType
+	designName "Toxic"
+	designStringId "IDSGalaxyScenarioTypePlanetToxic"
+	orbitBodyTypeCount 1
+	orbitBodyType "Toxic"
 planetType
 	designName "Tropical"
 	designStringId "IDSGalaxyScenarioTypePlanetTropical"
@@ -674,7 +694,7 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetWormhole"
 	orbitBodyTypeCount 1
 	orbitBodyType "Wormhole"
-orbitBodyTypeCount 49
+orbitBodyTypeCount 51
 orbitBodyType
 	typeName "BlueStar"
 	entityDefName "STAR_BLUE"
@@ -776,6 +796,10 @@ orbitBodyType
 	entityDefName "PlanetGasGiant"
 	defaultTemplateName "Template:DefaultStart_GasGiant"
 orbitBodyType
+	typeName "IceGiant"
+	entityDefName "PlanetIceGiant"
+	defaultTemplateName "Template:DefaultStart_IceGiant"
+orbitBodyType
 	typeName "PlasmaStorm"
 	entityDefName "PlanetPlasmaStorm"
 	defaultTemplateName "Template:DefaultStart_PlasmaStorm"
@@ -859,6 +883,10 @@ orbitBodyType
 	typeName "Swamp"
 	entityDefName "PlanetSwamp"
 	defaultTemplateName "Template:DefaultStart_Swamp"
+orbitBodyType
+	typeName "Toxic"
+	entityDefName "PlanetToxic"
+	defaultTemplateName "Template:DefaultStart_Toxic"
 orbitBodyType
 	typeName "Tropical"
 	entityDefName "PlanetTropical"
@@ -1338,7 +1366,7 @@ playerType
 playerType
 	designName "Pirate"
 	entityDefName "PlayerPirate"
-planetItemsTemplateCount 51
+planetItemsTemplateCount 53
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -1560,6 +1588,12 @@ planetItemsTemplate
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_GasGiant"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaStrong"
+	groups 0
+planetItemsTemplate
+	templateName "Template:DefaultStart_IceGiant"
 	subTemplates 2
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaStrong"
@@ -2176,6 +2210,12 @@ planetItemsTemplate
 		template "Template:LocalMilitiaStrong"
 	groups 0
 planetItemsTemplate
+	templateName "Template:DefaultStart_Toxic"
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
+		template "Template:LocalMilitiaStrong"
+	groups 0
+planetItemsTemplate
 	templateName "Template:DefaultStart_Tropical"
 	subTemplates 2
 		template "Template:DefaultHomePlanetSetup"
@@ -2203,7 +2243,7 @@ planetItemsTemplate
 				param ""
 			owner "Pirate"
 			colonizeChance 1
-			items 118
+			items 122
 				item "Pirate:CapitalShip:Capital"
 				item "Pirate:CapitalShip:Capital"
 				item "Pirate:CapitalShip:Capital"
@@ -2322,6 +2362,10 @@ planetItemsTemplate
 				item "Pirate:Module:HangarDefense"
 				item "Pirate:Module:TradePort"
 				item "Pirate:Module:Cannon"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:MetalExtractor"
+				item "Tech:Module:CrystalExtractor"
+				item "Tech:Module:CrystalExtractor"
 planetItemsTemplate
 	templateName "Template:OccupiedPlanet"
 	subTemplates 0

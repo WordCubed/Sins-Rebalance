@@ -1,5 +1,86 @@
 TXT
-NumStrings 8682
+NumStrings 8714
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetIceGiant"
+	Value "Ice Giant"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetToxic"
+	Value "Toxic"
+StringInfo
+	ID "IDS_PLANETTYPE_TOXIC"
+	Value "Toxic"
+StringInfo
+	ID "IDS_PLANETTYPE_ICEGIANT"
+	Value "Ice Giant"
+StringInfo
+	ID "IDS_FRIGATE_TECHENVOY_NAME"
+	Value "Envoy Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_PSIENVOY_NAME"
+	Value "Envoy Cruiser"
+StringInfo
+	ID "IDS_FRIGATE_PHASEENVOY_NAME"
+	Value "Envoy Cruiser"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_NAME"
+	Value "Envoy Prototype"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_DESCRIPTION"
+	Value "Grants access to the Envoy cruiser—regal vessels that can improve relations with opposing factions."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_ADVENT_NAME"
+	Value "Envoy Prototype"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_ADVENT_DESCRIPTION"
+	Value "Grants access to the Envoy cruiser—majestic ships that will improve relations with opposing factions."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_VASARI_NAME"
+	Value "Envoy Prototype"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ENVOY_PROTOTYPE_VASARI_DESCRIPTION"
+	Value "Grants access to the Envoy cruiser—an intimidating craft that can improve your relationship with opposing factions"
+StringInfo
+	ID "IDS_PLANETMODULE_TECHORBITALNONCOMBATLABORATORY_NAME"
+	Value "Civilian Lab"
+StringInfo
+	ID "IDS_PLANETMODULE_PSIORBITALNONCOMBATLABORATORY_NAME"
+	Value "Civilian Lab"
+StringInfo
+	ID "IDS_PLANETMODULE_PSIORBITALCOMBATLABORATORY_NAME"
+	Value "Military Lab"
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALNONCOMBATLABORATORY_NAME"
+	Value "Civilian Lab"
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALCOMBATLABORATORY_NAME"
+	Value "Military Lab"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PIRATE_MERCENARIES_DESCRIPTION"
+	Value "The Pirates throw their lot in with the rebellion, allowing you to purchase military aid through the Culture Center."
+StringInfo
+	ID "IDS_PLANETMODULE_TECHORBITALCULTURECENTER_NAME"
+	Value "Culture Center"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERTECH_DESCRIPTION"
+	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED_DESCRIPTION"
+	Value "Grants the Wail of the Sacrificed ability to your Culture Centers, allowing the local planet to sacrifice its population. Doing so unleashes a psionic wave that does heavy damage to all ships and structures in nearby gravity wells."
+StringInfo
+	ID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_NAME"
+	Value "Culture Center"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPSI_DESCRIPTION"
+	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALCULTURECENTER_NAME"
+	Value "Culture Center"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPHASE_DESCRIPTION"
+	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
+	Value "This alien factory design can produce ships & modules faster than previously imaginable. Also increases your slots for factories."
 StringInfo
 	ID "IDS_ABILITY_DISINTEGRATION_DESCRIPTION"
 	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and antimatter. These gains are streamed back to the Battleship, replenishing it in turn."
@@ -74,7 +155,7 @@ StringInfo
 	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of credits, metal, and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, with each planet you lose—by your own hand or your enemies'—you gain a permanent 10% damage bonus (stacking up to 50%)."
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
-	Value "As the titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."
+	Value "As the Titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_PLASMA0_DESCRIPTION"
 	Value "Plasma and Psionic Surge projectiles consistently retain their desired shape, increasing their damage."
@@ -113,7 +194,7 @@ StringInfo
 	Value "Hazardous Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPSI_DESCRIPTION"
-	Value "Allows colonization of Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_ABILITY_CULTUREBLAST_NAME"
 	Value "Psychic Transmission"
@@ -160,11 +241,8 @@ StringInfo
 	ID "IDS_ABILITY_DIVINEPROTECTION_DESCRIPTION"
 	Value "The Unity focuses its protection around a chosen friendly ship or structure, rendering it invincible for a brief time."
 StringInfo
-	ID "IDS_ABILITY_DISSEVER_DESCRIPTION"
-	Value "The Titan damages all nearby enemy ships with destructive nanites. Those affected by Gravity Pulse take additional damage over time for the duration."
-StringInfo
 	ID "IDS_ABILITY_GRAVITYPULSE_DESCRIPTION"
-	Value "The titan unleases a powerful gravimetric wave, slowing nearby enemies. If the titan has recently used Micro-Phase Jump, its weapons also deal more damage for a time."
+	Value "The Titan unleases a powerful gravimetric wave, slowing nearby enemies. If the Titan has recently used Micro-Phase Jump, its weapons also deal more damage for a time."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_NAME"
 	Value "Death Rites"
@@ -185,7 +263,7 @@ StringInfo
 	Value "Renewed commitments to raise employment rates lessen opposition to the commercialization and defense of low orbit space."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPSI_NAME"
-	Value "Big & Small Evangelism"
+	Value "Giant Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPSI0_DESCRIPTION"
 	Value "Ceremonies extolling the virtue of the Unity are made more compelling, increasing the spread of your empire's culture & your planets' allegiance cap. Your units also regenerate antimatter faster within your culture."
@@ -212,7 +290,7 @@ StringInfo
 	Value "The Unity's influence becomes strong enough to overwhelm the free will of the entirety of your planets' populaces, increasing the spread of your empire's culture & your planets' allegiance cap. Your units also regenerate antimatter faster within your culture."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPHASE_NAME"
-	Value "Big & Small Evangelism"
+	Value "Giant Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPICEPSI0_NAME"
 	Value "Insulative Domes"
@@ -458,22 +536,22 @@ StringInfo
 	Value "New micro-organization of hull plating material more effectively disperses damage forces, further increasing the maximum hull points and passive repair rate of all hulls."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPHASE_NAME"
-	Value "Big & Small Occupation"
+	Value "Giant Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPHASE_DESCRIPTION"
-	Value "Allows colonization of Dwarf and Giant planets."
+	Value "Allows colonization of giant planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPDEVIATEPHASE0_NAME"
-	Value "Big & Small Subjugation 1"
+	Value "Giant Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPDEVIATEPHASE0_DESCRIPTION"
-	Value "Inhabitants are genetically modified to survive more easily in a wider range of gravity strengths, increasing the population that Dwarf and Giant planets can support."
+	Value "Inhabitants are genetically modified to survive more easily in a wider range of gravity strengths, increasing the population that giant planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPDEVIATEPHASE1_NAME"
-	Value "Big & Small Subjugation 2"
+	Value "Giant Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPDEVIATEPHASE1_DESCRIPTION"
-	Value "Further increases the population that Dwarf and Giant planets can support."
+	Value "Further increases the population that giant planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SOLITARY_PATH_NAME"
 	Value "Solitary Path"
@@ -500,19 +578,19 @@ StringInfo
 	Value "Further increases the power and effects of your culture on your empire's planets and ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_NAME"
-	Value "Ferric Occupation"
+	Value "Ferric & Asteroid Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_DESCRIPTION"
-	Value "Allows colonization of Iron-type and Asteroid-type planets."
+	Value "Allows colonization of Iron-type and small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_NAME"
-	Value "Ferric Subjugation 1"
+	Value "Ferric & Asteroid Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_DESCRIPTION"
 	Value "Inhabitants are genetically modified to slow their metabolisms to survive more easily in non-organic environements, increasing the population that Iron-type and Asteroid-type planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_NAME"
-	Value "Ferric Subjugation 2"
+	Value "Ferric & Asteroid Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_DESCRIPTION"
 	Value "Organic life is introduced in an effort to terraform the planet, making the environment less hostile and increasing the population that Iron-type and Asteroid-type planets can support."
@@ -521,7 +599,7 @@ StringInfo
 	Value "Hazardous Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE_DESCRIPTION"
-	Value "Allows colonization of Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPVOLCANICPHASE0_NAME"
 	Value "Hazardous Subjugation 1"
@@ -1070,28 +1148,28 @@ StringInfo
 	Value "Merchant ships are able carry greatly increased amounts of goods and raw resources."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_MOONTECH_NAME"
-	Value "Big & Small Exploitation"
+	Value "Giant Exploitation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_MOONTECH_DESCRIPTION"
-	Value "Allows colonization of giant and dwarf planets."
+	Value "Allows colonization of giant planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSEPHASE_NAME"
 	Value "Hazardous Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSEPHASE_DESCRIPTION"
-	Value "Allows colonization of hazardous places like Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of hazardous places like Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSEPSI_NAME"
 	Value "Hazardous Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSEPSI_DESCRIPTION"
-	Value "Allows colonization of hazardous places like Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of hazardous places like Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSETECH_NAME"
 	Value "Hazardous Exploitation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSETECH_DESCRIPTION"
-	Value "Allows colonization of hazardous places like Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of hazardous places like Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_NAME"
 	Value "Iron Occupation"
@@ -1127,7 +1205,7 @@ StringInfo
 	Value "Titan Prototype I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1_DESCRIPTION"
-	Value "Grants access to the titan foundry and allows you to begin construction on the Ankylon Titan, a massive warship of immense power."
+	Value "Grants access to the Titan foundry and allows you to begin construction on the Ankylon Titan, a massive warship of immense power."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_2_NAME"
 	Value "Titan Prototype II"
@@ -1151,7 +1229,7 @@ StringInfo
 	Value "Titan Prototype I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_TECHREBEL_1_DESCRIPTION"
-	Value "Grants access to the titan foundry and allows you to begin construction on the Ragnarov Titan, a massive warship of immense power. Because the Titan uses a massive Railgun as its primary weapon, construction of the Titan has lead to improvements in all Railguns."
+	Value "Grants access to the Titan foundry and allows you to begin construction on the Ragnarov Titan, a massive warship of immense power. Because the Titan uses a massive Railgun as its primary weapon, construction of the Titan has lead to improvements in all Railguns."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_TECHREBEL_2_NAME"
 	Value "Titan Prototype II"
@@ -1652,7 +1730,7 @@ StringInfo
 	Value "Grants access to the Corvette prototype - a small, cheap, quick-to-build, and fast ship intended for harassing larger ships."
 StringInfo
 	ID "IDS_ABILITY_OVERCHARGE_DESCRIPTION"
-	Value "The next ability the titan uses will have its effects & damage doubled in power."
+	Value "The next ability the Titan uses will have its effects & damage doubled in power."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PIRATESTUFF_NAME"
 	Value "Pirate Stuff"
@@ -1670,46 +1748,55 @@ StringInfo
 	Value "Assault Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHTRANSPORT_DESCRIPTION"
-	Value "A warship that specializes in harassing enemy fleets."
+	Value "A warship that specializes in harassing enemy fleets. Equal in firepower, hull, and shields to the Battleship."
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHCOLONY_NAME"
 	Value "Combat Support Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHCOLONY_DESCRIPTION"
-	Value "A support ship that excels at assisting its attendant fleet."
+	Value "A warship with abilities that strengthen friendly units and weaken enemies. Has more hull and shields than the Battleship, but significantly less firepower."
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHSUPPORT_NAME"
 	Value "Healer Colonist Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHSUPPORT_DESCRIPTION"
-	Value "A support ship that sacrifices firepower to focus on colonizing planets and keeping its attendant fleet alive."
+	Value "A support ship that focuses on colonizing planets and keeping its attendant fleet alive. Has more hull and shields than the Battleship, but significantly less firepower."
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHSIEGE_NAME"
 	Value "Siege Capital"
 StringInfo
+	ID "IDS_CAPITALSHIP_TECHSIEGE_DESCRIPTION"
+	Value "A warship that specializes in sieging enemy planets. Signficantly more firepower than the Battleship, but has less hull and shields."
+StringInfo
 	ID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
 	Value "Carrier Capital"
+StringInfo
+	ID "IDS_CAPITALSHIP_TECHCARRIER_DESCRIPTION"
+	Value "A warship that controls many strike craft. Fields more firepower than the Battleship, but has less hull and shields."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSIPLANETPSIONIC_NAME"
 	Value "Siege Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PSIPLANETPSIONIC_DESCRIPTION"
-	Value "A powerful warship that specializes in sieging enemy planets."
+	Value "A warship that specializes in sieging enemy planets. Signficantly more firepower than the Battleship, but has less hull and shields."
 StringInfo
 	ID "IDS_CAPITALSHIP_TECHBATTLESHIP_NAME"
 	Value "Battleship"
+StringInfo
+	ID "IDS_CAPITALSHIP_TECHBATTLESHIP_DESCRIPTION"
+	Value "A tough and powerful warship balanced to deal out heavy amounts of damage and receive it in turn."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSICARRIER_NAME"
 	Value "Carrier Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PSICARRIER_DESCRIPTION"
-	Value "A powerful warship that controls large numbers of drone strike craft."
+	Value "A warship that controls many strike craft. Fields more firepower than the Battleship, but has less hull and shields."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSISPECIALCOMBATREBEL_DESCRIPTION"
-	Value "A moderately powerful warship designed to seize control of enemy ships."
+	Value "A warship designed to seize control of enemy ships. Not as strong as the Battleship, it makes up for its reduced firepower by 'borrowing' from the enemy."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSISPECIALCOMBATLOYALIST_DESCRIPTION"
-	Value "A tough warship designed to be sent into the midst of enemy fleets to weaken them with its abilities, and survive long enough to do it again."
+	Value "A tough warship designed to be sent into the midst of enemy fleets to weaken them with its abilities, and survive long enough to do it again. Equal in firepower, hull, and shields to the regular Battleship."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSISPECIALCOMBAT_NAME"
 	Value "Assault Capital"
@@ -1718,25 +1805,31 @@ StringInfo
 	Value "Healer Colonist Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PSICOLONY_DESCRIPTION"
-	Value "A support ship that sacrifices firepower to focus on colonizing planets and keeping its attendant fleet alive."
+	Value "A support ship that focuses on colonizing planets and keeping its attendant fleet alive. Has more hull and shields than the Battleship, but significantly less firepower."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSIBATTLEPSIONIC_NAME"
 	Value "Combat Support Capital"
 StringInfo
+	ID "IDS_CAPITALSHIP_PSIBATTLEPSIONIC_DESCRIPTION"
+	Value "A warship with abilities that strengthen friendly units and weaken enemies. Has more hull and shields than the Battleship, but significantly less firepower."
+StringInfo
 	ID "IDS_CAPITALSHIP_PSIBATTLESHIP_NAME"
 	Value "Battleship"
+StringInfo
+	ID "IDS_CAPITALSHIP_PSIBATTLESHIP_DESCRIPTION"
+	Value "A tough and powerful warship balanced to deal out heavy amounts of damage and receive it in turn."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOMBATSUPPORT_NAME"
 	Value "Combat Support Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOMBATSUPPORT_DESCRIPTION"
-	Value "A moderately powerful warship with abilities that assist friendly units and weaken enemies."
+	Value "A warship with abilities that strengthen friendly units and weaken enemies. Has more hull and shields than the Battleship, but significantly less firepower."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESCOUT_NAME"
 	Value "Assault Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESCOUT_DESCRIPTION"
-	Value "A strong warship specializing in hit-and-run tactics."
+	Value "A warship specializing in hit-and-run tactics. Equal in firepower to the Battleship."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECARRIER_NAME"
 	Value "Carrier Capital"
@@ -1747,11 +1840,14 @@ StringInfo
 	ID "IDS_CAPITALSHIP_PHASESIEGE_NAME"
 	Value "Siege Capital"
 StringInfo
+	ID "IDS_CAPITALSHIP_PHASESIEGE_DESCRIPTION"
+	Value "A warship that specializes in sieging enemy planets. Signficantly more firepower than the Battleship, but has less hull and shields."
+StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOLONY_NAME"
 	Value "Healer Colonist Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOLONY_DESCRIPTION"
-	Value "A large support ship that sacrifices firepower to focus on colonizing planets and keeping its attendant fleet alive."
+	Value "A support ship that focuses on colonizing planets and keeping its attendant fleet alive. Has more hull and shields than the Battleship, but significantly less firepower."
 StringInfo
 	ID "IDS_GameStat_FrigateUtility0Built"
 	Value "Frigates - Offensive Support"
@@ -1774,14 +1870,14 @@ StringInfo
 	ID "IDS_CAPITALSHIP_PHASEBATTLESHIP_NAME"
 	Value "Battleship"
 StringInfo
+	ID "IDS_CAPITALSHIP_PHASEBATTLESHIP_DESCRIPTION"
+	Value "A tough and powerful warship balanced to deal out heavy amounts of damage and receive it in turn."
+StringInfo
 	ID "IDS_CAPITALSHIP_PIRATE_DESCRIPTION"
-	Value "A fast support ship that is able to capture and damage enemy ships and structures."
+	Value "A tough capital ship that is able to capture and damage enemy ships and structures."
 StringInfo
 	ID "IDS_CAPITALSHIP_PIRATE_NAME"
 	Value "Pirate Leader Capital"
-StringInfo
-	ID "IDS_CAPITALSHIP_PIRATE_DESCRIPTION"
-	Value "A fast support ship that is able to capture and damage enemy ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORPSI_DESCRIPTION"
 	Value "Grants access to Starbase Constructors - construction cruisers able to deploy Advent Starbases."
@@ -2366,25 +2462,25 @@ StringInfo
 	Value "Disloyal Government"
 StringInfo
 	ID "IDS_PLANETBONUS_DISLOYALGOVERNMENT_DESC"
-	Value "This planet's government opposes your empire as much as they possibly can. Reduces logistical slots, tactical slots, and starbases."
+	Value "This planet's government opposes your empire as much as they possibly can. Reduces max allegiance."
 StringInfo
 	ID "IDS_PLANETBONUS_DWARF_NAME"
 	Value "Dwarf Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_DWARF_DESC"
-	Value "This planet is so small you can't build as many logistics and tactical structures around it. Also supports fewer starbases."
+	Value "This planet is so small you can't build as many logistics and tactical structures around it."
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYHARSH_NAME"
-	Value "Extremely Harsh Planet"
+	Value "Very Harsh Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYHARSH_DESC"
 	Value "The environment is harsh enough to make it much more expensive, and much slower, to upgrade the planet."
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYNICE_NAME"
-	Value "Extremely Pleasant Planet"
+	Value "Very Pleasant Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYNICE_DESC"
-	Value "This planet has proven extremely easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
+	Value "This planet has proven very easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
 StringInfo
 	ID "IDS_PLANETBONUS_FERTILESOIL_NAME"
 	Value "Fertile Soil"
@@ -2396,13 +2492,13 @@ StringInfo
 	Value "Forgettable Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_FORGETTABLE_DESC"
-	Value "Everybody keeps forgetting this planet exists. Is it a part of your empire? Did you even build anything there? Reduces logistics slots, tactical slots, trade income, and population growth."
+	Value "Everybody keeps forgetting this planet exists. Is it a part of your empire? Did you even build anything there? Reduces culture rate, trade income, and population growth."
 StringInfo
 	ID "IDS_PLANETBONUS_FORTIFIED_NAME"
 	Value "Fortified Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_FORTIFIED_DESC"
-	Value "This planet has been heavily fortified against attacks. Reduces max population, population rate, and logistics slots. But, it increases planet health, tactical slots, bombing resistance, and reduces weapon strength in general."
+	Value "This planet has been heavily fortified against attacks. Reduces max population, population rate, and logistics slots. But, it increases planet health, tactical slots, starbases, bombing resistance, and reduces weapon strength in general."
 StringInfo
 	ID "IDS_PLANETBONUS_GIANT_NAME"
 	Value "Giant Planet"

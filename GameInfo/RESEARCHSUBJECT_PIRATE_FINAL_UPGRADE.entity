@@ -30,7 +30,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 10
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 5
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000

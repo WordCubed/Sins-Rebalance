@@ -8,13 +8,13 @@ NameStringID "IDS_RESEARCHSUBJECT_LABOR_NEGOTIATIONS_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_LABOR_NEGOTIATIONS_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 1 ]
+	pos [ 5 , 0 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_CIVILIANSLOTINCREASE"
-		Level 2
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -37,7 +37,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "ShipBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.166667
+	perLevelValue 0.250000
 researchModifier
 	modifierType "ModuleBuildRateAdjustment"
 	baseValue 0.000000

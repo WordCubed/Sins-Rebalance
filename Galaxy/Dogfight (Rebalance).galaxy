@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-Dogfight"
-browseName "IDS_CUSTOMGALAXY_NAME_DOGFIGHT"
+browseName "Dogfight (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_DOGFIGHT"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
@@ -22,14 +22,14 @@ quickStartHomePlanetUpgradeLevel:Home 4
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
-recommendedGameType "TwoTeamsOfFive"
+recommendedGameType "TwoTeamsOfThree"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 2.360003
+pixelsPerGalaxyUnit 2.000003
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 993.000000
 nextStarNameUniqueId 7
-nextPlanetNameUniqueId 353
+nextPlanetNameUniqueId 374
 triggerCount 0
 starCount 5
 star
@@ -44,7 +44,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 348 , 372 ]
-		owner "Player3"
+		owner "Player2"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -67,10 +67,10 @@ star
 	planet
 		designName "Planet11"
 		inGameName ""
-		type "TerranHome"
+		type "GasGiant"
 		pos [ 462 , 440 ]
-		owner "Player4"
-		isHomePlanet TRUE
+		owner ""
+		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
 		normalStartUpgradeLevelForTacticalModules 0
@@ -117,10 +117,10 @@ star
 	planet
 		designName "Planet21"
 		inGameName ""
-		type "TerranHome"
+		type "GasGiant"
 		pos [ 462 , 160 ]
-		owner "Player1"
-		isHomePlanet TRUE
+		owner ""
+		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
 		normalStartUpgradeLevelForTacticalModules 0
@@ -144,7 +144,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 341 , 315 ]
-		owner "Player2"
+		owner "Player1"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -192,7 +192,7 @@ star
 	planet
 		designName "Planet174"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Oceanic"
 		pos [ 341 , 285 ]
 		owner ""
 		isHomePlanet FALSE
@@ -217,7 +217,7 @@ star
 	planet
 		designName "Planet175"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Oceanic"
 		pos [ 410 , 159 ]
 		owner ""
 		isHomePlanet FALSE
@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet176"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Barren"
 		pos [ 399 , 234 ]
 		owner ""
 		isHomePlanet FALSE
@@ -267,7 +267,7 @@ star
 	planet
 		designName "Planet182"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Oceanic"
 		pos [ 410 , 441 ]
 		owner ""
 		isHomePlanet FALSE
@@ -292,7 +292,7 @@ star
 	planet
 		designName "Planet183"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Barren"
 		pos [ 399 , 366 ]
 		owner ""
 		isHomePlanet FALSE
@@ -317,7 +317,7 @@ star
 	planet
 		designName "Planet184"
 		inGameName ""
-		type "RandomHighPop"
+		type "Desert"
 		pos [ 412 , 393 ]
 		owner ""
 		isHomePlanet FALSE
@@ -342,7 +342,7 @@ star
 	planet
 		designName "Planet185"
 		inGameName ""
-		type "RandomHighPop"
+		type "Greenhouse"
 		pos [ 525 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -367,7 +367,7 @@ star
 	planet
 		designName "Planet191"
 		inGameName ""
-		type "RandomHighPop"
+		type "Desert"
 		pos [ 412 , 207 ]
 		owner ""
 		isHomePlanet FALSE
@@ -392,7 +392,7 @@ star
 	planet
 		designName "Planet192"
 		inGameName ""
-		type "RandomHighPop"
+		type "Greenhouse"
 		pos [ 524 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -417,7 +417,7 @@ star
 	planet
 		designName "Planet193"
 		inGameName ""
-		type "RandomHighPop"
+		type "Desert"
 		pos [ 410 , 325 ]
 		owner ""
 		isHomePlanet FALSE
@@ -442,7 +442,7 @@ star
 	planet
 		designName "Planet195"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Ferrus"
 		pos [ 477 , 198 ]
 		owner ""
 		isHomePlanet FALSE
@@ -467,7 +467,7 @@ star
 	planet
 		designName "Planet196"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "GasGiant"
 		pos [ 410 , 275 ]
 		owner ""
 		isHomePlanet FALSE
@@ -492,8 +492,8 @@ star
 	planet
 		designName "Planet202"
 		inGameName ""
-		type "RandomHighResourceColonizable"
-		pos [ 491 , 379 ]
+		type "Cryo"
+		pos [ 452 , 383 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -517,7 +517,7 @@ star
 	planet
 		designName "Planet215"
 		inGameName ""
-		type "Desert"
+		type "Moon"
 		pos [ 640 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -542,7 +542,7 @@ star
 	planet
 		designName "Planet216"
 		inGameName ""
-		type "DeadAsteroid"
+		type "Greenhouse"
 		pos [ 520 , 265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -567,7 +567,7 @@ star
 	planet
 		designName "Planet217"
 		inGameName ""
-		type "DeadAsteroid"
+		type "Barren"
 		pos [ 520 , 335 ]
 		owner ""
 		isHomePlanet FALSE
@@ -592,7 +592,7 @@ star
 	planet
 		designName "Planet224"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Ferrus"
 		pos [ 477 , 402 ]
 		owner ""
 		isHomePlanet FALSE
@@ -617,7 +617,7 @@ star
 	planet
 		designName "Planet228"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Cryo"
 		pos [ 452 , 212 ]
 		owner ""
 		isHomePlanet FALSE
@@ -642,7 +642,7 @@ star
 	planet
 		designName "Planet245"
 		inGameName ""
-		type "RadiationStorm"
+		type "Industrial"
 		pos [ 565 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -692,7 +692,7 @@ star
 	planet
 		designName "Planet282"
 		inGameName ""
-		type "Ferrus"
+		type "Moon"
 		pos [ 620 , 250 ]
 		owner ""
 		isHomePlanet FALSE
@@ -717,7 +717,7 @@ star
 	planet
 		designName "Planet283"
 		inGameName ""
-		type "Ferrus"
+		type "Moon"
 		pos [ 620 , 350 ]
 		owner ""
 		isHomePlanet FALSE
@@ -792,7 +792,7 @@ star
 	planet
 		designName "Planet303"
 		inGameName ""
-		type "Oceanic"
+		type "Industrial"
 		pos [ 590 , 330 ]
 		owner ""
 		isHomePlanet FALSE
@@ -817,7 +817,7 @@ star
 	planet
 		designName "Planet304"
 		inGameName ""
-		type "Oceanic"
+		type "Industrial"
 		pos [ 590 , 270 ]
 		owner ""
 		isHomePlanet FALSE
@@ -842,8 +842,8 @@ star
 	planet
 		designName "Planet306"
 		inGameName ""
-		type "Desert"
-		pos [ 445 , 342 ]
+		type "Cryo"
+		pos [ 443 , 315 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -867,8 +867,8 @@ star
 	planet
 		designName "Planet307"
 		inGameName ""
-		type "Desert"
-		pos [ 446 , 258 ]
+		type "Ferrus"
+		pos [ 442 , 285 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -889,7 +889,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 50
+	connectionCount 52
 	connection
 		planetIndexA 9
 		planetIndexB 1
@@ -1026,11 +1026,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 10
-		planetIndexB 21
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 15
 		planetIndexB 21
 		spawnProbability 1.000000
@@ -1053,21 +1048,6 @@ star
 	connection
 		planetIndexA 23
 		planetIndexB 16
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 22
-		planetIndexB 24
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 24
-		planetIndexB 16
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 20
-		planetIndexB 8
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1111,16 +1091,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 32
-		planetIndexB 10
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 33
-		planetIndexB 8
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 33
 		planetIndexB 17
 		spawnProbability 1.000000
@@ -1140,6 +1110,46 @@ star
 		planetIndexB 14
 		spawnProbability 1.000000
 		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 9
+		planetIndexB 0
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 33
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 32
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 10
+		planetIndexB 30
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 24
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 21
+		planetIndexB 24
+		spawnProbability 1.000000
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 star
@@ -1152,7 +1162,7 @@ star
 	planet
 		designName "Planet260"
 		inGameName ""
-		type "DeadAsteroid"
+		type "Barren"
 		pos [ 980 , 265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1177,7 +1187,7 @@ star
 	planet
 		designName "Planet261"
 		inGameName ""
-		type "DeadAsteroid"
+		type "Greenhouse"
 		pos [ 980 , 335 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1202,7 +1212,7 @@ star
 	planet
 		designName "Planet262"
 		inGameName ""
-		type "RadiationStorm"
+		type "Industrial"
 		pos [ 935 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1302,7 +1312,7 @@ star
 	planet
 		designName "Planet266"
 		inGameName ""
-		type "Desert"
+		type "Moon"
 		pos [ 860 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1327,7 +1337,7 @@ star
 	planet
 		designName "Planet269"
 		inGameName ""
-		type "Ferrus"
+		type "Moon"
 		pos [ 870 , 350 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1352,7 +1362,7 @@ star
 	planet
 		designName "Planet270"
 		inGameName ""
-		type "Ferrus"
+		type "Moon"
 		pos [ 870 , 250 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1377,7 +1387,7 @@ star
 	planet
 		designName "Planet271"
 		inGameName ""
-		type "RandomHighPop"
+		type "Greenhouse"
 		pos [ 975 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1402,7 +1412,7 @@ star
 	planet
 		designName "Planet272"
 		inGameName ""
-		type "RandomHighPop"
+		type "Desert"
 		pos [ 1090 , 275 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1427,7 +1437,7 @@ star
 	planet
 		designName "Planet273"
 		inGameName ""
-		type "RandomHighPop"
+		type "Desert"
 		pos [ 1088 , 207 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1452,7 +1462,7 @@ star
 	planet
 		designName "Planet274"
 		inGameName ""
-		type "RandomHighPop"
+		type "Greenhouse"
 		pos [ 975 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1477,7 +1487,7 @@ star
 	planet
 		designName "Planet275"
 		inGameName ""
-		type "RandomHighPop"
+		type "Desert"
 		pos [ 1088 , 393 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1502,8 +1512,8 @@ star
 	planet
 		designName "Planet276"
 		inGameName ""
-		type "RandomHighResourceColonizable"
-		pos [ 1023 , 198 ]
+		type "Ferrus"
+		pos [ 1023 , 204 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1527,7 +1537,7 @@ star
 	planet
 		designName "Planet277"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Ferrus"
 		pos [ 1023 , 402 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1552,7 +1562,7 @@ star
 	planet
 		designName "Planet278"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Cryo"
 		pos [ 1050 , 229 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1577,7 +1587,7 @@ star
 	planet
 		designName "Planet279"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "GasGiant"
 		pos [ 1090 , 325 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1602,7 +1612,7 @@ star
 	planet
 		designName "Planet280"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Cryo"
 		pos [ 1051 , 371 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1652,7 +1662,7 @@ star
 	planet
 		designName "Planet299"
 		inGameName ""
-		type "Oceanic"
+		type "Industrial"
 		pos [ 910 , 270 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1677,7 +1687,7 @@ star
 	planet
 		designName "Planet300"
 		inGameName ""
-		type "Oceanic"
+		type "Industrial"
 		pos [ 910 , 330 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1702,8 +1712,8 @@ star
 	planet
 		designName "Planet301"
 		inGameName ""
-		type "Desert"
-		pos [ 1055 , 342 ]
+		type "Ferrus"
+		pos [ 1055 , 315 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1727,8 +1737,8 @@ star
 	planet
 		designName "Planet302"
 		inGameName ""
-		type "Desert"
-		pos [ 1055 , 258 ]
+		type "Cryo"
+		pos [ 1055 , 285 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1752,7 +1762,7 @@ star
 	planet
 		designName "Planet308"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Oceanic"
 		pos [ 1090 , 441 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1777,10 +1787,10 @@ star
 	planet
 		designName "Planet309"
 		inGameName ""
-		type "TerranHome"
+		type "GasGiant"
 		pos [ 1038 , 440 ]
-		owner "Player5"
-		isHomePlanet TRUE
+		owner ""
+		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
 		normalStartUpgradeLevelForTacticalModules 0
@@ -1802,7 +1812,7 @@ star
 	planet
 		designName "Planet310"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Barren"
 		pos [ 1111 , 366 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1829,7 +1839,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 1152 , 372 ]
-		owner "Player6"
+		owner "Player3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1854,7 +1864,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 1159 , 285 ]
-		owner "Player7"
+		owner "Player4"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1877,7 +1887,7 @@ star
 	planet
 		designName "Planet314"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Oceanic"
 		pos [ 1159 , 315 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1902,7 +1912,7 @@ star
 	planet
 		designName "Planet315"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Barren"
 		pos [ 1111 , 234 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1929,7 +1939,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 1152 , 228 ]
-		owner "Player8"
+		owner "Player5"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1952,10 +1962,10 @@ star
 	planet
 		designName "Planet317"
 		inGameName ""
-		type "TerranHome"
+		type "GasGiant"
 		pos [ 1038 , 160 ]
-		owner "Player9"
-		isHomePlanet TRUE
+		owner ""
+		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
 		normalStartUpgradeLevelForTacticalModules 0
@@ -1977,7 +1987,7 @@ star
 	planet
 		designName "Planet318"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Oceanic"
 		pos [ 1090 , 159 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1999,7 +2009,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 49
+	connectionCount 51
 	connection
 		planetIndexA 2
 		planetIndexB -1
@@ -2068,16 +2078,6 @@ star
 	connection
 		planetIndexA 17
 		planetIndexB 1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 15
-		planetIndexB 2
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 2
-		planetIndexB 14
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -2156,16 +2156,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 26
-		planetIndexB 1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 26
-		planetIndexB 22
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 27
 		planetIndexB 26
 		spawnProbability 1.000000
@@ -2183,16 +2173,6 @@ star
 	connection
 		planetIndexA 10
 		planetIndexB 28
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 30
-		planetIndexB 23
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 0
-		planetIndexB 30
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -2243,6 +2223,46 @@ star
 	connection
 		planetIndexA 4
 		planetIndexB 12
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 27
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 31
+		planetIndexB 33
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 22
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 30
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 26
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 1
+		planetIndexB 2
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -2307,7 +2327,7 @@ star
 	planet
 		designName "Planet286"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 720 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2332,7 +2352,7 @@ star
 	planet
 		designName "Planet287"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 780 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2422,7 +2442,7 @@ star
 	planet
 		designName "Planet320"
 		inGameName ""
-		type "Volcanic"
+		type "Ice"
 		pos [ 1208 , 315 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2472,7 +2492,7 @@ star
 	planet
 		designName "Planet322"
 		inGameName ""
-		type "Volcanic"
+		type "Ice"
 		pos [ 1208 , 285 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2672,7 +2692,7 @@ star
 	planet
 		designName "Planet333"
 		inGameName ""
-		type "Desert"
+		type "Volcanic"
 		pos [ 1291 , 322 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2697,7 +2717,7 @@ star
 	planet
 		designName "Planet334"
 		inGameName ""
-		type "Desert"
+		type "Volcanic"
 		pos [ 1291 , 278 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2877,7 +2897,7 @@ star
 	planet
 		designName "Planet338"
 		inGameName ""
-		type "Volcanic"
+		type "Ice"
 		pos [ 292 , 285 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2902,7 +2922,7 @@ star
 	planet
 		designName "Planet339"
 		inGameName ""
-		type "Volcanic"
+		type "Ice"
 		pos [ 292 , 315 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3152,7 +3172,7 @@ star
 	planet
 		designName "Planet349"
 		inGameName ""
-		type "Desert"
+		type "Volcanic"
 		pos [ 209 , 278 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3177,7 +3197,7 @@ star
 	planet
 		designName "Planet350"
 		inGameName ""
-		type "Desert"
+		type "Volcanic"
 		pos [ 209 , 322 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3432,7 +3452,7 @@ interStarConnection
 	planetIndexB 0
 	spawnProbability 1.000000
 	type "Wormhole"
-playerCount 10
+playerCount 6
 player
 	designName "Player0"
 	inGameName "Player0"
@@ -3476,7 +3496,7 @@ player
 	designName "Player3"
 	inGameName "Player3"
 	overrideRaceName ""
-	teamIndex 0
+	teamIndex 1
 	startingCredits 18000
 	startingMetal 3600
 	startingCrystal 1800
@@ -3489,7 +3509,7 @@ player
 	designName "Player4"
 	inGameName "Player4"
 	overrideRaceName ""
-	teamIndex 0
+	teamIndex 1
 	startingCredits 18000
 	startingMetal 3600
 	startingCrystal 1800
@@ -3501,58 +3521,6 @@ player
 player
 	designName "Player5"
 	inGameName "Player5"
-	overrideRaceName ""
-	teamIndex 1
-	startingCredits 18000
-	startingMetal 3600
-	startingCrystal 1800
-	playerType "Normal"
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player6"
-	inGameName "Player6"
-	overrideRaceName ""
-	teamIndex 1
-	startingCredits 18000
-	startingMetal 3600
-	startingCrystal 1800
-	playerType "Normal"
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player7"
-	inGameName "Player7"
-	overrideRaceName ""
-	teamIndex 1
-	startingCredits 18000
-	startingMetal 3600
-	startingCrystal 1800
-	playerType "Normal"
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player8"
-	inGameName "Player8"
-	overrideRaceName ""
-	teamIndex 1
-	startingCredits 18000
-	startingMetal 3600
-	startingCrystal 1800
-	playerType "Normal"
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player9"
-	inGameName "Player9"
 	overrideRaceName ""
 	teamIndex 1
 	startingCredits 18000

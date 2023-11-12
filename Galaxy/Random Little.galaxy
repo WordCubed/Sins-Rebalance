@@ -1,0 +1,97 @@
+TXT
+versionNumber 193
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-RandomSmall"
+browseName "Random Little"
+browseDescription "Conquering this small solar system will be your first step towards galactic hegemony. This map is randomly generated each time it is played."
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity .600000
+planetBonusDensity 1.000000
+normalStartHomePlanetUpgradeLevel:Population 4
+normalStartHomePlanetUpgradeLevel:CivilianModules 4
+normalStartHomePlanetUpgradeLevel:TacticalModules 4
+normalStartHomePlanetUpgradeLevel:Home 4
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 4
+normalStartHomePlanetUpgradeLevel:Infrastructure 4
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 4
+quickStartHomePlanetUpgradeLevel:TacticalModules 4
+quickStartHomePlanetUpgradeLevel:Home 4
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
+quickStartHomePlanetUpgradeLevel:Infrastructure 4
+recommendedGameTypeCount 1
+recommendedGameType "Solo"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 1
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.0
+		maxPercentage 15.0
+	playerParams
+		startingCredits 18000
+		startingMetal 3600
+		startingCrystal 1800
+		homePlanetType "TerranHome"
+		homePlanetStarRadiusRange
+			minPercentage 0.750000
+			maxPercentage 0.990000
+		areExtraPlanetsColonized FALSE
+		extraPlanetsMaxRadius 15
+		extraPlanetsRadiusRange
+			minPercentage 0.750000
+			maxPercentage 0.990000
+		extraPlanetGroupCount 3
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "RandomNoResearchColonizable"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "RandomHighPop"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "RandomHighResourceColonizable"
+starCount 1
+	star
+		type "RandomStar"
+		radius 150
+		connectionStarRadiusRange .75
+		connectionChance .7
+		maxPlayerCount 2
+		ringCount 2
+		ring
+			starRadiusRange
+				minPercentage 0.10
+				maxPercentage 0.20
+			militiaColonizationPerc 0
+			planetGroupCount 2
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "PirateBase"
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "RandomTiny"
+		ring
+			starRadiusRange
+				minPercentage 0.15
+				maxPercentage 0.75
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 8
+				maxCount 8
+				planetTypeCount 1
+				planetType "RandomColonizable"
+dlcID 204880
+

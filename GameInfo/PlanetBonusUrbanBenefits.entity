@@ -8,7 +8,7 @@ descStringID "IDS_PLANETBONUS_URBANBENEFITS_DESC"
 floatBonus:AdditiveCultureSpreadPerc 2.000000
 floatBonus:AdditivePopulation 1000.000000
 floatBonus:AdditivePlanetHealth 0.000000
-floatBonus:AdditiveSlotsCivilian 18.000000
+floatBonus:AdditiveSlotsCivilian 6.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 2.000000

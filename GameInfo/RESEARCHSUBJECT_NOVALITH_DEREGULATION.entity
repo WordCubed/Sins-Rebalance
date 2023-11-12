@@ -37,7 +37,7 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "OrbitalCannonSlotCostAdjustment"
 	baseValue 0.000000
-	perLevelValue -2.000000
+	perLevelValue -1.000000
 researchModifier
 	modifierType "OrbitalCannonPriceAdjustment"
 	baseValue 0.000000

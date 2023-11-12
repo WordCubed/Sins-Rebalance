@@ -3,11 +3,11 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-ReturntoWar"
-browseName "Return to War (ReBalance)"
+browseName "Return to War (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RETURNTOWAR"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.500000
+planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 10
 normalStartHomePlanetUpgradeLevel:CivilianModules 10

@@ -6,16 +6,16 @@ meshInfo
 	typeNameStringID "IDS_PLANETTYPE_ROCKGIANT"
 	asteroidTemplate "Dense"
 	dustCloudTemplate "Dense"
-	meshName "Planet_Stripped_Giant"
+	meshName "Planet_RockGiant"
 	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "MAINVIEWICON_PLANET_BARREN"
-	smallHudIcon "HUDICONSMALL_PLANET_BARREN"
-	infoCardIcon "INFOCARDICON_PLANET_BARREN"
-	mainViewIcon "Stars_MAINVIEWICON_Planet_Stripped"
-	undetectedMainViewIcon "Stars_MAINVIEWICON_Planet_Stripped"
-	picture "PICTURE_PLANET_BARREN"
+	hudIcon "MAINVIEWICON_PLANET_GREENHOUSE"
+	smallHudIcon "HUDICONSMALL_PLANET_GREENHOUSE"
+	infoCardIcon "HUDICONSMALL_PLANET_GREENHOUSE"
+	mainViewIcon "MAINVIEWICON_PLANET_GREENHOUSE"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_GREENHOUSE_UNDETECTED"
+	picture "PICTURE_PLANET_GREENHOUSE"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
 glowColor ffc1f2ff
@@ -67,7 +67,7 @@ planetUpgradeDef
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
-			upgradeTime 40.000000
+			upgradeTime 5.000000
 			maxPopulation 4.000000
 			populationGrowthRate 0.250000
 			developmentTaxPenalty -0.200000
@@ -97,7 +97,7 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxModuleSlotCount:Civilian 3.000000
+			maxModuleSlotCount:Civilian 1.000000
 			maxModuleConstructorCount 1
 		stage
 			price
@@ -105,7 +105,7 @@ planetUpgradeDef
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxModuleSlotCount:Civilian 6.000000
+			maxModuleSlotCount:Civilian 2.000000
 			maxModuleConstructorCount 2
 		stage
 			price
@@ -113,7 +113,7 @@ planetUpgradeDef
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxModuleSlotCount:Civilian 12.000000
+			maxModuleSlotCount:Civilian 4.000000
 			maxModuleConstructorCount 3
 		stage
 			price
@@ -121,7 +121,7 @@ planetUpgradeDef
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 20.000000
-			maxModuleSlotCount:Civilian 18.000000
+			maxModuleSlotCount:Civilian 6.000000
 			maxModuleConstructorCount 4
 	path:TacticalModules
 		stageCount 4
@@ -131,7 +131,7 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxModuleSlotCount:Tactical 12.000000
+			maxModuleSlotCount:Tactical 3.000000
 			maxModuleConstructorCount 0
 		stage
 			price
@@ -139,7 +139,7 @@ planetUpgradeDef
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxModuleSlotCount:Tactical 24.000000
+			maxModuleSlotCount:Tactical 6.000000
 			maxModuleConstructorCount 0
 		stage
 			price
@@ -147,7 +147,7 @@ planetUpgradeDef
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxModuleSlotCount:Tactical 36.000000
+			maxModuleSlotCount:Tactical 9.000000
 			maxModuleConstructorCount 0
 		stage
 			price
@@ -155,7 +155,7 @@ planetUpgradeDef
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 20.000000
-			maxModuleSlotCount:Tactical 48.000000
+			maxModuleSlotCount:Tactical 12.000000
 			maxModuleConstructorCount 0
 	path:Home
 		stageCount 2
@@ -321,10 +321,8 @@ skyboxScalars
 requiredPlanetBonusesCount 2
 bonus "PlanetBonusExtremelyHarsh"
 bonus "PlanetBonusGiant"
-possibleRandomPlanetBonusesCount 6
+possibleRandomPlanetBonusesCount 4
 bonus "PlanetBonusDenseCore"
-bonus "PlanetBonusDenseCore"
-bonus "PlanetBonusStrategicallyValuable"
 bonus "PlanetBonusStrategicallyValuable"
 bonus "PlanetBonusCrystalBonanza"
 bonus "PlanetBonusMetalBonanza"
@@ -336,7 +334,7 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 32940.000000
+	creditsOnStrippedToTheCore 32130.000000
 	metalOnStrippedToTheCore 18000.000000
 	crystalOnStrippedToTheCore 10800.000000
 	extraScuttleTimeOnStrip 0.000000

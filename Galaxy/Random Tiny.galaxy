@@ -1,0 +1,92 @@
+﻿TXT
+versionNumber 193
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-RandomMini"
+browseName "Random Tiny"
+browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMMINI"
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.600000
+planetBonusDensity 1.000000
+normalStartHomePlanetUpgradeLevel:Population 4
+normalStartHomePlanetUpgradeLevel:CivilianModules 4
+normalStartHomePlanetUpgradeLevel:TacticalModules 4
+normalStartHomePlanetUpgradeLevel:Home 4
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 4
+normalStartHomePlanetUpgradeLevel:Infrastructure 4
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 4
+quickStartHomePlanetUpgradeLevel:TacticalModules 4
+quickStartHomePlanetUpgradeLevel:Home 4
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
+quickStartHomePlanetUpgradeLevel:Infrastructure 4
+recommendedGameTypeCount 1
+recommendedGameType "Solo"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 1.000000
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.000000
+		maxPercentage 15.000000
+	playerParams
+		startingCredits 18000
+		startingMetal 3600
+		startingCrystal 1800
+		homePlanetType "TerranHome"
+		homePlanetStarRadiusRange
+			minPercentage 0.500000
+			maxPercentage 0.750000
+		areExtraPlanetsColonized FALSE
+		extraPlanetsMaxRadius 10
+		extraPlanetsRadiusRange
+			minPercentage 0.500000
+			maxPercentage 0.750000
+		extraPlanetGroupCount 1
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "RandomNoResearchColonizable"
+	starCount 1
+	star
+		type "NonSpecialStar"
+		radius 100.000000
+		connectionStarRadiusRange 0.800000
+		connectionChance 1.000000
+		maxPlayerCount 2
+		ringCount 2
+		ring
+			starRadiusRange
+				minPercentage 0.100000
+				maxPercentage 0.100000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.150000
+				maxPercentage 0.500000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 3
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "RandomTech"
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "RandomPsi"
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "RandomPhase"
+dlcID 204880
+

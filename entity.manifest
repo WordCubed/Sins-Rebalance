@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2135
+entityNameCount 2137
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -1212,6 +1212,7 @@ entityName "PlanetGreenhouse.entity"
 entityName "PlanetGreenhouseFair.entity"
 entityName "PlanetHydrocarbon.entity"
 entityName "PlanetIce.entity"
+entityName "PlanetIceGiant.entity"
 entityName "PlanetIceFair.entity"
 entityName "PlanetIceField.entity"
 entityName "PlanetIndustrial.entity"
@@ -1298,6 +1299,7 @@ entityName "PlanetSwamp.entity"
 entityName "PlanetTerran.entity"
 entityName "PlanetTerranFair.entity"
 entityName "PlanetTerranHome.entity"
+entityName "PlanetToxic.entity"
 entityName "PlanetTropical.entity"
 entityName "PlanetTundra.entity"
 entityName "PlanetUrban.entity"

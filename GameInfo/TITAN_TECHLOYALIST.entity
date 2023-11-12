@@ -14,8 +14,8 @@ autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
 baseDamage 500.000000
-basePopulationKilled 6.000000
-bombingFreqTime 5.000000
+basePopulationKilled 2.000000
+bombingFreqTime 10.000000
 baseRange 8000.000000
 bombTransitTime 12.000000
 bombEffectCount 8
@@ -74,8 +74,8 @@ AntiMatterRestoreRate
 	StartValue 3.000000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
-	StartValue 4.125000
-	ValueIncreasePerLevel 0.375000
+	StartValue 1.000000
+	ValueIncreasePerLevel 1.000000
 NameStringID "IDS_TITAN_TECHLOYALIST_NAME"
 DescriptionStringID "IDS_TITAN_TECHLOYALIST_DESCRIPTION"
 picture "TITANPICTURE_TECHLOYALIST"

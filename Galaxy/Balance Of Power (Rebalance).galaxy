@@ -3,26 +3,26 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-BalanceOfPower"
-browseName "IDS_CUSTOMGALAXY_NAME_BALANCEOFPOWER"
+browseName "Balance of Power (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_BALANCEOFPOWER"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.150000
-planetBonusDensity 0.600000
-normalStartHomePlanetUpgradeLevel:Population 3
-normalStartHomePlanetUpgradeLevel:CivilianModules 1
-normalStartHomePlanetUpgradeLevel:TacticalModules 0
-normalStartHomePlanetUpgradeLevel:Home 1
-normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
-normalStartHomePlanetUpgradeLevel:Infrastructure 2
+planetArtifactDensity 0.600000
+planetBonusDensity 1.000000
+normalStartHomePlanetUpgradeLevel:Population 4
+normalStartHomePlanetUpgradeLevel:CivilianModules 4
+normalStartHomePlanetUpgradeLevel:TacticalModules 4
+normalStartHomePlanetUpgradeLevel:Home 4
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 4
+normalStartHomePlanetUpgradeLevel:Infrastructure 4
 quickStartHomePlanetUpgradeLevel:Population 4
-quickStartHomePlanetUpgradeLevel:CivilianModules 1
-quickStartHomePlanetUpgradeLevel:TacticalModules 0
-quickStartHomePlanetUpgradeLevel:Home 1
-quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
-quickStartHomePlanetUpgradeLevel:Infrastructure 2
+quickStartHomePlanetUpgradeLevel:CivilianModules 4
+quickStartHomePlanetUpgradeLevel:TacticalModules 4
+quickStartHomePlanetUpgradeLevel:Home 4
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
+quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
-recommendedGameType "Solo"
+recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
 pixelsPerGalaxyUnit 7.279996
 useRandomGenerator FALSE
@@ -42,7 +42,7 @@ star
 	planet
 		designName "Planet0"
 		inGameName ""
-		type "Ice"
+		type "GasGiant"
 		pos [ 44 , 22 ]
 		owner ""
 		isHomePlanet FALSE
@@ -67,7 +67,7 @@ star
 	planet
 		designName "Planet1"
 		inGameName ""
-		type "Ice"
+		type "GasGiant"
 		pos [ 27 , 74 ]
 		owner ""
 		isHomePlanet FALSE
@@ -92,7 +92,7 @@ star
 	planet
 		designName "Planet2"
 		inGameName ""
-		type "Ice"
+		type "GasGiant"
 		pos [ 79 , 62 ]
 		owner ""
 		isHomePlanet FALSE
@@ -270,7 +270,7 @@ star
 	planet
 		designName "Planet9"
 		inGameName ""
-		type "GasGiant"
+		type "Ice"
 		pos [ 27 , 28 ]
 		owner ""
 		isHomePlanet FALSE
@@ -295,7 +295,7 @@ star
 	planet
 		designName "Planet10"
 		inGameName ""
-		type "GasGiant"
+		type "Ice"
 		pos [ 40 , 84 ]
 		owner ""
 		isHomePlanet FALSE
@@ -320,7 +320,7 @@ star
 	planet
 		designName "Planet11"
 		inGameName ""
-		type "GasGiant"
+		type "Ice"
 		pos [ 82 , 42 ]
 		owner ""
 		isHomePlanet FALSE

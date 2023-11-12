@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-AgamemnonsBounty"
-browseName "IDS_CUSTOMGALAXY_NAME_AGAMEMNONSBOUNTY"
+browseName "Agamemnon's Bounty (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_AGAMEMNONSBOUNTY"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE

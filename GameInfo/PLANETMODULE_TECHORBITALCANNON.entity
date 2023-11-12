@@ -17,11 +17,11 @@ hudIcon "HUDICON_PLANETMODULE_TECHORBITALCANNON"
 smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALCANNON"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALCANNON"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 12.000000
+planetUpgradeSlotCount 4.000000
 basePrice
-	credits 4800.000000
-	metal 960.000000
-	crystal 480.000000
+	credits 6400.000000
+	metal 1280.000000
+	crystal 640.000000
 NameStringID "IDS_PLANETMODULE_TECHORBITALCANNON_NAME"
 DescriptionStringID "IDS_PLANETMODULE_TECHORBITALCANNON_DESC"
 planetModuleRoleType "CANNON"
@@ -33,11 +33,11 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 24000.000000
-HullPointRestoreRate 50.000000
+MaxHullPoints 32000.000000
+HullPointRestoreRate 66.666667
 BaseArmorPoints 20.000000
-MaxShieldPoints 12000.000000
-ShieldPointRestoreRate 50.000000
+MaxShieldPoints 16000.000000
+ShieldPointRestoreRate 66.666667
 maxShieldMitigation 0.700000
 ExperiencePointsForDestroying 600.000000
 resourceExtractionType "Invalid"

@@ -17,11 +17,11 @@ hudIcon "HUDICON_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
 smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALGAUSSDEFENSE"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 6.000000
+planetUpgradeSlotCount 1.000000
 basePrice
-	credits 2400.000000
-	metal 480.000000
-	crystal 240.000000
+	credits 1600.000000
+	metal 320.000000
+	crystal 160.000000
 NameStringID "IDS_PLANETMODULE_TECHORBITALGAUSSDEFENSE_NAME"
 DescriptionStringID "IDS_PLANETMODULE_TECHORBITALGAUSSDEFENSE_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
@@ -30,11 +30,11 @@ Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 12000.000000
+MaxHullPoints 8000.000000
 HullPointRestoreRate 25.000000
-BaseArmorPoints 20.000000
-MaxShieldPoints 6000.000000
-ShieldPointRestoreRate 25.000000
+BaseArmorPoints 16.666667
+MaxShieldPoints 4000.000000
+ShieldPointRestoreRate 16.666667
 maxShieldMitigation 0.700000
 ExperiencePointsForDestroying 300.000000
 resourceExtractionType "Invalid"
