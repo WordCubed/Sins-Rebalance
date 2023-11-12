@@ -1,113 +1,53 @@
-TXT2
+﻿TXT2
 SinsArchiveVersion 194
 entityType "Planet"
-meshInfoCount 5
+meshInfoCount 1
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
+	typeNameStringID "IDS_PLANETTYPE_TOXIC"
 	asteroidTemplate "Sparse"
-	dustCloudTemplate "PuffySparse"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC0"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC0"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC0"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC0"
-	picture "PICTURE_PLANET_VOLCANIC0"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Ring"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
+	meshName "Planet_E4X_Toxic"
+	cloudColor ffcc99cc
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC1"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC1"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC1"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC1"
-	picture "PICTURE_PLANET_VOLCANIC1"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "PuffyDense"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC2"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC2"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC2"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC2"
-	picture "PICTURE_PLANET_VOLCANIC2"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "Empty"
-	meshName "Axeldude_PLANET_NORMAL_Volcanic_1"
-	cloudColor 448f6d5b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "Axeldude_PLANET_Normal_Volcanic_1"
-	smallHudIcon "Axeldude_PLANET_Normal_Volcanic_1"
-	infoCardIcon "Axeldude_PLANET_Normal_Volcanic_1"
-	mainViewIcon "Axeldude_PLANET_Normal_Volcanic_1"
-	undetectedMainViewIcon "Axeldude_PLANET_Normal_Volcanic_1_Unknown"
+	hudIcon "PLANET_E4X_Toxic"
+	smallHudIcon "PLANET_E4X_Toxic"
+	infoCardIcon "PLANET_E4X_Toxic"
+	mainViewIcon "PLANET_E4X_Toxic"
+	undetectedMainViewIcon "PLANET_E4X_Toxic_Unknown"
 	picture "PICTURE_PLANET_GENERIC"
 	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "Sparse"
-	meshName "Axeldude_PLANET_NORMAL_Volcanic_2"
-	cloudColor ffad8b5b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "Axeldude_PLANET_Normal_Volcanic_2"
-	smallHudIcon "Axeldude_PLANET_Normal_Volcanic_2"
-	infoCardIcon "Axeldude_PLANET_Normal_Volcanic_2"
-	mainViewIcon "Axeldude_PLANET_Normal_Volcanic_2"
-	undetectedMainViewIcon "Axeldude_PLANET_Normal_Volcanic_2_Unknown"
-	picture "PICTURE_PLANET_GENERIC"
-	shouldPrefer FALSE
-minZoomDistanceMult 2.750000
-glowColor 8f6b1e00
-ringColor ffed8b3b
-cloudLayerTextureName "PlanetCloudLayer"
+minZoomDistanceMult 2.000000
+glowColor 7f953751
+ringColor ffffffff
+cloudLayerTextureName "Axeldude_Cloudmap_Fair"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 5
 	metalResourceAsteroidSetup
-		minCount 3
-		maxCount 3
-		extractionRate 0.500000
-		refineryRate 0.083333
-		maxRefineryCount 3
+		minCount 1
+		maxCount 1
+		extractionRate 0.400000
+		refineryRate 0.060000
+		maxRefineryCount 0
 	crystalResourceAsteroidSetup
-		minCount 2
-		maxCount 2
-		extractionRate 0.500000
-		refineryRate 0.083333
+		minCount 4
+		maxCount 4
+		extractionRate 0.400000
+		refineryRate 0.060000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
 		minCount 0
 		maxCount 0
-		extractionRate 0.500000
-		refineryRate 0.083333
-		maxRefineryCount 3
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
 	neutralCrystalResourceAsteroidSetup
 		minCount 0
 		maxCount 0
-		extractionRate 0.500000
-		refineryRate 0.083333
-		maxRefineryCount 3
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
 isAsteroid FALSE
 healthRegenRate 25.000000
 planetUpgradeDef
@@ -119,25 +59,25 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxPopulation 1.500000
+			maxPopulation 2.000000
 			populationGrowthRate 0.250000
-			developmentTaxPenalty -0.300000
+			developmentTaxPenalty -0.400000
 		stage
 			price
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxPopulation 3.000000
+			maxPopulation 4.000000
 			populationGrowthRate 0.250000
-			developmentTaxPenalty -0.150000
+			developmentTaxPenalty -0.200000
 		stage
 			price
 				credits 80.000000
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxPopulation 4.500000
+			maxPopulation 6.000000
 			populationGrowthRate 0.250000
 			developmentTaxPenalty 0.000000
 		stage
@@ -146,7 +86,7 @@ planetUpgradeDef
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 20.000000
-			maxPopulation 6.000000
+			maxPopulation 8.000000
 			populationGrowthRate 0.250000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
@@ -314,7 +254,7 @@ planetUpgradeDef
 				metal 360.000000
 				crystal 720.000000
 			upgradeTime 20.000000
-			maxPopulation 3.000000
+			maxPopulation 4.000000
 			populationGrowthRate 0.250000
 			tradeIncomeModifier -0.500000
 			shipBuildRateModifier -0.500000
@@ -337,7 +277,7 @@ planetUpgradeDef
 				metal 360.000000
 				crystal 720.000000
 			upgradeTime 20.000000
-			maxPopulation -3.000000
+			maxPopulation -4.000000
 			tradeIncomeModifier 1.000000
 			shipBuildRateModifier 0.500000
 			cultureSpreadRateModifier -0.500000
@@ -359,52 +299,44 @@ planetUpgradeDef
 			upgradeTime 20.000000
 			corruptionPercent 0.750000
 			smugglingPercent 0.025000
-ringsChance 0.150000
+ringsChance 0.100000
 isColonizable TRUE
 planetTypeForResearch "Greenhouse"
-skyboxScalarsCount 8
+skyboxScalarsCount 5
 skyboxScalars
-	diffuseScalar 1.000000
-	ambientScalar 0.000000
+	diffuseScalar 0.910000
+	ambientScalar 0.150000
 skyboxScalars
-	diffuseScalar 0.400000
+	diffuseScalar 0.670000
+	ambientScalar 0.400000
+skyboxScalars
+	diffuseScalar 0.800000
+	ambientScalar 0.400000
+skyboxScalars
+	diffuseScalar 0.550000
 	ambientScalar 0.600000
 skyboxScalars
-	diffuseScalar 0.900000
-	ambientScalar 0.000000
-skyboxScalars
-	diffuseScalar 0.500000
+	diffuseScalar 0.720000
 	ambientScalar 0.800000
-skyboxScalars
-	diffuseScalar 0.000000
-	ambientScalar 1.000000
-skyboxScalars
-	diffuseScalar 1.000000
-	ambientScalar 0.250000
-skyboxScalars
-	diffuseScalar 1.000000
-	ambientScalar 0.250000
-skyboxScalars
-	diffuseScalar 1.000000
-	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusExtremelyHarsh"
-possibleRandomPlanetBonusesCount 4
-bonus "PlanetBonusDenseCore"
-bonus "PlanetBonusFertileSoil"
+possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusCalmInTheStorm"
+bonus "PlanetBonusCorruptGovernment"
+bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
-bonus "PlanetBonusSubsurfaceMetalDeposits"
+bonus "PlanetBonusVolatileDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
 	ruinPlanetType "PlanetDeadAsteroid"
 	attachType "Center"
-	effectName "StripToTheCore_Planet_Asteroid"
+	effectName "StripToTheCore_Planet_TerranHome"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 30915.000000
-	metalOnStrippedToTheCore 10800.000000
-	crystalOnStrippedToTheCore 7200.000000
+	creditsOnStrippedToTheCore 39420.000000
+	metalOnStrippedToTheCore 3600.000000
+	crystalOnStrippedToTheCore 14400.000000
 	extraScuttleTimeOnStrip 0.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"
@@ -413,7 +345,7 @@ moveAreaRadius 30000.000000
 hyperspaceExitRadius 30000.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 1
-maxSpaceMineCountPerPlayer 0
+maxSpaceMineCountPerPlayer 10
 minShadow 0.000000
 maxShadow 0.000000
 ability:0 ""

@@ -65,7 +65,7 @@ starCount 1
 		connectionStarRadiusRange .7
 		connectionChance .75
 		maxPlayerCount 3
-		ringCount 5
+		ringCount 3
 		ring
 			starRadiusRange
 				minPercentage 0.1

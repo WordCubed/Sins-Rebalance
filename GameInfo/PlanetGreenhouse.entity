@@ -346,7 +346,7 @@ planetUpgradeDef
 			smugglingPercent 0.025000
 ringsChance 0.050000
 isColonizable TRUE
-planetTypeForResearch "Greenhouse"
+planetTypeForResearch "Desert"
 skyboxScalarsCount 6
 skyboxScalars
 	diffuseScalar 0.910000
@@ -367,7 +367,7 @@ skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
-bonus "PlanetBonusExtremelyHarsh"
+bonus "PlanetBonusHarsh"
 possibleRandomPlanetBonusesCount 6
 bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusLoyalGovernment"

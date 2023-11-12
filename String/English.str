@@ -1,5 +1,11 @@
 TXT
-NumStrings 8704
+NumStrings 8706
+StringInfo
+	ID "IDS_PLANETTYPE_TOXIC"
+	Value "Toxic"
+StringInfo
+	ID "IDS_PLANETTYPE_ICEGIANT"
+	Value "Ice Giant"
 StringInfo
 	ID "IDS_FRIGATE_TECHENVOY_NAME"
 	Value "Envoy Cruiser"
@@ -182,7 +188,7 @@ StringInfo
 	Value "Hazardous Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPSI_DESCRIPTION"
-	Value "Allows colonization of Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_ABILITY_CULTUREBLAST_NAME"
 	Value "Psychic Transmission"
@@ -251,7 +257,7 @@ StringInfo
 	Value "Renewed commitments to raise employment rates lessen opposition to the commercialization and defense of low orbit space."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPSI_NAME"
-	Value "Big & Small Evangelism"
+	Value "Giant Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPSI0_DESCRIPTION"
 	Value "Ceremonies extolling the virtue of the Unity are made more compelling, increasing the spread of your empire's culture & your planets' allegiance cap. Your units also regenerate antimatter faster within your culture."
@@ -278,7 +284,7 @@ StringInfo
 	Value "The Unity's influence becomes strong enough to overwhelm the free will of the entirety of your planets' populaces, increasing the spread of your empire's culture & your planets' allegiance cap. Your units also regenerate antimatter faster within your culture."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPHASE_NAME"
-	Value "Big & Small Occupation"
+	Value "Giant Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPICEPSI0_NAME"
 	Value "Insulative Domes"
@@ -524,22 +530,22 @@ StringInfo
 	Value "New micro-organization of hull plating material more effectively disperses damage forces, further increasing the maximum hull points and passive repair rate of all hulls."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPHASE_NAME"
-	Value "Big & Small Occupation"
+	Value "Giant Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_DEVIATEPHASE_DESCRIPTION"
-	Value "Allows colonization of Dwarf and Giant planets."
+	Value "Allows colonization of giant planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPDEVIATEPHASE0_NAME"
-	Value "Big & Small Subjugation 1"
+	Value "Giant Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPDEVIATEPHASE0_DESCRIPTION"
-	Value "Inhabitants are genetically modified to survive more easily in a wider range of gravity strengths, increasing the population that Dwarf and Giant planets can support."
+	Value "Inhabitants are genetically modified to survive more easily in a wider range of gravity strengths, increasing the population that giant planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPDEVIATEPHASE1_NAME"
-	Value "Big & Small Subjugation 2"
+	Value "Giant Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPDEVIATEPHASE1_DESCRIPTION"
-	Value "Further increases the population that Dwarf and Giant planets can support."
+	Value "Further increases the population that giant planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SOLITARY_PATH_NAME"
 	Value "Solitary Path"
@@ -566,19 +572,19 @@ StringInfo
 	Value "Further increases the power and effects of your culture on your empire's planets and ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_NAME"
-	Value "Ferric Occupation"
+	Value "Ferric & Asteroid Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_DESCRIPTION"
-	Value "Allows colonization of Iron-type and Asteroid-type planets."
+	Value "Allows colonization of Iron-type and small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_NAME"
-	Value "Ferric Subjugation 1"
+	Value "Ferric & Asteroid Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_DESCRIPTION"
 	Value "Inhabitants are genetically modified to slow their metabolisms to survive more easily in non-organic environements, increasing the population that Iron-type and Asteroid-type planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_NAME"
-	Value "Ferric Subjugation 2"
+	Value "Ferric & Asteroid Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_DESCRIPTION"
 	Value "Organic life is introduced in an effort to terraform the planet, making the environment less hostile and increasing the population that Iron-type and Asteroid-type planets can support."
@@ -587,7 +593,7 @@ StringInfo
 	Value "Hazardous Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE_DESCRIPTION"
-	Value "Allows colonization of Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPVOLCANICPHASE0_NAME"
 	Value "Hazardous Subjugation 1"
@@ -1136,28 +1142,28 @@ StringInfo
 	Value "Merchant ships are able carry greatly increased amounts of goods and raw resources."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_MOONTECH_NAME"
-	Value "Big & Small Exploitation"
+	Value "Giant Exploitation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_MOONTECH_DESCRIPTION"
-	Value "Allows colonization of giant and dwarf planets."
+	Value "Allows colonization of giant planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSEPHASE_NAME"
 	Value "Hazardous Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSEPHASE_DESCRIPTION"
-	Value "Allows colonization of hazardous places like Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of hazardous places like Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSEPSI_NAME"
 	Value "Hazardous Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSEPSI_DESCRIPTION"
-	Value "Allows colonization of hazardous places like Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of hazardous places like Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSETECH_NAME"
 	Value "Hazardous Exploitation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSETECH_DESCRIPTION"
-	Value "Allows colonization of hazardous places like Volcanic, Greenhouse, and Hydrocarbon planets."
+	Value "Allows colonization of hazardous places like Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_NAME"
 	Value "Iron Occupation"

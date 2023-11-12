@@ -1,89 +1,29 @@
 TXT2
 SinsArchiveVersion 194
 entityType "Planet"
-meshInfoCount 5
+meshInfoCount 1
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
+	typeNameStringID "IDS_PLANETTYPE_ICEGIANT"
 	asteroidTemplate "Sparse"
-	dustCloudTemplate "PuffySparse"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC0"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC0"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC0"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC0"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC0"
-	picture "PICTURE_PLANET_VOLCANIC0"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Ring"
 	dustCloudTemplate "Sparse"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
+	meshName "Planet_IceGiant"
+	cloudColor ffffffff
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC1"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC1"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC1"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC1"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC1"
-	picture "PICTURE_PLANET_VOLCANIC1"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "PuffyDense"
-	meshName "Planet_Volcanic_0"
-	cloudColor ffed8b3b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "HUDICON_PLANET_VOLCANIC2"
-	smallHudIcon "HUDICONSMALL_PLANET_VOLCANIC2"
-	infoCardIcon "INFOCARDICON_PLANET_VOLCANIC2"
-	mainViewIcon "MAINVIEWICON_PLANET_VOLCANIC2"
-	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_VOLCANIC2"
-	picture "PICTURE_PLANET_VOLCANIC2"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "Empty"
-	meshName "Axeldude_PLANET_NORMAL_Volcanic_1"
-	cloudColor 448f6d5b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "Axeldude_PLANET_Normal_Volcanic_1"
-	smallHudIcon "Axeldude_PLANET_Normal_Volcanic_1"
-	infoCardIcon "Axeldude_PLANET_Normal_Volcanic_1"
-	mainViewIcon "Axeldude_PLANET_Normal_Volcanic_1"
-	undetectedMainViewIcon "Axeldude_PLANET_Normal_Volcanic_1_Unknown"
-	picture "PICTURE_PLANET_GENERIC"
-	shouldPrefer FALSE
-meshInfo
-	typeNameStringID "IDS_PLANETTYPE_VOLCANIC"
-	asteroidTemplate "Empty"
-	dustCloudTemplate "Sparse"
-	meshName "Axeldude_PLANET_NORMAL_Volcanic_2"
-	cloudColor ffad8b5b
-	nullMeshRadius 0.000000
-	nullMeshParticleEffect ""
-	hudIcon "Axeldude_PLANET_Normal_Volcanic_2"
-	smallHudIcon "Axeldude_PLANET_Normal_Volcanic_2"
-	infoCardIcon "Axeldude_PLANET_Normal_Volcanic_2"
-	mainViewIcon "Axeldude_PLANET_Normal_Volcanic_2"
-	undetectedMainViewIcon "Axeldude_PLANET_Normal_Volcanic_2_Unknown"
-	picture "PICTURE_PLANET_GENERIC"
+	hudIcon "HUDICON_PLANET_CYRO2"
+	smallHudIcon "HUDICONSMALL_PLANET_CYRO2"
+	infoCardIcon "INFOCARDICON_PLANET_CYRO2"
+	mainViewIcon "MAINVIEWICON_PLANET_CYRO2"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_CYRO2"
+	picture "PICTURE_PLANET_CYRO2"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
-glowColor 8f6b1e00
-ringColor ffed8b3b
+glowColor ffc1f2ff
+ringColor ffffffff
 cloudLayerTextureName "PlanetCloudLayer"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 5
+	totalMaxResourceAsteroids 8
 	metalResourceAsteroidSetup
 		minCount 3
 		maxCount 3
@@ -91,23 +31,23 @@ planetResourceSetupInfo
 		refineryRate 0.083333
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 2
-		maxCount 2
+		minCount 5
+		maxCount 5
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
 		minCount 0
 		maxCount 0
-		extractionRate 0.500000
-		refineryRate 0.083333
-		maxRefineryCount 3
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
 	neutralCrystalResourceAsteroidSetup
 		minCount 0
 		maxCount 0
-		extractionRate 0.500000
-		refineryRate 0.083333
-		maxRefineryCount 3
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
 isAsteroid FALSE
 healthRegenRate 25.000000
 planetUpgradeDef
@@ -359,41 +299,32 @@ planetUpgradeDef
 			upgradeTime 20.000000
 			corruptionPercent 0.750000
 			smugglingPercent 0.025000
-ringsChance 0.150000
+ringsChance 0.750000
 isColonizable TRUE
-planetTypeForResearch "Greenhouse"
-skyboxScalarsCount 8
+planetTypeForResearch "Moon"
+skyboxScalarsCount 5
 skyboxScalars
 	diffuseScalar 1.000000
-	ambientScalar 0.000000
+	ambientScalar 0.200000
 skyboxScalars
-	diffuseScalar 0.400000
-	ambientScalar 0.600000
+	diffuseScalar 0.600000
+	ambientScalar 0.500000
 skyboxScalars
-	diffuseScalar 0.900000
-	ambientScalar 0.000000
+	diffuseScalar 0.800000
+	ambientScalar 0.300000
 skyboxScalars
-	diffuseScalar 0.500000
-	ambientScalar 0.800000
+	diffuseScalar 0.600000
+	ambientScalar 0.700000
 skyboxScalars
-	diffuseScalar 0.000000
-	ambientScalar 1.000000
-skyboxScalars
-	diffuseScalar 1.000000
+	diffuseScalar 0.700000
 	ambientScalar 0.250000
-skyboxScalars
-	diffuseScalar 1.000000
-	ambientScalar 0.250000
-skyboxScalars
-	diffuseScalar 1.000000
-	ambientScalar 0.250000
-requiredPlanetBonusesCount 1
+requiredPlanetBonusesCount 2
 bonus "PlanetBonusExtremelyHarsh"
-possibleRandomPlanetBonusesCount 4
-bonus "PlanetBonusDenseCore"
-bonus "PlanetBonusFertileSoil"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
-bonus "PlanetBonusSubsurfaceMetalDeposits"
+bonus "PlanetBonusGiant"
+possibleRandomPlanetBonusesCount 3
+bonus "PlanetBonusCrystalBonanza"
+bonus "PlanetBonusSanctuary"
+bonus "PlanetBonusStrategicallyValuable"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
@@ -402,17 +333,17 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 30915.000000
+	creditsOnStrippedToTheCore 26055.000000
 	metalOnStrippedToTheCore 10800.000000
-	crystalOnStrippedToTheCore 7200.000000
+	crystalOnStrippedToTheCore 18000.000000
 	extraScuttleTimeOnStrip 0.000000
 dlcId 204880
-ShieldMeshName "Shield_PlanetNormal"
+ShieldMeshName "Shield_PlanetBig"
 renderShield TRUE
-moveAreaRadius 30000.000000
-hyperspaceExitRadius 30000.000000
+moveAreaRadius 83333.000000
+hyperspaceExitRadius 83333.000000
 isWormhole FALSE
-maxStarBaseCountPerPlayer 1
+maxStarBaseCountPerPlayer 3
 maxSpaceMineCountPerPlayer 0
 minShadow 0.000000
 maxShadow 0.000000
