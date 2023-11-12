@@ -1172,22 +1172,22 @@ StringInfo
 	Value "Allows colonization of hazardous places like Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_NAME"
-	Value "Iron Occupation"
+	Value "Iron & Small Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_DESCRIPTION"
-	Value "Allows colonization of Iron-type and Asteroid-type planets."
+	Value "Allows colonization of Iron-type and small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPSI_NAME"
-	Value "Iron Evangelism"
+	Value "Iron & Small Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPSI_DESCRIPTION"
-	Value "Allows colonization of Iron-type and Asteroid-type planets."
+	Value "Allows colonization of Iron-type and small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONTECH_NAME"
-	Value "Iron Exploitation"
+	Value "Iron & Small Exploitation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONTECH_DESCRIPTION"
-	Value "Allows colonization of Iron-type and Asteroid-type planets."
+	Value "Allows colonization of Iron-type and small planets."
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat1Tech"
 	Value "Exploration"
