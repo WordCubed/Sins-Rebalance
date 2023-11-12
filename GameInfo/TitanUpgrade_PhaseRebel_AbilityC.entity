@@ -3,28 +3,28 @@ SinsArchiveVersion 194
 entityType "TitanUpgrade"
 stageCount 4
 stage
-	nameStringID "IDS_ABILITY_NANOREMIT_NAME"
-	descStringID "IDS_ABILITY_NANOREMIT_DESCRIPTION"
+	nameStringID "IDS_ABILITY_DESPERATION_NAME"
+	descStringID "IDS_ABILITY_DESPERATION_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement -1
-	hudIcon "HUDICON_ABILITY_NANOREMIT"
-	smallHudIcon "HUDICON_ABILITY_NANOREMIT"
+	hudIcon "HUDICON_ABILITY_DESPERATION"
+	smallHudIcon "HUDICON_ABILITY_DESPERATION"
 	infoCardIcon ""
 	upgradePropertyCount 0
 	upgradeBoolPropertyCount 0
 stage
-	nameStringID "IDS_ABILITY_NANOREMIT_NAME"
-	descStringID "IDS_ABILITY_NANOREMIT_DESCRIPTION"
+	nameStringID "IDS_ABILITY_DESPERATION_NAME"
+	descStringID "IDS_ABILITY_DESPERATION_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement 2
-	hudIcon "HUDICON_ABILITY_NANOREMIT"
-	smallHudIcon "HUDICON_ABILITY_NANOREMIT"
+	hudIcon "HUDICON_ABILITY_DESPERATION"
+	smallHudIcon "HUDICON_ABILITY_DESPERATION"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -32,15 +32,15 @@ stage
 		value 1.000000
 	upgradeBoolPropertyCount 0
 stage
-	nameStringID "IDS_ABILITY_NANOREMIT_NAME"
-	descStringID "IDS_ABILITY_NANOREMIT_DESCRIPTION"
+	nameStringID "IDS_ABILITY_DESPERATION_NAME"
+	descStringID "IDS_ABILITY_DESPERATION_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement 5
-	hudIcon "HUDICON_ABILITY_NANOREMIT"
-	smallHudIcon "HUDICON_ABILITY_NANOREMIT"
+	hudIcon "HUDICON_ABILITY_DESPERATION"
+	smallHudIcon "HUDICON_ABILITY_DESPERATION"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
@@ -48,15 +48,15 @@ stage
 		value 2.000000
 	upgradeBoolPropertyCount 0
 stage
-	nameStringID "IDS_ABILITY_NANOREMIT_NAME"
-	descStringID "IDS_ABILITY_NANOREMIT_DESCRIPTION"
+	nameStringID "IDS_ABILITY_DESPERATION_NAME"
+	descStringID "IDS_ABILITY_DESPERATION_DESCRIPTION"
 	researchPrerequisites
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	levelRequirement 8
-	hudIcon "HUDICON_ABILITY_NANOREMIT"
-	smallHudIcon "HUDICON_ABILITY_NANOREMIT"
+	hudIcon "HUDICON_ABILITY_DESPERATION"
+	smallHudIcon "HUDICON_ABILITY_DESPERATION"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
