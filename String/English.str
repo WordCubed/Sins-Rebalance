@@ -1,5 +1,11 @@
 TXT
-NumStrings 8706
+NumStrings 8708
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetIceGiant"
+	Value "Ice Giant"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetToxic"
+	Value "Toxic"
 StringInfo
 	ID "IDS_PLANETTYPE_TOXIC"
 	Value "Toxic"
