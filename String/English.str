@@ -1,5 +1,5 @@
 TXT
-NumStrings 8707
+NumStrings 8714
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetIceGiant"
 	Value "Ice Giant"
@@ -1765,8 +1765,14 @@ StringInfo
 	ID "IDS_CAPITALSHIP_TECHSIEGE_NAME"
 	Value "Siege Capital"
 StringInfo
+	ID "IDS_CAPITALSHIP_TECHSIEGE_DESCRIPTION"
+	Value "A warship that specializes in sieging enemy planets. Signficantly more firepower than the Battleship, but has less hull and shields."
+StringInfo
 	ID "IDS_CAPITALSHIP_TECHCARRIER_NAME"
 	Value "Carrier Capital"
+StringInfo
+	ID "IDS_CAPITALSHIP_TECHCARRIER_DESCRIPTION"
+	Value "A warship that controls many strike craft. Fields more firepower than the Battleship, but has less hull and shields."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSIPLANETPSIONIC_NAME"
 	Value "Siege Capital"
@@ -1777,11 +1783,14 @@ StringInfo
 	ID "IDS_CAPITALSHIP_TECHBATTLESHIP_NAME"
 	Value "Battleship"
 StringInfo
+	ID "IDS_CAPITALSHIP_TECHBATTLESHIP_DESCRIPTION"
+	Value "A tough and powerful warship balanced to deal out heavy amounts of damage and receive it in turn."
+StringInfo
 	ID "IDS_CAPITALSHIP_PSICARRIER_NAME"
 	Value "Carrier Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PSICARRIER_DESCRIPTION"
-	Value "A warship that controls large numbers of strike craft. Carries more firepower than the Battleship, but has less hull and shields."
+	Value "A warship that controls many strike craft. Fields more firepower than the Battleship, but has less hull and shields."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSISPECIALCOMBATREBEL_DESCRIPTION"
 	Value "A warship designed to seize control of enemy ships. Not as strong as the Battleship, it makes up for its reduced firepower by 'borrowing' from the enemy."
@@ -1801,14 +1810,20 @@ StringInfo
 	ID "IDS_CAPITALSHIP_PSIBATTLEPSIONIC_NAME"
 	Value "Combat Support Capital"
 StringInfo
+	ID "IDS_CAPITALSHIP_PSIBATTLEPSIONIC_DESCRIPTION"
+	Value "A warship with abilities that strengthen friendly units and weaken enemies. Has more hull and shields than the Battleship, but significantly less firepower."
+StringInfo
 	ID "IDS_CAPITALSHIP_PSIBATTLESHIP_NAME"
 	Value "Battleship"
+StringInfo
+	ID "IDS_CAPITALSHIP_PSIBATTLESHIP_DESCRIPTION"
+	Value "A tough and powerful warship balanced to deal out heavy amounts of damage and receive it in turn."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOMBATSUPPORT_NAME"
 	Value "Combat Support Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOMBATSUPPORT_DESCRIPTION"
-	Value "A a warship with abilities that strengthen friendly units and weaken enemies. Has more hull and shields than the Battleship, but significantly less firepower."
+	Value "A warship with abilities that strengthen friendly units and weaken enemies. Has more hull and shields than the Battleship, but significantly less firepower."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESCOUT_NAME"
 	Value "Assault Capital"
@@ -1824,6 +1839,9 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASESIEGE_NAME"
 	Value "Siege Capital"
+StringInfo
+	ID "IDS_CAPITALSHIP_PHASESIEGE_DESCRIPTION"
+	Value "A warship that specializes in sieging enemy planets. Signficantly more firepower than the Battleship, but has less hull and shields."
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASECOLONY_NAME"
 	Value "Healer Colonist Capital"
@@ -1851,6 +1869,9 @@ StringInfo
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASEBATTLESHIP_NAME"
 	Value "Battleship"
+StringInfo
+	ID "IDS_CAPITALSHIP_PHASEBATTLESHIP_DESCRIPTION"
+	Value "A tough and powerful warship balanced to deal out heavy amounts of damage and receive it in turn."
 StringInfo
 	ID "IDS_CAPITALSHIP_PIRATE_DESCRIPTION"
 	Value "A tough capital ship that is able to capture and damage enemy ships and structures."
