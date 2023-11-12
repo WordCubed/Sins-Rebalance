@@ -7,7 +7,7 @@ MeshData
 	MinBoundingExtents [ -25532.615234 -25532.615234 -25482.265625 ]
 	NumMaterials 1
 	Material
-		DiffuseTextureFileName "Axeldude_Planet_Ice_1-cl.dds"
+		DiffuseTextureFileName "PlanetCyro_3-cl.dds"
 		SelfIlluminationTextureFileName ""
 		NormalTextureFileName ""
 		DisplacementTextureFileName ""
