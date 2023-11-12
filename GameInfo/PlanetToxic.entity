@@ -319,7 +319,7 @@ skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
-bonus "PlanetBonusExtremelyHarsh"
+bonus "PlanetBonusHarsh"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmInTheStorm"
 bonus "PlanetBonusCorruptGovernment"
