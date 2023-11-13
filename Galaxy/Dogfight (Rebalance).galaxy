@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet176"
 		inGameName ""
-		type "Barren"
+		type "Silicate"
 		pos [ 399 , 234 ]
 		owner ""
 		isHomePlanet FALSE
@@ -292,7 +292,7 @@ star
 	planet
 		designName "Planet183"
 		inGameName ""
-		type "Barren"
+		type "Silicate"
 		pos [ 399 , 366 ]
 		owner ""
 		isHomePlanet FALSE
@@ -342,7 +342,7 @@ star
 	planet
 		designName "Planet185"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 525 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -392,7 +392,7 @@ star
 	planet
 		designName "Planet192"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 524 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -542,7 +542,7 @@ star
 	planet
 		designName "Planet216"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 520 , 265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -567,7 +567,7 @@ star
 	planet
 		designName "Planet217"
 		inGameName ""
-		type "Barren"
+		type "Silicate"
 		pos [ 520 , 335 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1162,7 +1162,7 @@ star
 	planet
 		designName "Planet260"
 		inGameName ""
-		type "Barren"
+		type "Silicate"
 		pos [ 980 , 265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1187,7 +1187,7 @@ star
 	planet
 		designName "Planet261"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 980 , 335 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1387,7 +1387,7 @@ star
 	planet
 		designName "Planet271"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 975 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1462,7 +1462,7 @@ star
 	planet
 		designName "Planet274"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 975 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1812,7 +1812,7 @@ star
 	planet
 		designName "Planet310"
 		inGameName ""
-		type "Barren"
+		type "Silicate"
 		pos [ 1111 , 366 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1912,7 +1912,7 @@ star
 	planet
 		designName "Planet315"
 		inGameName ""
-		type "Barren"
+		type "Silicate"
 		pos [ 1111 , 234 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2327,7 +2327,7 @@ star
 	planet
 		designName "Planet286"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 720 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2352,7 +2352,7 @@ star
 	planet
 		designName "Planet287"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 780 , 300 ]
 		owner ""
 		isHomePlanet FALSE

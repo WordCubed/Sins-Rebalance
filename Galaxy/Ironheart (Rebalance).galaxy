@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 19900.000000
-pixelsPerGalaxyUnit 4.200003
+pixelsPerGalaxyUnit 4.440004
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 993.000000
@@ -143,7 +143,7 @@ star
 	planet
 		designName "Planet12"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 53 , 124 ]
 		owner ""
 		isHomePlanet FALSE
@@ -243,7 +243,7 @@ star
 	planet
 		designName "Planet17"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 97 , 153 ]
 		owner ""
 		isHomePlanet FALSE
@@ -343,7 +343,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 125 , 48 ]
 		owner ""
 		isHomePlanet FALSE
@@ -368,7 +368,7 @@ star
 	planet
 		designName "Planet23"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 100 , 46 ]
 		owner ""
 		isHomePlanet FALSE
@@ -443,7 +443,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 56 , 71 ]
 		owner ""
 		isHomePlanet FALSE
@@ -493,7 +493,7 @@ star
 	planet
 		designName "Planet29"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 68 , 52 ]
 		owner ""
 		isHomePlanet FALSE
@@ -543,7 +543,7 @@ star
 	planet
 		designName "Planet31"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 38 , 108 ]
 		owner ""
 		isHomePlanet FALSE
@@ -618,7 +618,7 @@ star
 	planet
 		designName "Planet34"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 75 , 156 ]
 		owner ""
 		isHomePlanet FALSE
@@ -643,7 +643,7 @@ star
 	planet
 		designName "Planet35"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 159 , 91 ]
 		owner ""
 		isHomePlanet FALSE
@@ -693,7 +693,7 @@ star
 	planet
 		designName "Planet37"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 147 , 76 ]
 		owner ""
 		isHomePlanet FALSE
@@ -768,7 +768,7 @@ star
 	planet
 		designName "Planet40"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 135 , 147 ]
 		owner ""
 		isHomePlanet FALSE
@@ -793,7 +793,7 @@ star
 	planet
 		designName "Planet41"
 		inGameName ""
-		type "Greenhouse"
+		type "Asteroid"
 		pos [ 143 , 129 ]
 		owner ""
 		isHomePlanet FALSE

@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "ThreeTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 2.120000
+pixelsPerGalaxyUnit 1.760000
 useRandomGenerator FALSE
 galaxyWidth 2100.000000
 galaxyHeight 1800.000000
@@ -143,7 +143,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 225 , 74 ]
 		owner ""
 		isHomePlanet FALSE
@@ -318,7 +318,7 @@ star
 	planet
 		designName "Planet33"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 341 , 277 ]
 		owner ""
 		isHomePlanet FALSE
@@ -668,7 +668,7 @@ star
 	planet
 		designName "Planet47"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 47 , 253 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1548,7 +1548,7 @@ star
 	planet
 		designName "Planet65"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 1613 , 63 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1773,7 +1773,7 @@ star
 	planet
 		designName "Planet74"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 1749 , 250 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1823,7 +1823,7 @@ star
 	planet
 		designName "Planet76"
 		inGameName ""
-		type "Barren"
+		type "Cryo"
 		pos [ 1709 , 187 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1848,7 +1848,7 @@ star
 	planet
 		designName "Planet77"
 		inGameName ""
-		type "Cryo"
+		type "Barren"
 		pos [ 1648 , 288 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1873,7 +1873,7 @@ star
 	planet
 		designName "Planet78"
 		inGameName ""
-		type "Ferrus"
+		type "GasGiant"
 		pos [ 1691 , 219 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1898,7 +1898,7 @@ star
 	planet
 		designName "Planet79"
 		inGameName ""
-		type "Ice"
+		type "Volcanic"
 		pos [ 1691 , 287 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1923,7 +1923,7 @@ star
 	planet
 		designName "Planet80"
 		inGameName ""
-		type "GasGiant"
+		type "Ferrus"
 		pos [ 1670 , 252 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1948,7 +1948,7 @@ star
 	planet
 		designName "Planet81"
 		inGameName ""
-		type "Volcanic"
+		type "Ice"
 		pos [ 1728 , 219 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1998,7 +1998,7 @@ star
 	planet
 		designName "Planet83"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 1447 , 254 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2929,7 +2929,7 @@ star
 		designName "Planet103"
 		inGameName ""
 		type "Desert"
-		pos [ 881 , 1162 ]
+		pos [ 882 , 1161 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2978,7 +2978,7 @@ star
 	planet
 		designName "Planet105"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 921 , 1160 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3228,7 +3228,7 @@ star
 	planet
 		designName "Planet115"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 1021 , 1380 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3453,7 +3453,7 @@ star
 	planet
 		designName "Planet124"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 756 , 1347 ]
 		owner ""
 		isHomePlanet FALSE

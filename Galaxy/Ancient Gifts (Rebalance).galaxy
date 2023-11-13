@@ -25,12 +25,12 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.160001
+pixelsPerGalaxyUnit 0.920001
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 1126.000000
 nextStarNameUniqueId 14
-nextPlanetNameUniqueId 113
+nextPlanetNameUniqueId 122
 triggerCount 0
 starCount 14
 star
@@ -39,7 +39,7 @@ star
 	type "RandomStar"
 	pos [ 1166 , 100 ]
 	radius 100.000000
-	planetCount 7
+	planetCount 9
 	planet
 		designName "Planet0"
 		inGameName ""
@@ -216,7 +216,57 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 7
+	planet
+		designName "Planet117"
+		inGameName ""
+		type "RandomTiny"
+		pos [ 1087 , 85 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet118"
+		inGameName ""
+		type "RandomUncolonizable"
+		pos [ 1138 , 97 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 11
 	connection
 		planetIndexA 2
 		planetIndexB 0
@@ -252,6 +302,26 @@ star
 		planetIndexB 0
 		spawnProbability 1.000000
 		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 0
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 6
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 star
@@ -260,7 +330,7 @@ star
 	type "RandomStar"
 	pos [ 300 , 100 ]
 	radius 100.000000
-	planetCount 7
+	planetCount 8
 	planet
 		designName "Planet5"
 		inGameName ""
@@ -437,7 +507,32 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 7
+	planet
+		designName "Planet119"
+		inGameName ""
+		type "RandomUncolonizable"
+		pos [ 285 , 63 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 9
 	connection
 		planetIndexA 2
 		planetIndexB 0
@@ -473,6 +568,16 @@ star
 		planetIndexB 2
 		spawnProbability 1.000000
 		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 star
@@ -481,7 +586,7 @@ star
 	type "RandomStar"
 	pos [ 100 , 634 ]
 	radius 100.000000
-	planetCount 7
+	planetCount 8
 	planet
 		designName "Planet4"
 		inGameName ""
@@ -658,7 +763,32 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 7
+	planet
+		designName "Planet121"
+		inGameName ""
+		type "RandomUncolonizable"
+		pos [ 173 , 642 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 9
 	connection
 		planetIndexA 2
 		planetIndexB 0
@@ -692,6 +822,16 @@ star
 	connection
 		planetIndexA 6
 		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -2472,7 +2612,7 @@ star
 	type "RandomStar"
 	pos [ 889 , 942 ]
 	radius 100.000000
-	planetCount 6
+	planetCount 8
 	planet
 		designName "Planet6"
 		inGameName ""
@@ -2527,7 +2667,7 @@ star
 	planet
 		designName "Planet15"
 		inGameName ""
-		type "RandomTiny"
+		type "RandomNoResearchColonizable"
 		pos [ 934 , 953 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2624,7 +2764,57 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 6
+	planet
+		designName "Planet113"
+		inGameName ""
+		type "RandomTiny"
+		pos [ 875 , 921 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet114"
+		inGameName ""
+		type "RandomUncolonizable"
+		pos [ 938 , 908 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 10
 	connection
 		planetIndexA 0
 		planetIndexB 1
@@ -2653,6 +2843,26 @@ star
 	connection
 		planetIndexA 5
 		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 0
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 3
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -3032,7 +3242,7 @@ star
 	planet
 		designName "Planet63"
 		inGameName ""
-		type "RandomIron"
+		type "RandomTiny"
 		pos [ 1012 , 684 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3057,7 +3267,7 @@ star
 	planet
 		designName "Planet65"
 		inGameName ""
-		type "RandomIce"
+		type "RandomHighPop"
 		pos [ 1071 , 651 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3082,7 +3292,7 @@ star
 	planet
 		designName "Planet66"
 		inGameName ""
-		type "RandomHazardous"
+		type "RandomNoResearchColonizable"
 		pos [ 1084 , 619 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3107,7 +3317,7 @@ star
 	planet
 		designName "Planet67"
 		inGameName ""
-		type "RandomDesolate"
+		type "RandomHighResourceColonizable"
 		pos [ 1036 , 668 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3218,7 +3428,7 @@ star
 	type "RandomStar"
 	pos [ 998 , 417 ]
 	radius 100.000000
-	planetCount 6
+	planetCount 8
 	planet
 		designName "Planet2"
 		inGameName ""
@@ -3248,7 +3458,7 @@ star
 	planet
 		designName "Planet8"
 		inGameName ""
-		type "Ice"
+		type "RandomHighPop"
 		pos [ 1046 , 388 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3273,7 +3483,7 @@ star
 	planet
 		designName "Planet14"
 		inGameName ""
-		type "RandomTiny"
+		type "RandomHighResourceColonizable"
 		pos [ 1037 , 412 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3370,7 +3580,57 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 6
+	planet
+		designName "Planet115"
+		inGameName ""
+		type "RandomUncolonizable"
+		pos [ 1050 , 458 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet116"
+		inGameName ""
+		type "RandomTiny"
+		pos [ 1014 , 400 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 10
 	connection
 		planetIndexA 1
 		planetIndexB 0
@@ -3401,6 +3661,26 @@ star
 		planetIndexB 0
 		spawnProbability 1.000000
 		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 star
@@ -3409,7 +3689,7 @@ star
 	type "RandomStar"
 	pos [ 242 , 888 ]
 	radius 100.000000
-	planetCount 7
+	planetCount 8
 	planet
 		designName "Planet3"
 		inGameName ""
@@ -3586,7 +3866,32 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 7
+	planet
+		designName "Planet120"
+		inGameName ""
+		type "RandomUncolonizable"
+		pos [ 192 , 947 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 8
 	connection
 		planetIndexA 0
 		planetIndexB 2
@@ -3620,6 +3925,11 @@ star
 	connection
 		planetIndexA 6
 		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0

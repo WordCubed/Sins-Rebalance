@@ -620,7 +620,7 @@ star
 	planet
 		designName "Planet25"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 1100 , 900 ]
 		owner ""
 		isHomePlanet FALSE
@@ -795,7 +795,7 @@ star
 	planet
 		designName "Planet32"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 500 , 700 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1095,7 +1095,7 @@ star
 	planet
 		designName "Planet44"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 900 , 500 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1420,7 +1420,7 @@ star
 	planet
 		designName "Planet57"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 500 , 400 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1845,7 +1845,7 @@ star
 	planet
 		designName "Planet74"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 1100 , 400 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2345,7 +2345,7 @@ star
 	planet
 		designName "Planet94"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 400 , 1100 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2745,7 +2745,7 @@ star
 	planet
 		designName "Planet110"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 700 , 1100 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2970,7 +2970,7 @@ star
 	planet
 		designName "Planet120"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 1200 , 1100 ]
 		owner ""
 		isHomePlanet FALSE

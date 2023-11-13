@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 2.720000
+pixelsPerGalaxyUnit 4.879999
 useRandomGenerator FALSE
 galaxyWidth 4887.299805
 galaxyHeight 3020.300049
@@ -243,7 +243,7 @@ star
 	planet
 		designName "WeightedRandom-8"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "RandomGiant"
 		pos [ 208 , 215 ]
 		owner ""
 		isHomePlanet FALSE
@@ -618,7 +618,7 @@ star
 	planet
 		designName "Moon-28"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "RandomGiant"
 		pos [ 52 , 133 ]
 		owner ""
 		isHomePlanet FALSE
@@ -743,7 +743,7 @@ star
 	planet
 		designName "RandomIceVolcanic-33"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "RandomGiant"
 		pos [ 197 , 64 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2168,7 +2168,7 @@ star
 	planet
 		designName "RandomIceVolcanic-56"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "RandomGiant"
 		pos [ 1278 , 1265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2293,7 +2293,7 @@ star
 	planet
 		designName "Asteroid-61"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "RandomGiant"
 		pos [ 1142 , 1272 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2393,7 +2393,7 @@ star
 	planet
 		designName "Asteroid-69"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "RandomGiant"
 		pos [ 1207 , 1080 ]
 		owner ""
 		isHomePlanet FALSE

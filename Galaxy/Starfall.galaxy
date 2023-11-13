@@ -24,7 +24,7 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 0.920002
+pixelsPerGalaxyUnit 1.280002
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet27"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 72 , 115 ]
 		owner ""
 		isHomePlanet FALSE
@@ -422,7 +422,7 @@ star
 	planet
 		designName "Planet29"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 706 , 72 ]
 		owner ""
 		isHomePlanet FALSE
@@ -521,16 +521,6 @@ star
 		asteroidCount 0
 	connectionCount 11
 	connection
-		planetIndexA 0
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 1
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA -1
 		planetIndexB 6
 		spawnProbability 1.000000
@@ -573,6 +563,16 @@ star
 	connection
 		planetIndexA -1
 		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA -1
+		planetIndexB 1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -662,7 +662,7 @@ star
 	planet
 		designName "Planet33"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 428 , 565 ]
 		owner ""
 		isHomePlanet FALSE
@@ -868,7 +868,7 @@ star
 		designName "Planet5"
 		inGameName ""
 		type "Comet"
-		pos [ 319 , 178 ]
+		pos [ 331 , 168 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -918,7 +918,7 @@ star
 		designName "Planet7"
 		inGameName ""
 		type "Comet"
-		pos [ 458 , 164 ]
+		pos [ 473 , 166 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1164,7 +1164,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 12
+	connectionCount 15
 	connection
 		planetIndexA 6
 		planetIndexB -1
@@ -1223,6 +1223,21 @@ star
 	connection
 		planetIndexA 9
 		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 1
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 5
+		planetIndexB 3
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -1318,9 +1333,9 @@ player
 	inGameName "NewPlayer0"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1331,9 +1346,9 @@ player
 	inGameName "NewPlayer1"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1344,9 +1359,9 @@ player
 	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 3000
-	startingMetal 800
-	startingCrystal 250
+	startingCredits 18000
+	startingMetal 3600
+	startingCrystal 1800
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

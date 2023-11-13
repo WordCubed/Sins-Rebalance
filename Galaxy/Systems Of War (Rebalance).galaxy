@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-SystemsOfWar"
 browseName "Systems of War (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_SYSTEMSOFWAR"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions FALSE
+randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -21,8 +21,9 @@ quickStartHomePlanetUpgradeLevel:TacticalModules 4
 quickStartHomePlanetUpgradeLevel:Home 1
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
-recommendedGameTypeCount 1
+recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfTwo"
+recommendedGameType "FFA"
 metersPerGalaxyUnit 44100.000000
 pixelsPerGalaxyUnit 2.960004
 useRandomGenerator FALSE
@@ -192,7 +193,7 @@ star
 	planet
 		designName "Planet58"
 		inGameName ""
-		type "ShipGraveyard"
+		type "GasGiant"
 		pos [ 30 , 97 ]
 		owner ""
 		isHomePlanet FALSE
@@ -462,7 +463,7 @@ star
 	planet
 		designName "Planet57"
 		inGameName ""
-		type "ShipGraveyard"
+		type "GasGiant"
 		pos [ 341 , 117 ]
 		owner ""
 		isHomePlanet FALSE
@@ -732,7 +733,7 @@ star
 	planet
 		designName "Planet59"
 		inGameName ""
-		type "ShipGraveyard"
+		type "GasGiant"
 		pos [ 84 , 389 ]
 		owner ""
 		isHomePlanet FALSE
@@ -977,7 +978,7 @@ star
 	planet
 		designName "Planet54"
 		inGameName ""
-		type "ShipGraveyard"
+		type "GasGiant"
 		pos [ 402 , 376 ]
 		owner ""
 		isHomePlanet FALSE

@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "FFA"
 recommendedGameType "TwoTeamsOfThree"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 2.360000
+pixelsPerGalaxyUnit 1.160000
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 1260.000000
@@ -343,7 +343,7 @@ star
 	planet
 		designName "Planet14"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 560 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -618,7 +618,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 210 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -918,7 +918,7 @@ star
 	planet
 		designName "Planet38"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 770 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1293,7 +1293,7 @@ star
 	planet
 		designName "Planet53"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 210 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1468,7 +1468,7 @@ star
 	planet
 		designName "Planet61"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 420 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1718,7 +1718,7 @@ star
 	planet
 		designName "Planet71"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 770 , 560 ]
 		owner ""
 		isHomePlanet FALSE

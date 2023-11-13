@@ -293,7 +293,7 @@ star
 	planet
 		designName "Planet12"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 420 , 210 ]
 		owner ""
 		isHomePlanet FALSE
@@ -393,7 +393,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 490 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -493,7 +493,7 @@ star
 	planet
 		designName "Planet20"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 280 , 490 ]
 		owner ""
 		isHomePlanet FALSE
@@ -593,7 +593,7 @@ star
 	planet
 		designName "Planet24"
 		inGameName ""
-		type "GasGiant"
+		type "IceGiant"
 		pos [ 210 , 280 ]
 		owner ""
 		isHomePlanet FALSE

@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "ThreeTeamsOfTwo"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 6.035984
+pixelsPerGalaxyUnit 8.675981
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 1096.000000
@@ -36,7 +36,7 @@ starCount 4
 star
 	designName "Ubis"
 	inGameName "IDS_STARNAME_235"
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 57 , 186 ]
 	radius 30.000000
 	planetCount 15
@@ -121,7 +121,7 @@ star
 		designName "Planet5"
 		inGameName ""
 		type "Mountains"
-		pos [ 75 , 177 ]
+		pos [ 76 , 176 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -346,7 +346,7 @@ star
 		designName "Planet15"
 		inGameName ""
 		type "Greenhouse"
-		pos [ 64 , 180 ]
+		pos [ 64 , 179 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -370,7 +370,7 @@ star
 	planet
 		designName "Planet60"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 36 , 194 ]
 		owner ""
 		isHomePlanet FALSE
@@ -395,7 +395,7 @@ star
 	planet
 		designName "Planet61"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 80 , 193 ]
 		owner ""
 		isHomePlanet FALSE
@@ -508,7 +508,7 @@ star
 star
 	designName "Star2"
 	inGameName "IDS_STARNAME_236"
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 200 , 55 ]
 	radius 30.000000
 	planetCount 15
@@ -768,7 +768,7 @@ star
 		designName "Planet41"
 		inGameName ""
 		type "Ice"
-		pos [ 221 , 62 ]
+		pos [ 222 , 63 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -818,7 +818,7 @@ star
 		designName "Planet43"
 		inGameName ""
 		type "Desert"
-		pos [ 192 , 60 ]
+		pos [ 191 , 60 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -842,7 +842,7 @@ star
 	planet
 		designName "Planet64"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 190 , 74 ]
 		owner ""
 		isHomePlanet FALSE
@@ -867,7 +867,7 @@ star
 	planet
 		designName "Planet65"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 189 , 35 ]
 		owner ""
 		isHomePlanet FALSE
@@ -889,7 +889,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 18
+	connectionCount 17
 	connection
 		planetIndexA 1
 		planetIndexB 2
@@ -963,11 +963,6 @@ star
 	connection
 		planetIndexA 8
 		planetIndexB 2
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 12
-		planetIndexB 11
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1645,7 +1640,7 @@ star
 star
 	designName "Star5"
 	inGameName "IDS_STARNAME_238"
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 203 , 178 ]
 	radius 30.000000
 	planetCount 15
@@ -1679,7 +1674,7 @@ star
 		designName "Planet45"
 		inGameName ""
 		type "TerranHome"
-		pos [ 217 , 159 ]
+		pos [ 223 , 167 ]
 		owner "Player5"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
@@ -1780,7 +1775,7 @@ star
 		designName "Planet49"
 		inGameName ""
 		type "Tropical"
-		pos [ 216 , 168 ]
+		pos [ 221 , 175 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1930,7 +1925,7 @@ star
 		designName "Planet55"
 		inGameName ""
 		type "Mountains"
-		pos [ 182 , 184 ]
+		pos [ 181 , 183 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1979,8 +1974,8 @@ star
 	planet
 		designName "Planet62"
 		inGameName ""
-		type "Silicate"
-		pos [ 224 , 164 ]
+		type "Carbon"
+		pos [ 228 , 178 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2004,7 +1999,7 @@ star
 	planet
 		designName "Planet63"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 199 , 203 ]
 		owner ""
 		isHomePlanet FALSE

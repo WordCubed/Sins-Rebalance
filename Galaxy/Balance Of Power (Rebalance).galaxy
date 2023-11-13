@@ -42,7 +42,7 @@ star
 	planet
 		designName "Planet0"
 		inGameName ""
-		type "GasGiant"
+		type "RockGiant"
 		pos [ 44 , 22 ]
 		owner ""
 		isHomePlanet FALSE
@@ -67,7 +67,7 @@ star
 	planet
 		designName "Planet1"
 		inGameName ""
-		type "GasGiant"
+		type "RockGiant"
 		pos [ 27 , 74 ]
 		owner ""
 		isHomePlanet FALSE
@@ -92,7 +92,7 @@ star
 	planet
 		designName "Planet2"
 		inGameName ""
-		type "GasGiant"
+		type "RockGiant"
 		pos [ 79 , 62 ]
 		owner ""
 		isHomePlanet FALSE

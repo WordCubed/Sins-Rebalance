@@ -542,7 +542,7 @@ star
 	planet
 		designName "Planet24"
 		inGameName ""
-		type "Mountains"
+		type "Terran"
 		pos [ 70 , 76 ]
 		owner ""
 		isHomePlanet FALSE
@@ -567,7 +567,7 @@ star
 	planet
 		designName "Planet25"
 		inGameName ""
-		type "Mountains"
+		type "Terran"
 		pos [ 75 , 70 ]
 		owner ""
 		isHomePlanet FALSE
@@ -592,7 +592,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "Mountains"
+		type "Terran"
 		pos [ 19 , 28 ]
 		owner ""
 		isHomePlanet FALSE
@@ -617,7 +617,7 @@ star
 	planet
 		designName "Planet27"
 		inGameName ""
-		type "Mountains"
+		type "Terran"
 		pos [ 25 , 24 ]
 		owner ""
 		isHomePlanet FALSE

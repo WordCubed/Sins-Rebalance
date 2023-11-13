@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 68 , 131 ]
 		owner ""
 		isHomePlanet FALSE
@@ -267,7 +267,7 @@ star
 	planet
 		designName "Planet17"
 		inGameName ""
-		type "Carbon"
+		type "Silicate"
 		pos [ 42 , 44 ]
 		owner ""
 		isHomePlanet FALSE
@@ -587,7 +587,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "Greenhouse"
+		type "Hydrocarbon"
 		pos [ 1038 , 136 ]
 		owner ""
 		isHomePlanet FALSE
@@ -662,7 +662,7 @@ star
 	planet
 		designName "Planet29"
 		inGameName ""
-		type "Carbon"
+		type "Silicate"
 		pos [ 1058 , 38 ]
 		owner ""
 		isHomePlanet FALSE

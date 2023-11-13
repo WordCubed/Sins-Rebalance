@@ -169,7 +169,7 @@ star
 	planet
 		designName "Planet13"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 130 , 92 ]
 		owner ""
 		isHomePlanet FALSE
@@ -194,7 +194,7 @@ star
 	planet
 		designName "Planet15"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 122 , 122 ]
 		owner ""
 		isHomePlanet FALSE
@@ -219,7 +219,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 92 , 130 ]
 		owner ""
 		isHomePlanet FALSE
@@ -319,7 +319,7 @@ star
 	planet
 		designName "Planet21"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 108 , 70 ]
 		owner ""
 		isHomePlanet FALSE
@@ -419,7 +419,7 @@ star
 	planet
 		designName "Planet25"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 78 , 78 ]
 		owner ""
 		isHomePlanet FALSE
@@ -469,7 +469,7 @@ star
 	planet
 		designName "Planet27"
 		inGameName ""
-		type "Greenhouse"
+		type "Moon"
 		pos [ 70 , 108 ]
 		owner ""
 		isHomePlanet FALSE
