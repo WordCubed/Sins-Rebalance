@@ -30,13 +30,12 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 1
 onlyWorksIfTierLabsExist TRUE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 1
 researchModifier
-	modifierType "PopulationTaxRateAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.250000
+	modifierType "ApplyBuffToPlanetAfterColonization"
+	buffToApply "BuffAssimilatedPopulace"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
