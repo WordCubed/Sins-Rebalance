@@ -1,5 +1,29 @@
 TXT
-NumStrings 8714
+NumStrings 8722
+StringInfo
+	ID "IDS_PSI_RESEARCHFIELD_COMBAT"
+	Value "Military"
+StringInfo
+	ID "IDS_PSI_RESEARCHFIELD_DEFENSE"
+	Value "Defense"
+StringInfo
+	ID "IDS_PSI_RESEARCHFIELD_EMPIRE"
+	Value "Civilian"
+StringInfo
+	ID "IDS_PSI_RESEARCHFIELD_DIPLOMACY"
+	Value "Diplomacy"
+StringInfo
+	ID "IDS_PHASE_RESEARCHFIELD_COMBAT"
+	Value "Military"
+StringInfo
+	ID "IDS_PHASE_RESEARCHFIELD_DEFENSE"
+	Value "Defense"
+StringInfo
+	ID "IDS_PHASE_RESEARCHFIELD_EMPIRE"
+	Value "Civilian"
+StringInfo
+	ID "IDS_PHASE_RESEARCHFIELD_DIPLOMACY"
+	Value "Diplomacy"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetIceGiant"
 	Value "Ice Giant"
