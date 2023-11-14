@@ -78,8 +78,8 @@ starCount 1
 				planetTypeCount 1
 				planetType "PirateBase"
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 5
+				maxCount 5
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -92,7 +92,7 @@ starCount 1
 				minCount 20
 				maxCount 20
 				planetTypeCount 1
-				planetType "Random"
+				planetType "RandomColonizable"
 		ring
 			starRadiusRange
 				minPercentage 0.33

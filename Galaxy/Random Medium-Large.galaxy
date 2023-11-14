@@ -89,8 +89,8 @@ starCount 1
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 30
-				maxCount 30
+				minCount 36
+				maxCount 36
 				planetTypeCount 1
 				planetType "RandomColonizable"
 		ring

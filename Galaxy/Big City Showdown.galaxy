@@ -367,7 +367,7 @@ star
 	planet
 		designName "Planet15"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 641 , 232 ]
 		owner ""
 		isHomePlanet FALSE
@@ -392,7 +392,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 719 , 305 ]
 		owner ""
 		isHomePlanet FALSE
@@ -442,7 +442,7 @@ star
 	planet
 		designName "Planet18"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 431 , 245 ]
 		owner ""
 		isHomePlanet FALSE
@@ -467,7 +467,7 @@ star
 	planet
 		designName "Planet19"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 344 , 322 ]
 		owner ""
 		isHomePlanet FALSE
@@ -517,7 +517,7 @@ star
 	planet
 		designName "Planet21"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 264 , 473 ]
 		owner ""
 		isHomePlanet FALSE
@@ -542,7 +542,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 310 , 576 ]
 		owner ""
 		isHomePlanet FALSE
@@ -717,7 +717,7 @@ star
 	planet
 		designName "Planet29"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 750 , 371 ]
 		owner ""
 		isHomePlanet FALSE
@@ -742,7 +742,7 @@ star
 	planet
 		designName "Planet30"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 805 , 471 ]
 		owner ""
 		isHomePlanet FALSE
@@ -942,7 +942,7 @@ star
 	planet
 		designName "Planet38"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 630 , 708 ]
 		owner ""
 		isHomePlanet FALSE
@@ -967,7 +967,7 @@ star
 	planet
 		designName "Planet39"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 737 , 636 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1117,7 +1117,7 @@ star
 	planet
 		designName "Planet45"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 466 , 739 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1142,7 +1142,7 @@ star
 	planet
 		designName "Planet46"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 358 , 660 ]
 		owner ""
 		isHomePlanet FALSE

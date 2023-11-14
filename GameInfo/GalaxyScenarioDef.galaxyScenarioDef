@@ -2245,7 +2245,7 @@ planetItemsTemplate
 				param ""
 			owner "Pirate"
 			colonizeChance 1
-			items 68
+			items 62
 				item "Pirate:CapitalShip:Capital"
 				item "Pirate:CapitalShip:Capital"
 				item "Pirate:CapitalShip:Capital"
@@ -2270,10 +2270,6 @@ planetItemsTemplate
 				item "Pirate:Frigate:Medium"
 				item "Pirate:Frigate:Medium"
 				item "Pirate:Frigate:Medium"
-				item "Pirate:Frigate:Light"
-				item "Pirate:Frigate:Light"
-				item "Pirate:Frigate:Light"
-				item "Pirate:Frigate:Light"
 				item "Pirate:Frigate:Light"
 				item "Pirate:Frigate:Light"
 				item "Pirate:Frigate:Light"
@@ -2311,8 +2307,6 @@ planetItemsTemplate
 				item "Pirate:Module:TradePort"
 				item "Pirate:Module:Cannon"
 				item "Tech:Module:MetalExtractor"
-				item "Tech:Module:MetalExtractor"
-				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 planetItemsTemplate
 	templateName "Template:OccupiedPlanet"
