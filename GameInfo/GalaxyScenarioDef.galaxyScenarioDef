@@ -2745,7 +2745,7 @@ planetItemsTemplate
 				param "TechDemolitionists"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 48
+			items 38
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:TradePort"
 				item "Tech:Module:RepairPlatform"
@@ -2795,7 +2795,7 @@ planetItemsTemplate
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:TradePort"
 				item "Tech:Module:RepairPlatform"
-				item "Tech:Module:RepairPlatform
+				item "Tech:Module:RepairPlatform"
 				item "Tech:Module:GaussDefense"
 				item "Tech:Module:GaussDefense"
 				item "Tech:Module:GaussDefense"
@@ -3149,7 +3149,7 @@ planetItemsTemplate
 				item "Phase:Frigate:Light"
 				item "Phase:Frigate:Light"
 				item "Phase:Frigate:Light"
-				item "Phase:Frigate:Light
+				item "Phase:Frigate:Light"
 				item "Phase:Frigate:LongRange"
 				item "Phase:Frigate:LongRange"
 				item "Phase:Frigate:LongRange"

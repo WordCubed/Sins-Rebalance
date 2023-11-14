@@ -13,7 +13,7 @@ fighterIllusionEntityDef ""
 scuttleTime 10.000000
 fighterConstructionTime 6.000000
 decayWithoutOwnerRate 0.011111
-baseMaxNumFighters 6
+baseMaxNumFighters 3
 role "Combat"
 statCountType "SquadCombat"
 mainViewIcon "MAINVIEWICON_SQUADPHASECOMBAT"
