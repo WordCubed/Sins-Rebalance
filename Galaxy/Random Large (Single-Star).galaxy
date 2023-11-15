@@ -117,8 +117,8 @@ starCount 1
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 4
-				maxCount 4
+				minCount 2
+				maxCount 2
 				planetTypeCount 1
 				planetType "Wormhole"
 dlcID 204880

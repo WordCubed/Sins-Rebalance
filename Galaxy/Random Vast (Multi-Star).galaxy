@@ -84,8 +84,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 20
-				maxCount 20
+				minCount 15
+				maxCount 15
 				planetTypeCount 1
 				planetType "Random"
 		ring
@@ -95,8 +95,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 1
+				maxCount 1
 				planetTypeCount 1
 				planetType "Wormhole"
 	star
@@ -113,8 +113,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 1
+				maxCount 1
 				planetTypeCount 1
 				planetType "PirateBase"
 		ring
@@ -124,8 +124,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 20
-				maxCount 20
+				minCount 15
+				maxCount 15
 				planetTypeCount 1
 				planetType "Random"
 		ring
@@ -135,8 +135,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 1
+				maxCount 1
 				planetTypeCount 1
 				planetType "Wormhole"
 	star
@@ -164,8 +164,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 20
-				maxCount 20
+				minCount 15
+				maxCount 15
 				planetTypeCount 1
 				planetType "Random"
 		ring
@@ -175,8 +175,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 1
+				maxCount 1
 				planetTypeCount 1
 				planetType "Wormhole"
 	star
@@ -204,8 +204,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 20
-				maxCount 20
+				minCount 15
+				maxCount 15
 				planetTypeCount 1
 				planetType "Random"
 		ring
@@ -215,8 +215,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 1
+				maxCount 1
 				planetTypeCount 1
 				planetType "Wormhole"
 	star
@@ -244,8 +244,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 20
-				maxCount 20
+				minCount 15
+				maxCount 15
 				planetTypeCount 1
 				planetType "Random"
 		ring
@@ -255,8 +255,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 1
+				maxCount 1
 				planetTypeCount 1
 				planetType "Wormhole"
 dlcID 204880
