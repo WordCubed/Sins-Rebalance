@@ -24,9 +24,9 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "Solo"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.880000
+pixelsPerGalaxyUnit 0.680000
 useRandomGenerator FALSE
-galaxyWidth 1536.000000
+galaxyWidth 3100.000000
 galaxyHeight 873.000000
 nextStarNameUniqueId 3
 nextPlanetNameUniqueId 30
@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 68 , 131 ]
 		owner ""
 		isHomePlanet FALSE
@@ -267,7 +267,7 @@ star
 	planet
 		designName "Planet17"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 42 , 44 ]
 		owner ""
 		isHomePlanet FALSE
@@ -406,14 +406,14 @@ star
 	designName "Star2"
 	inGameName ""
 	type "YellowStar"
-	pos [ 1000 , 100 ]
+	pos [ 3000 , 100 ]
 	radius 100.000000
 	planetCount 11
 	planet
 		designName "Planet19"
 		inGameName ""
 		type "PirateBase"
-		pos [ 950 , 100 ]
+		pos [ 2950 , 100 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -438,7 +438,7 @@ star
 		designName "Planet20"
 		inGameName ""
 		type "GasGiant"
-		pos [ 1044 , 100 ]
+		pos [ 3044 , 100 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -463,7 +463,7 @@ star
 		designName "Planet21"
 		inGameName ""
 		type "TerranHome"
-		pos [ 1081 , 99 ]
+		pos [ 3081 , 99 ]
 		owner "Player1"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
@@ -488,7 +488,7 @@ star
 		designName "Planet22"
 		inGameName ""
 		type "Cryo"
-		pos [ 998 , 58 ]
+		pos [ 2998 , 58 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -513,7 +513,7 @@ star
 		designName "Planet23"
 		inGameName ""
 		type "Ferrus"
-		pos [ 1001 , 143 ]
+		pos [ 3001 , 143 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -538,7 +538,7 @@ star
 		designName "Planet24"
 		inGameName ""
 		type "Ice"
-		pos [ 996 , 23 ]
+		pos [ 2996 , 23 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -563,7 +563,7 @@ star
 		designName "Planet25"
 		inGameName ""
 		type "Volcanic"
-		pos [ 1003 , 181 ]
+		pos [ 3003 , 181 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -587,8 +587,8 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "Hydrocarbon"
-		pos [ 1038 , 136 ]
+		type "Toxic"
+		pos [ 3038 , 136 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -613,7 +613,7 @@ star
 		designName "Planet27"
 		inGameName ""
 		type "Oceanic"
-		pos [ 1061 , 160 ]
+		pos [ 3061 , 160 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -638,7 +638,7 @@ star
 		designName "Planet28"
 		inGameName ""
 		type "Desert"
-		pos [ 1034 , 62 ]
+		pos [ 3034 , 62 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -662,8 +662,8 @@ star
 	planet
 		designName "Planet29"
 		inGameName ""
-		type "Silicate"
-		pos [ 1058 , 38 ]
+		type "Carbon"
+		pos [ 3058 , 38 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3

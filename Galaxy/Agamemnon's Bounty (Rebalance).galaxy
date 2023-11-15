@@ -7,7 +7,7 @@ browseName "Agamemnon's Bounty (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_AGAMEMNONSBOUNTY"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.60000
+planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -24,7 +24,7 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "Solo"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 5.753997
+pixelsPerGalaxyUnit 5.153997
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 1126.000000
@@ -35,7 +35,7 @@ starCount 3
 star
 	designName "Star0"
 	inGameName "IDS_STARNAME_230"
-	type "RandomNonGreenStar"
+	type "NonSpecialStar"
 	pos [ 250 , 25 ]
 	radius 25.000000
 	planetCount 5
@@ -205,7 +205,7 @@ star
 star
 	designName "Star1"
 	inGameName "IDS_STARNAME_231"
-	type "RandomNonGreenStar"
+	type "NonSpecialStar"
 	pos [ 25 , 250 ]
 	radius 25.000000
 	planetCount 5
