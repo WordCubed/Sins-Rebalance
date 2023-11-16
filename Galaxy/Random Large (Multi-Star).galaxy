@@ -86,8 +86,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 5
-				maxCount 5
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -97,8 +97,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 8
-				maxCount 8
+				minCount 14
+				maxCount 14
 				planetTypeCount 1
 				planetType "RandomColonizable"
 	star
@@ -126,8 +126,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 5
-				maxCount 5
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -137,8 +137,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 8
-				maxCount 8
+				minCount 14
+				maxCount 14
 				planetTypeCount 1
 				planetType "RandomColonizable"
 	star
@@ -166,8 +166,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 5
-				maxCount 5
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -177,8 +177,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 8
-				maxCount 8
+				minCount 14
+				maxCount 14
 				planetTypeCount 1
 				planetType "RandomColonizable"
 	star
@@ -206,8 +206,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 5
-				maxCount 5
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -217,8 +217,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 8
-				maxCount 8
+				minCount 14
+				maxCount 14
 				planetTypeCount 1
 				planetType "RandomColonizable"
 	star
@@ -227,18 +227,7 @@ starCount 5
 		connectionStarRadiusRange .75
 		connectionChance 0.8
 		maxPlayerCount 0
-		ringCount 3
-		ring
-			starRadiusRange
-				minPercentage 0.1
-				maxPercentage 0.2
-			militiaColonizationPerc 0
-			planetGroupCount 1
-			planetGroup
-				minCount 2
-				maxCount 2
-				planetTypeCount 1
-				planetType "PirateBase"
+		ringCount 2
 		ring
 			starRadiusRange
 				minPercentage 0.10
@@ -246,8 +235,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 5
-				maxCount 5
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -257,8 +246,8 @@ starCount 5
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 9
-				maxCount 9
+				minCount 12
+				maxCount 12
 				planetTypeCount 1
 				planetType "RandomColonizable"
 dlcID 204880
