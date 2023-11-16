@@ -73,8 +73,8 @@ randomizerParams
 			militiaColonizationPerc 0.000000
 			planetGroupCount 1
 			planetGroup
-				minCount 3
-				maxCount 3
+				minCount 2
+				maxCount 2
 				planetTypeCount 1
 				planetType "PirateBase"
 		ring
@@ -117,8 +117,8 @@ randomizerParams
 			militiaColonizationPerc 0.000000
 			planetGroupCount 1
 			planetGroup
-				minCount 2
-				maxCount 2
+				minCount 3
+				maxCount 3
 				planetTypeCount 1
 				planetType "Wormhole"
 dlcID 204880

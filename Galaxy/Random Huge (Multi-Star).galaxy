@@ -3,7 +3,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-RandomHuge"
 browseName "Random Huge (Multi-Star)"
-browseDescription "he galaxy is a big place. Up to 8 other empires are scattered across its systems. Can you dominate them all? This map is randomly generated each time it is played."
+browseDescription "The galaxy is a big place. Up to 8 other empires are scattered across its systems. Can you dominate them all? This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.6

@@ -73,8 +73,8 @@ starCount 1
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 4
-				maxCount 4
+				minCount 2
+				maxCount 2
 				planetTypeCount 1
 				planetType "PirateBase"
 		ring
@@ -84,8 +84,8 @@ starCount 1
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 11
-				maxCount 11
+				minCount 5
+				maxCount 5
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -95,8 +95,8 @@ starCount 1
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 16
-				maxCount 16
+				minCount 24
+				maxCount 24
 				planetTypeCount 1
 				planetType "Random"
 		ring
