@@ -2,9 +2,9 @@
 SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
-browsePictureName "ScenarioPicture-Entanglement"
-browseName "Entanglement (Rebalance)"
-browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_ENTANGLEMENT"
+browsePictureName ""
+browseName "Tangled Web"
+browseDescription "Maneuver carefully: the tangled web of phase lanes around this star means your enemies are only a couple jumps away from you."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
 planetArtifactDensity 0.600000

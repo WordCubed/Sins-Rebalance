@@ -17,7 +17,7 @@ meshInfo
 	undetectedMainViewIcon "PLANET_E4X_Toxic_Unknown"
 	picture "PICTURE_PLANET_GENERIC"
 	shouldPrefer FALSE
-minZoomDistanceMult 2.000000
+minZoomDistanceMult 2.750000
 glowColor 7f953751
 ringColor ffffffff
 cloudLayerTextureName "Axeldude_Cloudmap_Fair"
@@ -331,7 +331,7 @@ renderAsVolcanic FALSE
 planetRuinDef
 	ruinPlanetType "PlanetDeadAsteroid"
 	attachType "Center"
-	effectName "StripToTheCore_Planet_TerranHome"
+	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
 	creditsOnStrippedToTheCore 39420.000000
@@ -345,7 +345,7 @@ moveAreaRadius 30000.000000
 hyperspaceExitRadius 30000.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 1
-maxSpaceMineCountPerPlayer 10
+maxSpaceMineCountPerPlayer 0
 minShadow 0.000000
 maxShadow 0.000000
 ability:0 ""

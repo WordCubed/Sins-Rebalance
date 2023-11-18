@@ -342,7 +342,7 @@ bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusPorousCore"
 bonus "PlanetBonusSanctuary"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
-ambienceSoundID ""
+ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
 	ruinPlanetType "PlanetDeadAsteroid"

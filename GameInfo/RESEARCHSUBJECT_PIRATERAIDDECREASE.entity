@@ -11,10 +11,7 @@ researchWindowLocation
 	pos [ 5 , 2 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ENEMY_RELATIONS"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
