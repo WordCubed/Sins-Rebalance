@@ -243,7 +243,7 @@ star
 	planet
 		designName "Planet10"
 		inGameName ""
-		type "Mountains"
+		type "Toxic"
 		pos [ 280 , 210 ]
 		owner ""
 		isHomePlanet FALSE
@@ -293,7 +293,7 @@ star
 	planet
 		designName "Planet12"
 		inGameName ""
-		type "IceGiant"
+		type "Toxic"
 		pos [ 420 , 210 ]
 		owner ""
 		isHomePlanet FALSE
@@ -318,7 +318,7 @@ star
 	planet
 		designName "Planet13"
 		inGameName ""
-		type "Volcanic"
+		type "Industrial"
 		pos [ 490 , 210 ]
 		owner ""
 		isHomePlanet FALSE
@@ -343,7 +343,7 @@ star
 	planet
 		designName "Planet14"
 		inGameName ""
-		type "Mountains"
+		type "GasGiant"
 		pos [ 490 , 280 ]
 		owner ""
 		isHomePlanet FALSE
@@ -393,7 +393,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 490 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -418,7 +418,7 @@ star
 	planet
 		designName "Planet17"
 		inGameName ""
-		type "Volcanic"
+		type "Industrial"
 		pos [ 490 , 490 ]
 		owner ""
 		isHomePlanet FALSE
@@ -443,7 +443,7 @@ star
 	planet
 		designName "Planet18"
 		inGameName ""
-		type "Mountains"
+		type "Toxic"
 		pos [ 420 , 490 ]
 		owner ""
 		isHomePlanet FALSE
@@ -493,7 +493,7 @@ star
 	planet
 		designName "Planet20"
 		inGameName ""
-		type "IceGiant"
+		type "Toxic"
 		pos [ 280 , 490 ]
 		owner ""
 		isHomePlanet FALSE
@@ -518,7 +518,7 @@ star
 	planet
 		designName "Planet21"
 		inGameName ""
-		type "Volcanic"
+		type "Industrial"
 		pos [ 210 , 490 ]
 		owner ""
 		isHomePlanet FALSE
@@ -543,7 +543,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Mountains"
+		type "GasGiant"
 		pos [ 210 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -593,7 +593,7 @@ star
 	planet
 		designName "Planet24"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 210 , 280 ]
 		owner ""
 		isHomePlanet FALSE
@@ -618,7 +618,7 @@ star
 	planet
 		designName "Planet25"
 		inGameName ""
-		type "Volcanic"
+		type "Industrial"
 		pos [ 210 , 210 ]
 		owner ""
 		isHomePlanet FALSE
@@ -718,7 +718,7 @@ star
 	planet
 		designName "Planet29"
 		inGameName ""
-		type "Ferrus"
+		type "Cryo"
 		pos [ 420 , 140 ]
 		owner ""
 		isHomePlanet FALSE
@@ -743,7 +743,7 @@ star
 	planet
 		designName "Planet30"
 		inGameName ""
-		type "Savannah"
+		type "Oceanic"
 		pos [ 490 , 140 ]
 		owner ""
 		isHomePlanet FALSE
@@ -818,7 +818,7 @@ star
 	planet
 		designName "Planet33"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 140 , 210 ]
 		owner ""
 		isHomePlanet FALSE
@@ -893,7 +893,7 @@ star
 	planet
 		designName "Planet36"
 		inGameName ""
-		type "Cryo"
+		type "Ferrus"
 		pos [ 140 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -918,7 +918,7 @@ star
 	planet
 		designName "Planet37"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 140 , 490 ]
 		owner ""
 		isHomePlanet FALSE
@@ -968,7 +968,7 @@ star
 	planet
 		designName "Planet39"
 		inGameName ""
-		type "Savannah"
+		type "Oceanic"
 		pos [ 210 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -993,7 +993,7 @@ star
 	planet
 		designName "Planet40"
 		inGameName ""
-		type "Ferrus"
+		type "Cryo"
 		pos [ 280 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1118,7 +1118,7 @@ star
 	planet
 		designName "Planet45"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 560 , 490 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1193,7 +1193,7 @@ star
 	planet
 		designName "Planet48"
 		inGameName ""
-		type "Cryo"
+		type "Ferrus"
 		pos [ 560 , 280 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1218,7 +1218,7 @@ star
 	planet
 		designName "Planet49"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 560 , 210 ]
 		owner ""
 		isHomePlanet FALSE

@@ -620,7 +620,7 @@ star
 	planet
 		designName "Planet25"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 1100 , 900 ]
 		owner ""
 		isHomePlanet FALSE
@@ -645,7 +645,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "Greenhouse"
+		type "Toxic"
 		pos [ 1200 , 900 ]
 		owner ""
 		isHomePlanet FALSE
@@ -795,7 +795,7 @@ star
 	planet
 		designName "Planet32"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 500 , 700 ]
 		owner ""
 		isHomePlanet FALSE
@@ -820,7 +820,7 @@ star
 	planet
 		designName "Planet33"
 		inGameName ""
-		type "Greenhouse"
+		type "Toxic"
 		pos [ 400 , 700 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1095,7 +1095,7 @@ star
 	planet
 		designName "Planet44"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 900 , 500 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1145,7 +1145,7 @@ star
 	planet
 		designName "Planet46"
 		inGameName ""
-		type "Greenhouse"
+		type "Toxic"
 		pos [ 900 , 400 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1370,7 +1370,7 @@ star
 	planet
 		designName "Planet55"
 		inGameName ""
-		type "Greenhouse"
+		type "Toxic"
 		pos [ 400 , 500 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1420,7 +1420,7 @@ star
 	planet
 		designName "Planet57"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 500 , 400 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1845,7 +1845,7 @@ star
 	planet
 		designName "Planet74"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 1100 , 400 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1895,7 +1895,7 @@ star
 	planet
 		designName "Planet76"
 		inGameName ""
-		type "Greenhouse"
+		type "Toxic"
 		pos [ 1200 , 500 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2345,7 +2345,7 @@ star
 	planet
 		designName "Planet94"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 400 , 1100 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2395,7 +2395,7 @@ star
 	planet
 		designName "Planet96"
 		inGameName ""
-		type "Greenhouse"
+		type "Toxic"
 		pos [ 500 , 1200 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2695,7 +2695,7 @@ star
 	planet
 		designName "Planet108"
 		inGameName ""
-		type "Greenhouse"
+		type "Toxic"
 		pos [ 700 , 1200 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2745,7 +2745,7 @@ star
 	planet
 		designName "Planet110"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 700 , 1100 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2895,7 +2895,7 @@ star
 	planet
 		designName "Planet116"
 		inGameName ""
-		type "Greenhouse"
+		type "Toxic"
 		pos [ 1100 , 1200 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2970,7 +2970,7 @@ star
 	planet
 		designName "Planet120"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 1200 , 1100 ]
 		owner ""
 		isHomePlanet FALSE

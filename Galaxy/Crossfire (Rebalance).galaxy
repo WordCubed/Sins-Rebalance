@@ -142,7 +142,7 @@ star
 	planet
 		designName "Planet6"
 		inGameName ""
-		type "RandomHighPop"
+		type "RandomWater"
 		pos [ 23 , 60 ]
 		owner ""
 		isHomePlanet FALSE
@@ -167,7 +167,7 @@ star
 	planet
 		designName "Planet7"
 		inGameName ""
-		type "RandomHighPop"
+		type "RandomWater"
 		pos [ 67 , 50 ]
 		owner ""
 		isHomePlanet FALSE
@@ -192,7 +192,7 @@ star
 	planet
 		designName "Planet8"
 		inGameName ""
-		type "RandomHighPop"
+		type "RandomWater"
 		pos [ 40 , 77 ]
 		owner ""
 		isHomePlanet FALSE
@@ -217,7 +217,7 @@ star
 	planet
 		designName "Planet9"
 		inGameName ""
-		type "RandomHighPop"
+		type "RandomWater"
 		pos [ 50 , 33 ]
 		owner ""
 		isHomePlanet FALSE
@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet14"
 		inGameName ""
-		type "Asteroid"
+		type "RandomTiny"
 		pos [ 15 , 75 ]
 		owner ""
 		isHomePlanet FALSE
@@ -267,7 +267,7 @@ star
 	planet
 		designName "Planet15"
 		inGameName ""
-		type "Asteroid"
+		type "RandomTiny"
 		pos [ 25 , 85 ]
 		owner ""
 		isHomePlanet FALSE
@@ -292,7 +292,7 @@ star
 	planet
 		designName "Planet17"
 		inGameName ""
-		type "Asteroid"
+		type "RandomTiny"
 		pos [ 75 , 35 ]
 		owner ""
 		isHomePlanet FALSE
@@ -342,7 +342,7 @@ star
 	planet
 		designName "Planet20"
 		inGameName ""
-		type "Asteroid"
+		type "RandomTiny"
 		pos [ 65 , 25 ]
 		owner ""
 		isHomePlanet FALSE
@@ -392,7 +392,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "RandomHighMetalAll"
+		type "RandomIron"
 		pos [ 47 , 59 ]
 		owner ""
 		isHomePlanet FALSE
@@ -617,7 +617,7 @@ star
 	planet
 		designName "Planet32"
 		inGameName ""
-		type "RandomHighMetalAll"
+		type "RandomIron"
 		pos [ 43 , 51 ]
 		owner ""
 		isHomePlanet FALSE

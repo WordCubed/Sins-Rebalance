@@ -343,7 +343,7 @@ star
 	planet
 		designName "Planet14"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 560 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -368,7 +368,7 @@ star
 	planet
 		designName "Planet15"
 		inGameName ""
-		type "Volcanic"
+		type "Toxic"
 		pos [ 560 , 350 ]
 		owner ""
 		isHomePlanet FALSE
@@ -593,7 +593,7 @@ star
 	planet
 		designName "Planet25"
 		inGameName ""
-		type "Volcanic"
+		type "Toxic"
 		pos [ 140 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -618,7 +618,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 210 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -918,7 +918,7 @@ star
 	planet
 		designName "Planet38"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 770 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -943,7 +943,7 @@ star
 	planet
 		designName "Planet39"
 		inGameName ""
-		type "Volcanic"
+		type "Toxic"
 		pos [ 840 , 420 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1268,7 +1268,7 @@ star
 	planet
 		designName "Planet52"
 		inGameName ""
-		type "Volcanic"
+		type "Toxic"
 		pos [ 140 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1293,7 +1293,7 @@ star
 	planet
 		designName "Planet53"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 210 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1468,7 +1468,7 @@ star
 	planet
 		designName "Planet61"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 420 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1493,7 +1493,7 @@ star
 	planet
 		designName "Planet62"
 		inGameName ""
-		type "Volcanic"
+		type "Toxic"
 		pos [ 490 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1718,7 +1718,7 @@ star
 	planet
 		designName "Planet71"
 		inGameName ""
-		type "IceGiant"
+		type "GasGiant"
 		pos [ 770 , 560 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1743,7 +1743,7 @@ star
 	planet
 		designName "Planet72"
 		inGameName ""
-		type "Volcanic"
+		type "Toxic"
 		pos [ 840 , 560 ]
 		owner ""
 		isHomePlanet FALSE
