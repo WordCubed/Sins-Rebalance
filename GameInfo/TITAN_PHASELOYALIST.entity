@@ -78,8 +78,8 @@ AntiMatterRestoreRate
 	StartValue 4.666667
 	ValueIncreasePerLevel 0.333334
 CultureProtectRate
-	StartValue 4.500000
-	ValueIncreasePerLevel 4.500000
+	StartValue 10.000000
+	ValueIncreasePerLevel 10.000000
 NameStringID "IDS_TITAN_PHASELOYALIST_NAME"
 DescriptionStringID "IDS_TITAN_PHASELOYALIST_DESCRIPTION"
 picture "TITANPICTURE_PHASELOYALIST"

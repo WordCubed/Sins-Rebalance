@@ -74,8 +74,8 @@ AntiMatterRestoreRate
 	StartValue 5.333333
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
-	StartValue 4.500000
-	ValueIncreasePerLevel 4.500000
+	StartValue 10.000000
+	ValueIncreasePerLevel 10.000000
 NameStringID "IDS_TITAN_PSILOYALIST_NAME"
 DescriptionStringID "IDS_TITAN_PSILOYALIST_DESCRIPTION"
 picture "TITANPICTURE_PSILOYALIST"
