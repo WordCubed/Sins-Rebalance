@@ -2,7 +2,7 @@
 SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
-browsePictureName ""
+browsePictureName "ScenarioPicture-UserGenerated"
 browseName "Nebula"
 browseDescription "This nebula contains many stars. Some stars host enemies, and others hold resources you desperately need. Will you find the metal and crystal-rich stars, or will you find your enemy's home?"
 isFirstCapitalShipIsFlagship TRUE
@@ -35,7 +35,7 @@ starCount 20
 star
 	designName "Star1"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 100 , 100 ]
 	radius 100.000000
 	planetCount 5
@@ -205,15 +205,15 @@ star
 star
 	designName "Star2"
 	inGameName ""
-	type "RandomStar"
-	pos [ 432 , 105 ]
+	type "NonSpecialStar"
+	pos [ 411 , 104 ]
 	radius 100.000000
 	planetCount 5
 	planet
 		designName "Planet7"
 		inGameName ""
 		type "TerranHome"
-		pos [ 451 , 76 ]
+		pos [ 430 , 75 ]
 		owner "Player1"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
@@ -238,7 +238,7 @@ star
 		designName "Planet8"
 		inGameName ""
 		type "RandomHighPop"
-		pos [ 405 , 138 ]
+		pos [ 384 , 137 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -263,7 +263,7 @@ star
 		designName "Planet9"
 		inGameName ""
 		type "RandomHighPop"
-		pos [ 396 , 85 ]
+		pos [ 375 , 84 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -288,7 +288,7 @@ star
 		designName "Planet10"
 		inGameName ""
 		type "RandomNoResearchColonizable"
-		pos [ 472 , 44 ]
+		pos [ 451 , 43 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -313,7 +313,7 @@ star
 		designName "Planet11"
 		inGameName ""
 		type "PirateBase"
-		pos [ 460 , 123 ]
+		pos [ 439 , 122 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -525,7 +525,7 @@ star
 star
 	designName "Star4"
 	inGameName ""
-	type "BlueStar"
+	type "NonSpecialStar"
 	pos [ 137 , 486 ]
 	radius 100.000000
 	planetCount 4
@@ -675,7 +675,7 @@ star
 star
 	designName "Star5"
 	inGameName ""
-	type "RedStar"
+	type "NonSpecialStar"
 	pos [ 454 , 529 ]
 	radius 100.000000
 	planetCount 4
@@ -825,7 +825,7 @@ star
 star
 	designName "Star6"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 1356 , 508 ]
 	radius 100.000000
 	planetCount 5
@@ -995,7 +995,7 @@ star
 star
 	designName "Star7"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 293 , 315 ]
 	radius 100.000000
 	planetCount 5
@@ -1165,7 +1165,7 @@ star
 star
 	designName "Star8"
 	inGameName ""
-	type "YellowStar"
+	type "NonSpecialStar"
 	pos [ 923 , 252 ]
 	radius 100.000000
 	planetCount 4
@@ -1315,7 +1315,7 @@ star
 star
 	designName "Star10"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 882 , 681 ]
 	radius 100.000000
 	planetCount 5
@@ -1485,7 +1485,7 @@ star
 star
 	designName "Star11"
 	inGameName ""
-	type "GreenStar"
+	type "NonSpecialStar"
 	pos [ 241 , 774 ]
 	radius 100.000000
 	planetCount 4
@@ -1635,7 +1635,7 @@ star
 star
 	designName "Star12"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 618 , 766 ]
 	radius 100.000000
 	planetCount 5
@@ -2105,7 +2105,7 @@ star
 star
 	designName "Star15"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 568 , 312 ]
 	radius 100.000000
 	planetCount 5
@@ -2275,7 +2275,7 @@ star
 star
 	designName "Star16"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 426 , 943 ]
 	radius 100.000000
 	planetCount 5
@@ -2445,7 +2445,7 @@ star
 star
 	designName "Star17"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 1215 , 241 ]
 	radius 100.000000
 	planetCount 5
@@ -2615,7 +2615,7 @@ star
 star
 	designName "Star18"
 	inGameName ""
-	type "BlueStar"
+	type "NonSpecialStar"
 	pos [ 755 , 457 ]
 	radius 100.000000
 	planetCount 4
@@ -2765,7 +2765,7 @@ star
 star
 	designName "Star19"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 823 , 921 ]
 	radius 100.000000
 	planetCount 4
@@ -2915,7 +2915,7 @@ star
 star
 	designName "Star20"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 1093 , 974 ]
 	radius 100.000000
 	planetCount 5
@@ -3085,7 +3085,7 @@ star
 star
 	designName "Star21"
 	inGameName ""
-	type "YellowStar"
+	type "NonSpecialStar"
 	pos [ 641 , 1100 ]
 	radius 100.000000
 	planetCount 4
