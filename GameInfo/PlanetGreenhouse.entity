@@ -368,12 +368,11 @@ skyboxScalars
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusHarsh"
-possibleRandomPlanetBonusesCount 6
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusSanctuary"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
 bonus "PlanetBonusViolentStorms"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

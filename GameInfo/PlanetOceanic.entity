@@ -350,10 +350,9 @@ skyboxScalars
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusExtremelyNice"
-possibleRandomPlanetBonusesCount 8
+possibleRandomPlanetBonusesCount 7
 bonus "PlanetBonusCulturalHub"
 bonus "PlanetBonusJewelOfTheGalaxy"
-bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusMildWeather"
 bonus "PlanetBonusPorousCore"
 bonus "PlanetBonusProminent"
