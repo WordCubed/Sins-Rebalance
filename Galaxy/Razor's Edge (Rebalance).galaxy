@@ -3,8 +3,8 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-RazorsEdge"
-browseName "IDS_CUSTOMGALAXY_NAME_RAZORSEDGE"
-browseDescription ""Two coalitions of empires occupy opposite arms of the Aludra system. Rally your allies and spearhead an assault through the narrow central corridor for victory."
+browseName "Razor's Edge (Rebalance)"
+browseDescription "Two coalitions of empires occupy opposite arms of the Aludra system. Rally your ally and spearhead an assault through the narrow central corridor for victory."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
@@ -21,7 +21,7 @@ quickStartHomePlanetUpgradeLevel:TacticalModules 4
 quickStartHomePlanetUpgradeLevel:Home 4
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
-recommendedGameTypeCount 2
+recommendedGameTypeCount 1
 recommendedGameType "TwoTeamsOfTwo"
 metersPerGalaxyUnit 28000.000000
 pixelsPerGalaxyUnit 5.599999
