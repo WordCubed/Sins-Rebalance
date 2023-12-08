@@ -167,7 +167,7 @@ star
 	planet
 		designName "Planet14"
 		inGameName ""
-		type "Desert"
+		type "Terran"
 		pos [ 185 , 185 ]
 		owner ""
 		isHomePlanet FALSE
