@@ -71,11 +71,11 @@ MaxAntiMatter
 	StartValue 320.000000
 	ValueIncreasePerLevel 0.000000
 AntiMatterRestoreRate
-	StartValue 0.800000
+	StartValue 5.333333
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
-	StartValue 5.000000
-	ValueIncreasePerLevel 5.000000
+	StartValue 10.000000
+	ValueIncreasePerLevel 10.000000
 NameStringID "IDS_TITAN_PSIREBEL_NAME"
 DescriptionStringID "IDS_TITAN_PSIREBEL_DESCRIPTION"
 picture "TITANPICTURE_PSIREBEL"

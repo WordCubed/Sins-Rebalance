@@ -40,10 +40,10 @@ stage
 	upgradePropertyCount 4
 	upgradeProperty
 		propertyType "MaxAntiMatterPoints"
-		value 200.000000
+		value 180.000000
 	upgradeProperty
 		propertyType "AntiMatterRestoreRate"
-		value 1.000000
+		value 3.000000
 	upgradeProperty
 		propertyType "AbilityBLevel"
 		value 1.000000
@@ -69,10 +69,10 @@ stage
 	upgradePropertyCount 4
 	upgradeProperty
 		propertyType "MaxAntiMatterPoints"
-		value 400.000000
+		value 360.000000
 	upgradeProperty
 		propertyType "AntiMatterRestoreRate"
-		value 2.000000
+		value 6.000000
 	upgradeProperty
 		propertyType "AbilityBLevel"
 		value 2.000000

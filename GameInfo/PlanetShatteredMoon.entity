@@ -38,7 +38,7 @@ ringColor 0
 cloudLayerTextureName ""
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 6
+	totalMaxResourceAsteroids 8
 	metalResourceAsteroidSetup
 		minCount 0
 		maxCount 0
@@ -52,14 +52,14 @@ planetResourceSetupInfo
 		refineryRate 0.083333
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
-		minCount 3
-		maxCount 3
+		minCount 4
+		maxCount 4
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
 	neutralCrystalResourceAsteroidSetup
-		minCount 3
-		maxCount 3
+		minCount 4
+		maxCount 4
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3

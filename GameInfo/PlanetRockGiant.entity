@@ -321,10 +321,9 @@ skyboxScalars
 requiredPlanetBonusesCount 2
 bonus "PlanetBonusExtremelyHarsh"
 bonus "PlanetBonusGiant"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 3
 bonus "PlanetBonusDenseCore"
 bonus "PlanetBonusStrategicallyValuable"
-bonus "PlanetBonusCrystalBonanza"
 bonus "PlanetBonusMetalBonanza"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
