@@ -179,8 +179,8 @@ ability:1 "AbilityInfiltrateTurret"
 ability:2 "AbilitySabotageTurret"
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 120.000000
-AntiMatterRestoreRate 2.000000
+MaxAntiMatter 225.000000
+AntiMatterRestoreRate 3.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

@@ -8,7 +8,7 @@ ability:2 ""
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 720.000000
-AntiMatterRestoreRate 12.000000
+AntiMatterRestoreRate 3.600000
 numRandomDebrisLarge 5
 numRandomDebrisSmall 16
 numSpecificDebris 0

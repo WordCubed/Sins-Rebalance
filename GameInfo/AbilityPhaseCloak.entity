@@ -20,13 +20,13 @@ isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_PHASECLOAK"
-aiUseTime "Anytime"
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.666667
+onlyAutoCastWhenDamageTakenExceedsPerc 0.500000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 0.000000

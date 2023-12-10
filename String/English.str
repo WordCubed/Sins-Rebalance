@@ -1,11 +1,5 @@
 TXT
-NumStrings 8724
-StringInfo
-	ID "IDS_ABILITY_PHASEOUTFIGHTERS_DESCRIPTION"
-	Value "Projects a phase inversion field around the hangar, which traps enemy strike craft in phase space, leaving them defenseless and unable to attack."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_PHASEOUTFIGHTERS_DESCRIPTION"
-	Value "Grants the Phasic Trap ability to Hangar Defense Platforms, allow them to trap enemy strike craft in Phase Space, leaving them vulnerable and unable to attack."
+NumStrings 8722
 StringInfo
 	ID "IDS_PSI_RESEARCHFIELD_COMBAT"
 	Value "Military"

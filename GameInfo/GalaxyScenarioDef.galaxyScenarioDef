@@ -445,8 +445,8 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetArid"
 	orbitBodyTypeCount 3
 	orbitBodyType "Desert"
+	orbitBodyType "Desert"
 	orbitBodyType "Savannah"
-	orbitBodyType "Greenhouse"
 planetType
 	designName "RandomDesolate"
 	designStringId "IDSGalaxyScenarioTypePlanetDesolate"
@@ -459,8 +459,8 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetHazardous"
 	orbitBodyTypeCount 3
 	orbitBodyType "Volcanic"
+	orbitBodyType "Greenhouse"
 	orbitBodyType "Hydrocarbon"
-	orbitBodyType "Toxic"
 planetType
 	designName "RandomIron"
 	designStringId "IDSGalaxyScenarioTypePlanetIron"
@@ -478,10 +478,9 @@ planetType
 planetType
 	designName "RandomGiant"
 	designStringId "IDSGalaxyScenarioTypePlanetBig"
-	orbitBodyTypeCount 3
+	orbitBodyTypeCount 2
 	orbitBodyType "GasGiant"
 	orbitBodyType "RockGiant"
-	orbitBodyType "IceGiant"
 planetType
 	designName "Asteroid"
 	designStringId "IDSGalaxyScenarioTypePlanetAsteroid"

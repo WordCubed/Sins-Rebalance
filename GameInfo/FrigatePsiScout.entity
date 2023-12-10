@@ -144,7 +144,7 @@ ability:2 "AbilityCaptureNeutralEntity"
 ability:3 "AbilitySpyingAttacks"
 ability:4 "AbilityUnstoppablePhaseJumpPsi"
 MaxAntiMatter 90.000000
-AntiMatterRestoreRate 1.500000
+AntiMatterRestoreRate 2.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 1

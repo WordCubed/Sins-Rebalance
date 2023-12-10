@@ -2,7 +2,7 @@
 SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
-browsePictureName "ScenarioPicture-UserGenerated"
+browsePictureName ""
 browseName "Entrenchment"
 browseDescription "Work with your allies to entrench yourself around your home star. But don't take too long! Your enemies are doing the same—and there is a third star to contest. Will you have entrenched yourself there, or will your enemies?"
 isFirstCapitalShipIsFlagship TRUE
@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.280000
+pixelsPerGalaxyUnit 4.879999
 useRandomGenerator FALSE
 galaxyWidth 4887.299805
 galaxyHeight 3020.300049
@@ -68,8 +68,8 @@ star
 	planet
 		designName "WeightedRandom-1"
 		inGameName ""
-		type "Moon"
-		pos [ 216 , 173 ]
+		type "RandomHighPop"
+		pos [ 215 , 174 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -93,7 +93,7 @@ star
 	planet
 		designName "WeightedRandom-2"
 		inGameName ""
-		type "Barren"
+		type "RandomColonizable"
 		pos [ 178 , 203 ]
 		owner ""
 		isHomePlanet FALSE
@@ -118,7 +118,7 @@ star
 	planet
 		designName "WeightedRandom-3"
 		inGameName ""
-		type "Moon"
+		type "RandomColonizable"
 		pos [ 119 , 182 ]
 		owner ""
 		isHomePlanet FALSE
@@ -143,7 +143,7 @@ star
 	planet
 		designName "WeightedRandom-4"
 		inGameName ""
-		type "Barren"
+		type "RandomColonizable"
 		pos [ 91 , 119 ]
 		owner ""
 		isHomePlanet FALSE
@@ -168,7 +168,7 @@ star
 	planet
 		designName "WeightedRandom-5"
 		inGameName ""
-		type "Barren"
+		type "RandomColonizable"
 		pos [ 143 , 87 ]
 		owner ""
 		isHomePlanet FALSE
@@ -193,7 +193,7 @@ star
 	planet
 		designName "WeightedRandom-6"
 		inGameName ""
-		type "Ice"
+		type "RandomColonizable"
 		pos [ 193 , 96 ]
 		owner ""
 		isHomePlanet FALSE
@@ -218,7 +218,7 @@ star
 	planet
 		designName "WeightedRandom-7"
 		inGameName ""
-		type "Ice"
+		type "RandomColonizable"
 		pos [ 234 , 164 ]
 		owner ""
 		isHomePlanet FALSE
@@ -243,7 +243,7 @@ star
 	planet
 		designName "WeightedRandom-8"
 		inGameName ""
-		type "GasGiant"
+		type "RandomGiant"
 		pos [ 208 , 215 ]
 		owner ""
 		isHomePlanet FALSE
@@ -268,7 +268,7 @@ star
 	planet
 		designName "WeightedRandom-9"
 		inGameName ""
-		type "Volcanic"
+		type "RandomColonizable"
 		pos [ 174 , 244 ]
 		owner ""
 		isHomePlanet FALSE
@@ -293,7 +293,7 @@ star
 	planet
 		designName "WeightedRandom-11"
 		inGameName ""
-		type "Ice"
+		type "RandomColonizable"
 		pos [ 74 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -318,7 +318,7 @@ star
 	planet
 		designName "WeightedRandom-12"
 		inGameName ""
-		type "Mountains"
+		type "RandomColonizable"
 		pos [ 80 , 145 ]
 		owner ""
 		isHomePlanet FALSE
@@ -343,7 +343,7 @@ star
 	planet
 		designName "WeightedRandom-13"
 		inGameName ""
-		type "Volcanic"
+		type "RandomHighPop"
 		pos [ 82 , 91 ]
 		owner ""
 		isHomePlanet FALSE
@@ -368,7 +368,7 @@ star
 	planet
 		designName "WeightedRandom-14"
 		inGameName ""
-		type "Oceanic"
+		type "RandomHighPop"
 		pos [ 181 , 48 ]
 		owner ""
 		isHomePlanet FALSE
@@ -393,7 +393,7 @@ star
 	planet
 		designName "WeightedRandom-15"
 		inGameName ""
-		type "Moon"
+		type "RandomColonizable"
 		pos [ 174 , 78 ]
 		owner ""
 		isHomePlanet FALSE
@@ -418,7 +418,7 @@ star
 	planet
 		designName "WeightedRandom-16"
 		inGameName ""
-		type "Toxic"
+		type "RandomColonizable"
 		pos [ 228 , 94 ]
 		owner ""
 		isHomePlanet FALSE
@@ -518,7 +518,7 @@ star
 	planet
 		designName "Moon-20"
 		inGameName ""
-		type "Mountains"
+		type "RandomColonizable"
 		pos [ 257 , 196 ]
 		owner ""
 		isHomePlanet FALSE
@@ -543,7 +543,7 @@ star
 	planet
 		designName "RandomIceVolcanic-21"
 		inGameName ""
-		type "Toxic"
+		type "RandomColonizable"
 		pos [ 240 , 199 ]
 		owner ""
 		isHomePlanet FALSE
@@ -568,7 +568,7 @@ star
 	planet
 		designName "Asteroid-22"
 		inGameName ""
-		type "Desert"
+		type "RandomNoResearchColonizable"
 		pos [ 242 , 175 ]
 		owner ""
 		isHomePlanet FALSE
@@ -618,7 +618,7 @@ star
 	planet
 		designName "Moon-28"
 		inGameName ""
-		type "GasGiant"
+		type "RandomGiant"
 		pos [ 52 , 133 ]
 		owner ""
 		isHomePlanet FALSE
@@ -643,7 +643,7 @@ star
 	planet
 		designName "RandomIceVolcanic-29"
 		inGameName ""
-		type "Toxic"
+		type "RandomHighPop"
 		pos [ 31 , 123 ]
 		owner ""
 		isHomePlanet FALSE
@@ -668,7 +668,7 @@ star
 	planet
 		designName "Asteroid-30"
 		inGameName ""
-		type "Desert"
+		type "RandomNoResearchColonizable"
 		pos [ 44 , 107 ]
 		owner ""
 		isHomePlanet FALSE
@@ -718,7 +718,7 @@ star
 	planet
 		designName "Moon-32"
 		inGameName ""
-		type "Mountains"
+		type "RandomHighPop"
 		pos [ 224 , 62 ]
 		owner ""
 		isHomePlanet FALSE
@@ -743,7 +743,7 @@ star
 	planet
 		designName "RandomIceVolcanic-33"
 		inGameName ""
-		type "GasGiant"
+		type "RandomGiant"
 		pos [ 197 , 64 ]
 		owner ""
 		isHomePlanet FALSE
@@ -768,7 +768,7 @@ star
 	planet
 		designName "Asteroid-34"
 		inGameName ""
-		type "Desert"
+		type "RandomNoResearchColonizable"
 		pos [ 217 , 48 ]
 		owner ""
 		isHomePlanet FALSE
@@ -793,7 +793,7 @@ star
 	planet
 		designName "Planet1"
 		inGameName ""
-		type "Oceanic"
+		type "RandomHighPop"
 		pos [ 216 , 151 ]
 		owner ""
 		isHomePlanet FALSE
@@ -818,7 +818,7 @@ star
 	planet
 		designName "Planet2"
 		inGameName ""
-		type "Volcanic"
+		type "RandomHighPop"
 		pos [ 209 , 116 ]
 		owner ""
 		isHomePlanet FALSE
@@ -843,7 +843,7 @@ star
 	planet
 		designName "Planet3"
 		inGameName ""
-		type "Oceanic"
+		type "RandomHighPop"
 		pos [ 118 , 114 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1693,7 +1693,7 @@ star
 	planet
 		designName "WeightedRandom-36"
 		inGameName ""
-		type "Mountains"
+		type "RandomColonizable"
 		pos [ 1245 , 1205 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1718,7 +1718,7 @@ star
 	planet
 		designName "WeightedRandom-37"
 		inGameName ""
-		type "Barren"
+		type "RandomColonizable"
 		pos [ 1226 , 1265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1743,7 +1743,7 @@ star
 	planet
 		designName "WeightedRandom-38"
 		inGameName ""
-		type "Barren"
+		type "RandomColonizable"
 		pos [ 1177 , 1226 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1768,7 +1768,7 @@ star
 	planet
 		designName "WeightedRandom-39"
 		inGameName ""
-		type "Mountains"
+		type "RandomColonizable"
 		pos [ 1144 , 1189 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1793,7 +1793,7 @@ star
 	planet
 		designName "WeightedRandom-40"
 		inGameName ""
-		type "Barren"
+		type "RandomColonizable"
 		pos [ 1175 , 1151 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1843,7 +1843,7 @@ star
 	planet
 		designName "WeightedRandom-42"
 		inGameName ""
-		type "Ice"
+		type "RandomColonizable"
 		pos [ 1277 , 1224 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1868,7 +1868,7 @@ star
 	planet
 		designName "WeightedRandom-43"
 		inGameName ""
-		type "Volcanic"
+		type "RandomColonizable"
 		pos [ 1259 , 1253 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1893,7 +1893,7 @@ star
 	planet
 		designName "WeightedRandom-44"
 		inGameName ""
-		type "Volcanic"
+		type "RandomColonizable"
 		pos [ 1194 , 1291 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1918,7 +1918,7 @@ star
 	planet
 		designName "WeightedRandom-45"
 		inGameName ""
-		type "Toxic"
+		type "RandomColonizable"
 		pos [ 1167 , 1278 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1968,7 +1968,7 @@ star
 	planet
 		designName "WeightedRandom-48"
 		inGameName ""
-		type "Moon"
+		type "RandomColonizable"
 		pos [ 1135 , 1131 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1993,8 +1993,8 @@ star
 	planet
 		designName "WeightedRandom-49"
 		inGameName ""
-		type "Mountains"
-		pos [ 1187 , 1094 ]
+		type "RandomColonizable"
+		pos [ 1193 , 1101 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -2018,7 +2018,7 @@ star
 	planet
 		designName "WeightedRandom-50"
 		inGameName ""
-		type "Volcanic"
+		type "RandomColonizable"
 		pos [ 1230 , 1118 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2043,7 +2043,7 @@ star
 	planet
 		designName "WeightedRandom-51"
 		inGameName ""
-		type "Moon"
+		type "RandomColonizable"
 		pos [ 1270 , 1176 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2119,7 +2119,7 @@ star
 		designName "TerranHome-54"
 		inGameName ""
 		type "TerranHome"
-		pos [ 1291 , 1258 ]
+		pos [ 1287 , 1254 ]
 		owner "Player-4"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
@@ -2143,8 +2143,8 @@ star
 	planet
 		designName "Moon-55"
 		inGameName ""
-		type "Oceanic"
-		pos [ 1311 , 1268 ]
+		type "RandomHighPop"
+		pos [ 1297 , 1263 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -2168,8 +2168,8 @@ star
 	planet
 		designName "RandomIceVolcanic-56"
 		inGameName ""
-		type "GasGiant"
-		pos [ 1283 , 1278 ]
+		type "RandomGiant"
+		pos [ 1278 , 1265 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -2193,7 +2193,7 @@ star
 	planet
 		designName "Asteroid-57"
 		inGameName ""
-		type "Desert"
+		type "RandomNoResearchColonizable"
 		pos [ 1283 , 1241 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2219,7 +2219,7 @@ star
 		designName "TerranHome-58"
 		inGameName ""
 		type "TerranHome"
-		pos [ 1138 , 1290 ]
+		pos [ 1139 , 1286 ]
 		owner "Player-5"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
@@ -2244,7 +2244,7 @@ star
 		designName "Moon-59"
 		inGameName ""
 		type "RandomHighPop"
-		pos [ 1153 , 1298 ]
+		pos [ 1151 , 1292 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -2268,8 +2268,8 @@ star
 	planet
 		designName "RandomIceVolcanic-60"
 		inGameName ""
-		type "Desert"
-		pos [ 1118 , 1288 ]
+		type "RandomNoResearchColonizable"
+		pos [ 1126 , 1287 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -2293,7 +2293,7 @@ star
 	planet
 		designName "Asteroid-61"
 		inGameName ""
-		type "GasGiant"
+		type "RandomGiant"
 		pos [ 1142 , 1272 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2319,7 +2319,7 @@ star
 		designName "TerranHome-66"
 		inGameName ""
 		type "TerranHome"
-		pos [ 1207 , 1085 ]
+		pos [ 1208 , 1094 ]
 		owner "Player-3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
@@ -2343,8 +2343,8 @@ star
 	planet
 		designName "Moon-67"
 		inGameName ""
-		type "Desert"
-		pos [ 1225 , 1093 ]
+		type "RandomNoResearchColonizable"
+		pos [ 1221 , 1096 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -2368,8 +2368,8 @@ star
 	planet
 		designName "RandomIceVolcanic-68"
 		inGameName ""
-		type "Ice"
-		pos [ 1206 , 1104 ]
+		type "RandomHighPop"
+		pos [ 1205 , 1108 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -2393,8 +2393,8 @@ star
 	planet
 		designName "Asteroid-69"
 		inGameName ""
-		type "GasGiant"
-		pos [ 1213 , 1065 ]
+		type "RandomGiant"
+		pos [ 1207 , 1080 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -2418,7 +2418,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Mountains"
+		type "RandomColonizable"
 		pos [ 1162 , 1253 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2818,7 +2818,7 @@ star
 	planet
 		designName "Planet38"
 		inGameName ""
-		type "Toxic"
+		type "RandomColonizable"
 		pos [ 1204 , 1136 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2843,8 +2843,8 @@ star
 	planet
 		designName "Planet39"
 		inGameName ""
-		type "Ice"
-		pos [ 1132 , 1310 ]
+		type "RandomHighPop"
+		pos [ 1134 , 1304 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2868,8 +2868,8 @@ star
 	planet
 		designName "Planet40"
 		inGameName ""
-		type "Toxic"
-		pos [ 1308 , 1240 ]
+		type "RandomHighPop"
+		pos [ 1300 , 1243 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2893,8 +2893,8 @@ star
 	planet
 		designName "Planet41"
 		inGameName ""
-		type "Oceanic"
-		pos [ 1187 , 1075 ]
+		type "RandomHighPop"
+		pos [ 1197 , 1086 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2918,7 +2918,7 @@ star
 	planet
 		designName "Planet42"
 		inGameName ""
-		type "Oceanic"
+		type "RandomHighPop"
 		pos [ 1109 , 1262 ]
 		owner ""
 		isHomePlanet FALSE

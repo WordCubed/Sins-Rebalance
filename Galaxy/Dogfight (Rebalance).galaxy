@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-Dogfight"
 browseName "Dogfight (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_DOGFIGHT"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -342,7 +342,7 @@ star
 	planet
 		designName "Planet185"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 525 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -392,7 +392,7 @@ star
 	planet
 		designName "Planet192"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 524 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -542,7 +542,7 @@ star
 	planet
 		designName "Planet216"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 520 , 265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1187,7 +1187,7 @@ star
 	planet
 		designName "Planet261"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 980 , 335 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1387,7 +1387,7 @@ star
 	planet
 		designName "Planet271"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 975 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1462,7 +1462,7 @@ star
 	planet
 		designName "Planet274"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 975 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2327,7 +2327,7 @@ star
 	planet
 		designName "Planet286"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 720 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2352,7 +2352,7 @@ star
 	planet
 		designName "Planet287"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Toxic"
 		pos [ 780 , 300 ]
 		owner ""
 		isHomePlanet FALSE
