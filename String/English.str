@@ -1,5 +1,8 @@
 TXT
-NumStrings 8724
+NumStrings 8725
+StringInfo
+	ID "IDS_ABILITY_PSIORBITALCANNON_DESC"
+	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage."
 StringInfo
 	ID "IDS_ABILITY_PHASEOUTFIGHTERS_DESCRIPTION"
 	Value "Projects a phase inversion field around the hangar, which traps enemy strike craft in phase space, leaving them defenseless and unable to attack."

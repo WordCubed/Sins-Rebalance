@@ -24,10 +24,10 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "AntimatterRestoreRate"
 	value
-		Level:0 2.500000
-		Level:1 2.500000
-		Level:2 2.500000
-		Level:3 2.500000
+		Level:0 9.000000
+		Level:1 9.000000
+		Level:2 9.000000
+		Level:3 9.000000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
