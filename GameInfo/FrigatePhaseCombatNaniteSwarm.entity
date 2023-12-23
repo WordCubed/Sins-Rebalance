@@ -1,4 +1,4 @@
-TXT2
+﻿TXT2
 SinsArchiveVersion 194
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
@@ -9,37 +9,69 @@ autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 2
 frigateRoleType "AbilityCreated"
-frigateRoleType "Heavy"
+frigateRoleType "Light"
 statCountType "FrigateSpawnedByAbility"
 mainViewIcon "MAINVIEWICON_FRIGATE_PHASENANITE"
 picture "FRIGATEPICTURE_PHASE_NANITE_SWARM"
-NameStringID "IDS_FRIGATE_PHASEGREATERNANITESWARM_NAME"
-DescriptionStringID "IDS_FRIGATE_PHASEGREATERNANITESWARM_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
+NameStringID "IDS_FRIGATE_PHASECOMBATNANITESWARM_NAME"
+DescriptionStringID "IDS_FRIGATE_PHASECOMBATNANITESWARM_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
 BuildTime 0.000000
-hasLevels FALSE
-ExperiencePointsForDestroying 640.000000
-MaxHullPoints 4500.000000
-MaxShieldPoints 4500.000000
-HullPointRestoreRate 9.375000
-ShieldPointRestoreRate 18.750000
-BaseArmorPoints 20.000000
-maxMitigation 0.700000
-relationshipChangeRate 0.000000
+hasLevels TRUE
+ExperiencePointsForDestroying
+	Level:0 40.000000
+	Level:1 60.000000
+	Level:2 80.000000
+	Level:3 80.000000
+MaxHullPoints
+	Level:0 750.000000
+	Level:1 1125.000000
+	Level:2 1500.000000
+	Level:3 1500.000000
+MaxShieldPoints
+	Level:0 750.000000
+	Level:1 1125.000000
+	Level:2 1500.000000
+	Level:3 1500.000000
+HullPointRestoreRate
+	Level:0 1.562500
+	Level:1 2.343750
+	Level:2 3.125000
+	Level:3 3.125000
+ShieldPointRestoreRate
+	Level:0 3.125000
+	Level:1 4.687500
+	Level:2 6.250000
+	Level:3 6.250000
+BaseArmorPoints
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 10.000000
+maxMitigation
+	Level:0 0.500000
+	Level:1 0.500000
+	Level:2 0.500000
+	Level:3 0.500000
+relationshipChangeRate
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-numRandomDebrisLarge 1
-numRandomDebrisSmall 10
+numRandomDebrisLarge 0
+numRandomDebrisSmall 2
 numSpecificDebris 0
-armorType "VeryHeavy"
-hudIcon "HUDICON_ABILITY_REASSEMBLE"
+armorType "Medium"
+hudIcon "HUDICON_ABILITY_CREATECOMBATNANITE"
 smallHudIcon "MAINVIEWICON_FRIGATE_PHASENANITE"
 infoCardIcon "INFOCARDICON_FRIGATE_PHASENANITE"
 minZoomDistanceMult 12.000000
@@ -47,21 +79,21 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "COMPOSITE"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 2400.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 120000.000000
+	Range 5000.000000
 	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
-	TravelSpeed 25000.000000
+	TravelSpeed 3600.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -69,39 +101,39 @@ Weapon
 		burstCount 3
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_GreaterNanitePulseGun_Muzzle"
+		muzzleEffectName "Weapon_NaniteCombatPulseGun_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 2
-			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
-			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalPulseGunHeavy_Hit"
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalPulseGunLight_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GreaterNanitePulseGun_Travel"
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_NaniteCombatPulseGun_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 9
+TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
-mass 10000.000000
+mass 100.000000
 ShieldMeshName ""
 renderShield FALSE
-maxAccelerationLinear 0.000000
+maxAccelerationLinear 200.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
-maxAccelerationAngular 4.000000
-maxDecelerationAngular 10.000000
-maxSpeedLinear 0.000000
+maxAccelerationAngular 3.700000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 825.000000
 maxRollRate 2.000000
-maxRollAngle 35.000000
+maxRollAngle 34.999996
 useCustomHyperspaceEffects FALSE
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
@@ -119,16 +151,16 @@ NumSoundsFor:ONSELECTED 0
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Frigate_PhaseGreaterNaniteSwarm"
+	meshName "Frigate_PhaseCombatNaniteSwarm"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_FrigatePhaseLight"
-ExplosionName "Frigate1"
+ExhaustParticleSystemName "ExhaustSmall"
+ExplosionName "Fighter0"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 "AbilityGreaterNaniteSwarm"
-ability:1 ""
-ability:2 ""
+ability:0 "AbilityOffensiveNanites"
+ability:1 "AbilityCombatNanite"
+ability:2 "AbilityNaniteSwarm"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 0.000000

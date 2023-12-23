@@ -42,7 +42,7 @@ SoundID "SQUAD_PHASEBOMBER_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 minShadow 0.000000
 maxShadow 0.000000
-ability:0 "AbilityNaniteSwarm"
+ability:0 ""
 ability:1 ""
 ability:2 ""
 ability:3 ""

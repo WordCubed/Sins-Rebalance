@@ -1459,7 +1459,7 @@ star
 	planet
 		designName "Planet40"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 580 , 133 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1559,7 +1559,7 @@ star
 	planet
 		designName "Planet44"
 		inGameName ""
-		type "ShipGraveyard"
+		type "RockGiant"
 		pos [ 612 , 152 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1769,7 +1769,7 @@ star
 	planet
 		designName "Planet58"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 848 , 307 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1844,7 +1844,7 @@ star
 	planet
 		designName "Planet61"
 		inGameName ""
-		type "ShipGraveyard"
+		type "RockGiant"
 		pos [ 852 , 343 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2079,7 +2079,7 @@ star
 	planet
 		designName "Planet67"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 814 , 623 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2179,7 +2179,7 @@ star
 	planet
 		designName "Planet72"
 		inGameName ""
-		type "ShipGraveyard"
+		type "RockGiant"
 		pos [ 788 , 649 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2364,7 +2364,7 @@ star
 	planet
 		designName "Planet48"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 494 , 750 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2439,7 +2439,7 @@ star
 	planet
 		designName "Planet51"
 		inGameName ""
-		type "ShipGraveyard"
+		type "RockGiant"
 		pos [ 465 , 729 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2674,7 +2674,7 @@ star
 	planet
 		designName "Planet76"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 233 , 558 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2774,7 +2774,7 @@ star
 	planet
 		designName "Planet80"
 		inGameName ""
-		type "ShipGraveyard"
+		type "RockGiant"
 		pos [ 231 , 520 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3009,7 +3009,7 @@ star
 	planet
 		designName "Planet86"
 		inGameName ""
-		type "Toxic"
+		type "Hydrocarbon"
 		pos [ 264 , 258 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3059,7 +3059,7 @@ star
 	planet
 		designName "Planet88"
 		inGameName ""
-		type "ShipGraveyard"
+		type "RockGiant"
 		pos [ 288 , 233 ]
 		owner ""
 		isHomePlanet FALSE

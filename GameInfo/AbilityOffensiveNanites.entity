@@ -21,15 +21,15 @@ targetFilter
 	constraint "HasWeapons"
 	constraint "NotInvulnerable"
 range
-	Level:0 7500.000000
-	Level:1 7500.000000
-	Level:2 7500.000000
-	Level:3 7500.000000
+	Level:0 6250.000000
+	Level:1 6250.000000
+	Level:2 6250.000000
+	Level:3 6250.000000
 maxTargetCount
 	Level:0 -1.000000
 	Level:1 -1.000000
 	Level:2 -1.000000
-	Level:3 0.000000
+	Level:3 -1.000000
 effectInfo
 	effectAttachInfo
 		attachType "Center"
@@ -55,12 +55,7 @@ isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "AntiMatter"
-antiMatterCost
-	Level:0 30.000000
-	Level:1 30.000000
-	Level:2 30.000000
-	Level:3 30.000000
+useCostType "None"
 cooldownTime
 	Level:0 30.000000
 	Level:1 30.000000

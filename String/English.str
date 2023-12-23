@@ -1,5 +1,41 @@
 TXT
-NumStrings 8725
+NumStrings 8737
+StringInfo
+	ID "IDS_FRIGATE_PHASEASSAULTNANITESWARM_NAME"
+	Value "Anti-Fighter Nanite Swarm"
+StringInfo
+	ID "IDS_FRIGATE_PHASEASSAULTNANITESWARM_DESCRIPTION"
+	Value "A swarm of nanites coordinating to effectively attack and suppress enemy strike craft."
+StringInfo
+	ID "IDS_ABILITY_CREATEASSAULTNANITES_NAME"
+	Value "Spawn Anti-Fighter Swarm"
+StringInfo
+	ID "IDS_ABILITY_CREATEASSAULTNANITES_DESCRIPTION"
+	Value "Creates an anti-fighter nanite swarm which targets enemy strike craft. Hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
+StringInfo
+	ID "IDS_FRIGATE_PHASECOMBATNANITESWARM_NAME"
+	Value "Offensive Nanite Swarm"
+StringInfo
+	ID "IDS_FRIGATE_PHASECOMBATNANITESWARM_DESCRIPTION"
+	Value "A swarm of nanites coordinating to form a medium-power frigate that can boost the damage of nearby friendly units."
+StringInfo
+	ID "IDS_FRIGATE_PHASESUPPORTNANITESWARM_NAME"
+	Value "Defensive Nanite Swarm"
+StringInfo
+	ID "IDS_FRIGATE_PHASESUPPORTNANITESWARM_DESCRIPTION"
+	Value "A swarm of nanites coordinating to form a medium-power frigate that can toughen nearby friendly units."
+StringInfo
+	ID "IDS_ABILITY_CREATESUPPORTNANITES_NAME"
+	Value "Spawn Defensive Swarm"
+StringInfo
+	ID "IDS_ABILITY_CREATESUPPORTNANITES_DESCRIPTION"
+	Value "Creates a defense-oriented nanite swarm which has a helps friendly ships repel damage better. Hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
+StringInfo
+	ID "IDS_ABILITY_CREATECOMBATNANITES_NAME"
+	Value "Spawn Offensive Swarm"
+StringInfo
+	ID "IDS_ABILITY_CREATECOMBATNANITES_DESCRIPTION"
+	Value "Creates an offense-oriented nanite swarm which has a basic pulse beam weapon. Hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
 StringInfo
 	ID "IDS_ABILITY_PSIORBITALCANNON_DESC"
 	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage."
@@ -908,10 +944,10 @@ StringInfo
 	Value "Power Spike"
 StringInfo
 	ID "IDS_ABILITY_POWERSPIKE_DESCRIPTION"
-	Value "Massively boosts the surrounding fleet's rate of fire for a short time."
+	Value "Massively boosts nearby strike crafts' rate of fire for a time."
 StringInfo
 	ID "IDS_ABILITY_REASSEMBLE_DESCRIPTION"
-	Value "All currently active strike craft are converted into a massive greater swarm which gets bonus hull, shields and weapon damage based on the number of squadrons converted."
+	Value "All active nanite swarms are converted into a massive greater swarm which gets bonus hull, shields, and weapon damage based on the number of swarms converted."
 StringInfo
 	ID "IDS_ABILITY_NANOHULLREPAIR_DESCRIPTION"
 	Value "A field of repair nanites is dispersed, restoring a modest amount of hull points over time on all friendly strike crafts within range."

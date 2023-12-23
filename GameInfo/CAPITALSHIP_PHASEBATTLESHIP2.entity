@@ -1,10 +1,10 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "CapitalShip"
-ability:0 "AbilityOffensiveNanites"
-ability:1 "AbilityDefensiveNanites"
-ability:2 "AbilityWeaponJam"
-ability:3 "AbilityPowerSpike"
+ability:0 "AbilityCreateCombatNanites"
+ability:1 "AbilityCreateSupportNanites"
+ability:2 "AbilityCreateAssaultNanites"
+ability:3 "AbilityReassemble"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
