@@ -29,7 +29,7 @@ StringInfo
 	Value "Spawn Defensive Swarm"
 StringInfo
 	ID "IDS_ABILITY_CREATESUPPORTNANITES_DESCRIPTION"
-	Value "Creates a defense-oriented nanite swarm which has a helps friendly ships repel damage better. Hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
+	Value "Creates a defense-oriented nanite swarm which helps friendly ships repel damage better. Hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
 StringInfo
 	ID "IDS_ABILITY_CREATECOMBATNANITES_NAME"
 	Value "Spawn Offensive Swarm"
@@ -995,7 +995,7 @@ StringInfo
 	Value "Combat Support Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PHASEBATTLESHIP2_DESCRIPTION"
-	Value "A warship with abilities that strengthen friendly units and weaken enemies. Has more hull and shields than the Battleship, but significantly less firepower."
+	Value "A warship that spawns nanite swarms with abilities that strengthen friendly units and weaken enemies. Has more hull and shields than the Battleship, but significantly less firepower."
 StringInfo
 	ID "IDS_ABILITY_HULLNANITES_NAME"
 	Value "Forced Exchange"
