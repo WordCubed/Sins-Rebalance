@@ -12,6 +12,7 @@ numInstantActions 1
 instantAction
 	buffInstantActionType "RemoveAntiMatterPerc"
 	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
 	antiMatterPerc
 		Level:0 2.000000
 		Level:1 2.000000
