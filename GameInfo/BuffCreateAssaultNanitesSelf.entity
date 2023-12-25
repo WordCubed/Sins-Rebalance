@@ -13,7 +13,7 @@ instantAction
 	buffInstantActionType "CreateFrigate"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	frigateType "FrigatePhaseSuppotNaniteSwarm"
+	frigateType "FrigatePhaseAssaultNaniteSwarm"
 	numFrigates
 		Level:0 1.000000
 		Level:1 1.000000
@@ -32,7 +32,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.500000
-	buffType "BuffCreateSupportNanitesPre"
+	buffType "BuffCreateAssaultNanitesPre"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"
@@ -58,7 +58,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffCreateSupportNanitesFakeLevelUp"
+	buffType "BuffCreateAssaultNanitesFakeLevelUp"
 	targetFilter
 		numOwnerships 0
 		numObjects 1

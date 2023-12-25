@@ -1443,7 +1443,7 @@ star
 	planet
 		designName "Planet60"
 		inGameName ""
-		type "Terran"
+		type "Ferrus"
 		pos [ 280 , 700 ]
 		owner ""
 		isHomePlanet FALSE
