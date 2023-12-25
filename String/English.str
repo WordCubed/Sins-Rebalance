@@ -14,7 +14,7 @@ StringInfo
 	Value "Spawn Anti-Fighter Swarm"
 StringInfo
 	ID "IDS_ABILITY_CREATEASSAULTNANITES_DESCRIPTION"
-	Value "Creates an anti-fighter nanite swarm which targets enemy strike craft. Hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
+	Value "Creates an anti-fighter nanite swarm which targets enemy strike craft. Weapon damage, hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
 StringInfo
 	ID "IDS_FRIGATE_PHASECOMBATNANITESWARM_NAME"
 	Value "Offensive Nanite Swarm"
@@ -32,13 +32,13 @@ StringInfo
 	Value "Spawn Defensive Swarm"
 StringInfo
 	ID "IDS_ABILITY_CREATESUPPORTNANITES_DESCRIPTION"
-	Value "Creates a defense-oriented nanite swarm which helps friendly ships repel damage better. Hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
+	Value "Creates a defense-oriented nanite swarm which helps friendly ships repel damage better. Weapon damage, hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
 StringInfo
 	ID "IDS_ABILITY_CREATECOMBATNANITES_NAME"
 	Value "Spawn Offensive Swarm"
 StringInfo
 	ID "IDS_ABILITY_CREATECOMBATNANITES_DESCRIPTION"
-	Value "Creates an offense-oriented nanite swarm which has a basic pulse beam weapon. Hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
+	Value "Creates an offense-oriented nanite swarm which has a basic pulse beam weapon. Weapon damage, hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
 StringInfo
 	ID "IDS_ABILITY_PSIORBITALCANNON_DESC"
 	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage."
