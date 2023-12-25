@@ -1,5 +1,8 @@
 TXT
-NumStrings 8737
+NumStrings 8738
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_HEAVYTECH_NAME"
+	Value "Heavy Cruiser Prototype"
 StringInfo
 	ID "IDS_FRIGATE_PHASEASSAULTNANITESWARM_NAME"
 	Value "Anti-Fighter Nanite Swarm"
