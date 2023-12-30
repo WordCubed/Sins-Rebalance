@@ -5,8 +5,10 @@ buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffPhaseOrbitalCannon"
 targetFilter
-	numOwnerships 1
+	numOwnerships 3
 	ownership "Enemy"
+	ownership "Friendly"
+	ownership "NoOwner"
 	numObjects 1
 	object "Planet"
 	numSpaces 1
