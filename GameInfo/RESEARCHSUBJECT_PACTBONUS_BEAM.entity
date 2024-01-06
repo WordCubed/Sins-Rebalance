@@ -35,6 +35,16 @@ researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
+	linkedWeaponClass "LASERPSI"
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "PLASMA"
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
 	linkedWeaponClass "BEAM"
 researchModifier
 	modifierType "WeaponDamageAdjustment"
@@ -45,12 +55,7 @@ researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
-	linkedWeaponClass "LASERTECH"
-researchModifier
-	modifierType "WeaponDamageAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "LASERPSI"
+	linkedWeaponClass "PULSEGUN"
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
@@ -60,12 +65,7 @@ researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
-	linkedWeaponClass "PLASMA"
-researchModifier
-	modifierType "WeaponDamageAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "PULSEGUN"
+	linkedWeaponClass "LASERTECH"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

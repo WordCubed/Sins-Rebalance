@@ -30,7 +30,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 5
 researchModifier
 	modifierType "BombingDamageAsDamageDealerAdjustment"
 	baseValue 0.000000
@@ -43,6 +43,16 @@ researchModifier
 	modifierType "BombingRangeAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.250000
+researchModifier
+	modifierType "WeaponRateOfFireAdjustmentWhenInGravityWellBeingBombed"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "Invalid"
+researchModifier
+	modifierType "WeaponDamageAdjustmentWhenInGravityWellBeingBombed"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "Invalid"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

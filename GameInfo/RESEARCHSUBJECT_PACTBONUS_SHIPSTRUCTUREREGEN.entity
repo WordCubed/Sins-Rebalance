@@ -34,7 +34,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "HullPointsRegenAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

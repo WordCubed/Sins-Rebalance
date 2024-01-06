@@ -35,7 +35,17 @@ researchModifier
 	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
+	linkedWeaponClass "LASERPSI"
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
 	linkedWeaponClass "PLASMA"
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "BEAM"
 researchModifier
 	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
@@ -45,27 +55,17 @@ researchModifier
 	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
-	linkedWeaponClass "FLASHBEAM"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "LASERPSI"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "LASERTECH"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
 	linkedWeaponClass "PULSEGUN"
 researchModifier
 	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
-	linkedWeaponClass "BEAM"
+	linkedWeaponClass "FLASHBEAM"
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "LASERTECH"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
