@@ -37,11 +37,11 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "RelationshipBonus"
 	baseValue 0.000000
-	perLevelValue 1.250000
+	perLevelValue 1.000000
 researchModifier
 	modifierType "SelfRelationshipBonus"
 	baseValue 0.000000
-	perLevelValue 1.666667
+	perLevelValue 1.500000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
