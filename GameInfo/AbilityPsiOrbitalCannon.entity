@@ -13,9 +13,8 @@ targetFilter
 	object "Planet"
 	numSpaces 1
 	space "Normal"
-	numConstraints 2
+	numConstraints 1
 	constraint "IsExplored"
-	constraint "HasPopulation"
 effectInfo
 	effectAttachInfo
 		attachType "Center"

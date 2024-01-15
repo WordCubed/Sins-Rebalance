@@ -94,8 +94,8 @@ star
 		inGameName ""
 		type "Ice"
 		pos [ 108 , 129 ]
-		owner "3"
-		isHomePlanet TRUE
+		owner ""
+		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
 		normalStartUpgradeLevelForTacticalModules 0
