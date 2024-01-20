@@ -1988,7 +1988,7 @@ StringInfo
 	Value "A design revision allows for the installation of additional hull plating, granting TEC Starbases increased hull strength and armor."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEIMPROVEDDESTABILIZEPHASEJUMP_DESCRIPTION"
-	Value "Increases the damage dealt to hostile ships when they phase jump out of a gravity well containing a TEC Starbase."
+	Value "Increases the damage dealt to hostile ships when they phase jump out of a gravity well containing a Starbase."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEWEAPONBANKTARGETSTECH_DESCRIPTION"
 	Value "TEC Starbases receive upgraded target management systems, allowing them to deal additional damage and engage a greater number of targets at once."
