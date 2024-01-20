@@ -60,7 +60,7 @@ entities
 			entityDefName "FrigatePhaseUtility0"
 			entityDefName "FrigatePhaseHeavy"
 			entityDefName "FrigatePhaseMineLayer"
-			entityDefName "FrigatePhaseStarBaseConstructor"
+			entityDefName "FrigatePhaseStarBaseConstructorRebel"
 			entityDefName "FrigatePhaseEnvoy"
 			entityDefName "FrigatePhaseUtility1"
 			entityDefName "FrigatePhaseCarrier"
@@ -243,7 +243,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPHASE7"
 	starBaseInfo
 		count 1
-		entityDefName "StarBasePhase"
+		entityDefName "StarBasePhaseRebel"
 	flagship "FrigatePhaseFlagship"
 debrisData
 	numRandomMeshNamesLarge 8
