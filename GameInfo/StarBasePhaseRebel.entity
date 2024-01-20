@@ -163,7 +163,7 @@ experiencePointsForDestroying 6000.000000
 nameStringID "IDS_STARBASEPHASE_NAME"
 picture "PICTURE_STARBASEPHASE"
 statCountType "StarBase"
-creationSourceAbility "AbilityDeployStarBasePhase"
+creationSourceAbility "AbilityDeployStarBasePhaseRebel"
 maxUpgradeLevelCount 15
 UpgradeTypeCount 9
 UpgradeType "StarBaseUpgradePhaseWeapons"
