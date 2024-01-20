@@ -485,19 +485,19 @@ StringInfo
 	Value "Soft Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a 30% damage bonus for 2 minutes."
+	Value "Upon completing a phase jump, your ships and starbases receive a 30% damage bonus for 3 minutes."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_NAME"
 	Value "Hard Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 30% damage bonus for 4 minutes. Stacks with Soft Phasic Strike for a total bonus of 60%."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 30% damage bonus for 6 minutes. Stacks with Soft Phasic Strike for a total bonus of 60%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_NAME"
 	Value "Combined Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 30% damage bonus for 6 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 90% for 2 minutes, 60% for 4 minutes, and 30% for 6 minutes."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 30% damage bonus for 9 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 90% for 3 minutes, 60% for 6 minutes, and 30% for 9 minutes."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_JUMPBLOCKERIMMUNEPHASE_NAME"
 	Value "Jump Blocker Immunity"
