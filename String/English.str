@@ -5,55 +5,55 @@ StringInfo
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHREBEL_DESCRIPTION"
-	Value "The TEC Rebel's faction bonuses."
+	Value "Compared to their rival faction, the TEC Rebel faction has boosted experience gains for all capital ships and titans, plus they can deploy their Starbases around enemy planets faster."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHLOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHLOYALIST_DESCRIPTION"
-	Value "The TEC Loyalist's faction bonuses."
+	Value "Compared to their rival faction, the TEC Loyalist faction can upgrade a planet's tactical slots for cheaper and faster."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL_NAME"
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL_DESCRIPTION"
-	Value "The Advent Rebel's faction bonuses."
+	Value "Compared to their rival faction, the Advent Rebel faction has greatly increased population growth rates on their planets and increased antimatter reserves."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_DESCRIPTION"
-	Value "The Advent Loyalist's faction bonuses."
+	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, and their culture can slow enemy shipbuilding rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_DESCRIPTION"
-	Value "The Vasari Loyalist's faction bonuses."
+	Value "Compared to their rivals, the Vasari Loyalist faction has faster inter-planet travel speeds and all their weapons have an increased chance to skip past enemy shields."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_NAME"
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_DESCRIPTION"
-	Value "The Vasari Rebel's faction bonuses."
+	Value "Compared to their rival, the Vasari Rebel faction has faster inter-planet travel speeds, an extra logistics slot around planets, and greater range on their Phase Missiles."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_NAME"
 	Value "Advent Racial Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_DESCRIPTION"
-	Value ""
+	Value "Compared to other races, the Advent have increased range for all weapons and boosted crystal income."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSTECH_NAME"
 	Value "TEC Racial Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSTECH_DESCRIPTION"
-	Value ""
+	Value "Compared to other races, the TEC has increased rate-of-fire for all weapons and boosted metal income."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPHASE_NAME"
 	Value "Vasari Racial Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPHASE_DESCRIPTION"
-	Value ""
+	Value "Compared to other races, the Vasari has increased rate-of-fire and range for all weapons, plus boosted credit income."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_HEAVYTECH_NAME"
 	Value "Heavy Cruiser Prototype"
