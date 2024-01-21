@@ -1,7 +1,7 @@
 TXT2
 SinsArchiveVersion 194
 entityType "TitanUpgrade"
-stageCount 4
+stageCount 5
 stage
 	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
 	descStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_DESCRIPTION"
@@ -22,14 +22,14 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	levelRequirement 0
+	levelRequirement 1
 	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade0"
 	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade0"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "WeaponDamage"
-		value 0.333333
+		value 0.250000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
@@ -38,14 +38,14 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	levelRequirement 2
+	levelRequirement 3
 	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade1"
 	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade1"
 	infoCardIcon ""
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "WeaponDamage"
-		value 0.666667
+		value 0.500000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
@@ -54,7 +54,23 @@ stage
 		NumResearchPrerequisites 0
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-	levelRequirement 4
+	levelRequirement 5
+	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade2"
+	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade2"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.750000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 7
 	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade2"
 	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade2"
 	infoCardIcon ""
