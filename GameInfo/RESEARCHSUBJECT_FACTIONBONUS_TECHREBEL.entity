@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 0
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 1
+MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 2
@@ -39,7 +39,6 @@ researchModifier
 	modifierType "StarBaseBuildRateAtEnemyOrbitBodyAdjustment"
 	baseValue 1.000000
 	perLevelValue 0.000000
-	linkedWeaponClass "Invalid"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
