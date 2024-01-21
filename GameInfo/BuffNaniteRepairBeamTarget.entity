@@ -8,7 +8,18 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		mediumEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		largeEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		soundID "EFFECT_ADAPTIVESHIELD"
 instantAction
 	buffInstantActionType "RestoreHullPoints"
 	instantActionTriggerType "OnDelay"

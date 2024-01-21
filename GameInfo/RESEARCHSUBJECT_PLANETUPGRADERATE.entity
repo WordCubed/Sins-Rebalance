@@ -37,7 +37,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "PlanetUpgradeBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 3.000000
+	perLevelValue 4.000000
 	linkedPlanetUpgradeType "Invalid"
 researchModifier
 	modifierType "PlanetUpgradeCostAdjustment"

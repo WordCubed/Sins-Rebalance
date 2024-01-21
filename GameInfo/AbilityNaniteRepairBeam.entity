@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffNaniteRepairBeam"
+buffType "BuffNaniteRepairBeamActivate"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
@@ -16,12 +16,13 @@ targetFilter
 	object "StarBase"
 	numSpaces 1
 	space "Normal"
-	numConstraints 0
+	numConstraints 1
+	constraint "HasShieldDamage"
 range
 	Level:0 7500.000000
 	Level:1 7500.000000
 	Level:2 7500.000000
-	Level:3 0.000000
+	Level:3 7500.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
