@@ -37,7 +37,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "StarBaseBuildRateAtEnemyOrbitBodyAdjustment"
 	baseValue 0.000000
-	perLevelValue 4.500000
+	perLevelValue 49.500000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

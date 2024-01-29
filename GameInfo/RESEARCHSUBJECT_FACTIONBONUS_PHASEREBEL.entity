@@ -30,15 +30,11 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
-researchModifier
-	modifierType "HyperspaceInSystemSpeedAdjustment"
-	baseValue 1.000000
-	perLevelValue 0.000000
+researchFloatModifiers 2
 researchModifier
 	modifierType "PlanetSlotsCivilianIncrease"
-	baseValue 0.000000
-	perLevelValue 1.000000
+	baseValue 1.000000
+	perLevelValue 0.000000
 researchModifier
 	modifierType "WeaponRangeAdjustment"
 	baseValue 0.200000

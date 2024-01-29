@@ -27,7 +27,7 @@ aiUseTime "OnlyWhenMovingThresholdDistance"
 thresholdDistance 20000.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000

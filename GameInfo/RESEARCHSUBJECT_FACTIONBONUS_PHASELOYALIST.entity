@@ -5,7 +5,7 @@ hudIcon "HUDICON_RESEARCHSUBJECT_LIBERATEDRESISTANCE"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_LIBERATEDRESISTANCE"
 infoCardIcon ""
 NameStringID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_DESCRIPTION"
+DescriptionStringID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 0 , 5 ]
@@ -30,16 +30,20 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
-researchModifier
-	modifierType "HyperspaceInSystemSpeedAdjustment"
-	baseValue 0.500000
-	perLevelValue 0.000000
+researchFloatModifiers 3
 researchModifier
 	modifierType "WeaponIgnoresShieldsAdjustment"
 	baseValue 0.200000
 	perLevelValue 0.000000
 	linkedWeaponClass "Invalid"
+researchModifier
+	modifierType "HullPointsMaxAdjustment"
+	baseValue 0.050000
+	perLevelValue 0.000000
+researchModifier
+	modifierType "ShieldPointsMaxAdjustment"
+	baseValue 0.050000
+	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

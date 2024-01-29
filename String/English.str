@@ -1,5 +1,38 @@
 TXT
-NumStrings 8756
+NumStrings 8767
+StringInfo
+	ID "IDS_ABILITY_PHASEGATE_NAME"
+	Value "Phase Gate Node"
+StringInfo
+	ID "IDS_ABILITY_PHASEGATE_DESCRIPTION"
+	Value "Creates a Phase Gate node, allowing your empire's ships to travel directly between this node and other Phase Gate nodes within the same star system."
+StringInfo
+	ID "IDS_INFOCARD_BUFFBOOL_ISPHASEGATEENDPOINT"
+	Value "Phase Gate Node"
+StringInfo
+	ID "IDS_RESEARCHFLOATMODIFIER_HYPERSPACESPEEDPHASEGATEADJUSTMENT"
+	Value "Phase Gate speed increase:"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPHASEPHASEGATE_NAME"
+	Value "Phase Gate Array"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPHASEPHASEGATE_DESC"
+	Value "Grants the Phase Gate ability to the starbase, allowing it to temporarily establish a Phase Gate Node at its gravity well."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_PHASEGATE_NAME"
+	Value "Starbase Phase Gate"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_PHASEGATE_DESCRIPTION"
+	Value "Grants the Phase Gate ability to the starbase, allowing your empire to send ships to the starbase's gravity well from other Phase Gate nodes."
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALPHASEGATE_NAME"
+	Value "Phase Gate Prototype"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATE_DESCRIPTION"
+	Value "Unlocks access to Phase Gates, allowing your empire to travel between planets that have them as if there was a connecting phase lane."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATE_NAME"
+	Value "Phase Gates"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHREBEL_NAME"
 	Value "Rebel Faction Bonus"
@@ -29,13 +62,13 @@ StringInfo
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_DESCRIPTION"
-	Value "Compared to their rivals, the Vasari Loyalist faction has faster inter-planet travel speeds and all their weapons have an increased chance to skip past enemy shields."
+	Value "Compared to their rival, the Vasari Loyalist faction have more hull and shield points, and their weapons have an increased chance to skip past enemy shields."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_NAME"
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_DESCRIPTION"
-	Value "Compared to their rival, the Vasari Rebel faction has faster inter-planet travel speeds, an extra logistics slot around planets, and greater range on their Phase Missiles."
+	Value "Compared to their rival, the Vasari Rebel faction has an extra logistics slot around planets and greater range on their Phase Missiles."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_NAME"
 	Value "Advent Racial Bonus"
@@ -53,7 +86,7 @@ StringInfo
 	Value "Vasari Racial Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPHASE_DESCRIPTION"
-	Value "Compared to other races, the Vasari has increased rate-of-fire and range for all weapons, plus boosted credit income."
+	Value "Compared to other races, the Vasari has increased rate-of-fire and range for all weapons, boosted credit income, and faster inter-planet travel speeds."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_HEAVYTECH_NAME"
 	Value "Heavy Cruiser Prototype"
@@ -263,10 +296,10 @@ StringInfo
 	Value "Allows you to finish recovery of the Vorastra Titan and launch it against your empire's enemies."
 StringInfo
 	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_NAME"
-	Value "Spawn Phase Stabilizer"
+	Value "Spawn Phase Gate"
 StringInfo
 	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_DESCRIPTION"
-	Value "Spawns a phase stabilizer module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
+	Value "Spawns a Phase Gate module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
 	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 10% damage bonus to all ships present (or nearby) for the battle. (Damage bonus stacks up to 40%.)"
@@ -2150,7 +2183,7 @@ StringInfo
 	Value "Superweapon Prototype"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONPHASE_DESC"
-	Value "Grants access to the Phasic Superweapon, allowing your empire to damage and disable enemy orbital structures from afar. The targetted planet also becomes a Phase Stabilizer Node for a brief period of time."
+	Value "Grants access to the Phasic Superweapon, allowing your empire to destroy enemy orbital structures from afar. The targeted planet also becomes a Phase Gate Node for 3 minutes."
 StringInfo
 	ID "IDS_CANNONSHELLPHASE_NAME"
 	Value "Phasic Warhead"
