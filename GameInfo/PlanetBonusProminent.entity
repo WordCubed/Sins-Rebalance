@@ -5,8 +5,8 @@ minUpgradeLevelNeeded 0
 maxUpgradeLevelNeeded 0
 nameStringID "IDS_PLANETBONUS_PROMINENT_NAME"
 descStringID "IDS_PLANETBONUS_PROMINENT_DESC"
-floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation 4.000000
+floatBonus:AdditiveCultureSpreadPerc 0.250000
+floatBonus:AdditivePopulation 8.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 1.000000
 floatBonus:AdditiveSlotsTactical 1.000000
