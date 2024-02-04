@@ -5,13 +5,13 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 152.000000
-	maxFleetPoints 152.000000
-	requiredShipCount 6
+	minFleetPoints 224.000000
+	maxFleetPoints 224.000000
+	requiredShipCount 12
 	requiredShip
 		type "CAPITALSHIP_PHASECOLONY"
-		minCount 3
-		maxCount 3
+		minCount 4
+		maxCount 4
 	requiredShip
 		type "CAPITALSHIP_PHASEBATTLESHIP2"
 		minCount 1
@@ -54,27 +54,27 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
 creditCost
-	Level:0 22800.000000
+	Level:0 33600.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 metalCost
-	Level:0 3420.000000
+	Level:0 6720.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 crystalCost
-	Level:0 2280.000000
+	Level:0 3360.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 requiredShipSlots
-	Level:0 152.000000
+	Level:0 200.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 requiredCapitalShipSlots
-	Level:0 8.000000
+	Level:0 11.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000

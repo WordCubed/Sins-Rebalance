@@ -70,7 +70,7 @@ requiredShipSlots
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 30.000000
+	Level:0 150.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000

@@ -1568,7 +1568,7 @@ StringInfo
 	Value "The Advent favor arid, desolate, & cold planets. Have the strongest culture. Their ships emphasize shield points & shield mitigation over hull points & armor."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASE_DESCRIPTION"
-	Value "The Vasari favor hazardous, metallic, & very big/small planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
+	Value "The Vasari favor hazardous, metallic, & big planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
 	Value "TEC Loyalists are meant for turtling. With research, they gain large buffs for defending themselves. Their tactical structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% in friendly gravity wells; +10% per invasion repelled (capped at 40%)"
@@ -1583,7 +1583,7 @@ StringInfo
 	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +10% per ship lost (capped at 50%); +10% per planet lost (capped at 40%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
-	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and raze planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +40% in neutral wells; +10% per planet lost (capped at 50%)"
+	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and strip planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +40% in neutral wells; +10% per planet lost (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
 	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. However, that buff fades out over very lengthy battles. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. MAIN DAMAGE BUFFS: +90% at end of phase jump, +10% per ally present"
