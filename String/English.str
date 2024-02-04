@@ -1,5 +1,14 @@
 TXT
-NumStrings 8767
+NumStrings 8770
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_GALAXYTRAVELTECH_NAME"
+	Value "Interstellar Phase Jumps"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_GALAXYTRAVELPSI_NAME"
+	Value "Interstellar Phase Jumps"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_GALAXYTRAVELPHASE_NAME"
+	Value "Interstellar Phase Jumps"
 StringInfo
 	ID "IDS_ABILITY_PHASEGATE_NAME"
 	Value "Phase Gate Node"
