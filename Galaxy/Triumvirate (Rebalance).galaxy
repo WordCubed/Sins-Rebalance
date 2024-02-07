@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-Triumvirate"
 browseName "Triumvirate (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_TRIUMVIRATE"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions FALSE
+randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "ThreeTeamsOfTwo"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 9.995982
+pixelsPerGalaxyUnit 5.675986
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 1096.000000
@@ -59,8 +59,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 0
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "Template:DefaultHomePlanetSetup"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -591,8 +590,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 0
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "Template:DefaultHomePlanetSetup"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -617,8 +615,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 0
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "Template:DefaultHomePlanetSetup"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -1783,8 +1780,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 0
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "Template:DefaultHomePlanetSetup"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -1809,8 +1805,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 0
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "Template:DefaultHomePlanetSetup"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
