@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-UserGenerated"
 browseName "Tangled Web"
 browseDescription "Maneuver carefully: the tangled web of phase lanes around this star means your enemies are only a couple jumps away from you."
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions FALSE
+randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.880000
+pixelsPerGalaxyUnit 1.640000
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
@@ -395,7 +395,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 356 , 128 ]
-		owner "Player1"
+		owner "Player3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -570,7 +570,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 493 , 292 ]
-		owner "Player2"
+		owner "Player1"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1020,7 +1020,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 401 , 448 ]
-		owner "Player3"
+		owner "Player4"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1170,7 +1170,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 232 , 505 ]
-		owner "Player4"
+		owner "Player2"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
