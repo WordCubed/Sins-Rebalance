@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-Crossfire"
 browseName "Crossfire (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_CROSSFIRE"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions FALSE
+randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4

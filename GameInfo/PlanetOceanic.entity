@@ -228,7 +228,7 @@ planetUpgradeDef
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
-			upgradeTime 5.000000
+			upgradeTime 10.000000
 		stage
 			price
 				credits 120.000000

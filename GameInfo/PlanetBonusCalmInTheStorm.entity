@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 0
 nameStringID "IDS_PLANETBONUS_CALMINTHESTORM_NAME"
 descStringID "IDS_PLANETBONUS_CALMINTHESTORM_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation 3.000000
+floatBonus:AdditivePopulation 4.000000
 floatBonus:AdditivePlanetHealth 750.000000
 floatBonus:AdditiveSlotsCivilian 1.000000
 floatBonus:AdditiveSlotsTactical 0.000000
