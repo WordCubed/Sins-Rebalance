@@ -243,7 +243,7 @@ star
 	planet
 		designName "Planet8"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 401 , 276 ]
 		owner ""
 		isHomePlanet FALSE
@@ -268,7 +268,7 @@ star
 	planet
 		designName "Planet9"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 403 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -418,7 +418,7 @@ star
 	planet
 		designName "Planet15"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 264 , 396 ]
 		owner ""
 		isHomePlanet FALSE
@@ -443,7 +443,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 241 , 384 ]
 		owner ""
 		isHomePlanet FALSE
@@ -593,7 +593,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 233 , 222 ]
 		owner ""
 		isHomePlanet FALSE
@@ -993,7 +993,7 @@ star
 	planet
 		designName "Planet38"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 473 , 223 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1018,7 +1018,7 @@ star
 	planet
 		designName "Planet39"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 484 , 260 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1218,7 +1218,7 @@ star
 	planet
 		designName "Planet47"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 268 , 487 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1243,7 +1243,7 @@ star
 	planet
 		designName "Planet48"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 232 , 477 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1443,7 +1443,7 @@ star
 	planet
 		designName "Planet56"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 147 , 187 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1468,7 +1468,7 @@ star
 	planet
 		designName "Planet57"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 173 , 159 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1668,7 +1668,7 @@ star
 	planet
 		designName "Planet65"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 531 , 140 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1693,7 +1693,7 @@ star
 	planet
 		designName "Planet66"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 553 , 181 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1868,7 +1868,7 @@ star
 	planet
 		designName "Planet73"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 325 , 579 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1893,7 +1893,7 @@ star
 	planet
 		designName "Planet74"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 272 , 578 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2093,7 +2093,7 @@ star
 	planet
 		designName "Planet82"
 		inGameName ""
-		type "Toxic"
+		type "Volcanic"
 		pos [ 56 , 164 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2118,7 +2118,7 @@ star
 	planet
 		designName "Planet83"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 83 , 125 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2193,7 +2193,7 @@ star
 	planet
 		designName "Planet86"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 255 , 208 ]
 		owner ""
 		isHomePlanet FALSE

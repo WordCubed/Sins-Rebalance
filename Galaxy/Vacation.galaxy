@@ -25,12 +25,12 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 0.920000
+pixelsPerGalaxyUnit 0.680000
 useRandomGenerator FALSE
 galaxyWidth 2000.000000
 galaxyHeight 2000.000000
 nextStarNameUniqueId 1
-nextPlanetNameUniqueId 54
+nextPlanetNameUniqueId 56
 triggerCount 0
 starCount 1
 star
@@ -39,7 +39,7 @@ star
 	type "YellowStar"
 	pos [ 500 , 500 ]
 	radius 500.000000
-	planetCount 54
+	planetCount 56
 	planet
 		designName "Planet0"
 		inGameName ""
@@ -1390,7 +1390,57 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 108
+	planet
+		designName "Planet54"
+		inGameName ""
+		type "PirateBase"
+		pos [ 523 , 460 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet55"
+		inGameName ""
+		type "PirateBase"
+		pos [ 478 , 537 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 110
 	connection
 		planetIndexA 2
 		planetIndexB 0
@@ -1929,6 +1979,16 @@ star
 	connection
 		planetIndexA 53
 		planetIndexB 51
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 54
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA -1
+		planetIndexB 55
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
