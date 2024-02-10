@@ -1,5 +1,14 @@
 TXT
-NumStrings 8770
+NumStrings 8773
+StringInfo
+	ID "IDS_STARBASEUPGRADETECHBLOCKCOLONIZE_DESC"
+	Value "A proxy governing council is established on this starbase, allowing the planet to be run from orbit which prevents loss of control through physical bombardment and denies its colonization by hostile empires until the starbase is destroyed. (The planet can still be decolonized by culture, though.)"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIBLOCKCOLONIZE_DESC"
+	Value "Psionic adepts aboard this starbase create strong support for your empire on this gravity well's planet, preventing it from being lost through physical bombardment and denying hostile empires from colonizing it when it becomes neutral. (The planet can still be decolonized by culture, though.)"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPHASEBLOCKCOLONIZE_DESC"
+	Value "This starbase has an imposing influence on the nearby planet's population, causing them to remain committed to you empire despite physical bombardment and to reject colonization by hostile empires until the starbase is destroyed. (The planet can still be decolonized by culture, though.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_GALAXYTRAVELTECH_NAME"
 	Value "Interstellar Phase Jumps"
@@ -2057,7 +2066,7 @@ StringInfo
 	Value "Additional Weapons Psintegrat crews are added to Advent Starbases, allowing them to deal additional damage and engage a greater number of targets at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_BLOCKCOLONIZEPSI_DESCRIPTION"
-	Value "Grants Advent Starbases access to Enduring Devotion upgrades, which prevents the loss of control of its gravity well's planet through bombardment and denies its colonization by hostile empires."
+	Value "Grants Advent Starbases access to Enduring Devotion upgrades, which prevents the loss of control of its gravity well's planet through physical attack and denies its colonization by hostile empires. (It can still be decolonized by culture, though.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_CULTURE_DESCRIPTION"
 	Value "Grants Advent Starbases access to Evangelization Nodes upgrades, allowing them to spread your own culture and repel others'."
@@ -2090,7 +2099,7 @@ StringInfo
 	Value "TEC Starbases receive upgraded target management systems, allowing them to deal additional damage and engage a greater number of targets at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_BLOCKCOLONIZETECH_DESCRIPTION"
-	Value "Grants TEC Starbases access to Auxiliary Government upgrades, which prevents the loss of control of its gravity well's planet through bombardment and denies its colonization by hostile empires."
+	Value "Grants TEC Starbases access to Auxiliary Government upgrades, which prevents the loss of control of its gravity well's planet via physical attack and denies its colonization by hostile empires. (It can still be decolonized by culture, though.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_FACTORY_DESCRIPTION"
 	Value "Grants TEC Starbases access to Construction Bay upgrades, allowing them to build frigates, cruisers, and corvettes."
@@ -2120,7 +2129,7 @@ StringInfo
 	Value "Vasari Starbases receive additional batteries of all weapon systems, allowing them to deal additional damage and engage a greater number of targets at once."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_BLOCKCOLONIZEPHASE_DESCRIPTION"
-	Value "Grants Vasari Starbases access to Enforced Loyalty upgrades, which prevent the loss of control of its gravity well's planet through bombardment and denies its colonization by hostile empires."
+	Value "Grants Vasari Starbases access to Enforced Loyalty upgrades, which prevent the loss of control of its gravity well's planet via physical attack and denies its colonization by hostile empires. (It can still be decolonized by culture, though.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_DEBRISVACUUM_DESCRIPTION"
 	Value "Grants Vasari Starbases access to Debris Vortex upgrades, allowing them to consume nearby debris in order to repair damage."
