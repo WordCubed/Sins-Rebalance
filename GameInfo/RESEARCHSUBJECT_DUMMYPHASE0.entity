@@ -36,7 +36,11 @@ onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 0.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
+researchFloatModifiers 2
+researchModifier
+	modifierType "StarBasesPerGravityWellAdjustment"
+	baseValue -1.000000
+	perLevelValue 0.000000
 researchModifier
 	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
 	baseValue 2.000000
