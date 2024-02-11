@@ -2414,7 +2414,7 @@ StringInfo
 	Value "Long-Range Design"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_LONGRANGEPSI_DESCRIPTION"
-	Value "Grants access to Long-Range Frigates - strong warships equipped with long range beam weapons."
+	Value "Grants access to Long-Range Frigates - strong warships equipped with long-range beam weapons."
 StringInfo
 	ID "IDS_FRIGATE_PSILONGRANGE_NAME"
 	Value "Long-Range Frigate"
@@ -2423,7 +2423,7 @@ StringInfo
 	Value "Long-Range Prototype"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_LONGRANGETECH_DESCRIPTION"
-	Value "Grants access to Long-Range Frigates - lightly armored frigates equipped with powerful long range missiles."
+	Value "Grants access to Long-Range Frigates - lightly armored frigates equipped with powerful long-range missiles."
 StringInfo
 	ID "IDS_FRIGATE_TECHLONGRANGE_NAME"
 	Value "Long-Range Frigate"
@@ -2432,7 +2432,7 @@ StringInfo
 	Value "Long-Range Prototype"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_LONGRANGEPHASE_DESCRIPTION"
-	Value "Grants access to Long-Range Frigates - combat frigates heavily armed with long range torpedoes."
+	Value "Grants access to Long-Range Frigates - combat frigates heavily armed with long-range torpedoes."
 StringInfo
 	ID "IDS_FRIGATE_PHASELONGRANGE_NAME"
 	Value "Long-Range Frigate"
