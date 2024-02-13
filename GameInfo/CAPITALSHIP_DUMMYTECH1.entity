@@ -82,10 +82,10 @@ picture ""
 Prerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DUMMYTECH0"
+		Subject "RESEARCHSUBJECT_EXPULSIONTECH"
 		Level 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DUMMYTECH1"
+		Subject "RESEARCHSUBJECT_FORTRESS_COMPARTMENTALIZATION"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

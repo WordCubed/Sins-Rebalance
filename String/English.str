@@ -1,5 +1,8 @@
 TXT
-NumStrings 8773
+NumStrings 8774
+StringInfo
+	ID "IDS_INFOCARD_BUFFADJUSTMENT_ENERGYWEAPONCOOLDOWN"
+	Value "Energy weapon cooldown"
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHBLOCKCOLONIZE_DESC"
 	Value "A proxy governing council is established on this starbase, allowing the planet to be run from orbit which prevents loss of control through physical bombardment and denies its colonization by hostile empires until the starbase is destroyed. (The planet can still be decolonized by culture, though.)"
