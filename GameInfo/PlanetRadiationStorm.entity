@@ -185,7 +185,7 @@ renderShield FALSE
 moveAreaRadius 12000.000000
 hyperspaceExitRadius 12000.000000
 isWormhole FALSE
-maxStarBaseCountPerPlayer 2
+maxStarBaseCountPerPlayer 1
 maxSpaceMineCountPerPlayer 0
 minShadow 0.000000
 maxShadow 0.000000
