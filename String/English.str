@@ -1,5 +1,14 @@
 TXT
-NumStrings 8774
+NumStrings 8777
+StringInfo
+	ID "IDS_PLANETMODULE_PHASEORBITALREPAIRPLATFORM_NAME"
+	Value "Repair Platform"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPHASE_NAME"
+	Value "Repair Platform"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_REPAIRPLATFORMPHASE_DESCRIPTION"
+	Value "Grants access to the repair platform, which repairs the hull of nearby friendly ships and structures."
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ENERGYWEAPONCOOLDOWN"
 	Value "Energy weapon cooldown"
@@ -47,7 +56,7 @@ StringInfo
 	Value "Grants the Phase Gate ability to the starbase, allowing your empire to send ships to the starbase's gravity well from other Phase Gate nodes."
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALPHASEGATE_NAME"
-	Value "Phase Gate Prototype"
+	Value "Phase Gate"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATE_DESCRIPTION"
 	Value "Unlocks access to Phase Gates, allowing your empire to travel between planets that have them as if there was a connecting phase lane."
