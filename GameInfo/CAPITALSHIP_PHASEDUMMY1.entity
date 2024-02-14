@@ -82,10 +82,10 @@ picture ""
 Prerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DUMMYPHASE0"
+		Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_PHASEGATE"
 		Level 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DUMMYPHASE1"
+		Subject "RESEARCHSUBJECT_STARBASE_MOBILIZATION"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

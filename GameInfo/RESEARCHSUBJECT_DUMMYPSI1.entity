@@ -11,9 +11,12 @@ researchWindowLocation
 	pos [ 99 , 0 ]
 ResearchField "NonCombat"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED"
+		Level 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_COWARDS_SUBMISSION"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

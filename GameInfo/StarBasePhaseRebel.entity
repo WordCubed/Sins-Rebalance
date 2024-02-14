@@ -5,7 +5,7 @@ ability:0 "AbilityDirectionalShield"
 ability:1 "AbilityDebrisVacuum"
 ability:2 "AbilityPhaseGateStarBaseRebel"
 ability:3 "AbilityDestabilizeHyperspace"
-ability:4 ""
+ability:4 "AbilitySpawnStarbaseConstructorPhaseRebel"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
