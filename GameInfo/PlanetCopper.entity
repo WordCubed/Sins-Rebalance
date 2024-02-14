@@ -1,53 +1,83 @@
 TXT2
 SinsArchiveVersion 194
 entityType "Planet"
-meshInfoCount 2
+meshInfoCount 4
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_HYDROCARBON"
+	typeNameStringID "IDS_PLANETTYPE_COPPER"
 	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
-	meshName "Stars_SPACE_Planet_Hydrocarbon"
-	cloudColor ffc47e19
+	dustCloudTemplate "PuffySparse"
+	meshName "Planet_Copper"
+	cloudColor ffed8b3b
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
 	hudIcon "MAINVIEWICON_PLANET_FERRUS"
 	smallHudIcon "HUDICONSMALL_PLANET_FERRUS"
 	infoCardIcon "INFOCARDICON_PLANET_FERRUS"
-	mainViewIcon "Stars_MAINVIEWICON_Planet_Hydrocarbon"
-	undetectedMainViewIcon "Stars_MAINVIEWICON_Planet_Hydrocarbon"
+	mainViewIcon "MAINVIEWICON_PLANET_FERRUS"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_FERRUS_UNDETECTED"
 	picture "PICTURE_PLANET_FERRUS"
 	shouldPrefer FALSE
 meshInfo
-	typeNameStringID "IDS_PLANETTYPE_HYDROCARBON"
-	asteroidTemplate "Sparse"
-	dustCloudTemplate "IceSafe"
-	meshName "Stars_SPACE_Planet_Hydrocarbon"
-	cloudColor ff946015
+	typeNameStringID "IDS_PLANETTYPE_COPPER"
+	asteroidTemplate "Ring"
+	dustCloudTemplate "Sparse"
+	meshName "Planet_Copper"
+	cloudColor ffed8b3b
 	nullMeshRadius 0.000000
 	nullMeshParticleEffect ""
 	hudIcon "MAINVIEWICON_PLANET_FERRUS"
 	smallHudIcon "HUDICONSMALL_PLANET_FERRUS"
 	infoCardIcon "INFOCARDICON_PLANET_FERRUS"
-	mainViewIcon "Stars_MAINVIEWICON_Planet_Hydrocarbon"
-	undetectedMainViewIcon "Stars_MAINVIEWICON_Planet_Hydrocarbon"
+	mainViewIcon "MAINVIEWICON_PLANET_FERRUS"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_FERRUS_UNDETECTED"
+	picture "PICTURE_PLANET_FERRUS"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_COPPER"
+	asteroidTemplate "Wall"
+	dustCloudTemplate "Empty"
+	meshName "Planet_Copper"
+	cloudColor ffed8b3b
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "MAINVIEWICON_PLANET_FERRUS"
+	smallHudIcon "HUDICONSMALL_PLANET_FERRUS"
+	infoCardIcon "INFOCARDICON_PLANET_FERRUS"
+	mainViewIcon "MAINVIEWICON_PLANET_FERRUS"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_FERRUS_UNDETECTED"
+	picture "PICTURE_PLANET_FERRUS"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_COPPER"
+	asteroidTemplate "Empty"
+	dustCloudTemplate "PuffyDense"
+	meshName "Planet_Copper"
+	cloudColor ffed8b3b
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "MAINVIEWICON_PLANET_FERRUS"
+	smallHudIcon "HUDICONSMALL_PLANET_FERRUS"
+	infoCardIcon "INFOCARDICON_PLANET_FERRUS"
+	mainViewIcon "MAINVIEWICON_PLANET_FERRUS"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_FERRUS_UNDETECTED"
 	picture "PICTURE_PLANET_FERRUS"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000
-glowColor 7fda833c
-ringColor ffdafcff
+glowColor 8f6b1e00
+ringColor ffed8b3b
 cloudLayerTextureName "PlanetCloudLayer"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
 	totalMaxResourceAsteroids 4
 	metalResourceAsteroidSetup
-		minCount 1
-		maxCount 1
+		minCount 3
+		maxCount 3
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 3
-		maxCount 3
+		minCount 1
+		maxCount 1
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
@@ -74,25 +104,25 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxPopulation 2.500000
+			maxPopulation 4.000000
 			populationGrowthRate 0.250000
-			developmentTaxPenalty -0.500000
+			developmentTaxPenalty -0.800000
 		stage
 			price
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			maxPopulation 5.000000
+			maxPopulation 8.000000
 			populationGrowthRate 0.250000
-			developmentTaxPenalty -0.250000
+			developmentTaxPenalty -0.400000
 		stage
 			price
 				credits 80.000000
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			maxPopulation 7.500000
+			maxPopulation 12.000000
 			populationGrowthRate 0.250000
 			developmentTaxPenalty 0.000000
 		stage
@@ -101,7 +131,7 @@ planetUpgradeDef
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 20.000000
-			maxPopulation 10.000000
+			maxPopulation 16.000000
 			populationGrowthRate 0.250000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
@@ -269,7 +299,7 @@ planetUpgradeDef
 				metal 360.000000
 				crystal 720.000000
 			upgradeTime 20.000000
-			maxPopulation 5.000000
+			maxPopulation 8.000000
 			populationGrowthRate 0.250000
 			tradeIncomeModifier -0.500000
 			shipBuildRateModifier -0.500000
@@ -292,7 +322,7 @@ planetUpgradeDef
 				metal 360.000000
 				crystal 720.000000
 			upgradeTime 20.000000
-			maxPopulation -5.000000
+			maxPopulation -8.000000
 			tradeIncomeModifier 1.000000
 			shipBuildRateModifier 0.500000
 			cultureSpreadRateModifier -0.500000
@@ -314,33 +344,32 @@ planetUpgradeDef
 			upgradeTime 20.000000
 			corruptionPercent 0.750000
 			smugglingPercent 0.025000
-ringsChance 0.100000
+ringsChance 0.050000
 isColonizable TRUE
-planetTypeForResearch "Greenhouse"
+planetTypeForResearch "Iron"
 skyboxScalarsCount 5
 skyboxScalars
-	diffuseScalar 0.910000
-	ambientScalar 0.150000
+	diffuseScalar 1.000000
+	ambientScalar 0.000000
 skyboxScalars
-	diffuseScalar 0.670000
-	ambientScalar 0.400000
-skyboxScalars
-	diffuseScalar 0.800000
-	ambientScalar 0.400000
-skyboxScalars
-	diffuseScalar 0.550000
+	diffuseScalar 0.400000
 	ambientScalar 0.600000
 skyboxScalars
-	diffuseScalar 0.720000
+	diffuseScalar 0.900000
+	ambientScalar 0.370000
+skyboxScalars
+	diffuseScalar 0.500000
 	ambientScalar 0.800000
-requiredPlanetBonusesCount 1
-bonus "PlanetBonusHarsh"
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 0.250000
+requiredPlanetBonusesCount 0
 possibleRandomPlanetBonusesCount 5
-bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
+bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusPartiallyTerraformed"
-bonus "PlanetBonusPorousCore"
-bonus "PlanetBonusVolatileDeposits"
+bonus "PlanetBonusSubsurfaceMetalDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
@@ -349,9 +378,9 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 56025.000000
-	metalOnStrippedToTheCore 3600.000000
-	crystalOnStrippedToTheCore 10800.000000
+	creditsOnStrippedToTheCore 60480.000000
+	metalOnStrippedToTheCore 10800.000000
+	crystalOnStrippedToTheCore 3600.000000
 	extraScuttleTimeOnStrip 0.000000
 dlcId 228601
 ShieldMeshName "Shield_PlanetNormal"

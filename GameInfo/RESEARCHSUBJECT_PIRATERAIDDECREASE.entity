@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 5
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 1
+MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 1
 researchModifier

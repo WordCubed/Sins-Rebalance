@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2161
+entityNameCount 2162
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -1212,6 +1212,7 @@ entityName "PlanetBonusWeaponTestGrounds.entity"
 entityName "PlanetCarbon.entity"
 entityName "PlanetComet.entity"
 entityName "PlanetConnection.entity"
+entityName "PlanetCopper.entity"
 entityName "PlanetCryo.entity"
 entityName "PlanetDeadAsteroid.entity"
 entityName "PlanetDesert.entity"

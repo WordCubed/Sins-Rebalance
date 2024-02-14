@@ -62,11 +62,11 @@ starType
 	designStringId "IDSGalaxyScenarioTypeStarBlackHole"
 	orbitBodyTypeCount 1
 	orbitBodyType "BlackHoleStar"
-planetTypeCount 66
+planetTypeCount 67
 planetType
 	designName "Random"
 	designStringId "IDSGalaxyScenarioTypePlanetAny"
-	orbitBodyTypeCount 106
+	orbitBodyTypeCount 109
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "DeadAsteroid"
 	orbitBodyType "DeadAsteroid"
@@ -167,6 +167,9 @@ planetType
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
+	orbitBodyType "Copper"
+	orbitBodyType "Copper"
+	orbitBodyType "Copper"
 	orbitBodyType "Asteroid"
 	orbitBodyType "Asteroid"
 	orbitBodyType "Asteroid"
@@ -176,7 +179,7 @@ planetType
 planetType
 	designName "RandomColonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetRandomColonizable"
-	orbitBodyTypeCount 101
+	orbitBodyTypeCount 105
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
 	orbitBodyType "Terran"
@@ -266,6 +269,10 @@ planetType
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Ferrus"
+	orbitBodyType "Copper"
+	orbitBodyType "Copper"
+	orbitBodyType "Copper"
+	orbitBodyType "Copper"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "ShipGraveyard"
 	orbitBodyType "ShipGraveyard"
@@ -346,7 +353,7 @@ planetType
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "RockGiant"
 	orbitBodyType "Ferrus"
-	orbitBodyType "ShipGraveyard"
+	orbitBodyType "Copper"
 	orbitBodyType "Volcanic"
 planetType
 	designName "RandomHighCrystalAll"
@@ -408,13 +415,14 @@ planetType
 planetType
 	designName "RandomPhase"
 	designStringId "IDSGalaxyScenarioTypePlanetPhase"
-	orbitBodyTypeCount 10
+	orbitBodyTypeCount 11
 	orbitBodyType "Volcanic"
 	orbitBodyType "Toxic"
 	orbitBodyType "Hydrocarbon"
 	orbitBodyType "Ferrus"
-	orbitBodyType "Asteroid"
+	orbitBodyType "Copper"
 	orbitBodyType "ShipGraveyard"
+	orbitBodyType "Asteroid"
 	orbitBodyType "Moon"
 	orbitBodyType "GasGiant"
 	orbitBodyType "RockGiant"
@@ -466,7 +474,7 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetIron"
 	orbitBodyTypeCount 3
 	orbitBodyType "Ferrus"
-	orbitBodyType "Ferrus"
+	orbitBodyType "Copper"
 	orbitBodyType "ShipGraveyard"
 planetType
 	designName "RandomTiny"
@@ -498,6 +506,11 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "Carbon"
 planetType
+	designName "Copper"
+	designStringId "IDSGalaxyScenarioTypePlanetCopper"
+	orbitBodyTypeCount 1
+	orbitBodyType "Copper"
+planetType
 	designName "Cryo"
 	designStringId "IDSGalaxyScenarioTypePlanetCryo"
 	orbitBodyTypeCount 1
@@ -513,10 +526,10 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "DesertHome"
 planetType
-	designName "Ferrus"
+	designName "Ferrous"
 	designStringId "IDSGalaxyScenarioTypePlanetFerrous"
 	orbitBodyTypeCount 1
-	orbitBodyType "Ferrus"
+	orbitBodyType "Ferrous"
 planetType
 	designName "GasGiant"
 	designStringId "IDSGalaxyScenarioTypePlanetGasGiant"

@@ -37,7 +37,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "PlanetPopulationCapAdjustment"
 	baseValue 0.000000
-	perLevelValue 2.750000
+	perLevelValue 2.250000
 	linkedPlanetType "Iron"
 researchModifier
 	modifierType "PlanetPopulationCapAdjustment"
