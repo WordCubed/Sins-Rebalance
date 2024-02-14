@@ -243,7 +243,7 @@ star
 	planet
 		designName "Planet8"
 		inGameName ""
-		type "ShipGraveyard"
+		type "Copper"
 		pos [ 342 , 110 ]
 		owner ""
 		isHomePlanet FALSE
@@ -768,7 +768,7 @@ star
 	planet
 		designName "Planet29"
 		inGameName ""
-		type "ShipGraveyard"
+		type "Copper"
 		pos [ 178 , 439 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1018,7 +1018,7 @@ star
 	planet
 		designName "Planet39"
 		inGameName ""
-		type "ShipGraveyard"
+		type "Copper"
 		pos [ 471 , 279 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1068,7 +1068,7 @@ star
 	planet
 		designName "Planet41"
 		inGameName ""
-		type "ShipGraveyard"
+		type "Copper"
 		pos [ 350 , 332 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1368,7 +1368,7 @@ star
 	planet
 		designName "Planet53"
 		inGameName ""
-		type "ShipGraveyard"
+		type "Copper"
 		pos [ 304 , 421 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1493,7 +1493,7 @@ star
 	planet
 		designName "Planet58"
 		inGameName ""
-		type "ShipGraveyard"
+		type "Copper"
 		pos [ 137 , 195 ]
 		owner ""
 		isHomePlanet FALSE

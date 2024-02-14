@@ -2277,7 +2277,7 @@ star
 	planet
 		designName "Planet267"
 		inGameName ""
-		type "ShipGraveyard"
+		type "Copper"
 		pos [ 750 , 275 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2302,7 +2302,7 @@ star
 	planet
 		designName "Planet268"
 		inGameName ""
-		type "ShipGraveyard"
+		type "Copper"
 		pos [ 750 , 325 ]
 		owner ""
 		isHomePlanet FALSE
