@@ -457,7 +457,7 @@ star
 	planet
 		designName "Planet56"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 767 , 137 ]
 		owner ""
 		isHomePlanet FALSE

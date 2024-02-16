@@ -817,7 +817,7 @@ star
 	planet
 		designName "Planet33"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 153 , 639 ]
 		owner ""
 		isHomePlanet FALSE
@@ -842,7 +842,7 @@ star
 	planet
 		designName "Planet34"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 245 , 219 ]
 		owner ""
 		isHomePlanet FALSE
@@ -892,7 +892,7 @@ star
 	planet
 		designName "Planet36"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 767 , 123 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1017,7 +1017,7 @@ star
 	planet
 		designName "Planet41"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 832 , 761 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1067,7 +1067,7 @@ star
 	planet
 		designName "Planet43"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 901 , 312 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1217,7 +1217,7 @@ star
 	planet
 		designName "Planet49"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 347 , 877 ]
 		owner ""
 		isHomePlanet FALSE

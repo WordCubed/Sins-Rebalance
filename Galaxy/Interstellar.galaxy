@@ -67,7 +67,7 @@ star
 	planet
 		designName "Planet3"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 102 , 142 ]
 		owner ""
 		isHomePlanet FALSE
@@ -512,7 +512,7 @@ star
 	planet
 		designName "Planet23"
 		inGameName ""
-		type "Ferrus"
+		type "Ferrous"
 		pos [ 3001 , 143 ]
 		owner ""
 		isHomePlanet FALSE
