@@ -673,7 +673,7 @@ GameplayConstants
 			UpgradePlanetIndustry 40
 			MaxBountyBidCount 20
 			UpgradeStarBase 5
-			BuildMines 0
+			BuildMines 5
 		table-Defensive
 			BuildShip 20
 			BuildModuleTactical 40
@@ -687,7 +687,7 @@ GameplayConstants
 			UpgradePlanetIndustry 5
 			MaxBountyBidCount 5
 			UpgradeStarBase 40
-			BuildMines 0
+			BuildMines 5
 		table-Research
 			BuildShip 20
 			BuildModuleTactical 10
@@ -701,7 +701,7 @@ GameplayConstants
 			UpgradePlanetIndustry 5
 			MaxBountyBidCount 5
 			UpgradeStarBase 10
-			BuildMines 0
+			BuildMines 5
 		table-Economic
 			BuildShip 20
 			BuildModuleTactical 10
@@ -715,7 +715,7 @@ GameplayConstants
 			UpgradePlanetIndustry 20
 			MaxBountyBidCount 10
 			UpgradeStarBase 10
-			BuildMines 0
+			BuildMines 5
 	playerDiplomacyAIDef
 		breakRelationshipThreshold:Trade 2.0
 		breakRelationshipThreshold:ExternalVision 4.0
@@ -1337,7 +1337,7 @@ GameplayConstants
 		missionColonizeDefName = "MissionColonize"
 		missionDefendFlagshipDefName = "MissionDefendFlagship"
 		missionBuildStarBaseDefName = "MissionBuildStarBase"
-		missionBuildMinesDefName = "MissionBuildMines"
+		missionBuildMinesDefName = "MissionBuildStarBase"
 		missionFosterRelationshipsDefName = "MissionFosterRelationships"
 		missionExploreDefName = "MissionExplore"
 		missionRaidDefName = "MissionRaid"

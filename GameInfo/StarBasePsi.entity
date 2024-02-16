@@ -5,7 +5,7 @@ ability:0 "AbilityMassDisorientation"
 ability:1 "AbilityMeteorStrikeShips"
 ability:2 "AbilityMeteorStrikePlanet"
 ability:3 "AbilityDestabilizeHyperspace"
-ability:4 "AbilitySpawnStarbaseConstructorPsi"
+ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

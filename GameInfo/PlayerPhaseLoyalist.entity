@@ -65,7 +65,7 @@ entities
 			entityDefName "FrigatePhaseUtility1"
 			entityDefName "FrigatePhaseCarrier"
 		NotOnPage
-			count 8
+			count 7
 			entityDefName "FrigatePhaseModuleConstructor"
 			entityDefName "FrigatePhaseTradeShip"
 			entityDefName "FrigatePhaseRefineryShip"
@@ -73,7 +73,6 @@ entities
 			entityDefName "FrigatePhaseSuppotNaniteSwarm"
 			entityDefName "FrigatePhaseAssaultNaniteSwarm"
 			entityDefName "FrigatePhaseGreaterNaniteSwarm"
-			entityDefName "FrigatePhaseStarBaseConstructorFree"
 	researchInfo
 		count 165
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSPHASE"

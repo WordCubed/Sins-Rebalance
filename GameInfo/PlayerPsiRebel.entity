@@ -64,11 +64,10 @@ entities
 			entityDefName "FrigatePsiUtility1"
 			entityDefName "FrigatePsiCarrier"
 		NotOnPage
-			count 4
+			count 3
 			entityDefName "FrigatePsiModuleConstructor"
 			entityDefName "FrigatePsiTradeShip"
 			entityDefName "FrigatePsiRefineryShip"
-			entityDefName "FrigatePsiStarBaseConstructorFree"
 	researchInfo
 		count 163
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSPSI"

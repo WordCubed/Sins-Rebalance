@@ -2503,7 +2503,7 @@ planetItemsTemplate
 				param "DefaultTech"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 34
+			items 35
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:TradePort"
 				item "Tech:Module:RepairPlatform"
@@ -2516,6 +2516,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2544,7 +2545,7 @@ planetItemsTemplate
 				param "DefaultPsi"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 34
+			items 35
 				item "Psi:Module:FrigateFactory"
 				item "Psi:Module:TradePort"
 				item "Psi:Module:RepairPlatform"
@@ -2557,6 +2558,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
+				item "Psi:StarBase"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -2585,7 +2587,7 @@ planetItemsTemplate
 				param "DefaultPhase"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 34
+			items 35
 				item "Phase:Module:FrigateFactory"
 				item "Phase:Module:TradePort"
 				item "Phase:Module:RepairPlatform"
@@ -2598,6 +2600,7 @@ planetItemsTemplate
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
@@ -2626,7 +2629,7 @@ planetItemsTemplate
 				param "TechMiners"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 37
+			items 38
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:TradePort"
 				item "Tech:Module:RepairPlatform"
@@ -2639,6 +2642,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2670,7 +2674,7 @@ planetItemsTemplate
 				param "TechScrappers"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 34
+			items 35
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:TradePort"
 				item "Tech:Module:RepairPlatform"
@@ -2683,6 +2687,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2711,7 +2716,7 @@ planetItemsTemplate
 				param "TechSiegeRaiders"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 39
+			items 40
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:CapitalShipFactory"
 				item "Tech:Module:TradePort"
@@ -2725,6 +2730,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2757,7 +2763,7 @@ planetItemsTemplate
 				param "TechDemolitionists"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 38
+			items 39
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:TradePort"
 				item "Tech:Module:RepairPlatform"
@@ -2770,6 +2776,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2802,7 +2809,7 @@ planetItemsTemplate
 				param "TechXenophobes"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 37
+			items 38
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:TradePort"
@@ -2816,6 +2823,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2846,7 +2854,7 @@ planetItemsTemplate
 				param "TechDefensive"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 34
+			items 35
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:TradePort"
 				item "Tech:Module:RepairPlatform"
@@ -2859,6 +2867,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2887,7 +2896,7 @@ planetItemsTemplate
 				param "TechUsedFrigates"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 32
+			items 33
 				item "Psi:Module:FrigateFactory"
 				item "Phase:Module:FrigateFactory"
 				item "Tech:Module:FrigateFactory"
@@ -2898,6 +2907,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
+				item "Tech:StarBase"
 				item "Tech:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -2926,7 +2936,7 @@ planetItemsTemplate
 				param "PsiPacifists"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 37
+			items 38
 				item "Psi:Module:FrigateFactory"
 				item "Psi:Module:CapitalShipFactory"
 				item "Psi:Module:TradePort"
@@ -2940,6 +2950,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
+				item "Psi:StarBase"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -2970,7 +2981,7 @@ planetItemsTemplate
 				param "PsiCulture"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 35
+			items 36
 				item "Psi:Module:FrigateFactory"
 				item "Psi:Module:TradePort"
 				item "Psi:Module:RepairPlatform"
@@ -2983,6 +2994,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
+				item "Psi:StarBase"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -3012,7 +3024,7 @@ planetItemsTemplate
 				param "PsiDoomCult"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 34
+			items 35
 				item "Psi:Module:FrigateFactory"
 				item "Psi:Module:TradePort"
 				item "Psi:Module:RepairPlatform"
@@ -3025,6 +3037,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
+				item "Psi:StarBase"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -3053,7 +3066,7 @@ planetItemsTemplate
 				param "PsiSiegeRaiders"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 34
+			items 35
 				item "Psi:Module:FrigateFactory"
 				item "Psi:Module:TradePort"
 				item "Psi:Module:RepairPlatform"
@@ -3066,6 +3079,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
+				item "Psi:StarBase"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -3094,7 +3108,7 @@ planetItemsTemplate
 				param "PhaseTransporters"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 36
+			items 37
 				item "Phase:Module:FrigateFactory"
 				item "Phase:Module:CapitalShipFactory"
 				item "Phase:Module:TradePort"
@@ -3108,6 +3122,7 @@ planetItemsTemplate
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
+				item "Phase:StarBase"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
@@ -3137,7 +3152,7 @@ planetItemsTemplate
 				param "PhaseExpedition"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 38
+			items 39
 				item "Phase:Module:FrigateFactory"
 				item "Phase:Module:TradePort"
 				item "Phase:Module:RepairPlatform"
@@ -3150,6 +3165,7 @@ planetItemsTemplate
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
+				item "Phase:StarBase"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
@@ -3182,7 +3198,7 @@ planetItemsTemplate
 				param "PhaseArmsDealers"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 38
+			items 39
 				item "Phase:Module:FrigateFactory"
 				item "Phase:Module:TradePort"
 				item "Phase:Module:RepairPlatform"
@@ -3195,6 +3211,7 @@ planetItemsTemplate
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
+				item "Phase:StarBase"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
