@@ -710,7 +710,7 @@ planetType
 	designStringId "IDSGalaxyScenarioTypePlanetWormhole"
 	orbitBodyTypeCount 1
 	orbitBodyType "Wormhole"
-orbitBodyTypeCount 51
+orbitBodyTypeCount 52
 orbitBodyType
 	typeName "BlueStar"
 	entityDefName "STAR_BLUE"
@@ -750,6 +750,10 @@ orbitBodyType
 orbitBodyType
 	typeName "Ferrus"
 	entityDefName "PlanetFerrus"
+	defaultTemplateName "Template:DefaultStart_Ferrus"
+orbitBodyType
+	typeName "Copper"
+	entityDefName "PlanetCopper"
 	defaultTemplateName "Template:DefaultStart_Ferrus"
 orbitBodyType
 	typeName "Oceanic"

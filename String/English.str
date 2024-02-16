@@ -1,5 +1,11 @@
 TXT
-NumStrings 8777
+NumStrings 8779
+StringInfo
+	ID "IDS_PLANETTYPE_COPPER"
+	Value "Cuprous Planet"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetCopper"
+	Value "Cuprous"
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALREPAIRPLATFORM_NAME"
 	Value "Repair Platform"
@@ -767,22 +773,22 @@ StringInfo
 	Value "Further increases the power and effects of your culture on your empire's planets and ships."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_NAME"
-	Value "Iron & Asteroid Occupation"
+	Value "Metal & Small Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_DESCRIPTION"
-	Value "Allows colonization of Iron-type and small planets."
+	Value "Allows colonization of Metallic and of tiny planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_NAME"
-	Value "Iron & Asteroid Subjugation 1"
+	Value "Metal & Tiny Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_DESCRIPTION"
-	Value "Inhabitants are genetically modified to slow their metabolisms to survive more easily in non-organic environements, increasing the population that Iron-type and Asteroid-type planets can support."
+	Value "Inhabitants are genetically modified to slow their metabolisms to survive more easily in non-organic environements, increasing the population that Metal-type and Asteroid-type planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_NAME"
-	Value "Iron & Asteroid Subjugation 2"
+	Value "Metal & Tiny Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_DESCRIPTION"
-	Value "Organic life is introduced in an effort to terraform the planet, making the environment less hostile and increasing the population that Iron-type and Asteroid-type planets can support."
+	Value "Organic life is introduced in an effort to terraform the planet, making the environment less hostile and increasing the population that Metal-type and Asteroid-type planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE_NAME"
 	Value "Hazardous Occupation"
@@ -1361,22 +1367,22 @@ StringInfo
 	Value "Allows colonization of hazardous places like Volcanic, Toxic, and Hydrocarbon planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_NAME"
-	Value "Iron & Small Occupation"
+	Value "Metal & Small Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_DESCRIPTION"
-	Value "Allows colonization of Iron-type and small planets."
+	Value "Allows colonization of Metal-type and small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPSI_NAME"
-	Value "Iron & Small Evangelism"
+	Value "Metal & Small Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPSI_DESCRIPTION"
-	Value "Allows colonization of Iron-type and small planets."
+	Value "Allows colonization of Metal-type and small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONTECH_NAME"
-	Value "Iron & Small Exploitation"
+	Value "Metal & Small Exploitation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONTECH_DESCRIPTION"
-	Value "Allows colonization of Iron-type and small planets."
+	Value "Allows colonization of Metal-type and small planets."
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat1Tech"
 	Value "Exploration"
@@ -1658,7 +1664,7 @@ StringInfo
 	Value "Random Hazardous Planet"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetIron"
-	Value "Random Iron Planet"
+	Value "Random Metallic Planet"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetSmall"
 	Value "Random Tiny Planet"
