@@ -526,10 +526,10 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "DesertHome"
 planetType
-	designName "Ferrous"
-	designStringId "IDSGalaxyScenarioTypePlanetFerrous"
+	designName "Ferrus"
+	designStringId "IDSGalaxyScenarioTypePlanetFerrus"
 	orbitBodyTypeCount 1
-	orbitBodyType "Ferrous"
+	orbitBodyType "Ferrus"
 planetType
 	designName "GasGiant"
 	designStringId "IDSGalaxyScenarioTypePlanetGasGiant"
