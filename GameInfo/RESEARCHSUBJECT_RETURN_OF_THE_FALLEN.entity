@@ -36,11 +36,7 @@ researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
 	buffToApply "BuffGhostsOfTheFallenSelf"
-researchFloatModifiers 1
-researchModifier
-	modifierType "ChanceToRespawnFrigateAtHomeworldUponDeath"
-	baseValue 0.000000
-	perLevelValue 0.500000
+researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

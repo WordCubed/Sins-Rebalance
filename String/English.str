@@ -1,11 +1,14 @@
 TXT
-NumStrings 8783
+NumStrings 8784
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_REANIMATION_DESCRIPTION"
+	Value "Allows the Unity to create a temporary clone of destroyed enemy frigates, cruisers, or corvettes where they were defeated, and to sometimes resurrect its own fallen ships at its capital planet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_NAME"
 	Value "Ghosts of the Fallen"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_DESCRIPTION"
-	Value "The Unity is haunted by the ghosts of your fallen comrades, permanently boosting the weapon damange of any surviving participants in the battle by 15% (stacks up to 4 times for a total of 60%). Also causes frigates, cruisers and corvettes to be resurrected sometimes at your capital."
+	Value "The Unity is watched over by the ghosts of your fallen comrades, permanently increasing the power and durability of the remaining participants in battle. Boosts weapon damage by 15% (stacks up to 4 times for a total of 60%) as well as shield mitigation, resistance to shield-skipping weapons, and max shield points."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_KILL_COUNT_NAME"
 	Value "Kill Counts"
