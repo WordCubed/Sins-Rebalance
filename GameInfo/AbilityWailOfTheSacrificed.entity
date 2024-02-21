@@ -26,10 +26,10 @@ isUltimateAbility FALSE
 maxNumLevels 2
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED"
-aiUseTime "Invalid"
-aiUseTargetCondition "Invalid"
-isAutoCastAvailable FALSE
-isAutoCastOnByDefault FALSE
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000

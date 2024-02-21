@@ -12,7 +12,7 @@ numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnOwnerDeath"
-	buffType "BuffDeathRitesRecourse"
+	buffType "BuffKillCountRecourse"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"

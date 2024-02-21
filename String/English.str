@@ -1,5 +1,17 @@
 TXT
-NumStrings 8779
+NumStrings 8783
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_NAME"
+	Value "Ghosts of the Fallen"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_DESCRIPTION"
+	Value "The Unity is haunted by the ghosts of your fallen comrades, permanently boosting the weapon damange of any surviving participants in the battle by 15% (stacks up to 4 times for a total of 60%). Also causes frigates, cruisers and corvettes to be resurrected sometimes at your capital."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_KILL_COUNT_NAME"
+	Value "Kill Counts"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_KILL_COUNT_DESCRIPTION"
+	Value "Your soldiers take pride in their kill count. Permanently boosts weapon damage by 10% for each enemy unit killed (capped at 50%)."
 StringInfo
 	ID "IDS_PLANETTYPE_COPPER"
 	Value "Cuprous Planet"
@@ -443,7 +455,7 @@ StringInfo
 	Value "Death Rites"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_DESCRIPTION"
-	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen comrade. A 10% damage buff that stacks up to 5 times, for a total bonus of up to 50%."
+	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen enemy. A 15% damage buff that stacks up to 4 times, for a total bonus of up to 60%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1_DESCRIPTION"
 	Value "Grants access to the Titan Foundry and allows you to begin construction on the Eradica Titan, a massive warship of immense power."
@@ -608,19 +620,19 @@ StringInfo
 	Value "Soft Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a 30% damage bonus for 3 minutes."
+	Value "Upon completing a phase jump, your ships and starbases receive a 50% damage bonus for 2 minutes."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_NAME"
 	Value "Hard Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 30% damage bonus for 6 minutes. Stacks with Soft Phasic Strike for a total bonus of 60%."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 4 minutes. Stacks with Soft Phasic Strike for a total bonus of 100%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_NAME"
 	Value "Combined Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 30% damage bonus for 9 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 90% for 3 minutes, 60% for 6 minutes, and 30% for 9 minutes."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 40% damage bonus for 6 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 140% for 2 minutes, 100% for 4 minutes, and 50% for 6 minutes."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_JUMPBLOCKERIMMUNEPHASE_NAME"
 	Value "Jump Blocker Immunity"
@@ -1271,13 +1283,13 @@ StringInfo
 	Value "Extreme Prejudice"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRENZY_DESCRIPTION"
-	Value "Your crews assault enemy territory with extreme prejudice. Boosts weapon damage by 40% upon entering an enemy gravity well, though the bonus expires upon should the local planet be colonized by yourself or an ally."
+	Value "Your crews assault enemy territory with extreme prejudice. Boosts weapon damage by 50% upon entering an enemy gravity well, though the bonus expires upon should the local planet be colonized by yourself or an ally."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CRUEL_HARVEST_NAME"
 	Value "Cruel Harvest"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CRUEL_HARVEST_DESCRIPTION"
-	Value "After freeing an enemy colony, any surviving enemies and traitors are enslaved and stripped of any useful resources to aid your fleet, allowing your ships in orbit to recover from the recent battle."
+	Value "After freeing an enemy colony, any surviving enemies and traitors are enslaved and stripped of any useful resources to aid your fleet, healing your ships from the recent battle and permanently increasing their armor, hull, and shields."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIP_MAXBUYLEVELTECH0_NAME"
 	Value "Civil Defense Act III"
@@ -1601,19 +1613,19 @@ StringInfo
 	Value "TEC Loyalists are meant for turtling. With research, they gain large buffs for defending themselves. Their tactical structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% in friendly gravity wells; +10% per invasion repelled (capped at 40%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
-	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for destroying enemy colonies, allowing them to steamroll deep into enemy territory. MAIN DAMAGE BUFFS: +40% in enemy wells; +10% per enemy planet destroyed (capped at 50%)"
+	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for killing enem ships and destroying enemy colonies, allowing them to steamroll deep into enemy territory. MAIN DAMAGE BUFFS: +50% in enemy wells; +10% per enemy unit killed (capped at 50%); +10% per enemy planet destroyed (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
 	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+80% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +10% per invasion repelled (capped at 40%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
-	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. Furthermore, their strongest buffs increase with each loss they take, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +10% per ship lost (capped at 50%); +10% per planet lost (capped at 40%)"
+	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. They grow stronger over the course of a battle, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +15% per ship lost (capped at 60%); +15% per enemy killed (capped at 60%); +15% per planet lost (capped at 30%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
 	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and strip planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +40% in neutral wells; +10% per planet lost (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
-	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. However, that buff fades out over very lengthy battles. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. MAIN DAMAGE BUFFS: +90% at end of phase jump, +10% per ally present"
+	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. However, that buff fades out over very lengthy battles. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. MAIN DAMAGE BUFFS: +140% at end of phase jump; +10% per ally present"
 StringInfo
 	ID "IDS_FRIGATE_PIRATESIEGE_DESCRIPTION"
 	Value "A medium frigate that sacrifices conventional combat strength for planetary bombardment weapons."

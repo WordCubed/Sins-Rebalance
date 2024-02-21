@@ -5,28 +5,29 @@ onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffCruelHarvestEffect"
+	buffType "BuffGhostsOfTheFallenTarget"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"
 		numObjects 6
-		object "Fighter"
 		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
-		object "Titan"
 		object "StarBase"
+		object "PlanetModule"
+		object "Titan"
 		numSpaces 1
 		space "Normal"
-		numConstraints 0
+		numConstraints 1
+		constraint "NotIsIllusionShip"
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
@@ -34,36 +35,7 @@ instantAction
 		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffCruelHarvestEffectHealth"
-	targetFilter
-		numOwnerships 1
-		ownership "Player"
-		numObjects 5
-		object "Corvette"
-		object "Frigate"
-		object "CapitalShip"
-		object "Titan"
-		object "StarBase"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
+			attachType "Center"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""

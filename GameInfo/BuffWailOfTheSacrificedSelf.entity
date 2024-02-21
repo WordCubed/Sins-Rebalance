@@ -26,16 +26,15 @@ instantAction
 	delayTime 0.000000
 	buffType "BuffWailOfTheSacrificedTarget"
 	targetFilter
-		numOwnerships 3
+		numOwnerships 2
 		ownership "Enemy"
 		ownership "NoOwner"
-		ownership "Player"
 		numObjects 7
+		object "Fighter"
+		object "Corvette"
+		object "Frigate"
 		object "CapitalShip"
 		object "Titan"
-		object "Corvette"
-		object "Fighter"
-		object "Frigate"
 		object "PlanetModule"
 		object "StarBase"
 		numSpaces 1

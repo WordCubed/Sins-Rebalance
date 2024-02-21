@@ -13,7 +13,7 @@ ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DEATH_RITES"
+		Subject "RESEARCHSUBJECT_PLANET_FOR_A_PLANET"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

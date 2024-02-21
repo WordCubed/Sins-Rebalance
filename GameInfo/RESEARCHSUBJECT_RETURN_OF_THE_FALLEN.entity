@@ -13,7 +13,7 @@ ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANET_FOR_A_PLANET"
+		Subject "RESEARCHSUBJECT_DEATH_RITES"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -30,14 +30,17 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 3
 onlyWorksIfTierLabsExist TRUE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 0
+researchBoolModifiers 1
+researchModifier
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffGhostsOfTheFallenSelf"
 researchFloatModifiers 1
 researchModifier
 	modifierType "ChanceToRespawnFrigateAtHomeworldUponDeath"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 0.500000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880
