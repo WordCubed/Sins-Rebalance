@@ -623,19 +623,19 @@ StringInfo
 	Value "Soft Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a 50% damage bonus for 2 minutes."
+	Value "Upon completing a phase jump, your ships and starbases receive a 50% damage bonus for 2 minutes. Also boosts armor & shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_NAME"
 	Value "Hard Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 4 minutes. Stacks with Soft Phasic Strike for a total bonus of 100%."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 4 minutes. Stacks with Soft Phasic Strike for a total bonus of 100%. Also boosts armor & shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_NAME"
 	Value "Combined Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 40% damage bonus for 6 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 140% for 2 minutes, 100% for 4 minutes, and 50% for 6 minutes."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 6 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 150% for 2 minutes, 100% for 4 minutes, and 50% for 6 minutes. Also boosts armor & shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_JUMPBLOCKERIMMUNEPHASE_NAME"
 	Value "Jump Blocker Immunity"
@@ -1616,7 +1616,7 @@ StringInfo
 	Value "TEC Loyalists are meant for turtling. With research, they gain large buffs for defending themselves. Their tactical structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% in friendly gravity wells; +10% per invasion repelled (capped at 40%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
-	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for killing enem ships and destroying enemy colonies, allowing them to steamroll deep into enemy territory. MAIN DAMAGE BUFFS: +50% in enemy wells; +10% per enemy unit killed (capped at 50%); +10% per enemy planet destroyed (capped at 50%)"
+	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for killing enemy ships and destroying enemy colonies, allowing them to steamroll deep into enemy territory. MAIN DAMAGE BUFFS: +50% in enemy wells; +10% per enemy unit killed (capped at 50%); +10% per enemy planet destroyed (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
 	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+80% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +10% per invasion repelled (capped at 40%)"
@@ -1628,7 +1628,7 @@ StringInfo
 	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and strip planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +40% in neutral wells; +10% per planet lost (capped at 50%)"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
-	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. However, that buff fades out over very lengthy battles. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. MAIN DAMAGE BUFFS: +140% at end of phase jump; +10% per ally present"
+	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. However, that buff fades out over very lengthy battles. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. MAIN DAMAGE BUFFS: +150% at end of phase jump; +10% per ally present"
 StringInfo
 	ID "IDS_FRIGATE_PIRATESIEGE_DESCRIPTION"
 	Value "A medium frigate that sacrifices conventional combat strength for planetary bombardment weapons."
