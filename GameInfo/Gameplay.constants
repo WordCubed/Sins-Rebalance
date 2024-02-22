@@ -1175,13 +1175,15 @@ GameplayConstants
 		npcIconOffset:PlanetIcon
 			xOffset 0
 			yOffset -52
-		colonizePlanetBlackListCount 3
+		colonizePlanetBlackListCount 5
 		planet "PlanetAsteroid"
 		planet "PlanetBarren"
+		planet "PlanetRenegadeAlliance"
 		planet "PlanetShipGraveyard"
-		colonizablePlanetsWithMinorFactionsPercent 0.2
+		planet "PlanetUrban"
+		colonizablePlanetsWithMinorFactionsPercent 0.25
 		minConnectionDistanceToColonizedPlanets 3
-		minConnectionDistanceToSameFactionPlanets 5
+		minConnectionDistanceToSameFactionPlanets 4
 		minAdjacentPlanetCount 4
 		infrastructurePlanetUpgradeLevel 4
 		populationPlanetUpgradeLevel 4
@@ -1349,5 +1351,5 @@ GameplayConstants
 		neutralCaptureBuffDefName = "BuffNeutralCapturableEntity"
 		fleetDefName = "Fleet"
 		formationDefName = "Formation"
-		spacePonyBonusDefName = "PlanetBonusSpacePony"
+		spacePonyBonusDefName = "PlanetBonusProminent"
 		decloakMineForMovementBuffDefName = "BuffDecloakMineForMovement"

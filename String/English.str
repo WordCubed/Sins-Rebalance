@@ -8,13 +8,13 @@ StringInfo
 	Value "Ghosts of the Fallen"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_DESCRIPTION"
-	Value "The Unity is watched over by the ghosts of your fallen comrades, permanently increasing the power and durability of the remaining participants in battle. Boosts weapon damage by 15% (stacks up to 4 times for a total of 60%) as well as shield mitigation, resistance to shield-skipping weapons, and max shield points."
+	Value "The Unity is watched over by the ghosts of your fallen comrades, permanently increasing the power and durability of the survivors in a battle. Boosts weapon damage by 25% (stacks up to 2 times for a total of 50%) as well as boosting shield mitigation, resistance to shield-skipping weapons, and max shield points."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_KILL_COUNT_NAME"
 	Value "Kill Counts"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_KILL_COUNT_DESCRIPTION"
-	Value "Your soldiers take pride in their kill count. Permanently boosts weapon damage by 10% for each enemy unit killed (capped at 50%)."
+	Value "Your soldiers take pride in their kill count. Permanently boosts weapon damage by 25% for each enemy unit killed (stacks 2 times to a total of 50%)."
 StringInfo
 	ID "IDS_PLANETTYPE_COPPER"
 	Value "Cuprous Planet"
@@ -335,7 +335,7 @@ StringInfo
 	Value "Grants the Synergy ability to Beam Defense Platforms, allowing them to amplify the damage and shields of other nearby defense platforms. A 16.7% damage bonus that stacks up to 50%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_1_DESCRIPTION"
-	Value "Grants access to the Titan Foundry and allows you to begin summoning the Vorastra Titan, a massive warship of immense power."
+	Value "Grants access to the Titan Foundry and allows you to begin summoning the Vorastra Titan, a massive warship of immense power. This Titan uses powerful abilities to keep its attendant fleet alive, and can spawn Phase Gates without colonies."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASELOYALIST_2_DESCRIPTION"
 	Value "Allows you to continue summoning the Vorastra Titan."
@@ -362,7 +362,7 @@ StringInfo
 	Value "If you successfully stop an invasion of one of your planets, all units orbiting that planet and neighboring planets gain a permanent 10% damage bonus (stacks up to 40%)."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
-	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of credits, metal, and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, with each planet you lose—by your own hand or your enemies'—you gain a permanent 10% damage bonus (stacking up to 50%)."
+	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of credits, metal, and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, with each planet you lose—by your own hand or your enemies'—you gain a permanent 13% damage bonus (stacking 3 times, up to 40%)."
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
 	Value "As the Titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."
@@ -458,10 +458,10 @@ StringInfo
 	Value "Death Rites"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_DESCRIPTION"
-	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen enemy. A 15% damage buff that stacks up to 4 times, for a total bonus of up to 60%."
+	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen enemy. A 25% damage buff that stacks 2 times for a total bonus of up to 50%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1_DESCRIPTION"
-	Value "Grants access to the Titan Foundry and allows you to begin construction on the Eradica Titan, a massive warship of immense power."
+	Value "Grants access to the Titan Foundry and allows you to begin construction on the Eradica Titan, a massive warship of immense power. This Titan manipulates life and death, and brainwashes its enemies into switching sides."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_2_DESCRIPTION"
 	Value "Allows you to continue construction on the Eradica Titan."
@@ -521,7 +521,7 @@ StringInfo
 	Value "Your psionic researchers have achieved further breakthroughs in substances. Increases armor and hull points & regeneration for all units."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSILOYALIST_1_DESCRIPTION"
-	Value "Grants access to the Titan Foundry and allows you to begin construction on the Coronata Titan, a massive warship of immense power."
+	Value "Grants access to the Titan Foundry and allows you to begin construction on the Coronata Titan, a massive warship of immense power. This Titan is the destructive will of the Unity made manifest."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSILOYALIST_2_DESCRIPTION"
 	Value "Allows you to continue construction on the Coronata Titan."
@@ -617,7 +617,7 @@ StringInfo
 	Value "Kultorask Prototype I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASEREBEL_1_DESCRIPTION"
-	Value "Grants access to the Titan Foundry and allows you to begin summoning the Kultorask Titan, a massive warship of immense power."
+	Value "Grants access to the Titan Foundry and allows you to begin summoning the Kultorask Titan, a massive warship of immense power. This Titan is highly mobile, teleporting across gravity wells before striking enemies hard with powerful abilities."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE_NAME"
 	Value "Soft Phasic Strike"
@@ -767,7 +767,7 @@ StringInfo
 	Value "Solitary Path"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SOLITARY_PATH_DESCRIPTION"
-	Value "Your units gain a 40% damage bonus when they are in a neutral or uncolonizable gravity well."
+	Value "Your units gain a 50% damage bonus when they are in a neutral or uncolonizable gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE0_NAME"
 	Value "Culture Subjugation 1"
@@ -1232,7 +1232,7 @@ StringInfo
 	Value "More militia teams temporarily join ship crews within the gravity well, further bolstering armor and weapon damage within friendly territory."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_A_PLANET_DESCRIPTION"
-	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships one time & permanently increasing weapon damage by 10%. (Stacks up to a total 40% bonus.)"
+	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships one time & permanently increasing weapon damage by 15%. (Stacks twice for a total 30% bonus.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPPHASE_NAME"
 	Value "Unstoppable Scouting"
@@ -1280,7 +1280,7 @@ StringInfo
 	Value "Thrill of Victory"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SAVAGE_THRILL_DESCRIPTION"
-	Value "Upon wiping out an enemy colony, the thrill of victory empowers your fleet to deal greater damage. Each subsequent victory grants more power. (Grants 10% bonus damage per defeated colony, up to 50%.)"
+	Value "Upon wiping out an enemy colony, the thrill of victory empowers your fleet to deal greater damage. Each subsequent victory grants more power. (Grants 25% bonus damage per defeated colony, up to 50%.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRENZY_NAME"
 	Value "Extreme Prejudice"
@@ -1292,7 +1292,7 @@ StringInfo
 	Value "Cruel Harvest"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CRUEL_HARVEST_DESCRIPTION"
-	Value "After freeing an enemy colony, any surviving enemies and traitors are enslaved and stripped of any useful resources to aid your fleet, healing your ships from the recent battle and permanently increasing their armor, hull, and shields."
+	Value "After freeing an enemy colony, any surviving enemies and traitors are enslaved and stripped of any useful resources to aid your fleet, healing your ships from the recent battle and permanently increasing their armor and hull."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CAPITALSHIP_MAXBUYLEVELTECH0_NAME"
 	Value "Civil Defense Act III"
@@ -1415,7 +1415,7 @@ StringInfo
 	Value "Titan Prototype I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_1_DESCRIPTION"
-	Value "Grants access to the Titan foundry and allows you to begin construction on the Ankylon Titan, a massive warship of immense power."
+	Value "Grants access to the Titan foundry and allows you to begin construction on the Ankylon Titan, a massive warship of immense power. This Titan supports its allies and suppresses its enemies with strong abilities."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_TECHLOYALIST_2_NAME"
 	Value "Titan Prototype II"
@@ -1439,7 +1439,7 @@ StringInfo
 	Value "Titan Prototype I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_TECHREBEL_1_DESCRIPTION"
-	Value "Grants access to the Titan foundry and allows you to begin construction on the Ragnarov Titan, a massive warship of immense power. Because the Titan uses a massive Railgun as its primary weapon, construction of the Titan has lead to improvements in all Railguns."
+	Value "Grants access to the Titan foundry and allows you to begin construction on the Ragnarov Titan, a massive warship of immense power. This Titan uses raw firepower and highly damaging abilities to destroy enemy fleets. Because the Titan uses a massive Railgun as its primary weapon, construction of the Titan has lead to improvements in all Railguns."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_TECHREBEL_2_NAME"
 	Value "Titan Prototype II"

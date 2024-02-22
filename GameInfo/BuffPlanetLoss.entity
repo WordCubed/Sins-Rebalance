@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 5
+stackingLimit 3
 allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
@@ -15,7 +15,7 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 0.100000
+		Level:0 0.133334
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
