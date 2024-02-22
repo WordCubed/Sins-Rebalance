@@ -34,7 +34,7 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "TacticalStructureWeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.125000
 researchModifier
 	modifierType "TacticalStructureArmorAdjustment"
 	baseValue 0.000000

@@ -33,7 +33,7 @@ researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
 	modifierType "WeaponIgnoresShieldsAdjustment"
-	baseValue 0.200000
+	baseValue 0.250000
 	perLevelValue 0.000000
 	linkedWeaponClass "Invalid"
 researchModifier

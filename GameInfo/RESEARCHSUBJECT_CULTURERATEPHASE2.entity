@@ -49,7 +49,7 @@ researchModifier
 researchModifier
 	modifierType "CultureChanceToIgnoreShieldsAsDamageTarget"
 	baseValue 0.000000
-	perLevelValue -0.050000
+	perLevelValue -0.041666
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
