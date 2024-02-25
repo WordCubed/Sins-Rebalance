@@ -70,7 +70,8 @@ entities
 			entityDefName "FrigateTechTradeShip"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 167
+		count 168
+		entityDefName "RESEARCHSUBJECT_AIBONUSTECH"
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSTECH"
 		entityDefName "RESEARCHSUBJECT_FACTIONBONUS_TECHREBEL"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"

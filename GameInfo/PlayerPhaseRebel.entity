@@ -74,7 +74,8 @@ entities
 			entityDefName "FrigatePhaseAssaultNaniteSwarm"
 			entityDefName "FrigatePhaseGreaterNaniteSwarm"
 	researchInfo
-		count 168
+		count 169
+		entityDefName "RESEARCHSUBJECT_AIBONUSPHASEREBEL"
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSPHASE"
 		entityDefName "RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL"
 		entityDefName "RESEARCHSUBJECT_CORVETTEACCESS_PHASEREBEL"

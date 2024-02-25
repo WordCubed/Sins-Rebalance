@@ -7,7 +7,7 @@ browseName "Vacation"
 browseDescription "Your empire starts surrounded by rich, lush planets. It's almost enough to make you sit back and relax—almost."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 1.000000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
