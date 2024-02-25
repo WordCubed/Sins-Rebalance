@@ -8,13 +8,13 @@ StringInfo
 	Value "Ghosts of the Fallen"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_DESCRIPTION"
-	Value "The Unity is watched over by the ghosts of your fallen comrades, permanently increasing the power and durability of the survivors in a battle. Boosts weapon damage by 25% (stacks up to 2 times for a total of 50%) as well as boosting shield mitigation, resistance to shield-skipping weapons, and max shield points."
+	Value "The Unity is watched over by the ghosts of your fallen comrades, permanently increasing the power and durability of the survivors in a battle. Boosts weapon damage by 50% as well as raising shield mitigation, resistance to shield-skipping weapons, and max shield points."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_KILL_COUNT_NAME"
-	Value "Kill Counts"
+	Value "First Blood"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_KILL_COUNT_DESCRIPTION"
-	Value "Your soldiers take pride in their kill count. Permanently boosts weapon damage by 25% for each enemy unit killed (stacks 2 times to a total of 50%)."
+	Value "Your soldiers take pride in their first kill. Permanently boosts weapon damage by 50% killing an enemy unit."
 StringInfo
 	ID "IDS_PLANETTYPE_COPPER"
 	Value "Cuprous Planet"
@@ -458,7 +458,7 @@ StringInfo
 	Value "Death Rites"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_DESCRIPTION"
-	Value "The Unity's death rites empower the survivors of a battle to grow stronger with each fallen enemy. A 25% damage buff that stacks 2 times for a total bonus of up to 50%."
+	Value "The Unity's death rites empower the survivors of a battle to grow stronger from a fallen enemy, activating a 50% damage buff."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1_DESCRIPTION"
 	Value "Grants access to the Titan Foundry and allows you to begin construction on the Eradica Titan, a massive warship of immense power. This Titan manipulates life and death, and brainwashes its enemies into switching sides."
@@ -1280,7 +1280,7 @@ StringInfo
 	Value "Thrill of Victory"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SAVAGE_THRILL_DESCRIPTION"
-	Value "Upon wiping out an enemy colony, the thrill of victory empowers your fleet to deal greater damage. Each subsequent victory grants more power. (Grants 25% bonus damage per defeated colony, up to 50%.)"
+	Value "Upon wiping out an enemy colony, the thrill of victory empowers your fleet to deal greater damage. Each subsequent victory grants more power. (Grants 50% bonus damage.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRENZY_NAME"
 	Value "Extreme Prejudice"
