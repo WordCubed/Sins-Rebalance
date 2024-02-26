@@ -30,9 +30,9 @@ randomizerParams
 		minPercentage 10.000000
 		maxPercentage 15.000000
 	playerParams
-		startingCredits 18000
+		startingCredits 12000
 		startingMetal 3600
-		startingCrystal 1800
+		startingCrystal 2400
 		homePlanetType "TerranHome"
 		homePlanetStarRadiusRange
 			minPercentage 0.500000

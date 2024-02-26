@@ -34,7 +34,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ModuleCostForSimilarTypesAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.400000
+	perLevelValue 0.250000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

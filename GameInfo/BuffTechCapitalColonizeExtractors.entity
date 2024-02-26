@@ -15,8 +15,8 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "ResourceExtractionRate"
 	value
-		Level:0 0.166667
-		Level:1 0.333333
+		Level:0 0.250000
+		Level:1 0.375000
 		Level:2 0.500000
 		Level:3 0.000000
 numEntityBoolModifiers 0

@@ -3458,9 +3458,9 @@ player
 	inGameName "Player0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 18000
+	startingCredits 12000
 	startingMetal 3600
-	startingCrystal 1800
+	startingCrystal 2400
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3471,9 +3471,9 @@ player
 	inGameName "Player1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 18000
+	startingCredits 12000
 	startingMetal 3600
-	startingCrystal 1800
+	startingCrystal 2400
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3484,9 +3484,9 @@ player
 	inGameName "Player2"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 18000
+	startingCredits 12000
 	startingMetal 3600
-	startingCrystal 1800
+	startingCrystal 2400
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3497,9 +3497,9 @@ player
 	inGameName "Player3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 18000
+	startingCredits 12000
 	startingMetal 3600
-	startingCrystal 1800
+	startingCrystal 2400
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3510,9 +3510,9 @@ player
 	inGameName "Player4"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 18000
+	startingCredits 12000
 	startingMetal 3600
-	startingCrystal 1800
+	startingCrystal 2400
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3523,9 +3523,9 @@ player
 	inGameName "Player5"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 18000
+	startingCredits 12000
 	startingMetal 3600
-	startingCrystal 1800
+	startingCrystal 2400
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

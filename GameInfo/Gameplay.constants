@@ -64,11 +64,11 @@ GameplayConstants
 		ExperienceLevelData:0
 			ExperienceNeededForNextLevel 400.0
 			ExperienceGainedForDestroying 400.0
-			UpgradePriceForNextLevel 500.0
+			UpgradePriceForNextLevel 0.0
 		ExperienceLevelData:1
 			ExperienceNeededForNextLevel 540.0
 			ExperienceGainedForDestroying 445.0
-			UpgradePriceForNextLevel 1000.0
+			UpgradePriceForNextLevel 0.0
 		ExperienceLevelData:2
 			ExperienceNeededForNextLevel 720.0
 			ExperienceGainedForDestroying 490.0
