@@ -392,7 +392,7 @@ bonus "PlanetBonusExtremelyHarsh"
 possibleRandomPlanetBonusesCount 4
 bonus "PlanetBonusDenseCore"
 bonus "PlanetBonusFertileSoil"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
+bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusSubsurfaceMetalDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

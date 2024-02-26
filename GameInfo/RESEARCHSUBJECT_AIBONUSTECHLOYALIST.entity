@@ -11,10 +11,7 @@ researchWindowLocation
 	pos [ 99 , 1 ]
 ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 2
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_TWIN_FORTRESSES"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -32,10 +29,7 @@ Tier 4
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 99.000000
-researchBoolModifiers 1
-researchModifier
-	modifierType "ApplyBuffToPlanetAfterColonization"
-	buffToApply "BuffAutoDeployStarBaseTechLoyalist"
+researchBoolModifiers 0
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

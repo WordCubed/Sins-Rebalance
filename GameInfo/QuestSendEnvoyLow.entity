@@ -6,8 +6,8 @@ infoCardDescStringId "IDSQuestInfoCardDescSendEnvoy"
 questType "SendEnvoy"
 duration 1800.000000
 relationshipDecayRate 0.000000
-happinessChangeForSuccess 0.050000
-happinessChangeForFailure -0.030000
+happinessChangeForSuccess 1.000000
+happinessChangeForFailure -0.500000
 reward
 	credits 9000.000000
 	metal 1800.000000
