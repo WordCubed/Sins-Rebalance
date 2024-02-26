@@ -1200,7 +1200,7 @@ player
 	inGameName "NewPlayer0"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 12000
+	startingCredits 15000
 	startingMetal 3600
 	startingCrystal 2400
 	playerType "Normal"
@@ -1213,7 +1213,7 @@ player
 	inGameName "NewPlayer1"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 12000
+	startingCredits 15000
 	startingMetal 3600
 	startingCrystal 2400
 	playerType "Normal"
@@ -1226,7 +1226,7 @@ player
 	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 12000
+	startingCredits 15000
 	startingMetal 3600
 	startingCrystal 2400
 	playerType "Normal"
