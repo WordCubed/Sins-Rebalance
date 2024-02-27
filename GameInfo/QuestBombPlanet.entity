@@ -6,12 +6,12 @@ infoCardDescStringId "IDSQuestInfoCardDescBombPlanet"
 questType "BombAnyPlanet"
 duration 2400.000000
 relationshipDecayRate 0.000000
-happinessChangeForSuccess 1.500000
-happinessChangeForFailure -0.750000
+happinessChangeForSuccess 2.000000
+happinessChangeForFailure -1.000000
 reward
-	credits 6000.000000
-	metal 1200.000000
-	crystal 600.000000
+	credits 10000.000000
+	metal 2000.000000
+	crystal 2000.000000
 priceDemanded
 	credits 0.000000
 	metal 0.000000
@@ -26,7 +26,7 @@ numTargetConstraints 3
 TargetConstraint
 	type "TargetHappiness"
 	min 0.000000
-	max 5.800000
+	max 6.000000
 TargetConstraint
 	type "TargetDist"
 	min 0.000000

@@ -6,14 +6,14 @@ infoCardDescStringId "IDSQuestInfoCardDescGiveCredits"
 questType "GiveResources"
 duration 900.000000
 relationshipDecayRate 0.000000
-happinessChangeForSuccess 0.400000
-happinessChangeForFailure -0.200000
+happinessChangeForSuccess 2.000000
+happinessChangeForFailure -1.000000
 reward
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
 priceDemanded
-	credits 6000.000000
+	credits 15000.000000
 	metal 0.000000
 	crystal 0.000000
 valueToKill 0.000000

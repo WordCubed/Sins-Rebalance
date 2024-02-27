@@ -37,11 +37,11 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "QuestRewardHappinessAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.166667
+	perLevelValue 0.250000
 researchModifier
 	modifierType "QuestFailureHappinessAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.125000
+	perLevelValue -0.250000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

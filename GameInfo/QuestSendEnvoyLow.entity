@@ -9,9 +9,9 @@ relationshipDecayRate 0.000000
 happinessChangeForSuccess 2.000000
 happinessChangeForFailure -1.000000
 reward
-	credits 9000.000000
-	metal 1800.000000
-	crystal 1800.000000
+	credits 10000.000000
+	metal 2000.000000
+	crystal 2000.000000
 priceDemanded
 	credits 0.000000
 	metal 0.000000
@@ -20,12 +20,12 @@ valueToKill 0.000000
 numReceiverConstraints 1
 ReceiverConstraint
 	type "TargetHappiness"
-	min 3.500000
+	min 4.000000
 	max 20.000000
 numTargetConstraints 3
 TargetConstraint
 	type "TargetHappiness"
-	min 3.500000
+	min 4.000000
 	max 20.000000
 TargetConstraint
 	type "TargetDist"

@@ -6,12 +6,12 @@ infoCardDescStringId "IDSQuestInfoCardDescKillCivilianModules"
 questType "KillCivilianStructures"
 duration 2160.000000
 relationshipDecayRate 0.000000
-happinessChangeForSuccess 0.750000
-happinessChangeForFailure -0.380000
+happinessChangeForSuccess 2.000000
+happinessChangeForFailure -1.000000
 reward
-	credits 9000.000000
-	metal 1350.000000
-	crystal 1350.000000
+	credits 10000.000000
+	metal 2000.000000
+	crystal 2000.000000
 priceDemanded
 	credits 0.000000
 	metal 0.000000

@@ -6,8 +6,8 @@ infoCardDescStringId "IDSQuestInfoCardDescGiveCrystal"
 questType "GiveResources"
 duration 900.000000
 relationshipDecayRate 0.000000
-happinessChangeForSuccess 0.270000
-happinessChangeForFailure -0.140000
+happinessChangeForSuccess 2.000000
+happinessChangeForFailure -1.000000
 reward
 	credits 0.000000
 	metal 0.000000
@@ -15,7 +15,7 @@ reward
 priceDemanded
 	credits 0.000000
 	metal 0.000000
-	crystal 1200.000000
+	crystal 2000.000000
 valueToKill 0.000000
 numReceiverConstraints 2
 ReceiverConstraint

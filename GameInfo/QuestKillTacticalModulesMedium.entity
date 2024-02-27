@@ -4,14 +4,14 @@ entityType "Quest"
 titleStringId "IDSQuestKillTacticalModules"
 infoCardDescStringId "IDSQuestInfoCardDescKillTacticalModules"
 questType "KillTacticalStructures"
-duration 2160.000000
+duration 1800.000000
 relationshipDecayRate 0.000000
-happinessChangeForSuccess 0.900000
-happinessChangeForFailure -0.450000
+happinessChangeForSuccess 2.000000
+happinessChangeForFailure -1.000000
 reward
-	credits 9000.000000
-	metal 1350.000000
-	crystal 1350.000000
+	credits 10000.000000
+	metal 2000.000000
+	crystal 2000.000000
 priceDemanded
 	credits 0.000000
 	metal 0.000000
@@ -26,7 +26,7 @@ numTargetConstraints 3
 TargetConstraint
 	type "TargetHappiness"
 	min 0.000000
-	max 7.900000
+	max 8.000000
 TargetConstraint
 	type "TargetDist"
 	min 0.000000
