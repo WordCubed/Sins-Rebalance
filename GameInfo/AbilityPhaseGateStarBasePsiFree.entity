@@ -16,8 +16,7 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATEPSI"
+levelSourceType "FixedLevel0"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE
@@ -27,10 +26,7 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Passive"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATEPSI"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_PHASEGATE_NAME"

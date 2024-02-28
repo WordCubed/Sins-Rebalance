@@ -40,7 +40,7 @@ stage
 		value 1.000000
 	upgradeProperty
 		propertyType "WeaponDamage"
-		value 1.000000
+		value 0.250000
 	upgradeBoolPropertyCount 0
 stage
 	price
@@ -63,6 +63,6 @@ stage
 		value 2.000000
 	upgradeProperty
 		propertyType "WeaponDamage"
-		value 1.000000
+		value 0.500000
 	upgradeBoolPropertyCount 0
 xpModifier 200.000000

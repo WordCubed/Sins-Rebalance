@@ -919,7 +919,7 @@ orbitBodyType
 	typeName "Urban"
 	entityDefName "PlanetUrban"
 	defaultTemplateName "Template:DefaultStart_Urban"
-planetItemTypeCount 148
+planetItemTypeCount 152
 planetItemType
 	designName "Phase:Module:Cannon"
 	entityDefName "PLANETMODULE_PHASEORBITALCANNON"
@@ -1200,11 +1200,23 @@ planetItemType
 	designName "Phase:StarBase"
 	entityDefName "StarBasePhase"
 planetItemType
+	designName "Phase:StarBaseFree"
+	entityDefName "StarBasePhaseFree"
+planetItemType
+	designName "Phase:StarBaseRebel"
+	entityDefName "StarBasePhaseRebel"
+planetItemType
 	designName "Psi:StarBase"
 	entityDefName "StarBasePsi"
 planetItemType
+	designName "Psi:StarBaseFree"
+	entityDefName "StarBasePsiFree"
+planetItemType
 	designName "Tech:StarBase"
 	entityDefName "StarBaseTech"
+planetItemType
+	designName "Tech:StarBaseFree"
+	entityDefName "StarBaseTechFree"
 planetItemType
 	designName "Phase:CapitalShip:BattleShip"
 	entityDefName "CAPITALSHIP_PHASEBATTLESHIP"
@@ -1457,7 +1469,7 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 15
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CultureCenter"
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:CapitalShipFactory"
@@ -1479,7 +1491,7 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 15
-				item "Psi:StarBase"
+				item "Psi:StarBaseFree"
 				item "Psi:Module:CultureCenter"
 				item "Psi:Module:FrigateFactory"
 				item "Psi:Module:CapitalShipFactory"
@@ -1501,7 +1513,7 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 15
-				item "Phase:StarBase"
+				item "Phase:StarBaseFree"
 				item "Phase:Module:CultureCenter"
 				item "Phase:Module:FrigateFactory"
 				item "Phase:Module:CapitalShipFactory"
@@ -1523,7 +1535,7 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 15
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CultureCenter"
 				item "Tech:Module:FrigateFactory"
 				item "Tech:Module:CapitalShipFactory"
@@ -1545,7 +1557,7 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 15
-				item "Psi:StarBase"
+				item "Psi:StarBaseFree"
 				item "Psi:Module:CultureCenter"
 				item "Psi:Module:FrigateFactory"
 				item "Psi:Module:CapitalShipFactory"
@@ -1567,7 +1579,7 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 15
-				item "Phase:StarBase"
+				item "Phase:StarBaseFree"
 				item "Phase:Module:CultureCenter"
 				item "Phase:Module:FrigateFactory"
 				item "Phase:Module:CapitalShipFactory"
@@ -2349,9 +2361,9 @@ planetItemsTemplate
 			owner "Occupation"
 			colonizeChance 1
 			items 55
-				item "Phase:StarBase"
-				item "Psi:StarBase"
-				item "Tech:StarBase"
+				item "Phase:StarBaseFree"
+				item "Psi:StarBaseFree"
+				item "Tech:StarBaseFree"
 				item "Phase:Titan:Rebel"
 				item "Phase:Frigate:LongRange"
 				item "Phase:Frigate:LongRange"
@@ -2415,9 +2427,9 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 90
-				item "Phase:StarBase"
-				item "Psi:StarBase"
-				item "Tech:StarBase"
+				item "Phase:StarBaseFree"
+				item "Psi:StarBaseFree"
+				item "Tech:StarBaseFree"
 				item "Phase:CapitalShip:Colony"
 				item "Phase:CapitalShip:Assault"
 				item "Phase:CapitalShip:SpecialCombat"
@@ -2528,7 +2540,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2570,7 +2582,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
-				item "Psi:StarBase"
+				item "Psi:StarBaseFree"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -2612,7 +2624,7 @@ planetItemsTemplate
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
@@ -2654,7 +2666,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2699,7 +2711,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2742,7 +2754,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2788,7 +2800,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2835,7 +2847,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2879,7 +2891,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
 				item "Tech:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
 				item "Tech:Module:CrystalExtractor"
@@ -2919,7 +2931,7 @@ planetItemsTemplate
 				item "Tech:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
-				item "Tech:StarBase"
+				item "Tech:StarBaseFree"
 				item "Tech:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -2962,7 +2974,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
-				item "Psi:StarBase"
+				item "Psi:StarBaseFree"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -3006,7 +3018,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
-				item "Psi:StarBase"
+				item "Psi:StarBaseFree"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -3049,7 +3061,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
-				item "Psi:StarBase"
+				item "Psi:StarBaseFree"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -3091,7 +3103,7 @@ planetItemsTemplate
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
 				item "Psi:Module:HangarDefense"
-				item "Psi:StarBase"
+				item "Psi:StarBaseFree"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
 				item "Psi:Module:CrystalExtractor"
@@ -3134,7 +3146,7 @@ planetItemsTemplate
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
-				item "Phase:StarBase"
+				item "Phase:StarBaseFree"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
@@ -3177,7 +3189,7 @@ planetItemsTemplate
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
-				item "Phase:StarBase"
+				item "Phase:StarBaseFree"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
@@ -3223,7 +3235,7 @@ planetItemsTemplate
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
 				item "Phase:Module:HangarDefense"
-				item "Phase:StarBase"
+				item "Phase:StarBaseFree"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"
 				item "Phase:Module:CrystalExtractor"

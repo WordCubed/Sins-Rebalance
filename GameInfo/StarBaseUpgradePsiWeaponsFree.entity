@@ -1,0 +1,28 @@
+TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 1
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPSIWEAPONS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSIWEAPONS_DESC1"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiWeapons1"
+	smallHudIcon "HUDIconStarBaseUpgradePsiWeapons1"
+	infoCardIcon ""
+	upgradePropertyCount 2
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 2.000000
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.500000
+	upgradeBoolPropertyCount 0
+xpModifier 200.000000

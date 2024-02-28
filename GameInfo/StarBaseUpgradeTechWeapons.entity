@@ -65,4 +65,4 @@ stage
 		propertyType "WeaponDamage"
 		value 0.500000
 	upgradeBoolPropertyCount 0
-xpModifier 1000.000000
+xpModifier 200.000000

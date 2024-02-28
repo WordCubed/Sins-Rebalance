@@ -1,7 +1,7 @@
 TXT2
 SinsArchiveVersion 194
 entityType "StarBaseUpgrade"
-stageCount 2
+stageCount 1
 stage
 	price
 		credits 0.000000
@@ -12,26 +12,6 @@ stage
 	descStringID "IDS_STARBASEUPGRADEPHASETRADEPORT_DESC"
 	researchPrerequisites
 		NumResearchPrerequisites 0
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-	hudIcon "HUDIconStarBaseUpgradePhaseTradePort0"
-	smallHudIcon "HUDIconStarBaseUpgradePhaseTradePort0"
-	infoCardIcon ""
-	upgradePropertyCount 0
-	upgradeBoolPropertyCount 0
-stage
-	price
-		credits 1000.000000
-		metal 200.000000
-		crystal 100.000000
-	upgradeTime 10.000000
-	nameStringID "IDS_STARBASEUPGRADEPHASETRADEPORT_NAME"
-	descStringID "IDS_STARBASEUPGRADEPHASETRADEPORT_DESC"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_TRADEPORTPHASE"
-			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 	hudIcon "HUDIconStarBaseUpgradePhaseTradePort0"
