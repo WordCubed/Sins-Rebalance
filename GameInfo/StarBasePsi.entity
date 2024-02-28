@@ -4,8 +4,8 @@ entityType "StarBase"
 ability:0 "AbilityMassDisorientation"
 ability:1 "AbilityMeteorStrikeShips"
 ability:2 "AbilityMeteorStrikePlanet"
-ability:3 "AbilityDestabilizeHyperspace"
-ability:4 ""
+ability:3 "AbilityPhaseGateStarBasePsi"
+ability:4 "AbilityDestabilizeHyperspace"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE

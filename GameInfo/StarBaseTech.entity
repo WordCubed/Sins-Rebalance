@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "StarBase"
 ability:0 "AbilityResupply"
 ability:1 "AbilitySelfDestruct"
-ability:2 ""
+ability:2 "AbilityPhaseGateStarBaseTech"
 ability:3 "AbilityDestabilizeHyperspacePhase"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -173,8 +173,8 @@ nameStringID "IDS_STARBASETECH_NAME"
 picture "PICTURE_STARBASETECH"
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployStarBaseTech"
-maxUpgradeLevelCount 15
-UpgradeTypeCount 8
+maxUpgradeLevelCount 16
+UpgradeTypeCount 9
 UpgradeType "StarBaseUpgradeTechToughness"
 UpgradeType "StarBaseUpgradeTechWeapons"
 UpgradeType "StarBaseUpgradeTechHangar"
@@ -183,6 +183,7 @@ UpgradeType "StarBaseUpgradeTechSelfDestruct"
 UpgradeType "StarBaseUpgradeTechBlockColonize"
 UpgradeType "StarBaseUpgradeTechTradePort"
 UpgradeType "StarBaseUpgradeTechFactory"
+UpgradeType "StarBaseUpgradeTechPhaseGate"
 MeshNameInfoCount 6
 MeshNameInfo
 	meshName "StarBaseTech"

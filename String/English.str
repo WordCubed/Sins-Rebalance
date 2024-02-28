@@ -1,5 +1,8 @@
 TXT
-NumStrings 8784
+NumStrings 8785
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATETECH_DESCRIPTION"
+	Value "The efforts of your scientists and engineers have culminated in this, the most valuable stolen technology imaginable: a working copy of the Vasari's Phase Gates. Enables you to build Phase Gates into your starbases."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_REANIMATION_DESCRIPTION"
 	Value "Allows the Unity to create a temporary clone of destroyed enemy frigates, cruisers, or corvettes where they were defeated, and to sometimes resurrect its own fallen ships at its capital planet."
@@ -68,7 +71,7 @@ StringInfo
 	Value "Phase Gate Array"
 StringInfo
 	ID "IDS_STARBASEUPGRADEPHASEPHASEGATE_DESC"
-	Value "Grants the Phase Gate ability to the starbase, allowing it to temporarily establish a Phase Gate Node at its gravity well."
+	Value "Grants the Phase Gate ability to the starbase, allowing it to establish a Phase Gate Node at its gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_PHASEGATE_NAME"
 	Value "Starbase Phase Gate"
