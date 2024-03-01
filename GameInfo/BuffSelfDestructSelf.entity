@@ -30,8 +30,7 @@ instantAction
 	delayTime 3.000000
 	buffType "BuffSelfDestructTarget"
 	targetFilter
-		numOwnerships 2
-		ownership "Friendly"
+		numOwnerships 1
 		ownership "Enemy"
 		numObjects 7
 		object "Fighter"
@@ -45,8 +44,8 @@ instantAction
 		space "Normal"
 		numConstraints 0
 	range
-		Level:0 12000.000000
-		Level:1 12000.000000
+		Level:0 15000.000000
+		Level:1 15000.000000
 		Level:2 0.000000
 		Level:3 0.000000
 	maxTargetCount

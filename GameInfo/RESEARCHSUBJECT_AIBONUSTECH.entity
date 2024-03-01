@@ -30,7 +30,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 99.000000
 researchBoolModifiers 0
-researchFloatModifiers 4
+researchFloatModifiers 3
 researchModifier
 	modifierType "IncomePercLost"
 	baseValue 0.000000
@@ -38,11 +38,7 @@ researchModifier
 researchModifier
 	modifierType "PlanetSlotsShipsAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
-researchModifier
-	modifierType "CapitalShipMaxSlots"
-	baseValue 0.000000
-	perLevelValue 6.000000
+	perLevelValue 0.200000
 researchModifier
 	modifierType "BlackMarketBuyPriceAdjustment"
 	baseValue 0.000000

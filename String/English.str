@@ -1,5 +1,8 @@
 TXT
-NumStrings 8785
+NumStrings 8786
+StringInfo
+	ID "IDS_ABILITY_SELFDESTRUCT_DESCRIPTION"
+	Value "Engineering crews override all safety protocols, causing the starbase's central reactor to go supercritical. The resulting explosion destroys the starbase and does immense damage to all enemies within the blast area."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATETECH_DESCRIPTION"
 	Value "The efforts of your scientists and engineers have culminated in this, the most valuable stolen technology imaginable: a working copy of the Vasari's Phase Gates. Enables you to build Phase Gates into your starbases."
