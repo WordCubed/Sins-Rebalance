@@ -159,7 +159,7 @@ squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 mainViewIcon "MainViewIconStarBasePhase"
-experiencePointsForDestroying 6000.000000
+experiencePointsForDestroying 900.000000
 nameStringID "IDS_STARBASEPHASE_NAME"
 picture "PICTURE_STARBASEPHASE"
 statCountType "StarBase"
