@@ -359,13 +359,13 @@ StringInfo
 	Value "Spawns a Phase Gate module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
-	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 12.5% damage bonus to all ships present (or nearby) for the battle. (Damage bonus stacks up to 50%.)"
+	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 50% damage bonus to all ships present (or nearby) for the battle."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSIONTECH_NAME"
 	Value "Homeland Defense"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSIONTECH_DESCRIPTION"
-	Value "If you successfully stop an invasion of one of your planets, all units orbiting that planet and neighboring planets gain a permanent 12.5% damage bonus (stacks up to 50%)."
+	Value "If you successfully stop an invasion of one of your planets, all units orbiting that planet and neighboring planets gain a permanent 50% damage bonus."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
 	Value "Allows you to consume a planet once you abandon it, stripping it of all natural resources to generate a huge amount of credits, metal, and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, when you lose a planet—by your own hand or your enemies'—you gain a permanent 50% damage bonus."
@@ -1619,13 +1619,13 @@ StringInfo
 	Value "The Vasari favor hazardous, metallic, & big planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
-	Value "TEC Loyalists are meant for turtling. With research, they gain large buffs for defending themselves. Their tactical structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% in friendly gravity wells; +12.5% per invasion repelled (capped at 50%)"
+	Value "TEC Loyalists are meant for turtling. With research, they gain large buffs for defending themselves. Their tactical structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% in friendly gravity wells; +50% after invasion repelled"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
 	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for killing enemy ships and destroying enemy colonies, allowing them to steamroll deep into enemy territory. MAIN DAMAGE BUFFS: +50% in enemy wells; +50% after 1st enemy unit kill; +50% after 1st enemy planet destroyed"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+80% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +12.5% per invasion repelled (capped at 50%)"
+	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+80% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +50% after invasion repelled"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
 	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. They grow stronger over the course of a battle, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +50% after 1st ship lost; +50% after 1st enemy killed; +50% after 1st planet lost"

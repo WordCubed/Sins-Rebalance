@@ -37,7 +37,7 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "CultureShieldRegenAmount"
 	baseValue 0.000000
-	perLevelValue 5.000000
+	perLevelValue 4.500000
 researchModifier
 	modifierType "CultureShieldMitigationAdjustment"
 	baseValue 0.000000
@@ -45,7 +45,7 @@ researchModifier
 researchModifier
 	modifierType "ChanceToIgnoreShieldsAsDamageTarget"
 	baseValue 0.000000
-	perLevelValue -0.100000
+	perLevelValue -0.150000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880
