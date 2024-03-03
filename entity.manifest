@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2207
+entityNameCount 2208
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -442,6 +442,7 @@ entityName "BuffCreateSupportNanitesPre.entity"
 entityName "BuffCreateSupportNanitesSelf.entity"
 entityName "BuffCrippleAbilities.entity"
 entityName "BuffCruelHarvestEffect.entity"
+entityName "BuffCruelHarvestEffectHealth.entity"
 entityName "BuffCruelHarvestPlanet.entity"
 entityName "BuffCulturalAssistancePlanet.entity"
 entityName "BuffCulturalAssistanceSelf.entity"
