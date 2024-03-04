@@ -119,19 +119,19 @@ StringInfo
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_DESCRIPTION"
-	Value "Compared to their rival, the Vasari Loyalist faction have more hull and shield points, and their weapons have an increased chance to skip past enemy shields."
+	Value "Compared to their rival, the Vasari Loyalist faction have more hull and shield points, and their Phase Missiles have an increased chance to skip past enemy shields."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_NAME"
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_DESCRIPTION"
-	Value "Compared to their rival, the Vasari Rebel faction has an extra logistics slot around planets and greater range on their Phase Missiles."
+	Value "Compared to their rival, the Vasari Rebel faction has an extra logistics slot around planets, plus greater range and rate-of-fire on their Phase Missiles."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_NAME"
 	Value "Advent Racial Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_DESCRIPTION"
-	Value "Compared to other races, the Advent have increased range for all weapons and boosted crystal income."
+	Value "Compared to other races, the Advent have increased range and damage for all weapons, as well as boosted crystal income."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSTECH_NAME"
 	Value "TEC Racial Bonus"

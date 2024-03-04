@@ -35,7 +35,7 @@ researchModifier
 	modifierType "WeaponIgnoresShieldsAdjustment"
 	baseValue 0.250000
 	perLevelValue 0.000000
-	linkedWeaponClass "Invalid"
+	linkedWeaponClass "PHASEMISSILE"
 researchModifier
 	modifierType "HullPointsMaxAdjustment"
 	baseValue 0.050000
