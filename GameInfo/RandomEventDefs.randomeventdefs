@@ -1,8 +1,8 @@
 TXT
 initialSpawnTimeMin 600.0
 initialSpawnTimeMax 1200.0
-failedRespawnTimeMin 60.0
-failedRespawnTimeMax 300.0
+failedRespawnTimeMin 120.0
+failedRespawnTimeMax 360.0
 lowAllegianceCheckPeriod 300.0
 lowAllegianceThreshold 0.15
 randomEventDefCount 12
@@ -111,30 +111,30 @@ randomEventDefCount 12
 		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDECONOMICUPTURNDOWNTURN"
 		spawnType "PeriodicBuffAtLocation"
 		spawnEntity "RandomEventEconomicDownturn"
-		duration 300.0
+		duration 180.0
 		period 5.0
 		playerOwnerType "LocationOwner"
 		spawnLocation "AllLocations"
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
-		nextSpawnTimeMin 300.0
+		nextSpawnTimeMin 600.0
 		nextSpawnTimeMax 1200.0
-		spawnWeight 0.25
+		spawnWeight 0.1
 	randomEventDef
 		id "ECONOMICUPTURN"
 		nameID "IDS_RANDOMEVENT_ECONOMICUPTURN_NAME"
 		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDECONOMICUPTURNDOWNTURN"
 		spawnType "PeriodicBuffAtLocation"
 		spawnEntity "RandomEventEconomicUpturn"
-		duration 300.0
+		duration 180.0
 		period 5.0
 		playerOwnerType "LocationOwner"
 		spawnLocation "AllLocations"
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
-		nextSpawnTimeMin 300.0
+		nextSpawnTimeMin 600.0
 		nextSpawnTimeMax 1200.0
-		spawnWeight 0.25
+		spawnWeight 0.1
 	randomEventDef
 		id "CULTUREEXPLOSION"
 		nameID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"

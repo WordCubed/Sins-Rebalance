@@ -1286,7 +1286,7 @@ StringInfo
 	Value "Thrill of Victory"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SAVAGE_THRILL_DESCRIPTION"
-	Value "Upon wiping out an enemy colony, the thrill of victory empowers your fleet to deal greater damage. Each subsequent victory grants more power. (Grants 50% bonus damage.)"
+	Value "Upon wiping out an enemy colony, the thrill of victory empowers your fleet to deal greater damage. (Grants permanent 50% damage bonus to all your units in gravity well.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRENZY_NAME"
 	Value "Extreme Prejudice"
