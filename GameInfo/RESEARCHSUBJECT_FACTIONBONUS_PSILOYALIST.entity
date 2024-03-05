@@ -40,7 +40,7 @@ researchModifier
 	baseValue -3.000000
 	perLevelValue 0.000000
 researchModifier
-	modifierType "WeaponIgnoresShieldsAdjustment"
+	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.250000
 	perLevelValue 0.000000
 	linkedWeaponClass "BEAM"

@@ -30,19 +30,14 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 2
 researchModifier
 	modifierType "PlanetSlotsCivilianIncrease"
 	baseValue 1.000000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "WeaponRangeAdjustment"
-	baseValue 0.200000
-	perLevelValue 0.000000
-	linkedWeaponClass "PHASEMISSILE"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.200000
+	baseValue 0.400000
 	perLevelValue 0.000000
 	linkedWeaponClass "PHASEMISSILE"
 artifactPicture ""

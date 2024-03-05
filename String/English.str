@@ -113,7 +113,7 @@ StringInfo
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_DESCRIPTION"
-	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their Beam weapons have a chance to skip past enemy shields, and their culture can slow enemy shipbuilding rates."
+	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their Beam weapons have better rate-of-fire, and their culture can slow enemy shipbuilding rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
@@ -125,13 +125,13 @@ StringInfo
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_DESCRIPTION"
-	Value "Compared to their rival, the Vasari Rebel faction has an extra logistics slot around planets, plus greater range and rate-of-fire on their Phase Missiles."
+	Value "Compared to their rival, the Vasari Rebel faction has an extra logistics slot around planets, plus much greater range on their Phase Missiles."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_NAME"
 	Value "Advent Racial Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_DESCRIPTION"
-	Value "Compared to other races, the Advent have increased range and damage for all weapons, as well as boosted crystal income."
+	Value "Compared to other races, the Advent have increased range for all weapons and boosted crystal income."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSTECH_NAME"
 	Value "TEC Racial Bonus"
