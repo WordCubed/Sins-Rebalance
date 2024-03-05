@@ -30,19 +30,14 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 2
 researchModifier
 	modifierType "ExtractionRateCrystalAdjustment"
 	baseValue 0.100000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "WeaponRangeAdjustment"
-	baseValue 0.100000
-	perLevelValue 0.000000
-	linkedWeaponClass "Invalid"
-researchModifier
-	modifierType "WeaponDamageAdjustment"
-	baseValue 0.050000
+	baseValue 0.200000
 	perLevelValue 0.000000
 	linkedWeaponClass "Invalid"
 artifactPicture ""

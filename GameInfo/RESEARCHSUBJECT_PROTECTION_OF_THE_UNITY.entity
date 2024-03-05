@@ -43,7 +43,7 @@ researchModifier
 	baseValue 0.000000
 	perLevelValue 0.025000
 researchModifier
-	modifierType "ChanceToIgnoreShieldsAsDamageTarget"
+	modifierType "CultureChanceToIgnoreShieldsAsDamageTarget"
 	baseValue 0.000000
 	perLevelValue -0.150000
 artifactPicture ""

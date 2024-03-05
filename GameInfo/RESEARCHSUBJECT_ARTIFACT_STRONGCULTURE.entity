@@ -46,11 +46,11 @@ researchModifier
 researchModifier
 	modifierType "QuestRewardHappinessAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.500000
 researchModifier
 	modifierType "QuestFailureHappinessAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.200000
+	perLevelValue -0.500000
 artifactPicture "ArtifactPictureStrongCulture"
 uniqueOverlayBrush ""
 dlcId 204880
