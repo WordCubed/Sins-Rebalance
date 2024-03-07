@@ -25,12 +25,12 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.520000
+pixelsPerGalaxyUnit 2.120000
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 1000.000000
 nextStarNameUniqueId 1
-nextPlanetNameUniqueId 59
+nextPlanetNameUniqueId 60
 triggerCount 0
 starCount 1
 star
@@ -39,7 +39,7 @@ star
 	type "NonSpecialStar"
 	pos [ 300 , 300 ]
 	radius 300.000000
-	planetCount 59
+	planetCount 60
 	planet
 		designName "Planet0"
 		inGameName ""
@@ -1515,7 +1515,32 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 92
+	planet
+		designName "Planet59"
+		inGameName ""
+		type "Tundra"
+		pos [ 542 , 380 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 94
 	connection
 		planetIndexA 2
 		planetIndexB 0
@@ -1974,6 +1999,16 @@ star
 	connection
 		planetIndexA 28
 		planetIndexB 57
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 46
+		planetIndexB 59
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 59
+		planetIndexB 44
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0

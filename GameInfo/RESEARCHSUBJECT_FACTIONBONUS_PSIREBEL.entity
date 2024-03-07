@@ -37,11 +37,11 @@ researchModifier
 	perLevelValue 0.000000
 researchModifier
 	modifierType "AntimatterCapacityAdjustment"
-	baseValue 0.250000
+	baseValue 0.500000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "AntimatterRegenAdjustment"
-	baseValue 0.250000
+	baseValue 0.500000
 	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""

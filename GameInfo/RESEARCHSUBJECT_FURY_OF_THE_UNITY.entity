@@ -33,11 +33,16 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
 researchModifier
 	modifierType "WeaponIgnoresShieldsAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.125000
+	perLevelValue 0.100000
+	linkedWeaponClass "BEAM"
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
 	linkedWeaponClass "BEAM"
 researchModifier
 	modifierType "WeaponRangeAdjustment"
