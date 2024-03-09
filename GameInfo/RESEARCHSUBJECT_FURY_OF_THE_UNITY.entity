@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.125000
 	linkedWeaponClass "BEAM"
 researchModifier
 	modifierType "WeaponRangeAdjustment"

@@ -113,7 +113,7 @@ StringInfo
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_DESCRIPTION"
-	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost and their culture can slow enemy shipbuilding rates."
+	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their Starbases do more damage, and their culture can slow enemy shipbuilding rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
