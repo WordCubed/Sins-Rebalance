@@ -30,7 +30,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
 researchModifier
 	modifierType "PlanetUpgradeCostAdjustment"
 	baseValue -0.200000
@@ -41,6 +41,10 @@ researchModifier
 	baseValue 1.000000
 	perLevelValue 0.000000
 	linkedPlanetUpgradeType "TacticalModules"
+researchModifier
+	modifierType "StarBaseWeaponDamageAdjustment"
+	baseValue 0.150000
+	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

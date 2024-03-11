@@ -30,7 +30,12 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.100000
+	perLevelValue 0.000000
+	linkedWeaponClass "Invalid"
 researchModifier
 	modifierType "ExperienceAwardedAdjustment"
 	baseValue 0.200000

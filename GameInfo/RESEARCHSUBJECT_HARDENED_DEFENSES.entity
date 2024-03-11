@@ -34,15 +34,15 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "TacticalStructureWeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.125000
+	perLevelValue 0.075000
 researchModifier
 	modifierType "TacticalStructureArmorAdjustment"
 	baseValue 0.000000
-	perLevelValue 2.500000
+	perLevelValue 5.000000
 researchModifier
 	modifierType "TacticalStructureHullPointsMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.125000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

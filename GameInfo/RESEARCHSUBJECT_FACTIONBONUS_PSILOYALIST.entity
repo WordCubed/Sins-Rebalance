@@ -36,9 +36,10 @@ researchModifier
 	baseValue -0.200000
 	perLevelValue 0.000000
 researchModifier
-	modifierType "StarBaseWeaponDamageAdjustment"
+	modifierType "WeaponDamageAdjustment"
 	baseValue 0.100000
 	perLevelValue 0.000000
+	linkedWeaponClass "BEAM"
 researchModifier
 	modifierType "CultureEnemyBuildRateAdjustment"
 	baseValue -3.000000

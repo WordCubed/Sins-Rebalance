@@ -95,13 +95,13 @@ StringInfo
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHREBEL_DESCRIPTION"
-	Value "Compared to their rival faction, the TEC Rebel faction has boosted experience gains for all capital ships and titans, plus they can deploy their Starbases around enemy planets faster."
+	Value "Compared to their rival faction, the TEC Rebel faction has boosted experience gains for all capital ships and titans, their weapons' rate-of-fire is improved, and they can deploy their Starbases around enemy planets faster."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHLOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHLOYALIST_DESCRIPTION"
-	Value "Compared to their rival faction, the TEC Loyalist faction can upgrade a planet's tactical slots for cheaper and faster."
+	Value "Compared to their rival faction, the TEC Loyalist faction can upgrade a planet's tactical slots for cheaper and faster, and their Starbases do more damage."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL_NAME"
 	Value "Rebel Faction Bonus"
@@ -113,7 +113,7 @@ StringInfo
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_DESCRIPTION"
-	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their Starbases do more damage, and their culture can slow enemy shipbuilding rates."
+	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their Beam weapons do more damage, and their culture can slow enemy shipbuilding rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
 	Value "Loyalist Faction Bonus"

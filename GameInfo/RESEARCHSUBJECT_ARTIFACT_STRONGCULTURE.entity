@@ -30,7 +30,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 5
+researchFloatModifiers 6
 researchModifier
 	modifierType "CultureSpreadRateAdjustment"
 	baseValue 0.000000
@@ -39,6 +39,10 @@ researchModifier
 	modifierType "CultureResistPercent"
 	baseValue 0.000000
 	perLevelValue 0.250000
+researchModifier
+	modifierType "CultureWeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "RelationshipBonus"
 	baseValue 0.000000
