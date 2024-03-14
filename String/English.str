@@ -107,13 +107,13 @@ StringInfo
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL_DESCRIPTION"
-	Value "Compared to their rival faction, the Advent Rebel faction has greatly increased population growth rates on their planets and increased antimatter reserves and regen."
+	Value "Compared to their rival faction, Advent Rebel faction weapons do more damage, their units have more hull points, and they have increased antimatter reserves and regen."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_DESCRIPTION"
-	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their Beam weapons do more damage, and their culture can slow enemy shipbuilding rates."
+	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their weapons do more damage within their culture, and their culture can slow enemy shipbuilding rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
