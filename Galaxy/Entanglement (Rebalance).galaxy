@@ -93,7 +93,7 @@ star
 	planet
 		designName "Planet2"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 202 , 34 ]
 		owner ""
 		isHomePlanet FALSE
@@ -168,7 +168,7 @@ star
 	planet
 		designName "Planet5"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 383 , 27 ]
 		owner ""
 		isHomePlanet FALSE
@@ -193,7 +193,7 @@ star
 	planet
 		designName "Planet6"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 366 , 68 ]
 		owner ""
 		isHomePlanet FALSE
@@ -393,7 +393,7 @@ star
 	planet
 		designName "Planet14"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 183 , 129 ]
 		owner ""
 		isHomePlanet FALSE
@@ -443,7 +443,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 134 , 97 ]
 		owner ""
 		isHomePlanet FALSE
@@ -493,7 +493,7 @@ star
 	planet
 		designName "Planet18"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 74 , 214 ]
 		owner ""
 		isHomePlanet FALSE
@@ -593,7 +593,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 64 , 292 ]
 		owner ""
 		isHomePlanet FALSE
@@ -743,7 +743,7 @@ star
 	planet
 		designName "Planet28"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 164 , 486 ]
 		owner ""
 		isHomePlanet FALSE
@@ -793,7 +793,7 @@ star
 	planet
 		designName "Planet30"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 156 , 528 ]
 		owner ""
 		isHomePlanet FALSE
@@ -843,7 +843,7 @@ star
 	planet
 		designName "Planet32"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 488 , 193 ]
 		owner ""
 		isHomePlanet FALSE
@@ -893,7 +893,7 @@ star
 	planet
 		designName "Planet34"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 502 , 129 ]
 		owner ""
 		isHomePlanet FALSE
@@ -968,7 +968,7 @@ star
 	planet
 		designName "Planet37"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 554 , 263 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1118,7 +1118,7 @@ star
 	planet
 		designName "Planet43"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 438 , 308 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1143,7 +1143,7 @@ star
 	planet
 		designName "Planet44"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 471 , 340 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1218,7 +1218,7 @@ star
 	planet
 		designName "Planet47"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 466 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1243,7 +1243,7 @@ star
 	planet
 		designName "Planet48"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 380 , 427 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1268,7 +1268,7 @@ star
 	planet
 		designName "Planet49"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 365 , 384 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1443,7 +1443,7 @@ star
 	planet
 		designName "Planet56"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 230 , 559 ]
 		owner ""
 		isHomePlanet FALSE
