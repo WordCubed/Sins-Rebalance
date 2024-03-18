@@ -36,7 +36,7 @@ researchModifier
 	baseValue 0.100000
 	perLevelValue 0.000000
 researchModifier
-	modifierType "WeaponDamageAdjustment"
+	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.100000
 	perLevelValue 0.000000
 	linkedWeaponClass "Invalid"

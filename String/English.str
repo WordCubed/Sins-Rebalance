@@ -107,13 +107,13 @@ StringInfo
 	Value "Rebel Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL_DESCRIPTION"
-	Value "Compared to their rival faction, Advent Rebel faction weapons do more damage, their units have more hull points, and they have increased antimatter reserves and regen."
+	Value "Compared to their rival faction, Advent Rebel faction weapons fire faster, their units have more hull points, and they have increased antimatter reserves and regen."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_DESCRIPTION"
-	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their weapons do more damage within their culture, and their culture can slow enemy shipbuilding rates."
+	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their weapons do more damage, and their culture can slow enemy shipbuilding rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
 	Value "Loyalist Faction Bonus"
@@ -494,7 +494,7 @@ StringInfo
 	Value "Old hatred is stirred up within the Unity against its enemies, leading friendly units to deal increased damaged while within your culture."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FURY_OF_THE_UNITY_DESCRIPTION"
-	Value "The combined rage of the Unity empowers your Beam weapons with longer range, higher rate-of-fire, and a chance to bypass enemy shields."
+	Value "The combined rage of the Unity grants your weapons greater damage while within your culture."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PROTECTION_OF_THE_UNITY_DESCRIPTION"
 	Value "While within your culture, the purified Unity focuses some of its power to bolster the shield regeneration, shield mitigation, and resistance to shield-skipping weapons of your units."

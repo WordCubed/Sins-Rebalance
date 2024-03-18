@@ -33,22 +33,11 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 1
 researchModifier
-	modifierType "WeaponIgnoresShieldsAdjustment"
+	modifierType "CultureWeaponDamageAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.125000
-	linkedWeaponClass "BEAM"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.125000
-	linkedWeaponClass "BEAM"
-researchModifier
-	modifierType "WeaponRangeAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.150000
-	linkedWeaponClass "BEAM"
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

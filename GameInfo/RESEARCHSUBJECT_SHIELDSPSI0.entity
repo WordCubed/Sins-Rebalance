@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "ShieldMaxMitigationAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.025000
+	perLevelValue 0.020000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

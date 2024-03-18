@@ -36,9 +36,10 @@ researchModifier
 	baseValue -0.200000
 	perLevelValue 0.000000
 researchModifier
-	modifierType "CultureWeaponDamageAdjustment"
-	baseValue 0.100000
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.150000
 	perLevelValue 0.000000
+	linkedWeaponClass "Invalid"
 researchModifier
 	modifierType "CultureEnemyBuildRateAdjustment"
 	baseValue -3.000000
