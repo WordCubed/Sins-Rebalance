@@ -333,12 +333,11 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
-requiredPlanetBonusesCount 2
+requiredPlanetBonusesCount 1
 bonus "PlanetBonusHarsh"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
 possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusCrystalBonanza"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusPorousCore"
 bonus "PlanetBonusVolatileDeposits"

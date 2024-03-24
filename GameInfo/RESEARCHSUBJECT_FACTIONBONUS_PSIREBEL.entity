@@ -32,8 +32,12 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 4
 researchModifier
+	modifierType "HullPointsMaxAdjustment"
+	baseValue 0.100000
+	perLevelValue 0.000000
+researchModifier
 	modifierType "WeaponDamageAdjustment"
-	baseValue 0.200000
+	baseValue 0.100000
 	perLevelValue 0.000000
 	linkedWeaponClass "Invalid"
 researchModifier

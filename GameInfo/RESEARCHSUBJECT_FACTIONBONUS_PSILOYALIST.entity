@@ -36,8 +36,8 @@ researchModifier
 	baseValue -0.200000
 	perLevelValue 0.000000
 researchModifier
-	modifierType "HullPointsMaxAdjustment"
-	baseValue 0.200000
+	modifierType "CultureWeaponDamageAdjustment"
+	baseValue 0.100000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "CultureEnemyBuildRateAdjustment"

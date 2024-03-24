@@ -37,7 +37,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "PlanetPopulationCapAdjustment"
 	baseValue 0.000000
-	perLevelValue 1.250000
+	perLevelValue 1.000000
 	linkedPlanetType "Barren"
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

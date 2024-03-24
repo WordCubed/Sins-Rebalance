@@ -41,7 +41,7 @@ researchModifier
 researchModifier
 	modifierType "CultureShieldMitigationAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.040000
+	perLevelValue 0.035000
 researchModifier
 	modifierType "CultureChanceToIgnoreShieldsAsDamageTarget"
 	baseValue 0.000000
