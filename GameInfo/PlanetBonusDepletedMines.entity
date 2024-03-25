@@ -14,8 +14,8 @@ floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus 0.000000
-floatBonus:MetalIncomePerc -0.500000
-floatBonus:CrystalIncomePerc -0.500000
+floatBonus:MetalIncomePerc -0.250000
+floatBonus:CrystalIncomePerc -0.250000
 floatBonus:GravityWellRadiusPerc 0.000000
 floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000

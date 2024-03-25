@@ -11,8 +11,6 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID "EFFECT_PhaseCloak"
-toggleStateOnNameStringID "IDS_ABILITY_PHASECLOAKACTIVE_NAME"
-toggleStateOnDescStringID "IDS_ABILITY_PHASECLOAKACTIVE_DESCRIPTION"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -26,7 +24,7 @@ isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.666667
+onlyAutoCastWhenDamageTakenExceedsPerc 0.500000
 useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1

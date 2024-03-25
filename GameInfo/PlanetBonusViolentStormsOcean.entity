@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 0
 nameStringID "IDS_PLANETBONUS_VIOLENTSTORMS_NAME"
 descStringID "IDS_PLANETBONUS_VIOLENTSTORMS_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation -24.000000
+floatBonus:AdditivePopulation -16.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
@@ -19,8 +19,8 @@ floatBonus:CrystalIncomePerc 0.000000
 floatBonus:GravityWellRadiusPerc 0.000000
 floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
-floatBonus:PlanetUpgradeBuildCostPerc 0.250000
-floatBonus:PlanetUpgradeBuildRatePerc -0.250000
+floatBonus:PlanetUpgradeBuildCostPerc 0.200000
+floatBonus:PlanetUpgradeBuildRatePerc -0.333333
 floatBonus:PopulationGrowthPerc 0.000000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000

@@ -363,13 +363,14 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 0.250000
-requiredPlanetBonusesCount 0
+requiredPlanetBonusesCount 1
+bonus "PlanetBonusSubsurfaceMetalDeposits"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusLoyalGovernment"
+bonus "PlanetBonusMetalBonanza"
 bonus "PlanetBonusPartiallyTerraformed"
-bonus "PlanetBonusSubsurfaceMetalDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
