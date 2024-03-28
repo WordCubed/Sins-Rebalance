@@ -193,7 +193,7 @@ star
 	planet
 		designName "Planet6"
 		inGameName ""
-		type "Copper"
+		type "Hydrocarbon"
 		pos [ 366 , 68 ]
 		owner ""
 		isHomePlanet FALSE
@@ -218,7 +218,7 @@ star
 	planet
 		designName "Planet7"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Copper"
 		pos [ 404 , 104 ]
 		owner ""
 		isHomePlanet FALSE
@@ -843,7 +843,7 @@ star
 	planet
 		designName "Planet32"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Copper"
 		pos [ 477 , 190 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1018,7 +1018,7 @@ star
 	planet
 		designName "Planet39"
 		inGameName ""
-		type "Copper"
+		type "Hydrocarbon"
 		pos [ 471 , 279 ]
 		owner ""
 		isHomePlanet FALSE

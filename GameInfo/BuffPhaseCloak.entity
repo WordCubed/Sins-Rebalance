@@ -37,8 +37,15 @@ entityBoolModifier "DisableLinearEngines"
 entityBoolModifier "DisableAngularEngines"
 entityBoolModifier "DisableWeapons"
 entityBoolModifier "PhaseOut"
-numFinishConditions 2
+numFinishConditions 3
 finishCondition
 	finishConditionType "AntiMatterDepleted"
+finishCondition
+	finishConditionType "OwnerHullAbovePerc"
+	hullPercent
+		Level:0 0.750000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
 finishCondition
 	finishConditionType "OwnerChanged"
