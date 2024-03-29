@@ -69,8 +69,7 @@ entities
 			entityDefName "FrigatePsiTradeShip"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 165
-		entityDefName "RESEARCHSUBJECT_AIBONUSPSI"
+		count 164
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSPSI"
 		entityDefName "RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERPSI0"

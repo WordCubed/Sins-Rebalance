@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2208
+entityNameCount 2203
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -1448,11 +1448,6 @@ entityName "RESEARCHSUBJECT_ADVANCED_INTER_SPECIES_RELATIONS.entity"
 entityName "RESEARCHSUBJECT_ADVANCED_NME_WARHEADS.entity"
 entityName "RESEARCHSUBJECT_ADVANCED_VOICE_OF_THE_UNITY.entity"
 entityName "RESEARCHSUBJECT_ADVANCED_XENO_MANIPULATION.entity"
-entityName "RESEARCHSUBJECT_AIBONUSPHASE.entity"
-entityName "RESEARCHSUBJECT_AIBONUSPHASEREBEL.entity"
-entityName "RESEARCHSUBJECT_AIBONUSPSI.entity"
-entityName "RESEARCHSUBJECT_AIBONUSTECH.entity"
-entityName "RESEARCHSUBJECT_AIBONUSTECHLOYALIST.entity"
 entityName "RESEARCHSUBJECT_ALL_FOR_ONE.entity"
 entityName "RESEARCHSUBJECT_ALLEGIANCECAP_INCREASE.entity"
 entityName "RESEARCHSUBJECT_ANCIENT_RETRIBUTION.entity"
