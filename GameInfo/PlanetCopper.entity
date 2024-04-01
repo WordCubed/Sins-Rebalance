@@ -366,10 +366,10 @@ skyboxScalars
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusSubsurfaceMetalDeposits"
 possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusLoyalGovernment"
-bonus "PlanetBonusMetalBonanza"
 bonus "PlanetBonusPartiallyTerraformed"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

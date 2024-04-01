@@ -337,8 +337,8 @@ requiredPlanetBonusesCount 2
 bonus "PlanetBonusHarsh"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
 possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusCrystalBonanza"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusPorousCore"
 bonus "PlanetBonusVolatileDeposits"
