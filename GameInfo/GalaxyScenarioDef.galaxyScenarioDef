@@ -1650,12 +1650,12 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultStart_Comet"
 	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
+		template "Template:LocalMilitia_Asteroid"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_IceField"
 	subTemplates 1
-		template "Template:LocalMilitiaWeakUncolonizable"
+		template "Template:LocalMilitia_Asteroid"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_ShatteredMoon"
@@ -1665,12 +1665,12 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:DefaultStart_RadiationStorm"
 	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
+		template "Template:LocalMilitia_Asteroid"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_AntimatterFountain"
 	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
+		template "Template:LocalMilitia_Asteroid"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_Ice"
@@ -1876,10 +1876,11 @@ planetItemsTemplate
 				param ""
 			owner "NoPlanetOwner"
 			colonizeChance 1
-			items 3
-				item "Pirate:Frigate:Light"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:Medium"
+			items 4
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:AntiFighter"
+				item "Tech:Frigate:AntiFighter"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeakUncolonizable"
 	subTemplates 0
@@ -1891,8 +1892,8 @@ planetItemsTemplate
 			owner "NoPlanetOwner"
 			colonizeChance 1
 			items 2
-				item "Pirate:Frigate:Light"
-				item "Pirate:Frigate:AntiFighter"
+				item "Tech:Frigate:Light"
+				item "Tech:Frigate:AntiFighter"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
@@ -2192,7 +2193,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:LocalMilitia_PlasmaStorm"
 	subTemplates 1
-		template "Template:LocalMilitiaVeryWeakUncolonizable"
+		template "Template:LocalMilitia_Asteroid"
 	groups 0
 planetItemsTemplate
 	templateName "Template:LocalMilitia_Ice"

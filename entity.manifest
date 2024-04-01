@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2203
+entityNameCount 2204
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -695,6 +695,7 @@ entityName "BuffOffensiveNanitesShips.entity"
 entityName "BuffOvercharge.entity"
 entityName "BuffPhaseBeamTarget.entity"
 entityName "BuffPhaseCloak.entity"
+entityName "BuffPhaseCloakTrigger.entity"
 entityName "BuffPhaseExplosiveMineDetonateSelf.entity"
 entityName "BuffPhaseExplosiveMineDetonateTarget.entity"
 entityName "BuffPhaseGateCapitalSpawnerCaster.entity"

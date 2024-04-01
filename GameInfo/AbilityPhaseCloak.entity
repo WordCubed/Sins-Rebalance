@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffPhaseCloak"
+buffType "BuffPhaseCloakTrigger"
 effectInfo
 	effectAttachInfo
 		attachType "Center"
@@ -18,10 +18,10 @@ isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_PHASECLOAK"
-aiUseTime "Anytime"
-aiUseTargetCondition "Any"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.500000
