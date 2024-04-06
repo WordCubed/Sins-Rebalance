@@ -1444,7 +1444,7 @@ star
 		designName "Planet56"
 		inGameName ""
 		type "Carbon"
-		pos [ 230 , 559 ]
+		pos [ 340 , 522 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1590,7 +1590,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 101
+	connectionCount 103
 	connection
 		planetIndexA 2
 		planetIndexB 0
@@ -1857,11 +1857,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 46
-		planetIndexB 45
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 45
 		planetIndexB 44
 		spawnProbability 1.000000
@@ -1987,11 +1982,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 45
-		planetIndexB 40
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 55
 		planetIndexB 51
 		spawnProbability 1.000000
@@ -2009,11 +1999,6 @@ star
 	connection
 		planetIndexA 46
 		planetIndexB 59
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 59
-		planetIndexB 44
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -2094,6 +2079,31 @@ star
 	connection
 		planetIndexA 53
 		planetIndexB 49
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 56
+		planetIndexB 50
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 45
+		planetIndexB 59
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 46
+		planetIndexB 44
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 40
+		planetIndexB 44
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 59
+		planetIndexB 40
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
