@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet176"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 399 , 234 ]
 		owner ""
 		isHomePlanet FALSE
@@ -292,7 +292,7 @@ star
 	planet
 		designName "Planet183"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 399 , 366 ]
 		owner ""
 		isHomePlanet FALSE
@@ -567,7 +567,7 @@ star
 	planet
 		designName "Planet217"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 520 , 335 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1162,7 +1162,7 @@ star
 	planet
 		designName "Planet260"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 980 , 265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1812,7 +1812,7 @@ star
 	planet
 		designName "Planet310"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 1111 , 366 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1912,7 +1912,7 @@ star
 	planet
 		designName "Planet315"
 		inGameName ""
-		type "Silicate"
+		type "Carbon"
 		pos [ 1111 , 234 ]
 		owner ""
 		isHomePlanet FALSE
