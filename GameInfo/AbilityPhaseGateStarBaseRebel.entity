@@ -20,8 +20,8 @@ levelSourceType "StarBaseUpgradeLevel"
 sourcePropertyType "AbilityCLevel"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
