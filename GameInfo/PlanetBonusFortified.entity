@@ -21,7 +21,7 @@ floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc 0.000000
 floatBonus:PlanetUpgradeBuildRatePerc 0.000000
-floatBonus:PopulationGrowthPerc -0.250000
+floatBonus:PopulationGrowthPerc -0.400000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier -0.100000
 intBonus:MaxSpaceMines 0

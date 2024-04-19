@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_VACATIONDESTINATION_NAME"
 descStringID "IDS_PLANETBONUS_VACATIONDESTINATION_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.100000
-floatBonus:AdditivePopulation 8.000000
+floatBonus:AdditivePopulation 12.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
@@ -21,7 +21,7 @@ floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc 0.000000
 floatBonus:PlanetUpgradeBuildRatePerc 0.000000
-floatBonus:PopulationGrowthPerc 0.250000
+floatBonus:PopulationGrowthPerc 0.600000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000
 intBonus:MaxSpaceMines 0
