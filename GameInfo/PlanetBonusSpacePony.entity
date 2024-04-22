@@ -2,7 +2,7 @@
 SinsArchiveVersion 194
 entityType "PlanetBonus"
 minUpgradeLevelNeeded 0
-maxUpgradeLevelNeeded 1
+maxUpgradeLevelNeeded 0
 nameStringID "IDS_PLANETBONUS_SPACEPONY_NAME"
 descStringID "IDS_PLANETBONUS_SPACEPONY_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000

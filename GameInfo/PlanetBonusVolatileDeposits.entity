@@ -1,8 +1,8 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 0
-maxUpgradeLevelNeeded 0
+minUpgradeLevelNeeded 2
+maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_VOLATILEDEPOSITS_NAME"
 descStringID "IDS_PLANETBONUS_VOLATILEDEPOSITS_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
@@ -12,7 +12,7 @@ floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
-floatBonus:BombingDamageAsDamageTargetAdjustment 1.000000
+floatBonus:BombingDamageAsDamageTargetAdjustment 4.000000
 floatBonus:MaxAllegiancePercBonus 0.000000
 floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000
@@ -20,7 +20,7 @@ floatBonus:GravityWellRadiusPerc 0.000000
 floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc 0.200000
-floatBonus:PlanetUpgradeBuildRatePerc -0.200000
+floatBonus:PlanetUpgradeBuildRatePerc -0.400000
 floatBonus:PopulationGrowthPerc -0.200000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000

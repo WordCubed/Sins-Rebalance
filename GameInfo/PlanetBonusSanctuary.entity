@@ -1,13 +1,13 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 2
-maxUpgradeLevelNeeded 2
+minUpgradeLevelNeeded 1
+maxUpgradeLevelNeeded 1
 nameStringID "IDS_PLANETBONUS_SANCTUARY_NAME"
 descStringID "IDS_PLANETBONUS_SANCTUARY_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation 4.000000
-floatBonus:AdditivePlanetHealth 750.000000
+floatBonus:AdditivePopulation 8.000000
+floatBonus:AdditivePlanetHealth 1500.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 0.000000

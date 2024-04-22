@@ -1,8 +1,8 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 1
-maxUpgradeLevelNeeded 1
+minUpgradeLevelNeeded 2
+maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_CORRUPTGOVERNMENT_NAME"
 descStringID "IDS_PLANETBONUS_CORRUPTGOVERNMENT_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
@@ -10,7 +10,7 @@ floatBonus:AdditivePopulation 0.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
-floatBonus:AdditiveTaxIncome -3.000000
+floatBonus:AdditiveTaxIncome -2.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus -0.100000

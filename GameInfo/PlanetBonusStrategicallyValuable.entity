@@ -1,15 +1,15 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 2
-maxUpgradeLevelNeeded 2
+minUpgradeLevelNeeded 0
+maxUpgradeLevelNeeded 0
 nameStringID "IDS_PLANETBONUS_STRATEGICALLYVALUABLE_NAME"
 descStringID "IDS_PLANETBONUS_STRATEGICALLYVALUABLE_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation 0.000000
 floatBonus:AdditivePlanetHealth 1500.000000
 floatBonus:AdditiveSlotsCivilian 2.000000
-floatBonus:AdditiveSlotsTactical 2.000000
+floatBonus:AdditiveSlotsTactical 4.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
 floatBonus:BombingDamageAsDamageTargetAdjustment -0.100000
@@ -18,9 +18,9 @@ floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000
 floatBonus:GravityWellRadiusPerc 0.000000
 floatBonus:ModuleBuildCostPerc 0.000000
-floatBonus:ModuleBuildRatePerc 0.333333
+floatBonus:ModuleBuildRatePerc 0.400000
 floatBonus:PlanetUpgradeBuildCostPerc 0.000000
-floatBonus:PlanetUpgradeBuildRatePerc 0.000000
+floatBonus:PlanetUpgradeBuildRatePerc 0.400000
 floatBonus:PopulationGrowthPerc 0.000000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000

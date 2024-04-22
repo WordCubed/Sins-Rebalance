@@ -1,8 +1,8 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 0
-maxUpgradeLevelNeeded 0
+minUpgradeLevelNeeded 2
+maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_VIOLENTSTORMS_NAME"
 descStringID "IDS_PLANETBONUS_VIOLENTSTORMS_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
@@ -20,7 +20,7 @@ floatBonus:GravityWellRadiusPerc 0.000000
 floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc 0.200000
-floatBonus:PlanetUpgradeBuildRatePerc -0.333333
+floatBonus:PlanetUpgradeBuildRatePerc -0.400000
 floatBonus:PopulationGrowthPerc 0.000000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000
