@@ -320,9 +320,10 @@ skyboxScalars
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusNice"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusFortified"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusVacationDestination"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"

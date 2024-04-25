@@ -329,8 +329,9 @@ skyboxScalars
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusNice"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusFertileSoil"
 bonus "PlanetBonusFertileSoil"
 bonus "PlanetBonusJeweloftheGalaxy"
 bonus "PlanetBonusMildWeather"

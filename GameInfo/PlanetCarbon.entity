@@ -337,10 +337,11 @@ skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 0.200000
 requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusPorousCore"
+bonus "PlanetBonusSubsurfaceCrystalDeposits"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

@@ -336,7 +336,8 @@ skyboxScalars
 requiredPlanetBonusesCount 2
 bonus "PlanetBonusIndustrialPowerhouse"
 bonus "PlanetBonusExtremelyNice"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusDepletedMines"
 bonus "PlanetBonusSlavery"

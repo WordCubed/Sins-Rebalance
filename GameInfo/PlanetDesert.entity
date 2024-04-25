@@ -353,9 +353,10 @@ skyboxScalars
 	ambientScalar 0.200000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusNice"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusCulturalHub"
+bonus "PlanetBonusJewelOfTheGalaxy"
 bonus "PlanetBonusJewelOfTheGalaxy"
 bonus "PlanetBonusSlums"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"

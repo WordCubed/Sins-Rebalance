@@ -368,8 +368,9 @@ skyboxScalars
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusHarsh"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusSanctuary"

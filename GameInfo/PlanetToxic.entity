@@ -319,10 +319,11 @@ skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
-bonus "PlanetBonusHarsh"
-possibleRandomPlanetBonusesCount 4
+bonus "PlanetBonusExtremelyHarsh"
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmInTheStorm"
 bonus "PlanetBonusAbundantResources"
+bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusVolatileDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"

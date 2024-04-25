@@ -389,10 +389,11 @@ skyboxScalars
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusExtremelyHarsh"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusDenseCore"
 bonus "PlanetBonusFertileSoil"
 bonus "PlanetBonusPartiallyTerraformed"
+bonus "PlanetBonusSubsurfaceMetalDeposits"
 bonus "PlanetBonusSubsurfaceMetalDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

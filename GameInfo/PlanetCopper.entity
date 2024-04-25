@@ -365,7 +365,8 @@ skyboxScalars
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusSubsurfaceMetalDeposits"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusDisloyalGovernment"

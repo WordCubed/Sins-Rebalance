@@ -336,7 +336,8 @@ skyboxScalars
 requiredPlanetBonusesCount 2
 bonus "PlanetBonusHarsh"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusPartiallyTerraformed"

@@ -334,9 +334,10 @@ skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 4
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusSanctuary"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
