@@ -338,9 +338,11 @@ skyboxScalars
 	ambientScalar 0.150000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusBarren"
-possibleRandomPlanetBonusesCount 3
-bonus "PlanetBonusCalmInTheStorm"
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusFortified"
+bonus "PlanetBonusFortified"
+bonus "PlanetBonusPartiallyTerraformed"
+bonus "PlanetBonusPorousCore"
 bonus "PlanetBonusStrategicallyValuable"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

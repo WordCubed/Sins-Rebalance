@@ -37,7 +37,7 @@ starCount 7
 star
 	designName "Star2"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 540 , 442 ]
 	radius 200.000000
 	planetCount 36
@@ -1434,7 +1434,7 @@ star
 	planet
 		designName "Planet39"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 506 , 134 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1459,7 +1459,7 @@ star
 	planet
 		designName "Planet40"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Volcanic"
 		pos [ 580 , 133 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1509,7 +1509,7 @@ star
 	planet
 		designName "Planet42"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 475 , 153 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1534,7 +1534,7 @@ star
 	planet
 		designName "Planet43"
 		inGameName ""
-		type "Tropical"
+		type "Industrial"
 		pos [ 544 , 32 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1559,7 +1559,7 @@ star
 	planet
 		designName "Planet44"
 		inGameName ""
-		type "RockGiant"
+		type "GasGiant"
 		pos [ 612 , 152 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1584,7 +1584,7 @@ star
 	planet
 		designName "Planet45"
 		inGameName ""
-		type "Moon"
+		type "ShipGraveyard"
 		pos [ 543 , 153 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1609,7 +1609,7 @@ star
 	planet
 		designName "Planet46"
 		inGameName ""
-		type "Tundra"
+		type "Carbon"
 		pos [ 510 , 86 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1634,7 +1634,7 @@ star
 	planet
 		designName "Planet47"
 		inGameName ""
-		type "Mountains"
+		type "Oceanic"
 		pos [ 582 , 90 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1744,7 +1744,7 @@ star
 	planet
 		designName "Planet57"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 804 , 251 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1769,7 +1769,7 @@ star
 	planet
 		designName "Planet58"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Volcanic"
 		pos [ 848 , 307 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1819,7 +1819,7 @@ star
 	planet
 		designName "Planet60"
 		inGameName ""
-		type "Tropical"
+		type "Industrial"
 		pos [ 900 , 217 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1844,7 +1844,7 @@ star
 	planet
 		designName "Planet61"
 		inGameName ""
-		type "RockGiant"
+		type "GasGiant"
 		pos [ 852 , 343 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1869,7 +1869,7 @@ star
 	planet
 		designName "Planet62"
 		inGameName ""
-		type "Mountains"
+		type "Oceanic"
 		pos [ 878 , 283 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1894,7 +1894,7 @@ star
 	planet
 		designName "Planet63"
 		inGameName ""
-		type "Moon"
+		type "ShipGraveyard"
 		pos [ 810 , 291 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1919,7 +1919,7 @@ star
 	planet
 		designName "Planet64"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 767 , 237 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1944,7 +1944,7 @@ star
 	planet
 		designName "Planet65"
 		inGameName ""
-		type "Tundra"
+		type "Carbon"
 		pos [ 835 , 228 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2054,7 +2054,7 @@ star
 	planet
 		designName "Planet66"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 835 , 561 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2079,7 +2079,7 @@ star
 	planet
 		designName "Planet67"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Volcanic"
 		pos [ 814 , 623 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2129,7 +2129,7 @@ star
 	planet
 		designName "Planet70"
 		inGameName ""
-		type "Tropical"
+		type "Industrial"
 		pos [ 922 , 617 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2154,7 +2154,7 @@ star
 	planet
 		designName "Planet71"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 825 , 525 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2179,7 +2179,7 @@ star
 	planet
 		designName "Planet72"
 		inGameName ""
-		type "RockGiant"
+		type "GasGiant"
 		pos [ 788 , 649 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2204,7 +2204,7 @@ star
 	planet
 		designName "Planet73"
 		inGameName ""
-		type "Moon"
+		type "ShipGraveyard"
 		pos [ 806 , 586 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2229,7 +2229,7 @@ star
 	planet
 		designName "Planet74"
 		inGameName ""
-		type "Mountains"
+		type "Oceanic"
 		pos [ 852 , 633 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2254,7 +2254,7 @@ star
 	planet
 		designName "Planet75"
 		inGameName ""
-		type "Tundra"
+		type "Carbon"
 		pos [ 874 , 571 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2364,7 +2364,7 @@ star
 	planet
 		designName "Planet48"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Volcanic"
 		pos [ 494 , 750 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2389,7 +2389,7 @@ star
 	planet
 		designName "Planet49"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 568 , 750 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2439,7 +2439,7 @@ star
 	planet
 		designName "Planet51"
 		inGameName ""
-		type "RockGiant"
+		type "GasGiant"
 		pos [ 465 , 729 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2464,7 +2464,7 @@ star
 	planet
 		designName "Planet52"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 601 , 730 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2489,7 +2489,7 @@ star
 	planet
 		designName "Planet53"
 		inGameName ""
-		type "Moon"
+		type "ShipGraveyard"
 		pos [ 533 , 730 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2514,7 +2514,7 @@ star
 	planet
 		designName "Planet54"
 		inGameName ""
-		type "Tropical"
+		type "Industrial"
 		pos [ 529 , 851 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2539,7 +2539,7 @@ star
 	planet
 		designName "Planet55"
 		inGameName ""
-		type "Tundra"
+		type "Carbon"
 		pos [ 564 , 791 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2564,7 +2564,7 @@ star
 	planet
 		designName "Planet56"
 		inGameName ""
-		type "Mountains"
+		type "Oceanic"
 		pos [ 496 , 789 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2674,7 +2674,7 @@ star
 	planet
 		designName "Planet76"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Volcanic"
 		pos [ 233 , 558 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2699,7 +2699,7 @@ star
 	planet
 		designName "Planet77"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 273 , 612 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2749,7 +2749,7 @@ star
 	planet
 		designName "Planet79"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 307 , 628 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2774,7 +2774,7 @@ star
 	planet
 		designName "Planet80"
 		inGameName ""
-		type "RockGiant"
+		type "GasGiant"
 		pos [ 231 , 520 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2799,7 +2799,7 @@ star
 	planet
 		designName "Planet81"
 		inGameName ""
-		type "Moon"
+		type "ShipGraveyard"
 		pos [ 271 , 575 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2824,7 +2824,7 @@ star
 	planet
 		designName "Planet82"
 		inGameName ""
-		type "Tropical"
+		type "Industrial"
 		pos [ 167 , 637 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2849,7 +2849,7 @@ star
 	planet
 		designName "Planet83"
 		inGameName ""
-		type "Tundra"
+		type "Carbon"
 		pos [ 237 , 633 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2874,7 +2874,7 @@ star
 	planet
 		designName "Planet84"
 		inGameName ""
-		type "Mountains"
+		type "Oceanic"
 		pos [ 199 , 579 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2984,7 +2984,7 @@ star
 	planet
 		designName "Planet85"
 		inGameName ""
-		type "Savannah"
+		type "Desert"
 		pos [ 249 , 319 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3009,7 +3009,7 @@ star
 	planet
 		designName "Planet86"
 		inGameName ""
-		type "Hydrocarbon"
+		type "Volcanic"
 		pos [ 264 , 258 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3059,7 +3059,7 @@ star
 	planet
 		designName "Planet88"
 		inGameName ""
-		type "RockGiant"
+		type "GasGiant"
 		pos [ 288 , 233 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3084,7 +3084,7 @@ star
 	planet
 		designName "Planet89"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 262 , 358 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3109,7 +3109,7 @@ star
 	planet
 		designName "Planet90"
 		inGameName ""
-		type "Tropical"
+		type "Industrial"
 		pos [ 164 , 266 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3134,7 +3134,7 @@ star
 	planet
 		designName "Planet91"
 		inGameName ""
-		type "Mountains"
+		type "Oceanic"
 		pos [ 228 , 248 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3159,7 +3159,7 @@ star
 	planet
 		designName "Planet92"
 		inGameName ""
-		type "Moon"
+		type "ShipGraveyard"
 		pos [ 276 , 294 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3184,7 +3184,7 @@ star
 	planet
 		designName "Planet93"
 		inGameName ""
-		type "Tundra"
+		type "Carbon"
 		pos [ 208 , 310 ]
 		owner ""
 		isHomePlanet FALSE

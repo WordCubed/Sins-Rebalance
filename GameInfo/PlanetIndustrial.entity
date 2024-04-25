@@ -336,13 +336,9 @@ skyboxScalars
 requiredPlanetBonusesCount 2
 bonus "PlanetBonusIndustrialPowerhouse"
 bonus "PlanetBonusExtremelyNice"
-possibleRandomPlanetBonusesCount 8
+possibleRandomPlanetBonusesCount 4
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusCorruptGovernment"
 bonus "PlanetBonusDepletedMines"
-bonus "PlanetBonusProminent"
-bonus "PlanetBonusProminent"
 bonus "PlanetBonusSlavery"
 bonus "PlanetBonusSlums"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"

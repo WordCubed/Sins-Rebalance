@@ -365,8 +365,10 @@ skyboxScalars
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusMetalBonanza"
-possibleRandomPlanetBonusesCount 3
+possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusDenseCore"
+bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusFortified"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusSubsurfaceMetalDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"

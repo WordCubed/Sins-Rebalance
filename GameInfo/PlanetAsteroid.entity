@@ -378,12 +378,14 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 1.000000
-requiredPlanetBonusesCount 1
+requiredPlanetBonusesCount 2
+bonus "PlanetBonusHarsh"
 bonus "PlanetBonusPlanetoid"
-possibleRandomPlanetBonusesCount 3
+possibleRandomPlanetBonusesCount 4
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusDepletedMines"
-bonus "PlanetBonusSanctuary"
+bonus "PlanetBonusSlavery"
 ambienceSoundID ""
 renderAsVolcanic FALSE
 planetRuinDef

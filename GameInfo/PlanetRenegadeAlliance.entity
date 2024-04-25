@@ -318,9 +318,9 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 0.700000
 	ambientScalar 0.250000
-requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 1
-bonus "PlanetBonusSpacePony"
+requiredPlanetBonusesCount 1
+bonus "PlanetBonusProminent"
+possibleRandomPlanetBonusesCount 0
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

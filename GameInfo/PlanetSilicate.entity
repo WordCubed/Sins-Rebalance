@@ -319,10 +319,9 @@ skyboxScalars
 	diffuseScalar 0.700000
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 0
-possibleRandomPlanetBonusesCount 5
+possibleRandomPlanetBonusesCount 4
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusDepletedMines"
-bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusPartiallyTerraformed"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"

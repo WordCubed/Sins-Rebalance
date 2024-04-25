@@ -345,8 +345,12 @@ skyboxScalars
 	ambientScalar 1.000000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusPirateTreasure"
-possibleRandomPlanetBonusesCount 1
+possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusAncientTradeRoutes"
+bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusFortified"
+bonus "PlanetBonusFortified"
+bonus "PlanetBonusSlavery"
 ambienceSoundID ""
 renderAsVolcanic FALSE
 planetRuinDef

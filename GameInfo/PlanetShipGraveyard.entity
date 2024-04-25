@@ -320,9 +320,11 @@ skyboxScalars
 	ambientScalar 1.000000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusPlanetoid"
-possibleRandomPlanetBonusesCount 3
+possibleRandomPlanetBonusesCount 5
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusCalmInTheStorm"
+bonus "PlanetBonusForgettable"
+bonus "PlanetBonusFortified"
 bonus "PlanetBonusFortified"
 ambienceSoundID ""
 renderAsVolcanic FALSE

@@ -329,12 +329,11 @@ skyboxScalars
 	ambientScalar 0.250000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusNice"
-possibleRandomPlanetBonusesCount 5
+possibleRandomPlanetBonusesCount 4
 bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusFertileSoil"
 bonus "PlanetBonusJeweloftheGalaxy"
-bonus "PlanetBonusLoyalGovernment"
-bonus "PlanetBonusProminent"
+bonus "PlanetBonusMildWeather"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
