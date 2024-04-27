@@ -24,7 +24,7 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "TwoTeamsOfThree"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 2.000003
+pixelsPerGalaxyUnit 2.120003
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 993.000000
@@ -67,8 +67,8 @@ star
 	planet
 		designName "Planet11"
 		inGameName ""
-		type "GasGiant"
-		pos [ 462 , 440 ]
+		type "Carbon"
+		pos [ 463 , 439 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -117,7 +117,7 @@ star
 	planet
 		designName "Planet21"
 		inGameName ""
-		type "GasGiant"
+		type "Carbon"
 		pos [ 462 , 160 ]
 		owner ""
 		isHomePlanet FALSE
@@ -168,7 +168,7 @@ star
 		designName "Planet125"
 		inGameName ""
 		type "PirateBase"
-		pos [ 470 , 300 ]
+		pos [ 535 , 300 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -192,7 +192,7 @@ star
 	planet
 		designName "Planet174"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 341 , 285 ]
 		owner ""
 		isHomePlanet FALSE
@@ -217,7 +217,7 @@ star
 	planet
 		designName "Planet175"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 410 , 159 ]
 		owner ""
 		isHomePlanet FALSE
@@ -242,7 +242,7 @@ star
 	planet
 		designName "Planet176"
 		inGameName ""
-		type "Carbon"
+		type "Cryo"
 		pos [ 399 , 234 ]
 		owner ""
 		isHomePlanet FALSE
@@ -267,7 +267,7 @@ star
 	planet
 		designName "Planet182"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 410 , 441 ]
 		owner ""
 		isHomePlanet FALSE
@@ -292,7 +292,7 @@ star
 	planet
 		designName "Planet183"
 		inGameName ""
-		type "Carbon"
+		type "Cryo"
 		pos [ 399 , 366 ]
 		owner ""
 		isHomePlanet FALSE
@@ -317,7 +317,7 @@ star
 	planet
 		designName "Planet184"
 		inGameName ""
-		type "Desert"
+		type "Toxic"
 		pos [ 412 , 393 ]
 		owner ""
 		isHomePlanet FALSE
@@ -342,7 +342,7 @@ star
 	planet
 		designName "Planet185"
 		inGameName ""
-		type "Toxic"
+		type "Ferrus"
 		pos [ 525 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -367,7 +367,7 @@ star
 	planet
 		designName "Planet191"
 		inGameName ""
-		type "Desert"
+		type "Toxic"
 		pos [ 412 , 207 ]
 		owner ""
 		isHomePlanet FALSE
@@ -392,7 +392,7 @@ star
 	planet
 		designName "Planet192"
 		inGameName ""
-		type "Toxic"
+		type "Ferrus"
 		pos [ 524 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -417,7 +417,7 @@ star
 	planet
 		designName "Planet193"
 		inGameName ""
-		type "Desert"
+		type "Toxic"
 		pos [ 410 , 325 ]
 		owner ""
 		isHomePlanet FALSE
@@ -442,7 +442,7 @@ star
 	planet
 		designName "Planet195"
 		inGameName ""
-		type "Ferrus"
+		type "GasGiant"
 		pos [ 477 , 198 ]
 		owner ""
 		isHomePlanet FALSE
@@ -467,7 +467,7 @@ star
 	planet
 		designName "Planet196"
 		inGameName ""
-		type "GasGiant"
+		type "Carbon"
 		pos [ 410 , 275 ]
 		owner ""
 		isHomePlanet FALSE
@@ -492,7 +492,7 @@ star
 	planet
 		designName "Planet202"
 		inGameName ""
-		type "Cryo"
+		type "Oceanic"
 		pos [ 452 , 383 ]
 		owner ""
 		isHomePlanet FALSE
@@ -542,7 +542,7 @@ star
 	planet
 		designName "Planet216"
 		inGameName ""
-		type "Toxic"
+		type "Ferrus"
 		pos [ 520 , 265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -567,7 +567,7 @@ star
 	planet
 		designName "Planet217"
 		inGameName ""
-		type "Carbon"
+		type "Cryo"
 		pos [ 520 , 335 ]
 		owner ""
 		isHomePlanet FALSE
@@ -592,7 +592,7 @@ star
 	planet
 		designName "Planet224"
 		inGameName ""
-		type "Ferrus"
+		type "GasGiant"
 		pos [ 477 , 402 ]
 		owner ""
 		isHomePlanet FALSE
@@ -617,7 +617,7 @@ star
 	planet
 		designName "Planet228"
 		inGameName ""
-		type "Cryo"
+		type "Oceanic"
 		pos [ 452 , 212 ]
 		owner ""
 		isHomePlanet FALSE
@@ -768,7 +768,7 @@ star
 		designName "Planet298"
 		inGameName ""
 		type "Wormhole"
-		pos [ 373 , 300 ]
+		pos [ 409 , 300 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -842,8 +842,8 @@ star
 	planet
 		designName "Planet306"
 		inGameName ""
-		type "Cryo"
-		pos [ 443 , 315 ]
+		type "GasGiant"
+		pos [ 449 , 329 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -867,8 +867,8 @@ star
 	planet
 		designName "Planet307"
 		inGameName ""
-		type "Ferrus"
-		pos [ 442 , 285 ]
+		type "Oceanic"
+		pos [ 448 , 272 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -889,7 +889,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 52
+	connectionCount 61
 	connection
 		planetIndexA 9
 		planetIndexB 1
@@ -956,22 +956,7 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA -1
-		planetIndexB 20
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA -1
-		planetIndexB 21
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 5
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 24
 		planetIndexB -1
 		spawnProbability 1.000000
 		type "PhaseLane"
@@ -1026,18 +1011,8 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 15
-		planetIndexB 21
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 17
 		planetIndexB 6
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 17
-		planetIndexB 20
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1048,16 +1023,6 @@ star
 	connection
 		planetIndexA 23
 		planetIndexB 16
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 17
-		planetIndexB 29
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 29
-		planetIndexB 15
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1121,16 +1086,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 33
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 32
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 10
 		planetIndexB 30
 		spawnProbability 1.000000
@@ -1150,6 +1105,96 @@ star
 		planetIndexB 24
 		spawnProbability 1.000000
 		type "PhaseLane"
+	connection
+		planetIndexA 33
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 32
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 32
+		planetIndexB 33
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA -1
+		planetIndexB 29
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB 30
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 26
+		planetIndexB 27
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 27
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 26
+		planetIndexB 30
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 32
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 30
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 26
+		planetIndexB 24
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 27
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 16
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 22
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 29
+		planetIndexB 33
+		spawnProbability 1.000000
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 star
@@ -1162,7 +1207,7 @@ star
 	planet
 		designName "Planet260"
 		inGameName ""
-		type "Carbon"
+		type "Cryo"
 		pos [ 980 , 265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1187,8 +1232,8 @@ star
 	planet
 		designName "Planet261"
 		inGameName ""
-		type "Toxic"
-		pos [ 980 , 335 ]
+		type "Ferrus"
+		pos [ 982 , 335 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1288,7 +1333,7 @@ star
 		designName "Planet265"
 		inGameName ""
 		type "PirateBase"
-		pos [ 1032 , 300 ]
+		pos [ 968 , 301 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1387,7 +1432,7 @@ star
 	planet
 		designName "Planet271"
 		inGameName ""
-		type "Toxic"
+		type "Ferrus"
 		pos [ 975 , 414 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1412,7 +1457,7 @@ star
 	planet
 		designName "Planet272"
 		inGameName ""
-		type "Desert"
+		type "Toxic"
 		pos [ 1090 , 275 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1437,7 +1482,7 @@ star
 	planet
 		designName "Planet273"
 		inGameName ""
-		type "Desert"
+		type "Toxic"
 		pos [ 1088 , 207 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1462,7 +1507,7 @@ star
 	planet
 		designName "Planet274"
 		inGameName ""
-		type "Toxic"
+		type "Ferrus"
 		pos [ 975 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1487,7 +1532,7 @@ star
 	planet
 		designName "Planet275"
 		inGameName ""
-		type "Desert"
+		type "Toxic"
 		pos [ 1088 , 393 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1512,7 +1557,7 @@ star
 	planet
 		designName "Planet276"
 		inGameName ""
-		type "Ferrus"
+		type "GasGiant"
 		pos [ 1023 , 204 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1537,7 +1582,7 @@ star
 	planet
 		designName "Planet277"
 		inGameName ""
-		type "Ferrus"
+		type "GasGiant"
 		pos [ 1023 , 402 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1562,7 +1607,7 @@ star
 	planet
 		designName "Planet278"
 		inGameName ""
-		type "Cryo"
+		type "Oceanic"
 		pos [ 1050 , 229 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1587,7 +1632,7 @@ star
 	planet
 		designName "Planet279"
 		inGameName ""
-		type "GasGiant"
+		type "Carbon"
 		pos [ 1090 , 325 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1612,7 +1657,7 @@ star
 	planet
 		designName "Planet280"
 		inGameName ""
-		type "Cryo"
+		type "Oceanic"
 		pos [ 1051 , 371 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1638,7 +1683,7 @@ star
 		designName "Planet297"
 		inGameName ""
 		type "Wormhole"
-		pos [ 1127 , 300 ]
+		pos [ 1091 , 300 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1712,8 +1757,8 @@ star
 	planet
 		designName "Planet301"
 		inGameName ""
-		type "Ferrus"
-		pos [ 1055 , 315 ]
+		type "Oceanic"
+		pos [ 1045 , 329 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1737,8 +1782,8 @@ star
 	planet
 		designName "Planet302"
 		inGameName ""
-		type "Cryo"
-		pos [ 1055 , 285 ]
+		type "GasGiant"
+		pos [ 1044 , 271 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1762,7 +1807,7 @@ star
 	planet
 		designName "Planet308"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 1090 , 441 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1787,7 +1832,7 @@ star
 	planet
 		designName "Planet309"
 		inGameName ""
-		type "GasGiant"
+		type "Carbon"
 		pos [ 1038 , 440 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1812,7 +1857,7 @@ star
 	planet
 		designName "Planet310"
 		inGameName ""
-		type "Carbon"
+		type "Cryo"
 		pos [ 1111 , 366 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1887,7 +1932,7 @@ star
 	planet
 		designName "Planet314"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 1159 , 315 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1912,7 +1957,7 @@ star
 	planet
 		designName "Planet315"
 		inGameName ""
-		type "Carbon"
+		type "Cryo"
 		pos [ 1111 , 234 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1962,7 +2007,7 @@ star
 	planet
 		designName "Planet317"
 		inGameName ""
-		type "GasGiant"
+		type "Carbon"
 		pos [ 1038 , 160 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1987,7 +2032,7 @@ star
 	planet
 		designName "Planet318"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 1090 , 159 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2009,22 +2054,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 51
-	connection
-		planetIndexA 2
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 0
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 1
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
+	connectionCount 60
 	connection
 		planetIndexA 5
 		planetIndexB -1
@@ -2071,16 +2101,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 10
-		planetIndexB 0
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 17
-		planetIndexB 1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 16
 		planetIndexB 14
 		spawnProbability 1.000000
@@ -2093,16 +2113,6 @@ star
 	connection
 		planetIndexA 2
 		planetIndexB 6
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 10
-		planetIndexB 19
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 19
-		planetIndexB 17
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -2236,16 +2246,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 23
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 22
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 30
 		planetIndexB 20
 		spawnProbability 1.000000
@@ -2263,6 +2263,96 @@ star
 	connection
 		planetIndexA 1
 		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 22
+		planetIndexB 1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB 0
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB 22
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 8
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 7
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 14
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 15
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB 22
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
@@ -2374,7 +2464,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 6
+	connectionCount 8
 	connection
 		planetIndexA 2
 		planetIndexB 0
@@ -2405,12 +2495,22 @@ star
 		planetIndexB 1
 		spawnProbability 1.000000
 		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA -1
+		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 star
 	designName "Star5"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 1280 , 300 ]
 	radius 100.000000
 	planetCount 15
@@ -2890,7 +2990,7 @@ star
 star
 	designName "Star6"
 	inGameName ""
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 220 , 300 ]
 	radius 100.000000
 	planetCount 15

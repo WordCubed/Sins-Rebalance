@@ -1509,7 +1509,7 @@ star
 	planet
 		designName "Planet42"
 		inGameName ""
-		type "Ice"
+		type "Barren"
 		pos [ 475 , 153 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1609,7 +1609,7 @@ star
 	planet
 		designName "Planet46"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 510 , 86 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1919,7 +1919,7 @@ star
 	planet
 		designName "Planet64"
 		inGameName ""
-		type "Ice"
+		type "Barren"
 		pos [ 767 , 237 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1944,7 +1944,7 @@ star
 	planet
 		designName "Planet65"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 835 , 228 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2154,7 +2154,7 @@ star
 	planet
 		designName "Planet71"
 		inGameName ""
-		type "Ice"
+		type "Barren"
 		pos [ 825 , 525 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2254,7 +2254,7 @@ star
 	planet
 		designName "Planet75"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 874 , 571 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2464,7 +2464,7 @@ star
 	planet
 		designName "Planet52"
 		inGameName ""
-		type "Ice"
+		type "Barren"
 		pos [ 601 , 730 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2539,7 +2539,7 @@ star
 	planet
 		designName "Planet55"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 564 , 791 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2749,7 +2749,7 @@ star
 	planet
 		designName "Planet79"
 		inGameName ""
-		type "Ice"
+		type "Barren"
 		pos [ 307 , 628 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2849,7 +2849,7 @@ star
 	planet
 		designName "Planet83"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 237 , 633 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3084,7 +3084,7 @@ star
 	planet
 		designName "Planet89"
 		inGameName ""
-		type "Ice"
+		type "Barren"
 		pos [ 262 , 358 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3184,7 +3184,7 @@ star
 	planet
 		designName "Planet93"
 		inGameName ""
-		type "Carbon"
+		type "Ice"
 		pos [ 208 , 310 ]
 		owner ""
 		isHomePlanet FALSE

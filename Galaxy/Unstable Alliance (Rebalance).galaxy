@@ -1092,7 +1092,7 @@ star
 	planet
 		designName "Planet299"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 175 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1117,7 +1117,7 @@ star
 	planet
 		designName "Planet300"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 225 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1142,7 +1142,7 @@ star
 	planet
 		designName "Planet302"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 303 , 207 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1167,7 +1167,7 @@ star
 	planet
 		designName "Planet303"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 279 , 133 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1192,7 +1192,7 @@ star
 	planet
 		designName "Planet304"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 239 , 103 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1217,7 +1217,7 @@ star
 	planet
 		designName "Planet305"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 161 , 103 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1242,7 +1242,7 @@ star
 	planet
 		designName "Planet306"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 121 , 133 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1267,7 +1267,7 @@ star
 	planet
 		designName "Planet307"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 97 , 207 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1292,7 +1292,7 @@ star
 	planet
 		designName "Planet308"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 113 , 254 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1642,7 +1642,7 @@ star
 	planet
 		designName "Planet327"
 		inGameName ""
-		type "Asteroid"
+		type "ShipGraveyard"
 		pos [ 287 , 254 ]
 		owner ""
 		isHomePlanet FALSE
