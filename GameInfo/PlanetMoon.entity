@@ -378,8 +378,9 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 1.000000
-requiredPlanetBonusesCount 1
+requiredPlanetBonusesCount 2
 bonus "PlanetBonusDwarf"
+bonus "PlanetBonusHarsh"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmInTheStorm"
 bonus "PlanetBonusForgettable"

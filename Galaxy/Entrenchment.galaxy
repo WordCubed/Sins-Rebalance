@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.280000
+pixelsPerGalaxyUnit 4.159999
 useRandomGenerator FALSE
 galaxyWidth 4887.299805
 galaxyHeight 3020.300049
@@ -318,7 +318,7 @@ star
 	planet
 		designName "WeightedRandom-12"
 		inGameName ""
-		type "Mountains"
+		type "GasGiant"
 		pos [ 80 , 145 ]
 		owner ""
 		isHomePlanet FALSE
@@ -518,7 +518,7 @@ star
 	planet
 		designName "Moon-20"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 257 , 196 ]
 		owner ""
 		isHomePlanet FALSE
@@ -618,7 +618,7 @@ star
 	planet
 		designName "Moon-28"
 		inGameName ""
-		type "GasGiant"
+		type "Industrial"
 		pos [ 52 , 133 ]
 		owner ""
 		isHomePlanet FALSE
@@ -718,7 +718,7 @@ star
 	planet
 		designName "Moon-32"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 224 , 62 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1664,7 +1664,7 @@ star
 	type "NonSpecialStar"
 	pos [ 1200 , 1200 ]
 	radius 150.000000
-	planetCount 51
+	planetCount 50
 	planet
 		designName "PirateBase-35"
 		inGameName ""
@@ -1693,7 +1693,7 @@ star
 	planet
 		designName "WeightedRandom-36"
 		inGameName ""
-		type "Mountains"
+		type "Barren"
 		pos [ 1245 , 1205 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1718,7 +1718,7 @@ star
 	planet
 		designName "WeightedRandom-37"
 		inGameName ""
-		type "Barren"
+		type "GasGiant"
 		pos [ 1226 , 1265 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1745,31 +1745,6 @@ star
 		inGameName ""
 		type "Barren"
 		pos [ 1177 , 1226 ]
-		owner ""
-		isHomePlanet FALSE
-		normalStartUpgradeLevelForPopulation 0
-		normalStartUpgradeLevelForCivilianModules 0
-		normalStartUpgradeLevelForTacticalModules 0
-		normalStartUpgradeLevelForArtifacts 0
-		normalStartUpgradeLevelForInfrastructure 0
-		quickStartUpgradeLevelForPopulation 0
-		quickStartUpgradeLevelForCivilianModules 0
-		quickStartUpgradeLevelForTacticalModules 0
-		quickStartUpgradeLevelForArtifacts 0
-		quickStartUpgradeLevelForInfrastructure 0
-		planetItems
-			templateName ""
-			subTemplates 0
-			groups 0
-		spawnProbability 1.000000
-		useDefaultTemplate TRUE
-		entityCount 0
-		asteroidCount 0
-	planet
-		designName "WeightedRandom-39"
-		inGameName ""
-		type "Mountains"
-		pos [ 1144 , 1189 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1993,7 +1968,7 @@ star
 	planet
 		designName "WeightedRandom-49"
 		inGameName ""
-		type "Mountains"
+		type "Industrial"
 		pos [ 1187 , 1094 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2168,7 +2143,7 @@ star
 	planet
 		designName "RandomIceVolcanic-56"
 		inGameName ""
-		type "GasGiant"
+		type "Industrial"
 		pos [ 1283 , 1278 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2243,7 +2218,7 @@ star
 	planet
 		designName "Moon-59"
 		inGameName ""
-		type "RandomHighPop"
+		type "Industrial"
 		pos [ 1153 , 1298 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2418,7 +2393,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Mountains"
+		type "Oceanic"
 		pos [ 1162 , 1253 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2918,7 +2893,7 @@ star
 	planet
 		designName "Planet42"
 		inGameName ""
-		type "Oceanic"
+		type "Moon"
 		pos [ 1109 , 1262 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2940,7 +2915,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 77
+	connectionCount 78
 	connection
 		planetIndexA 0
 		planetIndexB -1
@@ -2957,18 +2932,13 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 0
+		planetIndexA 1
+		planetIndexB 14
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 1
 		planetIndexB 5
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 1
-		planetIndexB 15
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 1
-		planetIndexB 6
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -2978,22 +2948,22 @@ star
 		type "PhaseLane"
 	connection
 		planetIndexA 2
-		planetIndexB 8
+		planetIndexB 7
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 2
-		planetIndexB 3
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 2
-		planetIndexB 10
+		planetIndexB 9
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 3
-		planetIndexB 11
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 4
+		planetIndexB 16
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -3002,33 +2972,28 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 5
-		planetIndexB 17
+		planetIndexA 4
+		planetIndexB 5
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 5
-		planetIndexB 12
+		planetIndexB -1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 5
-		planetIndexB 6
+		planetIndexB 13
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 6
-		planetIndexB -1
+		planetIndexB 20
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 6
 		planetIndexB 14
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 7
-		planetIndexB 21
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -3038,32 +3003,42 @@ star
 		type "PhaseLane"
 	connection
 		planetIndexA 8
-		planetIndexB 16
+		planetIndexB 22
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 9
-		planetIndexB 23
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 13
-		planetIndexB 28
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 13
-		planetIndexB 17
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 14
+		planetIndexA 12
 		planetIndexB 27
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 14
-		planetIndexB 15
+		planetIndexA 12
+		planetIndexB 16
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 13
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 13
+		planetIndexB 14
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 17
+		planetIndexB 18
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 17
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 17
+		planetIndexB 19
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -3072,43 +3047,28 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 18
-		planetIndexB 21
+		planetIndexA 21
+		planetIndexB 22
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 18
-		planetIndexB 20
+		planetIndexA 21
+		planetIndexB 24
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 19
-		planetIndexB 20
+		planetIndexA 23
+		planetIndexB 24
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 22
-		planetIndexB 23
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 22
-		planetIndexB 25
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 24
-		planetIndexB 25
+		planetIndexA 25
+		planetIndexB 27
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 26
 		planetIndexB 28
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 27
-		planetIndexB 29
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -3117,123 +3077,123 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 21
-		planetIndexB 16
+		planetIndexA 20
+		planetIndexB 15
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 10
-		planetIndexB 25
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 16
-		planetIndexB 20
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 17
-		planetIndexB 12
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 7
-		planetIndexB 1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 22
+		planetIndexA 9
 		planetIndexB 24
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 10
-		planetIndexB 9
+		planetIndexA 15
+		planetIndexB 19
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 26
-		planetIndexB 27
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 4
-		planetIndexB 12
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 30
+		planetIndexA 16
 		planetIndexB 11
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 30
+		planetIndexA 6
+		planetIndexB 1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 21
+		planetIndexB 23
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 9
+		planetIndexB 8
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 25
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 29
 		planetIndexB 10
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 30
+		planetIndexA 29
+		planetIndexB 9
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 29
 		planetIndexB 3
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 31
-		planetIndexB 16
+		planetIndexA 30
+		planetIndexB 15
 		spawnProbability 1.000000
 		type "Wormhole"
+	connection
+		planetIndexA 31
+		planetIndexB 30
+		spawnProbability 1.000000
+		type "PhaseLane"
 	connection
 		planetIndexA 32
 		planetIndexB 31
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
+		planetIndexA 34
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
 		planetIndexA 33
-		planetIndexB 32
+		planetIndexB 31
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 35
-		planetIndexB 32
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 34
-		planetIndexB 32
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 36
-		planetIndexB 17
+		planetIndexB 16
 		spawnProbability 1.000000
 		type "Wormhole"
 	connection
-		planetIndexA 37
+		planetIndexA 36
+		planetIndexB 35
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 39
 		planetIndexB 36
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 40
-		planetIndexB 37
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 37
-		planetIndexB 39
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 37
+		planetIndexA 36
 		planetIndexB 38
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 41
-		planetIndexB 11
+		planetIndexA 36
+		planetIndexB 37
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 40
+		planetIndexB 10
 		spawnProbability 1.000000
 		type "Wormhole"
 	connection
-		planetIndexA 45
-		planetIndexB 42
+		planetIndexA 44
+		planetIndexB 41
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 41
+		planetIndexB 40
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -3242,13 +3202,8 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 43
-		planetIndexB 42
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 42
-		planetIndexB 44
+		planetIndexA 41
+		planetIndexB 43
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -3257,63 +3212,63 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 46
-		planetIndexB 5
+		planetIndexA 45
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 45
+		planetIndexB 13
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 45
+		planetIndexB 27
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 46
-		planetIndexB 14
+		planetIndexB 22
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 46
-		planetIndexB 28
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 47
 		planetIndexB 23
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 47
-		planetIndexB 24
+		planetIndexB 17
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 47
+		planetIndexB 20
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 48
-		planetIndexB 18
+		planetIndexB 25
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 48
-		planetIndexB 21
+		planetIndexB 28
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 24
+		planetIndexB 10
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 49
-		planetIndexB 26
+		planetIndexB 23
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 49
-		planetIndexB 29
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 25
-		planetIndexB 11
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 50
-		planetIndexB 24
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 50
-		planetIndexB 11
+		planetIndexB 10
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -3323,7 +3278,32 @@ star
 		type "PhaseLane"
 	connection
 		planetIndexA -1
-		planetIndexB 5
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB 19
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 7
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 10
+		planetIndexB 11
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 11
+		planetIndexB 12
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 48
+		planetIndexB 12
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0

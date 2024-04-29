@@ -323,7 +323,7 @@ bonus "PlanetBonusExtremelyHarsh"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmInTheStorm"
 bonus "PlanetBonusAbundantResources"
-bonus "PlanetBonusPartiallyTerraformed"
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusVolatileDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
