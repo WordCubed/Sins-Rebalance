@@ -340,8 +340,8 @@ possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusPartiallyTerraformed"
-bonus "PlanetBonusPorousCore"
+bonus "PlanetBonusLoyalGovernment"
+bonus "PlanetBonusVolatileDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

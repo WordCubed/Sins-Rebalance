@@ -354,7 +354,7 @@ possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCulturalHub"
 bonus "PlanetBonusCulturalHub"
 bonus "PlanetBonusJewelOfTheGalaxy"
-bonus "PlanetBonusPorousCore"
+bonus "PlanetBonusMildWeather"
 bonus "PlanetBonusVacationDestination"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

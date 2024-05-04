@@ -385,7 +385,7 @@ possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusDepletedMines"
+bonus "PlanetBonusForgettable"
 bonus "PlanetBonusSlavery"
 ambienceSoundID ""
 renderAsVolcanic FALSE

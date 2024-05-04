@@ -338,7 +338,7 @@ bonus "PlanetBonusHarsh"
 bonus "PlanetBonusCrystalBonanza"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmintheStorm"
-bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusDepletedMines"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"

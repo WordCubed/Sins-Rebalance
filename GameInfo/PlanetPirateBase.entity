@@ -347,7 +347,7 @@ requiredPlanetBonusesCount 1
 bonus "PlanetBonusPirateTreasure"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusCorruptGovernment"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusSlavery"

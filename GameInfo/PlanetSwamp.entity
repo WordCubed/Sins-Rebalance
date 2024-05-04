@@ -368,9 +368,9 @@ bonus "PlanetBonusNice"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusFertileSoil"
 bonus "PlanetBonusForgettable"
+bonus "PlanetBonusLoyalGovernment"
 bonus "PlanetBonusMildWeather"
 bonus "PlanetBonusMildWeather"
-bonus "PlanetBonusSanctuary"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

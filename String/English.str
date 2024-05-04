@@ -143,7 +143,7 @@ StringInfo
 	Value "Vasari Racial Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPHASE_DESCRIPTION"
-	Value "Compared to other races, the Vasari have increased rate-of-fire and range for all weapons, boosted credit income, and faster inter-planet travel speeds."
+	Value "Compared to other races, the Vasari have increased rate-of-fire and range for all weapons, boosted resource income, and faster inter-planet travel speeds."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_HEAVYTECH_NAME"
 	Value "Heavy Cruiser Prototype"

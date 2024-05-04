@@ -30,13 +30,17 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 4
+researchFloatModifiers 5
 researchModifier
 	modifierType "HyperspaceInSystemSpeedAdjustment"
 	baseValue 1.000000
 	perLevelValue 0.000000
 researchModifier
-	modifierType "PopulationTaxRateAdjustment"
+	modifierType "ExtractionRateMetalAdjustment"
+	baseValue 0.050000
+	perLevelValue 0.000000
+researchModifier
+	modifierType "ExtractionRateCrystalAdjustment"
 	baseValue 0.050000
 	perLevelValue 0.000000
 researchModifier

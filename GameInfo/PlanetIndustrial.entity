@@ -338,10 +338,10 @@ bonus "PlanetBonusIndustrialPowerhouse"
 bonus "PlanetBonusExtremelyNice"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusDepletedMines"
 bonus "PlanetBonusSlavery"
 bonus "PlanetBonusSlums"
+bonus "PlanetBonusStrategicallyValuable"
+bonus "PlanetBonusStrategicallyValuable"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

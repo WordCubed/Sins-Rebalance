@@ -366,10 +366,10 @@ skyboxScalars
 requiredPlanetBonusesCount 0
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmInTheStorm"
-bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
 bonus "PlanetBonusSubsurfaceCrystalDeposits"
+bonus "PlanetBonusVacationDestination"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef

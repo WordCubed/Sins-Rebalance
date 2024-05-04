@@ -367,7 +367,7 @@ requiredPlanetBonusesCount 1
 bonus "PlanetBonusMetalBonanza"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusDenseCore"
-bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusDepletedMines"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusSubsurfaceMetalDeposits"

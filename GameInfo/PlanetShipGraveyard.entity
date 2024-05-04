@@ -321,11 +321,11 @@ skyboxScalars
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusPlanetoid"
 possibleRandomPlanetBonusesCount 5
-bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAncientTradeRoutes"
-bonus "PlanetBonusForgettable"
+bonus "PlanetBonusDepletedMines"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusFortified"
+bonus "PlanetBonusSanctuary"
 ambienceSoundID ""
 renderAsVolcanic FALSE
 planetRuinDef

@@ -322,7 +322,7 @@ requiredPlanetBonusesCount 1
 bonus "PlanetBonusNice"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusAbundantResources"
-bonus "PlanetBonusDisloyalGovernment"
+bonus "PlanetBonusDepletedMines"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusFortified"
 bonus "PlanetBonusVacationDestination"
