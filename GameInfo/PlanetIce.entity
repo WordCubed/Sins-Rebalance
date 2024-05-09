@@ -363,12 +363,13 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 0.720000
 	ambientScalar 0.800000
-requiredPlanetBonusesCount 0
+requiredPlanetBonusesCount 1
+bonus "PlanetBonusSubsurfaceCrystalDeposits"
 possibleRandomPlanetBonusesCount 5
 bonus "PlanetBonusCalmInTheStorm"
 bonus "PlanetBonusPartiallyTerraformed"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
-bonus "PlanetBonusSubsurfaceCrystalDeposits"
+bonus "PlanetBonusAbundantResources"
+bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusVacationDestination"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

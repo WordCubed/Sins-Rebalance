@@ -30,7 +30,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
 researchModifier
 	modifierType "HyperspaceExitDistanceAdjustment"
 	baseValue 0.000000
@@ -39,6 +39,10 @@ researchModifier
 	modifierType "HyperspaceChargeUpRateAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.500000
+researchModifier
+	modifierType "HyperspaceAntimatterCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.250000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

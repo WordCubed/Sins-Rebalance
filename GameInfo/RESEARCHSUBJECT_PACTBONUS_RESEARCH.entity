@@ -34,7 +34,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "ResearchBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.125000
+	perLevelValue 0.150000
 researchModifier
 	modifierType "ResearchCostAdjustment"
 	baseValue 0.000000

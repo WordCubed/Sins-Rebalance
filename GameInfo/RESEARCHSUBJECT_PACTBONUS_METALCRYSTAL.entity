@@ -34,11 +34,11 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "ExtractionRateCrystalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.250000
 researchModifier
 	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.250000
 researchModifier
 	modifierType "RefineryShipCapacityAdjustment"
 	baseValue 0.000000

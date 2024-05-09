@@ -34,11 +34,11 @@ researchFloatModifiers 5
 researchModifier
 	modifierType "BombingDamageAsDamageDealerAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.250000
 researchModifier
 	modifierType "BombingPopulationKilledAsDamageDealerAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.250000
 researchModifier
 	modifierType "BombingRangeAdjustment"
 	baseValue 0.000000

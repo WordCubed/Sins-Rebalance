@@ -30,7 +30,11 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 4
+researchModifier
+	modifierType "PlanetSlotsTacticalIncrease"
+	baseValue 0.000000
+	perLevelValue 1.000000
 researchModifier
 	modifierType "TacticalStructureWeaponDamageAdjustment"
 	baseValue 0.000000

@@ -23,16 +23,16 @@ ringColor fff1b787
 cloudLayerTextureName "PlanetCloudLayer"
 planetResourceSetupInfo
 	asteroidSpawnAngleVariance 3.141593
-	totalMaxResourceAsteroids 2
+	totalMaxResourceAsteroids 4
 	metalResourceAsteroidSetup
-		minCount 1
-		maxCount 1
+		minCount 2
+		maxCount 2
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
-		minCount 1
-		maxCount 1
+		minCount 2
+		maxCount 2
 		extractionRate 0.500000
 		refineryRate 0.083333
 		maxRefineryCount 3
@@ -330,11 +330,11 @@ skyboxScalars
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusNice"
 possibleRandomPlanetBonusesCount 5
-bonus "PlanetBonusDisloyalGovernment"
 bonus "PlanetBonusFertileSoil"
 bonus "PlanetBonusJeweloftheGalaxy"
 bonus "PlanetBonusJeweloftheGalaxy"
 bonus "PlanetBonusMildWeather"
+bonus "PlanetBonusVacationDestination"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
 planetRuinDef
@@ -344,8 +344,8 @@ planetRuinDef
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
 	creditsOnStrippedToTheCore 24840.000000
-	metalOnStrippedToTheCore 3600.000000
-	crystalOnStrippedToTheCore 3600.000000
+	metalOnStrippedToTheCore 7200.000000
+	crystalOnStrippedToTheCore 7200.000000
 	extraScuttleTimeOnStrip 0.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"
