@@ -13,8 +13,8 @@ meshInfo
 	hudIcon "MAINVIEWICON_PLANET_FERRUS"
 	smallHudIcon "HUDICONSMALL_PLANET_FERRUS"
 	infoCardIcon "INFOCARDICON_PLANET_FERRUS"
-	mainViewIcon "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
-	undetectedMainViewIcon "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
+	mainViewIcon "MAINVIEWICON_PLANET_FERRUS"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_FERRUS_UNDETECTED"
 	picture "PICTURE_PLANET_FERRUS"
 	shouldPrefer FALSE
 meshInfo
@@ -28,8 +28,8 @@ meshInfo
 	hudIcon "MAINVIEWICON_PLANET_FERRUS"
 	smallHudIcon "HUDICONSMALL_PLANET_FERRUS"
 	infoCardIcon "INFOCARDICON_PLANET_FERRUS"
-	mainViewIcon "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
-	undetectedMainViewIcon "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
+	mainViewIcon "MAINVIEWICON_PLANET_FERRUS"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_FERRUS_UNDETECTED"
 	picture "PICTURE_PLANET_FERRUS"
 	shouldPrefer FALSE
 meshInfo
@@ -43,8 +43,8 @@ meshInfo
 	hudIcon "MAINVIEWICON_PLANET_FERRUS"
 	smallHudIcon "HUDICONSMALL_PLANET_FERRUS"
 	infoCardIcon "INFOCARDICON_PLANET_FERRUS"
-	mainViewIcon "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
-	undetectedMainViewIcon "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
+	mainViewIcon "MAINVIEWICON_PLANET_FERRUS"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_FERRUS_UNDETECTED"
 	picture "PICTURE_PLANET_FERRUS"
 	shouldPrefer FALSE
 meshInfo
@@ -58,8 +58,8 @@ meshInfo
 	hudIcon "MAINVIEWICON_PLANET_FERRUS"
 	smallHudIcon "HUDICONSMALL_PLANET_FERRUS"
 	infoCardIcon "INFOCARDICON_PLANET_FERRUS"
-	mainViewIcon "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
-	undetectedMainViewIcon "Stars_SPACE_Planet_Gaia_MAINVIEWICON"
+	mainViewIcon "MAINVIEWICON_PLANET_FERRUS"
+	undetectedMainViewIcon "MAINVIEWICON_PLANET_FERRUS_UNDETECTED"
 	picture "PICTURE_PLANET_FERRUS"
 	shouldPrefer FALSE
 minZoomDistanceMult 2.750000

@@ -44,7 +44,7 @@ star
 	planet
 		designName "Planet3"
 		inGameName ""
-		type "Volcanic"
+		type "Oceanic"
 		pos [ 50 , 100 ]
 		owner ""
 		isHomePlanet FALSE
@@ -69,7 +69,7 @@ star
 	planet
 		designName "Planet5"
 		inGameName ""
-		type "Volcanic"
+		type "Oceanic"
 		pos [ 75 , 143 ]
 		owner ""
 		isHomePlanet FALSE
@@ -94,7 +94,7 @@ star
 	planet
 		designName "Planet6"
 		inGameName ""
-		type "Volcanic"
+		type "Oceanic"
 		pos [ 124 , 144 ]
 		owner ""
 		isHomePlanet FALSE
@@ -119,7 +119,7 @@ star
 	planet
 		designName "Planet7"
 		inGameName ""
-		type "Volcanic"
+		type "Oceanic"
 		pos [ 150 , 100 ]
 		owner ""
 		isHomePlanet FALSE
@@ -269,7 +269,7 @@ star
 	planet
 		designName "Planet19"
 		inGameName ""
-		type "Volcanic"
+		type "Oceanic"
 		pos [ 125 , 57 ]
 		owner ""
 		isHomePlanet FALSE
@@ -344,7 +344,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Oceanic"
+		type "Volcanic"
 		pos [ 117 , 36 ]
 		owner ""
 		isHomePlanet FALSE
@@ -394,7 +394,7 @@ star
 	planet
 		designName "Planet24"
 		inGameName ""
-		type "Volcanic"
+		type "Oceanic"
 		pos [ 75 , 56 ]
 		owner ""
 		isHomePlanet FALSE
@@ -494,7 +494,7 @@ star
 	planet
 		designName "Planet29"
 		inGameName ""
-		type "Oceanic"
+		type "Volcanic"
 		pos [ 53 , 53 ]
 		owner ""
 		isHomePlanet FALSE
@@ -544,7 +544,7 @@ star
 	planet
 		designName "Planet31"
 		inGameName ""
-		type "Oceanic"
+		type "Volcanic"
 		pos [ 36 , 117 ]
 		owner ""
 		isHomePlanet FALSE
@@ -619,7 +619,7 @@ star
 	planet
 		designName "Planet34"
 		inGameName ""
-		type "Oceanic"
+		type "Volcanic"
 		pos [ 83 , 164 ]
 		owner ""
 		isHomePlanet FALSE
@@ -644,7 +644,7 @@ star
 	planet
 		designName "Planet35"
 		inGameName ""
-		type "Oceanic"
+		type "Volcanic"
 		pos [ 164 , 83 ]
 		owner ""
 		isHomePlanet FALSE
@@ -769,7 +769,7 @@ star
 	planet
 		designName "Planet40"
 		inGameName ""
-		type "Oceanic"
+		type "Volcanic"
 		pos [ 147 , 147 ]
 		owner ""
 		isHomePlanet FALSE

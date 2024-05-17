@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-Buzzsaw"
 browseName "Buzzsaw (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_BUZZSAW"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfFive"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 24000.000000
-pixelsPerGalaxyUnit 2.960006
+pixelsPerGalaxyUnit 3.080008
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 993.000000
@@ -393,7 +393,7 @@ star
 	planet
 		designName "Planet184"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 332 , 254 ]
 		owner ""
 		isHomePlanet FALSE
@@ -418,7 +418,7 @@ star
 	planet
 		designName "Planet185"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 275 , 321 ]
 		owner ""
 		isHomePlanet FALSE
@@ -443,7 +443,7 @@ star
 	planet
 		designName "Planet186"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 189 , 342 ]
 		owner ""
 		isHomePlanet FALSE
@@ -468,7 +468,7 @@ star
 	planet
 		designName "Planet187"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 108 , 308 ]
 		owner ""
 		isHomePlanet FALSE
@@ -493,7 +493,7 @@ star
 	planet
 		designName "Planet188"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 61 , 233 ]
 		owner ""
 		isHomePlanet FALSE
@@ -518,7 +518,7 @@ star
 	planet
 		designName "Planet189"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 68 , 146 ]
 		owner ""
 		isHomePlanet FALSE
@@ -543,7 +543,7 @@ star
 	planet
 		designName "Planet190"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 125 , 79 ]
 		owner ""
 		isHomePlanet FALSE
@@ -568,7 +568,7 @@ star
 	planet
 		designName "Planet191"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 211 , 58 ]
 		owner ""
 		isHomePlanet FALSE
@@ -593,7 +593,7 @@ star
 	planet
 		designName "Planet192"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 292 , 91 ]
 		owner ""
 		isHomePlanet FALSE
@@ -618,7 +618,7 @@ star
 	planet
 		designName "Planet193"
 		inGameName ""
-		type "RandomHighResourceColonizable"
+		type "Copper"
 		pos [ 338 , 167 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1118,7 +1118,7 @@ star
 	planet
 		designName "Planet224"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 275 , 294 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1143,7 +1143,7 @@ star
 	planet
 		designName "Planet225"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 316 , 232 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1168,7 +1168,7 @@ star
 	planet
 		designName "Planet226"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 313 , 158 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1193,7 +1193,7 @@ star
 	planet
 		designName "Planet227"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 266 , 100 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1218,7 +1218,7 @@ star
 	planet
 		designName "Planet228"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 195 , 80 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1243,7 +1243,7 @@ star
 	planet
 		designName "Planet230"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 83 , 168 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1268,7 +1268,7 @@ star
 	planet
 		designName "Planet231"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 87 , 242 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1293,7 +1293,7 @@ star
 	planet
 		designName "Planet232"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 134 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1318,7 +1318,7 @@ star
 	planet
 		designName "Planet233"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 205 , 320 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1343,7 +1343,7 @@ star
 	planet
 		designName "Planet234"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 200 , 285 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1368,7 +1368,7 @@ star
 	planet
 		designName "Planet236"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 118 , 178 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1393,7 +1393,7 @@ star
 	planet
 		designName "Planet237"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 150 , 131 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1418,7 +1418,7 @@ star
 	planet
 		designName "Planet238"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 200 , 115 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1443,7 +1443,7 @@ star
 	planet
 		designName "Planet239"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 250 , 131 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1468,7 +1468,7 @@ star
 	planet
 		designName "Planet240"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 281 , 174 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1493,7 +1493,7 @@ star
 	planet
 		designName "Planet241"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 281 , 226 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1518,7 +1518,7 @@ star
 	planet
 		designName "Planet242"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 250 , 269 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1593,7 +1593,7 @@ star
 	planet
 		designName "Planet249"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 334 , 238 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1618,7 +1618,7 @@ star
 	planet
 		designName "Planet250"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 329 , 152 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1643,7 +1643,7 @@ star
 	planet
 		designName "Planet251"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 276 , 85 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1668,7 +1668,7 @@ star
 	planet
 		designName "Planet252"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 194 , 62 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1693,7 +1693,7 @@ star
 	planet
 		designName "Planet253"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 114 , 93 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1718,7 +1718,7 @@ star
 	planet
 		designName "Planet254"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 286 , 308 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1743,7 +1743,7 @@ star
 	planet
 		designName "Planet255"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 67 , 163 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1768,7 +1768,7 @@ star
 	planet
 		designName "Planet256"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 71 , 248 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1793,7 +1793,7 @@ star
 	planet
 		designName "Planet257"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 124 , 315 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1818,7 +1818,7 @@ star
 	planet
 		designName "Planet258"
 		inGameName ""
-		type "RandomTech"
+		type "Barren"
 		pos [ 205 , 338 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1843,7 +1843,7 @@ star
 	planet
 		designName "Planet259"
 		inGameName ""
-		type "RandomPsi"
+		type "Oceanic"
 		pos [ 125 , 106 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1868,7 +1868,7 @@ star
 	planet
 		designName "Planet261"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 150 , 269 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1893,7 +1893,7 @@ star
 	planet
 		designName "Planet262"
 		inGameName ""
-		type "Random"
+		type "RandomColonizable"
 		pos [ 119 , 226 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2168,7 +2168,7 @@ star
 	planet
 		designName "Planet274"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 226 , 53 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2193,7 +2193,7 @@ star
 	planet
 		designName "Planet275"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 213 , 73 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2218,7 +2218,7 @@ star
 	planet
 		designName "Planet276"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 223 , 87 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2243,7 +2243,7 @@ star
 	planet
 		designName "Planet277"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 306 , 94 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2268,7 +2268,7 @@ star
 	planet
 		designName "Planet278"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 285 , 105 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2293,7 +2293,7 @@ star
 	planet
 		designName "Planet279"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 285 , 120 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2318,7 +2318,7 @@ star
 	planet
 		designName "Planet280"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 348 , 178 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2343,7 +2343,7 @@ star
 	planet
 		designName "Planet281"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 327 , 174 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2368,7 +2368,7 @@ star
 	planet
 		designName "Planet282"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 319 , 186 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2393,7 +2393,7 @@ star
 	planet
 		designName "Planet283"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 333 , 270 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2418,7 +2418,7 @@ star
 	planet
 		designName "Planet284"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 318 , 252 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2443,7 +2443,7 @@ star
 	planet
 		designName "Planet285"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 303 , 258 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2468,7 +2468,7 @@ star
 	planet
 		designName "Planet286"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 268 , 334 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2493,7 +2493,7 @@ star
 	planet
 		designName "Planet287"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 265 , 309 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2518,7 +2518,7 @@ star
 	planet
 		designName "Planet288"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 247 , 307 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2543,7 +2543,7 @@ star
 	planet
 		designName "Planet289"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 175 , 346 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2568,7 +2568,7 @@ star
 	planet
 		designName "Planet290"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 189 , 326 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2593,7 +2593,7 @@ star
 	planet
 		designName "Planet291"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 176 , 313 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2618,7 +2618,7 @@ star
 	planet
 		designName "Planet292"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 93 , 305 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2643,7 +2643,7 @@ star
 	planet
 		designName "Planet293"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 116 , 295 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2668,7 +2668,7 @@ star
 	planet
 		designName "Planet294"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 113 , 278 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2693,7 +2693,7 @@ star
 	planet
 		designName "Planet295"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 53 , 221 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2718,7 +2718,7 @@ star
 	planet
 		designName "Planet296"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 77 , 228 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2743,7 +2743,7 @@ star
 	planet
 		designName "Planet297"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 87 , 216 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2768,7 +2768,7 @@ star
 	planet
 		designName "Planet298"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 68 , 130 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2793,7 +2793,7 @@ star
 	planet
 		designName "Planet299"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 82 , 149 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2818,7 +2818,7 @@ star
 	planet
 		designName "Planet300"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 96 , 144 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2843,7 +2843,7 @@ star
 	planet
 		designName "Planet301"
 		inGameName ""
-		type "RandomPsi"
+		type "Ice"
 		pos [ 136 , 68 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2868,7 +2868,7 @@ star
 	planet
 		designName "Planet302"
 		inGameName ""
-		type "RandomTech"
+		type "Desert"
 		pos [ 135 , 90 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2893,7 +2893,7 @@ star
 	planet
 		designName "Planet303"
 		inGameName ""
-		type "RandomPhase"
+		type "GasGiant"
 		pos [ 149 , 94 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2918,7 +2918,7 @@ star
 	planet
 		designName "Planet304"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 92 , 106 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2943,7 +2943,7 @@ star
 	planet
 		designName "Planet306"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 108 , 63 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2968,7 +2968,7 @@ star
 	planet
 		designName "Planet307"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 168 , 61 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2993,7 +2993,7 @@ star
 	planet
 		designName "Planet308"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 210 , 35 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3018,7 +3018,7 @@ star
 	planet
 		designName "Planet309"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 259 , 69 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3043,7 +3043,7 @@ star
 	planet
 		designName "Planet310"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 302 , 69 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3068,7 +3068,7 @@ star
 	planet
 		designName "Planet311"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 360 , 158 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3093,7 +3093,7 @@ star
 	planet
 		designName "Planet312"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 322 , 131 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3118,7 +3118,7 @@ star
 	planet
 		designName "Planet313"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 354 , 258 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3143,7 +3143,7 @@ star
 	planet
 		designName "Planet314"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 340 , 216 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3168,7 +3168,7 @@ star
 	planet
 		designName "Planet315"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 295 , 335 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3193,7 +3193,7 @@ star
 	planet
 		designName "Planet316"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 309 , 294 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3218,7 +3218,7 @@ star
 	planet
 		designName "Planet317"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 191 , 364 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3243,7 +3243,7 @@ star
 	planet
 		designName "Planet318"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 230 , 338 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3268,7 +3268,7 @@ star
 	planet
 		designName "Planet319"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 143 , 329 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3293,7 +3293,7 @@ star
 	planet
 		designName "Planet320"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 98 , 330 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3318,7 +3318,7 @@ star
 	planet
 		designName "Planet321"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 78 , 267 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3343,7 +3343,7 @@ star
 	planet
 		designName "Planet322"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 41 , 244 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3368,7 +3368,7 @@ star
 	planet
 		designName "Planet323"
 		inGameName ""
-		type "RandomPhase"
+		type "Volcanic"
 		pos [ 59 , 183 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3393,7 +3393,7 @@ star
 	planet
 		designName "Planet324"
 		inGameName ""
-		type "RandomNoResearchColonizable"
+		type "Industrial"
 		pos [ 46 , 141 ]
 		owner ""
 		isHomePlanet FALSE
