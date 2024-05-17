@@ -8,7 +8,34 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 3
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellPsiOnShips"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 7
+		object "Fighter"
+		object "Corvette"
+		object "Frigate"
+		object "CapitalShip"
+		object "Titan"
+		object "StarBase"
+		object "PlanetModule"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 instantAction
 	buffInstantActionType "ApplyBuffToIncomingHyperspacers"
 	instantActionTriggerType "OnDelay"
@@ -63,48 +90,11 @@ instantAction
 		mediumEffectName ""
 		largeEffectName ""
 		soundID ""
-numPeriodicActions 2
+numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 2.500000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "AlwaysPerform"
-	buffType "BuffCannonShellPsiOnShips"
-	targetFilter
-		numOwnerships 1
-		ownership "Enemy"
-		numObjects 7
-		object "Fighter"
-		object "Corvette"
-		object "Frigate"
-		object "CapitalShip"
-		object "Titan"
-		object "StarBase"
-		object "PlanetModule"
-		numSpaces 1
-		space "Normal"
-		numConstraints 1
-		constraint "HasWeapons"
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-periodicAction
-	actionCountType "Infinite"
-	actionIntervalTime
-		Level:0 90.000000
+		Level:0 6.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
