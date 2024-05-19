@@ -20,8 +20,10 @@ quickStartHomePlanetUpgradeLevel:TacticalModules 4
 quickStartHomePlanetUpgradeLevel:Home 4
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
-recommendedGameTypeCount 1
+recommendedGameTypeCount 3
 recommendedGameType "FFA"
+recommendedGameType "TwoTeamsOfThree"
+recommendedGameType "ThreeTeamsOfTwo"
 metersPerGalaxyUnit 25000.000000
 pixelsPerGalaxyUnit 1
 useRandomGenerator TRUE

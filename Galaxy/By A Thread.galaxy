@@ -194,7 +194,7 @@ star
 	planet
 		designName "Planet8"
 		inGameName ""
-		type "Ferrus"
+		type "Copper"
 		pos [ 900 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -474,7 +474,7 @@ star
 	planet
 		designName "Planet17"
 		inGameName ""
-		type "Ferrus"
+		type "Copper"
 		pos [ 3600 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -754,7 +754,7 @@ star
 	planet
 		designName "Planet26"
 		inGameName ""
-		type "Ferrus"
+		type "Copper"
 		pos [ 6300 , 300 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1034,7 +1034,7 @@ star
 	planet
 		designName "Planet35"
 		inGameName ""
-		type "Ferrus"
+		type "Copper"
 		pos [ 900 , 4200 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1314,7 +1314,7 @@ star
 	planet
 		designName "Planet44"
 		inGameName ""
-		type "Ferrus"
+		type "Copper"
 		pos [ 3600 , 4200 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1594,7 +1594,7 @@ star
 	planet
 		designName "Planet53"
 		inGameName ""
-		type "Ferrus"
+		type "Copper"
 		pos [ 6300 , 4200 ]
 		owner ""
 		isHomePlanet FALSE
