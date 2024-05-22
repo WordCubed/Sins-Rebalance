@@ -2423,10 +2423,10 @@ planetItemsTemplate
 	groups 1
 		group
 			condition
-				type "Always"
+				type "NoPlanetOwner"
 				param ""
-			owner "PlanetOwner"
-			colonizeChance 1
+			owner "RandomMilitia"
+			colonizeChance 0
 			items 90
 				item "Phase:StarBaseFree"
 				item "Psi:StarBaseFree"
