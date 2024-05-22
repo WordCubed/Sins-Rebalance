@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2204
+entityNameCount 2205
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -1179,6 +1179,7 @@ entityName "PlanetBonusPorousCore.entity"
 entityName "PlanetBonusProminent.entity"
 entityName "PlanetBonusQuantumCommHub.entity"
 entityName "PlanetBonusRareMetalDeposits0.entity"
+entityName "PlanetBonusResourceRich.entity"
 entityName "PlanetBonusRustedCore.entity"
 entityName "PlanetBonusSalvagerOutpost.entity"
 entityName "PlanetBonusSanctuary.entity"

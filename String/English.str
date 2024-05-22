@@ -1,5 +1,5 @@
 TXT
-NumStrings 8786
+NumStrings 8788
 StringInfo
 	ID "IDS_ABILITY_SELFDESTRUCT_DESCRIPTION"
 	Value "Engineering crews override all safety protocols, causing the starbase's central reactor to go supercritical. The resulting explosion destroys the starbase and does immense damage to all enemies within the blast area."
@@ -2620,6 +2620,12 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_PHASECLOAK_DESCRIPTION"
 	Value "Grants the Selective Phasing ability to Scout Frigates, allowing them to briefly shift into Phase Space where they are immune to attacks."
 StringInfo
+	ID "IDS_PLANETBONUS_RESOURCERICH_NAME"
+	Value "Resource Rich"
+StringInfo
+	ID "IDS_PLANETBONUS_RESOURCERICH_DESC"
+	Value "This planet contains an unusually large amount and variety of resources. Grants bonuses to crystal and metal production."
+StringInfo
 	ID "IDS_PLANETBONUS_ABUNDANTRESOURCES_NAME"
 	Value "Abundant Resources"
 StringInfo
@@ -2636,7 +2642,7 @@ StringInfo
 	Value "Barren Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_BARREN_DESC"
-	Value "Whoever lived here before has scoured it of immediate value, leaving no atmosphere, mineral deposits, or life. Development will be costly and slow. On the other hand, they have left behind a very stable gravity well, capable of holding many more structures than usual. Sterile but capable of rebirth, the Advent consider these planets especially desirable."
+	Value "Whoever lived here before has scoured it of immediate value, leaving no atmosphere, mineral deposits, or life. On the other hand, they have left behind a very stable gravity well, capable of holding many more structures than usual. Sterile but capable of rebirth, the Advent consider these planets especially desirable."
 StringInfo
 	ID "IDS_PLANETBONUS_CALMINTHESTORM_NAME"
 	Value "Calm in the Storm"
