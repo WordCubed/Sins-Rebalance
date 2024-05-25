@@ -347,10 +347,9 @@ planetType
 planetType
 	designName "RandomHighMetalAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighMetalAll"
-	orbitBodyTypeCount 7
+	orbitBodyTypeCount 6
 	orbitBodyType "RadiationStorm"
 	orbitBodyType "MagneticCloud"
-	orbitBodyType "AsteroidBelt"
 	orbitBodyType "RockGiant"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Copper"
@@ -358,10 +357,9 @@ planetType
 planetType
 	designName "RandomHighCrystalAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighCrystalAll"
-	orbitBodyTypeCount 7
+	orbitBodyTypeCount 6
 	orbitBodyType "IceField"
 	orbitBodyType "PlasmaStorm"
-	orbitBodyType "AsteroidBelt"
 	orbitBodyType "IceGiant"
 	orbitBodyType "Cryo"
 	orbitBodyType "Hydrocarbon"
@@ -369,9 +367,11 @@ planetType
 planetType
 	designName "RandomHighResourceAll"
 	designStringId "IDSGalaxyScenarioTypePlanetHighResourceAll"
-	orbitBodyTypeCount 9
+	orbitBodyTypeCount 13
 	orbitBodyType "RadiationStorm"
+	orbitBodyType "MagneticCloud"
 	orbitBodyType "IceField"
+	orbitBodyType "PlasmaStorm"
 	orbitBodyType "AsteroidBelt"
 	orbitBodyType "ShatteredMoon"
 	orbitBodyType "RockGiant"
@@ -379,6 +379,8 @@ planetType
 	orbitBodyType "IceGiant"
 	orbitBodyType "Ferrus"
 	orbitBodyType "Cryo"
+	orbitBodyType "Arctic"
+	orbitBodyType "Volcanic"
 planetType
 	designName "RandomHighResourceUncolonizable"
 	designStringId "IDSGalaxyScenarioTypePlanetHighResourceUncolonizable"
