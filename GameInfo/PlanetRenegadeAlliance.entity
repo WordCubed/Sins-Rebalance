@@ -278,7 +278,7 @@ planetUpgradeDef
 				crystal 900.000000
 			upgradeTime 20.000000
 			maxPopulation -25.000000
-			tradeIncomeModifier 1.000000
+			tradeIncomeModifier 0.500000
 			shipBuildRateModifier 0.500000
 			cultureSpreadRateModifier -0.500000
 	path:Smuggler

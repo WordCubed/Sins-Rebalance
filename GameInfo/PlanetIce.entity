@@ -323,7 +323,7 @@ planetUpgradeDef
 				crystal 720.000000
 			upgradeTime 20.000000
 			maxPopulation -14.000000
-			tradeIncomeModifier 1.000000
+			tradeIncomeModifier 0.500000
 			shipBuildRateModifier 0.500000
 			cultureSpreadRateModifier -0.500000
 	path:Smuggler
@@ -365,11 +365,12 @@ skyboxScalars
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusResourceRich"
-possibleRandomPlanetBonusesCount 5
+possibleRandomPlanetBonusesCount 6
 bonus "PlanetBonusCalmInTheStorm"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusPartiallyTerraformed"
 bonus "PlanetBonusSlums"
+bonus "PlanetBonusVacationDestination"
 bonus "PlanetBonusVacationDestination"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE

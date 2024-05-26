@@ -5,7 +5,7 @@ minUpgradeLevelNeeded 0
 maxUpgradeLevelNeeded 0
 nameStringID "IDS_PLANETBONUS_FORTIFIED_NAME"
 descStringID "IDS_PLANETBONUS_FORTIFIED_DESC"
-floatBonus:AdditiveCultureSpreadPerc -0.100000
+floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation -1.000000
 floatBonus:AdditivePlanetHealth 3000.000000
 floatBonus:AdditiveSlotsCivilian -2.000000

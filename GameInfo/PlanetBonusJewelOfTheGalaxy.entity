@@ -5,13 +5,13 @@ minUpgradeLevelNeeded 0
 maxUpgradeLevelNeeded 0
 nameStringID "IDS_PLANETBONUS_JEWELOFTHEGALAXY_NAME"
 descStringID "IDS_PLANETBONUS_JEWELOFTHEGALAXY_DESC"
-floatBonus:AdditiveCultureSpreadPerc 0.350000
+floatBonus:AdditiveCultureSpreadPerc 0.400000
 floatBonus:AdditivePopulation 36.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 2.000000
-floatBonus:AdditiveTradeIncomePerc 0.200000
+floatBonus:AdditiveTradeIncomePerc 0.150000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus 0.100000
 floatBonus:MetalIncomePerc 0.000000

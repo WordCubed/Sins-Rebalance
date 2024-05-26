@@ -338,7 +338,7 @@ planetUpgradeDef
 				crystal 720.000000
 			upgradeTime 20.000000
 			maxPopulation -2.000000
-			tradeIncomeModifier 1.000000
+			tradeIncomeModifier 0.500000
 			shipBuildRateModifier 0.500000
 			cultureSpreadRateModifier -0.500000
 	path:Smuggler
@@ -381,8 +381,9 @@ skyboxScalars
 requiredPlanetBonusesCount 2
 bonus "PlanetBonusHarsh"
 bonus "PlanetBonusPlanetoid"
-possibleRandomPlanetBonusesCount 5
+possibleRandomPlanetBonusesCount 6
 bonus "PlanetBonusAbundantResources"
+bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusForgettable"
