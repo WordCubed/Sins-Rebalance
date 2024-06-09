@@ -245,6 +245,6 @@ weaponDamageIncreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-formationRank 0
+formationRank 1
 minShadow 0.000000
 maxShadow 1.000000

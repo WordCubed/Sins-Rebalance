@@ -745,13 +745,13 @@ GameplayConstants
 		relationshipRequirement:InternalVision 8.0
 		relationshipRequirement:CeaseFire 6.0
 		relationshipRequirement:PeaceTreaty 9.0
-		relationshipRequirement:ResearchPact 10.0
-		relationshipRequirement:EfficiencyPact 10.0
+		relationshipRequirement:ResearchPact 9.5
+		relationshipRequirement:EfficiencyPact 9.5
 		relationshipRequirement:AntimatterPact 12.0
 		relationshipRequirement:ArmorPact 12.0
 		relationshipRequirement:BeamWeaponPact 14.0
 		relationshipRequirement:CulturePact 11.0
-		relationshipRequirement:MetalCrystalPact 10.0
+		relationshipRequirement:MetalCrystalPact 9.5
 		relationshipRequirement:ThrusterPact 14.0
 		relationshipRequirement:PhaseJumpPact 12.0
 		relationshipRequirement:PlanetBombingPact 13.0

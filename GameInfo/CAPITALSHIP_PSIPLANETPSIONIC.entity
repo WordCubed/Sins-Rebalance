@@ -236,6 +236,6 @@ weaponDamageIncreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 EngineSoundID "ENGINE_PSICAPITALSHIP"
-formationRank 2
+formationRank 1
 minShadow 0.000000
 maxShadow 0.500000
