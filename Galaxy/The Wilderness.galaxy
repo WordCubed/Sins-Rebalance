@@ -145,7 +145,7 @@ star
 		designName "Planet4"
 		inGameName ""
 		type "PirateBase"
-		pos [ 363 , 345 ]
+		pos [ 364 , 336 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -920,7 +920,7 @@ star
 		designName "Planet35"
 		inGameName ""
 		type "Random"
-		pos [ 291 , 209 ]
+		pos [ 308 , 193 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2191,7 +2191,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 141
+	connectionCount 147
 	connection
 		planetIndexA -1
 		planetIndexB 4
@@ -2895,6 +2895,36 @@ star
 	connection
 		planetIndexA 4
 		planetIndexB 77
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 72
+		planetIndexB 32
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 85
+		planetIndexB 77
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 60
+		planetIndexB 75
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 60
+		planetIndexB 76
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 61
+		planetIndexB 27
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 61
+		planetIndexB 30
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
