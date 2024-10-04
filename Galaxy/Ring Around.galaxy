@@ -26,7 +26,7 @@ recommendedGameType "TwoTeamsOfTwo"
 recommendedGameType "Solo"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 3.319999
+pixelsPerGalaxyUnit 1.520000
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
@@ -44,8 +44,8 @@ star
 	planet
 		designName "Planet0"
 		inGameName ""
-		type "DesertHome"
-		pos [ 180 , 251 ]
+		type "TerranHome"
+		pos [ 180 , 250 ]
 		owner "NewPlayer0"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
@@ -95,7 +95,7 @@ star
 		designName "Planet2"
 		inGameName ""
 		type "TerranHome"
-		pos [ 250 , 191 ]
+		pos [ 250 , 190 ]
 		owner "NewPlayer2"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
@@ -120,7 +120,7 @@ star
 		designName "Planet3"
 		inGameName ""
 		type "TerranHome"
-		pos [ 250 , 309 ]
+		pos [ 250 , 310 ]
 		owner "NewPlayer3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
@@ -145,7 +145,7 @@ star
 		designName "Planet4"
 		inGameName ""
 		type "Desert"
-		pos [ 229 , 218 ]
+		pos [ 235 , 220 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -170,7 +170,7 @@ star
 		designName "Planet5"
 		inGameName ""
 		type "Carbon"
-		pos [ 268 , 218 ]
+		pos [ 265 , 220 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -195,7 +195,7 @@ star
 		designName "Planet6"
 		inGameName ""
 		type "Carbon"
-		pos [ 214 , 232 ]
+		pos [ 220 , 235 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -220,7 +220,7 @@ star
 		designName "Planet7"
 		inGameName ""
 		type "Desert"
-		pos [ 215 , 267 ]
+		pos [ 220 , 265 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -245,7 +245,7 @@ star
 		designName "Planet8"
 		inGameName ""
 		type "Carbon"
-		pos [ 230 , 279 ]
+		pos [ 235 , 280 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -270,7 +270,7 @@ star
 		designName "Planet9"
 		inGameName ""
 		type "Desert"
-		pos [ 269 , 279 ]
+		pos [ 265 , 280 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -345,7 +345,7 @@ star
 		designName "Planet12"
 		inGameName ""
 		type "Oceanic"
-		pos [ 150 , 236 ]
+		pos [ 150 , 235 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -420,7 +420,7 @@ star
 		designName "Planet15"
 		inGameName ""
 		type "Industrial"
-		pos [ 231 , 161 ]
+		pos [ 235 , 160 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -445,7 +445,7 @@ star
 		designName "Planet16"
 		inGameName ""
 		type "Oceanic"
-		pos [ 268 , 160 ]
+		pos [ 265 , 160 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -470,7 +470,7 @@ star
 		designName "Planet17"
 		inGameName ""
 		type "Industrial"
-		pos [ 150 , 270 ]
+		pos [ 150 , 265 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -495,7 +495,7 @@ star
 		designName "Planet18"
 		inGameName ""
 		type "Oceanic"
-		pos [ 229 , 339 ]
+		pos [ 235 , 340 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -520,7 +520,7 @@ star
 		designName "Planet19"
 		inGameName ""
 		type "Industrial"
-		pos [ 267 , 339 ]
+		pos [ 265 , 340 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -570,7 +570,7 @@ star
 		designName "Planet21"
 		inGameName ""
 		type "Wormhole"
-		pos [ 251 , 467 ]
+		pos [ 250 , 490 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -595,7 +595,7 @@ star
 		designName "Planet22"
 		inGameName ""
 		type "Wormhole"
-		pos [ 26 , 256 ]
+		pos [ 10 , 250 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -620,7 +620,7 @@ star
 		designName "Planet23"
 		inGameName ""
 		type "Wormhole"
-		pos [ 250 , 133 ]
+		pos [ 250 , 130 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -645,7 +645,7 @@ star
 		designName "Planet24"
 		inGameName ""
 		type "Wormhole"
-		pos [ 117 , 252 ]
+		pos [ 120 , 250 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -670,7 +670,7 @@ star
 		designName "Planet25"
 		inGameName ""
 		type "Wormhole"
-		pos [ 248 , 368 ]
+		pos [ 250 , 370 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -695,7 +695,7 @@ star
 		designName "Planet26"
 		inGameName ""
 		type "Wormhole"
-		pos [ 246 , 23 ]
+		pos [ 250 , 10 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -745,7 +745,7 @@ star
 		designName "Planet28"
 		inGameName ""
 		type "Volcanic"
-		pos [ 207 , 29 ]
+		pos [ 220 , 15 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -770,7 +770,7 @@ star
 		designName "Planet29"
 		inGameName ""
 		type "Ice"
-		pos [ 288 , 25 ]
+		pos [ 280 , 15 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -795,7 +795,7 @@ star
 		designName "Planet30"
 		inGameName ""
 		type "Copper"
-		pos [ 171 , 42 ]
+		pos [ 190 , 22 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -820,7 +820,7 @@ star
 		designName "Planet31"
 		inGameName ""
 		type "Hydrocarbon"
-		pos [ 325 , 35 ]
+		pos [ 310 , 22 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -845,7 +845,7 @@ star
 		designName "Planet32"
 		inGameName ""
 		type "Ferrus"
-		pos [ 137 , 59 ]
+		pos [ 160 , 34 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -870,7 +870,7 @@ star
 		designName "Planet33"
 		inGameName ""
 		type "Cryo"
-		pos [ 357 , 53 ]
+		pos [ 340 , 34 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -895,7 +895,7 @@ star
 		designName "Planet34"
 		inGameName ""
 		type "Ice"
-		pos [ 30 , 216 ]
+		pos [ 15 , 220 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -920,7 +920,7 @@ star
 		designName "Planet35"
 		inGameName ""
 		type "Volcanic"
-		pos [ 32 , 290 ]
+		pos [ 15 , 280 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -945,7 +945,7 @@ star
 		designName "Planet36"
 		inGameName ""
 		type "Copper"
-		pos [ 42 , 325 ]
+		pos [ 25 , 310 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -970,7 +970,7 @@ star
 		designName "Planet37"
 		inGameName ""
 		type "Hydrocarbon"
-		pos [ 39 , 177 ]
+		pos [ 22 , 190 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -995,7 +995,7 @@ star
 		designName "Planet38"
 		inGameName ""
 		type "Cryo"
-		pos [ 56 , 143 ]
+		pos [ 34 , 160 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1020,7 +1020,7 @@ star
 		designName "Planet39"
 		inGameName ""
 		type "Ferrus"
-		pos [ 59 , 354 ]
+		pos [ 34 , 340 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1045,7 +1045,7 @@ star
 		designName "Planet40"
 		inGameName ""
 		type "Volcanic"
-		pos [ 288 , 462 ]
+		pos [ 280 , 485 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1070,7 +1070,7 @@ star
 		designName "Planet41"
 		inGameName ""
 		type "Ice"
-		pos [ 212 , 463 ]
+		pos [ 220 , 485 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1095,7 +1095,7 @@ star
 		designName "Planet42"
 		inGameName ""
 		type "Hydrocarbon"
-		pos [ 174 , 454 ]
+		pos [ 190 , 478 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1120,7 +1120,7 @@ star
 		designName "Planet43"
 		inGameName ""
 		type "Cryo"
-		pos [ 143 , 437 ]
+		pos [ 160 , 466 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1145,7 +1145,7 @@ star
 		designName "Planet44"
 		inGameName ""
 		type "Copper"
-		pos [ 325 , 453 ]
+		pos [ 310 , 478 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1170,7 +1170,7 @@ star
 		designName "Planet45"
 		inGameName ""
 		type "AntimatterFountain"
-		pos [ 93 , 95 ]
+		pos [ 85 , 85 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1195,7 +1195,7 @@ star
 		designName "Planet46"
 		inGameName ""
 		type "AntimatterFountain"
-		pos [ 95 , 400 ]
+		pos [ 85 , 415 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1220,7 +1220,7 @@ star
 		designName "Planet47"
 		inGameName ""
 		type "Ferrus"
-		pos [ 359 , 437 ]
+		pos [ 340 , 466 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1245,7 +1245,7 @@ star
 		designName "Planet48"
 		inGameName ""
 		type "Volcanic"
-		pos [ 472 , 213 ]
+		pos [ 485 , 220 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1270,7 +1270,7 @@ star
 		designName "Planet49"
 		inGameName ""
 		type "Copper"
-		pos [ 460 , 175 ]
+		pos [ 478 , 190 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1295,7 +1295,7 @@ star
 		designName "Planet50"
 		inGameName ""
 		type "Ferrus"
-		pos [ 442 , 141 ]
+		pos [ 466 , 160 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1320,7 +1320,7 @@ star
 		designName "Planet51"
 		inGameName ""
 		type "AntimatterFountain"
-		pos [ 400 , 89 ]
+		pos [ 415 , 85 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1370,7 +1370,7 @@ star
 		designName "Planet53"
 		inGameName ""
 		type "Hydrocarbon"
-		pos [ 478 , 310 ]
+		pos [ 475 , 310 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1445,7 +1445,7 @@ star
 		designName "Planet56"
 		inGameName ""
 		type "PirateBase"
-		pos [ 154 , 156 ]
+		pos [ 165 , 165 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1495,7 +1495,7 @@ star
 		designName "Planet58"
 		inGameName ""
 		type "PirateBase"
-		pos [ 144 , 348 ]
+		pos [ 165 , 335 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1520,7 +1520,7 @@ star
 		designName "Planet59"
 		inGameName ""
 		type "PirateBase"
-		pos [ 344 , 148 ]
+		pos [ 335 , 165 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
