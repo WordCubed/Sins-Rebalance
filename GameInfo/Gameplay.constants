@@ -1182,7 +1182,7 @@ GameplayConstants
 		planet "PlanetShipGraveyard"
 		planet "PlanetUrban"
 		colonizablePlanetsWithMinorFactionsPercent 0.33
-		minConnectionDistanceToColonizedPlanets 4
+		minConnectionDistanceToColonizedPlanets 3
 		minConnectionDistanceToSameFactionPlanets 2
 		minAdjacentPlanetCount 3
 		infrastructurePlanetUpgradeLevel 4
