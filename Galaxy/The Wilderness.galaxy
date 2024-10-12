@@ -2639,7 +2639,7 @@ player
 	designName "NewPlayer3"
 	inGameName "NewPlayer3"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 15000
 	startingMetal 3600
 	startingCrystal 2400
