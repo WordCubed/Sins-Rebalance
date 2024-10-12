@@ -1181,10 +1181,10 @@ GameplayConstants
 		planet "PlanetRenegadeAlliance"
 		planet "PlanetShipGraveyard"
 		planet "PlanetUrban"
-		colonizablePlanetsWithMinorFactionsPercent 0.25
-		minConnectionDistanceToColonizedPlanets 3
-		minConnectionDistanceToSameFactionPlanets 4
-		minAdjacentPlanetCount 4
+		colonizablePlanetsWithMinorFactionsPercent 0.33
+		minConnectionDistanceToColonizedPlanets 4
+		minConnectionDistanceToSameFactionPlanets 2
+		minAdjacentPlanetCount 3
 		infrastructurePlanetUpgradeLevel 4
 		populationPlanetUpgradeLevel 4
 		civilianModulesUpgradeLevel 4
