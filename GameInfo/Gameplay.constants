@@ -1175,9 +1175,10 @@ GameplayConstants
 		npcIconOffset:PlanetIcon
 			xOffset 0
 			yOffset -52
-		colonizePlanetBlackListCount 5
+		colonizePlanetBlackListCount 6
 		planet "PlanetAsteroid"
 		planet "PlanetBarren"
+		planet "PlanetMoon"
 		planet "PlanetRenegadeAlliance"
 		planet "PlanetShipGraveyard"
 		planet "PlanetUrban"
