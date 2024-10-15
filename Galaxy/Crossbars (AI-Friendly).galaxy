@@ -3,8 +3,8 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UserGenerated"
-browseName "Crossbars"
-browseDescription "Together with your allies, explore and conquer the branches of this solar system. (NOTE: AI players rarely use wormholes, making them perform very poorly on this map.)"
+browseName "Crossbars (AI-Friendly)"
+browseDescription "Together with your allies, explore and conquer the branches of this solar system. NOTE: Wormhole lanes have been changed to normal phase lanes to accommodate the AI.)"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
@@ -26,7 +26,7 @@ recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "ThreeTeamsOfTwo"
 recommendedGameType "Solo"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 3.919997
+pixelsPerGalaxyUnit 5.479995
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
@@ -2466,7 +2466,7 @@ star
 		planetIndexA 8
 		planetIndexB 9
 		spawnProbability 1.000000
-		type "Wormhole"
+		type "PhaseLane"
 	connection
 		planetIndexA 1
 		planetIndexB 20
@@ -2561,12 +2561,12 @@ star
 		planetIndexA 31
 		planetIndexB 24
 		spawnProbability 1.000000
-		type "Wormhole"
+		type "PhaseLane"
 	connection
 		planetIndexA 33
 		planetIndexB 22
 		spawnProbability 1.000000
-		type "Wormhole"
+		type "PhaseLane"
 	connection
 		planetIndexA 21
 		planetIndexB 43
@@ -2981,7 +2981,7 @@ star
 		planetIndexA 29
 		planetIndexB 23
 		spawnProbability 1.000000
-		type "Wormhole"
+		type "PhaseLane"
 	connection
 		planetIndexA 70
 		planetIndexB 29
@@ -3206,7 +3206,7 @@ star
 		planetIndexA 85
 		planetIndexB 79
 		spawnProbability 1.000000
-		type "Wormhole"
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
