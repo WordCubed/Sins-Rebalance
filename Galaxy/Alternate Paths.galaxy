@@ -26,12 +26,12 @@ recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "ThreeTeamsOfTwo"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.160000
+pixelsPerGalaxyUnit 3.079999
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
 nextStarNameUniqueId 7
-nextPlanetNameUniqueId 98
+nextPlanetNameUniqueId 99
 triggerCount 0
 starCount 7
 star
@@ -1845,7 +1845,7 @@ star
 	type "NonSpecialStar"
 	pos [ 628 , 510 ]
 	radius 100.000000
-	planetCount 12
+	planetCount 13
 	planet
 		designName "Planet25"
 		inGameName ""
@@ -1925,7 +1925,7 @@ star
 		designName "Planet77"
 		inGameName ""
 		type "Cryo"
-		pos [ 608 , 462 ]
+		pos [ 601 , 469 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1975,7 +1975,7 @@ star
 		designName "Planet79"
 		inGameName ""
 		type "Oceanic"
-		pos [ 603 , 550 ]
+		pos [ 595 , 558 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2050,7 +2050,7 @@ star
 		designName "Planet82"
 		inGameName ""
 		type "AsteroidSpaceJunk"
-		pos [ 578 , 570 ]
+		pos [ 569 , 570 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2075,7 +2075,7 @@ star
 		designName "Planet83"
 		inGameName ""
 		type "AsteroidSpaceJunk"
-		pos [ 641 , 478 ]
+		pos [ 652 , 480 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -2146,7 +2146,32 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 18
+	planet
+		designName "Planet98"
+		inGameName ""
+		type "Industrial"
+		pos [ 625 , 545 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 20
 	connection
 		planetIndexA 1
 		planetIndexB -1
@@ -2160,11 +2185,6 @@ star
 	connection
 		planetIndexA 1
 		planetIndexB 2
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 2
-		planetIndexB 3
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -2235,6 +2255,21 @@ star
 	connection
 		planetIndexA 11
 		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 12
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 3
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 12
+		planetIndexB 1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
