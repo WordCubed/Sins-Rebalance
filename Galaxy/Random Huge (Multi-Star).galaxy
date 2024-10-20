@@ -5,7 +5,7 @@ browsePictureName "ScenarioPicture-RandomHuge"
 browseName "Random Huge (Multi-Star)"
 browseDescription "The galaxy is a big place. Up to 8 other empires are scattered across its systems. Can you dominate them all? This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.6
 planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -28,8 +28,8 @@ pixelsPerGalaxyUnit 1
 useRandomGenerator TRUE
 randomizerParams
 	starPosOffsetRange
-		minPercentage 10.0
-		maxPercentage 15.0
+		minPercentage 2
+		maxPercentage 4
 	playerParams
 		startingCredits 15000
 		startingMetal 3600
@@ -42,7 +42,7 @@ randomizerParams
 		extraPlanetsMaxRadius 15
 		extraPlanetsRadiusRange
 			minPercentage 0.75
-			maxPercentage 0.99
+			maxPercentage 0.95
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -62,7 +62,7 @@ randomizerParams
 starCount 4
 	star
 		type "NonSpecialStar"
-		radius 150
+		radius 180
 		connectionStarRadiusRange .75
 		connectionChance 0.8
 		maxPlayerCount 3
@@ -70,7 +70,7 @@ starCount 4
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.2
+				maxPercentage 0.15
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
@@ -102,7 +102,7 @@ starCount 4
 				planetType "RandomColonizable"
 	star
 		type "NonSpecialStar"
-		radius 150
+		radius 180
 		connectionStarRadiusRange .75
 		connectionChance 0.8
 		maxPlayerCount 3
@@ -110,7 +110,7 @@ starCount 4
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.2
+				maxPercentage 0.15
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
@@ -142,7 +142,7 @@ starCount 4
 				planetType "RandomColonizable"
 	star
 		type "NonSpecialStar"
-		radius 150
+		radius 180
 		connectionStarRadiusRange .75
 		connectionChance 0.8
 		maxPlayerCount 3
@@ -150,7 +150,7 @@ starCount 4
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.2
+				maxPercentage 0.15
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
@@ -181,16 +181,16 @@ starCount 4
 				planetTypeCount 1
 				planetType "RandomColonizable"
 	star
-		type "NonSpecialStar"
-		radius 150
+		type "SpecialStar"
+		radius 200
 		connectionStarRadiusRange .75
 		connectionChance 0.8
 		maxPlayerCount 0
-		ringCount 3
+		ringCount 2
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.2
+				maxPercentage 0.15
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
@@ -201,24 +201,13 @@ starCount 4
 		ring
 			starRadiusRange
 				minPercentage 0.10
-				maxPercentage 0.33
+				maxPercentage 0.95
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 6
-				maxCount 6
+				minCount 30
+				maxCount 30
 				planetTypeCount 1
-				planetType "RandomUncolonizable"
-		ring
-			starRadiusRange
-				minPercentage 0.2
-				maxPercentage 0.8
-			militiaColonizationPerc 0
-			planetGroupCount 1
-			planetGroup
-				minCount 24
-				maxCount 24
-				planetTypeCount 1
-				planetType "RandomColonizable"
+				planetType "Random"
 dlcID 204880
 

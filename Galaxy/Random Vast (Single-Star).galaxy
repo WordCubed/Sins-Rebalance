@@ -41,7 +41,7 @@ randomizerParams
 		extraPlanetsMaxRadius 100
 		extraPlanetsRadiusRange
 			minPercentage 0.80
-			maxPercentage 0.99
+			maxPercentage 0.95
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -113,7 +113,7 @@ randomizerParams
 		ring
 			starRadiusRange
 				minPercentage 0.330000
-				maxPercentage 0.990000
+				maxPercentage 0.950000
 			militiaColonizationPerc 0.000000
 			planetGroupCount 1
 			planetGroup

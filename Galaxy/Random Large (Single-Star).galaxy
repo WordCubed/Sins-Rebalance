@@ -3,7 +3,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-RandomLarge"
 browseName "Random Large (Single-Star)"
-browseDescription "The galaxy is a big place. Up to 7 other empires exist in one large system. Can you dominate them all? This map is randomly generated each time it is played."
+browseDescription "The galaxy is a big place. Up to 7 other empires exist in one large solar system. Can you dominate them all? This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.6
@@ -41,7 +41,7 @@ randomizerParams
 		extraPlanetsMaxRadius 40
 		extraPlanetsRadiusRange
 			minPercentage 0.80
-			maxPercentage 0.99
+			maxPercentage 0.95
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -113,7 +113,7 @@ starCount 1
 		ring
 			starRadiusRange
 				minPercentage 0.33
-				maxPercentage 0.99
+				maxPercentage 0.95
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup

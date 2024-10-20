@@ -5,7 +5,7 @@ browsePictureName "ScenarioPicture-RandomVast"
 browseName "Random Vast (Multi-Star)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMHUGEMULTI"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.6
 planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -27,8 +27,8 @@ pixelsPerGalaxyUnit 1
 useRandomGenerator TRUE
 randomizerParams
 	starPosOffsetRange
-		minPercentage 10.0
-		maxPercentage 15.0
+		minPercentage 2
+		maxPercentage 4
 	playerParams
 		startingCredits 15000
 		startingMetal 3600
@@ -41,7 +41,7 @@ randomizerParams
 		extraPlanetsMaxRadius 30
 		extraPlanetsRadiusRange
 			minPercentage 0.80
-			maxPercentage 0.99
+			maxPercentage 0.95
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -61,7 +61,7 @@ randomizerParams
 starCount 6
 	star
 		type "RandomStar"
-		radius 150
+		radius 200
 		connectionStarRadiusRange 0.75
 		connectionChance 0.8
 		maxPlayerCount 2
@@ -90,7 +90,7 @@ starCount 6
 				planetType "Random"
 	star
 		type "RandomStar"
-		radius 150
+		radius 200
 		connectionStarRadiusRange 0.75
 		connectionChance 0.8
 		maxPlayerCount 2
@@ -119,7 +119,7 @@ starCount 6
 				planetType "Random"
 	star
 		type "RandomStar"
-		radius 150
+		radius 200
 		connectionStarRadiusRange 0.75
 		connectionChance 0.8
 		maxPlayerCount 2
@@ -148,7 +148,7 @@ starCount 6
 				planetType "Random"
 	star
 		type "RandomStar"
-		radius 150
+		radius 200
 		connectionStarRadiusRange 0.75
 		connectionChance 0.8
 		maxPlayerCount 2
@@ -177,7 +177,7 @@ starCount 6
 				planetType "Random"
 	star
 		type "RandomStar"
-		radius 150
+		radius 200
 		connectionStarRadiusRange 0.75
 		connectionChance 0.8
 		maxPlayerCount 2
@@ -206,7 +206,7 @@ starCount 6
 				planetType "Random"
 	star
 		type "RandomStar"
-		radius 150
+		radius 200
 		connectionStarRadiusRange 0.75
 		connectionChance 0.8
 		maxPlayerCount 0

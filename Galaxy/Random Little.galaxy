@@ -35,13 +35,13 @@ randomizerParams
 		startingCrystal 2400
 		homePlanetType "TerranHome"
 		homePlanetStarRadiusRange
-			minPercentage 0.750000
-			maxPercentage 0.990000
+			minPercentage 0.8
+			maxPercentage 0.9
 		areExtraPlanetsColonized FALSE
 		extraPlanetsMaxRadius 15
 		extraPlanetsRadiusRange
-			minPercentage 0.750000
-			maxPercentage 0.990000
+			minPercentage 0.75
+			maxPercentage 0.95
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -65,27 +65,33 @@ starCount 1
 		connectionStarRadiusRange .75
 		connectionChance .7
 		maxPlayerCount 2
-		ringCount 2
+		ringCount 3
 		ring
 			starRadiusRange
-				minPercentage 0.10
-				maxPercentage 0.20
+				minPercentage 0.1
+				maxPercentage 0.15
 			militiaColonizationPerc 0
-			planetGroupCount 2
-			planetGroup
-				minCount 2
-				maxCount 2
-				planetTypeCount 1
-				planetType "PirateBase"
+			planetGroupCount 1
 			planetGroup
 				minCount 1
 				maxCount 1
 				planetTypeCount 1
-				planetType "RandomTiny"
+				planetType "PirateBase"
 		ring
 			starRadiusRange
 				minPercentage 0.15
-				maxPercentage 0.75
+				maxPercentage 0.3
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "RandomTiny"
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.9
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup

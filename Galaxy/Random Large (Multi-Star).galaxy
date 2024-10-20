@@ -5,7 +5,7 @@ browsePictureName "ScenarioPicture-RandomLarge"
 browseName "Random Large (Multi-Star)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMLARGEMULTI"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.6
 planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -29,8 +29,8 @@ pixelsPerGalaxyUnit 1
 useRandomGenerator TRUE
 randomizerParams
 	starPosOffsetRange
-		minPercentage 10.0
-		maxPercentage 15.0
+		minPercentage 2
+		maxPercentage 4
 	playerParams
 		startingCredits 15000
 		startingMetal 3600
@@ -43,7 +43,7 @@ randomizerParams
 		extraPlanetsMaxRadius 15
 		extraPlanetsRadiusRange
 			minPercentage 0.75
-			maxPercentage 0.99
+			maxPercentage 0.95
 		extraPlanetGroupCount 3
 		extraPlanetGroup
 			minCount 1
@@ -71,7 +71,7 @@ starCount 5
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.2
+				maxPercentage 0.15
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
@@ -111,7 +111,7 @@ starCount 5
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.2
+				maxPercentage 0.15
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
@@ -151,7 +151,7 @@ starCount 5
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.2
+				maxPercentage 0.15
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
@@ -191,7 +191,7 @@ starCount 5
 		ring
 			starRadiusRange
 				minPercentage 0.1
-				maxPercentage 0.2
+				maxPercentage 0.15
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
@@ -223,7 +223,7 @@ starCount 5
 				planetType "RandomColonizable"
 	star
 		type "SpecialStar"
-		radius 300
+		radius 180
 		connectionStarRadiusRange .75
 		connectionChance 0.8
 		maxPlayerCount 0
