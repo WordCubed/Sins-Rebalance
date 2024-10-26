@@ -65,7 +65,7 @@ starCount 3
 		connectionStarRadiusRange .75
 		connectionChance .8
 		maxPlayerCount 1
-		ringCount 3
+		ringCount 4
 		ring
 			starRadiusRange
 				minPercentage 0.1
@@ -84,10 +84,21 @@ starCount 3
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 3
-				maxCount 3
+				minCount 2
+				maxCount 2
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 0.9
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"
 		ring
 			starRadiusRange
 				minPercentage 0.2
@@ -95,8 +106,8 @@ starCount 3
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 3
-				maxCount 3
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "RandomColonizable"
 	star
@@ -105,7 +116,7 @@ starCount 3
 		connectionStarRadiusRange .75
 		connectionChance .8
 		maxPlayerCount 1
-		ringCount 3
+		ringCount 4
 		ring
 			starRadiusRange
 				minPercentage 0.1
@@ -124,10 +135,21 @@ starCount 3
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 3
-				maxCount 3
+				minCount 2
+				maxCount 2
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 0.9
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"
 		ring
 			starRadiusRange
 				minPercentage 0.2
@@ -135,8 +157,8 @@ starCount 3
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 3
-				maxCount 3
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "RandomColonizable"
 	star
@@ -145,7 +167,7 @@ starCount 3
 		connectionStarRadiusRange .75
 		connectionChance .8
 		maxPlayerCount 1
-		ringCount 3
+		ringCount 4
 		ring
 			starRadiusRange
 				minPercentage 0.1
@@ -164,10 +186,21 @@ starCount 3
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 3
-				maxCount 3
+				minCount 2
+				maxCount 2
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 0.9
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"
 		ring
 			starRadiusRange
 				minPercentage 0.2
@@ -175,8 +208,8 @@ starCount 3
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 3
-				maxCount 3
+				minCount 4
+				maxCount 4
 				planetTypeCount 1
 				planetType "RandomColonizable"
 dlcID 204880

@@ -1470,7 +1470,7 @@ planetItemsTemplate
 				param "TechLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Tech:StarBaseFree"
 				item "Tech:Module:CultureCenter"
 				item "Tech:Module:FrigateFactory"
@@ -1483,6 +1483,7 @@ planetItemsTemplate
 				item "Tech:Frigate:Constructor"
 				item "Tech:Frigate:Constructor"
 				item "Tech:Frigate:Constructor"
+				item "Tech:Frigate:Scout"
 				item "Tech:Frigate:Scout"
 				item "Tech:Frigate:Scout"
 				item "Tech:Frigate:Scout"
@@ -1492,7 +1493,7 @@ planetItemsTemplate
 				param "PsiLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Psi:StarBaseFree"
 				item "Psi:Module:CultureCenter"
 				item "Psi:Module:FrigateFactory"
@@ -1508,13 +1509,14 @@ planetItemsTemplate
 				item "Psi:Frigate:Scout"
 				item "Psi:Frigate:Scout"
 				item "Psi:Frigate:Scout"
+				item "Psi:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "PhaseLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Phase:StarBaseFree"
 				item "Phase:Module:CultureCenter"
 				item "Phase:Module:FrigateFactory"
@@ -1530,13 +1532,14 @@ planetItemsTemplate
 				item "Phase:Frigate:Scout"
 				item "Phase:Frigate:Scout"
 				item "Phase:Frigate:Scout"
+				item "Phase:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "TechRebel"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Tech:StarBaseFree"
 				item "Tech:Module:CultureCenter"
 				item "Tech:Module:FrigateFactory"
@@ -1552,13 +1555,14 @@ planetItemsTemplate
 				item "Tech:Frigate:Scout"
 				item "Tech:Frigate:Scout"
 				item "Tech:Frigate:Scout"
+				item "Tech:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "PsiRebel"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Psi:StarBaseFree"
 				item "Psi:Module:CultureCenter"
 				item "Psi:Module:FrigateFactory"
@@ -1574,13 +1578,14 @@ planetItemsTemplate
 				item "Psi:Frigate:Scout"
 				item "Psi:Frigate:Scout"
 				item "Psi:Frigate:Scout"
+				item "Psi:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "PhaseRebel"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 16
 				item "Phase:StarBaseFree"
 				item "Phase:Module:CultureCenter"
 				item "Phase:Module:FrigateFactory"
@@ -1593,6 +1598,7 @@ planetItemsTemplate
 				item "Phase:Frigate:Constructor"
 				item "Phase:Frigate:Constructor"
 				item "Phase:Frigate:Constructor"
+				item "Phase:Frigate:Scout"
 				item "Phase:Frigate:Scout"
 				item "Phase:Frigate:Scout"
 				item "Phase:Frigate:Scout"

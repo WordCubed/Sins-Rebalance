@@ -98,12 +98,12 @@ starCount 1
 		ring
 			starRadiusRange
 				minPercentage 0.3
-				maxPercentage 1.0
+				maxPercentage 0.9
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 3
-				maxCount 3
+				minCount 2
+				maxCount 2
 				planetTypeCount 1
 				planetType "Wormhole"
 dlcID 204880

@@ -20,10 +20,9 @@ quickStartHomePlanetUpgradeLevel:TacticalModules 4
 quickStartHomePlanetUpgradeLevel:Home 4
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
-recommendedGameTypeCount 3
+recommendedGameTypeCount 2
 recommendedGameType "FFA"
 recommendedGameType "TwoTeamsOfThree"
-recommendedGameType "ThreeTeamsOfTwo"
 metersPerGalaxyUnit 25000.000000
 pixelsPerGalaxyUnit 1
 useRandomGenerator TRUE
@@ -56,8 +55,8 @@ randomizerParams
 			planetTypeCount 1
 			planetType "RandomHighPop"
 		extraPlanetGroup
-			minCount 2
-			maxCount 2
+			minCount 1
+			maxCount 1
 			planetTypeCount 1
 			planetType "RandomHighResourceColonizable"
 starCount 2
@@ -86,8 +85,8 @@ starCount 2
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 4
-				maxCount 4
+				minCount 5
+				maxCount 5
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -97,8 +96,8 @@ starCount 2
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 21
-				maxCount 21
+				minCount 27
+				maxCount 27
 				planetTypeCount 1
 				planetType "RandomColonizable"
 		ring
@@ -137,8 +136,8 @@ starCount 2
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 4
-				maxCount 4
+				minCount 5
+				maxCount 5
 				planetTypeCount 1
 				planetType "RandomUncolonizable"
 		ring
@@ -148,8 +147,8 @@ starCount 2
 			militiaColonizationPerc 0
 			planetGroupCount 1
 			planetGroup
-				minCount 21
-				maxCount 21
+				minCount 27
+				maxCount 27
 				planetTypeCount 1
 				planetType "RandomColonizable"
 		ring
