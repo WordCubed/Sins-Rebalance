@@ -37,13 +37,13 @@ GameplayConstants
 		allegianceGainFromCultureMax 0.10
 		startingPopulationPercOfMax 0.5
 		healthOnColonize 1000.0
-		healthRegenRatePercWhenBombed .200
+		healthRegenRatePercWhenBombed .100
 		considerBeingBombedTimeForHealthRegen 30
 		considerBeingBombedTimeForPopulationGrowth 60
-		populationGrowthPercWhenBombed 0.20
+		populationGrowthPercWhenBombed 0.10
 		moduleConstructorRespawnTime 30
 		moduleConstructorRespawnTimeWithEnemies 60
-		baseTaxRatePerPopulation 0.125
+		baseTaxRatePerPopulation 0.100
 		planetBaseAllegianceAtDistanceCount 11
 		allegiance 1.00
 		allegiance 0.90
@@ -971,7 +971,7 @@ GameplayConstants
 			FactionName "IDS_PLAYERFACTIONNAME_REBEL"
 			FactionName "IDS_PLAYERFACTIONNAME_LOYALIST"
 	playerTradeNetworkDef
-		incomeRateBonusPerLongestNodeDistanceNode .1
+		incomeRateBonusPerLongestNodeDistanceNode .05
 	targetTypeCounterData
 	aiData
 		aiRetreatThreshold 0.25
