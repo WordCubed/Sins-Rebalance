@@ -2,71 +2,10 @@ TXT
 initialSpawnTimeMin 600.0
 initialSpawnTimeMax 1200.0
 failedRespawnTimeMin 120.0
-failedRespawnTimeMax 360.0
-lowAllegianceCheckPeriod 300.0
-lowAllegianceThreshold 0.15
-randomEventDefCount 12
-	randomEventDef
-		id "CORONALMASSEJECTION"
-		nameID "IDS_RANDOMEVENT_CORONALMASSEJECTION_NAME"
-		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTED"
-		spawnType "Projectile"
-		projectileTarget "RandomConnectedLocation"
-		spawnEntity "RandomEventProjectileCoronalMassEjection"
-		playerOwnerType "Null"
-		spawnLocation "RandomStar"
-		excludedSpawnLocationCount 1
-			excludedSpawnLocation "STAR_BLACKHOLE"
-		spawnRequirement "Timer"
-		respawnCount 9
-		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.25
-	randomEventDef
-		id "GAMMARAYBURST"
-		nameID "IDS_RANDOMEVENT_GAMMARAYBURST_NAME"
-		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTED"
-		spawnType "Projectile"
-		projectileTarget "RandomConnectedLocation"
-		spawnEntity "RandomEventProjectileGammaRayBurst"
-		playerOwnerType "Null"
-		spawnLocation "RandomLocationSpace"
-		excludedSpawnLocationCount 0
-		spawnRequirement "Timer"
-		respawnCount 5
-		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.1
-	randomEventDef
-		id "MAGNETICSTORM"
-		nameID "IDS_RANDOMEVENT_MAGNETICSTORM_NAME"
-		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTED"
-		spawnType "Projectile"
-		projectileTarget "RandomConnectedLocation"
-		spawnEntity "RandomEventProjectileMagneticStorm"
-		playerOwnerType "Null"
-		spawnLocation "RandomStar"
-		excludedSpawnLocationCount 0
-		spawnRequirement "Timer"
-		respawnCount 9
-		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.1
-	randomEventDef
-		id "PLASMASTORM"
-		nameID "IDS_RANDOMEVENT_PLASMASTORM_NAME"
-		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTED"
-		spawnType "Projectile"
-		projectileTarget "RandomConnectedLocation"
-		spawnEntity "RandomEventProjectilePlasmaStorm"
-		playerOwnerType "Null"
-		spawnLocation "RandomLocation"
-		excludedSpawnLocationCount 0
-		spawnRequirement "Timer"
-		respawnCount 9
-		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.1
+failedRespawnTimeMax 240.0
+lowAllegianceCheckPeriod 180.0
+lowAllegianceThreshold 0.65
+randomEventDefCount 9
 	randomEventDef
 		id "PIRATETITAN"
 		nameID "IDS_RANDOMEVENT_PIRATETITAN_NAME"
@@ -74,13 +13,45 @@ randomEventDefCount 12
 		spawnType "BuffAtLocation"
 		spawnEntity "RandomEventPirateTitan"
 		playerOwnerType "MadVasari"
-		spawnLocation "RandomStar"
-		excludedSpawnLocationCount 0
+		spawnLocation "RandomLocation"
+		excludedSpawnLocationCount 20
+			excludedSpawnLocation "PlanetAntimatterFountain"
+			excludedSpawnLocation "PlanetAsteroid"
+			excludedSpawnLocation "PlanetAsteroidBelt"
+			excludedSpawnLocation "PlanetAsteroidSpaceJunk"
+			excludedSpawnLocation "PlanetBarren"
+			excludedSpawnLocation "PlanetComet"
+			excludedSpawnLocation "PlanetDeadAsteroid"
+			excludedSpawnLocation "PlanetDesertHome"
+			excludedSpawnLocation "PlanetIceField"
+			excludedSpawnLocation "PlanetMagneticCloud"
+			excludedSpawnLocation "PlanetMoon"
+			excludedSpawnLocation "PlanetPirateBase"
+			excludedSpawnLocation "PlanetPlasmaStorm"
+			excludedSpawnLocation "PlanetRadiationStorm"
+			excludedSpawnLocation "PlanetRenegadeAlliance"
+			excludedSpawnLocation "PlanetShatteredMoon"
+			excludedSpawnLocation "PlanetShipGraveyard"
+			excludedSpawnLocation "PlanetTerranHome"
+			excludedSpawnLocation "PlanetVolcanicHome"
+			excludedSpawnLocation "PlanetWormhole"
 		spawnRequirement "Timer"
-		respawnCount 0
-		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.1
+		respawnCount 1
+		nextSpawnTimeMin 600.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.20
+	randomEventDef
+		id "OPENREBELLION"
+		nameID "IDS_RANDOMEVENT_OPENREBELLION_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTED"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventOpenRebellion"
+		playerOwnerType "Rebel"
+		spawnLocation "TriggerLocation"
+		excludedSpawnLocationCount 0
+		spawnRequirement "TriggerLowAllegiance"
+		triggerWeight 0.10
+		spawnWeight 1.0
 	randomEventDef
 		id "PARTISANS"
 		nameID "IDS_RANDOMEVENT_PARTISANS_NAME"
@@ -102,8 +73,8 @@ randomEventDefCount 12
 		playerOwnerType "Rebel"
 		spawnLocation "TriggerLocation"
 		excludedSpawnLocationCount 0
-		spawnRequirement "TriggerCultureFlip"
-		triggerWeight 0.1
+		spawnRequirement "TriggerLowAllegiance"
+		triggerWeight 0.40
 		spawnWeight 1.0
 	randomEventDef
 		id "ECONOMICDOWNTURN"
@@ -111,92 +82,150 @@ randomEventDefCount 12
 		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDECONOMICUPTURNDOWNTURN"
 		spawnType "PeriodicBuffAtLocation"
 		spawnEntity "RandomEventEconomicDownturn"
-		duration 180.0
-		period 5.0
+		duration 120.0
+		period 1.0
 		playerOwnerType "LocationOwner"
 		spawnLocation "AllLocations"
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
-		nextSpawnTimeMin 600.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.1
+		nextSpawnTimeMin 360.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.20
 	randomEventDef
 		id "ECONOMICUPTURN"
 		nameID "IDS_RANDOMEVENT_ECONOMICUPTURN_NAME"
 		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDECONOMICUPTURNDOWNTURN"
 		spawnType "PeriodicBuffAtLocation"
 		spawnEntity "RandomEventEconomicUpturn"
-		duration 180.0
-		period 5.0
+		duration 120.0
+		period 1.0
 		playerOwnerType "LocationOwner"
 		spawnLocation "AllLocations"
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
-		nextSpawnTimeMin 600.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.1
-	randomEventDef
-		id "CULTUREEXPLOSION"
-		nameID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"
-		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDCULTURAL"
-		spawnType "PeriodicBuffAtLocation"
-		spawnEntity "RandomEventCultureExplosion"
-		duration 300.0
-		period 5.0
-		playerOwnerType "LocationOwner"
-		spawnLocation "RandomPlayerAllLocations"
-		excludedSpawnLocationCount 0
-		spawnRequirement "Timer"
-		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.15
-	randomEventDef
-		id "CULTUREIMPLOSION"
-		nameID "IDS_RANDOMEVENT_CULTUREIMPLOSION_NAME"
-		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDCULTURAL"
-		spawnType "PeriodicBuffAtLocation"
-		spawnEntity "RandomEventCultureImplosion"
-		duration 300.0
-		period 5.0
-		playerOwnerType "LocationOwner"
-		spawnLocation "RandomPlayerAllLocations"
-		excludedSpawnLocationCount 0
-		spawnRequirement "Timer"
-		nextSpawnTimeMin 300.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.15
-	randomEventDef
-		id "OPENREBELLION"
-		nameID "IDS_RANDOMEVENT_OPENREBELLION_NAME"
-		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTED"
-		spawnType "BuffAtLocation"
-		spawnEntity "RandomEventOpenRebellion"
-		playerOwnerType "Rebel"
-		spawnLocation "TriggerLocation"
-		excludedSpawnLocationCount 0
-		spawnRequirement "TriggerLowAllegiance"
-		triggerWeight 0.15
-		spawnWeight 1.0
+		nextSpawnTimeMin 360.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.20
 	randomEventDef
 		id "RESOURCEBOOM"
 		nameID "IDS_RANDOMEVENT_RESOURCEBOOM_NAME"
 		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDCULTURAL"
 		spawnType "PeriodicBuffAtLocation"
 		spawnEntity "RandomEventResourceBoom"
-		duration 300.0
-		period 5.0
+		duration 120.0
+		period 1.0
 		playerOwnerType "LocationOwner"
 		spawnLocation "RandomLocation"
-		excludedSpawnLocationCount 7
-			excludedSpawnLocation "PlanetBarren"
-			excludedSpawnLocation "PlanetDeadAsteroid"
-			excludedSpawnLocation "PlanetPirateBase"
+		excludedSpawnLocationCount 31
 			excludedSpawnLocation "PlanetAntimatterFountain"
+			excludedSpawnLocation "PlanetAsteroid"
+			excludedSpawnLocation "PlanetAsteroidBelt"
+			excludedSpawnLocation "PlanetAsteroidSpaceJunk"
+			excludedSpawnLocation "PlanetBarren"
+			excludedSpawnLocation "PlanetComet"
+			excludedSpawnLocation "PlanetDeadAsteroid"
+			excludedSpawnLocation "PlanetDesert"
+			excludedSpawnLocation "PlanetDesertHome"
+			excludedSpawnLocation "PlanetGreenhouse"
+			excludedSpawnLocation "PlanetIceField"
+			excludedSpawnLocation "PlanetIndustrial"
 			excludedSpawnLocation "PlanetMagneticCloud"
-			excludedSpawnLocation "PlanetUrban"
+			excludedSpawnLocation "PlanetMoon"
+			excludedSpawnLocation "PlanetMountains"
+			excludedSpawnLocation "PlanetOcean"
+			excludedSpawnLocation "PlanetPirateBase"
+			excludedSpawnLocation "PlanetPlasmaStorm"
+			excludedSpawnLocation "PlanetRadiationStorm"
+			excludedSpawnLocation "PlanetRenegadeAlliance"
+			excludedSpawnLocation "PlanetSavannah"
+			excludedSpawnLocation "PlanetShatteredMoon"
+			excludedSpawnLocation "PlanetShipGraveyard"
+			excludedSpawnLocation "PlanetSilicate"
+			excludedSpawnLocation "PlanetSwamp"
+			excludedSpawnLocation "PlanetTerran"
+			excludedSpawnLocation "PlanetTerranHome"
+			excludedSpawnLocation "PlanetTropical"
+			excludedSpawnLocation "PlanetTundra"
+			excludedSpawnLocation "PlanetVolcanicHome"
 			excludedSpawnLocation "PlanetWormhole"
 		spawnRequirement "Timer"
-		nextSpawnTimeMin 500.0
-		nextSpawnTimeMax 1200.0
-		spawnWeight 0.15
+		nextSpawnTimeMin 120.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.20
+	randomEventDef
+		id "RESOURCECRASH"
+		nameID "IDS_RANDOMEVENT_RESOURCECRASH_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDCULTURAL"
+		spawnType "PeriodicBuffAtLocation"
+		spawnEntity "RandomEventResourceCrash"
+		duration 120.0
+		period 1.0
+		playerOwnerType "LocationOwner"
+		spawnLocation "RandomLocation"
+		excludedSpawnLocationCount 31
+			excludedSpawnLocation "PlanetAntimatterFountain"
+			excludedSpawnLocation "PlanetAsteroid"
+			excludedSpawnLocation "PlanetAsteroidBelt"
+			excludedSpawnLocation "PlanetAsteroidSpaceJunk"
+			excludedSpawnLocation "PlanetBarren"
+			excludedSpawnLocation "PlanetComet"
+			excludedSpawnLocation "PlanetDeadAsteroid"
+			excludedSpawnLocation "PlanetDesert"
+			excludedSpawnLocation "PlanetDesertHome"
+			excludedSpawnLocation "PlanetGreenhouse"
+			excludedSpawnLocation "PlanetIceField"
+			excludedSpawnLocation "PlanetIndustrial"
+			excludedSpawnLocation "PlanetMagneticCloud"
+			excludedSpawnLocation "PlanetMoon"
+			excludedSpawnLocation "PlanetMountains"
+			excludedSpawnLocation "PlanetOcean"
+			excludedSpawnLocation "PlanetPirateBase"
+			excludedSpawnLocation "PlanetPlasmaStorm"
+			excludedSpawnLocation "PlanetRadiationStorm"
+			excludedSpawnLocation "PlanetRenegadeAlliance"
+			excludedSpawnLocation "PlanetSavannah"
+			excludedSpawnLocation "PlanetShatteredMoon"
+			excludedSpawnLocation "PlanetShipGraveyard"
+			excludedSpawnLocation "PlanetSilicate"
+			excludedSpawnLocation "PlanetSwamp"
+			excludedSpawnLocation "PlanetTerran"
+			excludedSpawnLocation "PlanetTerranHome"
+			excludedSpawnLocation "PlanetTropical"
+			excludedSpawnLocation "PlanetTundra"
+			excludedSpawnLocation "PlanetVolcanicHome"
+			excludedSpawnLocation "PlanetWormhole"
+		spawnRequirement "Timer"
+		nextSpawnTimeMin 120.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.20
+	randomEventDef
+		id "CULTUREEXPLOSION"
+		nameID "IDS_RANDOMEVENT_CULTUREEXPLOSION_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDCULTURAL"
+		spawnType "PeriodicBuffAtLocation"
+		spawnEntity "RandomEventCultureExplosion"
+		duration 120.0
+		period 1.0
+		playerOwnerType "LocationOwner"
+		spawnLocation "RandomPlayerAllLocations"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		nextSpawnTimeMin 360.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.20
+	randomEventDef
+		id "CULTUREIMPLOSION"
+		nameID "IDS_RANDOMEVENT_CULTUREIMPLOSION_NAME"
+		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDCULTURAL"
+		spawnType "PeriodicBuffAtLocation"
+		spawnEntity "RandomEventCultureImplosion"
+		duration 120.0
+		period 1.0
+		playerOwnerType "LocationOwner"
+		spawnLocation "RandomPlayerAllLocations"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		nextSpawnTimeMin 360.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.20
 		

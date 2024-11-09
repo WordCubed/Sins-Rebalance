@@ -15,8 +15,8 @@ instantAction
 	delayTime 0.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 240.000000
-		maxFleetPoints 240.000000
+		minFleetPoints 264.000000
+		maxFleetPoints 264.000000
 		requiredShipCount 7
 		requiredShip
 			type "CorvetteTechRebel"
@@ -28,8 +28,8 @@ instantAction
 			maxCount 4
 		requiredShip
 			type "FrigateTechUtility0"
-			minCount 4
-			maxCount 4
+			minCount 2
+			maxCount 2
 		requiredShip
 			type "FrigateTechUtility1"
 			minCount 4
@@ -48,16 +48,16 @@ instantAction
 			maxCount 4
 		randomShipCount 4
 		randomShip
-			type "CAPITALSHIP_TECHBATTLESHIP"
-			weight 1
-		randomShip
-			type "CAPITALSHIP_TECHTRANSPORT"
+			type "CAPITALSHIP_TECHSUPPORT"
 			weight 1
 		randomShip
 			type "CAPITALSHIP_TECHSUPPORT"
 			weight 1
 		randomShip
-			type "CAPITALSHIP_TECHCARRIER"
+			type "CAPITALSHIP_TECHBATTLESHIP"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_TECHTRANSPORT"
 			weight 1
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"

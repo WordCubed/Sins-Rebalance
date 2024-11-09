@@ -15,27 +15,27 @@ instantAction
 	delayTime 0.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 240.000000
-		maxFleetPoints 240.000000
+		minFleetPoints 264.000000
+		maxFleetPoints 264.000000
 		requiredShipCount 7
-		requiredShip
-			type "FrigatePhaseSiege"
-			minCount 4
-			maxCount 4
 		requiredShip
 			type "CorvettePhaseRebel"
 			minCount 8
 			maxCount 8
 		requiredShip
-			type "FrigatePhaseUtility0"
+			type "FrigatePhaseSiege"
 			minCount 4
 			maxCount 4
+		requiredShip
+			type "FrigatePhaseUtility0"
+			minCount 2
+			maxCount 2
 		requiredShip
 			type "FrigatePhaseUtility1"
 			minCount 4
 			maxCount 4
 		requiredShip
-			type "FrigatePhaseMineLayer"
+			type "FrigatePhaseAntiModule"
 			minCount 8
 			maxCount 8
 		requiredShip
@@ -48,16 +48,16 @@ instantAction
 			maxCount 4
 		randomShipCount 4
 		randomShip
-			type "CAPITALSHIP_PHASEBATTLESHIP"
-			weight 1
-		randomShip
-			type "CAPITALSHIP_PHASESCOUT"
+			type "CAPITALSHIP_PHASECOLONY"
 			weight 1
 		randomShip
 			type "CAPITALSHIP_PHASECOLONY"
 			weight 1
 		randomShip
-			type "CAPITALSHIP_PHASECARRIER"
+			type "CAPITALSHIP_PHASEBATTLESHIP"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_PHASESCOUT"
 			weight 1
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"

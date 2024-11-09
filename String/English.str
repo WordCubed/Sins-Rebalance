@@ -1,5 +1,11 @@
 TXT
-NumStrings 8788
+NumStrings 8790
+StringInfo
+	ID "IDS_RANDOMEVENT_RESOURCECRASH_NAME"
+	Value "Resource Crash"
+StringInfo
+	ID "IDS_RANDOMEVENT_RESOURCEBOOM_NAME"
+	Value "Resource Boom"
 StringInfo
 	ID "IDS_ABILITY_SELFDESTRUCT_DESCRIPTION"
 	Value "Engineering crews override all safety protocols, causing the starbase's central reactor to go supercritical. The resulting explosion destroys the starbase and does immense damage to all enemies within the blast area."

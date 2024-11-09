@@ -19,7 +19,7 @@ periodicAction
 		Level:3 2.500000
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "AlwaysPerform"
-	buffType "BuffEventResourceBoomExtractors"
+	buffType "BuffEventResourceCrashExtractors"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"

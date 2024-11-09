@@ -15,14 +15,14 @@ numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "PlanetTaxRate"
 	value
-		Level:0 -1.000000
+		Level:0 -0.750000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
 entityModifier
 	buffEntityModifierType "TradeIncome"
 	value
-		Level:0 -1.000000
+		Level:0 -0.750000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
@@ -31,7 +31,7 @@ numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 120.000000
+		Level:0 60.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000

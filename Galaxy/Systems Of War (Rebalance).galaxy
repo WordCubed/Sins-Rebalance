@@ -43,7 +43,7 @@ star
 	planet
 		designName "Planet12"
 		inGameName ""
-		type "Carbon"
+		type "Barren"
 		pos [ 96 , 63 ]
 		owner ""
 		isHomePlanet FALSE
@@ -168,7 +168,7 @@ star
 	planet
 		designName "Planet51"
 		inGameName ""
-		type "Tropical"
+		type "Oceanic"
 		pos [ 92 , 111 ]
 		owner ""
 		isHomePlanet FALSE
@@ -313,7 +313,7 @@ star
 	planet
 		designName "Planet0"
 		inGameName ""
-		type "Carbon"
+		type "Barren"
 		pos [ 350 , 52 ]
 		owner ""
 		isHomePlanet FALSE
@@ -438,7 +438,7 @@ star
 	planet
 		designName "Planet52"
 		inGameName ""
-		type "Tropical"
+		type "Oceanic"
 		pos [ 390 , 94 ]
 		owner ""
 		isHomePlanet FALSE
@@ -583,7 +583,7 @@ star
 	planet
 		designName "Planet6"
 		inGameName ""
-		type "Carbon"
+		type "Barren"
 		pos [ 57 , 320 ]
 		owner ""
 		isHomePlanet FALSE
@@ -708,7 +708,7 @@ star
 	planet
 		designName "Planet53"
 		inGameName ""
-		type "Tropical"
+		type "Oceanic"
 		pos [ 120 , 331 ]
 		owner ""
 		isHomePlanet FALSE
@@ -928,7 +928,7 @@ star
 	planet
 		designName "Planet5"
 		inGameName ""
-		type "Carbon"
+		type "Barren"
 		pos [ 330 , 339 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1003,7 +1003,7 @@ star
 	planet
 		designName "Planet56"
 		inGameName ""
-		type "Tropical"
+		type "Oceanic"
 		pos [ 323 , 396 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1116,7 +1116,7 @@ star
 star
 	designName "Star4"
 	inGameName ""
-	type "GreenStar"
+	type "RedStar"
 	pos [ 213 , 212 ]
 	radius 95.000000
 	planetCount 30

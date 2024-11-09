@@ -15,8 +15,8 @@ instantAction
 	delayTime 0.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 240.000000
-		maxFleetPoints 240.000000
+		minFleetPoints 264.000000
+		maxFleetPoints 264.000000
 		requiredShipCount 7
 		requiredShip
 			type "CorvettePsiRebel"
@@ -28,8 +28,8 @@ instantAction
 			maxCount 4
 		requiredShip
 			type "FrigatePsiUtility0"
-			minCount 4
-			maxCount 4
+			minCount 2
+			maxCount 2
 		requiredShip
 			type "FrigatePsiUtility1"
 			minCount 4
@@ -48,16 +48,16 @@ instantAction
 			maxCount 4
 		randomShipCount 4
 		randomShip
-			type "CAPITALSHIP_PSIBATTLESHIP"
-			weight 1
-		randomShip
-			type "CAPITALSHIP_PSIBATTLESHIP2"
+			type "CAPITALSHIP_PSICOLONY"
 			weight 1
 		randomShip
 			type "CAPITALSHIP_PSICOLONY"
 			weight 1
 		randomShip
-			type "CAPITALSHIP_PSICARRIER"
+			type "CAPITALSHIP_PSIBATTLESHIP"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_PSIBATTLESHIP2"
 			weight 1
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
