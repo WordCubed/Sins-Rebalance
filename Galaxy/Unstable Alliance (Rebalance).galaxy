@@ -24,7 +24,7 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "FFA"
 metersPerGalaxyUnit 20000.000000
-pixelsPerGalaxyUnit 2.960002
+pixelsPerGalaxyUnit 5.000001
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
@@ -858,7 +858,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -883,7 +884,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -908,7 +910,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -933,7 +936,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -958,7 +962,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -983,7 +988,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -1008,7 +1014,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -1033,7 +1040,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -1058,7 +1066,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -1083,7 +1092,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored5P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE

@@ -83,7 +83,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored3P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -108,7 +109,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored3P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -463,7 +465,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored3P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -488,7 +491,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored3P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -843,7 +847,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored3P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -868,7 +873,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored3P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE

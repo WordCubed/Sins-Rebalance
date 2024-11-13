@@ -25,7 +25,7 @@ recommendedGameTypeCount 2
 recommendedGameType "ThreeTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.760000
+pixelsPerGalaxyUnit 0.800000
 useRandomGenerator FALSE
 galaxyWidth 2100.000000
 galaxyHeight 1800.000000
@@ -884,7 +884,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored9P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -934,7 +935,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored9P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -2314,7 +2316,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored9P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -2414,7 +2417,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored9P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -3719,7 +3723,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored9P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -3819,7 +3824,8 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 0
+			subTemplates 1
+			template "PreExplored9P"
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE

@@ -1,5 +1,17 @@
 TXT
-NumStrings 8790
+NumStrings 8794
+StringInfo
+	ID "IDS_ABILITY_SELFDESTRUCT_NAME"
+	Value "Auto Self-Detonate"
+StringInfo
+	ID "IDS_ABILITY_SELFDESTRUCT_DESCRIPTION"
+	Value "This unit immediately self-destructs."
+StringInfo
+	ID "IDS_FRIGATE_FREESCOUT_NAME"
+	Value "Temporary Scout"
+StringInfo
+	ID "IDS_FRIGATE_FREESCOUT_DESCRIPTION"
+	Value "An immobile Scout that transforms into a sensor probe."
 StringInfo
 	ID "IDS_RANDOMEVENT_RESOURCECRASH_NAME"
 	Value "Resource Crash"
