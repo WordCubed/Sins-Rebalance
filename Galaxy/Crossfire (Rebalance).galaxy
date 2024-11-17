@@ -23,8 +23,8 @@ quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "TwoTeamsOfTwo"
-metersPerGalaxyUnit 50000.000000
-pixelsPerGalaxyUnit 8.839994
+metersPerGalaxyUnit 250000.000000
+pixelsPerGalaxyUnit 1.000000
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 993.000000
@@ -1157,9 +1157,9 @@ player
 	inGameName "Player0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1170,9 +1170,9 @@ player
 	inGameName "Player1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1183,9 +1183,9 @@ player
 	inGameName "Player2"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1196,9 +1196,9 @@ player
 	inGameName "Player3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

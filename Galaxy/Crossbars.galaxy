@@ -4,7 +4,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UserGenerated"
 browseName "Crossbars"
-browseDescription "Together with your allies, explore and conquer the branches of this solar system. (NOTE: AI players rarely use wormholes, making them perform very poorly on this map.)"
+browseDescription "Together with your allies, explore and conquer the branches of this solar system. But watch out for surprise attacks! Wormholes may offer shortcuts to the enemy, but they also mean shortcuts to you. (NOTE: AI players rarely use wormholes, making them perform very poorly on this map.)"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
@@ -21,12 +21,11 @@ quickStartHomePlanetUpgradeLevel:TacticalModules 4
 quickStartHomePlanetUpgradeLevel:Home 4
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
-recommendedGameTypeCount 3
+recommendedGameTypeCount 2
 recommendedGameType "TwoTeamsOfThree"
-recommendedGameType "ThreeTeamsOfTwo"
-recommendedGameType "Solo"
-metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 3.919997
+recommendedGameType "FFA"
+metersPerGalaxyUnit 250000.000000
+pixelsPerGalaxyUnit 1.000000
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
@@ -446,7 +445,7 @@ star
 	planet
 		designName "Planet16"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 235 , 135 ]
 		owner ""
 		isHomePlanet FALSE
@@ -471,7 +470,7 @@ star
 	planet
 		designName "Planet17"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 250 , 160 ]
 		owner ""
 		isHomePlanet FALSE
@@ -496,7 +495,7 @@ star
 	planet
 		designName "Planet18"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 235 , 185 ]
 		owner ""
 		isHomePlanet FALSE
@@ -521,7 +520,7 @@ star
 	planet
 		designName "Planet19"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 85 , 135 ]
 		owner ""
 		isHomePlanet FALSE
@@ -546,7 +545,7 @@ star
 	planet
 		designName "Planet20"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 70 , 160 ]
 		owner ""
 		isHomePlanet FALSE
@@ -571,7 +570,7 @@ star
 	planet
 		designName "Planet21"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 85 , 185 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1352,7 +1351,7 @@ star
 	planet
 		designName "Planet62"
 		inGameName ""
-		type "Comet"
+		type "AsteroidSpaceJunk"
 		pos [ 296 , 203 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1527,7 +1526,7 @@ star
 	planet
 		designName "Planet69"
 		inGameName ""
-		type "Comet"
+		type "AsteroidSpaceJunk"
 		pos [ 296 , 114 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1802,7 +1801,7 @@ star
 	planet
 		designName "Planet83"
 		inGameName ""
-		type "Comet"
+		type "AsteroidSpaceJunk"
 		pos [ 24 , 203 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1977,7 +1976,7 @@ star
 	planet
 		designName "Planet90"
 		inGameName ""
-		type "Comet"
+		type "AsteroidSpaceJunk"
 		pos [ 24 , 114 ]
 		owner ""
 		isHomePlanet FALSE
@@ -3226,9 +3225,9 @@ player
 	inGameName "NewPlayer0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3239,9 +3238,9 @@ player
 	inGameName "NewPlayer1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3252,9 +3251,9 @@ player
 	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3265,9 +3264,9 @@ player
 	inGameName "NewPlayer3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3278,9 +3277,9 @@ player
 	inGameName "NewPlayer4"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3291,9 +3290,9 @@ player
 	inGameName "NewPlayer5"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

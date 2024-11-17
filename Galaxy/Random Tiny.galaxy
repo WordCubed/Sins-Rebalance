@@ -22,7 +22,7 @@ quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "Solo"
-metersPerGalaxyUnit 25000.000000
+metersPerGalaxyUnit 250000.000000
 pixelsPerGalaxyUnit 1.000000
 useRandomGenerator TRUE
 randomizerParams
@@ -30,9 +30,9 @@ randomizerParams
 		minPercentage 10.000000
 		maxPercentage 15.000000
 	playerParams
-		startingCredits 15000
-		startingMetal 3600
-		startingCrystal 2400
+		startingCredits 16000
+		startingMetal 3900
+		startingCrystal 2600
 		homePlanetType "TerranHome"
 		homePlanetStarRadiusRange
 			minPercentage 0.7

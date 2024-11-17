@@ -296,7 +296,7 @@ hyperspaceData
 	titanTravelEffectSoundID "HYPERSPACE_TRAVEL"
 	titanExitEffectName "Hyperspace_Vasari_Titan_Exit"
 	titanExitEffectSoundID "HYPERSPACE_EXIT"
-	baseHyperspaceSpeed 50000.000000
+	baseHyperspaceSpeed 500000.000000
 	hyperspaceSpeedBetweenStarsMultiplier 4.000000
 	hyperspaceSpeedToFriendlyOrbitBodiesMultiplier 1.000000
 	baseHyperspaceAntiMatterCost 120.000000

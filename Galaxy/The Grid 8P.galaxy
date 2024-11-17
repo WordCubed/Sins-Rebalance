@@ -26,8 +26,8 @@ recommendedGameType "FFA"
 recommendedGameType "TwoTeamsOfFour"
 recommendedGameType "FourTeamsOfTwo"
 recommendedGameType "TwoTeamsOfThree"
-metersPerGalaxyUnit 50000.000000
-pixelsPerGalaxyUnit 0.800000
+metersPerGalaxyUnit 250000.000000
+pixelsPerGalaxyUnit 1.000000
 useRandomGenerator FALSE
 galaxyWidth 2000.000000
 galaxyHeight 2000.000000
@@ -4267,9 +4267,9 @@ player
 	inGameName "NewPlayer0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -4280,9 +4280,9 @@ player
 	inGameName "NewPlayer1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -4293,9 +4293,9 @@ player
 	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -4306,9 +4306,9 @@ player
 	inGameName "NewPlayer3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -4319,9 +4319,9 @@ player
 	inGameName "NewPlayer4"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -4332,9 +4332,9 @@ player
 	inGameName "NewPlayer5"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -4345,9 +4345,9 @@ player
 	inGameName "NewPlayer6"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -4358,9 +4358,9 @@ player
 	inGameName "NewPlayer7"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

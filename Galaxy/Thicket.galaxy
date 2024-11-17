@@ -3,8 +3,8 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UserGenerated"
-browseName "The Wilderness"
-browseDescription "It's just you and your ally, fighting through the wilderness."
+browseName "Thicket"
+browseDescription "You and your ally must fight through a thicket of planets to reach your enemies."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000
@@ -26,7 +26,7 @@ recommendedGameType "TwoTeamsOfTwo"
 recommendedGameType "Solo"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 1.640000
+pixelsPerGalaxyUnit 1.599999
 useRandomGenerator FALSE
 galaxyWidth 1536.000000
 galaxyHeight 873.000000
@@ -395,7 +395,7 @@ star
 		designName "Planet14"
 		inGameName ""
 		type "RandomWater"
-		pos [ 82 , 310 ]
+		pos [ 82 , 312 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -520,7 +520,7 @@ star
 		designName "Planet19"
 		inGameName ""
 		type "Wormhole"
-		pos [ 60 , 437 ]
+		pos [ 63 , 331 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -546,7 +546,7 @@ star
 		designName "Planet20"
 		inGameName ""
 		type "Wormhole"
-		pos [ 498 , 105 ]
+		pos [ 383 , 101 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -997,7 +997,7 @@ star
 		designName "Planet45"
 		inGameName ""
 		type "RandomIce"
-		pos [ 117 , 454 ]
+		pos [ 112 , 460 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1322,7 +1322,7 @@ star
 		designName "Planet62"
 		inGameName ""
 		type "RandomHazardous"
-		pos [ 501 , 221 ]
+		pos [ 498 , 218 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1347,7 +1347,7 @@ star
 		designName "Planet63"
 		inGameName ""
 		type "RandomDesolate"
-		pos [ 529 , 224 ]
+		pos [ 530 , 222 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1372,7 +1372,7 @@ star
 		designName "Planet64"
 		inGameName ""
 		type "RandomTerran"
-		pos [ 555 , 276 ]
+		pos [ 537 , 276 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1397,7 +1397,7 @@ star
 		designName "Planet65"
 		inGameName ""
 		type "RandomWater"
-		pos [ 526 , 254 ]
+		pos [ 512 , 250 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1446,8 +1446,8 @@ star
 	planet
 		designName "Planet68"
 		inGameName ""
-		type "RandomIce"
-		pos [ 557 , 244 ]
+		type "RandomIron"
+		pos [ 564 , 251 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1472,7 +1472,7 @@ star
 		designName "Planet69"
 		inGameName ""
 		type "RandomArid"
-		pos [ 510 , 284 ]
+		pos [ 501 , 278 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1497,7 +1497,7 @@ star
 		designName "Planet70"
 		inGameName ""
 		type "Wormhole"
-		pos [ 99 , 488 ]
+		pos [ 138 , 477 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1523,7 +1523,7 @@ star
 		designName "Planet71"
 		inGameName ""
 		type "Wormhole"
-		pos [ 538 , 156 ]
+		pos [ 541 , 248 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1875,7 +1875,7 @@ star
 	planet
 		designName "Planet89"
 		inGameName ""
-		type "RandomIron"
+		type "RandomIce"
 		pos [ 457 , 267 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1897,7 +1897,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 140
+	connectionCount 154
 	connection
 		planetIndexA -1
 		planetIndexB 4
@@ -2598,6 +2598,76 @@ star
 		planetIndexB 3
 		spawnProbability 1.000000
 		type "PhaseLane"
+	connection
+		planetIndexA 23
+		planetIndexB 19
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 17
+		planetIndexB 19
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB 14
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 58
+		planetIndexB 38
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 58
+		planetIndexB 39
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 36
+		planetIndexB 58
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 59
+		planetIndexB 56
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 59
+		planetIndexB 54
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 59
+		planetIndexB 51
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 41
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 44
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 20
+		planetIndexB 47
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 70
+		planetIndexB 63
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 70
+		planetIndexB 69
+		spawnProbability 1.000000
+		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
@@ -2607,9 +2677,9 @@ player
 	inGameName "NewPlayer0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -2620,9 +2690,9 @@ player
 	inGameName "NewPlayer1"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -2633,9 +2703,9 @@ player
 	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -2646,9 +2716,9 @@ player
 	inGameName "NewPlayer3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 15000
-	startingMetal 3600
-	startingCrystal 2400
+	startingCredits 16000
+	startingMetal 3900
+	startingCrystal 2600
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

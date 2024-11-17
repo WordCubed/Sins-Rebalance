@@ -580,17 +580,17 @@ GameplayConstants
 		shipBuildRateGameSpeedScalar 8.0
 		moduleBuildRateGameSpeedScalar 8.0
 	cultureSpeedData-Slow
-		cultureConnectionReferenceLength 250000
+		cultureConnectionReferenceLength 5000000
 		allegianceShiftRateScalar -0.5
 	cultureSpeedData-Normal
-		cultureConnectionReferenceLength 500000
+		cultureConnectionReferenceLength 10000000
 		allegianceShiftRateScalar 0.0
 	cultureSpeedData-Fast
-		cultureConnectionReferenceLength 750000
-		allegianceShiftRateScalar 4.0
-	cultureSpeedData-Faster
-		cultureConnectionReferenceLength 1000000
+		cultureConnectionReferenceLength 15000000
 		allegianceShiftRateScalar 16.0
+	cultureSpeedData-Faster
+		cultureConnectionReferenceLength 20000000
+		allegianceShiftRateScalar 64.0
 	researchSpeedData-Slow
 		researchRateGameSpeedScalar -0.5
 	researchSpeedData-Normal

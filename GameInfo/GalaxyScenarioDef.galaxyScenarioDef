@@ -1175,7 +1175,7 @@ planetItemType
 	designName "Tech:Frigate:Scout"
 	entityDefName "FrigateTechScout"
 planetItemType
-	designName "Tech:Frigate:FreeScout"
+	designName "Tech:Frigate:Scout"
 	entityDefName "FrigateFreeScout"
 planetItemType
 	designName "Tech:Frigate:Siege"
@@ -1232,7 +1232,7 @@ planetItemType
 	designName "Phase:CapitalShip:Carrier"
 	entityDefName "CAPITALSHIP_PHASECARRIER"
 planetItemType
-	designName "Phase:CapitalShip:Colony"
+	designName "Phase:CapitalShip:HealerColonist"
 	entityDefName "CAPITALSHIP_PHASECOLONY"
 planetItemType
 	designName "Phase:CapitalShip:Scout"
@@ -1419,7 +1419,7 @@ planetItemsTemplate
 		owner "NewPlayer0"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1427,7 +1427,7 @@ planetItemsTemplate
 		owner "NewPlayer1"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 planetItemsTemplate
 	templateName "PreExplored3P"
 	subTemplates 0
@@ -1439,7 +1439,7 @@ planetItemsTemplate
 		owner "NewPlayer0"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1447,7 +1447,7 @@ planetItemsTemplate
 		owner "NewPlayer1"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1455,7 +1455,7 @@ planetItemsTemplate
 		owner "NewPlayer2"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 planetItemsTemplate
 	templateName "PreExplored4P"
 	subTemplates 0
@@ -1467,7 +1467,7 @@ planetItemsTemplate
 		owner "NewPlayer0"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1475,7 +1475,7 @@ planetItemsTemplate
 		owner "NewPlayer1"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1483,7 +1483,7 @@ planetItemsTemplate
 		owner "NewPlayer2"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1491,7 +1491,7 @@ planetItemsTemplate
 		owner "NewPlayer3"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 planetItemsTemplate
 	templateName "PreExplored5P"
 	subTemplates 0
@@ -1503,7 +1503,7 @@ planetItemsTemplate
 		owner "NewPlayer0"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1511,7 +1511,7 @@ planetItemsTemplate
 		owner "NewPlayer1"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1519,7 +1519,7 @@ planetItemsTemplate
 		owner "NewPlayer2"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1527,7 +1527,7 @@ planetItemsTemplate
 		owner "NewPlayer3"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1535,7 +1535,7 @@ planetItemsTemplate
 		owner "NewPlayer4"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 planetItemsTemplate
 	templateName "PreExplored6P"
 	subTemplates 0
@@ -1547,7 +1547,7 @@ planetItemsTemplate
 		owner "NewPlayer0"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1555,7 +1555,7 @@ planetItemsTemplate
 		owner "NewPlayer1"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1563,7 +1563,7 @@ planetItemsTemplate
 		owner "NewPlayer2"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1571,7 +1571,7 @@ planetItemsTemplate
 		owner "NewPlayer3"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1579,7 +1579,7 @@ planetItemsTemplate
 		owner "NewPlayer4"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1587,7 +1587,7 @@ planetItemsTemplate
 		owner "NewPlayer5"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 planetItemsTemplate
 	templateName "PreExplored8P"
 	subTemplates 0
@@ -1599,7 +1599,7 @@ planetItemsTemplate
 		owner "NewPlayer0"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1607,7 +1607,7 @@ planetItemsTemplate
 		owner "NewPlayer1"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1615,7 +1615,7 @@ planetItemsTemplate
 		owner "NewPlayer2"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1623,7 +1623,7 @@ planetItemsTemplate
 		owner "NewPlayer3"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1631,7 +1631,7 @@ planetItemsTemplate
 		owner "NewPlayer4"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1639,7 +1639,7 @@ planetItemsTemplate
 		owner "NewPlayer5"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1647,7 +1647,7 @@ planetItemsTemplate
 		owner "NewPlayer6"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1655,7 +1655,7 @@ planetItemsTemplate
 		owner "NewPlayer7"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 planetItemsTemplate
 	templateName "PreExplored9P"
 	subTemplates 0
@@ -1667,7 +1667,7 @@ planetItemsTemplate
 		owner "NewPlayer0"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1675,7 +1675,7 @@ planetItemsTemplate
 		owner "NewPlayer1"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1683,7 +1683,7 @@ planetItemsTemplate
 		owner "NewPlayer2"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1691,7 +1691,7 @@ planetItemsTemplate
 		owner "NewPlayer3"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1699,7 +1699,7 @@ planetItemsTemplate
 		owner "NewPlayer4"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1707,7 +1707,7 @@ planetItemsTemplate
 		owner "NewPlayer5"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1715,7 +1715,7 @@ planetItemsTemplate
 		owner "NewPlayer6"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1723,7 +1723,7 @@ planetItemsTemplate
 		owner "NewPlayer7"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1731,7 +1731,7 @@ planetItemsTemplate
 		owner "NewPlayer8"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 planetItemsTemplate
 	templateName "PreExplored10P"
 	subTemplates 0
@@ -1743,7 +1743,7 @@ planetItemsTemplate
 		owner "NewPlayer0"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1751,7 +1751,7 @@ planetItemsTemplate
 		owner "NewPlayer1"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1759,7 +1759,7 @@ planetItemsTemplate
 		owner "NewPlayer2"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1767,7 +1767,7 @@ planetItemsTemplate
 		owner "NewPlayer3"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1775,7 +1775,7 @@ planetItemsTemplate
 		owner "NewPlayer4"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1783,7 +1783,7 @@ planetItemsTemplate
 		owner "NewPlayer5"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1791,7 +1791,7 @@ planetItemsTemplate
 		owner "NewPlayer6"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1799,7 +1799,7 @@ planetItemsTemplate
 		owner "NewPlayer7"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1807,7 +1807,7 @@ planetItemsTemplate
 		owner "NewPlayer8"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 	group
 		condition
 			type "Always"
@@ -1815,7 +1815,7 @@ planetItemsTemplate
 		owner "NewPlayer9"
 		colonizeChance 0.000000
 		items 1
-		item "Tech:Frigate:FreeScout"
+		item "Tech:Frigate:Scout"
 planetItemsTemplate
 	templateName "Template:DefaultHomePlanetSetup"
 	subTemplates 1
@@ -1881,7 +1881,8 @@ planetItemsTemplate
 				param "TechLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 17
+				item "Tech:CapitalShip:HealerColonist"
 				item "Tech:StarBaseFree"
 				item "Tech:Module:CultureCenter"
 				item "Tech:Module:FrigateFactory"
@@ -1904,7 +1905,8 @@ planetItemsTemplate
 				param "PsiLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 17
+				item "Psi:CapitalShip:HealerColonist"
 				item "Psi:StarBaseFree"
 				item "Psi:Module:CultureCenter"
 				item "Psi:Module:FrigateFactory"
@@ -1927,7 +1929,8 @@ planetItemsTemplate
 				param "PhaseLoyalist"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 17
+				item "Phase:CapitalShip:HealerColonist"
 				item "Phase:StarBaseFree"
 				item "Phase:Module:CultureCenter"
 				item "Phase:Module:FrigateFactory"
@@ -1950,7 +1953,8 @@ planetItemsTemplate
 				param "TechRebel"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 17
+				item "Tech:CapitalShip:HealerColonist"
 				item "Tech:StarBaseFree"
 				item "Tech:Module:CultureCenter"
 				item "Tech:Module:FrigateFactory"
@@ -1973,7 +1977,8 @@ planetItemsTemplate
 				param "PsiRebel"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 17
+				item "Psi:CapitalShip:HealerColonist"
 				item "Psi:StarBaseFree"
 				item "Psi:Module:CultureCenter"
 				item "Psi:Module:FrigateFactory"
@@ -1996,7 +2001,8 @@ planetItemsTemplate
 				param "PhaseRebel"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 16
+			items 17
+				item "Phase:CapitalShip:HealerColonist"
 				item "Phase:StarBaseFree"
 				item "Phase:Module:CultureCenter"
 				item "Phase:Module:FrigateFactory"
@@ -2850,7 +2856,7 @@ planetItemsTemplate
 				item "Phase:StarBaseFree"
 				item "Psi:StarBaseFree"
 				item "Tech:StarBaseFree"
-				item "Phase:CapitalShip:Colony"
+				item "Phase:CapitalShip:HealerColonist"
 				item "Phase:CapitalShip:Assault"
 				item "Phase:CapitalShip:SpecialCombat"
 				item "Phase:CapitalShip:Battleship"
