@@ -963,7 +963,7 @@ raceRelationsModifier
 		modifierMax -2.000000
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_PHASEREBEL"
-	modifierMin 0.100000
+	modifierMin 1.000000
 	modifierMax 1.000000
 	factionRelationsModCount 1
 	factionRelationsModifier
@@ -973,7 +973,7 @@ raceRelationsModifier
 		modifierMax -5.000000
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_PHASELOYALIST"
-	modifierMin 0.100000
+	modifierMin 1.000000
 	modifierMax 1.000000
 	factionRelationsModCount 1
 	factionRelationsModifier

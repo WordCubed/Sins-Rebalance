@@ -918,8 +918,8 @@ playerPictureGroupName "PlayerTech"
 raceRelationsModCount 6
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_TECHREBEL"
-	modifierMin 2.000000
-	modifierMax 2.000000
+	modifierMin 4.000000
+	modifierMax 4.000000
 	factionRelationsModCount 1
 	factionRelationsModifier
 		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
@@ -958,8 +958,8 @@ raceRelationsModifier
 		modifierMax -6.000000
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_PHASEREBEL"
-	modifierMin -4.000000
-	modifierMax -4.000000
+	modifierMin -3.500000
+	modifierMax -3.500000
 	factionRelationsModCount 1
 	factionRelationsModifier
 		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
