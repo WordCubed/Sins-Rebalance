@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 1
 nameStringID "IDS_PLANETBONUS_SLUMS_NAME"
 descStringID "IDS_PLANETBONUS_SLUMS_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation 60.000000
+floatBonus:AdditivePopulation 80.000000
 floatBonus:AdditivePlanetHealth -1500.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
@@ -21,7 +21,7 @@ floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc 0.000000
 floatBonus:PlanetUpgradeBuildRatePerc 0.000000
-floatBonus:PopulationGrowthPerc 2.000000
+floatBonus:PopulationGrowthPerc 4.000000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000
 intBonus:MaxSpaceMines 0

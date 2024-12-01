@@ -924,48 +924,48 @@ raceRelationsModifier
 	factionRelationsModifier
 		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
 		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin 2.000000
-		modifierMax 2.000000
+		modifierMin 4.000000
+		modifierMax 4.000000
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_TECHLOYALIST"
-	modifierMin 2.000000
-	modifierMax 2.000000
+	modifierMin 3.000000
+	modifierMax 3.000000
 	factionRelationsModCount 1
 	factionRelationsModifier
 		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
 		otherFactionNameID "IDS_PLAYERFACTIONNAME_LOYALIST"
-		modifierMin 0.000000
-		modifierMax 0.000000
+		modifierMin 3.000000
+		modifierMax 3.000000
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_PSIREBEL"
-	modifierMin -4.000000
-	modifierMax -4.000000
+	modifierMin -3.000000
+	modifierMax -3.000000
 	factionRelationsModCount 1
 	factionRelationsModifier
 		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
 		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin -4.000000
-		modifierMax -4.000000
+		modifierMin -3.000000
+		modifierMax -3.000000
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_PSILOYALIST"
-	modifierMin -4.000000
-	modifierMax -4.000000
+	modifierMin -3.000000
+	modifierMax -3.000000
 	factionRelationsModCount 1
 	factionRelationsModifier
 		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
 		otherFactionNameID "IDS_PLAYERFACTIONNAME_LOYALIST"
-		modifierMin -6.000000
-		modifierMax -6.000000
+		modifierMin -3.000000
+		modifierMax -3.000000
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_PHASEREBEL"
-	modifierMin -3.500000
-	modifierMax -3.500000
+	modifierMin -3.000000
+	modifierMax -3.000000
 	factionRelationsModCount 1
 	factionRelationsModifier
 		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
 		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin -2.000000
-		modifierMax -2.000000
+		modifierMin -3.000000
+		modifierMax -3.000000
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_PHASELOYALIST"
 	modifierMin -4.000000
