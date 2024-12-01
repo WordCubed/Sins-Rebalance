@@ -8,7 +8,19 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 0
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellTechEMP"
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CannonShellTechEMP"
+		mediumEffectName "CannonShellTechEMP"
+		largeEffectName "CannonShellTechEMP"
+		soundID "EFFECT_EMPBLAST"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 2

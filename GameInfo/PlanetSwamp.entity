@@ -342,8 +342,8 @@ planetUpgradeDef
 				metal 360.000000
 				crystal 720.000000
 			upgradeTime 20.000000
-			corruptionPercent 0.750000
-			smugglingPercent 0.025000
+			corruptionPercent 0.500000
+			smugglingPercent 0.050000
 ringsChance 0.000000
 isColonizable TRUE
 planetTypeForResearch "Oceanic"

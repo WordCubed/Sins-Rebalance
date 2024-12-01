@@ -1,5 +1,8 @@
 TXT
-NumStrings 8794
+NumStrings 8796
+StringInfo
+	ID "IDS_PLANETMODULE_TECHORBITALCANNON_DESC"
+	Value "A weapon that destroys an enemy planet's health, population, and economy for several minutes. Also disables enemy ship movement."
 StringInfo
 	ID "IDS_ABILITY_SELFDESTRUCT_NAME"
 	Value "Auto Self-Detonate"
@@ -45,6 +48,9 @@ StringInfo
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetCopper"
 	Value "Cuprous"
+StringInfo
+	ID "IDSGalaxyScenarioTypePlanetFerrus"
+	Value "Ferrous"
 StringInfo
 	ID "IDS_PLANETMODULE_PHASEORBITALREPAIRPLATFORM_NAME"
 	Value "Repair Platform"
@@ -2226,6 +2232,9 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNON_NAME"
 	Value "Fire Siege Superweapon"
+StringInfo
+	ID "IDS_ABILITY_TECHORBITALCANNON_DESC"
+	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an elecromagnetic wave that disables enemy ships' engines for 2 minutes."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH_NAME"
 	Value "Superweapon Prototype"

@@ -298,32 +298,32 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			corruptionPercent 0.250000
-			smugglingPercent 0.010000
+			corruptionPercent 0.200000
+			smugglingPercent 0.020000
 		stage
 			price
 				credits 40.000000
 				metal 80.000000
 				crystal 60.000000
 			upgradeTime 5.000000
-			corruptionPercent 0.500000
-			smugglingPercent 0.020000
+			corruptionPercent 0.400000
+			smugglingPercent 0.040000
 		stage
 			price
 				credits 80.000000
 				metal 160.000000
 				crystal 120.000000
 			upgradeTime 10.000000
-			corruptionPercent 0.500000
-			smugglingPercent 0.030000
+			corruptionPercent 0.600000
+			smugglingPercent 0.060000
 		stage
 			price
 				credits 240.000000
 				metal 480.000000
 				crystal 360.000000
 			upgradeTime 20.000000
-			corruptionPercent 1.000000
-			smugglingPercent 0.040000
+			corruptionPercent 0.800000
+			smugglingPercent 0.080000
 ringsChance 0.000000
 isColonizable TRUE
 planetTypeForResearch "Asteroid"
