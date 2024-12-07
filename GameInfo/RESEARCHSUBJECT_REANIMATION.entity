@@ -33,19 +33,15 @@ onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 2
 researchModifier
 	modifierType "ChanceToTemporarilyCloneEnemyFrigateWhenKilled"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.166667
 researchModifier
 	modifierType "ChanceToTemporarilyCloneEnemyFrigateWhenKilledDuration"
 	baseValue 0.000000
-	perLevelValue 150.000000
-researchModifier
-	modifierType "ChanceToRespawnFrigateAtHomeworldUponDeath"
-	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 60.000000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

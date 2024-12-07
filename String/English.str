@@ -1,5 +1,32 @@
 TXT
-NumStrings 8796
+NumStrings 8806
+StringInfo
+	ID "IDS_CANNONSHELLTECHMILITIA_NAME"
+	Value "Liberation Payload"
+StringInfo
+	ID "IDS_CANNONSHELLTECHMILITIA_DESC"
+	Value "Rebel forces on the targeted planet will be inspired by this and temporarily rise up against their occupiers."
+StringInfo
+	ID "IDS_CANNONSHELLTECH_DESC"
+	Value "The apex of TEC ordnance technology; it will cause tremendous damage to a planet's infrastructure on impact, cripple its economy, and briefly disable enemy ship movement."
+StringInfo
+	ID "IDS_CANNONSHELLPSIMILITIA_NAME"
+	Value "Reanimation Signal"
+StringInfo
+	ID "IDS_CANNONSHELLPSIMILITIA_DESC"
+	Value "A powerful burst of aura fired from the Cultural Superweapon, it spontaneously resurrects some of your formerly dead ships around the target."
+StringInfo
+	ID "IDS_ABILITY_TECHORBITALCANNONMILITIA_DESC"
+	Value "Fire the TEC Rebel's secondary superweapon, which signals for an uprising of militia sympathetic to your cause to briefly appear at an enemy planet. This uprising will last for 2 or 4 minutes, depending on research level."
+StringInfo
+	ID "IDS_ABILITY_TECHORBITALCANNONMILITIA_NAME"
+	Value "Liberation Strike"
+StringInfo
+	ID "IDS_ABILITY_PSIORBITALCANNONMILITIA_DESC"
+	Value "Fire the Advent Rebel's secondary superweapon, which spontaneously resurrects the dead souls of your fleet to attack a targeted planet. This ressurection will last either 2 or 4 minutes, depending on research level."
+StringInfo
+	ID "IDS_ABILITY_PSIORBITALCANNONMILITIA_NAME"
+	Value "Activate Remote Resurection"
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCANNON_DESC"
 	Value "A weapon that destroys an enemy planet's health, population, and economy for several minutes. Also disables enemy ship movement."
@@ -23,13 +50,13 @@ StringInfo
 	Value "Resource Boom"
 StringInfo
 	ID "IDS_ABILITY_SELFDESTRUCT_DESCRIPTION"
-	Value "Engineering crews override all safety protocols, causing the starbase's central reactor to go supercritical. The resulting explosion destroys the starbase and does immense damage to all enemies within the blast area."
+	Value "Engineering crews override all safety protocols, causing the starbase's central reactor to go supercritical. The resulting explosion destroys the starbase and does substantial damage to all enemies within the blast area."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATETECH_DESCRIPTION"
 	Value "The efforts of your scientists and engineers have culminated in this, the most valuable stolen technology imaginable: a working copy of the Vasari's Phase Gates. Enables you to build Phase Gates into your starbases."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_REANIMATION_DESCRIPTION"
-	Value "Allows the Unity to create a temporary clone of destroyed enemy frigates, cruisers, or corvettes where they were defeated, and to sometimes resurrect its own fallen ships at its capital planet."
+	Value "Allows the Unity to create a temporary clone of destroyed enemy frigates, cruisers, or corvettes where they were defeated. Additionally, enables the Cultural Superweapon to resurrect your own fallen ships around a targeted planet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_NAME"
 	Value "Ghosts of the Fallen"
@@ -2234,7 +2261,7 @@ StringInfo
 	Value "Fire Siege Superweapon"
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNON_DESC"
-	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an elecromagnetic wave that disables enemy ships' engines for 2 minutes."
+	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 2 minutes."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH_NAME"
 	Value "Superweapon Prototype"

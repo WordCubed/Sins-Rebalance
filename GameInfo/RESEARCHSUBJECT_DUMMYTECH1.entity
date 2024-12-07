@@ -14,10 +14,10 @@ Prerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_REBELLION"
-		Level 1
+		Level 2
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
-		Level 1
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

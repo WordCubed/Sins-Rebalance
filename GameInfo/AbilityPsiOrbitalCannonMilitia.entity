@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffTechOrbitalCannon"
+buffType "BuffPsiOrbitalCannonMilitia"
 targetFilter
 	numOwnerships 3
 	ownership "Enemy"
@@ -18,7 +18,7 @@ targetFilter
 	constraint "IsColonizable"
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
+		attachType "Center"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -27,9 +27,9 @@ needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
+maxNumLevels 2
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH"
+improveSourceResearchSubject "RESEARCHSUBJECT_REANIMATION"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -39,12 +39,12 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 9000.000000
+	Level:0 0.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 300.000000
+	Level:0 360.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
@@ -52,12 +52,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH"
+		Subject "RESEARCHSUBJECT_REANIMATION"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_TECHORBITALCANNON_NAME"
-descStringID "IDS_ABILITY_TECHORBITALCANNON_DESC"
-hudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
-smallHudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
+nameStringID "IDS_ABILITY_PSIORBITALCANNONMILITIA_NAME"
+descStringID "IDS_ABILITY_PSIORBITALCANNONMILITIA_DESC"
+hudIcon "HUDICON_RESEARCHSUBJECT_REANIMATION"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_REANIMATION"
 infoCardIcon ""

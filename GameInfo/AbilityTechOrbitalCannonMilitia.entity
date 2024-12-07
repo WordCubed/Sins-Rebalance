@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffTechOrbitalCannon"
+buffType "BuffTechOrbitalCannonMilitia"
 targetFilter
 	numOwnerships 3
 	ownership "Enemy"
@@ -27,9 +27,9 @@ needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
+maxNumLevels 2
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH"
+improveSourceResearchSubject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -39,7 +39,7 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 9000.000000
+	Level:0 0.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000
@@ -52,12 +52,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH"
+		Subject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_TECHORBITALCANNON_NAME"
-descStringID "IDS_ABILITY_TECHORBITALCANNON_DESC"
-hudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
-smallHudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
+nameStringID "IDS_ABILITY_TECHORBITALCANNONMILITIA_NAME"
+descStringID "IDS_ABILITY_TECHORBITALCANNONMILITIA_DESC"
+hudIcon "HUDICON_RESEARCHSUBJECT_LIBERATEDRESISTANCE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_LIBERATEDRESISTANCE"
 infoCardIcon ""
