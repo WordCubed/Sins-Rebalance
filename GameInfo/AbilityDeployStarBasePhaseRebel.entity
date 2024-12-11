@@ -25,19 +25,19 @@ onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
 creditCost
 	Level:0 1000.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 1000.000000
+	Level:2 1000.000000
+	Level:3 1000.000000
 metalCost
 	Level:0 200.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 200.000000
+	Level:2 200.000000
+	Level:3 200.000000
 crystalCost
 	Level:0 100.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 100.000000
+	Level:2 100.000000
+	Level:3 100.000000
 cooldownTime
 	Level:0 10.000000
 	Level:1 0.000000
@@ -45,7 +45,10 @@ cooldownTime
 	Level:3 0.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORPHASE"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_DEPLOYSTARBASEPHASE_NAME"

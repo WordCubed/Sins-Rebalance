@@ -1,9 +1,10 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeNewBuffs"
+onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit -1
+stackingLimit 4
+allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
@@ -14,14 +15,14 @@ instantAction
 	delayTime 0.000000
 	damage
 		Level:0 16000.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 16000.000000
+		Level:2 16000.000000
+		Level:3 16000.000000
 	populationKilled
 		Level:0 2000.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 2000.000000
+		Level:2 2000.000000
+		Level:3 2000.000000
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
@@ -44,6 +45,6 @@ finishCondition
 	finishConditionType "TimeElapsed"
 	time
 		Level:0 180.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 180.000000
+		Level:2 180.000000
+		Level:3 180.000000

@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffPsiOrbitalCannon"
+buffType "BuffPsiOrbitalCannonRebel"
 targetFilter
 	numOwnerships 3
 	ownership "Enemy"
@@ -48,7 +48,10 @@ cooldownTime
 	Level:3 360.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_REANIMATION"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_PSIORBITALCANNON_NAME"

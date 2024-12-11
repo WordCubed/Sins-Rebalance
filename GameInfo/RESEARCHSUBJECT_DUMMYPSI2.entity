@@ -8,16 +8,10 @@ NameStringID "IDS_DUMMY"
 DescriptionStringID "IDS_DUMMY"
 researchWindowLocation
 	block 0
-	pos [ 99 , 0 ]
-ResearchField "Combat"
+	pos [ 99 , 1 ]
+ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 2
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_REBELLION"
-		Level 2
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -32,15 +26,11 @@ PerLevelCostIncrease
 	metal 0.000000
 	crystal 0.000000
 Tier 7
-onlyWorksIfTierLabsExist TRUE
+onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
-priority 0.000000
+priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
-researchModifier
-	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
-	baseValue 2.000000
-	perLevelValue 0.000000
+researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

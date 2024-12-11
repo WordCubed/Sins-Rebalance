@@ -13,9 +13,8 @@ targetFilter
 	object "Planet"
 	numSpaces 1
 	space "Normal"
-	numConstraints 2
+	numConstraints 1
 	constraint "IsExplored"
-	constraint "IsColonizable"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -39,7 +38,7 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 0.000000
+	Level:0 1000.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000

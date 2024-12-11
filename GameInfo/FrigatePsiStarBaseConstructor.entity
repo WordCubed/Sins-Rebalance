@@ -94,7 +94,7 @@ EngineSoundID "ENGINE_PSICAPITALSHIP"
 ability:0 "AbilityDeployStarBasePsi"
 ability:1 ""
 ability:2 ""
-ability:3 "AbilityDeployStarBasePsiRebelAI"
+ability:3 ""
 ability:4 "AbilityDeployStarBasePsiAI"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

@@ -2,10 +2,10 @@ TXT2
 SinsArchiveVersion 194
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 3.000000
-ability:0 "AbilityFleetBeacon"
-ability:1 "AbilityDarkCombatFleet"
-ability:2 "AbilityDarkSupportFleet"
-ability:3 "AbilityDarkCapitalShip"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
 ability:4 "AbilityPhaseGateModule"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

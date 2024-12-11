@@ -69,7 +69,7 @@ entities
 			entityDefName "FrigatePsiTradeShip"
 			entityDefName "FrigatePsiRefineryShip"
 	researchInfo
-		count 164
+		count 165
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSPSI"
 		entityDefName "RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERPSI0"
@@ -181,6 +181,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_FURY_OF_THE_UNITY"
 		entityDefName "RESEARCHSUBJECT_ANCIENT_RETRIBUTION"
 		entityDefName "RESEARCHSUBJECT_DUMMYPSI0"
+		entityDefName "RESEARCHSUBJECT_DUMMYPSI2"
 		entityDefName "RESEARCHSUBJECT_ACCLIMATIZATION_OF_WILL"
 		entityDefName "RESEARCHSUBJECT_CLEANSE_AND_RENEW"
 		entityDefName "RESEARCHSUBJECT_CULTURERESIST"
@@ -235,8 +236,9 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
 	starBaseInfo
-		count 1
+		count 2
 		entityDefName "StarBasePsi"
+		entityDefName "StarBasePsiFree"
 	flagship "FrigatePsiFlagship"
 debrisData
 	numRandomMeshNamesLarge 10

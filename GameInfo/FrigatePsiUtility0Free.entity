@@ -144,7 +144,7 @@ ability:0 "AbilitySuppression"
 ability:1 "AbilityRepulsionField"
 ability:2 ""
 ability:3 ""
-ability:4 ""
+ability:4 "AbilityCannonMilitiaFreeShips"
 MaxAntiMatter 240.000000
 AntiMatterRestoreRate 4.000000
 cargoType "Invalid"

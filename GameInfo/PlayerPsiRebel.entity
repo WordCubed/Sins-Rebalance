@@ -64,12 +64,18 @@ entities
 			entityDefName "FrigatePsiUtility1"
 			entityDefName "FrigatePsiCarrier"
 		NotOnPage
-			count 3
+			count 9
 			entityDefName "FrigatePsiModuleConstructor"
 			entityDefName "FrigatePsiTradeShip"
 			entityDefName "FrigatePsiRefineryShip"
+			entityDefName "FrigatePsiAntiFighterFree"
+			entityDefName "FrigatePsiSiegeFree"
+			entityDefName "FrigatePsiUtility0Free"
+			entityDefName "FrigatePsiUtility1Free"
+			entityDefName "FrigatePsiAntiModuleFree"
+			entityDefName "FrigatePsiHeavyFree"
 	researchInfo
-		count 164
+		count 165
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSPSI"
 		entityDefName "RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERPSI0"
@@ -182,6 +188,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_REANIMATION"
 		entityDefName "RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED"
 		entityDefName "RESEARCHSUBJECT_DUMMYPSI1"
+		entityDefName "RESEARCHSUBJECT_DUMMYPSI2"
 		entityDefName "RESEARCHSUBJECT_ACCLIMATIZATION_OF_WILL"
 		entityDefName "RESEARCHSUBJECT_CLEANSE_AND_RENEW"
 		entityDefName "RESEARCHSUBJECT_CULTURERESIST"
@@ -235,8 +242,9 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
 	starBaseInfo
-		count 1
+		count 2
 		entityDefName "StarBasePsi"
+		entityDefName "StarBasePsiFree"
 	flagship "FrigatePsiFlagship"
 debrisData
 	numRandomMeshNamesLarge 10

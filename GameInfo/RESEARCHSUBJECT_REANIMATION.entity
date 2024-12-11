@@ -30,18 +30,18 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 5
 onlyWorksIfTierLabsExist TRUE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
 	modifierType "ChanceToTemporarilyCloneEnemyFrigateWhenKilled"
 	baseValue 0.000000
-	perLevelValue 0.166667
+	perLevelValue 0.333333
 researchModifier
 	modifierType "ChanceToTemporarilyCloneEnemyFrigateWhenKilledDuration"
 	baseValue 0.000000
-	perLevelValue 60.000000
+	perLevelValue 120.000000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

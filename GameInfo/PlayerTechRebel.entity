@@ -30,7 +30,7 @@ entities
 			entityDefName "PLANETMODULE_TECHORBITALFRIGATEFACTORY"
 			entityDefName "PLANETMODULE_TECHORBITALCAPITALSHIPFACTORY"
 			entityDefName "PLANETMODULE_TECHREBELORBITALTITANFACTORY"
-			entityDefName "PLANETMODULE_TECHORBITALCANNON"
+			entityDefName "PLANETMODULE_TECHORBITALCANNONREBEL"
 	titanInfo
 		Page:0
 			count 1
@@ -65,12 +65,18 @@ entities
 			entityDefName "FrigateTechUtility1"
 			entityDefName "FrigateTechCarrier"
 		NotOnPage
-			count 3
+			count 9
 			entityDefName "FrigateTechModuleConstructor"
 			entityDefName "FrigateTechTradeShip"
 			entityDefName "FrigateTechRefineryShip"
+			entityDefName "FrigateTechAntiFighterFree"
+			entityDefName "FrigateTechSiegeFree"
+			entityDefName "FrigateTechUtility0Free"
+			entityDefName "FrigateTechUtility1Free"
+			entityDefName "FrigateTechAntiModuleFree"
+			entityDefName "FrigateTechHeavyFree"
 	researchInfo
-		count 167
+		count 168
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSTECH"
 		entityDefName "RESEARCHSUBJECT_FACTIONBONUS_TECHREBEL"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
@@ -199,6 +205,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_KILL_COUNT"
 		entityDefName "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
 		entityDefName "RESEARCHSUBJECT_DUMMYTECH1"
+		entityDefName "RESEARCHSUBJECT_DUMMYTECH2"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_WORTHYCAUSE"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_ARBITRATETARIFF"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_SETTLERS"
@@ -239,8 +246,9 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH7"
 	starBaseInfo
-		count 1
+		count 2
 		entityDefName "StarBaseTech"
+		entityDefName "StarBaseTechFree"
 	flagship "FrigateTechFlagship"
 debrisData
 	numRandomMeshNamesLarge 8

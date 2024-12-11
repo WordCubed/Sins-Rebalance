@@ -70,7 +70,7 @@ entities
 			entityDefName "FrigateTechTradeShip"
 			entityDefName "FrigateTechRefineryShip"
 	researchInfo
-		count 168
+		count 169
 		entityDefName "RESEARCHSUBJECT_RACIALBONUSTECH"
 		entityDefName "RESEARCHSUBJECT_FACTIONBONUS_TECHLOYALIST"
 		entityDefName "RESEARCHSUBJECT_ANTIMATTERTECH0"
@@ -202,6 +202,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_CAPITALSHIP_MAXBUYLEVELTECH0"
 		entityDefName "RESEARCHSUBJECT_NOVALITH_DEREGULATION"
 		entityDefName "RESEARCHSUBJECT_DUMMYTECH0"
+		entityDefName "RESEARCHSUBJECT_DUMMYTECH2"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_WORTHYCAUSE"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_ARBITRATETARIFF"
 		entityDefName "RESEARCHSUBJECT_ABILITYACCESS_SETTLERS"
@@ -240,8 +241,9 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH7"
 	starBaseInfo
-		count 1
+		count 2
 		entityDefName "StarBaseTech"
+		entityDefName "StarBaseTechFree"
 	flagship "FrigateTechFlagship"
 debrisData
 	numRandomMeshNamesLarge 8

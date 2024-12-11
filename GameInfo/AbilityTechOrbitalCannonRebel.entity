@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffPsiOrbitalCannon"
+buffType "BuffTechOrbitalCannon"
 targetFilter
 	numOwnerships 3
 	ownership "Enemy"
@@ -17,7 +17,7 @@ targetFilter
 	constraint "IsExplored"
 effectInfo
 	effectAttachInfo
-		attachType "Center"
+		attachType "Invalid"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -42,17 +42,20 @@ antiMatterCost
 	Level:2 9000.000000
 	Level:3 9000.000000
 cooldownTime
-	Level:0 360.000000
-	Level:1 360.000000
-	Level:2 360.000000
-	Level:3 360.000000
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_PSIORBITALCANNON_NAME"
-descStringID "IDS_ABILITY_PSIORBITALCANNON_DESC"
-hudIcon "HUDICON_ABILITY_PSIORBITALCANNON"
-smallHudIcon "HUDICON_ABILITY_PSIORBITALCANNON"
+nameStringID "IDS_ABILITY_TECHORBITALCANNON_NAME"
+descStringID "IDS_ABILITY_TECHORBITALCANNONREBEL_DESC"
+hudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
+smallHudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
 infoCardIcon ""

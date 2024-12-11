@@ -1,5 +1,14 @@
 TXT
-NumStrings 8806
+NumStrings 8811
+StringInfo
+	ID "IDS_ABILITYCANNONMILITIAFREESHIPS_NAME"
+	Value "Temporary Force"
+StringInfo
+	ID "IDS_ABILITYCANNONMILITIAFREESHIPS_DESC"
+	Value "This ship only exists briefly and cannot Phase Jump."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_LIBERATED_RESISTANCE_DESCRIPTION"
+	Value "When your Superweapon fires upon an enemy planet, it inspires temporary rebel forces on that planet to rise up under your command. NOTE: REQUIRED FOR THE REBEL TEC TO USER THEIR SUPERWEAPON."
 StringInfo
 	ID "IDS_CANNONSHELLTECHMILITIA_NAME"
 	Value "Liberation Payload"
@@ -27,6 +36,9 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_PSIORBITALCANNONMILITIA_NAME"
 	Value "Activate Remote Resurection"
+StringInfo
+	ID "IDS_PLANETMODULE_TECHORBITALCANNONREBEL_DESC"
+	Value "A weapon that destroys an enemy planet's health, population, and economy for several minutes. It also disables enemy ship movement and inspires local rebels to rise up under your command at the target planet."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCANNON_DESC"
 	Value "A weapon that destroys an enemy planet's health, population, and economy for several minutes. Also disables enemy ship movement."
@@ -236,7 +248,7 @@ StringInfo
 	Value "Creates an offense-oriented nanite swarm which has a basic pulse beam weapon. Weapon damage, hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
 StringInfo
 	ID "IDS_ABILITY_PSIORBITALCANNON_DESC"
-	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage."
+	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage. Advent Rebels may also summon the ghosts of dead ships around the targeted planet."
 StringInfo
 	ID "IDS_ABILITY_PHASEOUTFIGHTERS_DESCRIPTION"
 	Value "Projects a phase inversion field around the hangar, which traps enemy strike craft in phase space, leaving them defenseless and unable to attack."
@@ -2262,6 +2274,9 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNON_DESC"
 	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 2 minutes."
+StringInfo
+	ID "IDS_ABILITY_TECHORBITALCANNONREBEL_DESC"
+	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 2 minutes. As the TEC Rebel faction, this will also inspire an uprising of friendly ships around the target planet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH_NAME"
 	Value "Superweapon Prototype"

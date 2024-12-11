@@ -1,19 +1,33 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeOldBuffs"
+onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 4
 allowFirstSpawnerToStack TRUE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 2
 instantAction
+	buffInstantActionType "DoDamageToPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	damage
+		Level:0 16000.000000
+		Level:1 16000.000000
+		Level:2 16000.000000
+		Level:3 16000.000000
+	populationKilled
+		Level:0 2000.000000
+		Level:1 2000.000000
+		Level:2 2000.000000
+		Level:3 2000.000000
+instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffCannonShellPsiApplyOnShips"
+	buffType "BuffCannonShellTechPopulationLossRebel"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -21,30 +35,11 @@ instantAction
 		mediumEffectName ""
 		largeEffectName ""
 		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToSelfWithFilter"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffCannonShellPsiApplyOnPlanet"
-	targetFilter
-		numOwnerships 1
-		ownership "Enemy"
-		numObjects 1
-		object "Planet"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
-entityModifier
-	buffEntityModifierType "CultureSpread"
-	value
-		Level:0 60.000000
-		Level:1 60.000000
-		Level:2 60.000000
-		Level:3 60.000000
-numEntityBoolModifiers 0
+numEntityModifiers 0
+numEntityBoolModifiers 1
+entityBoolModifier "CannotBeColonized"
 numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
