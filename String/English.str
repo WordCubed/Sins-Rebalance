@@ -1,5 +1,11 @@
 TXT
-NumStrings 8811
+NumStrings 8813
+StringInfo
+	ID "IDS_ABILITY_DEPLOYSTARBASEPSI_NAME"
+	Value "Deploy Starbase"
+StringInfo
+	ID "IDS_ABILITY_DEPLOYSTARBASEPSI_DESC"
+	Value "Begins deployment of an Advent Starbase at the cruiser's present location. The cruiser is consumed in the process."
 StringInfo
 	ID "IDS_ABILITYCANNONMILITIAFREESHIPS_NAME"
 	Value "Temporary Force"

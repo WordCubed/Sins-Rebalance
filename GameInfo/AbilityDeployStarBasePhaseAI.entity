@@ -51,8 +51,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_DEPLOYSTARBASEPHASE_NAME"
-descStringID "IDS_ABILITY_DEPLOYSTARBASEPHASE_DESC"
-hudIcon "HUDICON_ABILITY_DEPLOYSTARBASEPHASE"
-smallHudIcon "HUDICON_ABILITY_DEPLOYSTARBASEPHASE"
+nameStringID "IDS_DUMMY"
+descStringID "IDS_DUMMY"
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""
