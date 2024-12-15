@@ -29,7 +29,7 @@ PerLevelCostIncrease
 	metal 0.000000
 	crystal 0.000000
 Tier 7
-onlyWorksIfTierLabsExist FALSE
+onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0

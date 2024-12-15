@@ -26,10 +26,8 @@ needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 3
-levelSourceType "ResearchWithBase"
-baseSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH"
-improveSourceResearchSubject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
+maxNumLevels 1
+levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -50,14 +48,12 @@ cooldownTime
 	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_TECHORBITALCANNON_NAME"
 descStringID "IDS_ABILITY_TECHORBITALCANNON_DESC"
 hudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
 smallHudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
+infoCardIcon ""
 infoCardIcon ""

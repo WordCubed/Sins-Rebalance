@@ -26,8 +26,10 @@ needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 1
-levelSourceType "FixedLevel0"
+maxNumLevels 2
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONCIVPSIREBEL"
+improveSourceResearchSubject "RESEARCHSUBJECT_REANIMATION"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -50,12 +52,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_REANIMATION"
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONCIVPSIREBEL"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_PSIORBITALCANNON_NAME"
-descStringID "IDS_ABILITY_PSIORBITALCANNON_DESC"
+descStringID "IDS_ABILITY_PSIORBITALCANNONREBEL_DESC"
 hudIcon "HUDICON_ABILITY_PSIORBITALCANNON"
 smallHudIcon "HUDICON_ABILITY_PSIORBITALCANNON"
 infoCardIcon ""

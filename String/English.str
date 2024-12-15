@@ -1,5 +1,5 @@
 TXT
-NumStrings 8813
+NumStrings 8814
 StringInfo
 	ID "IDS_ABILITY_DEPLOYSTARBASEPSI_NAME"
 	Value "Deploy Starbase"
@@ -74,7 +74,7 @@ StringInfo
 	Value "The efforts of your scientists and engineers have culminated in this, the most valuable stolen technology imaginable: a working copy of the Vasari's Phase Gates. Enables you to build Phase Gates into your starbases."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_REANIMATION_DESCRIPTION"
-	Value "Allows the Unity to create a temporary clone of destroyed enemy frigates, cruisers, or corvettes where they were defeated. Additionally, enables the Cultural Superweapon to resurrect your own fallen ships around a targeted planet."
+	Value "Enables the Cultural Superweapon to temporarily resurrect your own dead ships around a targeted planet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_NAME"
 	Value "Ghosts of the Fallen"
@@ -253,8 +253,11 @@ StringInfo
 	ID "IDS_ABILITY_CREATECOMBATNANITES_DESCRIPTION"
 	Value "Creates an offense-oriented nanite swarm which has a basic pulse beam weapon. Weapon damage, hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
 StringInfo
+	ID "IDS_ABILITY_PSIORBITALCANNONREBEL_DESC"
+	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage. Advent Rebels can also summon the ghosts of dead ships around the targeted planet."
+StringInfo
 	ID "IDS_ABILITY_PSIORBITALCANNON_DESC"
-	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage. Advent Rebels may also summon the ghosts of dead ships around the targeted planet."
+	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage."
 StringInfo
 	ID "IDS_ABILITY_PHASEOUTFIGHTERS_DESCRIPTION"
 	Value "Projects a phase inversion field around the hangar, which traps enemy strike craft in phase space, leaving them defenseless and unable to attack."
@@ -2279,7 +2282,7 @@ StringInfo
 	Value "Fire Siege Superweapon"
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNON_DESC"
-	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 90 seconds. (After which, enemy ships are immune to further EMP bursts for 60 seconds.)
+	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 90 seconds. (After which, enemy ships are immune to further EMP bursts for 60 seconds.)"
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNONREBEL_DESC"
 	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 90 seconds. As the TEC Rebel faction, this will also inspire an uprising of friendly ships around the target planet."

@@ -3,12 +3,24 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 4
+stackingLimit 3
 allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 3
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellPsiMilitia"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"

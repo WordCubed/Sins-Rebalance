@@ -11,12 +11,16 @@ numInstantActions 1
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
 	instantActionTriggerType "OnDelay"
-	delayTime 7.000000
+	delayTime 2.000000
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
 		maxFleetPoints 200.000000
-		requiredShipCount 5
+		requiredShipCount 6
+		requiredShip
+			type "FrigateTechAntiFighterFree"
+			minCount 4
+			maxCount 4
 		requiredShip
 			type "FrigateTechSiegeFree"
 			minCount 4
@@ -27,8 +31,8 @@ instantAction
 			maxCount 4
 		requiredShip
 			type "FrigateTechUtility1Free"
-			minCount 6
-			maxCount 6
+			minCount 4
+			maxCount 4
 		requiredShip
 			type "FrigateTechAntiModuleFree"
 			minCount 4
@@ -47,6 +51,15 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
+finishCondition
+	finishConditionType "ResearchNotMet"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
