@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffTechOrbitalCannon"
+buffType "BuffTechOrbitalCannonRebel"
 targetFilter
 	numOwnerships 3
 	ownership "Enemy"
@@ -48,10 +48,7 @@ cooldownTime
 	Level:3 300.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_TECHORBITALCANNON_NAME"

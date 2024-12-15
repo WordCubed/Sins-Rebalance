@@ -23,7 +23,7 @@ instantAction
 instantAction
 	buffInstantActionType "MakeDead"
 	instantActionTriggerType "OnDelay"
-	delayTime 240.000000
+	delayTime 180.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

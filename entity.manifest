@@ -1,5 +1,5 @@
 TXT
-entityNameCount 2255
+entityNameCount 2257
 entityName "AbilityAbilityGuidance.entity"
 entityName "AbilityAdaptiveShield.entity"
 entityName "AbilityAntiHarmonics.entity"
@@ -419,12 +419,14 @@ entityName "BuffCannonShellPsiApplyOnPlanetRebel.entity"
 entityName "BuffCannonShellPsiApplyOnShips.entity"
 entityName "BuffCannonShellPsiApplyOnShipsRebel.entity"
 entityName "BuffCannonShellPsiMilitia.entity"
+entityName "BuffCannonShellPsiMiltia.entity"
 entityName "BuffCannonShellPsiOnShips.entity"
 entityName "BuffCannonShellPsiOnShipsAntiMatter.entity"
 entityName "BuffCannonShellPsiRebel.entity"
 entityName "BuffCannonShellTech.entity"
 entityName "BuffCannonShellTechEMP.entity"
 entityName "BuffCannonShellTechMilitia.entity"
+entityName "BuffCannonShellTechMilitiaCheck.entity"
 entityName "BuffCannonShellTechOnShips.entity"
 entityName "BuffCannonShellTechPopulationLoss.entity"
 entityName "BuffCannonShellTechPopulationLossRebel.entity"

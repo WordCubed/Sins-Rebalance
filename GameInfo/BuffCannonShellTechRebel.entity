@@ -1,14 +1,14 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeNewBuffs"
+onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 4
 allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 3
 instantAction
 	buffInstantActionType "DoDamageToPlanet"
 	instantActionTriggerType "OnDelay"
@@ -22,12 +22,24 @@ instantAction
 		Level:0 2000.000000
 		Level:1 2000.000000
 		Level:2 2000.000000
-		Level:3 2000.000000
+		Level:3 2000.0000001
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffCannonShellTechPopulationLossRebel"
+	buffType "BuffCannonShellTechMilitia"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellTechPopulationLoss"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

@@ -24,7 +24,7 @@ instantAction
 	buffInstantActionType "CreateCannonShell"
 	instantActionTriggerType "OnDelay"
 	delayTime 6.000000
-	cannonShellType "CannonShellTech"
+	cannonShellType "CannonShellTechRebel"
 	effectInfo
 		effectAttachInfo
 			attachType "Ability"

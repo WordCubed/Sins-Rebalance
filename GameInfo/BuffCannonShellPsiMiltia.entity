@@ -1,0 +1,108 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 3
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 3
+	spawnShips
+		minFleetPoints 0.000000
+		maxFleetPoints 0.000000
+		requiredShipCount 5
+		requiredShip
+			type "FrigatePsiSiegeFree"
+			minCount 0
+			maxCount 0
+		requiredShip
+			type "FrigatePsiUtility0Free"
+			minCount 0
+			maxCount 0
+		requiredShip
+			type "FrigatePsiUtility1Free"
+			minCount 0
+			maxCount 0
+		requiredShip
+			type "FrigatePsiAntiModuleFree"
+			minCount 0
+			maxCount 0
+		requiredShip
+			type "FrigatePsiHeavyFree"
+			minCount 0
+			maxCount 0
+		randomShipCount 0
+	spawnShips
+		minFleetPoints 84.000000
+		maxFleetPoints 84.000000
+		requiredShipCount 5
+		requiredShip
+			type "FrigatePsiSiegeFree"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiUtility0Free"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiUtility1Free"
+			minCount 3
+			maxCount 3
+		requiredShip
+			type "FrigatePsiAntiModuleFree"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "FrigatePsiHeavyFree"
+			minCount 2
+			maxCount 2
+		randomShipCount 0
+	spawnShips
+		minFleetPoints 168.000000
+		maxFleetPoints 168.000000
+		requiredShipCount 5
+		requiredShip
+			type "FrigatePsiSiegeFree"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiUtility0Free"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiUtility1Free"
+			minCount 6
+			maxCount 6
+		requiredShip
+			type "FrigatePsiAntiModuleFree"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiHeavyFree"
+			minCount 4
+			maxCount 4
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 3.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 0.000000
+		Level:1 120.000000
+		Level:2 240.000000
+		Level:3 240.000000

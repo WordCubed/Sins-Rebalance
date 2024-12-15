@@ -4,7 +4,7 @@ entityType "CannonShell"
 acceleration 300000.000000
 startingSpeed 300000.000000
 maxSpeed 3000000.000000
-buffToApplyOnImpact "BuffCannonShellTech"
+buffToApplyOnImpact "BuffCannonShellTechRebel"
 planetImpactEffectName "Ability_OrbitalCannonTechSurfaceImpact"
 planetImpactSounds
 	soundCount 1
