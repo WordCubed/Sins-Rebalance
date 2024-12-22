@@ -1,5 +1,11 @@
 TXT
-NumStrings 8814
+NumStrings 8816
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETBOMBING_DAMAGE_NAME"
+	Value "High-Yield Warheads"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETBOMBING_DAMAGE_DESCRIPTION"
+	Value "Greatly increases the damage done during planetary bombardment."
 StringInfo
 	ID "IDS_ABILITY_DEPLOYSTARBASEPSI_NAME"
 	Value "Deploy Starbase"
