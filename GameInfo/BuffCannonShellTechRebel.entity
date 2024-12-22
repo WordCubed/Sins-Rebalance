@@ -2,13 +2,13 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "ForAllPlayers"
+buffStackingLimitType "PerPlayer"
 stackingLimit 3
 allowFirstSpawnerToStack TRUE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 3
+numInstantActions 4
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
@@ -21,6 +21,18 @@ instantAction
 		mediumEffectName ""
 		largeEffectName ""
 		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellTechEMP"
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CannonShellTechEMP"
+		mediumEffectName "CannonShellTechEMP"
+		largeEffectName "CannonShellTechEMP"
+		soundID "EFFECT_EMPBLAST"
 instantAction
 	buffInstantActionType "DoDamageToPlanet"
 	instantActionTriggerType "OnDelay"
