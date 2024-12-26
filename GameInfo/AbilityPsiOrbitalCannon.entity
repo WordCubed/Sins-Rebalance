@@ -26,10 +26,8 @@ needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 3
-levelSourceType "ResearchWithBase"
-baseSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONCIVPHASEREBEL"
-improveSourceResearchSubject "RESEARCHSUBJECT_REANIMATION"
+maxNumLevels 1
+levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -50,10 +48,7 @@ cooldownTime
 	Level:3 360.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONCIVPHASEREBEL"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ABILITY_PSIORBITALCANNON_NAME"
