@@ -12,7 +12,7 @@ frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
 mainViewIcon "MAINVIEWICON_FRIGATE_TECHHEAVY"
 picture "PICTURE_FRIGATE_TECHHEAVY"
-NameStringID "IDS_FRIGATE_TECHHEAVY_NAME"
+NameStringID "IDS_FRIGATE_FREE_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHHEAVY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
 basePrice

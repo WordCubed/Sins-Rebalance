@@ -1,5 +1,8 @@
 TXT
-NumStrings 8816
+NumStrings 8817
+StringInfo
+	ID "IDS_FRIGATE_FREE_NAME"
+	Value "Temporary Rebel Ship"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETBOMBING_DAMAGE_NAME"
 	Value "High-Yield Warheads"
@@ -383,7 +386,7 @@ StringInfo
 	Value "The Unity's followers gain the ability to harness energy from the gravity wells of newly conquered planets. Temporarily boosts antimatter regen rates and weapon damage."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ASSIMILATED_POPULACE_DESCRIPTION"
-	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting a newly-colonized planet's tax income by 10%. Vital for overcoming the Advent's otherwise weak economy."
+	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting a newly-colonized planet's tax income by 20%. Vital for overcoming the Advent's otherwise weak economy."
 StringInfo
 	ID "IDS_FRIGATE_TECHMODULECONSTRUCTOR_NAME"
 	Value "Constructor Ship"
