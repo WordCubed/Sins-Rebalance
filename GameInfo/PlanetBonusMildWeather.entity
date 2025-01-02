@@ -5,7 +5,7 @@ minUpgradeLevelNeeded 1
 maxUpgradeLevelNeeded 1
 nameStringID "IDS_PLANETBONUS_MILDWEATHER_NAME"
 descStringID "IDS_PLANETBONUS_MILDWEATHER_DESC"
-floatBonus:AdditiveCultureSpreadPerc 0.075000
+floatBonus:AdditiveCultureSpreadPerc 0.050000
 floatBonus:AdditivePopulation 24.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000

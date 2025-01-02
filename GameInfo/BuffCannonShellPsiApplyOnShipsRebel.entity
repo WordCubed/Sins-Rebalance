@@ -8,19 +8,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 4
-instantAction
-	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffCannonShellPsiMilitia"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
+numInstantActions 3
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"

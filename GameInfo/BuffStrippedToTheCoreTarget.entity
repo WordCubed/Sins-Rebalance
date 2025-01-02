@@ -1,19 +1,18 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
-allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "RemoveBuffOfType"
+	buffInstantActionType "MakeDead"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffTypeToRemove "BuffSolitaryPathEffect"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
