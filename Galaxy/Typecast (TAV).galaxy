@@ -3,10 +3,10 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UserGenerated"
-browseName "Fitted Environments"
-browseDescription "Six stars, each fitting a different race. You may have time to build your empire in peace, but war will come—eventually."
+browseName "Typecast (TEC-Advent-Vasari)"
+browseDescription "Six stars, each fitting a different race. You may have time to build your empire in peace, but war will come—eventually. This version of the map places the players in starting positions favoring, in order: TEC, Advent, then Vasari. (This pattern is repeat"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -26,10 +26,10 @@ recommendedGameType "FFA"
 recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "ThreeTeamsOfTwo"
 metersPerGalaxyUnit 250000.000000
-pixelsPerGalaxyUnit 1.000000
+pixelsPerGalaxyUnit 1.840000
 useRandomGenerator FALSE
-galaxyWidth 1536.000000
-galaxyHeight 873.000000
+galaxyWidth 1707.000000
+galaxyHeight 980.000000
 nextStarNameUniqueId 8
 nextPlanetNameUniqueId 84
 triggerCount 0
@@ -294,7 +294,7 @@ star
 		inGameName ""
 		type "VolcanicHome"
 		pos [ 100 , 65 ]
-		owner "NewPlayer0"
+		owner "NewPlayer2"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -540,7 +540,7 @@ star
 		inGameName ""
 		type "VolcanicHome"
 		pos [ 100 , 465 ]
-		owner "NewPlayer3"
+		owner "NewPlayer5"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1531,7 +1531,7 @@ star
 		inGameName ""
 		type "DesertHome"
 		pos [ 528 , 472 ]
-		owner "NewPlayer4"
+		owner "NewPlayer3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -1977,7 +1977,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 935 , 87 ]
-		owner "NewPlayer2"
+		owner "NewPlayer0"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -2667,7 +2667,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 940 , 500 ]
-		owner "NewPlayer5"
+		owner "NewPlayer3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
