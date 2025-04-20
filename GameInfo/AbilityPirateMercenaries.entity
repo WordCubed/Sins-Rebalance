@@ -1,0 +1,84 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 0.000000
+	maxFleetPoints 0.000000
+	requiredShipCount 5
+	requiredShip
+		type "CAPITALSHIP_PIRATETEMP"
+		minCount 1
+		maxCount 1
+	requiredShip
+		type "FrigatePirateHeavyTemp"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigatePirateMediumTemp"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigatePirateLightTemp"
+		minCount 8
+		maxCount 8
+	requiredShip
+		type "FrigatePirateSiegeTemp"
+		minCount 6
+		maxCount 6
+	randomShipCount 0
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "PirateRaid"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_PIRATE_MERCENARIES"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 40000.000000
+	Level:1 40000.000000
+	Level:2 40000.000000
+	Level:3 40000.000000
+metalCost
+	Level:0 8000.000000
+	Level:1 8000.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
+crystalCost
+	Level:0 4000.000000
+	Level:1 4000.000000
+	Level:2 4000.000000
+	Level:3 4000.000000
+cooldownTime
+	Level:0 1200.000000
+	Level:1 1200.000000
+	Level:2 1200.000000
+	Level:3 1200.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_PIRATE_MERCENARIES"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_PIRATEMERCENARIES_NAME"
+descStringID "IDS_ABILTIY_PIRATEMERCENARIES_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_PIRATEMERCENARIES"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PIRATEMERCENARIES"
+infoCardIcon ""

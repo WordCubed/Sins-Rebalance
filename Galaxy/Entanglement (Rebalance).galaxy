@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-Entanglement"
 browseName "Entanglement (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_ENTANGLEMENT"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.600000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4

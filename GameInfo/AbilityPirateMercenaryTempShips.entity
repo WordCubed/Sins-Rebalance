@@ -3,10 +3,10 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffCannonMilitiaFreeShips"
+buffType "BuffPirateMercenaryTempShips"
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
+		attachType "Center"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
@@ -32,17 +32,17 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 180.000000
-	Level:1 180.000000
-	Level:2 180.000000
-	Level:3 180.000000
+	Level:0 480.000000
+	Level:1 480.000000
+	Level:2 480.000000
+	Level:3 480.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITYCANNONMILITIAFREESHIPS_NAME"
-descStringID "IDS_ABILITYCANNONMILITIAFREESHIPS_DESC"
-hudIcon "HUDICON_RESEARCHSUBJECT_LIBERATEDRESISTANCE"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_LIBERATEDRESISTANCE"
+nameStringID "IDS_ABILITYPIRATEMERCENARYTEMPSHIPS_NAME"
+descStringID "IDS_ABILITYPIRATEMERCENARYTEMPSHIPS_DESC"
+hudIcon "HUDICON_RESEARCHSUBJECT_PIRATEMERCENARIES"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PIRATEMERCENARIES"
 infoCardIcon ""

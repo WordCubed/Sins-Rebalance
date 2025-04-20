@@ -143,8 +143,8 @@ EngineSoundID "ENGINE_PSICAPITALSHIP"
 ability:0 "AbilityShieldProjection"
 ability:1 "AbilityDisableImmune"
 ability:2 ""
-ability:3 ""
-ability:4 "AbilityCannonMilitiaFreeShips"
+ability:3 "AbilityCannonMilitiaFreeShips"
+ability:4 ""
 MaxAntiMatter 240.000000
 AntiMatterRestoreRate 4.000000
 cargoType "Invalid"

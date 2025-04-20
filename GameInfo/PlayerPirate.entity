@@ -34,16 +34,21 @@ entities
 			count 0
 	capitalShipInfo
 		Page:0
-			count 1
+			count 2
 			entityDefName "CAPITALSHIP_PIRATE"
+			entityDefName "CAPITALSHIP_PIRATETEMP"
 	frigateInfo
 		Page:0
-			count 5
+			count 9
 			entityDefName "FrigatePirateLight"
 			entityDefName "FrigatePirateMedium"
 			entityDefName "FrigatePirateHeavy"
 			entityDefName "FrigatePirateSiege"
 			entityDefName "FrigatePirateAntiFighter"
+			entityDefName "FrigatePirateLightTemp"
+			entityDefName "FrigatePirateMediumTemp"
+			entityDefName "FrigatePirateHeavyTemp"
+			entityDefName "FrigatePirateSiegeTemp"
 		Page:1
 			count 0
 		NotOnPage

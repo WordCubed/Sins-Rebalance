@@ -10,40 +10,37 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "MAINVIEWICON_FRIGATE_TECHHEAVY"
-picture "PICTURE_FRIGATE_TECHHEAVY"
-NameStringID "IDS_FRIGATE_FREE_NAME"
+mainViewIcon "MAINVIEWICON_FRIGATE_PIRATEHEAVY"
+picture "PICTURE_FRIGATE_PIRATEHEAVY"
+NameStringID "IDS_FRIGATE_PIRATEHEAVY_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHHEAVY_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
 basePrice
-	credits 00.000000
+	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 6.000000
+BuildTime 1.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 200.000000
-MaxHullPoints 5000.000000
-MaxShieldPoints 2500.000000
-HullPointRestoreRate 10.416667
-ShieldPointRestoreRate 10.416667
+MaxHullPoints 7500.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 15.625000
+ShieldPointRestoreRate 0.000000
 BaseArmorPoints 15.000000
 maxMitigation 0.600000
 relationshipChangeRate 0.000000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_FRIGATEACCESS_HEAVYTECH"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 1
-numRandomDebrisSmall 10
+numRandomDebrisSmall 9
 numSpecificDebris 0
-armorType "VeryHeavy"
-hudIcon "HUDICON_FRIGATE_TECHHEAVY"
-smallHudIcon "HUDICONSMALL_FRIGATE_TECHHEAVY"
-infoCardIcon "INFOCARDICON_FRIGATE_TECHHEAVY"
+armorType "Pirate"
+hudIcon "HUDICON_FRIGATE_PIRATEHEAVY"
+smallHudIcon "HUDICONSMALL_FRIGATE_PIRATEHEAVY"
+infoCardIcon "INFOCARDICON_FRIGATE_PIRATEHEAVY"
 minZoomDistanceMult 3.500000
 NumWeapons 1
 Weapon
@@ -94,7 +91,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Shield_FrigateTechHeavy"
+ShieldMeshName ""
 renderShield TRUE
 maxAccelerationLinear 125.000000
 maxAccelerationStrafe 10.000000
@@ -115,36 +112,34 @@ squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 maxNumCommandPoints 0
 NumSoundsFor:ONATTACKORDERISSUED 4
-SoundID "FRIGATE_TECHHEAVY_ONATTACKORDERISSUED_0"
-SoundID "FRIGATE_TECHHEAVY_ONATTACKORDERISSUED_1"
-SoundID "FRIGATE_TECHHEAVY_ONATTACKORDERISSUED_2"
-SoundID "FRIGATE_TECHHEAVY_ONATTACKORDERISSUED_3"
-NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHHEAVY_ONCREATION"
-NumSoundsFor:ONGENERALORDERISSUED 4
-SoundID "FRIGATE_TECHHEAVY_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHHEAVY_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHHEAVY_ONGENERALORDERISSUED_2"
-SoundID "FRIGATE_TECHHEAVY_ONGENERALORDERISSUED_3"
+SoundID "PIRATE_ONATTACKORDERISSUED_0"
+SoundID "PIRATE_ONATTACKORDERISSUED_1"
+SoundID "PIRATE_ONATTACKORDERISSUED_2"
+SoundID "PIRATE_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "PIRATE_ONGENERALORDERISSUED_0"
+SoundID "PIRATE_ONGENERALORDERISSUED_1"
+SoundID "PIRATE_ONGENERALORDERISSUED_2"
 NumSoundsFor:ONSELECTED 3
-SoundID "FRIGATE_TECHHEAVY_ONSELECTED_0"
-SoundID "FRIGATE_TECHHEAVY_ONSELECTED_1"
-SoundID "FRIGATE_TECHHEAVY_ONSELECTED_2"
+SoundID "PIRATE_ONSELECTED_0"
+SoundID "PIRATE_ONSELECTED_1"
+SoundID "PIRATE_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHHEAVY_ONSTARTPHASEJUMP_0"
+SoundID "PIRATE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Frigate_TechHeavy"
+	meshName "Frigate_PirateHeavy"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_FrigateTechHeavy"
 ExplosionName "Frigate0"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 "AbilitySprint"
+ability:0 "AbilitySprintPirate"
 ability:1 ""
 ability:2 ""
-ability:3 "AbilityCannonMilitiaFreeShips"
+ability:3 "AbilityPirateMercenaryTempShips"
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

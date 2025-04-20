@@ -3,53 +3,50 @@ SinsArchiveVersion 194
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
-prefersToFocusFire FALSE
+prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
-frigateRoleType "Support"
-statCountType "FrigateUtility0"
-mainViewIcon "MAINVIEWICON_FRIGATE_TECHUTILITY0"
-picture "PICTURE_FRIGATE_TECHUTILITY0"
-NameStringID "IDS_FRIGATE_FREE_NAME"
-DescriptionStringID "IDS_FRIGATE_TECHUTILITY0_DESCRIPTION"
-counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+frigateRoleType "Raider"
+statCountType "FrigateHeavy"
+mainViewIcon "MAINVIEWICON_FRIGATE_PIRATEMEDIUM"
+picture "PICTURE_FRIGATE_PIRATEMEDIUM"
+NameStringID "IDS_FRIGATE_PIRATEMEDIUM_NAME"
+DescriptionStringID "IDS_FRIGATE_PIRATEMEDIUM_DESCRIPTION"
+counterDescriptionStringID "IDS_FRIGATE_PIRATEMEDIUM_COUNTERDESC"
 basePrice
-	credits 00.000000
+	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 6.000000
+BuildTime 1.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 160.000000
-MaxHullPoints 4000.000000
-MaxShieldPoints 2000.000000
-HullPointRestoreRate 8.333333
-ShieldPointRestoreRate 8.333333
+MaxHullPoints 6000.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 12.500000
+ShieldPointRestoreRate 0.000000
 BaseArmorPoints 15.000000
 maxMitigation 0.600000
 relationshipChangeRate 0.000000
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_FRIGATEACCESS_UTILITY0TECH"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-numRandomDebrisLarge 1
-numRandomDebrisSmall 6
+numRandomDebrisLarge 0
+numRandomDebrisSmall 8
 numSpecificDebris 0
-armorType "Heavy"
-hudIcon "HUDICON_FRIGATE_TECHUTILITY0"
-smallHudIcon "HUDICONSMALL_FRIGATE_TECHUTILITY0"
-infoCardIcon "INFOCARDICON_FRIGATE_TECHUTILITY0"
-minZoomDistanceMult 2.500000
+armorType "Pirate"
+hudIcon "HUDICON_FRIGATE_PIRATEMEDIUM"
+smallHudIcon "HUDICONSMALL_FRIGATE_PIRATEMEDIUM"
+infoCardIcon "INFOCARDICON_FRIGATE_PIRATEMEDIUM"
+minZoomDistanceMult 5.000000
 NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -61,31 +58,31 @@ Weapon
 	Range 5000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.300000
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.150000
 	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.400000
+		burstCount 3
+		burstDelay 0.500000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalLaserMedium_Muzzle"
+		muzzleEffectName "Weapon_Tech_FrigateLaser_Muzzle"
 		muzzleSoundMinRespawnTime 0.300000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
 			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
 			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_TechCapitalLaserMedium_Hit"
+		hitEffectName "Weapon_Tech_FrigateLaser_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_TechCapitalLaserMedium_Travel"
+		projectileTravelEffectName "Weapon_Tech_FrigateLaser_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -95,14 +92,14 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Shield_FrigateTechUtility0"
+ShieldMeshName ""
 renderShield TRUE
-maxAccelerationLinear 100.000000
+maxAccelerationLinear 160.000000
 maxAccelerationStrafe 10.000000
 maxDecelerationLinear 500.000000
 maxAccelerationAngular 4.000000
 maxDecelerationAngular 10.000000
-maxSpeedLinear 500.000000
+maxSpeedLinear 700.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000
 useCustomHyperspaceEffects FALSE
@@ -115,41 +112,41 @@ squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 maxNumCommandPoints 0
-NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "FRIGATE_TECHCOMMAND_ONATTACKORDERISSUED_0"
-SoundID "FRIGATE_TECHCOMMAND_ONATTACKORDERISSUED_1"
-SoundID "FRIGATE_TECHCOMMAND_ONATTACKORDERISSUED_2"
-NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHCOMMAND_ONCREATION"
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "PIRATE_ONATTACKORDERISSUED_0"
+SoundID "PIRATE_ONATTACKORDERISSUED_1"
+SoundID "PIRATE_ONATTACKORDERISSUED_2"
+SoundID "PIRATE_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "FRIGATE_TECHCOMMAND_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHCOMMAND_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHCOMMAND_ONGENERALORDERISSUED_2"
+SoundID "PIRATE_ONGENERALORDERISSUED_0"
+SoundID "PIRATE_ONGENERALORDERISSUED_1"
+SoundID "PIRATE_ONGENERALORDERISSUED_2"
 NumSoundsFor:ONSELECTED 3
-SoundID "FRIGATE_TECHCOMMAND_ONSELECTED_0"
-SoundID "FRIGATE_TECHCOMMAND_ONSELECTED_1"
-SoundID "FRIGATE_TECHCOMMAND_ONSELECTED_2"
+SoundID "PIRATE_ONSELECTED_0"
+SoundID "PIRATE_ONSELECTED_1"
+SoundID "PIRATE_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHCOMMAND_ONSTARTPHASEJUMP_0"
+SoundID "PIRATE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Frigate_TechUtility0"
+	meshName "Frigate_PirateMedium"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_FrigateTechUtility0"
+ExhaustParticleSystemName "Exhaust_FrigateTechLongRange"
 ExplosionName "Frigate0"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-ability:0 "AbilityBoostMorale"
-ability:1 "AbilityDesignateTarget"
+ability:0 "AbilityStealResources"
+ability:1 "AbilityPirateEmbargo"
 ability:2 ""
-ability:3 "AbilityCannonMilitiaFreeShips"
+ability:3 "AbilityPirateMercenaryTempShips"
 ability:4 ""
-MaxAntiMatter 90.000000
-AntiMatterRestoreRate 1.500000
+MaxAntiMatter 120.000000
+AntiMatterRestoreRate 2.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 1
-minShadow 0.300000
-maxShadow 1.000000
+minShadow 0.000000
+maxShadow 0.600000
 allegianceDecreasePerRoundtrip 0.000000

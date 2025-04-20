@@ -1340,7 +1340,7 @@ player
 	designName "Player0"
 	inGameName "Player0"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 0
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1353,7 +1353,7 @@ player
 	designName "Player1"
 	inGameName "Player1"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 0
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1366,7 +1366,7 @@ player
 	designName "Player2"
 	inGameName "Player2"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 0
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1379,7 +1379,7 @@ player
 	designName "Player3"
 	inGameName "Player3"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1392,7 +1392,7 @@ player
 	designName "Player4"
 	inGameName "Player4"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1405,7 +1405,7 @@ player
 	designName "Player5"
 	inGameName "Player5"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600

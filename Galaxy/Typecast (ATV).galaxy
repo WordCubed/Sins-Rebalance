@@ -4,7 +4,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UserGenerated"
 browseName "Typecast (Advent-TEC-Vasari)"
-browseDescription "Six stars, each fitting a different race. You may have time to build your empire in peace, but war will come—eventually. This version of the map places the players in starting positions favoring, in order: Advent, TEC, then Vasari. (This pattern is repeat"
+browseDescription "These 6 stars are each tailored for a specific race. Act quickly to solidify your grasp over your home system before war comes. This map slots players into positions favoring, in order: Advent, TEC, then Vasari. (This pattern is repeated for the next 3.)"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
 planetArtifactDensity 0.600000

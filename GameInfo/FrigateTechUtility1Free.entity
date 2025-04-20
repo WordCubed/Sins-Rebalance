@@ -146,8 +146,8 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityRepairDroids"
 ability:1 "AbilitySabotageEngines"
 ability:2 ""
-ability:3 ""
-ability:4 "AbilityCannonMilitiaFreeShips"
+ability:3 "AbilityCannonMilitiaFreeShips"
+ability:4 ""
 MaxAntiMatter 90.000000
 AntiMatterRestoreRate 1.500000
 cargoType "Invalid"

@@ -4,7 +4,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UserGenerated"
 browseName "Typecast (Random)"
-browseDescription "Six stars, each fitting a different race. You may have time to build your empire in peace, but war will come—eventually. This version of the map starts all players in a random solar system."
+browseDescription "These 6 stars are each tailored for a specific race. Act quickly to solidify your grasp over your home system before war comes. This map slots players into positions randomly."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.600000

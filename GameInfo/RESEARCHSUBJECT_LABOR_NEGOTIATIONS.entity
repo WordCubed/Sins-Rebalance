@@ -41,7 +41,7 @@ researchModifier
 researchModifier
 	modifierType "ModuleBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 0.150000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

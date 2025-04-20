@@ -1,5 +1,23 @@
 TXT
-NumStrings 8817
+NumStrings 8823
+StringInfo
+	ID "IDS_ABILITYPIRATEMERCENARYTEMPSHIPS_NAME"
+	Value "Temporary Pirate Ship"
+StringInfo
+	ID "IDS_ABILITYPIRATEMERCENARYTEMPSHIPS_DESC"
+	Value "This ship disappears after 8 minutes."
+StringInfo
+	ID "IDS_PIRATE_TEMP_NAME"
+	Value "Temporary Pirate Ship"
+StringInfo
+	ID "IDS_PIRATE_TEMP_DESC"
+	Value "You rented this pirate for 8 minutes. They'll disappear after that."
+StringInfo
+	ID "IDS_ABILITY_PIRATEMERCENARIES_NAME"
+	Value "Pirate Mercenary"
+StringInfo
+	ID "IDS_ABILTIY_PIRATEMERCENARIES_DESCRIPTION"
+	Value "Rent some pirates! They'll disappear after several minutes, but in the mean time, they don't use up any ship slots."
 StringInfo
 	ID "IDS_FRIGATE_FREE_NAME"
 	Value "Temporary Rebel Ship"
@@ -353,7 +371,7 @@ StringInfo
 	Value "Military Lab"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PIRATE_MERCENARIES_DESCRIPTION"
-	Value "The Pirates throw their lot in with the rebellion, allowing you to purchase military aid through the Culture Center."
+	Value "Pirates throw their lot in with the rebellion, enabling you to purchase military aid through the Culture Center. Pirates being pirates, they will not fight for you for long, and the ships you gain from them disappear after several minutes—but they don't use any ship slots in the mean time."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCULTURECENTER_NAME"
 	Value "Culture Center"

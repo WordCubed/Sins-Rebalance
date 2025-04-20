@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-Maelstrom"
-browseName "Maelstrom (Rebalance)"
+browseName "Maelstrom Plus"
 browseDescription "Race to establish your empire's presence in one of the many arcs of the Matar system. All paths lead to Matar... or do they? This is a slightly larger version of the regular Maelstrom map."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
@@ -44,7 +44,7 @@ star
 	planet
 		designName "Planet3"
 		inGameName ""
-		type "Oceanic"
+		type "Desert"
 		pos [ 50 , 100 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1580,7 +1580,7 @@ player
 	designName "Player0"
 	inGameName "Player0"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 0
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1593,7 +1593,7 @@ player
 	designName "Player1"
 	inGameName "Player1"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 0
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1606,7 +1606,7 @@ player
 	designName "Player2"
 	inGameName "Player2"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 0
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1619,7 +1619,7 @@ player
 	designName "Player3"
 	inGameName "Player3"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1632,7 +1632,7 @@ player
 	designName "Player4"
 	inGameName "Player4"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
@@ -1645,7 +1645,7 @@ player
 	designName "Player5"
 	inGameName "Player5"
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 16000
 	startingMetal 3900
 	startingCrystal 2600
