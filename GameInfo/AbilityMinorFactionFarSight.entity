@@ -5,9 +5,10 @@ buffInstantActionType "ApplyBuffToTargetNoRange"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffMinorFactionFarSight"
 targetFilter
-	numOwnerships 3
+	numOwnerships 4
 	ownership "Friendly"
 	ownership "Enemy"
+	ownership "UncontrolledMinorFaction"
 	ownership "NoOwner"
 	numObjects 1
 	object "Planet"

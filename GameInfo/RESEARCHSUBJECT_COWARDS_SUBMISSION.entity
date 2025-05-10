@@ -30,14 +30,10 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 7
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
-researchModifier
-	modifierType "ChanceToConvertFrigatesHyperspacingFromPlanet"
-	baseValue 0.000000
-	perLevelValue 0.125000
+researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

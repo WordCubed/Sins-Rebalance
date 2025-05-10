@@ -5,13 +5,20 @@ buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffPurificationSelf"
 targetFilter
-	numOwnerships 1
-	ownership "Player"
-	numObjects 1
+	numOwnerships 2
+	ownership "Enemy"
+	ownership "NoOwner"
+	numObjects 2
 	object "Frigate"
+	object "PlanetModule"
 	numSpaces 1
 	space "Normal"
-	numConstraints 0
+	numConstraints 5
+	constraint "HasWeapons"
+	constraint "CanHaveShields"
+	constraint "HasAntiMatterPool"
+	constraint "NotInvulnerable"
+	constraint "NotFlagship"
 range
 	Level:0 5000.000000
 	Level:1 7500.000000
@@ -35,9 +42,9 @@ sourcePropertyType "AbilityBLevel"
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
-	Level:0 3333.000000
-	Level:1 6667.000000
-	Level:2 10000.000000
+	Level:0 4000.000000
+	Level:1 6000.000000
+	Level:2 8000.000000
 	Level:3 0.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

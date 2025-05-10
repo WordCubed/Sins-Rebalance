@@ -318,8 +318,9 @@ skyboxScalars
 skyboxScalars
 	diffuseScalar 1.000000
 	ambientScalar 1.000000
-requiredPlanetBonusesCount 1
+requiredPlanetBonusesCount 2
 bonus "PlanetBonusPlanetoid"
+bonus "PlanetBonusOldBattlefield"
 possibleRandomPlanetBonusesCount 6
 bonus "PlanetBonusAncientTradeRoutes"
 bonus "PlanetBonusDepletedMines"

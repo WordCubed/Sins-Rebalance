@@ -5,46 +5,23 @@ onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusiveForAllPlayers"
+buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 3
+numInstantActions 1
 instantAction
-	buffInstantActionType "PlayAttachedEffect"
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Center"
-		smallEffectName "Ability_WailoftheSacrificed_Target"
-		mediumEffectName "Ability_WailoftheSacrificed_Target"
-		largeEffectName "Ability_WailoftheSacrificed_Target"
-		soundID "EFFECT_WAILOFTHESACRIFICED"
-instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtAdjacentOrbitBodies"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffWailOfTheSacrificedTarget"
+	buffType "BuffWailOfTheSacrificedPlanet"
 	targetFilter
-		numOwnerships 2
-		ownership "Enemy"
-		ownership "NoOwner"
-		numObjects 7
-		object "Fighter"
-		object "Corvette"
-		object "Frigate"
-		object "CapitalShip"
-		object "Titan"
-		object "PlanetModule"
-		object "StarBase"
+		numOwnerships 1
+		ownership "Player"
+		numObjects 1
+		object "Planet"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -52,10 +29,6 @@ instantAction
 		mediumEffectName ""
 		largeEffectName ""
 		soundID ""
-instantAction
-	buffInstantActionType "MakeDead"
-	instantActionTriggerType "OnDelay"
-	delayTime 1.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

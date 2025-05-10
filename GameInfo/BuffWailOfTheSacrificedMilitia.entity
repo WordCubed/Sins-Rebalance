@@ -1,0 +1,62 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "PerPlayer"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 0.000000
+		maxFleetPoints 300.000000
+		requiredShipCount 5
+		requiredShip
+			type "FrigatePsiAntiFighterFree"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiUtility0Free"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiUtility1Free"
+			minCount 8
+			maxCount 8
+		requiredShip
+			type "FrigatePsiAntiModuleFree"
+			minCount 4
+			maxCount 4
+		requiredShip
+			type "FrigatePsiHeavyFree"
+			minCount 8
+			maxCount 8
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 1.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "ResearchNotMet"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

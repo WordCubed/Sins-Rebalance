@@ -8,7 +8,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 3
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnCondition"
@@ -24,26 +24,55 @@ instantAction
 		largeEffectName ""
 		soundID ""
 instantAction
-	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffGravityPulseTarget"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 3
+		numObjects 6
+		object "Fighter"
+		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
 		object "Titan"
+		object "StarBase"
 		numSpaces 1
 		space "Normal"
 		numConstraints 1
 		constraint "NotSelf"
-	range
-		Level:0 12500.000000
-		Level:1 12500.000000
-		Level:2 12500.000000
-		Level:3 0.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "TitanAbility_GravityPulse"
+		mediumEffectName "TitanAbility_GravityPulse"
+		largeEffectName "TitanAbility_GravityPulse"
+		soundID "EFFECT_GRAVITYPULSE"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffGravityPulseTargetSped"
+	targetFilter
+		numOwnerships 2
+		ownership "Friendly"
+		ownership "Player"
+		numObjects 6
+		object "Fighter"
+		object "Corvette"
+		object "Frigate"
+		object "CapitalShip"
+		object "Titan"
+		object "StarBase"
+		numSpaces 0
+		numConstraints 0
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000

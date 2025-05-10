@@ -34,8 +34,8 @@ MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 1
 researchModifier
-	modifierType "ApplyBuffToAllOwnedShipsWhenOwnedPlanetFalls"
-	buffToApply "BuffPlanetForAPlanet"
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffEnduringSpiritSelf"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

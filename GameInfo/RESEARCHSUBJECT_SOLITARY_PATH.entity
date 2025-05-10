@@ -8,22 +8,22 @@ NameStringID "IDS_RESEARCHSUBJECT_SOLITARY_PATH_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_SOLITARY_PATH_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 7 , 2 ]
+	pos [ 4 , 2 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_CAPITALSHIP_CULTUREPROTECTION"
+		Subject "RESEARCHSUBJECT_CULTURERATEPHASE0"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 120.000000
+BaseUpgradeTime 40.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
-	credits 2400.000000
-	metal 300.000000
-	crystal 600.000000
+	credits 800.000000
+	metal 100.000000
+	crystal 200.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000

@@ -30,9 +30,12 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 7
 onlyWorksIfTierLabsExist TRUE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 0
+researchBoolModifiers 1
+researchModifier
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffWailOfTheSacrificedSelf"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

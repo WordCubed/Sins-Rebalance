@@ -13,22 +13,22 @@ numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 0.500000
-		Level:1 0.500000
-		Level:2 0.500000
-		Level:3 0.500000
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
 	buffInstantActionType "ApplyBuffToTargetsInRadius"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffStrengthOfTheFallenTarget"
 	targetFilter
-		numOwnerships 1
-		ownership "Friendly"
-		numObjects 5
+		numOwnerships 0
+		numObjects 6
+		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
+		object "Titan"
 		object "StarBase"
 		object "PlanetModule"
-		object "Titan"
 		numSpaces 1
 		space "Normal"
 		numConstraints 1

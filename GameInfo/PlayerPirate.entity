@@ -34,23 +34,26 @@ entities
 			count 0
 	capitalShipInfo
 		Page:0
-			count 2
+			count 3
 			entityDefName "CAPITALSHIP_PIRATE"
 			entityDefName "CAPITALSHIP_PIRATETEMP"
+			entityDefName "CAPITALSHIP_PSIBATTLESHIPFREE"
 	frigateInfo
 		Page:0
-			count 9
+			count 7
+			entityDefName "CorvettePsiRebelFree"
+			entityDefName "FrigatePsiLongRangeFree"
 			entityDefName "FrigatePirateLight"
-			entityDefName "FrigatePirateMedium"
-			entityDefName "FrigatePirateHeavy"
-			entityDefName "FrigatePirateSiege"
-			entityDefName "FrigatePirateAntiFighter"
 			entityDefName "FrigatePirateLightTemp"
-			entityDefName "FrigatePirateMediumTemp"
-			entityDefName "FrigatePirateHeavyTemp"
+			entityDefName "FrigatePirateSiege"
 			entityDefName "FrigatePirateSiegeTemp"
+			entityDefName "FrigatePirateAntiFighter"
 		Page:1
-			count 0
+			count 4
+			entityDefName "FrigatePirateMedium"
+			entityDefName "FrigatePirateMediumTemp"
+			entityDefName "FrigatePirateHeavy"
+			entityDefName "FrigatePirateHeavyTemp"
 		NotOnPage
 			count 0
 	researchInfo

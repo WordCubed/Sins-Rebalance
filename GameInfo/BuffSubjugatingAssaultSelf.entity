@@ -8,7 +8,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "NotExclusive"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 3
+numInstantActions 5
 instantAction
 	buffInstantActionType "PlayPersistantAttachedEffect"
 	instantActionTriggerType "OnDelay"
@@ -29,17 +29,64 @@ instantAction
 	weaponClassForWeaponPassive "PLASMA"
 	weaponClassForWeaponPassive "SPIRITBLADE"
 	passiveWeaponEffectChance
-		Level:0 0.055556
-		Level:1 0.111111
-		Level:2 0.166667
+		Level:0 0.080000
+		Level:1 0.120000
+		Level:2 0.160000
 		Level:3 0.000000
-	buffType "BuffSubjugatingAssaultSelfTarget"
+	buffType "BuffSubjugatingAssaultSelfTargetSmall"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
 		numObjects 2
+		object "Fighter"
 		object "Corvette"
-		object "Frigate"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "IsControllable"
+		constraint "NotFlagship"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 3
+	weaponClassForWeaponPassive "POINTDEFENSELASER"
+	weaponClassForWeaponPassive "PLASMA"
+	weaponClassForWeaponPassive "SPIRITBLADE"
+	passiveWeaponEffectChance
+		Level:0 0.050000
+		Level:1 0.075000
+		Level:2 0.100000
+		Level:3 0.000000
+	buffType "BuffSubjugatingAssaultSelfTargetMedium"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 2
+		object "Fighter"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "IsControllable"
+		constraint "NotFlagship"
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 3
+	weaponClassForWeaponPassive "POINTDEFENSELASER"
+	weaponClassForWeaponPassive "PLASMA"
+	weaponClassForWeaponPassive "SPIRITBLADE"
+	passiveWeaponEffectChance
+		Level:0 0.025000
+		Level:1 0.037500
+		Level:2 0.050000
+		Level:3 0.000000
+	buffType "BuffSubjugatingAssaultSelfTargetLarge"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 1
+		object "CapitalShip"
 		numSpaces 1
 		space "Normal"
 		numConstraints 2
@@ -71,8 +118,8 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 0.833333
-		Level:1 0.166667
+		Level:0 0.125000
+		Level:1 0.187500
 		Level:2 0.250000
 		Level:3 0.000000
 numEntityBoolModifiers 0

@@ -50,16 +50,16 @@ basePrice
 slotCount 20.000000
 BuildTime 150.000000
 MaxHullPoints
-	StartValue 5000.000000
+	StartValue 3000.000000
 	ValueIncreasePerLevel 0.000000
 MaxShieldPoints
-	StartValue 10000.000000
+	StartValue 6000.000000
 	ValueIncreasePerLevel 0.000000
 HullPointRestoreRate
-	StartValue 10.416667
+	StartValue 7.500000
 	ValueIncreasePerLevel 0.000000
 ShieldPointRestoreRate
-	StartValue 41.666667
+	StartValue 30.000000
 	ValueIncreasePerLevel 0.000000
 ArmorPointsFromExperience
 	StartValue 20.000000
@@ -68,15 +68,15 @@ maxMitigation
 	StartValue 0.700000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 480.000000
+	StartValue 600.000000
 	ValueIncreasePerLevel 0.000100
 AntiMatterRestoreRate
-	StartValue 2.400000
+	StartValue 3.000000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
 	StartValue 0.500000
 	ValueIncreasePerLevel 0.000000
-NameStringID "IDS_CAPITALSHIP_PSISPECIALCOMBAT_NAME"
+NameStringID "IDS_CAPITALSHIP_PSISPECIALCOMBATREBEL_NAME"
 DescriptionStringID "IDS_CAPITALSHIP_PSISPECIALCOMBATREBEL_DESCRIPTION"
 picture "CAPITALSHIPPICTURE_PSIBATTLESHIP2"
 Prerequisites
@@ -94,132 +94,7 @@ hudIcon "HUDICON_CAPITALSHIP_PSIBATTLESHIP2"
 smallHudIcon "MAINVIEWICON_CAPITALSHIP_PSIBATTLESHIP2"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_PSIBATTLESHIP2"
 minZoomDistanceMult 1.350000
-NumWeapons 3
-Weapon
-	WeaponType "Beam"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "OVERTIME"
-		DamageType "ENERGY"
-		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 750.000000
-	DamagePerBank:BACK 750.000000
-	DamagePerBank:LEFT 750.000000
-	DamagePerBank:RIGHT 750.000000
-	Range 6000.000000
-	PreBuffCooldownTime 20.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.500000
-	TravelSpeed 0.000000
-	Duration 4.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Beam"
-		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 1
-			sound ""
-		hitEffectName "Weapon_Psi_BeamCapital_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound ""
-		hitShieldsEffectSounds
-			soundCount 1
-			sound ""
-		beamEffectSounds
-			soundCount 1
-			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
-		beamGlowTextureName "PsiCapitalBeam_Glow"
-		beamCoreTextureName "PsiCapitalBeam_Core"
-		beamWidth 30.000000
-		beamGlowColor ffffffff
-		beamCoreColor ffffffff
-		beamTilingRate 3.000000
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 10.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.400000
-	TravelSpeed 2000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.600000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Psi_PlasmaCapital_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
-			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_Psi_PlasmaCapital_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Psi_PlasmaCapital_Travel"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERPSI"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 5.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.200000
-	TravelSpeed 4000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.500000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Psi_LaserCapital_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE"
-			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_Psi_LaserCapital_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Psi_LaserCapital_Travel"
+NumWeapons 0
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

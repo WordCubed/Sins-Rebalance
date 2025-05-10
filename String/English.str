@@ -1,5 +1,53 @@
 TXT
-NumStrings 8823
+NumStrings 8842
+StringInfo
+	ID "IDS_ABILITY_STRENGTHOFTHEFALLEN_DESCRIPTION"
+	Value "Any ships destroyed near the Titan increase its weapon damage, max shield points, and max hull points for a short period of time. This stacks for each ship destroyed."
+StringInfo
+	ID "IDS_ABILITY_SUBJUGATINGASSAULT_NAME"
+	Value "Subjugating Fear"
+StringInfo
+	ID "IDS_ABILITY_SUBJUGATINGASSAULT_DESCRIPTION"
+	Value "Enemies of the Unity fear us so much, their ship crews quake in terror, giving your weapons a chance cripple each target of your attacks."
+StringInfo
+	ID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
+	Value "Destroys target enemy frigate, cruiser, or structure, allowing the Titan to absorb its remaining hull, shields and antimatter."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_MOBILE_RULERSHIP_NAME"
+	Value "The Unfettered Path"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_MOBILE_RULERSHIP_DESCRIPTION"
+	Value "Even without planets, you will remain undefeated until so long as you have even a single Titan, Starbase, or Capitalship."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_COWARDS_SUBMISSION_NAME"
+	Value "Coward's Punishment"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_COWARDS_SUBMISSION_DESCRIPTION"
+	Value "The power of the Unity shocks its enemies, and those fleeing your Starbases have their shields permanently damaged."
+StringInfo
+	ID "IDS_ABILITY_COWARDSPUNISHMENT_NAME"
+	Value "Coward's Punishment"
+StringInfo
+	ID "IDS_ABILITY_COWARDSPUNISHMENT_DESCRIPTION"
+	Value "Enemies fleeing your Starbase have their max shield points permanently reduced (can stack 2 times)."
+StringInfo
+	ID "IDS_PLANETBONUS_OLDBATTLEFIELD_NAME"
+	Value "Battlefield Scavenge"
+StringInfo
+	ID "IDS_PLANETBONUS_OLDBATTLEFIELD_DESC"
+	Value "Past battles around this planet have left countless ship husks and debris in orbit. Locals have long harvested and sold this. As its ruler you can now take advantage of this excellent source of valuable alloys."
+StringInfo
+	ID "IDS_ABILITY_DOMINATION_NAME"
+	Value "Unity's Battleship"
+StringInfo
+	ID "IDS_ABILITY_DOMINATION_DESCRIPTION"
+	Value "The Unity briefly manifests the ghosts of its strongest fallen warriors to attack its enemies, creating a mighty Advent Battleship."
+StringInfo
+	ID "IDS_ABILITY_CLONEFRIGATE_NAME"
+	Value "Unity's Frigates"
+StringInfo
+	ID "IDS_ABILITY_CLONEFRIGATE_DESCRIPTION"
+	Value "The Unity briefly manifests the ghosts of fallen warriors to attack its enemies, creating a small fleet of minor frigates."
 StringInfo
 	ID "IDS_ABILITYPIRATEMERCENARYTEMPSHIPS_NAME"
 	Value "Temporary Pirate Ship"
@@ -379,8 +427,11 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERTECH_DESCRIPTION"
 	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
 StringInfo
+	ID "IDS_RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED_NAME"
+	Value "Return of the Lost"
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED_DESCRIPTION"
-	Value "Grants the Wail of the Sacrificed ability to your Culture Centers, allowing the local planet to sacrifice its population. Doing so unleashes a psionic wave that does heavy damage to all enemy ships and structures in nearby gravity wells."
+	Value "When you lose a planet, vengeful spirits gather around it and summon a temporary fleet of ships."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_NAME"
 	Value "Culture Center"
@@ -530,10 +581,10 @@ StringInfo
 	Value "The Unity overwhelms the crew of a targeted enemy capitalship, controls it for several minutes, then destroys it."
 StringInfo
 	ID "IDS_ABILITY_STEALFRIGATE_NAME"
-	Value "Steal Frigate"
+	Value "Unity's Cruisers"
 StringInfo
 	ID "IDS_ABILITY_STEALFRIGATE_DESCRIPTION"
-	Value "Permanently steals a frigate from an enemy fleet in range."
+	Value "The Unity briefly manifests the ghosts of strong fallen warriors to attack its enemies, creating a small fleet of cruisers."
 StringInfo
 	ID "IDS_ABILITY_ANTIHARMONICS_NAME"
 	Value "Anti-Harmonics"
@@ -557,7 +608,7 @@ StringInfo
 	Value "The Unity focuses its protection around a chosen friendly ship or structure, rendering it invincible for a brief time."
 StringInfo
 	ID "IDS_ABILITY_GRAVITYPULSE_DESCRIPTION"
-	Value "The Titan unleases a powerful gravimetric wave, slowing nearby enemies. If the Titan has recently used Micro-Phase Jump, its weapons also deal more damage for a time."
+	Value "The Titan manipulates the gravity of the local planet, slowing down all enemies and speeding up all allies in the gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_NAME"
 	Value "Death Rites"
@@ -872,7 +923,7 @@ StringInfo
 	Value "Solitary Path"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SOLITARY_PATH_DESCRIPTION"
-	Value "Your units gain a 50% damage bonus when they are in a neutral or uncolonizable gravity well."
+	Value "Your units gain a 50% damage bonus when they're in a neutral or uncolonizable gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE0_NAME"
 	Value "Culture Subjugation 1"
@@ -1336,8 +1387,11 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_MILITIA_WEAPONRY_DESCRIPTION"
 	Value "More militia teams temporarily join ship crews within the gravity well, further bolstering armor and weapon damage within friendly territory."
 StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_A_PLANET_NAME"
+	Value "Enduring Spirit"
+StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_A_PLANET_DESCRIPTION"
-	Value "When one of the Unity's worlds falls silent, rites of vengeance are enacted, healing all damaged ships & permanently increasing weapon damage by 50%."
+	Value "The Unity grows stronger over the course of a battle. Grants a +50% damage bonus two minutes after entering a gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPPHASE_NAME"
 	Value "Unstoppable Scouting"
@@ -1709,31 +1763,31 @@ StringInfo
 	Value "Demoralizes an enemy ship's crew so thoroughly that it can no longer move and fight as effectively."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECH_DESCRIPTION"
-	Value "The Trader Emergency Coalition favors terran & aquatic planets. Have the weakest culture but the best economy & ship production. TEC ships emphasize hull points & armor over shield points & mitigation."
+	Value "The Trader Emergency Coalition favors terran & aquatic planets. They have the strongest economy & logistics, but the weakest culture. TEC ships emphasize hull points & armor over shield points & mitigation."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSI_DESCRIPTION"
-	Value "The Advent favor arid, desolate, & cold planets. Have the strongest culture. Their ships emphasize shield points & shield mitigation over hull points & armor."
+	Value "The Advent favor arid, desolate, & cold planets. They have the strongest culture, which they depend on to bolster their weaker economy. Advent units emphasize shield points & shield mitigation over hull points & armor."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASE_DESCRIPTION"
-	Value "The Vasari favor hazardous, metallic, & big planets. Their culture & economy is in-between the TEC & Advent in terms of strength & production. Their units are evenly balanced between hull & shield."
+	Value "The Vasari favor hazardous, metallic, & giant planets. Their economy, logistics, & culture are all moderately good. Vasari units are evenly balanced between hull & shield."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
-	Value "TEC Loyalists are meant for turtling. With research, they gain large buffs for defending themselves. Their tactical structures are tougher & stronger, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% in friendly gravity wells; +50% after invasion repelled"
+	Value "TEC Loyalists are meant for turtling. They get large buffs when fighting at any colony they or an ally own. They can build an extra starbase in each gravity well, their tactical structures are harder to kill & do more damage, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% at friendly colony; +50% for repelling invasion"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
-	Value "TEC Rebels are suited for extremely aggressive play styles. With research, their ships get damage buffs for entering enemy territory, and they receive further buffs for killing enemy ships and destroying enemy colonies, allowing them to steamroll deep into enemy territory. MAIN DAMAGE BUFFS: +50% in enemy wells; +50% after 1st enemy unit kill; +50% after 1st enemy planet destroyed"
+	Value "TEC Rebels are meant for aggressive play. They gain incredible buffs for invading & destroying enemy colonies, allowing them to steamroll deep into enemy territory. Their ships get more powerful after killing an enemy. Their superweapon can summon a temporary rebellion around a target planet. MAIN DAMAGE BUFFS: +50% at enemy colony; +50% for killing 1st enemy unit; +50% for killing 1st enemy colony"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists are equally capable of offensive and defensive play. With research, they can win almost any culture war, overwhelming enemy cultures while enjoying the many economic (+80% allegiance, the highest in the game) and military bonuses their own give. However, they are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +50% after invasion repelled"
+	Value "Advent Loyalists can win almost any culture war, overwhelming enemy cultures while enjoying the many military bonuses their own give. Their +80% allegiance bonus is the highest in the game, allowing their empires to sprawl farther with fewer downsides. However, their fleets are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +50% for repelling invasion"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
-	Value "Advent Rebels have some nasty abilities. With research, up to half of all frigates and cruisers that die will instantly respawn, they can take control of parts of enemy fleets, even force enemy colonies to switch sides. They grow stronger over the course of a battle, allowing weakened empires to punch above their weight. MAIN DAMAGE BUFFS: +50% after 1st ship lost; +50% after 1st enemy killed; +50% after 1st planet lost"
+	Value "Advent Rebels have some nasty abilities. Lose a colony? The invader's fleet is severely crippled—and some of the effects are permanent. Lose a unit? The survivors become stronger. Some deaths even briefly conjure powerful reinforcements. Their superweapon can briefly conjure a fleet around a target planet. MAIN DAMAGE BUFFS: +50% for 1st unit lost; +50% for 1st enemy killed; +50% after 2 minutes in combat"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
-	Value "Vasari Loyalists are a balanced faction focused on self-sustaining fleets. With research, they can move all colony functions onboard their capital ships and strip planets to uncolonizable dust. Meanwhile, their fleets have strong self-repair buffs, and any ships they lose can be replaced using their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +50% in neutral wells; +50% after 1st planet lost"
+	Value "Vasari Loyalists have a unique, powerful strategy: they can survive without colonies & raze planets to uncolonizable dust. This allows them to permanently deny valuable planets to their enemies. Their units heal quickly & their titan can repair a fleet even under heavy fire. Ships they do lose can be replaced with their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +50% for 1st colony loss; +50% in uncolonized gravity well"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
-	Value "Vasari Rebels focus on mobility and hit-and-run tactics. With research, their ships gain large firepower buffs at the end of a phase jump. However, that buff fades out over very lengthy battles. A good ally, they get damage buffs when reinforcing an ally in battle and can let allies use their phase gates. MAIN DAMAGE BUFFS: +150% at end of phase jump; +10% per ally present"
+	Value "Vasari Rebels favor hit-and-run tactics. Their ships briefly gain huge damage buffs when entering a gravity well & they can retreat very quickly. They're the only faction that can phase jump a finished starbase into a well. A good ally, they gain damage buffs when reinforcing allies & can let allies use their phase gates. MAIN DAMAGE BUFFS: +150% on phase jump end; +10% per ally present in gravity well"
 StringInfo
 	ID "IDS_FRIGATE_PIRATESIEGE_DESCRIPTION"
 	Value "A medium frigate that sacrifices conventional combat strength for planetary bombardment weapons."
@@ -2107,8 +2161,11 @@ StringInfo
 	ID "IDS_CAPITALSHIP_PSICARRIER_DESCRIPTION"
 	Value "A warship that controls many strike craft. Fields more firepower than the Battleship, but has less hull and shields."
 StringInfo
+	ID "IDS_CAPITALSHIP_PSISPECIALCOMBATREBEL_NAME"
+	Value "Special Combat Capital"
+StringInfo
 	ID "IDS_CAPITALSHIP_PSISPECIALCOMBATREBEL_DESCRIPTION"
-	Value "A warship designed to seize control of enemy ships. Not as strong as the Battleship, it makes up for its reduced firepower by 'borrowing' from the enemy."
+	Value "A warship with no conventional weapons, it carries powerful abilities that let it temporarily conjure other ships onto the battlefield. The firepower it brings far exceeds other Capitalships. However, it's relatively fragile, and when low on antimatter it becomes essentially useless."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSISPECIALCOMBATLOYALIST_DESCRIPTION"
 	Value "A tough warship designed to be sent into the midst of enemy fleets to weaken them with its abilities, and survive long enough to do it again. Equal in firepower, hull, and shields to the regular Battleship."
