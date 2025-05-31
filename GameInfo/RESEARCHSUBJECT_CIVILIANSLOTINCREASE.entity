@@ -41,7 +41,7 @@ researchModifier
 researchModifier
 	modifierType "PlanetSlotsTacticalIncrease"
 	baseValue 0.000000
-	perLevelValue 2.000000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

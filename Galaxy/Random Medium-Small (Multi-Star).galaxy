@@ -6,7 +6,7 @@ browseName "Random Medium-Small (Multi-Star)"
 browseDescription "Explore an uncharted star system and claim its riches while fending off up to three other factions. This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.6
+planetArtifactDensity 0.25
 planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

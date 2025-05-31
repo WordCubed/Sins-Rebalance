@@ -13,7 +13,7 @@ ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PACTUNLOCK_ENERGY_WEAPON_COOLDOWN"
+		Subject "RESEARCHSUBJECT_PACTUNLOCK_TACTICALSLOTS"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

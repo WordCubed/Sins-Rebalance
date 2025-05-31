@@ -6,7 +6,7 @@ browseName "Random Small (Single-Star)"
 browseDescription "Conquering the 2 other empires in this solar system will be your first step towards galactic hegemony. This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.6
+planetArtifactDensity 0.25
 planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

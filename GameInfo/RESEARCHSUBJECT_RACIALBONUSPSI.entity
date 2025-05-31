@@ -37,7 +37,7 @@ researchModifier
 	perLevelValue 0.000000
 researchModifier
 	modifierType "WeaponRangeAdjustment"
-	baseValue 0.200000
+	baseValue 0.500000
 	perLevelValue 0.000000
 	linkedWeaponClass "Invalid"
 artifactPicture ""

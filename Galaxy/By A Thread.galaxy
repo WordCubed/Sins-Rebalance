@@ -7,7 +7,7 @@ browseName "By a Thread"
 browseDescription "Your home is a string of planets barely hanging onto the edge of a black hole. Your rivals are in a similar position."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 1.000000
+planetArtifactDensity 0.333333
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

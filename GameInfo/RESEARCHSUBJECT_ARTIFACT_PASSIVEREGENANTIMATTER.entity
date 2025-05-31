@@ -30,19 +30,15 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
-researchModifier
-	modifierType "AntimatterRegenAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
+researchFloatModifiers 2
 researchModifier
 	modifierType "AntimatterCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 1.000000
 researchModifier
-	modifierType "CultureAntimatterRegenAmount"
+	modifierType "AntimatterRegenAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 1.000000
 artifactPicture "ArtifactPicturePassiveRegenAntiMatter"
 uniqueOverlayBrush ""
 dlcId 204880

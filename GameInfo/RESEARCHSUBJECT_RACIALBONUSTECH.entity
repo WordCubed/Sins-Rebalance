@@ -29,17 +29,14 @@ Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
-researchBoolModifiers 0
-researchFloatModifiers 2
+researchBoolModifiers 1
+researchModifier
+	modifierType "PirateRaidsOneLevelLower"
+researchFloatModifiers 1
 researchModifier
 	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.100000
 	perLevelValue 0.000000
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.100000
-	perLevelValue 0.000000
-	linkedWeaponClass "Invalid"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

@@ -30,17 +30,21 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 4
 researchModifier
-	modifierType "AllegianceFromCultureMaxPerc"
-	baseValue 0.000000
-	perLevelValue 0.100000
-researchModifier
-	modifierType "CultureResistPercent"
+	modifierType "CultureSpreadRateAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
 researchModifier
 	modifierType "CultureWeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+researchModifier
+	modifierType "ShieldMaxMitigationAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+researchModifier
+	modifierType "CultureAntimatterRegenAmount"
 	baseValue 0.000000
 	perLevelValue 0.100000
 artifactPicture ""

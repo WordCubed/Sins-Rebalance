@@ -33,32 +33,12 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 5
+researchFloatModifiers 1
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.050000
-	linkedWeaponClass "AUTOCANNON"
-researchModifier
-	modifierType "WeaponDamageAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.050000
-	linkedWeaponClass "FLAK"
-researchModifier
-	modifierType "WeaponDamageAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.050000
-	linkedWeaponClass "MISSILE"
-researchModifier
-	modifierType "WeaponDamageAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.050000
-	linkedWeaponClass "LASERTECH"
-researchModifier
-	modifierType "WeaponDamageAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.050000
-	linkedWeaponClass "BEAM"
+	linkedWeaponClass "Invalid"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

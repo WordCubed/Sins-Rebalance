@@ -18,56 +18,56 @@ instantAction
 		maxFleetPoints 84.000000
 		requiredShipCount 6
 		requiredShip
-			type "FrigatePsiLongRange"
+			type "FrigatePhaseLongRange"
 			minCount 2
 			maxCount 2
 		requiredShip
-			type "FrigatePsiSiege"
+			type "FrigatePhaseSiege"
 			minCount 2
 			maxCount 2
 		requiredShip
-			type "FrigatePsiUtility0"
+			type "FrigatePhaseUtility0"
 			minCount 2
 			maxCount 2
 		requiredShip
-			type "FrigatePsiUtility1"
+			type "FrigatePhaseUtility1"
 			minCount 2
 			maxCount 2
 		requiredShip
-			type "FrigatePsiCarrier"
+			type "FrigatePhaseCarrier"
 			minCount 2
 			maxCount 2
 		requiredShip
-			type "FrigatePsiHeavy"
+			type "FrigatePhaseHeavy"
 			minCount 2
 			maxCount 2
 		randomShipCount 0
 	spawnShips
 		minFleetPoints 126.000000
-		maxFleetPoints 84.000000
+		maxFleetPoints 126.000000
 		requiredShipCount 6
 		requiredShip
-			type "FrigatePsiLongRange"
+			type "FrigatePhaseLongRange"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiSiege"
+			type "FrigatePhaseSiege"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiUtility0"
+			type "FrigatePhaseUtility0"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiUtility1"
+			type "FrigatePhaseUtility1"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiCarrier"
+			type "FrigatePhaseCarrier"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiHeavy"
+			type "FrigatePhaseHeavy"
 			minCount 3
 			maxCount 3
 		randomShipCount 0
@@ -76,27 +76,27 @@ instantAction
 		maxFleetPoints 168.000000
 		requiredShipCount 6
 		requiredShip
-			type "FrigatePsiLongRange"
+			type "FrigatePhaseLongRange"
 			minCount 4
 			maxCount 4
 		requiredShip
-			type "FrigatePsiSiege"
+			type "FrigatePhaseSiege"
 			minCount 4
 			maxCount 4
 		requiredShip
-			type "FrigatePsiUtility0"
+			type "FrigatePhaseUtility0"
 			minCount 4
 			maxCount 4
 		requiredShip
-			type "FrigatePsiUtility1"
+			type "FrigatePhaseUtility1"
 			minCount 4
 			maxCount 4
 		requiredShip
-			type "FrigatePsiCarrier"
+			type "FrigatePhaseCarrier"
 			minCount 4
 			maxCount 4
 		requiredShip
-			type "FrigatePsiHeavy"
+			type "FrigatePhaseHeavy"
 			minCount 4
 			maxCount 4
 		randomShipCount 0

@@ -7,7 +7,7 @@ browseName "Nebula"
 browseDescription "This nebula contains many stars. Some stars host enemies, and others hold resources you desperately need. Will you find the metal and crystal-rich stars, or will you find your enemy's home?"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

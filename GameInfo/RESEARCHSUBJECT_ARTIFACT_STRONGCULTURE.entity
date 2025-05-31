@@ -30,31 +30,23 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 6
+researchFloatModifiers 4
 researchModifier
 	modifierType "CultureSpreadRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.200000
+researchModifier
+	modifierType "AllegianceFromCultureMaxPerc"
+	baseValue 0.000000
+	perLevelValue 0.200000
 researchModifier
 	modifierType "CultureResistPercent"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 3.000000
 researchModifier
-	modifierType "CultureWeaponDamageAdjustment"
+	modifierType "CultureModuleCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
-researchModifier
-	modifierType "RelationshipBonus"
-	baseValue 0.000000
-	perLevelValue 4.000000
-researchModifier
-	modifierType "QuestRewardHappinessAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.500000
-researchModifier
-	modifierType "QuestFailureHappinessAdjustment"
-	baseValue 0.000000
-	perLevelValue -0.500000
+	perLevelValue 1.000000
 artifactPicture "ArtifactPictureStrongCulture"
 uniqueOverlayBrush ""
 dlcId 204880

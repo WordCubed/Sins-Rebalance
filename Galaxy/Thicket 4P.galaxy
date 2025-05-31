@@ -7,7 +7,7 @@ browseName "Thicket (4-Player)"
 browseDescription "You and your ally must fight through a thicket of planets to reach your enemies."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

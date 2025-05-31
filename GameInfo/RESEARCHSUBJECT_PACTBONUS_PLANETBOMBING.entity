@@ -25,34 +25,27 @@ PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 3
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 5
+researchFloatModifiers 3
 researchModifier
-	modifierType "BombingDamageAsDamageDealerAdjustment"
+	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.500000
+	perLevelValue 0.150000
+	linkedWeaponClass "MISSILE"
 researchModifier
-	modifierType "BombingPopulationKilledAsDamageDealerAdjustment"
+	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.500000
+	perLevelValue 0.150000
+	linkedWeaponClass "PHASEMISSILE"
 researchModifier
-	modifierType "BombingRangeAdjustment"
+	modifierType "WeaponRateOfFireAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
-researchModifier
-	modifierType "WeaponRateOfFireAdjustmentWhenInGravityWellBeingBombed"
-	baseValue 0.000000
-	perLevelValue 0.200000
-	linkedWeaponClass "Invalid"
-researchModifier
-	modifierType "WeaponDamageAdjustmentWhenInGravityWellBeingBombed"
-	baseValue 0.000000
-	perLevelValue 0.200000
-	linkedWeaponClass "Invalid"
+	perLevelValue 0.150000
+	linkedWeaponClass "PLASMA"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

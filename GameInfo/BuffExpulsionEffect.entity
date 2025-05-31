@@ -15,10 +15,10 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 0.500000
-		Level:1 0.500000
-		Level:2 0.500000
-		Level:3 0.500000
+		Level:0 0.400000
+		Level:1 0.400000
+		Level:2 0.400000
+		Level:3 0.400000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

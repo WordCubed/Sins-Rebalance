@@ -18,10 +18,10 @@ targetFilter
 	space "Normal"
 	numConstraints 0
 range
-	Level:0 7500.000000
-	Level:1 7500.000000
-	Level:2 7500.000000
-	Level:3 7500.000000
+	Level:0 10200.000000
+	Level:1 10200.000000
+	Level:2 10200.000000
+	Level:3 10200.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"

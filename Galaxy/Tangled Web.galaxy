@@ -7,7 +7,7 @@ browseName "Tangled Web"
 browseDescription "Maneuver carefully: the tangled web of phase lanes around this star means your enemies are only a couple jumps away from you."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

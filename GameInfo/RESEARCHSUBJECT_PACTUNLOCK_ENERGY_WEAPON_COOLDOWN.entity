@@ -8,12 +8,12 @@ NameStringID "IDS_RESEARCHSUBJECT_PACT_ENERGY_WEAPON_COOLDOWN_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PACT_ENERGY_WEAPON_COOLDOWN_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 6 , 1 ]
+	pos [ 7 , 1 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PACTUNLOCK_TACTICALSLOTS"
+		Subject "RESEARCHSUBJECT_PACTUNLOCK_CULTURE"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -21,14 +21,14 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 80.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
-	credits 1600.000000
-	metal 200.000000
-	crystal 400.000000
+	credits 2400.000000
+	metal 300.000000
+	crystal 600.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 6
+Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000

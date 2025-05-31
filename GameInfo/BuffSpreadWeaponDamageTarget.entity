@@ -42,13 +42,13 @@ instantAction
 		constraint "CanSpreadWeaponDamage"
 		constraint "NotSelf"
 	range
-		Level:0 4500.000000
-		Level:1 4500.000000
-		Level:2 4500.000000
+		Level:0 5100.000000
+		Level:1 5100.000000
+		Level:2 5100.000000
 		Level:3 0.000000
 	maxTargetCount
-		Level:0 8.000000
-		Level:1 16.000000
+		Level:0 16.000000
+		Level:1 24.000000
 		Level:2 32.000000
 		Level:3 0.000000
 numPeriodicActions 0

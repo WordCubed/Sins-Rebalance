@@ -32,17 +32,17 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
-	modifierType "TradeGoodsValueAdjustment"
+	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.300000
+researchModifier
+	modifierType "ExtractionRateCrystalAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.300000
 researchModifier
 	modifierType "RefineryShipCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
-researchModifier
-	modifierType "CargoShipCapacityAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.600000
 artifactPicture "ArtifactPictureTradeIncome"
 uniqueOverlayBrush ""
 dlcId 204880

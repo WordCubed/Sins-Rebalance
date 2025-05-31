@@ -7,7 +7,7 @@ browseName "Unstable Alliance (Rebalance)"
 browseDescription "Five empires vie for this system. You can't possibly take them all. Alliances are necessary, but with an uneven split, who will be left out? Who will be stuck in the smaller, weaker alliance? Don't let it be you."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

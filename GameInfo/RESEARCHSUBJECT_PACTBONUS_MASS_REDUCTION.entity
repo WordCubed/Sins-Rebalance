@@ -8,7 +8,7 @@ NameStringID ""
 DescriptionStringID ""
 researchWindowLocation
 	block 0
-	pos [ 0 , 0 ]
+	pos [ 2 , 3 ]
 ResearchField "PactBonus"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -29,12 +29,22 @@ Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 0
-researchFloatModifiers 1
+researchBoolModifiers 2
 researchModifier
-	modifierType "MassReduction"
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffPactSquadAlwaysDeploySelf"
+researchModifier
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffPactSquadExtraStarBaseSelf"
+researchFloatModifiers 2
+researchModifier
+	modifierType "CarrierFightersPerSquadAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 1.000000
+researchModifier
+	modifierType "HangarFightersPerSquadAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

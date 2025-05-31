@@ -1,7 +1,7 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Ability"
-buffInstantActionType "ApplyOrRemoveBuffToSelf"
+buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffSubjugatingAssaultSelf"
 effectInfo
@@ -11,8 +11,6 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-toggleStateOnNameStringID "IDS_ABILITY_SUBJUGATINGASSAULTACTIVE_NAME"
-toggleStateOnDescStringID "IDS_ABILITY_SUBJUGATINGASSAULTACTIVE_DESCRIPTION"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -24,9 +22,9 @@ aiUseTime "OnlyInCombat"
 aiUseTargetCondition "AntimatterExceedsAmount"
 onlyAutoCastWhenTargetAntimatterExceedsAmount
 	Level:0 150.000000
-	Level:1 150.000000
-	Level:2 150.000000
-	Level:3 150.000000
+	Level:1 225.000000
+	Level:2 300.000000
+	Level:3 300.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE

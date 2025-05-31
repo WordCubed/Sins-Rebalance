@@ -13,7 +13,7 @@ ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PACTUNLOCK_METALCRYSTAL"
+		Subject "RESEARCHSUBJECT_PACTUNLOCK_EFFICIENCY"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

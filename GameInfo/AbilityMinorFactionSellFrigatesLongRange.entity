@@ -5,40 +5,6 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 3
 spawnShips
-	minFleetPoints 24.000000
-	maxFleetPoints 24.000000
-	requiredShipCount 3
-	requiredShip
-		type "FrigateTechLongRange"
-		minCount 2
-		maxCount 2
-	requiredShip
-		type "FrigatePsiLongRange"
-		minCount 2
-		maxCount 2
-	requiredShip
-		type "FrigatePhaseLongRange"
-		minCount 2
-		maxCount 2
-	randomShipCount 0
-spawnShips
-	minFleetPoints 36.000000
-	maxFleetPoints 36.000000
-	requiredShipCount 3
-	requiredShip
-		type "FrigateTechLongRange"
-		minCount 3
-		maxCount 3
-	requiredShip
-		type "FrigatePsiLongRange"
-		minCount 3
-		maxCount 3
-	requiredShip
-		type "FrigatePhaseLongRange"
-		minCount 3
-		maxCount 3
-	randomShipCount 0
-spawnShips
 	minFleetPoints 48.000000
 	maxFleetPoints 48.000000
 	requiredShipCount 3
@@ -54,6 +20,40 @@ spawnShips
 		type "FrigatePhaseLongRange"
 		minCount 4
 		maxCount 4
+	randomShipCount 0
+spawnShips
+	minFleetPoints 72.000000
+	maxFleetPoints 72.000000
+	requiredShipCount 3
+	requiredShip
+		type "FrigateTechLongRange"
+		minCount 6
+		maxCount 6
+	requiredShip
+		type "FrigatePsiLongRange"
+		minCount 6
+		maxCount 6
+	requiredShip
+		type "FrigatePhaseLongRange"
+		minCount 6
+		maxCount 6
+	randomShipCount 0
+spawnShips
+	minFleetPoints 96.000000
+	maxFleetPoints 96.000000
+	requiredShipCount 3
+	requiredShip
+		type "FrigateTechLongRange"
+		minCount 8
+		maxCount 8
+	requiredShip
+		type "FrigatePsiLongRange"
+		minCount 8
+		maxCount 8
+	requiredShip
+		type "FrigatePhaseLongRange"
+		minCount 8
+		maxCount 8
 	randomShipCount 0
 spawnShipsArrivalDelayTime 0.000000
 spawnShipsHyperspaceSpawnType "FromFactories"

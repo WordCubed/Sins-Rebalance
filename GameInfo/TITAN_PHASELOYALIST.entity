@@ -69,7 +69,7 @@ ArmorPointsFromExperience
 	StartValue 20.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.700000
+	StartValue 0.670000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
 	StartValue 280.000000
@@ -249,7 +249,7 @@ Weapon
 	DamagePerBank:BACK 125.000000
 	DamagePerBank:LEFT 125.000000
 	DamagePerBank:RIGHT 125.000000
-	Range 10000.000000
+	Range 5000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE

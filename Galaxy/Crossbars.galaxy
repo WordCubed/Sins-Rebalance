@@ -7,7 +7,7 @@ browseName "Crossbars"
 browseDescription "Together with your allies, explore and conquer the branches of this solar system. But watch out for surprise attacks! Wormholes may offer shortcuts to the enemy, but they also mean shortcuts to you. (NOTE: AI players rarely use wormholes, making them perform very poorly on this map.)"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

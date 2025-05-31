@@ -10,8 +10,8 @@ spawnShips
 	requiredShipCount 3
 	requiredShip
 		type "FrigatePhaseScout"
-		minCount 3
-		maxCount 3
+		minCount 4
+		maxCount 4
 	requiredShip
 		type "FrigatePhaseStarBaseConstructor"
 		minCount 4

@@ -32,17 +32,16 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
+	modifierType "MassReduction"
 	baseValue 0.100000
-	perLevelValue 0.000000
-	linkedWeaponClass "Invalid"
-researchModifier
-	modifierType "ExperienceAwardedAdjustment"
-	baseValue 0.200000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "StarBaseBuildRateAtEnemyOrbitBodyAdjustment"
-	baseValue 9.000000
+	baseValue 3.000000
+	perLevelValue 0.000000
+researchModifier
+	modifierType "ExperienceAwardedAdjustment"
+	baseValue 0.200000
 	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""

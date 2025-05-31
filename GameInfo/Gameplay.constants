@@ -17,7 +17,7 @@ GameplayConstants
 	gravWellThickness 1.0
 	cannonsPerGravityWellRatio 1
 	cannonGravityWellRatioDenominator 3
-	maxAiCannons 6
+	maxAiCannons 7
 	preferNewAssetsGameCountThreshold 5
 	EconomyData
 		DefaultSalvageRefundPercent 0.333333
@@ -57,7 +57,7 @@ GameplayConstants
 		allegiance 0.10
 		allegiance 0.10
 		planetCultureTakeOverPercWarning 0.20
-		experienceGainedForDestroying 900.0
+		experienceGainedForDestroying 1000.0
 		scuttleTime 20.0
 		stripTime 10.0
 	CapitalShipData
@@ -661,61 +661,61 @@ GameplayConstants
 		netChangeForBoom 0.3
 	playerAISharedDef
 		table-Aggressive
-			BuildShip 40
+			BuildShip 20
 			BuildModuleTactical 10
 			BuildModuleCivilian 20
 			BuildModuleResearch 20
 			UpgradeResearch 320
-			UpgradePlanetArtifactLevel 5
-			UpgradePlanetPopulation 20
-			UpgradePlanetInfastructure 10
-			UpgradePlanetSocial 5
-			UpgradePlanetIndustry 40
+			UpgradePlanetArtifactLevel 80
+			UpgradePlanetPopulation 80
+			UpgradePlanetInfastructure 80
+			UpgradePlanetSocial 10
+			UpgradePlanetIndustry 20
 			MaxBountyBidCount 20
-			UpgradeStarBase 5
-			BuildMines 5
+			UpgradeStarBase 0
+			BuildMines 0
 		table-Defensive
-			BuildShip 20
+			BuildShip 10
 			BuildModuleTactical 40
 			BuildModuleCivilian 20
 			BuildModuleResearch 20
 			UpgradeResearch 320
-			UpgradePlanetArtifactLevel 10
-			UpgradePlanetPopulation 20
-			UpgradePlanetInfastructure 40
-			UpgradePlanetSocial 20
-			UpgradePlanetIndustry 5
+			UpgradePlanetArtifactLevel 80
+			UpgradePlanetPopulation 80
+			UpgradePlanetInfastructure 80
+			UpgradePlanetSocial 40
+			UpgradePlanetIndustry 2
 			MaxBountyBidCount 5
-			UpgradeStarBase 40
-			BuildMines 5
+			UpgradeStarBase 0
+			BuildMines 0
 		table-Research
-			BuildShip 20
+			BuildShip 10
 			BuildModuleTactical 10
 			BuildModuleCivilian 40
 			BuildModuleResearch 40
 			UpgradeResearch 640
-			UpgradePlanetArtifactLevel 40
-			UpgradePlanetPopulation 40
-			UpgradePlanetInfastructure 10
-			UpgradePlanetSocial 10
-			UpgradePlanetIndustry 5
+			UpgradePlanetArtifactLevel 80
+			UpgradePlanetPopulation 80
+			UpgradePlanetInfastructure 80
+			UpgradePlanetSocial 20
+			UpgradePlanetIndustry 2
 			MaxBountyBidCount 5
-			UpgradeStarBase 10
-			BuildMines 5
+			UpgradeStarBase 0
+			BuildMines 0
 		table-Economic
-			BuildShip 20
+			BuildShip 10
 			BuildModuleTactical 10
 			BuildModuleCivilian 40
 			BuildModuleResearch 20
 			UpgradeResearch 320
-			UpgradePlanetArtifactLevel 10
-			UpgradePlanetPopulation 40
-			UpgradePlanetInfastructure 5
-			UpgradePlanetSocial 20
-			UpgradePlanetIndustry 20
+			UpgradePlanetArtifactLevel 80
+			UpgradePlanetPopulation 80
+			UpgradePlanetInfastructure 80
+			UpgradePlanetSocial 40
+			UpgradePlanetIndustry 10
 			MaxBountyBidCount 10
-			UpgradeStarBase 10
-			BuildMines 5
+			UpgradeStarBase 0
+			BuildMines 0
 	playerDiplomacyAIDef
 		breakRelationshipThreshold:Trade 2.0
 		breakRelationshipThreshold:ExternalVision 4.0
@@ -725,21 +725,21 @@ GameplayConstants
 		breakRelationshipThreshold:ResearchPact 7.0
 		breakRelationshipThreshold:EfficiencyPact 7.0
 		breakRelationshipThreshold:AntimatterPact 9.0
-		breakRelationshipThreshold:ArmorPact 9.0
+		breakRelationshipThreshold:ArmorPact 11.0
 		breakRelationshipThreshold:BeamWeaponPact 11.0
-		breakRelationshipThreshold:CulturePact 8.0
+		breakRelationshipThreshold:CulturePact 13.0
 		breakRelationshipThreshold:MetalCrystalPact 7.0
-		breakRelationshipThreshold:ThrusterPact 11.0
-		breakRelationshipThreshold:PhaseJumpPact 9.0
-		breakRelationshipThreshold:PlanetBombingPact 10.0
-		breakRelationshipThreshold:ShieldPact 12.0
+		breakRelationshipThreshold:ThrusterPact 9.0
+		breakRelationshipThreshold:PhaseJumpPact 8.0
+		breakRelationshipThreshold:PlanetBombingPact 13.0
+		breakRelationshipThreshold:ShieldPact 9.0
 		breakRelationshipThreshold:MarketPact 8.0
-		breakRelationshipThreshold:EnergyWeaponCooldownPact 11.0
-		breakRelationshipThreshold:MassReductionPact 10.0
-		breakRelationshipThreshold:SupplyPact 12.0
-		breakRelationshipThreshold:TacticalSlotsPact 10.0
-		breakRelationshipThreshold:WeaponCooldownPact 12.0
-		breakRelationshipThreshold:TradeIncomePact 8.0
+		breakRelationshipThreshold:EnergyWeaponCooldownPact 15.0
+		breakRelationshipThreshold:MassReductionPact 11.0
+		breakRelationshipThreshold:SupplyPact 15.0
+		breakRelationshipThreshold:TacticalSlotsPact 13.0
+		breakRelationshipThreshold:WeaponCooldownPact 15.0
+		breakRelationshipThreshold:TradeIncomePact 9.0
 		relationshipRequirement:Trade 5.0
 		relationshipRequirement:ExternalVision 7.0
 		relationshipRequirement:InternalVision 8.0
@@ -748,21 +748,21 @@ GameplayConstants
 		relationshipRequirement:ResearchPact 9.5
 		relationshipRequirement:EfficiencyPact 9.5
 		relationshipRequirement:AntimatterPact 12.0
-		relationshipRequirement:ArmorPact 12.0
+		relationshipRequirement:ArmorPact 14.0
 		relationshipRequirement:BeamWeaponPact 14.0
-		relationshipRequirement:CulturePact 11.0
+		relationshipRequirement:CulturePact 16.0
 		relationshipRequirement:MetalCrystalPact 9.5
-		relationshipRequirement:ThrusterPact 14.0
-		relationshipRequirement:PhaseJumpPact 12.0
-		relationshipRequirement:PlanetBombingPact 13.0
-		relationshipRequirement:ShieldPact 15.0
+		relationshipRequirement:ThrusterPact 12.0
+		relationshipRequirement:PhaseJumpPact 11.0
+		relationshipRequirement:PlanetBombingPact 16.0
+		relationshipRequirement:ShieldPact 12.0
 		relationshipRequirement:MarketPact 11.0
-		relationshipRequirement:EnergyWeaponCooldownPact 14.0
-		relationshipRequirement:MassReductionPact 13.0
-		relationshipRequirement:SupplyPact 15.0
-		relationshipRequirement:TacticalSlotsPact 13.0
-		relationshipRequirement:WeaponCooldownPact 15.0
-		relationshipRequirement:TradeIncomePact 11.0
+		relationshipRequirement:EnergyWeaponCooldownPact 18.0
+		relationshipRequirement:MassReductionPact 14.0
+		relationshipRequirement:SupplyPact 18.0
+		relationshipRequirement:TacticalSlotsPact 16.0
+		relationshipRequirement:WeaponCooldownPact 18.0
+		relationshipRequirement:TradeIncomePact 12.0
 		breakRelationshipPenalty:Trade 0.0
 		breakRelationshipPenalty:ExternalVision 0.0
 		breakRelationshipPenalty:InternalVision 0.0
@@ -971,7 +971,7 @@ GameplayConstants
 			FactionName "IDS_PLAYERFACTIONNAME_REBEL"
 			FactionName "IDS_PLAYERFACTIONNAME_LOYALIST"
 	playerTradeNetworkDef
-		incomeRateBonusPerLongestNodeDistanceNode .05
+		incomeRateBonusPerLongestNodeDistanceNode .033333
 	targetTypeCounterData
 	aiData
 		aiRetreatThreshold 0.25
@@ -1198,7 +1198,7 @@ GameplayConstants
 		planetCultureRepelAdditiveBonus 1.5
 		spawnTime 480
 		spawnTimeVariance 120
-		minorFactionPlayerDefCount 14
+		minorFactionPlayerDefCount 13
 		minorFactionPlayerDef
 			name "DefaultTech"
 			planetAbilities
@@ -1222,14 +1222,6 @@ GameplayConstants
 				ability:1 "AbilityMinorFactionBombingDamageBonusPhase"
 				ability:2 "AbilityMinorFactionSpawnAttackRaidPhase"
 				ability:3 "AbilityMinorFactionSpawnDefenseRaidPhase"
-				ability:4 ""
-		minorFactionPlayerDef
-			name "TechMiners"
-			planetAbilities
-				ability:0 ""
-				ability:1 ""
-				ability:2 ""
-				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "TechSiegeRaiders"

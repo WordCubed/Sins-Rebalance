@@ -34,12 +34,12 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.250000
 	linkedWeaponClass "Invalid"
 researchModifier
 	modifierType "WeaponRangeAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.250000
 	linkedWeaponClass "Invalid"
 artifactPicture "ArtifactPictureWeaponBoost"
 uniqueOverlayBrush ""

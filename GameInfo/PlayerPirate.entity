@@ -138,7 +138,7 @@ hyperspaceData
 shieldData
 	shieldAbsorbGrowthPerDamage 0.010000
 	shieldAbsorbDecayRate 0.000000
-	shieldAbsorbBaseMin 0.250000
+	shieldAbsorbBaseMin 0.330000
 	shieldColor ffffc705
 gameEventData
 	GameEventSound:AllianceCeaseFireBroken ""

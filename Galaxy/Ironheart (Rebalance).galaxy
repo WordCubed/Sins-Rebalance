@@ -7,7 +7,7 @@ browseName "Ironheart (Rebalance)"
 browseDescription "Your metal is towards the sun on the ferrous worlds, your crystal in the rim on the ice worlds. Prioritize your resources carefully."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

@@ -29,20 +29,27 @@ Tier 3
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 0
-researchFloatModifiers 3
+researchBoolModifiers 1
 researchModifier
-	modifierType "HyperspaceExitDistanceAdjustment"
-	baseValue 0.000000
-	perLevelValue -0.050000
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffPactTravelSelf"
+researchFloatModifiers 4
 researchModifier
 	modifierType "HyperspaceChargeUpRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.500000
+	perLevelValue 0.250000
 researchModifier
-	modifierType "HyperspaceAntimatterCostAdjustment"
+	modifierType "HyperspaceInSystemSpeedAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.250000
+	perLevelValue 0.250000
+researchModifier
+	modifierType "HyperspaceSpeedPhaseGateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+researchModifier
+	modifierType "HyperspaceBetweenSystemSpeedAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

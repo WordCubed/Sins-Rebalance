@@ -7,7 +7,7 @@ browseName "Interstellar"
 browseDescription "Travel to your enemy's solar system to attack. Travel back to your own star to defend. Will you split your forces between the stars?"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

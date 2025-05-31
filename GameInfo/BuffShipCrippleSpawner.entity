@@ -16,14 +16,16 @@ instantAction
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 2
+		numObjects 4
 		object "Frigate"
 		object "CapitalShip"
+		object "PlanetModule"
+		object "StarBase"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0
 	range
-		Level:0 3000.000000
+		Level:0 5100.000000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000

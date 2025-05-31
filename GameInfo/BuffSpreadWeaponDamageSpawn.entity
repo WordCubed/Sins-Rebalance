@@ -27,13 +27,13 @@ instantAction
 		space "Normal"
 		numConstraints 0
 	range
-		Level:0 3000.000000
-		Level:1 3000.000000
-		Level:2 3000.000000
-		Level:3 3000.000000
+		Level:0 5100.000000
+		Level:1 5100.000000
+		Level:2 5100.000000
+		Level:3 5100.000000
 	maxTargetCount
-		Level:0 8.000000
-		Level:1 16.000000
+		Level:0 16.000000
+		Level:1 24.000000
 		Level:2 32.000000
 		Level:3 0.000000
 	effectInfo

@@ -43,7 +43,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffPlanetLoss"
+	buffType "BuffPlanetLossEffect"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"
@@ -74,7 +74,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtAdjacentOrbitBodies"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffPlanetLoss"
+	buffType "BuffPlanetLossEffect"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"

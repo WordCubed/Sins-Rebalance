@@ -1,5 +1,149 @@
 TXT
-NumStrings 8842
+NumStrings 8890
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_NAME"
+	Value "Promise of the Unity"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_DESCRIPTION"
+	Value "If your antimatter runs low during a battle, the Unity will reinforce your ships' strength, granting a temporary +30% damage boost the first time a ship experiences an antimatter shortage after exiting hyperspace."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SIEGE_MENTALITY_NAME"
+	Value "Siege Mentality"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SIEGE_MENTALITY_DESCRIPTION"
+	Value "The heightened fear your people feel whenever they witness a superweapon impact drives your units to fight harder. Grants a temporary +30% damage buff to your units when a superweapon hits a planet they're orbiting."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_NAME"
+	Value "The Empty Throne"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_DESCRIPTION"
+	Value "Your Titan becomes a beacon of hope for your ships, increasing damage by +40% when your Titan enters a gravity well you don't have a colony in."
+StringInfo
+	ID "IDS_ABILITY_MICROPHASEJUMP_NAME"
+	Value "Micro Phase Trap"
+StringInfo
+	ID "IDS_ABILITY_MICROPHASEJUMP_DESCRIPTION"
+	Value "Pushing the limits of Vasari mastery over Phase Space, the Titan traps the offensive parts of enemy ships in Phase Space, slowing down enemy weapon and ability cooldowns."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_EFFICIENCY_NAME"
+	Value "Efficiency Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_EFFICIENCY_DESCRIPTION"
+	Value "Both factions pool together their knowledge of ship and structure construction, improving their construction speeds and costs."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_MARKET_NAME"
+	Value "Pricing Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_MARKET_DESCRIPTION"
+	Value "Both factions coordinate their purchasing decisions, allowing both of them to purchase resources and bounties at a discount on the black market."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_TRADE_NAME"
+	Value "Trade Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_TRADE_DESCRIPTION"
+	Value "Both factions coordinate their trade policies, boosting trade income, refinery rates, and better protecting their trade ships from attack."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_ARMOR_NAME"
+	Value "Hull Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_ARMOR_DESCRIPTION"
+	Value "Both factions pool their materials knowledge, improving the hulls of their units."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_PLANETBOMBING_NAME"
+	Value "Missile Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_PLANETBOMBING_DESCRIPTION"
+	Value "Both factions pool their knowledge of projectile weapons, improving the rate of fire of their missile, phase missile, and plasma weapons."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_SUPPLY_NAME"
+	Value "Fleet Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_SUPPLY_DESCRIPTION"
+	Value "Both factions pool their fleet logistics knowledge together, increasing the number of ships both can manage and lowering fleet upkeep costs."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_RESEARCH_NAME"
+	Value "Research Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_RESEARCH_DESCRIPTION"
+	Value "Both factions pool their research teams together, lowering research costs and increasing research speeds."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_ANTIMATTER_NAME"
+	Value "Antimatter Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_ANTIMATTER_DESCRIPTION"
+	Value "Both factions pool their antimatter knowledge together, increasing their antimatter capacities and regeneration."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_SHIELD_NAME"
+	Value "Shield Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_SHIELD_DESCRIPTION"
+	Value "Both factions pool their shield technologies together, increasing their shields and shield regeneration."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_BEAM_NAME"
+	Value "Beam Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_BEAM_DESCRIPTION"
+	Value "Both factions pool their beam weapon technologies together, increasing the damage of their beam and flashbeam weapons."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_CULTURE_NAME"
+	Value "Culture Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_CULTURE_DESCRIPTION"
+	Value "Both factions exchange cultural knowledge, increasing the strength of their cultures and its effects."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_ENERGY_WEAPON_COOLDOWN_NAME"
+	Value "Armament Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_ENERGY_WEAPON_COOLDOWN_DESCRIPTION"
+	Value "Both factions pool their knowledge together, improving ship computers enough that Capitalships can fire on extra targets with their weapon banks, and lowering the antimatter costs and cooldown times of abilities."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_METALCRYSTAL_NAME"
+	Value "Resource Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_METALCRYSTAL_DESCRIPTION"
+	Value "Both factions pool their extraction knowledge together, boosting metal and crystal extraction rates."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_PHASEJUMP_NAME"
+	Value "Travel Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_PHASEJUMP_DESCRIPTION"
+	Value "Both factions pool their knowledge of Phase Space together, improving both of their Phase Jump engines. Ships also now recover 25% of their hull and shields when exiting hyperspace."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_THRUSTER_NAME"
+	Value "Maneuver Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_THRUSTER_DESCRIPTION"
+	Value "Both factions pool their piloting and ship design knowledge together, increasing ship speeds, lowering ship mass, and giving ships a 10% chance to dodge enemy fire."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_NAME"
+	Value "Squadron Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_DESCRIPTION"
+	Value "Both factions pool their squadron technologies together, boosting the number of strikecraft on squadrons, as well as doubling the number of squadrons that Starbases can deploy. Furthermore, strikecraft can now deploy around planets they would wouldn't normally be able to."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_TACTICALSLOTS_NAME"
+	Value "Defense Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_TACTICALSLOTS_DESCRIPTION"
+	Value "Both factions pool their planetary defense designs together, increasing their planets' tactical slots and their tactical structures' damage and hulls."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_WEAPONCOOLDOWN_NAME"
+	Value "Command Pact"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PACT_WEAPONCOOLDOWN_DESCRIPTION"
+	Value "Both factions pool their pilot training methods together, increasing the number of Capitalships they can command."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SHIPBOARD_LABS_NAME"
+	Value "Military Lab Integration"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SHIPBOARD_LABS_DESCRIPTION"
+	Value "Military labs are integrated into your ships, letting each of your capitalships act as a Military Lab."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SHIPBOARD_LABS2_NAME"
+	Value "Civilian Lab Integration"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_SHIPBOARD_LABS2_DESCRIPTION"
+	Value "Civilian labs are integrated into your ships, letting each of your capitalships act as a Civilian Lab."
 StringInfo
 	ID "IDS_ABILITY_STRENGTHOFTHEFALLEN_DESCRIPTION"
 	Value "Any ships destroyed near the Titan increase its weapon damage, max shield points, and max hull points for a short period of time. This stacks for each ship destroyed."
@@ -8,7 +152,7 @@ StringInfo
 	Value "Subjugating Fear"
 StringInfo
 	ID "IDS_ABILITY_SUBJUGATINGASSAULT_DESCRIPTION"
-	Value "Enemies of the Unity fear us so much, their ship crews quake in terror, giving your weapons a chance cripple each target of your attacks."
+	Value "Enemies of the Unity quake in fear of it, granting your weapons a chance to cripple each target of your attacks."
 StringInfo
 	ID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
 	Value "Destroys target enemy frigate, cruiser, or structure, allowing the Titan to absorb its remaining hull, shields and antimatter."
@@ -17,7 +161,7 @@ StringInfo
 	Value "The Unfettered Path"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MOBILE_RULERSHIP_DESCRIPTION"
-	Value "Even without planets, you will remain undefeated until so long as you have even a single Titan, Starbase, or Capitalship."
+	Value "Even without planets, you will remain undefeated so long as you have even a single Titan, Starbase, or Capitalship."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_COWARDS_SUBMISSION_NAME"
 	Value "Coward's Punishment"
@@ -29,13 +173,13 @@ StringInfo
 	Value "Coward's Punishment"
 StringInfo
 	ID "IDS_ABILITY_COWARDSPUNISHMENT_DESCRIPTION"
-	Value "Enemies fleeing your Starbase have their max shield points permanently reduced (can stack 2 times)."
+	Value "Enemies fleeing your Starbase have their max shield points permanently reduced (stacks up to 2 times)."
 StringInfo
 	ID "IDS_PLANETBONUS_OLDBATTLEFIELD_NAME"
 	Value "Battlefield Scavenge"
 StringInfo
 	ID "IDS_PLANETBONUS_OLDBATTLEFIELD_DESC"
-	Value "Past battles around this planet have left countless ship husks and debris in orbit. Locals have long harvested and sold this. As its ruler you can now take advantage of this excellent source of valuable alloys."
+	Value "Past battles around this planet have left countless ship husks and debris in orbit. Locals have long harvested and sold this. As its ruler you can take advantage of this excellent source of valuable alloys."
 StringInfo
 	ID "IDS_ABILITY_DOMINATION_NAME"
 	Value "Unity's Battleship"
@@ -82,10 +226,10 @@ StringInfo
 	ID "IDS_ABILITY_DEPLOYSTARBASEPSI_DESC"
 	Value "Begins deployment of an Advent Starbase at the cruiser's present location. The cruiser is consumed in the process."
 StringInfo
-	ID "IDS_ABILITYCANNONMILITIAFREESHIPS_NAME"
+	ID "IDS_ABILITYTEMPFREESHIPS_NAME"
 	Value "Temporary Force"
 StringInfo
-	ID "IDS_ABILITYCANNONMILITIAFREESHIPS_DESC"
+	ID "IDS_ABILITYTEMPFREESHIPS_DESC"
 	Value "This ship only exists briefly and cannot Phase Jump."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_LIBERATED_RESISTANCE_DESCRIPTION"
@@ -155,7 +299,7 @@ StringInfo
 	Value "Ghosts of the Fallen"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RETURN_OF_THE_FALLEN_DESCRIPTION"
-	Value "The Unity is watched over by the ghosts of your fallen comrades, permanently increasing the power and durability of the survivors in a battle. Boosts weapon damage by 50% as well as raising shield mitigation, resistance to shield-skipping weapons, and max shield points."
+	Value "The Unity is watched over by the ghosts of your fallen comrades, permanently increasing the power and durability of the survivors in a battle. Boosts weapon damage by 50%, boosts resistance to shield-skipping weapons, and boosts max shield points."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_KILL_COUNT_NAME"
 	Value "First Blood"
@@ -236,58 +380,58 @@ StringInfo
 	Value "Phase Gates"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHREBEL_NAME"
-	Value "Rebel Faction Bonus"
+	Value "Rebel Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHREBEL_DESCRIPTION"
-	Value "Compared to their rival faction, the TEC Rebel faction has boosted experience gains for all capital ships and titans, their weapons' rate-of-fire is improved, and they can deploy their Starbases around enemy planets faster."
+	Value "TEC Rebels gain extra experience for their Capitalships and Titan, their ships are lighter and faster, and they can deploy their Starbases around enemy planets faster."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHLOYALIST_NAME"
-	Value "Loyalist Faction Bonus"
+	Value "Loyalist Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_TECHLOYALIST_DESCRIPTION"
-	Value "Compared to their rival faction, the TEC Loyalist faction can upgrade a planet's tactical slots for cheaper and faster, and their Starbases do more damage."
+	Value "TEC Loyalists can upgrade a planet's tactical slots for cheaper and faster, and their planets have an extra tactical slot."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL_NAME"
-	Value "Rebel Faction Bonus"
+	Value "Rebel Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSIREBEL_DESCRIPTION"
-	Value "Compared to their rival faction, Advent Rebel faction weapons do more damage, and they have increased antimatter reserves and regen."
+	Value "Advent Rebels have increased antimatter reserves and regen."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_NAME"
-	Value "Loyalist Faction Bonus"
+	Value "Loyalist Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_DESCRIPTION"
-	Value "Compared to their rival faction, the Advent Loyalist faction can upgrade their Starbases for a cheaper cost, their units have more hull points, and their culture can slow enemy shipbuilding rates."
+	Value "Advent Loyalists units have more better hulls, improved shield mitigation, and their culture can slow enemy shipbuilding rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
-	Value "Loyalist Faction Bonus"
+	Value "Loyalist Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_DESCRIPTION"
-	Value "Compared to their rival, the Vasari Loyalist faction have more hull and shield points, and their Phase Missiles have an increased chance to skip past enemy shields."
+	Value "Vasari Loyalists have better hulls and shields."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_NAME"
-	Value "Rebel Faction Bonus"
+	Value "Rebel Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_DESCRIPTION"
-	Value "Compared to their rival, the Vasari Rebel faction has an extra logistics slot around planets, plus much greater range on their Phase Missiles."
+	Value "Vasari Rebels have extra logistics slot at their colonies, improved Phase Missiles with longer range and a higher chance to skip enemy shields, and doing quests for other players improves relations with them faster."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_NAME"
-	Value "Advent Racial Bonus"
+	Value "Advent Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_DESCRIPTION"
-	Value "Compared to other races, the Advent have increased range for all weapons and boosted crystal income."
+	Value "The Advent have higher crystal income, boosted weapon ranges, and substantially higher ability ranges."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSTECH_NAME"
-	Value "TEC Racial Bonus"
+	Value "TEC Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSTECH_DESCRIPTION"
-	Value "Compared to other races, the TEC has increased rate-of-fire for all weapons and boosted metal income."
+	Value "The TEC has higher metal income. Pirates are less likely to attack them."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPHASE_NAME"
-	Value "Vasari Racial Bonus"
+	Value "Vasari Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPHASE_DESCRIPTION"
-	Value "Compared to other races, the Vasari have increased rate-of-fire and range for all weapons, boosted resource income, and faster inter-planet travel speeds."
+	Value "The Vasari have higher metal and crystal income and faster inter-planet travel speeds."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_HEAVYTECH_NAME"
 	Value "Heavy Cruiser Prototype"
@@ -445,17 +589,14 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CULTURECENTERPHASE_DESCRIPTION"
 	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
-	Value "This alien factory design can produce ships & modules faster than previously imaginable. Also increases your slots for factories."
-StringInfo
 	ID "IDS_ABILITY_DISINTEGRATION_DESCRIPTION"
 	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and antimatter. These gains are streamed back to the Battleship, replenishing it in turn."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CLEANSE_AND_RENEW_DESCRIPTION"
-	Value "The Unity's followers gain the ability to harness energy from the gravity wells of newly conquered planets. Temporarily boosts antimatter regen rates and weapon damage."
+	Value "The triumphant growth of the Unity produces a burst of energy when colonizing a planet, repairing ships in the gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ASSIMILATED_POPULACE_DESCRIPTION"
-	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting a newly-colonized planet's tax income by 20%. Vital for overcoming the Advent's otherwise weak economy."
+	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting a newly-colonized planet's development rate by 25%."
 StringInfo
 	ID "IDS_FRIGATE_TECHMODULECONSTRUCTOR_NAME"
 	Value "Constructor Ship"
@@ -509,16 +650,19 @@ StringInfo
 	Value "Spawns a Phase Gate module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
-	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 50% damage bonus to all ships present (or nearby) for the battle."
+	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 40% damage bonus to all ships present (or nearby) for the battle."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSIONTECH_NAME"
 	Value "Homeland Defense"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSIONTECH_DESCRIPTION"
-	Value "If you successfully stop an invasion of one of your planets, all units orbiting that planet and neighboring planets gain a permanent 50% damage bonus."
+	Value "If you successfully stop an invasion of one of your planets, all units orbiting that planet and neighboring planets gain a permanent 40% damage bonus."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_NAME"
+	Value "Survivor's Path"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
-	Value "Allows you to consume a planet once you scuttle it, stripping it of all natural resources to generate a huge amount of credits, metal, and crystal. The planet is transformed into a Stripped Asteroid. Furthermore, when you lose a planet—by your own hand or your enemies'—you gain a permanent 50% damage bonus. (NOTE: Scuttling a planet will only trigger the +50% damage bonus for units in orbit around the scuttled planet and adjacent to the scuttled planet. This is a limitation of the game engine.)"
+	Value "When you scuttle a planet you consume it, stripping it of all resources to generate a large amount of credits, metal, and crystal. The planet is reduced to a useless Stripped Asteroid. Furthermore, when you lose a planet—by your own hand or your enemies'—you gain a permanent +40% damage bonus and +2.5% shield mitigation bonus."
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
 	Value "As the Titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."
@@ -548,7 +692,7 @@ StringInfo
 	Value "Advancements in training simulations developed for future Titan crews benefit the rest of your fleet, enabling you to purchase higher Capitalship levels."
 StringInfo
 	ID "IDS_SUPPORTABILITY_REVENGEFROMBEYOND_DESCRIPTION"
-	Value "If this ship dies, the Unity will wreak vengeance on a random enemy capitalship, instantly destroying it."
+	Value "If this ship dies, the Unity will wreak vengeance and instantly destroy a random enemy Capitalship and two enemy frigates or cruisers."
 StringInfo
 	ID "IDS_ABILITY_CLONEFRIGATE_NAME"
 	Value "Clone Forces"
@@ -614,7 +758,7 @@ StringInfo
 	Value "Death Rites"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_DESCRIPTION"
-	Value "The Unity's death rites empower the survivors of a battle to grow stronger from a fallen enemy, activating a 50% damage buff."
+	Value "The Unity's death rites empower the survivors of a battle to grow stronger from a fallen enemy, activating a permanent 50% damage boost and 4% shield mitigation boost for all your units present in the gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1_DESCRIPTION"
 	Value "Grants access to the Titan Foundry and allows you to begin construction on the Eradica Titan, a massive warship of immense power. This Titan manipulates life and death, and brainwashes its enemies into switching sides."
@@ -713,7 +857,7 @@ StringInfo
 	Value "Energy Mastery"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONFINALPSI_DESCRIPTION"
-	Value "Necessity and desperation for victory fuel further improvements in all forms of energy use. Increases damage of all main Advent weapon types, improves shield points, shield regen, & shield mitigation, and boosts antimatter & antimatter regen."
+	Value "Necessity and desperation for victory fuel further improvements in all forms of energy use. Increases damage of all weapon types, improves shield points, shield regen, & shield mitigation, and boosts antimatter & antimatter regen."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONCOOLDOWN_PLASMA2_NAME"
 	Value "Rapid Plasma Generation"
@@ -761,13 +905,13 @@ StringInfo
 	Value "Advanced Nano-Lattice Hulls"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SPEEDBOOSTARMOR2_DESCRIPTION"
-	Value "Advanced nanotechnology enables ship hulls to be just as strong while significantly decreasing their mass."
+	Value "Advanced nanotechnology enables ship hulls to be stronger while significantly decreasing their mass."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SPEEDBOOSTARMOR_NAME"
 	Value "Nano-Lattice Hulls"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SPEEDBOOSTARMOR_DESCRIPTION"
-	Value "Nanotechnology enables ship hulls to be just as strong while significantly decreasing their mass."
+	Value "Nanotechnology enables ship hulls to be stronger while significantly decreasing their mass."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASEREBEL_1_NAME"
 	Value "Kultorask Prototype I"
@@ -779,19 +923,19 @@ StringInfo
 	Value "Soft Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a 50% damage bonus for 3 minutes. Also boosts armor & shield mitigation for the same period."
+	Value "Upon completing a phase jump, your ships and starbases receive a 50% damage bonus for 160 seconds (a little over 2 minutes). Also boosts shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_NAME"
 	Value "Hard Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 6 minutes. Stacks with Soft Phasic Strike for a total bonus of 100%. Also boosts armor & shield mitigation for the same period."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 320 seconds (a bit over 5 minutes). Stacks with Soft Phasic Strike for a total bonus of 100%. Also boosts shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_NAME"
 	Value "Combined Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 9 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 150% for 3 minutes, 100% for 6 minutes, and 50% for 9 minutes. Also boosts armor & shield mitigation for the same period."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 8 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 150% for 160 seconds, 100% for 320 seconds, and 50% for 480 seconds. Also boosts shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_JUMPBLOCKERIMMUNEPHASE_NAME"
 	Value "Jump Blocker Immunity"
@@ -803,73 +947,73 @@ StringInfo
 	Value "Jump Drive Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_DESCRIPTION"
-	Value "Rediscovered jump-drive technology increases travel speed between stars. The drive is unusually light & reduces ship mass."
+	Value "This ancient, powerful relic contains highly advanced jump drive designs. Greatly increases Phase speeds and allows your ships to use wormholes and travel between stars."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_NAME"
-	Value "Resilient Metaloids"
+	Value "Alien Metaloids"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_DESCRIPTION"
-	Value "A new compound grants faster hull regen & higher armor when incorporated into hull plating."
+	Value "This ancient, powerful relic manufactures exotic materials that improve your hulls."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_NAME"
-	Value "Phase Accelerator"
+	Value "Exotic Engine Design"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_DESCRIPTION"
-	Value "Rediscovered jump-drive technology lets your ships begin a phase jump more quickly."
+	Value "This ancient, powerful relic contains designs for exotic ship engines, increasing your ships' speed and reducing their mass."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_NAME"
 	Value "Power Core Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_DESCRIPTION"
-	Value "Remnants of an ancient race, this relic increases antimatter capacity & regeneration."
+	Value "This ancient, powerful relic greatly increases antimatter capacity & regeneration."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_NAME"
 	Value "Ion Field Generator"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_DESCRIPTION"
-	Value "A planet-wide system emits energy particles into the sky, reducing bombardment power. Also reduces bombing range."
+	Value "This ancient, powerful relic emits a strange field that protects your planet, reducing the damage your planets take from bombardment and creating room for more tactical structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_NAME"
-	Value "Planetary Organic AI"
+	Value "Artificial Intelligence"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_DESCRIPTION"
-	Value "A cybernetic A.I. manages the population development of your planets, raising population, growth, & tax rates."
+	Value "This ancient, powerful relic houses an Artificial Intelligence that more effectively manages your economy, boosting tax income and trade income while reducing the income lost from expanding your fleet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_NAME"
 	Value "Data Archive"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_DESCRIPTION"
-	Value "This ancient archive contains half-completed technologies that are eerily similiar to your own, reducing research time & cost."
+	Value "This ancient, powerful relic contains a partial archive of technologies that are eerily similiar to your own, reducing research time & cost."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_NAME"
-	Value "Relativistic Factories"
+	Value "Construction Time Compressor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
-	Value "This alien factory design can produce ships & modules faster than previously imaginable. Also raises your logistics slots."
+	Value "This ancient, powerful relic contains an alien factory design that can build ships, structures, and develop planets faster than previously imaginable. Also makes certain structures have zero construction cost."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
 	Value "Manifest Dominion"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_DESCRIPTION"
-	Value "Ancient documents prophesize your empire will conquer the galaxy. Raises culture rates, resistance to enemy culture, & foreign relations."
+	Value "Ancient documents prophesize your empire will conquer the galaxy. Boosts culture rate, resistance to enemy culture, and planets' allegiance cap. Also makes Culture Centers have zero construction costs."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_NAME"
 	Value "Matter Compressor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_DESCRIPTION"
-	Value "This relic can physically compress matter into a smaller space. Increases the trade goods your cargo ships can carry."
+	Value "This ancient, powerful relic contains technology that increases your metal and crystal extraction rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_NAME"
 	Value "Kinetic Intensifier"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_DESCRIPTION"
-	Value "Powerful accelerator technology slightly increases the range and damage of all weapons."
+	Value "This ancient, powerful relic contains accelerator technology that increases the damage and range of your weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_NAME"
 	Value "Jump Field Generator"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_DESCRIPTION"
-	Value "This relic reduces the antimatter cost of Phase Jumps. Also allows ships to exit closer to planets & travel through Wormholes."
+	Value "This ancient, powerful relic greatly affects Phase Jump entries and exits. It makes your ships immune to enemy Phase Jump Disruptors and protects you from Starbase Phase Destabilization. It reduces Phase Jump charge time, antimatter cost, and allows ships to enter and exit Phase Space closer to the center of gravity wells."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DEPLOYSTARBASEPHASE_NAME"
 	Value "Starbase Assembly"
@@ -923,22 +1067,22 @@ StringInfo
 	Value "Solitary Path"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SOLITARY_PATH_DESCRIPTION"
-	Value "Your units gain a 50% damage bonus when they're in a neutral or uncolonizable gravity well."
+	Value "Your units gain a +40% damage bonus and a +2.5% shield mitigation bonus when they're in a neutral or uncolonizable gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE0_NAME"
-	Value "Culture Subjugation 1"
+	Value "Cultural Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE0_DESCRIPTION"
 	Value "Domestic suppression forces are deployed to monitor behavior and silence criticism of your empire, giving an impression of support for your empire's occupation."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE1_NAME"
-	Value "Culture Subjugation 2"
+	Value "Cultural Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE1_DESCRIPTION"
 	Value "Traitors from the enslaved populace infiltrate many remaining resistance movements and subvert their efforts to promote discontent of your empire."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE2_NAME"
-	Value "Culture Subjugation 3"
+	Value "Cultural Subjugation 3"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE2_DESCRIPTION"
 	Value "Further increases the power and effects of your culture on your empire's planets and ships."
@@ -1181,7 +1325,7 @@ StringInfo
 	Value "Weapons Mastery"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONFINALPHASE_DESCRIPTION"
-	Value "Necessity and desperation for victory fuel further improvements in weapons. Increases damage of all main Vasari weapon types."
+	Value "Necessity and desperation for victory fuel further improvements in weapons. Increases damage of all weapon types."
 StringInfo
 	ID "IDS_ABILITY_FLEETBEACON_NAME"
 	Value "Summon Frigate Fleet"
@@ -1220,7 +1364,7 @@ StringInfo
 	Value "A mighty warship that draws power from the ships around it to deal massive damage to its enemies."
 StringInfo
 	ID "IDS_TITAN_PSIREBEL_DESCRIPTION"
-	Value "An extremely powerful support ship that can manipulate the tide of battle and seize control of enemy ships, and heal itself by sacrificing friendly ships."
+	Value "A fearful warship that draws power from death, healing itself and growing stronger from the lives it harvests."
 StringInfo
 	ID "IDS_TITAN_PHASEREBEL_DESCRIPTION"
 	Value "An extremely powerful warship capable of quick movements and inflicting area of effect damage to enemies."
@@ -1391,7 +1535,7 @@ StringInfo
 	Value "Enduring Spirit"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_A_PLANET_DESCRIPTION"
-	Value "The Unity grows stronger over the course of a battle. Grants a +50% damage bonus two minutes after entering a gravity well."
+	Value "The Unity grows stronger over the course of a battle. Grants a +50% damage bonus and a +4% shield mitigation bonus 2.5 minutes after entering a gravity well. The effect dissipates when an invasion has been successfully repelled."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPPHASE_NAME"
 	Value "Unstoppable Scouting"
@@ -1622,7 +1766,7 @@ StringInfo
 	Value "Advanced Weapons Development"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONFINALTECH_DESCRIPTION"
-	Value "Funds further research into fine tuning and optimizing weapon systems. Increases damage of all main TEC weapon types."
+	Value "Funds further research into fine tuning and optimizing weapon systems. Increases damage of all weapon types."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HEALTHFINALTECH_NAME"
 	Value "Advanced Survival Development"
@@ -1904,7 +2048,7 @@ StringInfo
 	Value "Arctic"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetMountains"
-	Value "Mountainous"
+	Value "Alpine"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetRockGiant"
 	Value "Rock Giant"
@@ -2165,7 +2309,7 @@ StringInfo
 	Value "Special Combat Capital"
 StringInfo
 	ID "IDS_CAPITALSHIP_PSISPECIALCOMBATREBEL_DESCRIPTION"
-	Value "A warship with no conventional weapons, it carries powerful abilities that let it temporarily conjure other ships onto the battlefield. The firepower it brings far exceeds other Capitalships. However, it's relatively fragile, and when low on antimatter it becomes essentially useless."
+	Value "A warship with no conventional weapons, its abilities let it summon extra ships to the battlefield. In theory this outstrips any other Capitalship's firepower. However, it is relatively fragile, and when low on antimatter it's essentially useless. A poor choice of Capitalship in the early-game, due to its slow ability cooldowns and lack of weapons."
 StringInfo
 	ID "IDS_CAPITALSHIP_PSISPECIALCOMBATLOYALIST_DESCRIPTION"
 	Value "A tough warship designed to be sent into the midst of enemy fleets to weaken them with its abilities, and survive long enough to do it again. Equal in firepower, hull, and shields to the regular Battleship."
@@ -2366,10 +2510,10 @@ StringInfo
 	Value "Fire Siege Superweapon"
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNON_DESC"
-	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 90 seconds. (After which, enemy ships are immune to further EMP bursts for 60 seconds.)"
+	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 60 seconds (after which enemy ships are immune to further EMP bursts for 120 seconds)."
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNONREBEL_DESC"
-	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 90 seconds. As the TEC Rebel faction, this will also inspire an uprising of friendly ships around the target planet."
+	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 60 seconds. As the TEC Rebel faction, this will also inspire an uprising of friendly ships around the target planet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH_NAME"
 	Value "Superweapon Prototype"
@@ -2795,10 +2939,10 @@ StringInfo
 	Value "This planet contains an unusually large amount and variety of resources. Grants bonuses to trade income, crystal production, metal production, and population growth rate."
 StringInfo
 	ID "IDS_PLANETBONUS_ANCIENTTRADEROUTES_NAME"
-	Value "Ancient Trade Routes"
+	Value "Nearby Trade Routes"
 StringInfo
 	ID "IDS_PLANETBONUS_ANCIENTTRADEROUTES_DESC"
-	Value "This planet lies along ancient, still-used trade routes. Grants bonuses to trade income and logistics slots."
+	Value "This planet lies close to well-used trade routes. Grants bonuses to trade income and logistics slots."
 StringInfo
 	ID "IDS_PLANETBONUS_BARREN_NAME"
 	Value "Barren Planet"
@@ -2912,7 +3056,7 @@ StringInfo
 	Value "Loyal Government"
 StringInfo
 	ID "IDS_PLANETBONUS_LOYALGOVERNMENT_DESC"
-	Value "This planet is very loyal to your empire. Grants bonuses to tax income and max allegience, and allows you to build more tactical structures."
+	Value "This planet is very loyal to your empire, boosting its max allegiance."
 StringInfo
 	ID "IDS_PLANETBONUS_METALBONANZA_NAME"
 	Value "Metal Bonanza"
@@ -3044,7 +3188,7 @@ StringInfo
 	Value "Rock Giant Planet"
 StringInfo
 	ID "IDS_PLANETTYPE_MOUNTAINS"
-	Value "Mountainous Planet"
+	Value "Alpine Planet"
 StringInfo
 	ID "IDS_PLANETTYPE_INDUSTRIAL"
 	Value "Industrial Planet"

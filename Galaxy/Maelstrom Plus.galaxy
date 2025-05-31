@@ -7,7 +7,7 @@ browseName "Maelstrom Plus"
 browseDescription "Race to establish your empire's presence in one of the many arcs of the Matar system. All paths lead to Matar... or do they? This is a slightly larger version of the regular Maelstrom map."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

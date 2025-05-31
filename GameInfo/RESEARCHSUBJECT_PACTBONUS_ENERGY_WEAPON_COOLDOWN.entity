@@ -29,43 +29,15 @@ Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 0
-researchFloatModifiers 7
+researchBoolModifiers 1
 researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "LASERPSI"
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffPactAbilities"
+researchFloatModifiers 1
 researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
+	modifierType "WeaponTargetsPerBankAdjustmentCapitalShipsOrStarbases"
 	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "PLASMA"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "BEAM"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "WAVE"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "PULSEGUN"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "FLASHBEAM"
-researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedWeaponClass "LASERTECH"
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

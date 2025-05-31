@@ -37,7 +37,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "WeaponDamageAdjustmentForEachAlliedPlayerInGravityWell"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.150000
 	linkedWeaponClass "Invalid"
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

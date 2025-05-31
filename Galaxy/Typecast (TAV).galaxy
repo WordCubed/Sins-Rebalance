@@ -7,7 +7,7 @@ browseName "Typecast (TEC-Advent-Vasari)"
 browseDescription "These 6 stars are each tailored for a specific race. Act quickly to solidify your grasp over your home system before war comes. This map slots players into positions favoring, in order: TEC, Advent, then Vasari. (This pattern is repeated for the next 3.)"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

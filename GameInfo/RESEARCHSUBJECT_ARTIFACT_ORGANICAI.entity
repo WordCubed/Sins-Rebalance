@@ -36,14 +36,13 @@ researchModifier
 	baseValue 0.000000
 	perLevelValue 0.200000
 researchModifier
-	modifierType "PopulationGrowthRateAdjustment"
+	modifierType "TradeGoodsValueAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.500000
+	perLevelValue 0.200000
 researchModifier
-	modifierType "PlanetPopulationCapAdjustment"
+	modifierType "IncomePercLost"
 	baseValue 0.000000
-	perLevelValue 0.100000
-	linkedPlanetType "Invalid"
+	perLevelValue -0.200000
 artifactPicture "ArtifactPictureOrganicAI"
 uniqueOverlayBrush ""
 dlcId 204880

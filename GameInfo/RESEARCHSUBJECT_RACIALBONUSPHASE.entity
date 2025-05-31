@@ -30,11 +30,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 5
-researchModifier
-	modifierType "HyperspaceInSystemSpeedAdjustment"
-	baseValue 1.000000
-	perLevelValue 0.000000
+researchFloatModifiers 3
 researchModifier
 	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.050000
@@ -44,15 +40,9 @@ researchModifier
 	baseValue 0.050000
 	perLevelValue 0.000000
 researchModifier
-	modifierType "WeaponRateOfFireAdjustment"
-	baseValue 0.050000
+	modifierType "HyperspaceInSystemSpeedAdjustment"
+	baseValue 0.500000
 	perLevelValue 0.000000
-	linkedWeaponClass "Invalid"
-researchModifier
-	modifierType "WeaponRangeAdjustment"
-	baseValue 0.100000
-	perLevelValue 0.000000
-	linkedWeaponClass "Invalid"
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

@@ -5,7 +5,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-autoJoinFleetDefault TRUE
+autoJoinFleetDefault FALSE
 canBomb FALSE
 typeCount 1
 frigateRoleType "AntiFighter"
@@ -20,7 +20,7 @@ basePrice
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 6.000000
+BuildTime 8.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 80.000000
 MaxHullPoints 2000.000000
@@ -28,7 +28,7 @@ MaxShieldPoints 1000.000000
 HullPointRestoreRate 4.166667
 ShieldPointRestoreRate 4.166667
 BaseArmorPoints 10.000000
-maxMitigation 0.500000
+maxMitigation 0.470000
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -142,7 +142,7 @@ EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 ""
 ability:1 ""
 ability:2 ""
-ability:3 "AbilityCannonMilitiaFreeShips"
+ability:3 "AbilityTempFreeShips"
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

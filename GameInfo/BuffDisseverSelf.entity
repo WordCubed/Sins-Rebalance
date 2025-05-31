@@ -28,10 +28,10 @@ instantAction
 		numConstraints 1
 		constraint "NotSelf"
 	range
-		Level:0 5000.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 6250.000000
+		Level:1 6250.000000
+		Level:2 6250.000000
+		Level:3 6250.000000
 	maxTargetCount
 		Level:0 10.000000
 		Level:1 10.000000

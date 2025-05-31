@@ -7,7 +7,7 @@ browseName "Desperation (Rebalance)"
 browseDescription "With nothing but a single Barren planet and your homeworld to call your own, you are forced by desperation to take planets from your enemies. Don't let your desperation get the best of you."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 1.000000
+planetArtifactDensity 0.333333
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

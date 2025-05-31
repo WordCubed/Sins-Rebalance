@@ -33,16 +33,20 @@ researchBoolModifiers 2
 researchModifier
 	modifierType "AllowGalaxyTravel"
 researchModifier
-	modifierType "JumpBlockerImmune"
-researchFloatModifiers 2
+	modifierType "AllowWormHoleTravel"
+researchFloatModifiers 3
+researchModifier
+	modifierType "HyperspaceInSystemSpeedAdjustment"
+	baseValue 0.000000
+	perLevelValue 9.000000
+researchModifier
+	modifierType "HyperspaceSpeedPhaseGateAdjustment"
+	baseValue 0.000000
+	perLevelValue 9.000000
 researchModifier
 	modifierType "HyperspaceBetweenSystemSpeedAdjustment"
 	baseValue 0.000000
-	perLevelValue 1.000000
-researchModifier
-	modifierType "MassReduction"
-	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 9.000000
 artifactPicture "ArtifactPictureGalaxyTravel"
 uniqueOverlayBrush ""
 dlcId 204880

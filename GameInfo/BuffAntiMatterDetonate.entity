@@ -32,10 +32,9 @@ instantAction
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 5
+		numObjects 4
 		object "Frigate"
 		object "CapitalShip"
-		object "Titan"
 		object "PlanetModule"
 		object "StarBase"
 		numSpaces 1

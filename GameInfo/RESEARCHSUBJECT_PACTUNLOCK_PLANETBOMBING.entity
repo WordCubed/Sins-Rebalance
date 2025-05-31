@@ -8,7 +8,7 @@ NameStringID "IDS_RESEARCHSUBJECT_PACT_PLANETBOMBING_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PACT_PLANETBOMBING_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 5 , 1 ]
+	pos [ 6 , 1 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -18,17 +18,17 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 60.000000
+BaseUpgradeTime 80.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
-	credits 1200.000000
-	metal 150.000000
-	crystal 300.000000
+	credits 1600.000000
+	metal 200.000000
+	crystal 400.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 5
+Tier 6
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000

@@ -7,7 +7,7 @@ browseName "High Stakes (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_HIGHSTAKES"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 2.000000
+planetArtifactDensity 0.500000
 planetBonusDensity 2.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

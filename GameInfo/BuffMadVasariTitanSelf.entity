@@ -14,25 +14,25 @@ instantAction
 	instantActionTriggerType "OnHyperspaceExit"
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 240.000000
-		maxFleetPoints 240.000000
+		minFleetPoints 256.000000
+		maxFleetPoints 256.000000
 		requiredShipCount 0
 		randomShipCount 5
 		randomShip
 			type "FrigatePhaseHeavy"
-			weight 4
+			weight 2
 		randomShip
 			type "FrigatePhaseCarrier"
-			weight 4
+			weight 1
 		randomShip
 			type "FrigatePhaseUtility0"
-			weight 4
+			weight 1
 		randomShip
 			type "FrigatePhaseUtility1"
-			weight 4
+			weight 2
 		randomShip
 			type "FrigatePhaseMineLayer"
-			weight 4
+			weight 2
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
 	shouldAdoptFirstSpawnersMinorFactionState TRUE
@@ -42,7 +42,7 @@ instantAction
 	buffInstantActionType "GiveExperience"
 	instantActionTriggerType "OnDelay"
 	delayTime 10.000000
-	experienceToGive 6000.000000
+	experienceToGive 5000.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

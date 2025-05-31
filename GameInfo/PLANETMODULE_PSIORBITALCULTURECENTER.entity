@@ -2,7 +2,7 @@ TXT2
 SinsArchiveVersion 194
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.250000
-ability:0 "AbilityWailOfTheSacrificed"
+ability:0 ""
 ability:1 ""
 ability:2 ""
 ability:3 ""
@@ -38,7 +38,7 @@ HullPointRestoreRate 6.250000
 BaseArmorPoints 10.000000
 MaxShieldPoints 6000.000000
 ShieldPointRestoreRate 25.000000
-maxShieldMitigation 0.500000
+maxShieldMitigation 0.470000
 ExperiencePointsForDestroying 200.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 1.000000

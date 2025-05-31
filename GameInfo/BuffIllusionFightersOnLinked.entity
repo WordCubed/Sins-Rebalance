@@ -15,9 +15,9 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "ChanceToHitAsDamageTarget"
 	value
-		Level:0 -0.333333
-		Level:1 -0.500000
-		Level:2 -0.666667
+		Level:0 -0.400000
+		Level:1 -0.600000
+		Level:2 -0.800000
 		Level:3 0.000000
 numEntityBoolModifiers 0
 numFinishConditions 1

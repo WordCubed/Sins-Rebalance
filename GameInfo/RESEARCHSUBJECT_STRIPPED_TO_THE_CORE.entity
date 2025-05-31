@@ -8,12 +8,12 @@ NameStringID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 7 , 0 ]
+	pos [ 7 , 2 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_SHIPBOARD_LABS_2"
+		Subject "RESEARCHSUBJECT_SHIPBOARD_LABS"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -32,7 +32,7 @@ Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 3
+researchBoolModifiers 4
 researchModifier
 	modifierType "StripPlanetsOnScuttle"
 researchModifier
@@ -40,7 +40,10 @@ researchModifier
 	buffToApply "BuffStrippedToTheCoreSelf"
 researchModifier
 	modifierType "ApplyBuffToAllOwnedShipsWhenOwnedPlanetFalls"
-	buffToApply "BuffPlanetLoss"
+	buffToApply "BuffPlanetLossEffect"
+researchModifier
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffPlanetLossCaster"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

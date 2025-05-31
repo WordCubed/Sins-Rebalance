@@ -41,8 +41,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITYCANNONMILITIAFREESHIPS_NAME"
-descStringID "IDS_ABILITYCANNONMILITIAFREESHIPS_DESC"
+nameStringID "IDS_AbilityTempFreeShips_NAME"
+descStringID "IDS_AbilityTempFreeShips_DESC"
 hudIcon "HUDICON_RESEARCHSUBJECT_LIBERATEDRESISTANCE"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_LIBERATEDRESISTANCE"
 infoCardIcon ""

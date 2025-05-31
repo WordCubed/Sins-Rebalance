@@ -20,7 +20,7 @@ basePrice
 	credits 600.000000
 	metal 120.000000
 	crystal 60.000000
-slotCount 1.000000
+slotCount 0.000000
 BuildTime 30.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
@@ -29,7 +29,7 @@ MaxShieldPoints 500.000000
 HullPointRestoreRate 2.083333
 ShieldPointRestoreRate 2.083333
 BaseArmorPoints 15.000000
-maxMitigation 0.600000
+maxMitigation 0.530000
 relationshipChangeRate 0.002083
 Prerequisites
 	NumResearchPrerequisites 1

@@ -32,19 +32,19 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
+	modifierType "PlanetSlotsTacticalIncrease"
+	baseValue 1.000000
+	perLevelValue 0.000000
+researchModifier
 	modifierType "PlanetUpgradeCostAdjustment"
 	baseValue 0.200000
 	perLevelValue 0.000000
 	linkedPlanetUpgradeType "TacticalModules"
 researchModifier
 	modifierType "PlanetUpgradeBuildRateAdjustment"
-	baseValue 1.000000
+	baseValue 0.600000
 	perLevelValue 0.000000
 	linkedPlanetUpgradeType "TacticalModules"
-researchModifier
-	modifierType "StarBaseWeaponDamageAdjustment"
-	baseValue 0.150000
-	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

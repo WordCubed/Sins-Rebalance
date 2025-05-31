@@ -14,24 +14,6 @@ targetFilter
 	constraint "IsExplored"
 spawnShipsLevelCount 3
 spawnShips
-	minFleetPoints 16.000000
-	maxFleetPoints 16.000000
-	requiredShipCount 1
-	requiredShip
-		type "FrigateTechAntiModule"
-		minCount 2
-		maxCount 2
-	randomShipCount 0
-spawnShips
-	minFleetPoints 32.000000
-	maxFleetPoints 32.000000
-	requiredShipCount 1
-	requiredShip
-		type "FrigateTechAntiModule"
-		minCount 4
-		maxCount 4
-	randomShipCount 0
-spawnShips
 	minFleetPoints 64.000000
 	maxFleetPoints 64.000000
 	requiredShipCount 1
@@ -39,6 +21,24 @@ spawnShips
 		type "FrigateTechAntiModule"
 		minCount 8
 		maxCount 8
+	randomShipCount 0
+spawnShips
+	minFleetPoints 96.000000
+	maxFleetPoints 96.000000
+	requiredShipCount 1
+	requiredShip
+		type "FrigateTechAntiModule"
+		minCount 12
+		maxCount 12
+	randomShipCount 0
+spawnShips
+	minFleetPoints 128.000000
+	maxFleetPoints 128.000000
+	requiredShipCount 1
+	requiredShip
+		type "FrigateTechAntiModule"
+		minCount 16
+		maxCount 16
 	randomShipCount 0
 spawnShipsArrivalDelayTime 7.000000
 spawnShipsHyperspaceSpawnType "MinorFactionAntiModuleRaid"

@@ -5,8 +5,8 @@ buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
-	minFleetPoints 224.000000
-	maxFleetPoints 224.000000
+	minFleetPoints 240.000000
+	maxFleetPoints 240.000000
 	requiredShipCount 6
 	requiredShip
 		type "CAPITALSHIP_PHASECOLONY"
@@ -17,13 +17,13 @@ spawnShips
 		minCount 2
 		maxCount 2
 	requiredShip
-		type "CAPITALSHIP_PHASESCOUT"
-		minCount 2
-		maxCount 2
-	requiredShip
 		type "CAPITALSHIP_PHASEBATTLESHIP"
-		minCount 2
-		maxCount 2
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "CAPITALSHIP_PHASESCOUT"
+		minCount 1
+		maxCount 1
 	requiredShip
 		type "CAPITALSHIP_PHASESIEGE"
 		minCount 1

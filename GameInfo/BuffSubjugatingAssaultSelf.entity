@@ -42,9 +42,7 @@ instantAction
 		object "Corvette"
 		numSpaces 1
 		space "Normal"
-		numConstraints 2
-		constraint "IsControllable"
-		constraint "NotFlagship"
+		numConstraints 0
 instantAction
 	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
 	instantActionTriggerType "OnWeaponFired"
@@ -62,12 +60,12 @@ instantAction
 		numOwnerships 1
 		ownership "Enemy"
 		numObjects 2
-		object "Fighter"
-		object "Corvette"
+		object "Frigate"
+		object "PlanetModule"
 		numSpaces 1
 		space "Normal"
 		numConstraints 2
-		constraint "IsControllable"
+		constraint "HasWeapons"
 		constraint "NotFlagship"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
@@ -89,8 +87,7 @@ instantAction
 		object "CapitalShip"
 		numSpaces 1
 		space "Normal"
-		numConstraints 2
-		constraint "IsControllable"
+		numConstraints 1
 		constraint "NotFlagship"
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
@@ -123,6 +120,13 @@ entityModifier
 		Level:2 0.250000
 		Level:3 0.000000
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 45.000000
+		Level:2 60.000000
+		Level:3 0.000000
 finishCondition
 	finishConditionType "AntiMatterDepleted"

@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 1
 nameStringID "IDS_PLANETBONUS_VACATIONDESTINATION_NAME"
 descStringID "IDS_PLANETBONUS_VACATIONDESTINATION_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.200000
-floatBonus:AdditivePopulation 20.000000
+floatBonus:AdditivePopulation 24.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000

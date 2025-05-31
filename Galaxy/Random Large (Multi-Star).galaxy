@@ -6,7 +6,7 @@ browseName "Random Large (Multi-Star)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMLARGEMULTI"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.6
+planetArtifactDensity 0.25
 planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

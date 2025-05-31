@@ -32,16 +32,16 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
-	modifierType "StarBaseUpgradeCostAdjustment"
-	baseValue -0.200000
-	perLevelValue 0.000000
-researchModifier
 	modifierType "HullPointsMaxAdjustment"
 	baseValue 0.200000
 	perLevelValue 0.000000
 researchModifier
+	modifierType "ShieldMaxMitigationAdjustment"
+	baseValue 0.035000
+	perLevelValue 0.000000
+researchModifier
 	modifierType "CultureEnemyBuildRateAdjustment"
-	baseValue -3.000000
+	baseValue -4.000000
 	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""

@@ -32,10 +32,7 @@ Tier 1
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 2
-researchModifier
-	modifierType "ApplyBuffToPlanetAfterPlayerDestroys"
-	buffToApply "BuffCleanseAndRenew"
+researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToPlanetAfterColonization"
 	buffToApply "BuffCleanseAndRenew"

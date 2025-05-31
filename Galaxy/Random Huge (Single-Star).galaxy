@@ -6,7 +6,7 @@ browseName "Random Huge (Single-Star)"
 browseDescription "The galaxy is a big place. Up to 8 other empires exist in one huge solar system. Can you dominate them all? This map is randomly generated each time it is played."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.6
+planetArtifactDensity 0.25
 planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

@@ -7,7 +7,7 @@ browseName "Razor's Edge (Rebalance)"
 browseDescription "Two coalitions of empires occupy opposite arms of the Aludra system. Rally your ally and spearhead an assault through the narrow central corridor for victory."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

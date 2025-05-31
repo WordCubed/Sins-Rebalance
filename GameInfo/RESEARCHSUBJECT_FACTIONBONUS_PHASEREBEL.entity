@@ -30,16 +30,25 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 4
 researchModifier
 	modifierType "PlanetSlotsCivilianIncrease"
 	baseValue 1.000000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "WeaponRangeAdjustment"
-	baseValue 0.400000
+	baseValue 1.000000
 	perLevelValue 0.000000
 	linkedWeaponClass "PHASEMISSILE"
+researchModifier
+	modifierType "WeaponIgnoresShieldsAdjustment"
+	baseValue 0.050000
+	perLevelValue 0.000000
+	linkedWeaponClass "PHASEMISSILE"
+researchModifier
+	modifierType "QuestRewardHappinessAdjustment"
+	baseValue 0.300000
+	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

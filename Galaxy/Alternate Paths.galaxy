@@ -7,7 +7,7 @@ browseName "Alternate Paths"
 browseDescription "Normally, the only path to assault another solar system is through the star. But in this cluster of stars, you have... alternatives."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

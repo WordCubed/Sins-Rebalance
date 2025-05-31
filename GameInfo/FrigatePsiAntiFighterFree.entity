@@ -28,7 +28,7 @@ MaxShieldPoints 2000.000000
 HullPointRestoreRate 2.083333
 ShieldPointRestoreRate 8.333333
 BaseArmorPoints 10.000000
-maxMitigation 0.500000
+maxMitigation 0.470000
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -142,7 +142,7 @@ EngineSoundID "ENGINE_PSICAPITALSHIP"
 ability:0 ""
 ability:1 ""
 ability:2 ""
-ability:3 "AbilityCannonMilitiaFreeShips"
+ability:3 "AbilityTempFreeShips"
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

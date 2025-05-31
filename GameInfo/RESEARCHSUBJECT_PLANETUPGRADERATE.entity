@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "PlanetUpgradeCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.800000
+	perLevelValue 0.600000
 	linkedPlanetUpgradeType "CivilianModules"
 artifactPicture ""
 uniqueOverlayBrush ""

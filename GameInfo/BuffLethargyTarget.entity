@@ -26,16 +26,16 @@ numEntityModifiers 4
 entityModifier
 	buffEntityModifierType "AbilityCooldownRate"
 	value
-		Level:0 -0.250000
-		Level:1 -0.333333
-		Level:2 -0.500000
+		Level:0 -0.500000
+		Level:1 -0.750000
+		Level:2 -1.000000
 		Level:3 -0.000000
 entityModifier
 	buffEntityModifierType "WeaponCooldown"
 	value
-		Level:0 0.125000
-		Level:1 0.187500
-		Level:2 0.250000
+		Level:0 0.500000
+		Level:1 0.750000
+		Level:2 1.000000
 		Level:3 0.000000
 entityModifier
 	buffEntityModifierType "LinearMaxSpeed"
@@ -56,9 +56,9 @@ numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 15.000000
-		Level:1 15.000000
-		Level:2 15.000000
-		Level:3 15.000000
+		Level:0 24.000000
+		Level:1 24.000000
+		Level:2 24.000000
+		Level:3 24.000000
 finishCondition
 	finishConditionType "OwnerChanged"

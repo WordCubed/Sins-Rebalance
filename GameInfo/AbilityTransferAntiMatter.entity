@@ -19,7 +19,7 @@ targetFilter
 	constraint "HasAntiMatterShortage"
 	constraint "NotSelf"
 range
-	Level:0 5000.000000
+	Level:0 6800.000000
 	Level:1 0.000000
 	Level:2 0.000000
 	Level:3 0.000000

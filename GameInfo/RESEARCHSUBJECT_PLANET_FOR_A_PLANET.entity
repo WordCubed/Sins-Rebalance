@@ -32,10 +32,13 @@ Tier 6
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 1
+researchBoolModifiers 2
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
 	buffToApply "BuffEnduringSpiritSelf"
+researchModifier
+	modifierType "ApplyBuffToOwnedPlanetAfterLastEnemyShipLeavesOrDies"
+	buffToApply "BuffEnduringSpiritRemoveCaster"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

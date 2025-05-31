@@ -39,7 +39,7 @@ researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
-	baseValue 2.000000
+	baseValue 0.250000
 	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""

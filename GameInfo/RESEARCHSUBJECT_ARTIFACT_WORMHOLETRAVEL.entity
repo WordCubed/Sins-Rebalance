@@ -29,18 +29,24 @@ Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 1
+researchBoolModifiers 2
 researchModifier
-	modifierType "AllowWormHoleTravel"
-researchFloatModifiers 2
+	modifierType "JumpBlockerImmune"
 researchModifier
-	modifierType "HyperspaceAntimatterCostAdjustment"
-	baseValue 0.000000
-	perLevelValue -0.500000
+	modifierType "DestabilizationProtection"
+researchFloatModifiers 3
 researchModifier
 	modifierType "HyperspaceExitDistanceAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.050000
+	perLevelValue -0.100000
+researchModifier
+	modifierType "HyperspaceAntimatterCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -1.000000
+researchModifier
+	modifierType "HyperspaceChargeUpRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 900.000000
 artifactPicture "ArtifactPictureWormHoleTravel"
 uniqueOverlayBrush ""
 dlcId 204880

@@ -32,17 +32,17 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
+	modifierType "PlanetSlotsTacticalIncrease"
+	baseValue 0.000000
+	perLevelValue 2.000000
+researchModifier
 	modifierType "BombingDamageAsDamageTargetAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.250000
+	perLevelValue -0.650000
 researchModifier
 	modifierType "BombingPopulationKilledPercAsDamageTarget"
 	baseValue 0.000000
-	perLevelValue 0.250000
-researchModifier
-	modifierType "BombingRangeAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 1.000000
 artifactPicture "ArtifactPicturePlanetBombingShield"
 uniqueOverlayBrush ""
 dlcId 204880

@@ -34,15 +34,15 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "ShieldPointsMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.150000
 researchModifier
 	modifierType "ShieldPointsRegenAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.150000
 researchModifier
-	modifierType "ChanceToIgnoreShieldsAsDamageTarget"
+	modifierType "ShieldMaxMitigationAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.050000
+	perLevelValue 0.015000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

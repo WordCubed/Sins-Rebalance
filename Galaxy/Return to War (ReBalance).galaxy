@@ -7,7 +7,7 @@ browseName "Return to War (Rebalance)"
 browseDescription "Two empires fought to a stalemate over the most prized planet in this system. For 99 years a neutral force as kept the world offlimits. Now with the treaty about to expire, it is time to take what clearly belongs to you."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

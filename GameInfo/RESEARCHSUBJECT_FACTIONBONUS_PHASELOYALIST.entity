@@ -30,19 +30,22 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
-researchModifier
-	modifierType "WeaponIgnoresShieldsAdjustment"
-	baseValue 0.100000
-	perLevelValue 0.000000
-	linkedWeaponClass "PHASEMISSILE"
+researchFloatModifiers 4
 researchModifier
 	modifierType "HullPointsMaxAdjustment"
-	baseValue 0.050000
+	baseValue 0.100000
+	perLevelValue 0.000000
+researchModifier
+	modifierType "HullPointsRegenAdjustment"
+	baseValue 0.100000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "ShieldPointsMaxAdjustment"
-	baseValue 0.050000
+	baseValue 0.100000
+	perLevelValue 0.000000
+researchModifier
+	modifierType "ShieldPointsRegenAdjustment"
+	baseValue 0.100000
 	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""

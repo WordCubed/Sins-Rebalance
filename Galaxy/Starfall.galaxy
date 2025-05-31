@@ -7,7 +7,7 @@ browseName "Starfall"
 browseDescription "Three stars orbit a dangerous black hole. Skip amongst the stars by riding interstellar comets, but watch out for pirates!"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.600000
+planetArtifactDensity 0.250000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4

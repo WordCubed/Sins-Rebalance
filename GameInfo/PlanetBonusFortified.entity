@@ -5,14 +5,14 @@ minUpgradeLevelNeeded 0
 maxUpgradeLevelNeeded 0
 nameStringID "IDS_PLANETBONUS_FORTIFIED_NAME"
 descStringID "IDS_PLANETBONUS_FORTIFIED_DESC"
-floatBonus:AdditiveCultureSpreadPerc 0.000000
-floatBonus:AdditivePopulation -1.000000
+floatBonus:AdditiveCultureSpreadPerc -0.050000
+floatBonus:AdditivePopulation -2.000000
 floatBonus:AdditivePlanetHealth 3000.000000
 floatBonus:AdditiveSlotsCivilian -2.000000
 floatBonus:AdditiveSlotsTactical 6.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
-floatBonus:BombingDamageAsDamageTargetAdjustment -0.250000
+floatBonus:BombingDamageAsDamageTargetAdjustment -0.500000
 floatBonus:MaxAllegiancePercBonus 0.000000
 floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000
@@ -26,7 +26,7 @@ floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier -0.100000
 intBonus:MaxSpaceMines 0
 intBonus:MaxStarbases 1
-intBonus:ModuleConstructors 0
+intBonus:ModuleConstructors 1
 intBonus:SpacePonies 0
 dlcId 228601
 hudIcon "HUDICON_PLANETBONUS_FORTRESSWORLD"
