@@ -40,7 +40,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "ExtractionRateFromResourceFocus"
 	baseValue 0.000000
-	perLevelValue 0.083334
+	perLevelValue 0.150000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

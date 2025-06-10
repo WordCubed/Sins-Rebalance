@@ -1,23 +1,26 @@
 TXT
-NumStrings 8890
+NumStrings 8891
+StringInfo
+	ID "IDS_PLANETTYPE_ICE"
+	Value "Arctic Planet"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_NAME"
-	Value "Promise of the Unity"
+	Value "Strength in Unity"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_DESCRIPTION"
-	Value "If your antimatter runs low during a battle, the Unity will reinforce your ships' strength, granting a temporary +30% damage boost the first time a ship experiences an antimatter shortage after exiting hyperspace."
+	Value "Your ships become stronger with every member of the Unity present. Grants your ships +1% damage for every Advent ship (your own, friend, or enemy) in the gravity well. Stacks up to +30%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SIEGE_MENTALITY_NAME"
 	Value "Siege Mentality"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SIEGE_MENTALITY_DESCRIPTION"
-	Value "The heightened fear your people feel whenever they witness a superweapon impact drives your units to fight harder. Grants a temporary +30% damage buff to your units when a superweapon hits a planet they're orbiting."
+	Value "The heightened fear your people feel whenever they witness a superweapon impact drives your units to fight harder. Grants a temporary +30% damage buff to your units when a superweapon hits the planet (or neighboring planet) they're orbiting."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_NAME"
 	Value "The Empty Throne"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_DESCRIPTION"
-	Value "Your Titan becomes a beacon of hope for your ships, increasing damage by +40% when your Titan enters a gravity well you don't have a colony in."
+	Value "Your Titan and Starbases become beacons of hope for your ships, increasing damage by +40% when you have a Titan or Starbase in a gravity well you don't have a colony in."
 StringInfo
 	ID "IDS_ABILITY_MICROPHASEJUMP_NAME"
 	Value "Micro Phase Trap"
@@ -596,7 +599,7 @@ StringInfo
 	Value "The triumphant growth of the Unity produces a burst of energy when colonizing a planet, repairing ships in the gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ASSIMILATED_POPULACE_DESCRIPTION"
-	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting a newly-colonized planet's development rate by 25%."
+	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting a newly-colonized planet's tax rate by +10% and its development speed by +25%. Vital for overcoming the Advent's otherwise weak economy."
 StringInfo
 	ID "IDS_FRIGATE_TECHMODULECONSTRUCTOR_NAME"
 	Value "Constructor Ship"
@@ -650,7 +653,7 @@ StringInfo
 	Value "Spawns a Phase Gate module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
-	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 40% damage bonus to all ships present (or nearby) for the battle."
+	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 30% damage bonus to all ships that were present for the battle (or witnessed it from a neighboring planet)."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSIONTECH_NAME"
 	Value "Homeland Defense"

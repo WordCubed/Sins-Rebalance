@@ -14,7 +14,7 @@ effectInfo
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
-isUltimateAbility FALSE
+isUltimateAbility TRUE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATEPSI"

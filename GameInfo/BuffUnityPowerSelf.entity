@@ -2,7 +2,7 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
+buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
@@ -10,12 +10,17 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnCondition"
-	instantActionConditionType "IfOwnerDoesNotHaveBuff"
-	conditionBuffType "BuffUnityAntimatterShortCheck"
-	conditionBuffShortName ""
-	buffType "BuffUnityAntimatterShortEffect"
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffUnityPowerPlanet"
+	targetFilter
+		numOwnerships 0
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -27,7 +32,9 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 2
+numFinishConditions 3
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
 finishCondition
 	finishConditionType "EnterHyperspace"
 finishCondition

@@ -4,7 +4,7 @@ entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
-allowFirstSpawnerToStack TRUE
+allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
@@ -35,9 +35,9 @@ instantAction
 		numConstraints 0
 	weaponBank "FRONT"
 	range
-		Level:0 12500.000000
-		Level:1 12500.000000
-		Level:2 12500.000000
+		Level:0 6250.000000
+		Level:1 6250.000000
+		Level:2 6250.000000
 		Level:3 0.000000
 	coneAngle
 		Level:0 2.600000
@@ -45,9 +45,9 @@ instantAction
 		Level:2 2.600000
 		Level:3 2.600000
 	maxTargetCount
-		Level:0 30.000000
-		Level:1 30.000000
-		Level:2 30.000000
+		Level:0 16.000000
+		Level:1 16.000000
+		Level:2 16.000000
 		Level:3 0.000000
 	effectInfo
 		effectAttachInfo
@@ -82,9 +82,9 @@ periodicAction
 		numConstraints 0
 	weaponBank "FRONT"
 	range
-		Level:0 12500.000000
-		Level:1 12500.000000
-		Level:2 12500.000000
+		Level:0 6250.000000
+		Level:1 6250.000000
+		Level:2 6250.000000
 		Level:3 0.000000
 	coneAngle
 		Level:0 1.570000
@@ -92,10 +92,10 @@ periodicAction
 		Level:2 1.570000
 		Level:3 1.570000
 	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
+		Level:0 24.000000
+		Level:1 24.000000
+		Level:2 24.000000
+		Level:3 24.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Center"
@@ -105,7 +105,8 @@ periodicAction
 		soundID ""
 numOverTimeActions 0
 numEntityModifiers 0
-numEntityBoolModifiers 3
+numEntityBoolModifiers 4
+entityBoolModifier "DisableWeapons"
 entityBoolModifier "DisablePhaseJump"
 entityBoolModifier "DisableLinearEngines"
 entityBoolModifier "DisableAngularEngines"

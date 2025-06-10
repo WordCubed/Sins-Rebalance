@@ -89,9 +89,9 @@ ExhaustParticleSystemName "Exhaust_FrigatePhaseModuleConstructor"
 ExplosionName "Frigate1"
 EngineSoundID "ENGINE_PHASESUPPORTSHIP"
 ability:0 "AbilityPhaseModuleConstruction"
-ability:1 "AbilityPhaseModuleDeconstruction"
+ability:1 ""
 ability:2 ""
-ability:3 ""
+ability:3 "AbilityPhaseModuleDeconstruction"
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

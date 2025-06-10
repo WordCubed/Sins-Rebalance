@@ -35,7 +35,7 @@ priority 1.000000
 researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffUnityAntimatterShortSelf"
+	buffToApply "BuffUnityPowerSelf"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

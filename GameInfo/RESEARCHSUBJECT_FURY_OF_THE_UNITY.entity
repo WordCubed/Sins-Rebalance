@@ -37,7 +37,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "CultureWeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.125000
+	perLevelValue 0.150000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

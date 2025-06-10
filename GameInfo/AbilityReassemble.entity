@@ -14,7 +14,7 @@ effectInfo
 needsToFaceTarget FALSE
 canCollideWithTarget FALSE
 moveThruTarget FALSE
-isUltimateAbility TRUE
+isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "Intrinsic"
 minExperienceLevelRequired

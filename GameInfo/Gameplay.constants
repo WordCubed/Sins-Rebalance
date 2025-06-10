@@ -971,7 +971,7 @@ GameplayConstants
 			FactionName "IDS_PLAYERFACTIONNAME_REBEL"
 			FactionName "IDS_PLAYERFACTIONNAME_LOYALIST"
 	playerTradeNetworkDef
-		incomeRateBonusPerLongestNodeDistanceNode .033333
+		incomeRateBonusPerLongestNodeDistanceNode .05
 	targetTypeCounterData
 	aiData
 		aiRetreatThreshold 0.25

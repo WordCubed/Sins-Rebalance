@@ -11,7 +11,14 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "PlanetTaxRate"
+	value
+		Level:0 0.100000
+		Level:1 0.100000
+		Level:2 0.100000
+		Level:3 0.100000
 entityModifier
 	buffEntityModifierType "PlanetUpgradeBuildRateAdjustment"
 	value

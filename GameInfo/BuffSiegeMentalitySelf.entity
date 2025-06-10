@@ -8,12 +8,69 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 4
 instantAction
 	buffInstantActionType "ApplyBuffToLocalOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffSiegeMentalityPlanet"
+	buffType "BuffSiegeMentalityPlanetTech"
+	targetFilter
+		numOwnerships 0
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffSiegeMentalityPlanetPsi"
+	targetFilter
+		numOwnerships 0
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffSiegeMentalityPlanetPhase"
+	targetFilter
+		numOwnerships 0
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffSiegeMentalityPlanetPirate"
 	targetFilter
 		numOwnerships 0
 		numObjects 1

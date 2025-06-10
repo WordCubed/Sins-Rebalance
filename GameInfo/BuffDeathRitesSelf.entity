@@ -15,10 +15,11 @@ instantAction
 	delayTime 0.000000
 	buffType "BuffDeathRitesTarget"
 	targetFilter
-		numOwnerships 1
-		ownership "Player"
-		numObjects 7
-		object "Fighter"
+		numOwnerships 3
+		ownership "Enemy"
+		ownership "NoOwner"
+		ownership "UncontrolledMinorFaction"
+		numObjects 6
 		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"

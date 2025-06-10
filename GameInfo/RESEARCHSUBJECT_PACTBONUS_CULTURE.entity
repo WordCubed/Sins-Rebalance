@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "ShieldMaxMitigationAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.020000
 researchModifier
 	modifierType "CultureAntimatterRegenAmount"
 	baseValue 0.000000

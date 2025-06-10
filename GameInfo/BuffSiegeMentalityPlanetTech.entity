@@ -43,10 +43,10 @@ instantAction
 		largeEffectName ""
 		soundID ""
 instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+	buffInstantActionType "ApplyBuffToTargetsAtAdjacentOrbitBodies"
 	instantActionTriggerType "OnCondition"
 	instantActionConditionType "IfOwnerHasBuff"
-	conditionBuffType "BuffCannonShellPsi"
+	conditionBuffType "BuffCannonShellTech"
 	conditionBuffShortName ""
 	buffType "BuffSiegeMentalityEffect"
 	targetFilter
@@ -79,7 +79,7 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnCondition"
 	instantActionConditionType "IfOwnerHasBuff"
-	conditionBuffType "BuffCannonShellPhaseSpawn"
+	conditionBuffType "BuffCannonShellTechRebel"
 	conditionBuffShortName ""
 	buffType "BuffSiegeMentalityEffect"
 	targetFilter
@@ -109,10 +109,10 @@ instantAction
 		largeEffectName ""
 		soundID ""
 instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+	buffInstantActionType "ApplyBuffToTargetsAtAdjacentOrbitBodies"
 	instantActionTriggerType "OnCondition"
 	instantActionConditionType "IfOwnerHasBuff"
-	conditionBuffType "BuffCannonShellPirate"
+	conditionBuffType "BuffCannonShellTechRebel"
 	conditionBuffShortName ""
 	buffType "BuffSiegeMentalityEffect"
 	targetFilter

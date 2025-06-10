@@ -2,8 +2,8 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
-stackingLimit 1
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 30
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
@@ -11,11 +11,19 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.010000
+		Level:1 0.010000
+		Level:2 0.010000
+		Level:3 0.010000
 numEntityBoolModifiers 0
 numFinishConditions 3
 finishCondition
-	finishConditionType "AntiMatterDepleted"
+	finishConditionType "LastSpawnerNoLongerHasBuff"
+	buffTypeToQuery "BuffUnityPowerCheck"
 finishCondition
 	finishConditionType "EnterHyperspace"
 finishCondition

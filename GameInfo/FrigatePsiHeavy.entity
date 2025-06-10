@@ -28,7 +28,7 @@ MaxShieldPoints 5000.000000
 HullPointRestoreRate 5.208333
 ShieldPointRestoreRate 20.833333
 BaseArmorPoints 15.000000
-maxMitigation 0.530000
+maxMitigation 0.533333
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1

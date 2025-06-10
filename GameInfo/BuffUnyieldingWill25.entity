@@ -37,9 +37,9 @@ entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
 		Level:0 -0.750000
-		Level:1 -0.000000
-		Level:2 -0.000000
-		Level:3 -0.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition

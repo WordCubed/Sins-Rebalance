@@ -11,9 +11,12 @@ researchWindowLocation
 	pos [ 5 , 0 ]
 ResearchField "Fleet"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_MAXSHIPSLOTSTECH4"
+		Level 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_MAXCAPITALSHIPSTECH7"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

@@ -30,14 +30,14 @@ PerLevelCostIncrease
 	crystal 0.000000
 Tier 7
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "ExtractionRateFromResourceFocus"
 	baseValue 0.000000
-	perLevelValue 0.125000
+	perLevelValue 0.150000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

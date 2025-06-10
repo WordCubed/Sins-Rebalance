@@ -24,7 +24,7 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "TwoTeamsOfTwo"
 metersPerGalaxyUnit 250000.000000
-pixelsPerGalaxyUnit 1.000000
+pixelsPerGalaxyUnit 9.519993
 useRandomGenerator FALSE
 galaxyWidth 1920.000000
 galaxyHeight 993.000000
@@ -35,7 +35,7 @@ starCount 1
 star
 	designName "Star0"
 	inGameName "IDS_STARNAME_233"
-	type "RandomStar"
+	type "NonSpecialStar"
 	pos [ 50 , 50 ]
 	radius 50.000000
 	planetCount 33
@@ -367,7 +367,7 @@ star
 	planet
 		designName "Planet21"
 		inGameName ""
-		type "Volcanic"
+		type "Copper"
 		pos [ 52 , 53 ]
 		owner ""
 		isHomePlanet FALSE
@@ -392,7 +392,7 @@ star
 	planet
 		designName "Planet22"
 		inGameName ""
-		type "Ferrus"
+		type "Hydrocarbon"
 		pos [ 47 , 59 ]
 		owner ""
 		isHomePlanet FALSE
@@ -417,7 +417,7 @@ star
 	planet
 		designName "Planet23"
 		inGameName ""
-		type "Oceanic"
+		type "Urban"
 		pos [ 45 , 55 ]
 		owner ""
 		isHomePlanet FALSE
@@ -600,7 +600,7 @@ star
 	planet
 		designName "Planet31"
 		inGameName ""
-		type "Volcanic"
+		type "Copper"
 		pos [ 38 , 57 ]
 		owner ""
 		isHomePlanet FALSE
@@ -625,7 +625,7 @@ star
 	planet
 		designName "Planet32"
 		inGameName ""
-		type "Ferrus"
+		type "Hydrocarbon"
 		pos [ 43 , 51 ]
 		owner ""
 		isHomePlanet FALSE
@@ -650,7 +650,7 @@ star
 	planet
 		designName "Planet33"
 		inGameName ""
-		type "GasGiant"
+		type "RockGiant"
 		pos [ 57 , 63 ]
 		owner ""
 		isHomePlanet FALSE
@@ -675,7 +675,7 @@ star
 	planet
 		designName "Planet34"
 		inGameName ""
-		type "GasGiant"
+		type "RockGiant"
 		pos [ 33 , 47 ]
 		owner ""
 		isHomePlanet FALSE
@@ -700,7 +700,7 @@ star
 	planet
 		designName "Planet35"
 		inGameName ""
-		type "AsteroidBelt"
+		type "ShatteredMoon"
 		pos [ 55 , 45 ]
 		owner ""
 		isHomePlanet FALSE
