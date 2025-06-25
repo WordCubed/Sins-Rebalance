@@ -19,9 +19,9 @@ targetFilter
 	constraint "NotInvulnerable"
 range
 	Level:0 10200.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 10200.000000
+	Level:2 10200.000000
+	Level:3 10200.000000
 travelSpeed 3000.000000
 hasWeaponEffects TRUE
 weaponEffectOriginType "Targetter"
@@ -70,14 +70,14 @@ onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 120.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 120.000000
+	Level:2 120.000000
+	Level:3 120.000000
 cooldownTime
 	Level:0 120.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 120.000000
+	Level:2 120.000000
+	Level:3 120.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

@@ -18,9 +18,9 @@ targetFilter
 	constraint "HasShieldDamage"
 range
 	Level:0 6250.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 6250.000000
+	Level:2 6250.000000
+	Level:3 6250.000000
 travelSpeed 700.000000
 hasWeaponEffects TRUE
 weaponEffectOriginType "Targetter"
@@ -59,9 +59,9 @@ aiUseTime "Anytime"
 aiUseTargetCondition "ShieldDamageExceedsAmount"
 onlyAutoCastWhenTargetShieldDamageExceedsAmount
 	Level:0 600.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 600.000000
+	Level:2 600.000000
+	Level:3 600.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
@@ -70,14 +70,14 @@ onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 15.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
 cooldownTime
 	Level:0 15.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1

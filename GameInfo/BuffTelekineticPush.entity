@@ -28,7 +28,7 @@ instantAction
 		Level:0 45.000000
 		Level:1 67.500000
 		Level:2 90.000000
-		Level:3 0.000000
+		Level:3 90.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "PHYSICAL"
 	isDamageShared TRUE
@@ -46,14 +46,14 @@ entityModifier
 		Level:0 -0.400000
 		Level:1 -0.600000
 		Level:2 -0.800000
-		Level:3 -0.000000
+		Level:3 -0.800000
 entityModifier
 	buffEntityModifierType "LinearThrust"
 	value
 		Level:0 -0.400000
 		Level:1 -0.600000
 		Level:2 -0.800000
-		Level:3 -0.000000
+		Level:3 -0.800000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

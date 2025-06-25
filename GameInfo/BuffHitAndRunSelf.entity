@@ -33,10 +33,10 @@ instantAction
 		numConstraints 1
 		constraint "NotInvulnerable"
 	range
-		Level:0 3000.000000
-		Level:1 3000.000000
-		Level:2 3000.000000
-		Level:3 0.000000
+		Level:0 3750.000000
+		Level:1 3750.000000
+		Level:2 3750.000000
+		Level:3 3750.000000
 	travelSpeed 3000.000000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
@@ -73,7 +73,7 @@ instantAction
 		Level:0 0.333333
 		Level:1 0.333333
 		Level:2 0.333333
-		Level:3 0.000000
+		Level:3 0.333333
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

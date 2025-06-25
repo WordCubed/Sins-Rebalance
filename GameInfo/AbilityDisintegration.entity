@@ -19,9 +19,9 @@ targetFilter
 	constraint "NotInvulnerable"
 range
 	Level:0 7500.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 7500.000000
+	Level:2 7500.000000
+	Level:3 7500.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -37,9 +37,9 @@ maxNumLevels 1
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
 	Level:0 9.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 9.000000
+	Level:2 9.000000
+	Level:3 9.000000
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "IsCapitalShipOrStarbaseOrTitan"
 isAutoCastAvailable TRUE
@@ -51,13 +51,13 @@ useCostType "AntiMatter"
 antiMatterCost
 	Level:0 120.000000
 	Level:1 120.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:2 120.000000
+	Level:3 120.000000
 cooldownTime
 	Level:0 120.000000
 	Level:1 120.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:2 120.000000
+	Level:3 120.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

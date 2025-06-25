@@ -17,7 +17,7 @@ range
 	Level:0 6250.000000
 	Level:1 6250.000000
 	Level:2 6250.000000
-	Level:3 0.000000
+	Level:3 6250.000000
 effectInfo
 	effectAttachInfo
 		attachType "Center"
@@ -37,7 +37,7 @@ onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 6.000000
 	Level:1 6.000000
 	Level:2 6.000000
-	Level:3 0.000000
+	Level:3 6.000000
 onlyAutoCastWhenTargetsInBank "FRONT"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -50,12 +50,12 @@ antiMatterCost
 	Level:0 120.000000
 	Level:1 120.000000
 	Level:2 120.000000
-	Level:3 0.000000
+	Level:3 120.000000
 cooldownTime
 	Level:0 120.000000
 	Level:1 120.000000
 	Level:2 120.000000
-	Level:3 0.000000
+	Level:3 120.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

@@ -17,16 +17,16 @@ instantAction
 		Level:0 0.083333
 		Level:1 0.125000
 		Level:2 0.166667
-		Level:3 0.000000
+		Level:3 0.166667
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "ShieldMitigation"
 	value
-		Level:0 0.015000
-		Level:1 0.022500
-		Level:2 0.030000
-		Level:3 0.000000
+		Level:0 0.020000
+		Level:1 0.030000
+		Level:2 0.040000
+		Level:3 0.040000
 numEntityBoolModifiers 0
 numFinishConditions 0

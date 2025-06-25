@@ -26,9 +26,9 @@ instantAction
 	delayTime 180.000000
 	damage
 		Level:0 9999999.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 9999999.000000
+		Level:2 9999999.000000
+		Level:3 9999999.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE
@@ -39,16 +39,16 @@ entityModifier
 	buffEntityModifierType "HyperspaceChargeUpRate"
 	value
 		Level:0 -100000.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 -100000.000000
+		Level:2 -100000.000000
+		Level:3 -100000.000000
 entityModifier
 	buffEntityModifierType "HyperspaceSpeed"
 	value
 		Level:0 -100000.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 -100000.000000
+		Level:2 -100000.000000
+		Level:3 -100000.000000
 numEntityBoolModifiers 1
 entityBoolModifier "DisablePhaseJump"
 numFinishConditions 1

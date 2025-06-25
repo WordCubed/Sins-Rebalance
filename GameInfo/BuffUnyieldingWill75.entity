@@ -14,32 +14,32 @@ numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "RestoreShields"
 	shieldRestoreRate
-		Level:0 250.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 450.000000
+		Level:1 450.000000
+		Level:2 450.000000
+		Level:3 450.000000
 numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "AbilityCooldownRate"
 	value
 		Level:0 0.250000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 0.250000
+		Level:2 0.250000
+		Level:3 0.250000
 entityModifier
 	buffEntityModifierType "AntimatterRestoreRate"
 	value
 		Level:0 0.250000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 0.250000
+		Level:2 0.250000
+		Level:3 0.250000
 entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
 		Level:0 -0.250000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 -0.250000
+		Level:2 -0.250000
+		Level:3 -0.250000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
@@ -48,6 +48,6 @@ finishCondition
 		Level:0 0.750000
 		Level:1 0.750000
 		Level:2 0.750000
-		Level:3 0.000000
+		Level:3 0.750000
 finishCondition
 	finishConditionType "OwnerChanged"

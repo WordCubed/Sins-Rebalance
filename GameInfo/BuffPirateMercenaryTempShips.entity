@@ -15,9 +15,9 @@ instantAction
 	delayTime 480.000000
 	damage
 		Level:0 9999999.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 9999999.000000
+		Level:2 9999999.000000
+		Level:3 9999999.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE
@@ -25,7 +25,7 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
@@ -33,3 +33,5 @@ finishCondition
 		Level:1 482.000000
 		Level:2 482.000000
 		Level:3 482.000000
+finishCondition
+	finishConditionType "OwnerChanged"

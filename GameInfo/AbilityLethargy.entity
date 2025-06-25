@@ -20,7 +20,7 @@ range
 	Level:0 10200.000000
 	Level:1 10200.000000
 	Level:2 10200.000000
-	Level:3 0.000000
+	Level:3 10200.000000
 maxTargetCount
 	Level:0 4.000000
 	Level:1 6.000000
@@ -43,7 +43,7 @@ minExperienceLevelRequired
 	Level:0 2.000000
 	Level:1 5.000000
 	Level:2 8.000000
-	Level:3 0.000000
+	Level:3 8.000000
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "IsNotWeaponDisabled"
 isAutoCastAvailable TRUE
@@ -56,12 +56,12 @@ antiMatterCost
 	Level:0 60.000000
 	Level:1 60.000000
 	Level:2 60.000000
-	Level:3 0.000000
+	Level:3 60.000000
 cooldownTime
 	Level:0 60.000000
 	Level:1 60.000000
 	Level:2 60.000000
-	Level:3 0.000000
+	Level:3 60.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

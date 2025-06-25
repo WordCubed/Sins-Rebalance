@@ -20,7 +20,7 @@ range
 	Level:0 7500.000000
 	Level:1 7500.000000
 	Level:2 7500.000000
-	Level:3 0.000000
+	Level:3 7500.000000
 maxTargetCount
 	Level:0 -1.000000
 	Level:1 -1.000000
@@ -43,13 +43,13 @@ minExperienceLevelRequired
 	Level:0 2.000000
 	Level:1 5.000000
 	Level:2 8.000000
-	Level:3 0.000000
+	Level:3 8.000000
 aiUseTime "OnlyWhenManyTargetsHaveHullDamage"
 onlyAutoCastWhenTotalHullDamageExceedsAmount
 	Level:0 1000.000000
 	Level:1 2250.000000
 	Level:2 4000.000000
-	Level:3 0.000000
+	Level:3 4000.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -61,12 +61,12 @@ antiMatterCost
 	Level:0 60.000000
 	Level:1 60.000000
 	Level:2 60.000000
-	Level:3 0.000000
+	Level:3 60.000000
 cooldownTime
 	Level:0 60.000000
 	Level:1 60.000000
 	Level:2 60.000000
-	Level:3 0.000000
+	Level:3 60.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

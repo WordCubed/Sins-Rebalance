@@ -25,18 +25,18 @@ numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "RestoreShields"
 	shieldRestoreRate
-		Level:0 67.000000
-		Level:1 133.000000
-		Level:2 200.000000
-		Level:3 200.000000
+		Level:0 150.000000
+		Level:1 225.000000
+		Level:2 300.000000
+		Level:3 300.000000
 numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "ShieldMitigation"
 	value
-		Level:0 0.010000
-		Level:1 0.015000
-		Level:2 0.020000
-		Level:3 0.000000
+		Level:0 0.020000
+		Level:1 0.030000
+		Level:2 0.040000
+		Level:3 0.040000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition

@@ -16,7 +16,7 @@ instantAction
 		Level:0 30000.000000
 		Level:1 45000.000000
 		Level:2 60000.000000
-		Level:3 0.000000
+		Level:3 60000.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE
@@ -28,7 +28,7 @@ instantAction
 		Level:0 3000.000000
 		Level:1 4500.000000
 		Level:2 6000.000000
-		Level:3 0.000000
+		Level:3 6000.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE
@@ -48,14 +48,14 @@ instantAction
 		constraint "NotIsIllusionShip"
 	range
 		Level:0 12500.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 12500.000000
+		Level:2 12500.000000
+		Level:3 12500.000000
 	maxTargetCount
 		Level:0 10.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000
 instantAction
 	buffInstantActionType "PlayAttachedEffect"
 	instantActionTriggerType "OnDelay"

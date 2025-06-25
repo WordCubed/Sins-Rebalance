@@ -26,32 +26,32 @@ numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "LinearMaxSpeed"
 	value
-		Level:0 -1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 -0.900000
+		Level:1 -0.900000
+		Level:2 -0.900000
+		Level:3 -0.900000
 entityModifier
 	buffEntityModifierType "LinearThrust"
 	value
-		Level:0 -1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 -0.900000
+		Level:1 -0.900000
+		Level:2 -0.900000
+		Level:3 -0.900000
 entityModifier
 	buffEntityModifierType "WeaponCooldown"
 	value
-		Level:0 0.200000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 0.250000
+		Level:1 0.250000
+		Level:2 0.250000
+		Level:3 0.250000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
 		Level:0 15.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
 finishCondition
 	finishConditionType "OwnerChanged"

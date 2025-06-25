@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 8
+stackingLimit 10
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
@@ -15,10 +15,10 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "WeaponCooldown"
 	value
-		Level:0 -0.012500
-		Level:1 -0.018750
-		Level:2 -0.025000
-		Level:3 0.000000
+		Level:0 -0.010000
+		Level:1 -0.015000
+		Level:2 -0.020000
+		Level:3 -0.020000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

@@ -42,15 +42,15 @@ periodicAction
 		space "Normal"
 		numConstraints 0
 	range
-		Level:0 8500.000000
-		Level:1 8500.000000
-		Level:2 8500.000000
-		Level:3 8500.000000
+		Level:0 6250.000000
+		Level:1 6250.000000
+		Level:2 6250.000000
+		Level:3 6250.000000
 	maxTargetCount
-		Level:0 5.000000
-		Level:1 5.000000
-		Level:2 5.000000
-		Level:3 5.000000
+		Level:0 4.000000
+		Level:1 4.000000
+		Level:2 4.000000
+		Level:3 4.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -62,10 +62,10 @@ numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "DrainAntiMatter"
 	drainAntiMatterRate
-		Level:0 8.000000
-		Level:1 8.000000
-		Level:2 8.000000
-		Level:3 8.000000
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 3

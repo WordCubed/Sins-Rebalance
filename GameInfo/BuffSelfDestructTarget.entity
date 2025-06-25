@@ -15,8 +15,8 @@ instantAction
 	damage
 		Level:0 20000.000000
 		Level:1 40000.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 40000.000000
+		Level:3 40000.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE

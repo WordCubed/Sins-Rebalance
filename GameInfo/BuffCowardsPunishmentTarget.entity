@@ -11,16 +11,29 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
+numEntityModifiers 3
 entityModifier
-	buffEntityModifierType "MaxShieldPoints"
+	buffEntityModifierType "ShieldMitigation"
 	value
-		Level:0 -1200.000000
-		Level:1 -1200.000000
-		Level:2 -1200.000000
-		Level:3 -1200.000000
-numEntityBoolModifiers 1
-entityBoolModifier "ForceIsDamagedOverlayInHyperspace"
+		Level:0 -0.040000
+		Level:1 -0.040000
+		Level:2 -0.040000
+		Level:3 -0.040000
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 0.100000
+		Level:1 0.100000
+		Level:2 0.100000
+		Level:3 0.100000
+entityModifier
+	buffEntityModifierType "AntimatterRestoreRate"
+	value
+		Level:0 -0.200000
+		Level:1 -0.200000
+		Level:2 -0.200000
+		Level:3 -0.200000
+numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "OwnerChanged"

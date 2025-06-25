@@ -5,8 +5,10 @@ buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffRepossessionTarget"
 targetFilter
-	numOwnerships 1
+	numOwnerships 3
 	ownership "Enemy"
+	ownership "NoOwner"
+	ownership "UncontrolledMinorFaction"
 	numObjects 1
 	object "Planet"
 	numSpaces 1
@@ -16,9 +18,9 @@ targetFilter
 	constraint "NotIsOccupationPlanet"
 range
 	Level:0 10000.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 10000.000000
+	Level:2 10000.000000
+	Level:3 10000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
@@ -43,15 +45,15 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 300.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 600.000000
+	Level:1 600.000000
+	Level:2 600.000000
+	Level:3 600.000000
 cooldownTime
 	Level:0 600.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 600.000000
+	Level:2 600.000000
+	Level:3 600.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

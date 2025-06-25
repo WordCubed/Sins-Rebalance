@@ -28,14 +28,14 @@ instantAction
 		numConstraints 0
 	range
 		Level:0 2000.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 2000.000000
+		Level:2 2000.000000
+		Level:3 2000.000000
 	maxTargetCount
 		Level:0 4.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 4.000000
+		Level:2 4.000000
+		Level:3 4.000000
 	chainDelay 0.200000
 	hasWeaponEffects TRUE
 	weaponEffectOriginType "Targetter"
@@ -80,6 +80,6 @@ finishCondition
 	finishConditionType "TimeElapsed"
 	time
 		Level:0 2.250000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 2.250000
+		Level:2 2.250000
+		Level:3 2.250000

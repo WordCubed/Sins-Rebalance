@@ -21,7 +21,7 @@ minExperienceLevelRequired
 	Level:0 2.000000
 	Level:1 5.000000
 	Level:2 8.000000
-	Level:3 0.000000
+	Level:3 8.000000
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -34,12 +34,12 @@ antiMatterCost
 	Level:0 360.000000
 	Level:1 270.000000
 	Level:2 180.000000
-	Level:3 0.000000
+	Level:3 180.000000
 cooldownTime
 	Level:0 360.000000
 	Level:1 270.000000
 	Level:2 180.000000
-	Level:3 0.000000
+	Level:3 180.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

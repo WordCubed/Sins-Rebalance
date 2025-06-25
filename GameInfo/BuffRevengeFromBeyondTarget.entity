@@ -34,9 +34,9 @@ instantAction
 		numConstraints 0
 	range
 		Level:0 7500.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 7500.000000
+		Level:2 7500.000000
+		Level:3 7500.000000
 	maxTargetCount
 		Level:0 1.000000
 		Level:1 1.000000
@@ -63,9 +63,9 @@ instantAction
 		numConstraints 0
 	range
 		Level:0 7500.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 7500.000000
+		Level:2 7500.000000
+		Level:3 7500.000000
 	maxTargetCount
 		Level:0 2.000000
 		Level:1 2.000000
@@ -88,7 +88,7 @@ finishCondition
 	time
 		Level:0 60.000000
 		Level:1 60.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 60.000000
+		Level:3 60.000000
 finishCondition
 	finishConditionType "OwnerChanged"

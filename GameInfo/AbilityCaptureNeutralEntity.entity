@@ -5,9 +5,10 @@ buffInstantActionType "ApplyBuffToTarget"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffCaptureNeutralEntity"
 targetFilter
-	numOwnerships 2
+	numOwnerships 3
 	ownership "Enemy"
 	ownership "NoOwner"
+	ownership "Friendly"
 	numObjects 1
 	object "PlanetModule"
 	numSpaces 1
@@ -16,9 +17,9 @@ targetFilter
 	constraint "CanBeCaptured"
 range
 	Level:0 40000.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 40000.000000
+	Level:2 40000.000000
+	Level:3 40000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -46,10 +47,10 @@ antiMatterCost
 	Level:2 0.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

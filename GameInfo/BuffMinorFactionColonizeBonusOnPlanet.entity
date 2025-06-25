@@ -15,17 +15,17 @@ numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "PlanetPopulationGrowthRate"
 	value
-		Level:0 0.250000
-		Level:1 0.250000
-		Level:2 0.250000
-		Level:3 0.250000
+		Level:0 1.000000
+		Level:1 1.500000
+		Level:2 2.000000
+		Level:3 2.000000
 entityModifier
 	buffEntityModifierType "PlanetUpgradeBuildRateAdjustment"
 	value
-		Level:0 0.500000
-		Level:1 0.500000
-		Level:2 0.500000
-		Level:3 0.500000
+		Level:0 5.000000
+		Level:1 7.000000
+		Level:2 9.000000
+		Level:3 9.000000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

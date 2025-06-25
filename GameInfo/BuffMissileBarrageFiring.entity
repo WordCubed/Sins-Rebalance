@@ -14,14 +14,14 @@ periodicAction
 	actionCountType "Finite"
 	actionCount
 		Level:0 20.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
 	actionIntervalTime
 		Level:0 1.500000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 1.500000
+		Level:2 1.500000
+		Level:3 1.500000
 	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffMissileBarrageHit"
@@ -40,14 +40,14 @@ periodicAction
 		numConstraints 0
 	range
 		Level:0 7500.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 7500.000000
+		Level:2 7500.000000
+		Level:3 7500.000000
 	maxTargetCount
 		Level:0 -1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

@@ -18,7 +18,7 @@ entityModifier
 		Level:0 0.125000
 		Level:1 0.187500
 		Level:2 0.250000
-		Level:3 0.000000
+		Level:3 0.250000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
@@ -27,5 +27,5 @@ finishCondition
 		Level:0 15.000000
 		Level:1 15.000000
 		Level:2 15.000000
-		Level:3 0.000000
+		Level:3 15.000000
 

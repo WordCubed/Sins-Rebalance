@@ -15,9 +15,9 @@ overTimeAction
 	buffOverTimeActionType "DoDamage"
 	damageRate
 		Level:0 1200.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 1200.000000
+		Level:2 1200.000000
+		Level:3 1200.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE
@@ -33,7 +33,7 @@ finishCondition
 	finishConditionType "TimeElapsed"
 	time
 		Level:0 10.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 10.000000
 

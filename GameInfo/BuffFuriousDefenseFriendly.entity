@@ -29,7 +29,7 @@ overTimeAction
 		Level:0 1200.000000
 		Level:1 1800.000000
 		Level:2 2400.000000
-		Level:3 0.000000
+		Level:3 2400.000000
 numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
@@ -37,7 +37,7 @@ entityModifier
 		Level:0 0.333333
 		Level:1 0.500000
 		Level:2 0.666667
-		Level:3 0.000000
+		Level:3 0.666667
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
@@ -46,4 +46,4 @@ finishCondition
 		Level:0 30.000000
 		Level:1 30.000000
 		Level:2 30.000000
-		Level:3 0.000000
+		Level:3 30.000000

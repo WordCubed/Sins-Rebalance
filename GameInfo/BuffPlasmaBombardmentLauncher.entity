@@ -16,12 +16,12 @@ periodicAction
 		Level:0 10.000000
 		Level:1 10.000000
 		Level:2 10.000000
-		Level:3 0.000000
+		Level:3 10.000000
 	actionIntervalTime
 		Level:0 2.000000
 		Level:1 2.000000
 		Level:2 2.000000
-		Level:3 0.000000
+		Level:3 2.000000
 	buffInstantActionType "ApplyBuffToTargetsInRadiusOfTargetWithTravel"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffPlasmaBombardmentTarget"
@@ -38,7 +38,7 @@ periodicAction
 		Level:0 30000.000000
 		Level:1 30000.000000
 		Level:2 30000.000000
-		Level:3 0.000000
+		Level:3 30000.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000

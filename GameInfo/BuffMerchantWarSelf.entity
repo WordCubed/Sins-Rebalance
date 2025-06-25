@@ -39,8 +39,8 @@ instantAction
 	maxTargetCount
 		Level:0 2.000000
 		Level:1 2.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 2.000000
+		Level:3 2.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 1
@@ -49,8 +49,8 @@ entityModifier
 	value
 		Level:0 1.000000
 		Level:1 2.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 2.000000
+		Level:3 2.000000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

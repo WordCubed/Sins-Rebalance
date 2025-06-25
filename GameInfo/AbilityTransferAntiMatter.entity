@@ -19,10 +19,10 @@ targetFilter
 	constraint "HasAntiMatterShortage"
 	constraint "NotSelf"
 range
-	Level:0 6800.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 60000.000000
+	Level:1 60000.000000
+	Level:2 60000.000000
+	Level:3 60000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -46,15 +46,15 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 30.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
 cooldownTime
-	Level:0 30.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

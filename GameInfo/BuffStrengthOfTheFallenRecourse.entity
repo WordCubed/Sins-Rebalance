@@ -29,21 +29,21 @@ entityModifier
 		Level:0 0.010000
 		Level:1 0.020000
 		Level:2 0.030000
-		Level:3 0.000000
+		Level:3 0.030000
 entityModifier
 	buffEntityModifierType "MaxHullPoints"
 	value
 		Level:0 150.000000
 		Level:1 225.000000
 		Level:2 300.000000
-		Level:3 0.000000
+		Level:3 300.000000
 entityModifier
 	buffEntityModifierType "MaxShieldPoints"
 	value
 		Level:0 150.000000
 		Level:1 225.000000
 		Level:2 300.000000
-		Level:3 0.000000
+		Level:3 300.000000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
@@ -52,4 +52,4 @@ finishCondition
 		Level:0 480.000000
 		Level:1 480.000000
 		Level:2 480.000000
-		Level:3 0.000000
+		Level:3 480.000000

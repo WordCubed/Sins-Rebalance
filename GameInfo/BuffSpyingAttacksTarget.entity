@@ -19,5 +19,5 @@ finishCondition
 	time
 		Level:0 7200.000000
 		Level:1 7200.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 7200.000000
+		Level:3 7200.000000

@@ -18,14 +18,14 @@ entityModifier
 		Level:0 -0.250000
 		Level:1 -0.500000
 		Level:2 -0.750000
-		Level:3 -0.000000
+		Level:3 -0.750000
 entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
 		Level:0 -0.111111
 		Level:1 -0.222222
 		Level:2 -0.333333
-		Level:3 -0.000000
+		Level:3 -0.333333
 numEntityBoolModifiers 1
 entityBoolModifier "HasShieldMeshEffect"
 numFinishConditions 1
@@ -35,4 +35,4 @@ finishCondition
 		Level:0 30.000000
 		Level:1 30.000000
 		Level:2 30.000000
-		Level:3 0.000000
+		Level:3 30.000000

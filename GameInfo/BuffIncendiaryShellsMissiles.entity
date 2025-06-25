@@ -16,7 +16,7 @@ overTimeAction
 		Level:0 150.000000
 		Level:1 225.000000
 		Level:2 300.000000
-		Level:3 0.000000
+		Level:3 300.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "PHYSICAL"
 	isDamageShared FALSE
@@ -29,6 +29,6 @@ finishCondition
 		Level:0 2.000000
 		Level:1 2.000000
 		Level:2 2.000000
-		Level:3 0.000000
+		Level:3 2.000000
 finishCondition
 	finishConditionType "OwnerChanged"

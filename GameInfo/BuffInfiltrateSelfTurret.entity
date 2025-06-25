@@ -27,9 +27,9 @@ instantAction
 	weaponClassForWeaponPassive "MISSILE"
 	passiveWeaponEffectChance
 		Level:0 1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
 	buffType "BuffInfiltrateTargetTurret"
 	targetFilter
 		numOwnerships 1
@@ -54,8 +54,8 @@ finishCondition
 	finishConditionType "TimeElapsed"
 	time
 		Level:0 30.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
 finishCondition
 	finishConditionType "OwnerChanged"

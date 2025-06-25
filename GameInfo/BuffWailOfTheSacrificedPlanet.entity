@@ -2,136 +2,18 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "ForAllPlayers"
+buffStackingLimitType "PerPlayer"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 5
+numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnOwnerDeath"
-	buffType "BuffWailOfTheSacrificedMilitia"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "OnOwnerDeath"
-	buffType "BuffWailOfTheSacrificedTargetEngines"
-	targetFilter
-		numOwnerships 1
-		ownership "Enemy"
-		numObjects 6
-		object "Fighter"
-		object "Corvette"
-		object "Frigate"
-		object "CapitalShip"
-		object "StarBase"
-		object "Titan"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "OnOwnerDeath"
-	buffType "BuffWailOfTheSacrificedTargetAbilities"
-	targetFilter
-		numOwnerships 1
-		ownership "Enemy"
-		numObjects 7
-		object "Fighter"
-		object "Corvette"
-		object "Frigate"
-		object "CapitalShip"
-		object "StarBase"
-		object "PlanetModule"
-		object "Titan"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "OnOwnerDeath"
-	buffType "BuffWailOfTheSacrificedTargetRegen"
-	targetFilter
-		numOwnerships 1
-		ownership "Enemy"
-		numObjects 7
-		object "Fighter"
-		object "Corvette"
-		object "Frigate"
-		object "CapitalShip"
-		object "StarBase"
-		object "PlanetModule"
-		object "Titan"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "OnOwnerDeath"
-	buffType "BuffWailOfTheSacrificedTargetPermanent"
-	targetFilter
-		numOwnerships 1
-		ownership "Enemy"
-		numObjects 7
-		object "Fighter"
-		object "Corvette"
-		object "Frigate"
-		object "CapitalShip"
-		object "StarBase"
-		object "PlanetModule"
-		object "Titan"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerIsAboutToDie"
+	buffType "BuffWailOfTheSacrificedOnDeath"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -143,6 +25,8 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
+finishCondition
+	finishConditionType "AnyOnConditionInstantActionDone"
 finishCondition
 	finishConditionType "OwnerChanged"

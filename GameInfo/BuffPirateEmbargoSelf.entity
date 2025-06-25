@@ -44,10 +44,10 @@ numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 5.000000
-		Level:1 5.000000
-		Level:2 5.000000
-		Level:3 5.000000
+		Level:0 6.000000
+		Level:1 6.000000
+		Level:2 6.000000
+		Level:3 6.000000
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffPirateEmbargoShips"
@@ -82,6 +82,6 @@ finishCondition
 		Level:0 60.000000
 		Level:1 60.000000
 		Level:2 60.000000
-		Level:3 0.000000
+		Level:3 60.000000
 finishCondition
 	finishConditionType "EnterHyperspace"

@@ -17,8 +17,7 @@ moveThruTarget FALSE
 isUltimateAbility TRUE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
-aiUseTime "OnlyWhenMovingThresholdDistance"
-thresholdDistance 0.000000
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

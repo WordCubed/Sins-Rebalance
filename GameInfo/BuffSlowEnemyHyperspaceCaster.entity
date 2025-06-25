@@ -24,10 +24,10 @@ numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
 	buffInstantActionType "ApplyBuffToIncomingHyperspacers"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffSlowEnemyHyperspaceTarget"
@@ -58,9 +58,9 @@ finishCondition
 	finishConditionType "TimeElapsed"
 	time
 		Level:0 120.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 120.000000
+		Level:2 120.000000
+		Level:3 120.000000
 finishCondition
 	finishConditionType "EnterHyperspace"
 finishCondition

@@ -19,9 +19,9 @@ maxNumLevels 1
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
 	Level:0 9.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 9.000000
+	Level:2 9.000000
+	Level:3 9.000000
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -32,14 +32,14 @@ onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 240.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 240.000000
+	Level:2 240.000000
+	Level:3 240.000000
 cooldownTime
 	Level:0 240.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 240.000000
+	Level:2 240.000000
+	Level:3 240.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

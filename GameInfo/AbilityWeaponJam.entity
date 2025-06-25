@@ -27,7 +27,7 @@ onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 4.000000
 	Level:1 4.000000
 	Level:2 4.000000
-	Level:3 0.000000
+	Level:3 4.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

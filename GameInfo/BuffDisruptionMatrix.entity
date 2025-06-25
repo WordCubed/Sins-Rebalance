@@ -36,7 +36,7 @@ overTimeAction
 		Level:0 60.000000
 		Level:1 90.000000
 		Level:2 120.000000
-		Level:3 0.000000
+		Level:3 120.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared FALSE
@@ -51,4 +51,4 @@ finishCondition
 		Level:0 15.000000
 		Level:1 15.000000
 		Level:2 15.000000
-		Level:3 0.000000
+		Level:3 15.000000

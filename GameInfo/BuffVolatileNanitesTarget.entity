@@ -38,10 +38,10 @@ instantAction
 		space "Normal"
 		numConstraints 0
 	range
-		Level:0 3000.000000
-		Level:1 3000.000000
-		Level:2 3000.000000
-		Level:3 3000.000000
+		Level:0 3750.000000
+		Level:1 3750.000000
+		Level:2 3750.000000
+		Level:3 3750.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
@@ -63,7 +63,7 @@ entityModifier
 		Level:0 0.125000
 		Level:1 0.187500
 		Level:2 0.250000
-		Level:3 0.000000
+		Level:3 0.250000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition

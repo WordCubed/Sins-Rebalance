@@ -15,10 +15,10 @@ numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "AbilityCooldownRate"
 	value
-		Level:0 0.200000
-		Level:1 0.200000
-		Level:2 0.200000
-		Level:3 0.200000
+		Level:0 0.250000
+		Level:1 0.250000
+		Level:2 0.250000
+		Level:3 0.250000
 entityModifier
 	buffEntityModifierType "AntimatterCostOfNonUltimates"
 	value

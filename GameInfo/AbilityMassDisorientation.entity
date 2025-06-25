@@ -20,10 +20,10 @@ levelSourceType "StarBaseUpgradeLevel"
 sourcePropertyType "AbilityALevel"
 aiUseTime "OnlyWhenManyTargetsInRange"
 onlyAutoCastWhenTargetCountExceedsAmount
-	Level:0 5.000000
-	Level:1 5.000000
-	Level:2 5.000000
-	Level:3 5.000000
+	Level:0 4.000000
+	Level:1 4.000000
+	Level:2 4.000000
+	Level:3 4.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -34,13 +34,13 @@ useCostType "AntiMatter"
 antiMatterCost
 	Level:0 120.000000
 	Level:1 120.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:2 120.000000
+	Level:3 120.000000
 cooldownTime
 	Level:0 120.000000
 	Level:1 120.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:2 120.000000
+	Level:3 120.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

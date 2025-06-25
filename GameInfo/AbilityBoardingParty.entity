@@ -12,10 +12,11 @@ targetFilter
 	object "PlanetModule"
 	numSpaces 1
 	space "Normal"
-	numConstraints 3
+	numConstraints 4
+	constraint "HasWeapons"
 	constraint "IsControllable"
-	constraint "IsNotStarBaseConstructor"
 	constraint "NotInvulnerable"
+	constraint "IsNotStarBaseConstructor"
 range
 	Level:0 7500.000000
 	Level:1 7500.000000
@@ -65,10 +66,10 @@ minExperienceLevelRequired
 aiUseTime "Anytime"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
-	Level:0 350.000000
-	Level:1 350.000000
-	Level:2 350.000000
-	Level:3 350.000000
+	Level:0 2000.000000
+	Level:1 2000.000000
+	Level:2 2000.000000
+	Level:3 2000.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE

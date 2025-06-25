@@ -40,14 +40,14 @@ minExperienceLevelRequired
 	Level:0 1.000000
 	Level:1 4.000000
 	Level:2 7.000000
-	Level:3 0.000000
+	Level:3 7.000000
 aiUseTime "Anytime"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
 	Level:0 600.000000
 	Level:1 1300.000000
 	Level:2 2000.000000
-	Level:3 0.000000
+	Level:3 2000.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
@@ -58,12 +58,12 @@ antiMatterCost
 	Level:0 15.000000
 	Level:1 15.000000
 	Level:2 15.000000
-	Level:3 0.000000
+	Level:3 15.000000
 cooldownTime
 	Level:0 15.000000
 	Level:1 15.000000
 	Level:2 15.000000
-	Level:3 0.000000
+	Level:3 15.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

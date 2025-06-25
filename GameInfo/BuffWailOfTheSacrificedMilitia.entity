@@ -16,7 +16,7 @@ instantAction
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
-		maxFleetPoints 0.000000
+		maxFleetPoints 300.000000
 		requiredShipCount 5
 		requiredShip
 			type "FrigatePsiAntiFighterFree"
@@ -48,15 +48,6 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 2
-finishCondition
-	finishConditionType "ResearchNotMet"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
+numFinishConditions 1
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"

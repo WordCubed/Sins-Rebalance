@@ -49,13 +49,13 @@ instantAction
 	range
 		Level:0 83333.000000
 		Level:1 83333.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 83333.000000
+		Level:3 83333.000000
 	maxTargetCount
 		Level:0 24.000000
 		Level:1 48.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 48.000000
+		Level:3 48.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -73,7 +73,7 @@ finishCondition
 	time
 		Level:0 30.000000
 		Level:1 30.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 30.000000
+		Level:3 30.000000
 finishCondition
 	finishConditionType "OwnerChanged"

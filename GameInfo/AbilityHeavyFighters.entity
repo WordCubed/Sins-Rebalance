@@ -30,7 +30,7 @@ minExperienceLevelRequired
 	Level:0 1.000000
 	Level:1 4.000000
 	Level:2 7.000000
-	Level:3 0.000000
+	Level:3 7.000000
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE

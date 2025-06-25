@@ -28,7 +28,7 @@ instantAction
 		Level:0 450.000000
 		Level:1 675.000000
 		Level:2 900.000000
-		Level:3 0.000000
+		Level:3 900.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE
@@ -50,10 +50,10 @@ instantAction
 		space "Normal"
 		numConstraints 0
 	range
-		Level:0 3000.000000
-		Level:1 3000.000000
-		Level:2 3000.000000
-		Level:3 3000.000000
+		Level:0 3750.000000
+		Level:1 3750.000000
+		Level:2 3750.000000
+		Level:3 3750.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000

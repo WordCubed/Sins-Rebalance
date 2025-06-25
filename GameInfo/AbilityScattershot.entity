@@ -53,7 +53,7 @@ onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 4.000000
 	Level:1 6.000000
 	Level:2 8.000000
-	Level:3 0.000000
+	Level:3 8.000000
 onlyAutoCastWhenTargetsInBank "FRONT"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -66,12 +66,12 @@ antiMatterCost
 	Level:0 30.000000
 	Level:1 30.000000
 	Level:2 30.000000
-	Level:3 0.000000
+	Level:3 30.000000
 cooldownTime
 	Level:0 30.000000
 	Level:1 30.000000
 	Level:2 30.000000
-	Level:3 0.000000
+	Level:3 30.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

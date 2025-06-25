@@ -17,9 +17,9 @@ targetFilter
 	numConstraints 0
 range
 	Level:0 6250.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 6250.000000
+	Level:2 6250.000000
+	Level:3 6250.000000
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
@@ -44,14 +44,14 @@ onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 30.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 30.000000
+	Level:2 30.000000
+	Level:3 30.000000
 cooldownTime
 	Level:0 30.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 30.000000
+	Level:2 30.000000
+	Level:3 30.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

@@ -32,7 +32,7 @@ instantAction
 		Level:0 0.080000
 		Level:1 0.120000
 		Level:2 0.160000
-		Level:3 0.000000
+		Level:3 0.160000
 	buffType "BuffSubjugatingAssaultSelfTargetSmall"
 	targetFilter
 		numOwnerships 1
@@ -54,7 +54,7 @@ instantAction
 		Level:0 0.050000
 		Level:1 0.075000
 		Level:2 0.100000
-		Level:3 0.000000
+		Level:3 0.100000
 	buffType "BuffSubjugatingAssaultSelfTargetMedium"
 	targetFilter
 		numOwnerships 1
@@ -78,7 +78,7 @@ instantAction
 		Level:0 0.025000
 		Level:1 0.037500
 		Level:2 0.050000
-		Level:3 0.000000
+		Level:3 0.050000
 	buffType "BuffSubjugatingAssaultSelfTargetLarge"
 	targetFilter
 		numOwnerships 1
@@ -118,7 +118,7 @@ entityModifier
 		Level:0 0.125000
 		Level:1 0.187500
 		Level:2 0.250000
-		Level:3 0.000000
+		Level:3 0.250000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
@@ -127,6 +127,6 @@ finishCondition
 		Level:0 30.000000
 		Level:1 45.000000
 		Level:2 60.000000
-		Level:3 0.000000
+		Level:3 60.000000
 finishCondition
 	finishConditionType "AntiMatterDepleted"

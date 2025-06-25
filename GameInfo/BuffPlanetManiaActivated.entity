@@ -41,12 +41,12 @@ overTimeAction
 		Level:0 0.010000
 		Level:1 0.015000
 		Level:2 0.020000
-		Level:3 0.000000
+		Level:3 0.020000
 	populationKillRate
 		Level:0 0.015000
 		Level:1 0.022500
 		Level:2 0.030000
-		Level:3 0.000000
+		Level:3 0.030000
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 4
@@ -56,7 +56,7 @@ finishCondition
 		Level:0 30.000000
 		Level:1 30.000000
 		Level:2 30.000000
-		Level:3 0.000000
+		Level:3 30.000000
 finishCondition
 	finishConditionType "OwnerChanged"
 finishCondition

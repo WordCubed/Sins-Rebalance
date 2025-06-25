@@ -28,7 +28,7 @@ instantAction
 		Level:0 1000.000000
 		Level:1 1500.000000
 		Level:2 2000.000000
-		Level:3 0.000000
+		Level:3 2000.000000
 instantAction
 	buffInstantActionType "RestoreShieldPoints"
 	instantActionTriggerType "OnDelay"
@@ -37,7 +37,7 @@ instantAction
 		Level:0 500.000000
 		Level:1 750.000000
 		Level:2 1000.000000
-		Level:3 0.000000
+		Level:3 1000.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 2
@@ -47,14 +47,14 @@ entityModifier
 		Level:0 -500.000000
 		Level:1 -750.000000
 		Level:2 -1000.000000
-		Level:3 0.000000
+		Level:3 -1000.000000
 entityModifier
 	buffEntityModifierType "MaxShieldPoints"
 	value
 		Level:0 -250.000000
 		Level:1 -375.000000
 		Level:2 -500.000000
-		Level:3 0.000000
+		Level:3 -500.000000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
@@ -63,6 +63,6 @@ finishCondition
 		Level:0 30.000000
 		Level:1 30.000000
 		Level:2 30.000000
-		Level:3 0.000000
+		Level:3 30.000000
 finishCondition
 	finishConditionType "OwnerChanged"

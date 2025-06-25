@@ -13,15 +13,15 @@ numPeriodicActions 1
 periodicAction
 	actionCountType "Finite"
 	actionCount
-		Level:0 2.000000
-		Level:1 4.000000
-		Level:2 6.000000
-		Level:3 0.000000
+		Level:0 5.000000
+		Level:1 7.500000
+		Level:2 10.000000
+		Level:3 10.000000
 	actionIntervalTime
-		Level:0 2.500000
-		Level:1 2.500000
-		Level:2 2.500000
-		Level:3 2.500000
+		Level:0 2.000000
+		Level:1 2.000000
+		Level:2 2.000000
+		Level:3 2.000000
 	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffRazePlanetTarget"

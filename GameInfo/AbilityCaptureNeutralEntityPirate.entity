@@ -16,9 +16,9 @@ targetFilter
 	constraint "CanBeCaptured"
 range
 	Level:0 80000.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 80000.000000
+	Level:2 80000.000000
+	Level:3 80000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -47,9 +47,9 @@ antiMatterCost
 	Level:3 0.000000
 cooldownTime
 	Level:0 1.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

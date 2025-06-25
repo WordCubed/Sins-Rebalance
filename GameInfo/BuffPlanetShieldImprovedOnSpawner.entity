@@ -15,8 +15,8 @@ periodicAction
 	actionIntervalTime
 		Level:0 1.000000
 		Level:1 1.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:2 1.000000
+		Level:3 1.000000
 	buffInstantActionType "ApplyBuffToLocalOrbitBody"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffPlanetShieldImprovedOnPlanet"

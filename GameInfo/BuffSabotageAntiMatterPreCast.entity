@@ -29,9 +29,9 @@ instantAction
 	instantActionTriggerType "OnAbilityUsed"
 	damage
 		Level:0 375.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 375.000000
+		Level:2 375.000000
+		Level:3 375.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE
@@ -55,8 +55,8 @@ finishCondition
 	finishConditionType "TimeElapsed"
 	time
 		Level:0 15.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
 finishCondition
 	finishConditionType "OwnerChanged"

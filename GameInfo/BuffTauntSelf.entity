@@ -27,7 +27,7 @@ periodicAction
 		Level:0 20.000000
 		Level:1 20.000000
 		Level:2 20.000000
-		Level:3 0.000000
+		Level:3 20.000000
 	actionIntervalTime
 		Level:0 1.000000
 		Level:1 1.000000
@@ -53,12 +53,12 @@ periodicAction
 		Level:0 10200.000000
 		Level:1 10200.000000
 		Level:2 10200.000000
-		Level:3 0.000000
+		Level:3 10200.000000
 	maxTargetCount
 		Level:0 16.000000
 		Level:1 24.000000
 		Level:2 32.000000
-		Level:3 0.000000
+		Level:3 32.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Center"
@@ -76,4 +76,4 @@ finishCondition
 		Level:0 20.000000
 		Level:1 20.000000
 		Level:2 20.000000
-		Level:3 0.000000
+		Level:3 20.000000
