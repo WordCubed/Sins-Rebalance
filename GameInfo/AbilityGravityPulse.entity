@@ -1,9 +1,30 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "BuffGravityPulseSelf"
+targetFilter
+	numOwnerships 3
+	ownership "Enemy"
+	ownership "Friendly"
+	ownership "Player"
+	numObjects 6
+	object "Fighter"
+	object "Corvette"
+	object "Frigate"
+	object "CapitalShip"
+	object "Titan"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotSelf"
+range
+	Level:0 15000.000000
+	Level:1 15000.000000
+	Level:2 15000.000000
+	Level:3 15000.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
