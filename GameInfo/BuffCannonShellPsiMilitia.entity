@@ -16,7 +16,7 @@ instantAction
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
-		maxFleetPoints 200.000000
+		maxFleetPoints 300.000000
 		requiredShipCount 6
 		requiredShip
 			type "FrigatePsiAntiFighterFree"

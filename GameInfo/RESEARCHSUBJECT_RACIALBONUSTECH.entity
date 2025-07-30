@@ -29,9 +29,7 @@ Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
-researchBoolModifiers 1
-researchModifier
-	modifierType "PirateRaidsOneLevelLower"
+researchBoolModifiers 0
 researchFloatModifiers 1
 researchModifier
 	modifierType "ExtractionRateMetalAdjustment"

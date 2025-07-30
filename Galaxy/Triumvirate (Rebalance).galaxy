@@ -7,7 +7,7 @@ browseName "Triumvirate (Rebalance)"
 browseDescription "Will your neighbour help or hinder your conquest of the Liladi system? Choose your diplomatic posture wisely-other factions may be enlisting allies of their own."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.250000
+planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -2991,9 +2991,9 @@ player
 	inGameName "Player0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3004,9 +3004,9 @@ player
 	inGameName "Player1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3017,9 +3017,9 @@ player
 	inGameName "Player2"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3030,9 +3030,9 @@ player
 	inGameName "Player3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3043,9 +3043,9 @@ player
 	inGameName "Player4"
 	overrideRaceName ""
 	teamIndex 2
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -3056,9 +3056,9 @@ player
 	inGameName "Player5"
 	overrideRaceName ""
 	teamIndex 2
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

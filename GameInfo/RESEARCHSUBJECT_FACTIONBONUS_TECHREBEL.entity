@@ -33,7 +33,7 @@ researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
 	modifierType "MassReduction"
-	baseValue 0.100000
+	baseValue 0.020000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "StarBaseBuildRateAtEnemyOrbitBodyAdjustment"
@@ -41,7 +41,7 @@ researchModifier
 	perLevelValue 0.000000
 researchModifier
 	modifierType "ExperienceAwardedAdjustment"
-	baseValue 0.200000
+	baseValue 0.150000
 	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""

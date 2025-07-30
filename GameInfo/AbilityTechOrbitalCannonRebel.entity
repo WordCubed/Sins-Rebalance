@@ -27,10 +27,8 @@ needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 2
-levelSourceType "ResearchWithBase"
-baseSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH"
-improveSourceResearchSubject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
+maxNumLevels 1
+levelSourceType "FixedLevel0"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE

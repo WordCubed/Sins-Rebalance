@@ -11,9 +11,9 @@ isChannelling FALSE
 numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnCondition"
-	instantActionConditionType "IfOwnerIsAboutToDie"
-	buffType "BuffWailOfTheSacrificedOnDeath"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffWailOfTheSacrificedCheck"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -25,8 +25,6 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 2
+numFinishConditions 1
 finishCondition
-	finishConditionType "AnyOnConditionInstantActionDone"
-finishCondition
-	finishConditionType "OwnerChanged"
+	finishConditionType "AllOnDelayInstantActionsDone"

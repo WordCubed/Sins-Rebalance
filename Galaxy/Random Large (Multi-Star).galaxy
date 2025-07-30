@@ -6,7 +6,7 @@ browseName "Random Large (Multi-Star)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMLARGEMULTI"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.25
+planetArtifactDensity 0.350000
 planetBonusDensity 1.0
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -32,9 +32,9 @@ randomizerParams
 		minPercentage 2
 		maxPercentage 4
 	playerParams
-		startingCredits 16000
-		startingMetal 3900
-		startingCrystal 2600
+		startingCredits 22000
+		startingMetal 4000
+		startingCrystal 4000
 		homePlanetType "TerranHome"
 		homePlanetStarRadiusRange
 			minPercentage 0.8

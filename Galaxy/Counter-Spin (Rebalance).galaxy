@@ -7,7 +7,7 @@ browseName "Counter-Spin (Rebalance)"
 browseDescription "Four factions each must choose to make a bid for the hotly contested worlds of the rich central ring or risk being caught far from their capital should they opt for less volatile planets in the outer ring."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.250000
+planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -760,9 +760,9 @@ player
 	inGameName "P0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -773,9 +773,9 @@ player
 	inGameName "P1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -786,9 +786,9 @@ player
 	inGameName "P2"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -799,9 +799,9 @@ player
 	inGameName "P3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

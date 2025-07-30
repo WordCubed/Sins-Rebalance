@@ -1,7 +1,7 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeNewBuffs"
+onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "PerPlayer"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
@@ -18,8 +18,9 @@ instantAction
 		numOwnerships 2
 		ownership "NoOwner"
 		ownership "UncontrolledMinorFaction"
-		numObjects 1
+		numObjects 2
 		object "Planet"
+		object "Star"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0

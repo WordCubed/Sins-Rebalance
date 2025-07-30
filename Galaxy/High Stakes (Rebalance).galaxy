@@ -7,7 +7,7 @@ browseName "High Stakes (Rebalance)"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_HIGHSTAKES"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.500000
+planetArtifactDensity 0.750000
 planetBonusDensity 2.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -1193,9 +1193,9 @@ player
 	inGameName "Player0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1206,9 +1206,9 @@ player
 	inGameName "Player1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1219,9 +1219,9 @@ player
 	inGameName "Player2"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1232,9 +1232,9 @@ player
 	inGameName "Player3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

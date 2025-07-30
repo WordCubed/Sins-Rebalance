@@ -33,15 +33,15 @@ researchBoolModifiers 0
 researchFloatModifiers 3
 researchModifier
 	modifierType "AntimatterCapacityAdjustment"
-	baseValue 0.200000
+	baseValue 0.100000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "AntimatterRegenAdjustment"
-	baseValue 0.200000
+	baseValue 0.100000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "CultureAntimatterRegenAmount"
-	baseValue 0.200000
+	baseValue 0.100000
 	perLevelValue 0.000000
 artifactPicture ""
 uniqueOverlayBrush ""

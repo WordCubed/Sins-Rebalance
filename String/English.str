@@ -1,5 +1,38 @@
 TXT
-NumStrings 8891
+NumStrings 8902
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POLITICAL_KICKBACKS_DESCRIPTION"
+	Value "Our diplomats recieve bribery training, increasing the relations gained by giving metal to other factions."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_EXPERT_BRIBERY_DESCRIPTION"
+	Value "Your ambassadors are taught the art of bribery, improving the relationship gained by donating credits."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPHASECITYPOPULATION_DESC"
+	Value "Vasari civilian populations move aboard the Starbase, providing tax income for your empire. Also lets it slightly repel enemy culture."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_ILLUSIONSELFCOPY_DESCRIPTION"
+	Value "Grants Long-Range Frigates the Deceptive Illusion ability, allowing them to project an illusionary copy of themselves in order to deceive enemies. The Unity empowers the false image to deal real damage, albeit far less than the original ship."
+StringInfo
+	ID "IDS_ABILITY_ILLUSIONSELFCOPY_DESCRIPTION"
+	Value "Projects a false image of the ship into the minds of nearby enemies, allowing it to be less likely to be attacked. The false image can deal real damage, but at half the rate of the original ship."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANICPHASE_NAME"
+	Value "Aquatic Occupation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANICPHASE_DESCRIPTION"
+	Value "Allows colonization of Aquatic planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANICPSI_NAME"
+	Value "Aquatic Evangelism"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANICPSI_DESCRIPTION"
+	Value "Allows colonization of Aquatic planets."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANICTECH_NAME"
+	Value "Aquatic Exploitation"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_OCEANICTECH_DESCRIPTION"
+	Value "Allows colonization of Aquatic planets."
 StringInfo
 	ID "IDS_PLANETTYPE_ICE"
 	Value "Arctic Planet"
@@ -14,13 +47,13 @@ StringInfo
 	Value "Siege Mentality"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SIEGE_MENTALITY_DESCRIPTION"
-	Value "The heightened fear your people feel whenever they witness a superweapon impact drives your units to fight harder. Grants a temporary +30% damage buff to your units when a superweapon hits the planet (or neighboring planet) they're orbiting."
+	Value "The heightened fear your people feel whenever they witness a superweapon impact drives your units to fight harder. Grants a temporary +30% damage and +10 armor boost to your units when a superweapon hits the planet (or neighboring planet) they're orbiting."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_NAME"
 	Value "The Empty Throne"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_DESCRIPTION"
-	Value "Your Titan and Starbases become beacons of hope for your ships, increasing damage by +40% when you have a Titan or Starbase in a gravity well you don't have a colony in."
+	Value "Your Titan and Starbases become powerful symbols of your empire, increasing damage by +25% when you have a Titan or Starbase in a gravity well you don't have a colony in."
 StringInfo
 	ID "IDS_ABILITY_MICROPHASEJUMP_NAME"
 	Value "Micro Phase Trap"
@@ -116,19 +149,19 @@ StringInfo
 	Value "Maneuver Pact"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_THRUSTER_DESCRIPTION"
-	Value "Both factions pool their piloting and ship design knowledge together, increasing ship speeds, lowering ship mass, and giving ships a 10% chance to dodge enemy fire."
+	Value "Both factions pool their piloting and ship design knowledge together, lowering ship mass, increasing ship speeds, and giving ships a 10% chance to dodge enemy fire."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_NAME"
 	Value "Squadron Pact"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_DESCRIPTION"
-	Value "Both factions pool their squadron technologies together, boosting the number of strikecraft on squadrons, as well as doubling the number of squadrons that Starbases can deploy. Furthermore, strikecraft can now deploy around planets they would wouldn't normally be able to."
+	Value "Both factions pool their squadron technologies together, boosting weapon damage for your squadrons, as well as doubling the number of squadrons that Starbases can deploy."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_TACTICALSLOTS_NAME"
 	Value "Defense Pact"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_TACTICALSLOTS_DESCRIPTION"
-	Value "Both factions pool their planetary defense designs together, increasing their planets' tactical slots and their tactical structures' damage and hulls."
+	Value "Both factions pool their planetary defense designs together, increasing their planets' tactical slots and their tactical structures' damage and hull."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_WEAPONCOOLDOWN_NAME"
 	Value "Command Pact"
@@ -170,13 +203,13 @@ StringInfo
 	Value "Coward's Punishment"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_COWARDS_SUBMISSION_DESCRIPTION"
-	Value "The power of the Unity shocks its enemies, and those fleeing your Starbases have their shields permanently damaged."
+	Value "The power of the Unity damages the vital energies of hostile ships. Enables your Starbases to permanently reduce the shield mitigation (by -4%), energy-based weapon rates of fire (by -10%), and antimatter (by -10%) of enemy ships fleeing a gravity well."
 StringInfo
 	ID "IDS_ABILITY_COWARDSPUNISHMENT_NAME"
 	Value "Coward's Punishment"
 StringInfo
 	ID "IDS_ABILITY_COWARDSPUNISHMENT_DESCRIPTION"
-	Value "Enemies fleeing your Starbase have their max shield points permanently reduced (stacks up to 2 times)."
+	Value "Enemies fleeing your Starbase have their shield mitigation, energy weapon rate of fire, and antimatter regen permanently reduced by -4%, -10%, and -15% respectively. (Stacks up to 2 times.)"
 StringInfo
 	ID "IDS_PLANETBONUS_OLDBATTLEFIELD_NAME"
 	Value "Battlefield Scavenge"
@@ -404,19 +437,19 @@ StringInfo
 	Value "Loyalist Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists units have more better hulls, improved shield mitigation, and their culture can slow enemy shipbuilding rates."
+	Value "Advent Loyalists units have better hulls, improved shield mitigation, and their culture can slow enemy shipbuilding rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_NAME"
 	Value "Loyalist Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASELOYALIST_DESCRIPTION"
-	Value "Vasari Loyalists have better hulls and shields."
+	Value "Vasari Loyalists have extra armor and shield mitigation."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_NAME"
 	Value "Rebel Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FACTIONBONUS_PHASEREBEL_DESCRIPTION"
-	Value "Vasari Rebels have extra logistics slot at their colonies, improved Phase Missiles with longer range and a higher chance to skip enemy shields, and doing quests for other players improves relations with them faster."
+	Value "Vasari Rebels have an extra logistics slot at their colonies, improved Phase Missiles with longer range and a higher chance to skip enemy shields, and doing quests for other players improves relations with them faster."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPSI_NAME"
 	Value "Advent Bonus"
@@ -428,7 +461,7 @@ StringInfo
 	Value "TEC Bonus"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSTECH_DESCRIPTION"
-	Value "The TEC has higher metal income. Pirates are less likely to attack them."
+	Value "The TEC has higher metal income."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_RACIALBONUSPHASE_NAME"
 	Value "Vasari Bonus"
@@ -575,10 +608,10 @@ StringInfo
 	Value "Grants access to the Culture Center structure, allowing your culture to spread to nearby planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED_NAME"
-	Value "Return of the Lost"
+	Value "Wail of the Lost"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED_DESCRIPTION"
-	Value "When you lose a planet, vengeful spirits gather around it and summon a temporary fleet of ships."
+	Value "When you lose a planet, vengeful spirits gather around it and summon a temporary fleet of ships. Enemy ships present in the gravity well also get reductions of -10 armor, -4% shield mitigation, and -10% weapon damage. The effects on enemy ships are permanent and can stack up to 2 times."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_NAME"
 	Value "Culture Center"
@@ -599,7 +632,7 @@ StringInfo
 	Value "The triumphant growth of the Unity produces a burst of energy when colonizing a planet, repairing ships in the gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ASSIMILATED_POPULACE_DESCRIPTION"
-	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting a newly-colonized planet's tax rate by +10% and its development speed by +25%. Vital for overcoming the Advent's otherwise weak economy."
+	Value "The populace of conquered worlds embrace the message of the Unity with vigor, permanently boosting a newly-colonized planet's tax rate by +10% and its development speed by +33%. Vital for overcoming the Advent's otherwise weak economy."
 StringInfo
 	ID "IDS_FRIGATE_TECHMODULECONSTRUCTOR_NAME"
 	Value "Constructor Ship"
@@ -653,7 +686,7 @@ StringInfo
 	Value "Spawns a Phase Gate module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
-	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 30% damage bonus to all ships that were present for the battle (or witnessed it from a neighboring planet)."
+	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 40% damage bonus to all ships that were present for the battle (or witnessed it from a neighboring planet)."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSIONTECH_NAME"
 	Value "Homeland Defense"
@@ -665,7 +698,7 @@ StringInfo
 	Value "Survivor's Path"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
-	Value "When you scuttle a planet you consume it, stripping it of all resources to generate a large amount of credits, metal, and crystal. The planet is reduced to a useless Stripped Asteroid. Furthermore, when you lose a planet—by your own hand or your enemies'—you gain a permanent +40% damage bonus and +2.5% shield mitigation bonus."
+	Value "When you scuttle a planet you consume it, generating a large amount of credits, metal, and crystal. The planet is reduced to a useless Stripped Asteroid. Furthermore, when you lose a planet—by your own hand or your enemies'—you gain permanent bonuses of +35% damage, +5 armor, and +2% shield mitigation."
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
 	Value "As the Titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."
@@ -908,37 +941,37 @@ StringInfo
 	Value "Advanced Nano-Lattice Hulls"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SPEEDBOOSTARMOR2_DESCRIPTION"
-	Value "Advanced nanotechnology enables ship hulls to be stronger while significantly decreasing their mass."
+	Value "Advanced nanotechnology enables ship hulls to be stronger while decreasing their mass and improving their maneuverability."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SPEEDBOOSTARMOR_NAME"
 	Value "Nano-Lattice Hulls"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SPEEDBOOSTARMOR_DESCRIPTION"
-	Value "Nanotechnology enables ship hulls to be stronger while significantly decreasing their mass."
+	Value "Nanotechnology enables ship hulls to be stronger while decreasing their mass and improving their maneuverability."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASEREBEL_1_NAME"
 	Value "Kultorask Prototype I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PHASEREBEL_1_DESCRIPTION"
-	Value "Grants access to the Titan Foundry and allows you to begin summoning the Kultorask Titan, a massive warship of immense power. This Titan is highly mobile, teleporting across gravity wells before striking enemies hard with powerful abilities."
+	Value "Grants access to the Titan Foundry and allows you to begin summoning the Kultorask Titan, a massive warship of immense power. This Titan handicaps enemies before striking a killing blow."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE_NAME"
 	Value "Soft Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a 50% damage bonus for 160 seconds (a little over 2 minutes). Also boosts shield mitigation for the same period."
+	Value "Upon completing a phase jump, your ships and starbases receive a 50% damage bonus for 160 seconds (a little over 2 minutes). Also boosts armor and shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_NAME"
 	Value "Hard Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE2_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 320 seconds (a bit over 5 minutes). Stacks with Soft Phasic Strike for a total bonus of 100%. Also boosts shield mitigation for the same period."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 320 seconds (a bit over 5 minutes). Stacks with Soft Phasic Strike for a total bonus of 100%. Also boosts armor and shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_NAME"
 	Value "Combined Phasic Strike"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PHASIC_STRIKE3_DESCRIPTION"
-	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 8 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 150% for 160 seconds, 100% for 320 seconds, and 50% for 480 seconds. Also boosts shield mitigation for the same period."
+	Value "Upon completing a phase jump, your ships and starbases receive a further 50% damage bonus for 8 minutes. Stacks with Soft & Hard Phasic Strikes for a total bonus of 150% for 160 seconds, 100% for 320 seconds, and 50% for 480 seconds. Also boosts armor and shield mitigation for the same period."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_JUMPBLOCKERIMMUNEPHASE_NAME"
 	Value "Jump Blocker Immunity"
@@ -950,31 +983,31 @@ StringInfo
 	Value "Jump Drive Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_DESCRIPTION"
-	Value "This ancient, powerful relic contains highly advanced jump drive designs. Greatly increases Phase speeds and allows your ships to use wormholes and travel between stars."
+	Value "This ancient, powerful relic contains highly advanced jump drive designs. Greatly increases hyperspace speeds and allows your ships to use wormholes and travel between stars."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_NAME"
-	Value "Alien Metaloids"
+	Value "Exotic Hull Designs"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_DESCRIPTION"
-	Value "This ancient, powerful relic manufactures exotic materials that improve your hulls."
+	Value "This ancient, powerful relic contains designs that increase your armor, hull points, and hull regen."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_NAME"
 	Value "Exotic Engine Design"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_DESCRIPTION"
-	Value "This ancient, powerful relic contains designs for exotic ship engines, increasing your ships' speed and reducing their mass."
+	Value "This ancient, powerful relic contains designs for exotic ship engines, reducing ship mass and increasing ship speed."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_NAME"
 	Value "Power Core Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_DESCRIPTION"
-	Value "This ancient, powerful relic greatly increases antimatter capacity & regeneration."
+	Value "This ancient, powerful relic increases antimatter capacity and regeneration."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_NAME"
 	Value "Ion Field Generator"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_DESCRIPTION"
-	Value "This ancient, powerful relic emits a strange field that protects your planet, reducing the damage your planets take from bombardment and creating room for more tactical structures."
+	Value "This ancient, powerful relic emits a strange field that protects your planet, reducing the damage your planets take from bombardment, creating room for more tactical structures, and reducing the weapon damage of any invaders."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_NAME"
 	Value "Artificial Intelligence"
@@ -992,7 +1025,7 @@ StringInfo
 	Value "Construction Time Compressor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
-	Value "This ancient, powerful relic contains an alien factory design that can build ships, structures, and develop planets faster than previously imaginable. Also makes certain structures have zero construction cost."
+	Value "This ancient, powerful relic contains an alien factory design that can build ships, structures, and develop planets faster than previously imaginable. Also reduces build costs for some structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
 	Value "Manifest Dominion"
@@ -1004,7 +1037,7 @@ StringInfo
 	Value "Matter Compressor"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_DESCRIPTION"
-	Value "This ancient, powerful relic contains technology that increases your metal and crystal extraction rates."
+	Value "This ancient, powerful relic contains technology that increases your metal and crystal extraction rates and boosts refinery rates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_NAME"
 	Value "Kinetic Intensifier"
@@ -1070,7 +1103,7 @@ StringInfo
 	Value "Solitary Path"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SOLITARY_PATH_DESCRIPTION"
-	Value "Your units gain a +40% damage bonus and a +2.5% shield mitigation bonus when they're in a neutral or uncolonizable gravity well."
+	Value "Your units gain a +50% damage bonus, +2% shield mitigation, and a +5 armor bonus when they're in a neutral or uncolonizable gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_CULTURERATEPHASE0_NAME"
 	Value "Cultural Subjugation 1"
@@ -1094,19 +1127,19 @@ StringInfo
 	Value "Metal & Small Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_DESCRIPTION"
-	Value "Allows colonization of Metallic and of tiny planets."
+	Value "Allows colonization of Metallic and of Small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_NAME"
-	Value "Metal & Tiny Subjugation 1"
+	Value "Metal & Small Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_DESCRIPTION"
-	Value "Inhabitants are genetically modified to slow their metabolisms to survive more easily in non-organic environements, increasing the population that Metal-type and Asteroid-type planets can support."
+	Value "Inhabitants are genetically modified to slow their metabolisms to survive more easily in non-organic environements, increasing the population that Metal and Small planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_NAME"
-	Value "Metal & Tiny Subjugation 2"
+	Value "Metal & Small Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_DESCRIPTION"
-	Value "Organic life is introduced in an effort to terraform the planet, making the environment less hostile and increasing the population that Metal-type and Asteroid-type planets can support."
+	Value "Organic life is introduced in an effort to terraform the planet, making the environment less hostile and increasing the population that Metal and Small planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE_NAME"
 	Value "Hazardous Occupation"
@@ -1142,7 +1175,7 @@ StringInfo
 	Value "Efficient Reassembly"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_MODULEBUILDTIME_DESCRIPTION"
-	Value "Improved construction nanites reduce the time required to build orbital structures."
+	Value "Improved construction nanites reduce the time required to build ships and structures."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SALVAGEDEBRIS_NAME"
 	Value "Salvage Subject 2"
@@ -1538,7 +1571,7 @@ StringInfo
 	Value "Enduring Spirit"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_A_PLANET_DESCRIPTION"
-	Value "The Unity grows stronger over the course of a battle. Grants a +50% damage bonus and a +4% shield mitigation bonus 2.5 minutes after entering a gravity well. The effect dissipates when an invasion has been successfully repelled."
+	Value "The Unity grows stronger over the course of a battle. Grants a +50% damage bonus and a +4% shield mitigation bonus 2.5 minutes after entering a gravity well."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPPHASE_NAME"
 	Value "Unstoppable Scouting"
@@ -1928,7 +1961,7 @@ StringInfo
 	Value "Advent Loyalists can win almost any culture war, overwhelming enemy cultures while enjoying the many military bonuses their own give. Their +80% allegiance bonus is the highest in the game, allowing their empires to sprawl farther with fewer downsides. However, their fleets are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +50% for repelling invasion"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
-	Value "Advent Rebels have some nasty abilities. Lose a colony? The invader's fleet is severely crippled—and some of the effects are permanent. Lose a unit? The survivors become stronger. Some deaths even briefly conjure powerful reinforcements. Their superweapon can briefly conjure a fleet around a target planet. MAIN DAMAGE BUFFS: +50% for 1st unit lost; +50% for 1st enemy killed; +50% after 2 minutes in combat"
+	Value "Advent Rebels have some nasty abilities. Lose a colony? The invader's fleet is severely crippled—and some of the effects are permanent. Lose a unit? The survivors become stronger. Some deaths even briefly conjure powerful reinforcements. Their superweapon can briefly conjure a fleet around a target planet. MAIN DAMAGE BUFFS: +50% for 1st unit lost; +50% for 1st enemy killed; +50% after 2.5 minutes in combat"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
 	Value "Vasari Loyalists have a unique, powerful strategy: they can survive without colonies & raze planets to uncolonizable dust. This allows them to permanently deny valuable planets to their enemies. Their units heal quickly & their titan can repair a fleet even under heavy fire. Ships they do lose can be replaced with their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +50% for 1st colony loss; +50% in uncolonized gravity well"

@@ -7,7 +7,7 @@ browseName "Ring Around"
 browseDescription "Valuable resources can be found in the outer ring around this star."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.250000
+planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -26,10 +26,10 @@ recommendedGameType "TwoTeamsOfTwo"
 recommendedGameType "Solo"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 250000.000000
-pixelsPerGalaxyUnit 1.000000
+pixelsPerGalaxyUnit 2.079999
 useRandomGenerator FALSE
-galaxyWidth 1536.000000
-galaxyHeight 873.000000
+galaxyWidth 1707.000000
+galaxyHeight 980.000000
 nextStarNameUniqueId 1
 nextPlanetNameUniqueId 96
 triggerCount 0
@@ -1345,7 +1345,7 @@ star
 		designName "Planet56"
 		inGameName ""
 		type "PirateBase"
-		pos [ 195 , 195 ]
+		pos [ 215 , 215 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1370,7 +1370,7 @@ star
 		designName "Planet57"
 		inGameName ""
 		type "PirateBase"
-		pos [ 305 , 305 ]
+		pos [ 285 , 285 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1395,7 +1395,7 @@ star
 		designName "Planet58"
 		inGameName ""
 		type "PirateBase"
-		pos [ 130 , 370 ]
+		pos [ 120 , 380 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1420,7 +1420,7 @@ star
 		designName "Planet59"
 		inGameName ""
 		type "PirateBase"
-		pos [ 370 , 130 ]
+		pos [ 380 , 120 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1844,7 +1844,7 @@ star
 	planet
 		designName "Planet84"
 		inGameName ""
-		type "AsteroidSpaceJunk"
+		type "ShipGraveyard"
 		pos [ 215 , 225 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1869,7 +1869,7 @@ star
 	planet
 		designName "Planet85"
 		inGameName ""
-		type "Comet"
+		type "Asteroid"
 		pos [ 215 , 275 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1894,7 +1894,7 @@ star
 	planet
 		designName "Planet86"
 		inGameName ""
-		type "AsteroidSpaceJunk"
+		type "ShipGraveyard"
 		pos [ 225 , 215 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1919,7 +1919,7 @@ star
 	planet
 		designName "Planet87"
 		inGameName ""
-		type "Comet"
+		type "Asteroid"
 		pos [ 275 , 215 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1944,7 +1944,7 @@ star
 	planet
 		designName "Planet88"
 		inGameName ""
-		type "AsteroidSpaceJunk"
+		type "ShipGraveyard"
 		pos [ 275 , 285 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1969,7 +1969,7 @@ star
 	planet
 		designName "Planet89"
 		inGameName ""
-		type "Comet"
+		type "Asteroid"
 		pos [ 225 , 285 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1994,7 +1994,7 @@ star
 	planet
 		designName "Planet90"
 		inGameName ""
-		type "AsteroidSpaceJunk"
+		type "ShipGraveyard"
 		pos [ 285 , 275 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2019,7 +2019,7 @@ star
 	planet
 		designName "Planet91"
 		inGameName ""
-		type "Comet"
+		type "Asteroid"
 		pos [ 285 , 225 ]
 		owner ""
 		isHomePlanet FALSE
@@ -2591,9 +2591,9 @@ player
 	inGameName "NewPlayer0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -2604,9 +2604,9 @@ player
 	inGameName "NewPlayer1"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -2617,9 +2617,9 @@ player
 	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -2630,9 +2630,9 @@ player
 	inGameName "NewPlayer3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

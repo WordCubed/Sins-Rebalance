@@ -33,19 +33,11 @@ researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
 	buffToApply "BuffArtifactShipSpeedSelf"
-researchFloatModifiers 3
-researchModifier
-	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.250000
-researchModifier
-	modifierType "CapitalShipAccelerationAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.250000
+researchFloatModifiers 1
 researchModifier
 	modifierType "MassReduction"
 	baseValue 0.000000
-	perLevelValue 0.300000
+	perLevelValue 0.020000
 artifactPicture "ArtifactPictureHyperspaceSpeed"
 uniqueOverlayBrush ""
 dlcId 204880

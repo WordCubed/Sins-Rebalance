@@ -6,7 +6,7 @@ browseName "Random Tiny"
 browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMMINI"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.250000
+planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -30,9 +30,9 @@ randomizerParams
 		minPercentage 10.000000
 		maxPercentage 15.000000
 	playerParams
-		startingCredits 16000
-		startingMetal 3900
-		startingCrystal 2600
+		startingCredits 22000
+		startingMetal 4000
+		startingCrystal 4000
 		homePlanetType "TerranHome"
 		homePlanetStarRadiusRange
 			minPercentage 0.7

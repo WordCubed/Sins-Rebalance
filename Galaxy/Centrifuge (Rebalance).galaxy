@@ -7,7 +7,7 @@ browseName "Centrifuge (Rebalance)"
 browseDescription "This star's strong gravity has pulled its many asteroids into a tight ring, leaving clusters of valuable outer planets nearly stranded with few paths to the center or each other. Your empire has little room to expand. Reach for the center or die trying."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.250000
+planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -1189,9 +1189,9 @@ player
 	inGameName "NewPlayer0"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1202,9 +1202,9 @@ player
 	inGameName "NewPlayer1"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
@@ -1215,9 +1215,9 @@ player
 	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex -1
-	startingCredits 16000
-	startingMetal 3900
-	startingCrystal 2600
+	startingCredits 22000
+	startingMetal 4000
+	startingCrystal 4000
 	playerType "Normal"
 	themeGroup ""
 	themeIndex 0

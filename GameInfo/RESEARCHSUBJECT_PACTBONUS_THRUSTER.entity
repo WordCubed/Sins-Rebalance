@@ -15,12 +15,12 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 30.000000
+BaseUpgradeTime 60.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
-	credits 600.000000
-	metal 75.000000
-	crystal 150.000000
+	credits 800.000000
+	metal 120.000000
+	crystal 240.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
@@ -33,19 +33,11 @@ researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
 	buffToApply "BuffPactShipSpeedSelf"
-researchFloatModifiers 3
+researchFloatModifiers 1
 researchModifier
 	modifierType "MassReduction"
 	baseValue 0.000000
-	perLevelValue 0.100000
-researchModifier
-	modifierType "CapitalShipAngularThrustAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.200000
-researchModifier
-	modifierType "CapitalShipAccelerationAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.020000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

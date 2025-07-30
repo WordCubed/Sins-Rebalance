@@ -48,9 +48,9 @@ bombEffectsDef
 	beamTilingRate 3.000000
 mainViewIcon "MAINVIEWICON_CAPITALSHIP_PHASEBATTLESHIP2"
 basePrice
-	credits 2400.000000
-	metal 480.000000
-	crystal 240.000000
+	credits 3000.000000
+	metal 600.000000
+	crystal 300.000000
 slotCount 20.000000
 BuildTime 150.000000
 MaxHullPoints

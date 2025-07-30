@@ -8,27 +8,27 @@ NameStringID "IDS_RESEARCHSUBJECT_TRUTH_AND_RECONCILIATION_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_TRUTH_AND_RECONCILIATION_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 4 , 2 ]
+	pos [ 0 , 3 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_ADVANCED_VOICE_OF_THE_UNITY"
-		Level 2
+		Subject "RESEARCHSUBJECT_ENVOY_PROTOTYPE_ADVENT"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 40.000000
+BaseUpgradeTime 75.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
-	credits 800.000000
-	metal 100.000000
-	crystal 200.000000
+	credits 1200.000000
+	metal 140.000000
+	crystal 280.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 4
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000

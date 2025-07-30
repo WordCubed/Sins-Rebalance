@@ -6,8 +6,8 @@ browseName ""
 browseDescription ""
 isFirstCapitalShipIsFlagship FALSE
 randomizeStartingPositions TRUE
-planetArtifactDensity .15
-planetBonusDensity .60
+planetArtifactDensity 0.350000
+planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 3
 normalStartHomePlanetUpgradeLevel:CivilianModules 1
 normalStartHomePlanetUpgradeLevel:TacticalModules 0

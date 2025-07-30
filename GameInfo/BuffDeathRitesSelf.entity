@@ -10,34 +10,25 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffDeathRitesTarget"
+	buffType "BuffDeathRitesPlanet"
 	targetFilter
-		numOwnerships 3
+		numOwnerships 4
+		ownership "Friendly"
 		ownership "Enemy"
-		ownership "NoOwner"
 		ownership "UncontrolledMinorFaction"
-		numObjects 6
-		object "Corvette"
-		object "Frigate"
-		object "CapitalShip"
-		object "StarBase"
-		object "PlanetModule"
-		object "Titan"
+		ownership "NoOwner"
+		numObjects 2
+		object "Planet"
+		object "Star"
 		numSpaces 1
 		space "Normal"
-		numConstraints 1
-		constraint "NotIsIllusionShip"
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
+		numConstraints 0
 	effectInfo
 		effectAttachInfo
-			attachType "Center"
+			attachType "Invalid"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""

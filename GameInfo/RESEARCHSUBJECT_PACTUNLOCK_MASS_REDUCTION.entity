@@ -8,7 +8,7 @@ NameStringID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 5 , 1 ]
+	pos [ 5 , 2 ]
 ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -21,9 +21,9 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 90.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
-	credits 1200.000000
-	metal 150.000000
-	crystal 300.000000
+	credits 1700.000000
+	metal 250.000000
+	crystal 500.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000

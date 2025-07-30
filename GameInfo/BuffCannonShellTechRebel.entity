@@ -10,13 +10,25 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 2
 instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellTechCast"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
 	instantActionTriggerType "OnDelay"
 	delayTime 2.000000
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
-		maxFleetPoints 0.000000
+		maxFleetPoints 300.000000
 		requiredShipCount 6
 		requiredShip
 			type "FrigateTechAntiFighterFree"
@@ -48,18 +60,6 @@ instantAction
 	shouldAdoptFirstSpawnersMinorFactionState TRUE
 	spawnShipsMinStartingHullPerc 1.000000
 	spawnShipsMaxStartingHullPerc 1.000000
-instantAction
-	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffCannonShellTechCast"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
