@@ -4,7 +4,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UserGenerated"
 browseName "Crossbars"
-browseDescription "Together with your allies, explore and conquer the branches of this solar system. But watch out for surprise attacks! Wormholes may offer shortcuts to the enemy, but they also mean shortcuts to you. (NOTE: AI players rarely use wormholes, making them perform very poorly on this map.)"
+browseDescription "Explore & conquer the branches of this solar system with your allies. But watch out for surprise attacks! Wormholes offer shortcuts to the enemy, & also shortcuts to you. (NOTE: AI players rarely use wormholes, so they perform very poorly on this map)"
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.350000

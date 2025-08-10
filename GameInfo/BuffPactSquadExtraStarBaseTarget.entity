@@ -20,6 +20,15 @@ entityModifier
 		Level:2 4.000000
 		Level:3 4.000000
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "ResearchNotMet"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_PACTBONUS_MASS_REDUCTION"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0

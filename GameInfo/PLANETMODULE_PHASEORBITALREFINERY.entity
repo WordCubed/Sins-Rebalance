@@ -21,7 +21,7 @@ planetUpgradeSlotCount 1.000000
 basePrice
 	credits 1200.000000
 	metal 240.000000
-	crystal 120.000000
+	crystal 180.000000
 NameStringID "IDS_PLANETMODULE_PHASEORBITALREFINERY_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PHASEORBITALREFINERY_DESC"
 planetModuleRoleType "REFINERY"
@@ -42,7 +42,7 @@ maxShieldMitigation 0.466667
 ExperiencePointsForDestroying 150.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
-isAffectedBySimilarModuleCostResearch FALSE
+isAffectedBySimilarModuleCostResearch TRUE
 placementRadius 1050.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 8000.000000
@@ -72,8 +72,8 @@ picture "PLANETMODULEPICTURE_PHASEORBITALREFINERY"
 minShadow 0.100000
 maxShadow 0.800000
 formationRank 3
-baseBuildTime 45.000000
+baseBuildTime 60.000000
 buildEffectName ""
 cargoShipType "FrigatePhaseRefineryShip"
-maxCargoShipCount 4
+maxCargoShipCount 1
 cargoShipRespawnTime 30.000000

@@ -35,9 +35,9 @@ researchModifier
 	buffToApply "BuffPactShipSpeedSelf"
 researchFloatModifiers 1
 researchModifier
-	modifierType "MassReduction"
+	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.020000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

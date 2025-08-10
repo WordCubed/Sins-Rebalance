@@ -20,7 +20,7 @@ basePrice
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 1.000000
+BuildTime 3.000000
 hasLevels TRUE
 ExperiencePointsForDestroying
 	Level:0 200.000000
@@ -53,10 +53,10 @@ BaseArmorPoints
 	Level:2 20.000000
 	Level:3 20.000000
 maxMitigation
-	Level:0 0.700000
-	Level:1 0.700000
-	Level:2 0.700000
-	Level:3 0.700000
+	Level:0 0.600000
+	Level:1 0.600000
+	Level:2 0.600000
+	Level:3 0.600000
 relationshipChangeRate
 	Level:0 0.000000
 	Level:1 0.000000
@@ -179,8 +179,8 @@ ability:1 "AbilityInfiltrateTurret"
 ability:2 "AbilitySabotageTurret"
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 120.000000
-AntiMatterRestoreRate 2.000000
+MaxAntiMatter 300.000000
+AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0

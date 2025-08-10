@@ -7,8 +7,8 @@ ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 480.000000
-AntiMatterRestoreRate 8.000000
+MaxAntiMatter 120.000000
+AntiMatterRestoreRate 0.500000
 numRandomDebrisLarge 5
 numRandomDebrisSmall 16
 numSpecificDebris 0
@@ -19,9 +19,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALHANGARDEFENSE"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 1.000000
 basePrice
-	credits 1600.000000
-	metal 320.000000
-	crystal 160.000000
+	credits 1800.000000
+	metal 360.000000
+	crystal 270.000000
 NameStringID "IDS_PLANETMODULE_TECHORBITALHANGARDEFENSE_NAME"
 DescriptionStringID "IDS_PLANETMODULE_TECHORBITALHANGARDEFENSE_DESCRIPTION"
 planetModuleRoleType "HANGARDEFENSE"
@@ -38,7 +38,7 @@ HullPointRestoreRate 25.000000
 BaseArmorPoints 16.666667
 MaxShieldPoints 4000.000000
 ShieldPointRestoreRate 16.666667
-maxShieldMitigation 0.60000
+maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 300.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
@@ -82,12 +82,12 @@ picture "PLANETMODULEPICTURE_TECHORBITALHANGARDEFENSE"
 minShadow 0.000000
 maxShadow 0.400000
 formationRank 3
-baseBuildTime 90.000000
+baseBuildTime 60.000000
 buildEffectName ""
 squadTypeEntityDef:0 "SquadTechCombat"
-squadAntiMatterCost:0 60.000000
+squadAntiMatterCost:0 30.000000
 squadTypeEntityDef:1 "SquadTechBomber"
-squadAntiMatterCost:1 60.000000
+squadAntiMatterCost:1 30.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""

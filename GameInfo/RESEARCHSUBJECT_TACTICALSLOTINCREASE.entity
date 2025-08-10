@@ -15,12 +15,12 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 15.000000
+BaseUpgradeTime 30.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
 	credits 300.000000
-	metal 37.500000
-	crystal 75.000000
+	metal 50.000000
+	crystal 100.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
@@ -34,7 +34,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "PlanetSlotsTacticalIncrease"
 	baseValue 0.000000
-	perLevelValue 2.500000
+	perLevelValue 2.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

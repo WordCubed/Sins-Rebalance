@@ -13,10 +13,10 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 500.000000
-basePopulationKilled 2.000000
-bombingFreqTime 10.000000
-baseRange 8000.000000
+baseDamage 720.000000
+basePopulationKilled 3.000000
+bombingFreqTime 6.000000
+baseRange 10000.000000
 bombTransitTime 4.000000
 bombEffectCount 2
 bombEffectAngleVariance 2.500000
@@ -48,9 +48,9 @@ bombEffectsDef
 	beamTilingRate 3.000000
 mainViewIcon "MAINVIEWICON_TITAN_PHASELOYALIST"
 basePrice
-	credits 30000.000000
+	credits 32000.000000
 	metal 6000.000000
-	crystal 3000.000000
+	crystal 4800.000000
 slotCount 0.000000
 BuildTime 300.000000
 MaxHullPoints
@@ -72,10 +72,10 @@ maxMitigation
 	StartValue 0.666667
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 265.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 480.000000
+	ValueIncreasePerLevel 0.000100
 AntiMatterRestoreRate
-	StartValue 4.416667
+	StartValue 0.500000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
 	StartValue 1.000000

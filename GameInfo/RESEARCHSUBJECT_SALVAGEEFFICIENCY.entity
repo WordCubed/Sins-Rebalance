@@ -15,12 +15,12 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 10.000000
+BaseUpgradeTime 15.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
 	credits 200.000000
-	metal 25.000000
-	crystal 50.000000
+	metal 30.000000
+	crystal 60.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
@@ -38,7 +38,7 @@ researchModifier
 researchModifier
 	modifierType "ScuttleValueAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.187500
+	perLevelValue 0.150000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

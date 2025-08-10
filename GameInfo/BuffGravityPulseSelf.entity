@@ -49,12 +49,11 @@ instantAction
 		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Ability"
-			abilityIndex 0
-		smallEffectName "TitanAbility_GravityPulse"
-		mediumEffectName "TitanAbility_GravityPulse"
-		largeEffectName "TitanAbility_GravityPulse"
-		soundID "EFFECT_GRAVITYPULSE"
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
@@ -81,12 +80,11 @@ instantAction
 		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Ability"
-			abilityIndex 0
-		smallEffectName "TitanAbility_GravityPulse"
-		mediumEffectName "TitanAbility_GravityPulse"
-		largeEffectName "TitanAbility_GravityPulse"
-		soundID "EFFECT_GRAVITYPULSE"
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

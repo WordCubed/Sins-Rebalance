@@ -17,7 +17,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 3
 levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityBLevel"
+sourcePropertyType "AbilityCLevel"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE

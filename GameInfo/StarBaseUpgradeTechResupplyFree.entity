@@ -23,7 +23,7 @@ stage
 		value 360.000000
 	upgradeProperty
 		propertyType "AntiMatterRestoreRate"
-		value 6.000000
+		value 0.500000
 	upgradeProperty
 		propertyType "AbilityALevel"
 		value 2.000000

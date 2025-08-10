@@ -34,15 +34,15 @@ researchFloatModifiers 4
 researchModifier
 	modifierType "PlanetSlotsTacticalIncrease"
 	baseValue 0.000000
-	perLevelValue 2.000000
+	perLevelValue 1.000000
 researchModifier
 	modifierType "TacticalStructureWeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.150000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "TacticalStructureHullPointsMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.150000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "TacticalStructureArmorAdjustment"
 	baseValue 0.000000

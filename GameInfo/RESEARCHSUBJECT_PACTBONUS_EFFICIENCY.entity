@@ -34,19 +34,19 @@ researchFloatModifiers 4
 researchModifier
 	modifierType "ModuleBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 0.333333
 researchModifier
 	modifierType "ShipBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 0.333333
 researchModifier
 	modifierType "CreditCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.066667
+	perLevelValue 0.050000
 researchModifier
 	modifierType "ResourceCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.066667
+	perLevelValue 0.050000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

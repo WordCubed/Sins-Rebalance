@@ -20,8 +20,8 @@ planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 1.000000
 basePrice
 	credits 1200.000000
-	metal 320.000000
-	crystal 120.000000
+	metal 240.000000
+	crystal 180.000000
 NameStringID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_DESCRIPTION"
 planetModuleRoleType "CULTURE"
@@ -72,5 +72,5 @@ picture "PLANETMODULEPICTURE_PSIORBITALCULTURECENTER"
 minShadow 0.000000
 maxShadow 0.300000
 formationRank 3
-baseBuildTime 45.000000
+baseBuildTime 60.000000
 buildEffectName ""

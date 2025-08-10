@@ -103,9 +103,9 @@ planetType
 	orbitBodyType "Industrial"
 	orbitBodyType "Industrial"
 	orbitBodyType "Industrial"
-	orbitBodyType "Mountains"
-	orbitBodyType "Mountains"
-	orbitBodyType "Mountains"
+	orbitBodyType "Alpine"
+	orbitBodyType "Alpine"
+	orbitBodyType "Alpine"
 	orbitBodyType "Urban"
 	orbitBodyType "Oceanic"
 	orbitBodyType "Oceanic"
@@ -188,10 +188,10 @@ planetType
 	orbitBodyType "Industrial"
 	orbitBodyType "Industrial"
 	orbitBodyType "Industrial"
-	orbitBodyType "Mountains"
-	orbitBodyType "Mountains"
-	orbitBodyType "Mountains"
-	orbitBodyType "Mountains"
+	orbitBodyType "Alpine"
+	orbitBodyType "Alpine"
+	orbitBodyType "Alpine"
+	orbitBodyType "Alpine"
 	orbitBodyType "Urban"
 	orbitBodyType "Oceanic"
 	orbitBodyType "Oceanic"
@@ -305,7 +305,7 @@ planetType
 	orbitBodyTypeCount 9
 	orbitBodyType "Terran"
 	orbitBodyType "Industrial"
-	orbitBodyType "Mountains"
+	orbitBodyType "Alpine"
 	orbitBodyType "Desert"
 	orbitBodyType "Savannah"
 	orbitBodyType "Greenhouse"
@@ -397,7 +397,7 @@ planetType
 	orbitBodyTypeCount 6
 	orbitBodyType "Terran"
 	orbitBodyType "Industrial"
-	orbitBodyType "Mountains"
+	orbitBodyType "Alpine"
 	orbitBodyType "Oceanic"
 	orbitBodyType "Tropical"
 	orbitBodyType "Swamp"
@@ -435,7 +435,7 @@ planetType
 	orbitBodyTypeCount 3
 	orbitBodyType "Terran"
 	orbitBodyType "Industrial"
-	orbitBodyType "Mountains"
+	orbitBodyType "Alpine"
 planetType
 	designName "RandomWater"
 	designStringId "IDSGalaxyScenarioTypePlanetWater"
@@ -568,10 +568,10 @@ planetType
 	orbitBodyTypeCount 1
 	orbitBodyType "Moon"
 planetType
-	designName "Mountains"
-	designStringId "IDSGalaxyScenarioTypePlanetMountains"
+	designName "Alpine"
+	designStringId "IDSGalaxyScenarioTypePlanetAlpine"
 	orbitBodyTypeCount 1
-	orbitBodyType "Mountains"
+	orbitBodyType "Alpine"
 planetType
 	designName "Oceanic"
 	designStringId "IDSGalaxyScenarioTypePlanetOceanic"
@@ -886,9 +886,9 @@ orbitBodyType
 	entityDefName "PlanetIndustrial"
 	defaultTemplateName "Template:DefaultStart_Industrial"
 orbitBodyType
-	typeName "Mountains"
-	entityDefName "PlanetMountains"
-	defaultTemplateName "Template:DefaultStart_Mountains"
+	typeName "Alpine"
+	entityDefName "PlanetAlpine"
+	defaultTemplateName "Template:DefaultStart_Alpine"
 orbitBodyType
 	typeName "RockGiant"
 	entityDefName "PlanetRockGiant"
@@ -2650,7 +2650,7 @@ planetItemsTemplate
 		template "Template:LocalMilitiaStrong"
 	groups 0
 planetItemsTemplate
-	templateName "Template:DefaultStart_Mountains"
+	templateName "Template:DefaultStart_Alpine"
 	subTemplates 2
 		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitiaStrong"

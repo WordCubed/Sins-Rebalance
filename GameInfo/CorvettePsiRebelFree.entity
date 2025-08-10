@@ -20,15 +20,15 @@ basePrice
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 6.000000
+BuildTime 3.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 60.000000
-MaxHullPoints 750.000000
-MaxShieldPoints 1500.000000
-HullPointRestoreRate 1.562500
-ShieldPointRestoreRate 6.250000
+MaxHullPoints 500.000000
+MaxShieldPoints 1000.000000
+HullPointRestoreRate 1.250000
+ShieldPointRestoreRate 5.000000
 BaseArmorPoints 10.000000
-maxMitigation 0.500000
+maxMitigation 0.466667
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -54,7 +54,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERPSI"
-	DamagePerBank:FRONT 187.500000
+	DamagePerBank:FRONT 150.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -95,7 +95,7 @@ Weapon
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
 	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 375.000000
+	DamagePerBank:BACK 300.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 3000.000000

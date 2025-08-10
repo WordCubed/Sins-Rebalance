@@ -20,7 +20,7 @@ basePrice
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 8.000000
+BuildTime 6.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 160.000000
 MaxHullPoints 4000.000000
@@ -145,8 +145,8 @@ ability:1 "AbilityDesignateTarget"
 ability:2 ""
 ability:3 "AbilityTempFreeShips"
 ability:4 ""
-MaxAntiMatter 90.000000
-AntiMatterRestoreRate 1.500000
+MaxAntiMatter 80.000000
+AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 1

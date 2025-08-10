@@ -20,7 +20,7 @@ basePrice
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 1.000000
+BuildTime 3.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 160.000000
 MaxHullPoints 6000.000000
@@ -142,8 +142,8 @@ ability:1 "AbilityPirateEmbargo"
 ability:2 ""
 ability:3 "AbilityPirateMercenaryTempShips"
 ability:4 ""
-MaxAntiMatter 120.000000
-AntiMatterRestoreRate 2.000000
+MaxAntiMatter 80.000000
+AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 1

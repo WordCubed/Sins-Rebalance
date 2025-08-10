@@ -21,7 +21,7 @@ planetUpgradeSlotCount 1.000000
 basePrice
 	credits 1600.000000
 	metal 320.000000
-	crystal 160.000000
+	crystal 240.000000
 NameStringID "IDS_PLANETMODULE_PSIORBITALJUMPBLOCKER_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PSIORBITALJUMPBLOCKER_DESCRIPTION"
 planetModuleRoleType "JUMPBLOCKER"
@@ -38,7 +38,7 @@ HullPointRestoreRate 8.333333
 BaseArmorPoints 20.000000
 MaxShieldPoints 8000.000000
 ShieldPointRestoreRate 33.333333
-maxShieldMitigation 0.60000
+maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 300.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
@@ -72,5 +72,5 @@ picture "PLANETMODULEPICTURE_PSIORBITALJUMPBLOCKER"
 minShadow 0.000000
 maxShadow 0.300000
 formationRank 3
-baseBuildTime 30.000000
+baseBuildTime 60.000000
 buildEffectName ""

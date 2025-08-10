@@ -30,19 +30,23 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 4
 researchModifier
 	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.300000
+	perLevelValue 0.150000
 researchModifier
 	modifierType "ExtractionRateCrystalAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.300000
+	perLevelValue 0.150000
 researchModifier
 	modifierType "RefineryShipCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.600000
+	perLevelValue 0.500000
+researchModifier
+	modifierType "ExtractionRateFromResourceFocus"
+	baseValue 0.000000
+	perLevelValue 0.150000
 artifactPicture "ArtifactPictureTradeIncome"
 uniqueOverlayBrush ""
 dlcId 204880

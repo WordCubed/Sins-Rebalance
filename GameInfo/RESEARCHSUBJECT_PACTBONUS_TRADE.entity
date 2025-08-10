@@ -30,7 +30,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 4
+researchFloatModifiers 5
 researchModifier
 	modifierType "TradeGoodsValueAdjustment"
 	baseValue 0.000000
@@ -38,7 +38,11 @@ researchModifier
 researchModifier
 	modifierType "RefineryShipCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.333333
+researchModifier
+	modifierType "ExtractionRateFromResourceFocus"
+	baseValue 0.000000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "CargoShipHullPointsMaxAdjustment"
 	baseValue 0.000000
@@ -46,7 +50,7 @@ researchModifier
 researchModifier
 	modifierType "CargoShipArmorBaseAdjustment"
 	baseValue 0.000000
-	perLevelValue 5.000000
+	perLevelValue 10.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

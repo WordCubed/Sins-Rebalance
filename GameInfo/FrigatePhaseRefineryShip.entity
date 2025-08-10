@@ -16,11 +16,11 @@ NameStringID "IDS_REFINERYSHIP_PHASE_NAME"
 DescriptionStringID "IDS_REFINERYSHIP_PHASE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 60.000000
-	metal 12.000000
-	crystal 6.000000
+	credits 160.000000
+	metal 30.000000
+	crystal 20.000000
 slotCount 0.000000
-BuildTime 30.000000
+BuildTime 3.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
 MaxHullPoints 750.000000
@@ -94,7 +94,7 @@ ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "RefineryResources"
-maxCargoCapacity 50.000000
+maxCargoCapacity 200.000000
 formationRank 2
 minShadow 0.100000
 maxShadow 1.200000

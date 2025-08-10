@@ -27,18 +27,19 @@ range
 	Level:3 15000.000000
 effectInfo
 	effectAttachInfo
-		attachType "Invalid"
-	smallEffectName ""
-	mediumEffectName ""
-	largeEffectName ""
-	soundID ""
+		attachType "Ability"
+			abilityIndex 0
+	smallEffectName "TitanAbility_GravityPulse"
+	mediumEffectName "TitanAbility_GravityPulse"
+	largeEffectName "TitanAbility_GravityPulse"
+	soundID "EFFECT_GRAVITYPULSE"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 3
 levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityCLevel"
+sourcePropertyType "AbilityBLevel"
 aiUseTime "OnlyWhenManyTargetsInRange"
 onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 3.000000

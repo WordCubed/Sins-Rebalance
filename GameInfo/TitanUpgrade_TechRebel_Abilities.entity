@@ -29,13 +29,13 @@ stage
 	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "MaxAntiMatterPoints"
-		value 80.000000
+		value 60.000000
 	upgradeProperty
 		propertyType "AntiMatterRestoreRate"
-		value 0.200000
+		value 0.000000
 	upgradeProperty
 		propertyType "AbilityCooldownRate"
-		value 0.166667
+		value 0.125000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_NAME"
@@ -51,11 +51,11 @@ stage
 	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "MaxAntiMatterPoints"
-		value 160.000000
+		value 120.000000
 	upgradeProperty
 		propertyType "AntiMatterRestoreRate"
-		value 0.400000
+		value 0.000000
 	upgradeProperty
 		propertyType "AbilityCooldownRate"
-		value 0.333333
+		value 0.250000
 	upgradeBoolPropertyCount 0

@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-UserGenerated"
 browseName "The Grid: 2x2"
 browseDescription "A grid of planets with their star."
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions FALSE
+randomizeStartingPositions TRUE
 planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -22,13 +22,13 @@ quickStartHomePlanetUpgradeLevel:Home 1
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 2
-recommendedGameType "FFA"
 recommendedGameType "TwoTeamsOfTwo"
+recommendedGameType "FFA"
 metersPerGalaxyUnit 250000.000000
-pixelsPerGalaxyUnit 1.000000
+pixelsPerGalaxyUnit 1.480000
 useRandomGenerator FALSE
-galaxyWidth 1536.000000
-galaxyHeight 873.000000
+galaxyWidth 1707.000000
+galaxyHeight 980.000000
 nextStarNameUniqueId 2
 nextPlanetNameUniqueId 54
 triggerCount 0
@@ -39,7 +39,7 @@ star
 	type "YellowStar"
 	pos [ 350 , 350 ]
 	radius 350.000000
-	planetCount 52
+	planetCount 50
 	planet
 		designName "Planet2"
 		inGameName ""
@@ -1244,7 +1244,7 @@ star
 		designName "Planet50"
 		inGameName ""
 		type "PirateBase"
-		pos [ 385 , 315 ]
+		pos [ 385 , 385 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1269,31 +1269,6 @@ star
 		designName "Planet51"
 		inGameName ""
 		type "PirateBase"
-		pos [ 315 , 385 ]
-		owner ""
-		isHomePlanet FALSE
-		normalStartUpgradeLevelForPopulation 3
-		normalStartUpgradeLevelForCivilianModules 1
-		normalStartUpgradeLevelForTacticalModules 0
-		normalStartUpgradeLevelForArtifacts 10
-		normalStartUpgradeLevelForInfrastructure 2
-		quickStartUpgradeLevelForPopulation 4
-		quickStartUpgradeLevelForCivilianModules 1
-		quickStartUpgradeLevelForTacticalModules 0
-		quickStartUpgradeLevelForArtifacts 10
-		quickStartUpgradeLevelForInfrastructure 2
-		planetItems
-			templateName ""
-			subTemplates 0
-			groups 0
-		spawnProbability 1.000000
-		useDefaultTemplate TRUE
-		entityCount 0
-		asteroidCount 0
-	planet
-		designName "Planet52"
-		inGameName ""
-		type "PirateBase"
 		pos [ 315 , 315 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1315,32 +1290,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	planet
-		designName "Planet53"
-		inGameName ""
-		type "PirateBase"
-		pos [ 385 , 385 ]
-		owner ""
-		isHomePlanet FALSE
-		normalStartUpgradeLevelForPopulation 3
-		normalStartUpgradeLevelForCivilianModules 1
-		normalStartUpgradeLevelForTacticalModules 0
-		normalStartUpgradeLevelForArtifacts 10
-		normalStartUpgradeLevelForInfrastructure 2
-		quickStartUpgradeLevelForPopulation 4
-		quickStartUpgradeLevelForCivilianModules 1
-		quickStartUpgradeLevelForTacticalModules 0
-		quickStartUpgradeLevelForArtifacts 10
-		quickStartUpgradeLevelForInfrastructure 2
-		planetItems
-			templateName ""
-			subTemplates 0
-			groups 0
-		spawnProbability 1.000000
-		useDefaultTemplate TRUE
-		entityCount 0
-		asteroidCount 0
-	connectionCount 90
+	connectionCount 88
 	connection
 		planetIndexA -1
 		planetIndexB 2
@@ -1769,16 +1719,6 @@ star
 	connection
 		planetIndexA -1
 		planetIndexB 48
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 51
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA -1
-		planetIndexB 50
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection

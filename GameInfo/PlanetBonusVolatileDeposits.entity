@@ -7,12 +7,12 @@ nameStringID "IDS_PLANETBONUS_VOLATILEDEPOSITS_NAME"
 descStringID "IDS_PLANETBONUS_VOLATILEDEPOSITS_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation 0.000000
-floatBonus:AdditivePlanetHealth -750.000000
+floatBonus:AdditivePlanetHealth -1000.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
-floatBonus:BombingDamageAsDamageTargetAdjustment 4.000000
+floatBonus:BombingDamageAsDamageTargetAdjustment 1.000000
 floatBonus:MaxAllegiancePercBonus 0.000000
 floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000

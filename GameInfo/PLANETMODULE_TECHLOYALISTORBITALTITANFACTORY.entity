@@ -19,9 +19,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALTITANFACTORY"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 3.000000
 basePrice
-	credits 4800.000000
-	metal 960.000000
-	crystal 480.000000
+	credits 3600.000000
+	metal 720.000000
+	crystal 540.000000
 NameStringID "IDS_PLANETMODULE_TECHORBITALTITANFACTORY_NAME"
 DescriptionStringID "IDS_PLANETMODULE_TECHORBITALTITANFACTORY_DESCRIPTION"
 planetModuleRoleType "TITANFACTORY"
@@ -38,7 +38,7 @@ HullPointRestoreRate 50.000000
 BaseArmorPoints 15.000000
 MaxShieldPoints 12000.000000
 ShieldPointRestoreRate 50.000000
-maxShieldMitigation 0.530000
+maxShieldMitigation 0.533333
 ExperiencePointsForDestroying 600.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000

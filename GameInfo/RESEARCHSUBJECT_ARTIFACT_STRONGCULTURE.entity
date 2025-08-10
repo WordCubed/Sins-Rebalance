@@ -34,15 +34,15 @@ researchFloatModifiers 4
 researchModifier
 	modifierType "CultureSpreadRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "AllegianceFromCultureMaxPerc"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "CultureResistPercent"
 	baseValue 0.000000
-	perLevelValue 3.000000
+	perLevelValue 4.000000
 researchModifier
 	modifierType "CultureModuleCostAdjustment"
 	baseValue 0.000000

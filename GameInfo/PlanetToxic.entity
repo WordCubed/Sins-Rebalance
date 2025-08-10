@@ -59,35 +59,35 @@ planetUpgradeDef
 				metal 0.000000
 				crystal 0.000000
 			upgradeTime 0.000000
-			maxPopulation 2.500000
-			populationGrowthRate 0.250000
-			developmentTaxPenalty -0.500000
+			maxPopulation 3.000000
+			populationGrowthRate 0.100000
+			developmentTaxPenalty -1.600000
 		stage
 			price
-				credits 40.000000
-				metal 80.000000
-				crystal 60.000000
-			upgradeTime 5.000000
-			maxPopulation 5.000000
-			populationGrowthRate 0.250000
-			developmentTaxPenalty -0.250000
-		stage
-			price
-				credits 80.000000
-				metal 160.000000
-				crystal 120.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
 			upgradeTime 10.000000
-			maxPopulation 7.500000
-			populationGrowthRate 0.250000
+			maxPopulation 6.000000
+			populationGrowthRate 0.200000
+			developmentTaxPenalty -0.800000
+		stage
+			price
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 10.000000
+			maxPopulation 9.000000
+			populationGrowthRate 0.300000
 			developmentTaxPenalty 0.000000
 		stage
 			price
-				credits 240.000000
-				metal 480.000000
-				crystal 360.000000
-			upgradeTime 20.000000
-			maxPopulation 10.000000
-			populationGrowthRate 0.250000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 10.000000
+			maxPopulation 12.000000
+			populationGrowthRate 0.400000
 			developmentTaxPenalty 0.000000
 	path:CivilianModules
 		stageCount 4
@@ -101,26 +101,26 @@ planetUpgradeDef
 			maxModuleConstructorCount 1
 		stage
 			price
-				credits 40.000000
-				metal 80.000000
-				crystal 60.000000
-			upgradeTime 5.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 10.000000
 			maxModuleSlotCount:Civilian 2.000000
 			maxModuleConstructorCount 2
 		stage
 			price
-				credits 80.000000
-				metal 160.000000
-				crystal 120.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
 			upgradeTime 10.000000
 			maxModuleSlotCount:Civilian 4.000000
 			maxModuleConstructorCount 3
 		stage
 			price
-				credits 240.000000
-				metal 480.000000
-				crystal 360.000000
-			upgradeTime 20.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 10.000000
 			maxModuleSlotCount:Civilian 6.000000
 			maxModuleConstructorCount 4
 	path:TacticalModules
@@ -135,26 +135,26 @@ planetUpgradeDef
 			maxModuleConstructorCount 0
 		stage
 			price
-				credits 40.000000
-				metal 80.000000
-				crystal 60.000000
-			upgradeTime 5.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 10.000000
 			maxModuleSlotCount:Tactical 6.000000
 			maxModuleConstructorCount 0
 		stage
 			price
-				credits 80.000000
-				metal 160.000000
-				crystal 120.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
 			upgradeTime 10.000000
 			maxModuleSlotCount:Tactical 9.000000
 			maxModuleConstructorCount 0
 		stage
 			price
-				credits 240.000000
-				metal 480.000000
-				crystal 360.000000
-			upgradeTime 20.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 10.000000
 			maxModuleSlotCount:Tactical 12.000000
 			maxModuleConstructorCount 0
 	path:Home
@@ -171,14 +171,14 @@ planetUpgradeDef
 			homePlanetCrystalIncomeBonus 0.000000
 		stage
 			price
-				credits 360.000000
-				metal 360.000000
-				crystal 720.000000
+				credits 240.000000
+				metal 240.000000
+				crystal 600.000000
 			upgradeTime 20.000000
 			isHomePlanet TRUE
-			homePlanetTaxRateBonus 10.000000
-			homePlanetMetalIncomeBonus 3.000000
-			homePlanetCrystalIncomeBonus 3.000000
+			homePlanetTaxRateBonus 30.000000
+			homePlanetMetalIncomeBonus 6.000000
+			homePlanetCrystalIncomeBonus 6.000000
 	path:ArtifactLevel
 		stageCount 4
 		stage
@@ -189,22 +189,22 @@ planetUpgradeDef
 			upgradeTime 0.000000
 		stage
 			price
-				credits 20.000000
-				metal 80.000000
-				crystal 30.000000
-			upgradeTime 5.000000
-		stage
-			price
-				credits 40.000000
-				metal 80.000000
-				crystal 60.000000
+				credits 60.000000
+				metal 120.000000
+				crystal 100.000000
 			upgradeTime 10.000000
 		stage
 			price
-				credits 120.000000
-				metal 240.000000
-				crystal 180.000000
-			upgradeTime 20.000000
+				credits 60.000000
+				metal 120.000000
+				crystal 100.000000
+			upgradeTime 10.000000
+		stage
+			price
+				credits 60.000000
+				metal 120.000000
+				crystal 100.000000
+			upgradeTime 10.000000
 	path:Infrastructure
 		stageCount 4
 		stage
@@ -216,24 +216,24 @@ planetUpgradeDef
 			maxHealth 3000.000000
 		stage
 			price
-				credits 40.000000
-				metal 80.000000
-				crystal 60.000000
-			upgradeTime 5.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 10.000000
 			maxHealth 4000.000000
 		stage
 			price
-				credits 80.000000
-				metal 160.000000
-				crystal 120.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
 			upgradeTime 10.000000
 			maxHealth 5000.000000
 		stage
 			price
-				credits 240.000000
-				metal 480.000000
-				crystal 360.000000
-			upgradeTime 20.000000
+				credits 120.000000
+				metal 240.000000
+				crystal 180.000000
+			upgradeTime 10.000000
 			maxHealth 6000.000000
 	path:Social
 		stageCount 2
@@ -250,14 +250,14 @@ planetUpgradeDef
 			cultureSpreadRateModifier 0.000000
 		stage
 			price
-				credits 360.000000
-				metal 360.000000
-				crystal 720.000000
+				credits 240.000000
+				metal 240.000000
+				crystal 600.000000
 			upgradeTime 20.000000
-			maxPopulation 5.000000
-			populationGrowthRate 0.250000
+			maxPopulation 6.000000
+			populationGrowthRate 0.200000
 			tradeIncomeModifier -0.500000
-			shipBuildRateModifier -0.500000
+			shipBuildRateModifier -0.700000
 			cultureSpreadRateModifier 0.500000
 	path:Industry
 		stageCount 2
@@ -273,13 +273,13 @@ planetUpgradeDef
 			cultureSpreadRateModifier 0.000000
 		stage
 			price
-				credits 360.000000
-				metal 360.000000
-				crystal 720.000000
+				credits 240.000000
+				metal 240.000000
+				crystal 600.000000
 			upgradeTime 20.000000
-			maxPopulation -5.000000
+			maxPopulation -6.000000
 			tradeIncomeModifier 0.500000
-			shipBuildRateModifier 0.500000
+			shipBuildRateModifier 0.700000
 			cultureSpreadRateModifier -0.500000
 	path:Smuggler
 		stageCount 2
@@ -293,13 +293,13 @@ planetUpgradeDef
 			smugglingPercent 0.000000
 		stage
 			price
-				credits 360.000000
-				metal 360.000000
-				crystal 720.000000
+				credits 240.000000
+				metal 240.000000
+				crystal 600.000000
 			upgradeTime 20.000000
 			corruptionPercent 0.500000
-			smugglingPercent 0.050000
-ringsChance 0.100000
+			smugglingPercent 0.070000
+ringsChance 0.125000
 isColonizable TRUE
 planetTypeForResearch "Greenhouse"
 skyboxScalarsCount 5
@@ -320,12 +320,26 @@ skyboxScalars
 	ambientScalar 0.800000
 requiredPlanetBonusesCount 1
 bonus "PlanetBonusExtremelyHarsh"
-possibleRandomPlanetBonusesCount 6
+possibleRandomPlanetBonusesCount 20
 bonus "PlanetBonusAbundantResources"
 bonus "PlanetBonusAbundantResources"
-bonus "PlanetBonusLoyalGovernment"
-bonus "PlanetBonusLoyalGovernment"
+bonus "PlanetBonusAbundantResources"
+bonus "PlanetBonusAbundantResources"
+bonus "PlanetBonusLoyal"
+bonus "PlanetBonusLoyal"
+bonus "PlanetBonusLoyal"
+bonus "PlanetBonusLoyal"
 bonus "PlanetBonusPartiallyTerraformed"
+bonus "PlanetBonusPartiallyTerraformed"
+bonus "PlanetBonusPartiallyTerraformed"
+bonus "PlanetBonusPartiallyTerraformed"
+bonus "PlanetBonusFullyTerraformed"
+bonus "PlanetBonusFullyTerraformed"
+bonus "PlanetBonusViolentStormsVeryLowPop"
+bonus "PlanetBonusViolentStormsVeryLowPop"
+bonus "PlanetBonusVolatileDeposits"
+bonus "PlanetBonusVolatileDeposits"
+bonus "PlanetBonusVolatileDeposits"
 bonus "PlanetBonusVolatileDeposits"
 ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
 renderAsVolcanic FALSE
@@ -335,9 +349,9 @@ planetRuinDef
 	effectName "StripToTheCore_Planet_Asteroid"
 	startTime 10.000000
 	soundID "EFFECT_STRIPPEDTOTHECORE"
-	creditsOnStrippedToTheCore 56025.000000
-	metalOnStrippedToTheCore 10800.000000
-	crystalOnStrippedToTheCore 10800.000000
+	creditsOnStrippedToTheCore 75600.000000
+	metalOnStrippedToTheCore 9000.000000
+	crystalOnStrippedToTheCore 9000.000000
 	extraScuttleTimeOnStrip 0.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"

@@ -16,19 +16,19 @@ NameStringID "IDS_CORVETTE_TECHREBEL_NAME"
 DescriptionStringID "IDS_CORVETTE_TECHREBEL_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 360.000000
-	metal 72.000000
-	crystal 36.000000
+	credits 480.000000
+	metal 90.000000
+	crystal 60.000000
 slotCount 3.000000
-BuildTime 18.000000
+BuildTime 9.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 60.000000
-MaxHullPoints 1500.000000
-MaxShieldPoints 750.000000
-HullPointRestoreRate 3.125000
-ShieldPointRestoreRate 3.125000
+MaxHullPoints 1000.000000
+MaxShieldPoints 500.000000
+HullPointRestoreRate 2.500000
+ShieldPointRestoreRate 2.500000
 BaseArmorPoints 10.000000
-maxMitigation 0.500000
+maxMitigation 0.466667
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -54,7 +54,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "LASERTECH"
-	DamagePerBank:FRONT 187.500000
+	DamagePerBank:FRONT 150.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -95,7 +95,7 @@ Weapon
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
 	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 375.000000
+	DamagePerBank:BACK 300.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 3000.000000

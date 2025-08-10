@@ -34,15 +34,15 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "PopulationTaxRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "TradeGoodsValueAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "IncomePercLost"
 	baseValue 0.000000
-	perLevelValue -0.200000
+	perLevelValue -0.100000
 artifactPicture "ArtifactPictureOrganicAI"
 uniqueOverlayBrush ""
 dlcId 204880

@@ -21,7 +21,7 @@ planetUpgradeSlotCount 1.000000
 basePrice
 	credits 1200.000000
 	metal 240.000000
-	crystal 120.000000
+	crystal 180.000000
 NameStringID "IDS_PLANETMODULE_PSIORBITALTRADEPORT_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PSIORBITALTRADEPORT_DESCRIPTION"
 planetModuleRoleType "TRADEPORT"
@@ -72,9 +72,9 @@ picture "PLANETMODULEPICTURE_PSIORBITALTRADEPORT"
 minShadow 0.000000
 maxShadow 0.300000
 formationRank 3
-baseBuildTime 45.000000
+baseBuildTime 60.000000
 buildEffectName ""
 cargoShipType "FrigatePsiTradeShip"
-maxCargoShipCount 4
+maxCargoShipCount 1
 cargoShipRespawnTime 30.000000
 baseTradeIncomeRate 1.000000

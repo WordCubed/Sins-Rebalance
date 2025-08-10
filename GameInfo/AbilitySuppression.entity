@@ -14,10 +14,10 @@ targetFilter
 	space "Normal"
 	numConstraints 0
 range
-	Level:0 6250.000000
-	Level:1 6250.000000
-	Level:2 6250.000000
-	Level:3 6250.000000
+	Level:0 8750.000000
+	Level:1 8750.000000
+	Level:2 8750.000000
+	Level:3 8750.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"

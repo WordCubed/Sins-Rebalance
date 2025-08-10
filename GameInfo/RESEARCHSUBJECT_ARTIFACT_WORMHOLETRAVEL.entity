@@ -46,7 +46,7 @@ researchModifier
 researchModifier
 	modifierType "HyperspaceChargeUpRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 900.000000
+	perLevelValue 9.000000
 artifactPicture "ArtifactPictureWormHoleTravel"
 uniqueOverlayBrush ""
 dlcId 204880

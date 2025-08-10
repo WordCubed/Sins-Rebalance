@@ -8,9 +8,9 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 250.000000
+baseDamage 240.000000
 basePopulationKilled 1.000000
-bombingFreqTime 10.000000
+bombingFreqTime 6.000000
 baseRange 4000.000000
 bombTransitTime 4.000000
 bombEffectCount 2
@@ -50,11 +50,11 @@ NameStringID "IDS_FRIGATE_PHASESIEGE_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASESIEGE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 480.000000
-	metal 96.000000
-	crystal 48.000000
+	credits 640.000000
+	metal 120.000000
+	crystal 80.000000
 slotCount 4.000000
-BuildTime 24.000000
+BuildTime 12.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 80.000000
 MaxHullPoints 1875.000000
@@ -62,7 +62,7 @@ MaxShieldPoints 1875.000000
 HullPointRestoreRate 3.125000
 ShieldPointRestoreRate 6.250000
 BaseArmorPoints 10.000000
-maxMitigation 0.470000
+maxMitigation 0.466667
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1

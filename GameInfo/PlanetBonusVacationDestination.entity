@@ -1,12 +1,12 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 1
-maxUpgradeLevelNeeded 1
+minUpgradeLevelNeeded 3
+maxUpgradeLevelNeeded 3
 nameStringID "IDS_PLANETBONUS_VACATIONDESTINATION_NAME"
 descStringID "IDS_PLANETBONUS_VACATIONDESTINATION_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.200000
-floatBonus:AdditivePopulation 24.000000
+floatBonus:AdditivePopulation 28.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
@@ -21,7 +21,7 @@ floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc 0.000000
 floatBonus:PlanetUpgradeBuildRatePerc 0.000000
-floatBonus:PopulationGrowthPerc 0.800000
+floatBonus:PopulationGrowthPerc 0.600000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000
 intBonus:MaxSpaceMines 0

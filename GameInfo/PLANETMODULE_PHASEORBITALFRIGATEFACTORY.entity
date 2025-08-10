@@ -19,9 +19,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_PHASEORBITALFRIGATEFACTORY"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 1.000000
 basePrice
-	credits 1600.000000
-	metal 320.000000
-	crystal 160.000000
+	credits 1200.000000
+	metal 240.000000
+	crystal 180.000000
 NameStringID "IDS_PLANETMODULE_PHASEORBITALFRIGATEFACTORY_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PHASEORBITALFRIGATEFACTORY_DESCRIPTION"
 planetModuleRoleType "FRIGATEFACTORY"
@@ -35,7 +35,7 @@ HullPointRestoreRate 12.500000
 BaseArmorPoints 15.000000
 MaxShieldPoints 6000.000000
 ShieldPointRestoreRate 25.000000
-maxShieldMitigation 0.530000
+maxShieldMitigation 0.533333
 ExperiencePointsForDestroying 200.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000

@@ -19,9 +19,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_PHASEORBITALMISSILEDEFENSE"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 1.000000
 basePrice
-	credits 1600.000000
-	metal 320.000000
-	crystal 160.000000
+	credits 1800.000000
+	metal 360.000000
+	crystal 270.000000
 NameStringID "IDS_PLANETMODULE_PHASEORBITALMISSILEDEFENSE_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PHASEORBITALMISSILEDEFENSE_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
@@ -35,11 +35,11 @@ HullPointRestoreRate 12.500000
 BaseArmorPoints 20.000000
 MaxShieldPoints 6000.000000
 ShieldPointRestoreRate 25.000000
-maxShieldMitigation 0.60000
+maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 300.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
-isAffectedBySimilarModuleCostResearch FALSE
+isAffectedBySimilarModuleCostResearch TRUE
 placementRadius 375.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 8000.000000
@@ -79,7 +79,7 @@ picture "PLANETMODULEPICTURE_PHASEORBITALMISSILEDEFENSE"
 minShadow 0.200000
 maxShadow 1.500000
 formationRank 3
-baseBuildTime 90.000000
+baseBuildTime 60.000000
 buildEffectName ""
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE

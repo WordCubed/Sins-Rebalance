@@ -32,14 +32,14 @@ Prerequisites
 	RequiredCompletedResearchSubjects 0
 MaxHullPoints 24000.000000
 HullPointRestoreRate 60.000000
-BaseArmorPoints 20.000000
+BaseArmorPoints 15.000000
 MaxShieldPoints 0.000000
 ShieldPointRestoreRate 0.000000
 maxShieldMitigation 0.466667
 ExperiencePointsForDestroying 0.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
-isAffectedBySimilarModuleCostResearch FALSE
+isAffectedBySimilarModuleCostResearch TRUE
 placementRadius 1325.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 8000.000000
@@ -72,5 +72,5 @@ formationRank 3
 baseBuildTime 60.000000
 buildEffectName ""
 cargoShipType "FrigateTechRefineryShip"
-maxCargoShipCount 4
+maxCargoShipCount 1
 cargoShipRespawnTime 30.000000

@@ -16,11 +16,11 @@ NameStringID "IDS_FRIGATE_PHASELONGRANGE_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASELONGRANGE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 480.000000
-	metal 96.000000
-	crystal 48.000000
+	credits 640.000000
+	metal 120.000000
+	crystal 80.000000
 slotCount 4.000000
-BuildTime 24.000000
+BuildTime 12.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 80.000000
 MaxHullPoints 750.000000
@@ -28,7 +28,7 @@ MaxShieldPoints 750.000000
 HullPointRestoreRate 1.562500
 ShieldPointRestoreRate 3.125000
 BaseArmorPoints 10.000000
-maxMitigation 0.470000
+maxMitigation 0.466667
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1

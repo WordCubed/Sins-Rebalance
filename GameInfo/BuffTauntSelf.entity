@@ -50,10 +50,10 @@ periodicAction
 		numConstraints 1
 		constraint "HasWeapons"
 	range
-		Level:0 10200.000000
-		Level:1 10200.000000
-		Level:2 10200.000000
-		Level:3 10200.000000
+		Level:0 10500.000000
+		Level:1 10500.000000
+		Level:2 10500.000000
+		Level:3 10500.000000
 	maxTargetCount
 		Level:0 16.000000
 		Level:1 24.000000

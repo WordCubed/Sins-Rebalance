@@ -1,16 +1,16 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 0
-maxUpgradeLevelNeeded 0
+minUpgradeLevelNeeded 3
+maxUpgradeLevelNeeded 3
 nameStringID "IDS_PLANETBONUS_CULTURALHUB_NAME"
 descStringID "IDS_PLANETBONUS_CULTURALHUB_DESC"
-floatBonus:AdditiveCultureSpreadPerc 0.500000
-floatBonus:AdditivePopulation 32.000000
+floatBonus:AdditiveCultureSpreadPerc 0.400000
+floatBonus:AdditivePopulation 36.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 1.000000
 floatBonus:AdditiveSlotsTactical 0.000000
-floatBonus:AdditiveTaxIncome 1.000000
+floatBonus:AdditiveTaxIncome 3.000000
 floatBonus:AdditiveTradeIncomePerc 0.100000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus 0.000000

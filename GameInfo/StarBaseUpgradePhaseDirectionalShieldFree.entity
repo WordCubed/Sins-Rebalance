@@ -20,10 +20,10 @@ stage
 	upgradePropertyCount 3
 	upgradeProperty
 		propertyType "MaxAntiMatterPoints"
-		value 60.000000
+		value 180.000000
 	upgradeProperty
 		propertyType "AntiMatterRestoreRate"
-		value 1.000000
+		value 0.500000
 	upgradeProperty
 		propertyType "AbilityALevel"
 		value 2.000000

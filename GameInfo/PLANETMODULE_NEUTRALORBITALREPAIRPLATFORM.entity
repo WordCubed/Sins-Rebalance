@@ -7,8 +7,8 @@ ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 60.000000
-AntiMatterRestoreRate 1.000000
+MaxAntiMatter 120.000000
+AntiMatterRestoreRate 0.500000
 numRandomDebrisLarge 4
 numRandomDebrisSmall 12
 numSpecificDebris 0
@@ -17,7 +17,7 @@ hudIcon "HUDICON_PLANETMODULE_TECHORBITALREPAIRPLATFORM"
 smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALREPAIRPLATFORM"
 infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALREPAIRPLATFORM"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 1.000000
+planetUpgradeSlotCount 0.000000
 basePrice
 	credits 0.000000
 	metal 0.000000

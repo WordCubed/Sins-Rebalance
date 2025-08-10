@@ -21,7 +21,7 @@ planetUpgradeSlotCount 0.000000
 basePrice
 	credits 400.000000
 	metal 80.000000
-	crystal 40.000000
+	crystal 60.000000
 NameStringID "IDS_PLANETMODULE_PHASEORBITALMETALEXTRACTOR_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PHASEORBITALMETALEXTRACTOR_DESC"
 planetModuleRoleType "METALEXTRACTOR"
@@ -39,7 +39,7 @@ maxShieldMitigation 0.466667
 ExperiencePointsForDestroying 50.000000
 resourceExtractionType "Metal"
 cultureSpreadRate 0.000000
-isAffectedBySimilarModuleCostResearch FALSE
+isAffectedBySimilarModuleCostResearch TRUE
 placementRadius 400.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 8000.000000
@@ -69,5 +69,5 @@ picture "PLANETMODULEPICTURE_PHASEORBITALMETALEXTRACTOR"
 minShadow 0.000000
 maxShadow 1.500000
 formationRank 3
-baseBuildTime 15.000000
+baseBuildTime 20.000000
 buildEffectName ""

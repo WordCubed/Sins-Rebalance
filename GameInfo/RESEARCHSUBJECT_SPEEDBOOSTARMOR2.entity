@@ -36,15 +36,11 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 2
 researchModifier
 	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
-researchModifier
-	modifierType "MassReduction"
-	baseValue 0.000000
-	perLevelValue 0.010000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "ArmorBaseAdjustment"
 	baseValue 0.000000

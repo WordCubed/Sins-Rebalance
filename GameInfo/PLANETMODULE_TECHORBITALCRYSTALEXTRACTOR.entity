@@ -21,7 +21,7 @@ planetUpgradeSlotCount 0.000000
 basePrice
 	credits 400.000000
 	metal 80.000000
-	crystal 40.000000
+	crystal 60.000000
 NameStringID "IDS_PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR_NAME"
 DescriptionStringID "IDS_PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR_DESC"
 planetModuleRoleType "CRYSTALEXTRACTOR"
@@ -69,5 +69,5 @@ picture "PLANETMODULEPICTURE_TECHORBITALCRYSTALEXTRACTOR"
 minShadow 0.000000
 maxShadow 0.600000
 formationRank 3
-baseBuildTime 15.000000
+baseBuildTime 20.000000
 buildEffectName ""

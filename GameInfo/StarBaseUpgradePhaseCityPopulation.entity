@@ -23,7 +23,7 @@ stage
 	price
 		credits 1000.000000
 		metal 200.000000
-		crystal 100.000000
+		crystal 150.000000
 	upgradeTime 10.000000
 	nameStringID "IDS_STARBASEUPGRADEPHASECITYPOPULATION_NAME"
 	descStringID "IDS_STARBASEUPGRADEPHASECITYPOPULATION_DESC"
@@ -37,16 +37,19 @@ stage
 	hudIcon "HUDIconStarBaseUpgradePhaseCityPopulation0"
 	smallHudIcon "HUDIconStarBaseUpgradePhaseCityPopulation0"
 	infoCardIcon ""
-	upgradePropertyCount 1
+	upgradePropertyCount 2
 	upgradeProperty
 		propertyType "Population"
 		value 30.000000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.500000
 	upgradeBoolPropertyCount 0
 stage
 	price
 		credits 1000.000000
 		metal 200.000000
-		crystal 100.000000
+		crystal 150.000000
 	upgradeTime 10.000000
 	nameStringID "IDS_STARBASEUPGRADEPHASECITYPOPULATION_NAME"
 	descStringID "IDS_STARBASEUPGRADEPHASECITYPOPULATION_DESC"
@@ -57,9 +60,12 @@ stage
 	hudIcon "HUDIconStarBaseUpgradePhaseCityPopulation1"
 	smallHudIcon "HUDIconStarBaseUpgradePhaseCityPopulation1"
 	infoCardIcon ""
-	upgradePropertyCount 1
+	upgradePropertyCount 2
 	upgradeProperty
 		propertyType "Population"
 		value 60.000000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 1.000000
 	upgradeBoolPropertyCount 0
 xpModifier 200.000000

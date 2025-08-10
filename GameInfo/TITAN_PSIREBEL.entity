@@ -13,11 +13,11 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 500.000000
-basePopulationKilled 2.000000
-bombingFreqTime 10.000000
-baseRange 8000.000000
-bombTransitTime 12.000000
+baseDamage 720.000000
+basePopulationKilled 3.000000
+bombingFreqTime 6.000000
+baseRange 10000.000000
+bombTransitTime 6.000000
 bombEffectCount 3
 bombEffectAngleVariance 15.000000
 bombEffectsDef
@@ -44,9 +44,9 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
 mainViewIcon "MAINVIEWICON_TITAN_PSIREBEL"
 basePrice
-	credits 30000.000000
+	credits 32000.000000
 	metal 6000.000000
-	crystal 3000.000000
+	crystal 4800.000000
 slotCount 0.000000
 BuildTime 600.000000
 MaxHullPoints
@@ -68,14 +68,14 @@ maxMitigation
 	StartValue 0.666667
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 320.000000
-	ValueIncreasePerLevel 0.000000
+	StartValue 480.000000
+	ValueIncreasePerLevel 0.000100
 AntiMatterRestoreRate
-	StartValue 5.333333
+	StartValue 0.500000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
-	StartValue 10.000000
-	ValueIncreasePerLevel 10.000000
+	StartValue 5.000000
+	ValueIncreasePerLevel 5.000000
 NameStringID "IDS_TITAN_PSIREBEL_NAME"
 DescriptionStringID "IDS_TITAN_PSIREBEL_DESCRIPTION"
 picture "TITANPICTURE_PSIREBEL"
@@ -104,92 +104,7 @@ hudIcon "HUDICON_RESEARCHSUBJECT_TITAN_PSIREBEL"
 smallHudIcon "HUDICONSMALL_TITAN_PSIREBEL"
 infoCardIcon "INFOCARDICON_TITAN_PSIREBEL"
 minZoomDistanceMult 1.030000
-NumWeapons 4
-Weapon
-	WeaponType "Beam"
-	damageEnums
-		AttackType "TITAN"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "OVERTIME"
-		DamageType "ENERGY"
-		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 20.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.500000
-	TravelSpeed 0.000000
-	Duration 4.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Beam"
-		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Psi_BeamTitan_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 1
-			sound ""
-		hitEffectName "Weapon_Psi_BeamTitan_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound ""
-		hitShieldsEffectSounds
-			soundCount 1
-			sound ""
-		beamEffectSounds
-			soundCount 1
-			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
-		beamGlowTextureName "PsiCapitalBeam_Glow"
-		beamCoreTextureName "PsiCapitalBeam_Core"
-		beamWidth 50.000000
-		beamGlowColor ffffffff
-		beamCoreColor ffffffff
-		beamTilingRate 3.000000
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTILIGHT"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "POINTDEFENSELASER"
-	DamagePerBank:FRONT 150.000000
-	DamagePerBank:BACK 150.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
-	Range 5000.000000
-	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.200000
-	TravelSpeed 4500.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 6
-		burstDelay 0.100000
-		fireDelay 0.150000
-		muzzleEffectName "Weapon_Psi_PointDefense_Large_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE"
-			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_Psi_PointDefense_Large_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Psi_PointDefense_Large_Travel"
+NumWeapons 3
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -271,6 +186,45 @@ Weapon
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 		projectileTravelEffectName "Weapon_Psi_PlasmaTitan_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "POINTDEFENSELASER"
+	DamagePerBank:FRONT 150.000000
+	DamagePerBank:BACK 150.000000
+	DamagePerBank:LEFT 150.000000
+	DamagePerBank:RIGHT 150.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 4500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 6
+		burstDelay 0.100000
+		fireDelay 0.150000
+		muzzleEffectName "Weapon_Psi_PointDefense_Large_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Psi_PointDefense_Large_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PointDefense_Large_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 2

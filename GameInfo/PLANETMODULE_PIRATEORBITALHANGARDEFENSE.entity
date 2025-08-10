@@ -7,8 +7,8 @@ ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 720.000000
-AntiMatterRestoreRate 12.000000
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
 numRandomDebrisLarge 5
 numRandomDebrisSmall 16
 numSpecificDebris 0
@@ -35,7 +35,7 @@ HullPointRestoreRate 25.000000
 BaseArmorPoints 20.000000
 MaxShieldPoints 0.000000
 ShieldPointRestoreRate 0.000000
-maxShieldMitigation 0.60000
+maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 400.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
@@ -72,9 +72,9 @@ formationRank 3
 baseBuildTime 0.000000
 buildEffectName ""
 squadTypeEntityDef:0 "SquadTechCombat"
-squadAntiMatterCost:0 60.000000
+squadAntiMatterCost:0 30.000000
 squadTypeEntityDef:1 "SquadTechBomber"
-squadAntiMatterCost:1 60.000000
+squadAntiMatterCost:1 30.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""

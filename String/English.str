@@ -1,5 +1,5 @@
 TXT
-NumStrings 8902
+NumStrings 8916
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POLITICAL_KICKBACKS_DESCRIPTION"
 	Value "Our diplomats recieve bribery training, increasing the relations gained by giving metal to other factions."
@@ -53,7 +53,7 @@ StringInfo
 	Value "The Empty Throne"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_DESCRIPTION"
-	Value "Your Titan and Starbases become powerful symbols of your empire, increasing damage by +25% when you have a Titan or Starbase in a gravity well you don't have a colony in."
+	Value "Your Titan and Starbases become powerful symbols of your empire, increasing damage by +30% when you have a Titan or Starbase in a gravity well you don't have a colony in."
 StringInfo
 	ID "IDS_ABILITY_MICROPHASEJUMP_NAME"
 	Value "Micro Phase Trap"
@@ -149,7 +149,7 @@ StringInfo
 	Value "Maneuver Pact"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_THRUSTER_DESCRIPTION"
-	Value "Both factions pool their piloting and ship design knowledge together, lowering ship mass, increasing ship speeds, and giving ships a 10% chance to dodge enemy fire."
+	Value "Both factions pool their piloting and ship design knowledge together, increasing ship speed, maneuverability, and giving ships a 10% chance to dodge enemy fire."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_NAME"
 	Value "Squadron Pact"
@@ -211,10 +211,10 @@ StringInfo
 	ID "IDS_ABILITY_COWARDSPUNISHMENT_DESCRIPTION"
 	Value "Enemies fleeing your Starbase have their shield mitigation, energy weapon rate of fire, and antimatter regen permanently reduced by -4%, -10%, and -15% respectively. (Stacks up to 2 times.)"
 StringInfo
-	ID "IDS_PLANETBONUS_OLDBATTLEFIELD_NAME"
+	ID "IDS_PLANETBONUS_SCAVENGE_NAME"
 	Value "Battlefield Scavenge"
 StringInfo
-	ID "IDS_PLANETBONUS_OLDBATTLEFIELD_DESC"
+	ID "IDS_PLANETBONUS_SCAVENGE_DESC"
 	Value "Past battles around this planet have left countless ship husks and debris in orbit. Locals have long harvested and sold this. As its ruler you can take advantage of this excellent source of valuable alloys."
 StringInfo
 	ID "IDS_ABILITY_DOMINATION_NAME"
@@ -698,7 +698,7 @@ StringInfo
 	Value "Survivor's Path"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STRIPPED_TO_THE_CORE_DESCRIPTION"
-	Value "When you scuttle a planet you consume it, generating a large amount of credits, metal, and crystal. The planet is reduced to a useless Stripped Asteroid. Furthermore, when you lose a planet—by your own hand or your enemies'—you gain permanent bonuses of +35% damage, +5 armor, and +2% shield mitigation."
+	Value "When you scuttle a planet you consume it, generating a large amount of credits, metal, and crystal. The planet is reduced to a useless Stripped Asteroid. Furthermore, when you lose a planet—by your own hand or your enemies'—you gain permanent bonuses of +40% damage, +5 armor, and +2% shield mitigation."
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
 	Value "As the Titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."
@@ -995,7 +995,7 @@ StringInfo
 	Value "Exotic Engine Design"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_DESCRIPTION"
-	Value "This ancient, powerful relic contains designs for exotic ship engines, reducing ship mass and increasing ship speed."
+	Value "This ancient, powerful relic contains designs for exotic ship engines, increasing ships' speed, maneuverability, and chance to dodge attacks all by +15%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_NAME"
 	Value "Power Core Relic"
@@ -2083,7 +2083,7 @@ StringInfo
 	ID "IDSGalaxyScenarioTypePlanetIce"
 	Value "Arctic"
 StringInfo
-	ID "IDSGalaxyScenarioTypePlanetMountains"
+	ID "IDSGalaxyScenarioTypePlanetAlpine"
 	Value "Alpine"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetRockGiant"
@@ -2972,13 +2972,25 @@ StringInfo
 	Value "Abundant Resources"
 StringInfo
 	ID "IDS_PLANETBONUS_ABUNDANTRESOURCES_DESC"
-	Value "This planet contains an unusually large amount and variety of resources. Grants bonuses to trade income, crystal production, metal production, and population growth rate."
+	Value "This planet contains an unusually large amount and variety of resources. Boosts its trade income, crystal production, metal production, and population growth rate."
 StringInfo
-	ID "IDS_PLANETBONUS_ANCIENTTRADEROUTES_NAME"
+	ID "IDS_PLANETBONUS_LOCALINDUSTRY_NAME"
+	Value "Local Industry"
+StringInfo
+	ID "IDS_PLANETBONUS_LOCALINDUSTRY_DESC"
+	Value "This planet is a valuable manufacturing hub in its part of the galaxy, boosting its trade income and lowering its shipbuilding costs."
+StringInfo
+	ID "IDS_PLANETBONUS_KEYTRADEHUB_NAME"
+	Value "Key Trade Hub"
+StringInfo
+	ID "IDS_PLANETBONUS_KEYTRADEHUB_DESC"
+	Value "This planet is a key trade hub in your empire, greatly boosting its trade income."
+StringInfo
+	ID "IDS_PLANETBONUS_NEARBYTRADEROUTES_NAME"
 	Value "Nearby Trade Routes"
 StringInfo
-	ID "IDS_PLANETBONUS_ANCIENTTRADEROUTES_DESC"
-	Value "This planet lies close to well-used trade routes. Grants bonuses to trade income and logistics slots."
+	ID "IDS_PLANETBONUS_NEARBYTRADEROUTES_DESC"
+	Value "This planet lies close to well-used trade routes, boosting its trade income."
 StringInfo
 	ID "IDS_PLANETBONUS_BARREN_NAME"
 	Value "Barren Planet"
@@ -2992,10 +3004,10 @@ StringInfo
 	ID "IDS_PLANETBONUS_CALMINTHESTORM_DESC"
 	Value "This planet is a rare safe zone in the midst of a turbulent region. Grants bonuses to max population, planet health, logistics slots, and gravity well size."
 StringInfo
-	ID "IDS_PLANETBONUS_CORRUPTGOVERNMENT_NAME"
-	Value "Corrupt Government"
+	ID "IDS_PLANETBONUS_CORRUPT_NAME"
+	Value "Corrupt"
 StringInfo
-	ID "IDS_PLANETBONUS_CORRUPTGOVERNMENT_DESC"
+	ID "IDS_PLANETBONUS_CORRUPT_DESC"
 	Value "This planet's government is remarkably corrupt, stealing tax revenue and inflating structure and ship costs for their own benefit."
 StringInfo
 	ID "IDS_PLANETBONUS_CRYSTALBONANZA_NAME"
@@ -3022,11 +3034,11 @@ StringInfo
 	ID "IDS_PLANETBONUS_DEPLETEDMINES_DESC"
 	Value "Whoever inhabited this planet first used up most of the metal and crystal available already. Reduces your metal and crystal income."
 StringInfo
-	ID "IDS_PLANETBONUS_DISLOYALGOVERNMENT_NAME"
-	Value "Disloyal Government"
+	ID "IDS_PLANETBONUS_DISLOYAL_NAME"
+	Value "Disloyal"
 StringInfo
-	ID "IDS_PLANETBONUS_DISLOYALGOVERNMENT_DESC"
-	Value "This planet's government opposes your empire as much as they possibly can. Reduces max allegiance."
+	ID "IDS_PLANETBONUS_DISLOYAL_DESC"
+	Value "This planet opposes your empire as much as they possibly can. Reduces max allegiance."
 StringInfo
 	ID "IDS_PLANETBONUS_DWARF_NAME"
 	Value "Dwarf Planet"
@@ -3034,14 +3046,26 @@ StringInfo
 	ID "IDS_PLANETBONUS_DWARF_DESC"
 	Value "This planet is so small you can't build as many logistics and tactical structures around it."
 StringInfo
-	ID "IDS_PLANETBONUS_EXTREMELYHARSH_NAME"
+	ID "IDS_PLANETBONUS_VERYHARSH_NAME"
 	Value "Very Harsh Planet"
+StringInfo
+	ID "IDS_PLANETBONUS_VERYHARSH_DESC"
+	Value "The environment is harsh enough to make it much more expensive, and much slower, to upgrade the planet."
+StringInfo
+	ID "IDS_PLANETBONUS_VERYNICE_NAME"
+	Value "Very Pleasant Planet"
+StringInfo
+	ID "IDS_PLANETBONUS_VERYNICE_DESC"
+	Value "This planet has proven very easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
+StringInfo
+	ID "IDS_PLANETBONUS_EXTREMELYHARSH_NAME"
+	Value "Extremely Harsh Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYHARSH_DESC"
 	Value "The environment is harsh enough to make it much more expensive, and much slower, to upgrade the planet."
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYNICE_NAME"
-	Value "Very Pleasant Planet"
+	Value "Extremely Pleasant Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYNICE_DESC"
 	Value "This planet has proven very easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
@@ -3070,6 +3094,18 @@ StringInfo
 	ID "IDS_PLANETBONUS_GIANT_DESC"
 	Value "This planet is big enough to house extra logistics and tactical structures."
 StringInfo
+	ID "IDS_PLANETBONUS_BOOMTIMES_NAME"
+	Value "Boom Times"
+StringInfo
+	ID "IDS_PLANETBONUS_BOOMTIMES_DESC"
+	Value "Whatever problems this planet had in the past seem over, and the prospects of its people are now rapidly improving."
+StringInfo
+	ID "IDS_PLANETBONUS_HARDTIMES_NAME"
+	Value "Hard Times"
+StringInfo
+	ID "IDS_PLANETBONUS_HARDTIMES_DESC"
+	Value "This planet is facing hard times. Maybe a key trade route shifted away. Maybe it has bad rulers. Maybe a previous empire mistreated it. Maybe its neighbors don't want anything to do with it. Whatever its problems, everybody knows life there is worse than it could be."
+StringInfo
 	ID "IDS_PLANETBONUS_HARSH_NAME"
 	Value "Harsh Planet"
 StringInfo
@@ -3088,10 +3124,10 @@ StringInfo
 	ID "IDS_PLANETBONUS_JEWELOFTHEGALAXY_DESC"
 	Value "This planet is a jewel in the crown of your empire. Grants bonuses to tax income, max population, population growth, culture rate, and max allegiance."
 StringInfo
-	ID "IDS_PLANETBONUS_LOYALGOVERNMENT_NAME"
-	Value "Loyal Government"
+	ID "IDS_PLANETBONUS_LOYAL_NAME"
+	Value "Loyal"
 StringInfo
-	ID "IDS_PLANETBONUS_LOYALGOVERNMENT_DESC"
+	ID "IDS_PLANETBONUS_LOYAL_DESC"
 	Value "This planet is very loyal to your empire, boosting its max allegiance."
 StringInfo
 	ID "IDS_PLANETBONUS_METALBONANZA_NAME"
@@ -3100,11 +3136,11 @@ StringInfo
 	ID "IDS_PLANETBONUS_METALBONANZA_DESC"
 	Value "An incredible amount and variety of metals have been found on this planet. Significantly boosts metal income on this planet."
 StringInfo
-	ID "IDS_PLANETBONUS_MILDWEATHER_NAME"
-	Value "Mild Weather"
+	ID "IDS_PLANETBONUS_GOODCLIMATE_NAME"
+	Value "Perfect Climate"
 StringInfo
-	ID "IDS_PLANETBONUS_MILDWEATHER_DESC"
-	Value "The consistent, mild weather of this planet is a draw for many people, and it makes construction easier, since you don't need to harden buildings against weather. Population is increased, and planet upgrades cost less and take less time."
+	ID "IDS_PLANETBONUS_GOODCLIMATE_DESC"
+	Value "The absolutely perfect climate of this planet is a draw for many people, and it makes construction easier, since you don't need to harden buildings against weather. Population is increased, and planet upgrades cost less and take less time."
 StringInfo
 	ID "IDS_PLANETBONUS_NICE_NAME"
 	Value "Pleasant Planet"
@@ -3117,6 +3153,12 @@ StringInfo
 StringInfo
 	ID "IDS_PLANETBONUS_PARTIALLYTERRAFORMED_DESC"
 	Value "The previous inhabitants managed to partially terraform this planet, making further development easier and allowing it to comfortably support more people than it otherwise would"
+StringInfo
+	ID "IDS_PLANETBONUS_FULLYTERRAFORMED_NAME"
+	Value "Fully Terraformed World"
+StringInfo
+	ID "IDS_PLANETBONUS_FULLYTERRAFORMED_DESC"
+	Value "The previous inhabitants completely terraformed this world, making further development easier and allowing it to support far more people than it otherwise could."
 StringInfo
 	ID "IDS_PLANETBONUS_PLANETOID_NAME"
 	Value "Planetoid"
@@ -3223,7 +3265,7 @@ StringInfo
 	ID "IDS_PLANETTYPE_ROCKGIANT"
 	Value "Rock Giant Planet"
 StringInfo
-	ID "IDS_PLANETTYPE_MOUNTAINS"
+	ID "IDS_PLANETTYPE_ALPINE"
 	Value "Alpine Planet"
 StringInfo
 	ID "IDS_PLANETTYPE_INDUSTRIAL"

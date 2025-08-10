@@ -17,11 +17,11 @@ hudIcon "HUDICON_PLANETMODULE_PHASEORBITALPHASEGATE"
 smallHudIcon "HUDICONSMALL_PLANETMODULE_PHASEORBITALPHASEGATE"
 infoCardIcon "INFOCARDICON_PLANETMODULE_PHASEORBITALPHASEGATE"
 planetUpgradeSlotType "Civilian"
-planetUpgradeSlotCount 0.330000
+planetUpgradeSlotCount 1.000000
 basePrice
 	credits 1200.000000
 	metal 240.000000
-	crystal 120.000000
+	crystal 180.000000
 NameStringID "IDS_PLANETMODULE_PHASEORBITALPHASEGATE_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PHASEORBITALPHASEGATE_DESCRIPTION"
 planetModuleRoleType "PHASEGATE"
@@ -42,7 +42,7 @@ maxShieldMitigation 0.466667
 ExperiencePointsForDestroying 150.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
-isAffectedBySimilarModuleCostResearch FALSE
+isAffectedBySimilarModuleCostResearch TRUE
 placementRadius 600.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 8000.000000
@@ -72,5 +72,5 @@ picture "PLANETMODULEPICTURE_PHASEORBITALPHASEGATE"
 minShadow 0.000000
 maxShadow 1.000000
 formationRank 3
-baseBuildTime 90.000000
+baseBuildTime 60.000000
 buildEffectName ""

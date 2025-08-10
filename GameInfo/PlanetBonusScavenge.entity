@@ -1,15 +1,15 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 1
-maxUpgradeLevelNeeded 1
-nameStringID "IDS_PLANETBONUS_OLDBATTLEFIELD_NAME"
-descStringID "IDS_PLANETBONUS_OLDBATTLEFIELD_DESC"
+minUpgradeLevelNeeded 0
+maxUpgradeLevelNeeded 0
+nameStringID "IDS_PLANETBONUS_SCAVENGE_NAME"
+descStringID "IDS_PLANETBONUS_SCAVENGE_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation 0.000000
 floatBonus:AdditivePlanetHealth 0.000000
-floatBonus:AdditiveSlotsCivilian 1.000000
-floatBonus:AdditiveSlotsTactical 0.000000
+floatBonus:AdditiveSlotsCivilian 0.000000
+floatBonus:AdditiveSlotsTactical 1.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.050000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000

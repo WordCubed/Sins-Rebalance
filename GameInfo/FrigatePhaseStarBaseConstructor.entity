@@ -16,11 +16,11 @@ NameStringID "IDS_FRIGATE_PHASESTARBASECONSTRUCTOR_NAME"
 DescriptionStringID "IDS_FRIGATE_PHASESTARBASECONSTRUCTOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 150.000000
+	credits 160.000000
 	metal 30.000000
-	crystal 15.000000
+	crystal 20.000000
 slotCount 1.000000
-BuildTime 7.500000
+BuildTime 3.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
 MaxHullPoints 1500.000000
@@ -45,46 +45,7 @@ hudIcon "HUDICON_FRIGATE_PHASECOLONY"
 smallHudIcon "HUDICONSMALL_FRIGATE_PHASECOLONY"
 infoCardIcon "INFOCARDICON_FRIGATE_PHASECOLONY"
 minZoomDistanceMult 5.000000
-NumWeapons 1
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTILIGHT"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 2500.000000
-	PreBuffCooldownTime 9.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.200000
-	TravelSpeed 3600.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.350000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalPulseGunLight_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
-		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE"
-			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalPulseGunLight_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_PhaseCapitalPulseGunLight_Travel"
+NumWeapons 0
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

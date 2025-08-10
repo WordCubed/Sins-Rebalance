@@ -13,10 +13,10 @@ instantAction
 	buffInstantActionType "RetaliateBounty"
 	instantActionTriggerType "OnOwnerDeath"
 	bountyAmount
-		Level:0 2000.000000
-		Level:1 4000.000000
-		Level:2 4000.000000
-		Level:3 4000.000000
+		Level:0 4000.000000
+		Level:1 8000.000000
+		Level:2 8000.000000
+		Level:3 8000.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

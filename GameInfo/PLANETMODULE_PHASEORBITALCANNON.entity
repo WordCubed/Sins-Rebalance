@@ -7,8 +7,8 @@ ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 9000.000000
-AntiMatterRestoreRate 25.000000
+MaxAntiMatter 360.000000
+AntiMatterRestoreRate 1.000000
 numRandomDebrisLarge 3
 numRandomDebrisSmall 18
 numSpecificDebris 0
@@ -19,9 +19,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_PHASEORBITALCANNON"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 4.000000
 basePrice
-	credits 6400.000000
-	metal 1280.000000
-	crystal 640.000000
+	credits 10000.000000
+	metal 2000.000000
+	crystal 1500.000000
 NameStringID "IDS_PLANETMODULE_PHASEORBITALCANNON_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PHASEORBITALCANNON_DESC"
 planetModuleRoleType "CANNON"
@@ -38,7 +38,7 @@ HullPointRestoreRate 50.000000
 BaseArmorPoints 20.000000
 MaxShieldPoints 24000.000000
 ShieldPointRestoreRate 100.000000
-maxShieldMitigation 0.60000
+maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 600.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
@@ -72,5 +72,5 @@ picture "PLANETMODULEPICTURE_PHASEORBITALCANNON"
 minShadow 0.000000
 maxShadow 1.000000
 formationRank 3
-baseBuildTime 150.000000
+baseBuildTime 240.000000
 buildEffectName ""

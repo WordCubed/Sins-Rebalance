@@ -34,7 +34,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 0.200000
 	linkedWeaponClass "Invalid"
 researchModifier
 	modifierType "WeaponRangeAdjustment"

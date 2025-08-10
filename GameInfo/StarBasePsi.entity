@@ -157,9 +157,9 @@ canOnlyTargetStructures FALSE
 ShieldMeshName "Shield_PsiStarBase"
 renderShield TRUE
 squadTypeEntityDef:0 "SquadPsiCombat"
-squadAntiMatterCost:0 0.000000
+squadAntiMatterCost:0 30.000000
 squadTypeEntityDef:1 "SquadPsiBomber"
-squadAntiMatterCost:1 0.000000
+squadAntiMatterCost:1 30.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
@@ -313,7 +313,7 @@ formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
 cargoShipType "FrigatePsiTradeShip"
-maxCargoShipCount 4
+maxCargoShipCount 2
 cargoShipRespawnTime 30.000000
 baseBuildTime 120.000000
 buildEffectName ""

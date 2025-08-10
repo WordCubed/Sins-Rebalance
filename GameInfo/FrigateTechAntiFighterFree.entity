@@ -16,11 +16,11 @@ NameStringID "IDS_FRIGATE_FREE_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHANTIFIGHTER_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 00.000000
+	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 8.000000
+BuildTime 3.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 80.000000
 MaxHullPoints 2000.000000
@@ -28,7 +28,7 @@ MaxShieldPoints 1000.000000
 HullPointRestoreRate 4.166667
 ShieldPointRestoreRate 4.166667
 BaseArmorPoints 10.000000
-maxMitigation 0.470000
+maxMitigation 0.466667
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1

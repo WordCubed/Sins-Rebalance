@@ -21,9 +21,9 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 120.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
-	credits 9600.000000
-	metal 2400.000000
-	crystal 4800.000000
+	credits 5100.000000
+	metal 750.000000
+	crystal 1500.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000

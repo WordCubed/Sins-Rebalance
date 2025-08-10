@@ -16,11 +16,11 @@ NameStringID "IDS_FRIGATE_PSISTARBASECONSTRUCTOR_NAME"
 DescriptionStringID "IDS_FRIGATE_PSISTARBASECONSTRUCTOR_DESC"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 150.000000
+	credits 160.000000
 	metal 30.000000
-	crystal 15.000000
+	crystal 20.000000
 slotCount 1.000000
-BuildTime 7.500000
+BuildTime 3.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
 MaxHullPoints 1000.000000
@@ -28,7 +28,7 @@ MaxShieldPoints 2000.000000
 HullPointRestoreRate 2.083333
 ShieldPointRestoreRate 8.333333
 BaseArmorPoints 15.000000
-maxMitigation 0.600000
+maxMitigation 0.533333
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1

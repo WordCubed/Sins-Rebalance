@@ -16,11 +16,11 @@ NameStringID "IDS_FRIGATE_PIRATEANTIFIGHTER_NAME"
 DescriptionStringID "IDS_FRIGATE_TECHANTIFIGHTER_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 480.000000
+	credits 640.000000
 	metal 0.000000
 	crystal 0.000000
 slotCount 4.000000
-BuildTime 24.000000
+BuildTime 12.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 80.000000
 MaxHullPoints 3000.000000
@@ -28,7 +28,7 @@ MaxShieldPoints 0.000000
 HullPointRestoreRate 6.250000
 ShieldPointRestoreRate 0.000000
 BaseArmorPoints 10.000000
-maxMitigation 0.470000
+maxMitigation 0.466667
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
@@ -141,8 +141,8 @@ ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 120.000000
-AntiMatterRestoreRate 2.000000
+MaxAntiMatter 60.000000
+AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 1

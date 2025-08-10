@@ -1,15 +1,15 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 0
-maxUpgradeLevelNeeded 0
+minUpgradeLevelNeeded 3
+maxUpgradeLevelNeeded 3
 nameStringID "IDS_PLANETBONUS_PROMINENT_NAME"
 descStringID "IDS_PLANETBONUS_PROMINENT_DESC"
-floatBonus:AdditiveCultureSpreadPerc 0.300000
+floatBonus:AdditiveCultureSpreadPerc 0.250000
 floatBonus:AdditivePopulation 32.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 1.000000
-floatBonus:AdditiveSlotsTactical 2.000000
+floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 2.000000
 floatBonus:AdditiveTradeIncomePerc 0.200000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000

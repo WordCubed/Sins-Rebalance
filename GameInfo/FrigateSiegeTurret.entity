@@ -9,17 +9,17 @@ autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels TRUE
 baseDamage
-	Level:0 250.000000
-	Level:1 250.000000
-	Level:2 250.000000
-	Level:3 0.000000
+	Level:0 240.000000
+	Level:1 240.000000
+	Level:2 240.000000
+	Level:3 240.000000
 basePopulationKilled
 	Level:0 1.000000
 	Level:1 1.000000
 	Level:2 1.000000
-	Level:3 0.000000
-bombingFreqTime 10.000000
-baseRange 4000.000000
+	Level:3 1.000000
+bombingFreqTime 6.000000
+baseRange 6000.000000
 bombTransitTime 4.000000
 bombEffectCount 2
 bombEffectAngleVariance 2.500000
@@ -62,7 +62,7 @@ basePrice
 	metal 0.000000
 	crystal 0.000000
 slotCount 0.000000
-BuildTime 1.000000
+BuildTime 3.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 240.000000
 MaxHullPoints 4500.000000
@@ -70,7 +70,7 @@ MaxShieldPoints 4500.000000
 HullPointRestoreRate 9.375000
 ShieldPointRestoreRate 18.750000
 BaseArmorPoints 20.000000
-maxMitigation 0.670000
+maxMitigation 0.600000
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 0

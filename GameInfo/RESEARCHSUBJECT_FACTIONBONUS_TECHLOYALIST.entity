@@ -42,7 +42,7 @@ researchModifier
 	linkedPlanetUpgradeType "TacticalModules"
 researchModifier
 	modifierType "PlanetUpgradeBuildRateAdjustment"
-	baseValue 0.600000
+	baseValue 1.000000
 	perLevelValue 0.000000
 	linkedPlanetUpgradeType "TacticalModules"
 artifactPicture ""

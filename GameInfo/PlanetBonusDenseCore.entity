@@ -1,22 +1,22 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 1
-maxUpgradeLevelNeeded 1
+minUpgradeLevelNeeded 2
+maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_DENSECORE_NAME"
 descStringID "IDS_PLANETBONUS_DENSECORE_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation 0.000000
 floatBonus:AdditivePlanetHealth 0.000000
-floatBonus:AdditiveSlotsCivilian 3.000000
-floatBonus:AdditiveSlotsTactical 6.000000
+floatBonus:AdditiveSlotsCivilian 2.000000
+floatBonus:AdditiveSlotsTactical 4.000000
 floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus 0.000000
 floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000
-floatBonus:GravityWellRadiusPerc 0.300000
+floatBonus:GravityWellRadiusPerc 0.333333
 floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc 0.000000
@@ -26,7 +26,7 @@ floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000
 intBonus:MaxSpaceMines 0
 intBonus:MaxStarbases 0
-intBonus:ModuleConstructors 0
+intBonus:ModuleConstructors 1
 intBonus:SpacePonies 0
 dlcId 228601
 hudIcon "HUDICON_PLANETBONUS_DENSECORE"

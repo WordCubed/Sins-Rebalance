@@ -20,22 +20,22 @@ GameplayConstants
 	maxAiCannons 7
 	preferNewAssetsGameCountThreshold 5
 	EconomyData
-		DefaultSalvageRefundPercent 0.333333
+		DefaultSalvageRefundPercent 0.400000
 		bountyPerExperiencePointMin 10
 		bountyPerExperiencePointMax 100
-		bountyThresholdMin 4000
-		bountyThresholdMax 64000
+		bountyThresholdMin 10000
+		bountyThresholdMax 50000
 		percOfBuildTimeForScuttleTime .125
 		buildCountSmallPerButtonPress 1
 		buildCountLargePerButtonPress 4
 		minTimeBetweenResourcePickUps 90.0
 	PlanetData
-		allegiancePassiveGainRate 0.005000000
-		allegiancePassiveLossRate -0.005000000
-		allegianceFriendlyMaxGainRate 0.005000000
-		allegianceEnemyMaxLossRate -0.005000000
+		allegiancePassiveGainRate 0.010000000
+		allegiancePassiveLossRate -0.010000000
+		allegianceFriendlyMaxGainRate 0.010000000
+		allegianceEnemyMaxLossRate -0.010000000
 		allegianceGainFromCultureMax 0.10
-		startingPopulationPercOfMax 0.5
+		startingPopulationPercOfMax 1.0
 		healthOnColonize 1000.0
 		healthRegenRatePercWhenBombed .100
 		considerBeingBombedTimeForHealthRegen 30
@@ -43,7 +43,7 @@ GameplayConstants
 		populationGrowthPercWhenBombed 0.10
 		moduleConstructorRespawnTime 30
 		moduleConstructorRespawnTimeWithEnemies 60
-		baseTaxRatePerPopulation 0.100
+		baseTaxRatePerPopulation 0.200
 		planetBaseAllegianceAtDistanceCount 11
 		allegiance 1.00
 		allegiance 0.90
@@ -58,7 +58,7 @@ GameplayConstants
 		allegiance 0.10
 		planetCultureTakeOverPercWarning 0.20
 		experienceGainedForDestroying 1000.0
-		scuttleTime 20.0
+		scuttleTime 10.0
 		stripTime 10.0
 	CapitalShipData
 		ExperienceLevelData:0
@@ -434,32 +434,32 @@ GameplayConstants
 		veryDistantIconFadeNearThresholdDistance 100000
 		veryDistantIconFadeFarThresholdDistance 10000000
 	PhysicsData
-		shipLinearMaxSpeedWhileSafeScalar 4.0
-		shipLinearAccelerationWhileSafeScalar 4.0
-		shipLinearDecelerationWhileSafeScalar 4.0
+		shipLinearMaxSpeedWhileSafeScalar 2.0
+		shipLinearAccelerationWhileSafeScalar 2.0
+		shipLinearDecelerationWhileSafeScalar 2.0
 	pirateRaidDef
 		arrivalDelayTime 6.0
-		minSupply 10000
+		minSupply 0
 		maxSupply 10000
 		strengthPerOwnedPlanet .033334
-		strengthPerCargoShip .008334
-		strengthPerBounty .000006
+		strengthPerCargoShip .016667
+		strengthPerBounty .000005
 		firstWarningTime 600
 		normalWarningTime 300
 		minSendRaidTime 30
 		maxSendRaidTime 90
 		pirateQuestCooldownTime 300
 		minQuestCredits 1000
-		maxQuestCredits 80000
+		maxQuestCredits 50000
 		maxNumUpgradesPerRaid 10
 		juicyPlanetModuleThreshold 2
-		raidStrengthThreshold:0 0
-		raidStrengthThreshold:1 .25
-		raidStrengthThreshold:2 .50
-		raidStrengthThreshold:3 .75
+		raidStrengthThreshold:0 0.2
+		raidStrengthThreshold:1 0.4
+		raidStrengthThreshold:2 0.6
+		raidStrengthThreshold:3 0.8
 		raidStrengthThreshold:4 1.0
 		pirateRaidComposition:0
-			requiredShipCount 3
+			requiredShipCount 4
 			requiredShip
 				type "FrigatePirateMedium"
 				minCount 1
@@ -472,9 +472,13 @@ GameplayConstants
 				type "FrigatePirateSiege"
 				minCount 1
 				maxCount 1
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 1
+				maxCount 1
 			randomShipCount 0
 		pirateRaidComposition:1
-			requiredShipCount 4
+			requiredShipCount 5
 			requiredShip
 				type "FrigatePirateHeavy"
 				minCount 1
@@ -491,9 +495,13 @@ GameplayConstants
 				type "FrigatePirateSiege"
 				minCount 2
 				maxCount 2
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 3
+				maxCount 3
 			randomShipCount 0
 		pirateRaidComposition:2
-			requiredShipCount 4
+			requiredShipCount 5
 			requiredShip
 				type "FrigatePirateHeavy"
 				minCount 2
@@ -510,6 +518,10 @@ GameplayConstants
 				type "FrigatePirateSiege"
 				minCount 3
 				maxCount 3
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 4
+				maxCount 4
 			randomShipCount 0
 		pirateRaidComposition:3
 			requiredShipCount 5
@@ -527,12 +539,12 @@ GameplayConstants
 				maxCount 6
 			requiredShip
 				type "FrigatePirateSiege"
-				minCount 8
-				maxCount 8
-			requiredShip
-				type "FrigatePirateAntiFighter"
 				minCount 4
 				maxCount 4
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 5
+				maxCount 5
 			randomShipCount 0
 		pirateRaidComposition:4
 			requiredShipCount 5
@@ -554,19 +566,19 @@ GameplayConstants
 				maxCount 5
 			requiredShip
 				type "FrigatePirateAntiFighter"
-				minCount 8
-				maxCount 8
+				minCount 6
+				maxCount 6
 			randomShipCount 0
-		fleetStrengthLevel:Weak 0
-		fleetStrengthLevel:Moderate 8000
-		fleetStrengthLevel:Strong 16000
-		fleetStrengthLevel:Massive 32000
-		fleetStrengthLevel:Overwhelming 64000
-		raidCost:0 4000
-		raidCost:1 8000
-		raidCost:2 16000
-		raidCost:3 32000
-		raidCost:4 64000
+		fleetStrengthLevel:Weak 10000
+		fleetStrengthLevel:Moderate 20000
+		fleetStrengthLevel:Strong 30000
+		fleetStrengthLevel:Massive 40000
+		fleetStrengthLevel:Overwhelming 50000
+		raidCost:0 10000
+		raidCost:1 20000
+		raidCost:2 30000
+		raidCost:3 40000
+		raidCost:4 50000
 	buildSpeedData-Slow
 		shipBuildRateGameSpeedScalar -0.5
 		moduleBuildRateGameSpeedScalar -0.5
@@ -574,57 +586,57 @@ GameplayConstants
 		shipBuildRateGameSpeedScalar 0.0
 		moduleBuildRateGameSpeedScalar 0.0
 	buildSpeedData-Fast
-		shipBuildRateGameSpeedScalar 4.0
-		moduleBuildRateGameSpeedScalar 4.0
+		shipBuildRateGameSpeedScalar 1.5
+		moduleBuildRateGameSpeedScalar 1.5
 	buildSpeedData-Faster
-		shipBuildRateGameSpeedScalar 8.0
-		moduleBuildRateGameSpeedScalar 8.0
+		shipBuildRateGameSpeedScalar 2.0
+		moduleBuildRateGameSpeedScalar 2.0
 	cultureSpeedData-Slow
-		cultureConnectionReferenceLength 5000000
+		cultureConnectionReferenceLength 6250000
 		allegianceShiftRateScalar -0.5
 	cultureSpeedData-Normal
-		cultureConnectionReferenceLength 10000000
+		cultureConnectionReferenceLength 12500000
 		allegianceShiftRateScalar 0.0
 	cultureSpeedData-Fast
-		cultureConnectionReferenceLength 15000000
-		allegianceShiftRateScalar 16.0
+		cultureConnectionReferenceLength 18750000
+		allegianceShiftRateScalar 1.5
 	cultureSpeedData-Faster
-		cultureConnectionReferenceLength 20000000
-		allegianceShiftRateScalar 64.0
+		cultureConnectionReferenceLength 25000000
+		allegianceShiftRateScalar 2.0
 	researchSpeedData-Slow
 		researchRateGameSpeedScalar -0.5
 	researchSpeedData-Normal
 		researchRateGameSpeedScalar 0.0
 	researchSpeedData-Fast
-		researchRateGameSpeedScalar 2.0
+		researchRateGameSpeedScalar 0.5
 	researchSpeedData-Faster
-		researchRateGameSpeedScalar 4.0
+		researchRateGameSpeedScalar 1.0
 	incomeSpeedData-Slow
 		incomeRateGameSpeedScalar -0.5
 	incomeSpeedData-Normal
 		incomeRateGameSpeedScalar 0.0
 	incomeSpeedData-Fast
-		incomeRateGameSpeedScalar 1.0
+		incomeRateGameSpeedScalar 0.5
 	incomeSpeedData-Faster
-		incomeRateGameSpeedScalar 2.0
+		incomeRateGameSpeedScalar 1.0
 	fleetSupplyData-Small
 		fleetSupplyScalar 0.5
 	fleetSupplyData-Normal
 		fleetSupplyScalar 1.0
 	fleetSupplyData-Large
-		fleetSupplyScalar 2.0
+		fleetSupplyScalar 1.5
 	shipPhysicsSpeedData-Slow
 		shipLinearMaxSpeedGameSpeedScalar -0.5
 		shipLinearAccelerationGameSpeedScalar -0.5
 		shipLinearDecelerationGameSpeedScalar -0.5
 	shipPhysicsSpeedData-Normal
-		shipLinearMaxSpeedGameSpeedScalar 1.0
-		shipLinearAccelerationGameSpeedScalar 1.0
-		shipLinearDecelerationGameSpeedScalar 1.0
-	shipPhysicsSpeedData-Fast
 		shipLinearMaxSpeedGameSpeedScalar 2.0
 		shipLinearAccelerationGameSpeedScalar 2.0
 		shipLinearDecelerationGameSpeedScalar 2.0
+	shipPhysicsSpeedData-Fast
+		shipLinearMaxSpeedGameSpeedScalar 3.0
+		shipLinearAccelerationGameSpeedScalar 3.0
+		shipLinearDecelerationGameSpeedScalar 3.0
 	shipPhysicsSpeedData-Faster
 		shipLinearMaxSpeedGameSpeedScalar 4.0
 		shipLinearAccelerationGameSpeedScalar 4.0
@@ -644,7 +656,7 @@ GameplayConstants
 	marketDef
 		sellPrice 2.0
 		buyPrice 4.0
-		priceIncreaseAtMaxShift 2.5
+		priceIncreaseAtMaxShift 2.0
 		minTimeForMarketChange 10.0
 		maxTimeForMarketChange 30.0
 		minTimeToCrashOrBoom 2.0
@@ -827,8 +839,8 @@ GameplayConstants
 		militaryActionsMax 3.0
 		militaryActionsDecayRate -0.001
 		KilledShip
-			AllyKilled 0.0
-			EnemyKilled 0.0
+			AllyKilled -0.1
+			EnemyKilled 0.1
 		KilledCivilianStructure
 			AllyKilled -0.05
 			EnemyKilled 0.05
@@ -1000,8 +1012,8 @@ GameplayConstants
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerTechRebel"
 			spawnShips
-				minFleetPoints 45.000000
-				maxFleetPoints 45.000000
+				minFleetPoints 40.000000
+				maxFleetPoints 40.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1012,21 +1024,21 @@ GameplayConstants
 					weight 1
 				randomShip
 					type "FrigateTechLight"
-					weight 4
+					weight 2
 				randomShip
 					type "FrigateTechLongRange"
 					weight 4
 				randomShip
 					type "FrigateTechAntiFighter"
-					weight 4
+					weight 3
 				randomShip
 					type "CorvetteTechRebel"
 					weight 6
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerTechLoyalist"
 			spawnShips
-				minFleetPoints 45.000000
-				maxFleetPoints 45.000000
+				minFleetPoints 40.000000
+				maxFleetPoints 40.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1037,21 +1049,21 @@ GameplayConstants
 					weight 1
 				randomShip
 					type "FrigateTechLight"
-					weight 4
+					weight 2
 				randomShip
 					type "FrigateTechLongRange"
 					weight 4
 				randomShip
 					type "FrigateTechAntiFighter"
-					weight 4
+					weight 3
 				randomShip
 					type "CorvetteTechLoyalist"
 					weight 6
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerPsiRebel"
 			spawnShips
-				minFleetPoints 45.000000
-				maxFleetPoints 45.000000
+				minFleetPoints 40.000000
+				maxFleetPoints 40.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1062,21 +1074,21 @@ GameplayConstants
 					weight 1
 				randomShip
 					type "FrigatePsiLight"
-					weight 4
+					weight 2
 				randomShip
 					type "FrigatePsiLongRange"
 					weight 4
 				randomShip
 					type "FrigatePsiAntiFighter"
-					weight 4
+					weight 3
 				randomShip
 					type "CorvettePsiRebel"
 					weight 6
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerPsiLoyalist"
 			spawnShips
-				minFleetPoints 45.000000
-				maxFleetPoints 45.000000
+				minFleetPoints 40.000000
+				maxFleetPoints 40.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1087,21 +1099,21 @@ GameplayConstants
 					weight 1
 				randomShip
 					type "FrigatePsiLight"
-					weight 4
+					weight 2
 				randomShip
 					type "FrigatePsiLongRange"
 					weight 4
 				randomShip
 					type "FrigatePsiAntiFighter"
-					weight 4
+					weight 3
 				randomShip
 					type "CorvettePsiLoyalist"
 					weight 6
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerPhaseRebel"
 			spawnShips
-				minFleetPoints 45.000000
-				maxFleetPoints 45.000000
+				minFleetPoints 40.000000
+				maxFleetPoints 40.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1112,21 +1124,21 @@ GameplayConstants
 					weight 1
 				randomShip
 					type "FrigatePhaseLight"
-					weight 4
+					weight 2
 				randomShip
 					type "FrigatePhaseLongRange"
 					weight 4
 				randomShip
 					type "FrigatePhaseAntiFighter"
-					weight 4
+					weight 3
 				randomShip
 					type "CorvettePhaseRebel"
 					weight 6
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerPhaseLoyalist"
 			spawnShips
-				minFleetPoints 45.000000
-				maxFleetPoints 45.000000
+				minFleetPoints 40.000000
+				maxFleetPoints 40.000000
 				requiredShipCount 0
 				randomShipCount 6
 				randomShip
@@ -1137,25 +1149,25 @@ GameplayConstants
 					weight 1
 				randomShip
 					type "FrigatePhaseLight"
-					weight 4
+					weight 2
 				randomShip
 					type "FrigatePhaseLongRange"
 					weight 4
 				randomShip
 					type "FrigatePhaseAntiFighter"
-					weight 4
+					weight 3
 				randomShip
 					type "CorvettePhaseLoyalist"
 					weight 6
-		baseFleetCapacity 45.0
-		maxFleetSupplyPerPlanetPopulation .025
-		fleetSupplyMin 100.0
-		fleetSupplyMax 500.0
+		baseFleetCapacity 40.0
+		maxFleetSupplyPerPlanetPopulation .02
+		fleetSupplyMin 40.0
+		fleetSupplyMax 200.0
 		fleetSupplyScalarAtMinFleetSupply 1.0
-		fleetSupplyScalarAtMaxFleetSupply 4.0
+		fleetSupplyScalarAtMaxFleetSupply 2.0
 		timeBetweenSpawnShipsAtMinFleetSupply 600.0
-		timeBetweenSpawnShipsAtMaxFleetSupply 240.0
-		timeBetweenSpawnShipsVariancePercent .25
+		timeBetweenSpawnShipsAtMaxFleetSupply 300.0
+		timeBetweenSpawnShipsVariancePercent .2
 		planetsAtMinFleetSupplyScalar 10
 		planetsAtMaxFleetSupplyScalar 100
 		minPlanetsFleetSupplyScalar 1
@@ -1175,20 +1187,16 @@ GameplayConstants
 		npcIconOffset:PlanetIcon
 			xOffset 0
 			yOffset -52
-		colonizePlanetBlackListCount 10
-		planet "PlanetAsteroid"
-		planet "PlanetBarren"
+		colonizePlanetBlackListCount 6
 		planet "PlanetGasGiant"
 		planet "PlanetIceGiant"
 		planet "PlanetIndustrial"
-		planet "PlanetMoon"
 		planet "PlanetRenegadeAlliance"
 		planet "PlanetRockGiant"
-		planet "PlanetShipGraveyard"
 		planet "PlanetUrban"
 		colonizablePlanetsWithMinorFactionsPercent 0.35
-		minConnectionDistanceToColonizedPlanets 4
-		minConnectionDistanceToSameFactionPlanets 1
+		minConnectionDistanceToColonizedPlanets 3
+		minConnectionDistanceToSameFactionPlanets 2
 		minAdjacentPlanetCount 2
 		infrastructurePlanetUpgradeLevel 4
 		populationPlanetUpgradeLevel 4
@@ -1196,8 +1204,8 @@ GameplayConstants
 		tacticalModulesUpgradeLevel 4
 		planetIncomeScalar 0.33333
 		planetCultureRepelAdditiveBonus 1.5
-		spawnTime 480
-		spawnTimeVariance 120
+		spawnTime 300
+		spawnTimeVariance 60
 		minorFactionPlayerDefCount 13
 		minorFactionPlayerDef
 			name "DefaultTech"

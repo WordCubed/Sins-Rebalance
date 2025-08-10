@@ -49,15 +49,15 @@ ShieldPointRestoreRate
 	Level:2 6.250000
 	Level:3 6.250000
 BaseArmorPoints
-	Level:0 10.000000
-	Level:1 10.000000
-	Level:2 10.000000
-	Level:3 10.000000
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
 maxMitigation
-	Level:0 0.500000
-	Level:1 0.500000
-	Level:2 0.500000
-	Level:3 0.500000
+	Level:0 0.533333
+	Level:1 0.533333
+	Level:2 0.533333
+	Level:3 0.533333
 relationshipChangeRate
 	Level:0 0.000000
 	Level:1 0.000000

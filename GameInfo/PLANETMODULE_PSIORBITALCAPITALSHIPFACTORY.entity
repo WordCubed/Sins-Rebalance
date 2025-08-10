@@ -19,9 +19,9 @@ infoCardIcon "INFOCARDICON_PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 2.000000
 basePrice
-	credits 3200.000000
-	metal 640.000000
-	crystal 320.000000
+	credits 2400.000000
+	metal 480.000000
+	crystal 360.000000
 NameStringID "IDS_PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY_NAME"
 DescriptionStringID "IDS_PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY_DESCRIPTION"
 planetModuleRoleType "CAPITALSHIPFACTORY"
@@ -35,7 +35,7 @@ HullPointRestoreRate 16.666667
 BaseArmorPoints 15.000000
 MaxShieldPoints 16000.000000
 ShieldPointRestoreRate 66.666667
-maxShieldMitigation 0.530000
+maxShieldMitigation 0.533333
 ExperiencePointsForDestroying 400.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
