@@ -20,7 +20,7 @@ basePrice
 	metal 0.000000
 	crystal 0.000000
 slotCount 8.000000
-BuildTime 24.000000
+BuildTime 32.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 160.000000
 MaxHullPoints 6000.000000

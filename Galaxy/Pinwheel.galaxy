@@ -1620,7 +1620,7 @@ player
 	inGameName "NewPlayer0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 22000
+	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
 	playerType "Normal"
@@ -1633,7 +1633,7 @@ player
 	inGameName "NewPlayer1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 22000
+	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
 	playerType "Normal"
@@ -1646,7 +1646,7 @@ player
 	inGameName "NewPlayer2"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 22000
+	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
 	playerType "Normal"
@@ -1659,7 +1659,7 @@ player
 	inGameName "NewPlayer3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 22000
+	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
 	playerType "Normal"

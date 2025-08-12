@@ -435,8 +435,8 @@ GameplayConstants
 		veryDistantIconFadeFarThresholdDistance 10000000
 	PhysicsData
 		shipLinearMaxSpeedWhileSafeScalar 2.0
-		shipLinearAccelerationWhileSafeScalar 2.0
-		shipLinearDecelerationWhileSafeScalar 2.0
+		shipLinearAccelerationWhileSafeScalar 1.0
+		shipLinearDecelerationWhileSafeScalar 1.0
 	pirateRaidDef
 		arrivalDelayTime 6.0
 		minSupply 0
@@ -586,11 +586,11 @@ GameplayConstants
 		shipBuildRateGameSpeedScalar 0.0
 		moduleBuildRateGameSpeedScalar 0.0
 	buildSpeedData-Fast
-		shipBuildRateGameSpeedScalar 1.5
-		moduleBuildRateGameSpeedScalar 1.5
+		shipBuildRateGameSpeedScalar 1
+		moduleBuildRateGameSpeedScalar 1
 	buildSpeedData-Faster
-		shipBuildRateGameSpeedScalar 2.0
-		moduleBuildRateGameSpeedScalar 2.0
+		shipBuildRateGameSpeedScalar 3.0
+		moduleBuildRateGameSpeedScalar 3.0
 	cultureSpeedData-Slow
 		cultureConnectionReferenceLength 6250000
 		allegianceShiftRateScalar -0.5
@@ -599,18 +599,18 @@ GameplayConstants
 		allegianceShiftRateScalar 0.0
 	cultureSpeedData-Fast
 		cultureConnectionReferenceLength 18750000
-		allegianceShiftRateScalar 1.5
+		allegianceShiftRateScalar 1.0
 	cultureSpeedData-Faster
 		cultureConnectionReferenceLength 25000000
-		allegianceShiftRateScalar 2.0
+		allegianceShiftRateScalar 3.0
 	researchSpeedData-Slow
 		researchRateGameSpeedScalar -0.5
 	researchSpeedData-Normal
 		researchRateGameSpeedScalar 0.0
 	researchSpeedData-Fast
-		researchRateGameSpeedScalar 0.5
-	researchSpeedData-Faster
 		researchRateGameSpeedScalar 1.0
+	researchSpeedData-Faster
+		researchRateGameSpeedScalar 3.0
 	incomeSpeedData-Slow
 		incomeRateGameSpeedScalar -0.5
 	incomeSpeedData-Normal
@@ -624,7 +624,7 @@ GameplayConstants
 	fleetSupplyData-Normal
 		fleetSupplyScalar 1.0
 	fleetSupplyData-Large
-		fleetSupplyScalar 1.5
+		fleetSupplyScalar 2.0
 	shipPhysicsSpeedData-Slow
 		shipLinearMaxSpeedGameSpeedScalar -0.5
 		shipLinearAccelerationGameSpeedScalar -0.5
@@ -634,13 +634,13 @@ GameplayConstants
 		shipLinearAccelerationGameSpeedScalar 2.0
 		shipLinearDecelerationGameSpeedScalar 2.0
 	shipPhysicsSpeedData-Fast
-		shipLinearMaxSpeedGameSpeedScalar 3.0
-		shipLinearAccelerationGameSpeedScalar 3.0
-		shipLinearDecelerationGameSpeedScalar 3.0
-	shipPhysicsSpeedData-Faster
 		shipLinearMaxSpeedGameSpeedScalar 4.0
 		shipLinearAccelerationGameSpeedScalar 4.0
 		shipLinearDecelerationGameSpeedScalar 4.0
+	shipPhysicsSpeedData-Faster
+		shipLinearMaxSpeedGameSpeedScalar 8.0
+		shipLinearAccelerationGameSpeedScalar 8.0
+		shipLinearDecelerationGameSpeedScalar 8.0
 	victorySpeedData-Slow
 		diplomaticPointsRateSpeedScalar 0.5
 		occupyVictoryTimeScalar 2.0
@@ -1195,8 +1195,8 @@ GameplayConstants
 		planet "PlanetRockGiant"
 		planet "PlanetUrban"
 		colonizablePlanetsWithMinorFactionsPercent 0.35
-		minConnectionDistanceToColonizedPlanets 3
-		minConnectionDistanceToSameFactionPlanets 2
+		minConnectionDistanceToColonizedPlanets 4
+		minConnectionDistanceToSameFactionPlanets 1
 		minAdjacentPlanetCount 2
 		infrastructurePlanetUpgradeLevel 4
 		populationPlanetUpgradeLevel 4

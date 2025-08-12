@@ -1,5 +1,86 @@
 TXT
-NumStrings 8916
+NumStrings 8943
+StringInfo
+	ID "IDSGameOptionsVictorySpeedSlow"
+	Value "Half Speed"
+StringInfo
+	ID "IDSGameOptionsVictorySpeedNormal"
+	Value "Normal Speed"
+StringInfo
+	ID "IDSGameOptionsVictorySpeedFast"
+	Value "Double Speed"
+StringInfo
+	ID "IDSGameOptionsVictorySpeedFaster"
+	Value "Quadruple Speed"
+StringInfo
+	ID "IDSGameOptionsBuildSpeedSlow"
+	Value "Half Speed"
+StringInfo
+	ID "IDSGameOptionsBuildSpeedNormal"
+	Value "Normal Speed"
+StringInfo
+	ID "IDSGameOptionsBuildSpeedFast"
+	Value "Double Speed"
+StringInfo
+	ID "IDSGameOptionsBuildSpeedFaster"
+	Value "Quadruple Speed"
+StringInfo
+	ID "IDSGameOptionsCultureSpeedSlow"
+	Value "Half Speed"
+StringInfo
+	ID "IDSGameOptionsCultureSpeedNormal"
+	Value "Normal Speed"
+StringInfo
+	ID "IDSGameOptionsCultureSpeedFast"
+	Value "Double Speed"
+StringInfo
+	ID "IDSGameOptionsCultureSpeedFaster"
+	Value "Quadruple Speed"
+StringInfo
+	ID "IDSGameOptionsResearchSpeedSlow"
+	Value "Half Speed"
+StringInfo
+	ID "IDSGameOptionsResearchSpeedNormal"
+	Value "Normal Speed"
+StringInfo
+	ID "IDSGameOptionsResearchSpeedFast"
+	Value "Double Speed"
+StringInfo
+	ID "IDSGameOptionsResearchSpeedFaster"
+	Value "Quadruple Speed"
+StringInfo
+	ID "IDSGameOptionsIncomeSpeedSlow"
+	Value "Half Rate"
+StringInfo
+	ID "IDSGameOptionsIncomeSpeedNormal"
+	Value "Normal Rate"
+StringInfo
+	ID "IDSGameOptionsIncomeSpeedFast"
+	Value "1.5x Rate"
+StringInfo
+	ID "IDSGameOptionsIncomeSpeedFaster"
+	Value "Double Rate"
+StringInfo
+	ID "IDSGameOptionsShipPhysicsSpeedSlow"
+	Value "Half Speeds"
+StringInfo
+	ID "IDSGameOptionsShipPhysicsSpeedNormal"
+	Value "Normal Speeds"
+StringInfo
+	ID "IDSGameOptionsShipPhysicsSpeedFast"
+	Value "Double Speeds"
+StringInfo
+	ID "IDSGameOptionsShipPhysicsSpeedFaster"
+	Value "Quadruple Speeds"
+StringInfo
+	ID "IDSGameOptionsFleetSupplyScalarSmall"
+	Value "Half Size"
+StringInfo
+	ID "IDSGameOptionsFleetSupplyScalarNormal"
+	Value "Normal Size"
+StringInfo
+	ID "IDSGameOptionsFleetSupplyScalarLarge"
+	Value "Double Size"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POLITICAL_KICKBACKS_DESCRIPTION"
 	Value "Our diplomats recieve bribery training, increasing the relations gained by giving metal to other factions."

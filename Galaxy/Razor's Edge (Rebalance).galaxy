@@ -7,7 +7,7 @@ browseName "Razor's Edge (Rebalance)"
 browseDescription "Two coalitions of empires occupy opposite arms of the Aludra system. Rally your ally and spearhead an assault through the narrow central corridor for victory."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
-planetArtifactDensity 0.340000
+planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -959,7 +959,7 @@ player
 	inGameName "Player 0"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 22000
+	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
 	playerType "Normal"
@@ -972,7 +972,7 @@ player
 	inGameName "Player 1"
 	overrideRaceName ""
 	teamIndex 0
-	startingCredits 22000
+	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
 	playerType "Normal"
@@ -985,7 +985,7 @@ player
 	inGameName "Player 2"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 22000
+	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
 	playerType "Normal"
@@ -998,7 +998,7 @@ player
 	inGameName "Player 3"
 	overrideRaceName ""
 	teamIndex 1
-	startingCredits 22000
+	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
 	playerType "Normal"
