@@ -38,8 +38,8 @@ researchModifier
 	linkedWeaponClass "PHASEMISSILE"
 researchModifier
 	modifierType "WeaponIgnoresShieldsAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.030000
+	baseValue 0.050000
+	perLevelValue 0.025000
 	linkedWeaponClass "PHASEMISSILE"
 artifactPicture ""
 uniqueOverlayBrush ""

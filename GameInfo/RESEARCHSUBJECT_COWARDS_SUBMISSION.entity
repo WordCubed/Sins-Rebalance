@@ -13,7 +13,7 @@ ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_MAXALLEGIANCE"
+		Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_CULTURE"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

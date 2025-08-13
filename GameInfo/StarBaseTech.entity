@@ -175,9 +175,9 @@ statCountType "StarBase"
 creationSourceAbility "AbilityDeployStarBaseTech"
 maxUpgradeLevelCount 16
 UpgradeTypeCount 9
-UpgradeType "StarBaseUpgradeTechToughness"
-UpgradeType "StarBaseUpgradeTechWeapons"
 UpgradeType "StarBaseUpgradeTechHangar"
+UpgradeType "StarBaseUpgradeTechWeapons"
+UpgradeType "StarBaseUpgradeTechToughness"
 UpgradeType "StarBaseUpgradeTechResupply"
 UpgradeType "StarBaseUpgradeTechSelfDestruct"
 UpgradeType "StarBaseUpgradeTechBlockColonize"

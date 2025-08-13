@@ -434,9 +434,9 @@ GameplayConstants
 		veryDistantIconFadeNearThresholdDistance 100000
 		veryDistantIconFadeFarThresholdDistance 10000000
 	PhysicsData
-		shipLinearMaxSpeedWhileSafeScalar 2.0
+		shipLinearMaxSpeedWhileSafeScalar 4.0
 		shipLinearAccelerationWhileSafeScalar 1.0
-		shipLinearDecelerationWhileSafeScalar 1.0
+		shipLinearDecelerationWhileSafeScalar 4.0
 	pirateRaidDef
 		arrivalDelayTime 6.0
 		minSupply 0
@@ -631,15 +631,15 @@ GameplayConstants
 		shipLinearDecelerationGameSpeedScalar -0.5
 	shipPhysicsSpeedData-Normal
 		shipLinearMaxSpeedGameSpeedScalar 2.0
-		shipLinearAccelerationGameSpeedScalar 2.0
+		shipLinearAccelerationGameSpeedScalar 1.0
 		shipLinearDecelerationGameSpeedScalar 2.0
 	shipPhysicsSpeedData-Fast
 		shipLinearMaxSpeedGameSpeedScalar 4.0
-		shipLinearAccelerationGameSpeedScalar 4.0
+		shipLinearAccelerationGameSpeedScalar 2.0
 		shipLinearDecelerationGameSpeedScalar 4.0
 	shipPhysicsSpeedData-Faster
 		shipLinearMaxSpeedGameSpeedScalar 8.0
-		shipLinearAccelerationGameSpeedScalar 8.0
+		shipLinearAccelerationGameSpeedScalar 4.0
 		shipLinearDecelerationGameSpeedScalar 8.0
 	victorySpeedData-Slow
 		diplomaticPointsRateSpeedScalar 0.5
@@ -734,36 +734,36 @@ GameplayConstants
 		breakRelationshipThreshold:InternalVision 5.0
 		breakRelationshipThreshold:CeaseFire 3.0
 		breakRelationshipThreshold:PeaceTreaty 6.0
-		breakRelationshipThreshold:ResearchPact 7.0
-		breakRelationshipThreshold:EfficiencyPact 7.0
-		breakRelationshipThreshold:AntimatterPact 9.0
-		breakRelationshipThreshold:ArmorPact 11.0
-		breakRelationshipThreshold:BeamWeaponPact 11.0
-		breakRelationshipThreshold:CulturePact 13.0
-		breakRelationshipThreshold:MetalCrystalPact 7.0
-		breakRelationshipThreshold:ThrusterPact 9.0
-		breakRelationshipThreshold:PhaseJumpPact 8.0
-		breakRelationshipThreshold:PlanetBombingPact 13.0
-		breakRelationshipThreshold:ShieldPact 9.0
-		breakRelationshipThreshold:MarketPact 8.0
-		breakRelationshipThreshold:EnergyWeaponCooldownPact 15.0
-		breakRelationshipThreshold:MassReductionPact 11.0
-		breakRelationshipThreshold:SupplyPact 15.0
-		breakRelationshipThreshold:TacticalSlotsPact 13.0
-		breakRelationshipThreshold:WeaponCooldownPact 15.0
-		breakRelationshipThreshold:TradeIncomePact 9.0
+		breakRelationshipThreshold:ResearchPact 6.0
+		breakRelationshipThreshold:EfficiencyPact 6.0
+		breakRelationshipThreshold:AntimatterPact 8.0
+		breakRelationshipThreshold:ArmorPact 10.0
+		breakRelationshipThreshold:BeamWeaponPact 10.0
+		breakRelationshipThreshold:CulturePact 12.0
+		breakRelationshipThreshold:MetalCrystalPact 5.0
+		breakRelationshipThreshold:ThrusterPact 8.0
+		breakRelationshipThreshold:PhaseJumpPact 7.0
+		breakRelationshipThreshold:PlanetBombingPact 12.0
+		breakRelationshipThreshold:ShieldPact 8.0
+		breakRelationshipThreshold:MarketPact 7.0
+		breakRelationshipThreshold:EnergyWeaponCooldownPact 14.0
+		breakRelationshipThreshold:MassReductionPact 10.0
+		breakRelationshipThreshold:SupplyPact 14.0
+		breakRelationshipThreshold:TacticalSlotsPact 12.0
+		breakRelationshipThreshold:WeaponCooldownPact 14.0
+		breakRelationshipThreshold:TradeIncomePact 8.0
 		relationshipRequirement:Trade 5.0
 		relationshipRequirement:ExternalVision 7.0
 		relationshipRequirement:InternalVision 8.0
 		relationshipRequirement:CeaseFire 6.0
 		relationshipRequirement:PeaceTreaty 9.0
-		relationshipRequirement:ResearchPact 9.5
-		relationshipRequirement:EfficiencyPact 9.5
+		relationshipRequirement:ResearchPact 9.9
+		relationshipRequirement:EfficiencyPact 9.9
 		relationshipRequirement:AntimatterPact 12.0
 		relationshipRequirement:ArmorPact 14.0
 		relationshipRequirement:BeamWeaponPact 14.0
 		relationshipRequirement:CulturePact 16.0
-		relationshipRequirement:MetalCrystalPact 9.5
+		relationshipRequirement:MetalCrystalPact 9.9
 		relationshipRequirement:ThrusterPact 12.0
 		relationshipRequirement:PhaseJumpPact 11.0
 		relationshipRequirement:PlanetBombingPact 16.0

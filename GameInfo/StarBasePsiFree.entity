@@ -172,15 +172,15 @@ statCountType "StarBase"
 creationSourceAbility "AbilityDeployStarBasePsi"
 maxUpgradeLevelCount 16
 UpgradeTypeCount 9
+UpgradeType "StarBaseUpgradePsiHangarFree"
 UpgradeType "StarBaseUpgradePsiWeaponsFree"
 UpgradeType "StarBaseUpgradePsiToughnessFree"
-UpgradeType "StarBaseUpgradePsiHangarFree"
-UpgradeType "StarBaseUpgradePsiTradePortFree"
-UpgradeType "StarBaseUpgradePsiBlockColonizeFree"
-UpgradeType "StarBaseUpgradePsiCultureFree"
-UpgradeType "StarBaseUpgradePsiMaxAllegianceFree"
 UpgradeType "StarBaseUpgradePsiMassDisorientationFree"
 UpgradeType "StarBaseUpgradePsiControlMeteoroidsFree"
+UpgradeType "StarBaseUpgradePsiBlockColonizeFree"
+UpgradeType "StarBaseUpgradePsiTradePortFree"
+UpgradeType "StarBaseUpgradePsiCultureFree"
+UpgradeType "StarBaseUpgradePsiPhaseGateFree"
 MeshNameInfoCount 12
 MeshNameInfo
 	meshName "StarBasePsi"

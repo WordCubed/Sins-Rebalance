@@ -37,13 +37,16 @@ stage
 	hudIcon "HUDIconStarBaseUpgradePsiCulture0"
 	smallHudIcon "HUDIconStarBaseUpgradePsiCulture0"
 	infoCardIcon ""
-	upgradePropertyCount 3
+	upgradePropertyCount 4
 	upgradeProperty
 		propertyType "CultureSpreadRate"
 		value 1.000000
 	upgradeProperty
 		propertyType "EnemyCultureRepelRate"
 		value 1.000000
+	upgradeProperty
+		propertyType "MaxAllegianceBonus"
+		value 0.050000
 	upgradeProperty
 		propertyType "CultureMeshLevel"
 		value 1.000000
@@ -63,13 +66,16 @@ stage
 	hudIcon "HUDIconStarBaseUpgradePsiCulture1"
 	smallHudIcon "HUDIconStarBaseUpgradePsiCulture1"
 	infoCardIcon ""
-	upgradePropertyCount 3
+	upgradePropertyCount 4
 	upgradeProperty
 		propertyType "CultureSpreadRate"
 		value 2.000000
 	upgradeProperty
 		propertyType "EnemyCultureRepelRate"
 		value 2.000000
+	upgradeProperty
+		propertyType "MaxAllegianceBonus"
+		value 0.100000
 	upgradeProperty
 		propertyType "CultureMeshLevel"
 		value 1.000000

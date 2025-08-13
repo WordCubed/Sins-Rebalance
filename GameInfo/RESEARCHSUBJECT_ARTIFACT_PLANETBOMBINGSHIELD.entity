@@ -41,7 +41,7 @@ researchModifier
 researchModifier
 	modifierType "BombingDamageAsDamageTargetAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.650000
+	perLevelValue -0.600000
 researchModifier
 	modifierType "BombingPopulationKilledPercAsDamageTarget"
 	baseValue 0.000000

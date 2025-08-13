@@ -1,5 +1,8 @@
 TXT
-NumStrings 8943
+NumStrings 8944
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSICULTURE_DESC"
+	Value "PsiTech telepathy equipment is installed into the starbase, allowing it to broadcast your empire's culture, repel enemy culture, and increase your local colony's allegiance."
 StringInfo
 	ID "IDSGameOptionsVictorySpeedSlow"
 	Value "Half Speed"
@@ -2525,7 +2528,7 @@ StringInfo
 	Value "Grants Advent Starbases access to Enduring Devotion upgrades, which prevents the loss of control of its gravity well's planet through physical attack and denies its colonization by hostile empires. (It can still be decolonized by culture, though.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_CULTURE_DESCRIPTION"
-	Value "Grants Advent Starbases access to Evangelization Nodes upgrades, allowing them to spread your own culture and repel others'."
+	Value "Grants Advent Starbases access to Evangelization Node upgrades, allowing them to spread your own culture, repel enemy cultures, and increase a colony's allegiance."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_STARBASEUPGRADEACCESS_MASSDISORIENTATION_DESCRIPTION"
 	Value "Grants Advent Starbases access to Mass Disorientation upgrades, which disable enemy ships within range."
@@ -3047,31 +3050,31 @@ StringInfo
 	Value "Resource Rich"
 StringInfo
 	ID "IDS_PLANETBONUS_RESOURCERICH_DESC"
-	Value "This planet contains an unusually large amount and variety of resources. Grants bonuses to crystal and metal production."
+	Value "This planet contains an unusually large amount and variety of resources."
 StringInfo
 	ID "IDS_PLANETBONUS_ABUNDANTRESOURCES_NAME"
 	Value "Abundant Resources"
 StringInfo
 	ID "IDS_PLANETBONUS_ABUNDANTRESOURCES_DESC"
-	Value "This planet contains an unusually large amount and variety of resources. Boosts its trade income, crystal production, metal production, and population growth rate."
+	Value "The resources mined on this planet play an important role in your empire's economy."
 StringInfo
 	ID "IDS_PLANETBONUS_LOCALINDUSTRY_NAME"
 	Value "Local Industry"
 StringInfo
 	ID "IDS_PLANETBONUS_LOCALINDUSTRY_DESC"
-	Value "This planet is a valuable manufacturing hub in its part of the galaxy, boosting its trade income and lowering its shipbuilding costs."
+	Value "This planet is a valuable manufacturing hub in its part of the galaxy."
 StringInfo
 	ID "IDS_PLANETBONUS_KEYTRADEHUB_NAME"
 	Value "Key Trade Hub"
 StringInfo
 	ID "IDS_PLANETBONUS_KEYTRADEHUB_DESC"
-	Value "This planet is a key trade hub in your empire, greatly boosting its trade income."
+	Value "This planet is a key trade hub in your empire."
 StringInfo
 	ID "IDS_PLANETBONUS_NEARBYTRADEROUTES_NAME"
 	Value "Nearby Trade Routes"
 StringInfo
 	ID "IDS_PLANETBONUS_NEARBYTRADEROUTES_DESC"
-	Value "This planet lies close to well-used trade routes, boosting its trade income."
+	Value "This planet lies close to well-used trade routes."
 StringInfo
 	ID "IDS_PLANETBONUS_BARREN_NAME"
 	Value "Barren Planet"
@@ -3083,7 +3086,7 @@ StringInfo
 	Value "Calm in the Storm"
 StringInfo
 	ID "IDS_PLANETBONUS_CALMINTHESTORM_DESC"
-	Value "This planet is a rare safe zone in the midst of a turbulent region. Grants bonuses to max population, planet health, logistics slots, and gravity well size."
+	Value "This planet is a rare safe zone in the midst of a turbulent region."
 StringInfo
 	ID "IDS_PLANETBONUS_CORRUPT_NAME"
 	Value "Corrupt"
@@ -3095,31 +3098,31 @@ StringInfo
 	Value "Crystal Bonanza"
 StringInfo
 	ID "IDS_PLANETBONUS_CRYSTALBONANZA_DESC"
-	Value "An incredible amount of crystal has been found on this planet. Significantly boosts crystal income on this planet."
+	Value "An incredible amount of crystal has been found on this planet."
 StringInfo
 	ID "IDS_PLANETBONUS_CULTURALHUB_NAME"
 	Value "Cultural Hub"
 StringInfo
 	ID "IDS_PLANETBONUS_CULTURALHUB_DESC"
-	Value "This planet has quite the influence over your empire's culture. Grants bonus to culture rate."
+	Value "This planet has quite the influence over your empire's culture."
 StringInfo
 	ID "IDS_PLANETBONUS_DENSECORE_NAME"
 	Value "Dense Core"
 StringInfo
 	ID "IDS_PLANETBONUS_DENSECORE_DESC"
-	Value "This planet has an unusually dense core, increasing the strength of its gravity. Enlarges the gravity well and increases logistics and tactical slots."
+	Value "This planet has an unusually dense core, increasing the strength of its gravity."
 StringInfo
 	ID "IDS_PLANETBONUS_DEPLETEDMINES_NAME"
 	Value "Depleted Mines"
 StringInfo
 	ID "IDS_PLANETBONUS_DEPLETEDMINES_DESC"
-	Value "Whoever inhabited this planet first used up most of the metal and crystal available already. Reduces your metal and crystal income."
+	Value "Whoever inhabited this planet first used up most of the metal and crystal available already."
 StringInfo
 	ID "IDS_PLANETBONUS_DISLOYAL_NAME"
 	Value "Disloyal"
 StringInfo
 	ID "IDS_PLANETBONUS_DISLOYAL_DESC"
-	Value "This planet opposes your empire as much as they possibly can. Reduces max allegiance."
+	Value "This planet opposes your empire as much as they possibly can."
 StringInfo
 	ID "IDS_PLANETBONUS_DWARF_NAME"
 	Value "Dwarf Planet"
@@ -3131,43 +3134,43 @@ StringInfo
 	Value "Very Harsh Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_VERYHARSH_DESC"
-	Value "The environment is harsh enough to make it much more expensive, and much slower, to upgrade the planet."
+	Value "The environment is harsh enough to make it much more expensive, and much slower, to develop the planet."
 StringInfo
 	ID "IDS_PLANETBONUS_VERYNICE_NAME"
 	Value "Very Pleasant Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_VERYNICE_DESC"
-	Value "This planet has proven very easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
+	Value "This planet has proven very easy to colonize and develop."
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYHARSH_NAME"
 	Value "Extremely Harsh Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYHARSH_DESC"
-	Value "The environment is harsh enough to make it much more expensive, and much slower, to upgrade the planet."
+	Value "The environment is harsh enough to make it much more expensive, and much slower, to develop the planet."
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYNICE_NAME"
 	Value "Extremely Pleasant Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_EXTREMELYNICE_DESC"
-	Value "This planet has proven very easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
+	Value "This planet has proven very easy to colonize and develop."
 StringInfo
 	ID "IDS_PLANETBONUS_FERTILESOIL_NAME"
 	Value "Fertile Soil"
 StringInfo
 	ID "IDS_PLANETBONUS_FERTILESOIL_DESC"
-	Value "This planet has fertile soil, supporting a higher max population, population rate, tax income, and trade income."
+	Value "This planet's fertile soil supports farms that can feed your whole empire."
 StringInfo
 	ID "IDS_PLANETBONUS_FORGETTABLE_NAME"
 	Value "Forgettable Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_FORGETTABLE_DESC"
-	Value "Everybody keeps forgetting this planet exists. Is it a part of your empire? Did you even build anything there? Reduces culture rate, trade income, and population growth."
+	Value "Everybody keeps forgetting this planet exists. Is it a part of your empire? Did you even build anything there?"
 StringInfo
 	ID "IDS_PLANETBONUS_FORTIFIED_NAME"
 	Value "Fortified Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_FORTIFIED_DESC"
-	Value "This planet has been heavily fortified against attacks. Reduces max population, population rate, and logistics slots. But, it increases planet health, tactical slots, starbases, bombing resistance, and reduces weapon strength in general."
+	Value "This planet has been heavily fortified against attacks."
 StringInfo
 	ID "IDS_PLANETBONUS_GIANT_NAME"
 	Value "Giant Planet"
@@ -3191,43 +3194,43 @@ StringInfo
 	Value "Harsh Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_HARSH_DESC"
-	Value "The environment is harsh enough to make it more expensive, and slower, to upgrade the planet."
+	Value "The environment is harsh enough to make it more expensive, and slower, to develop the planet."
 StringInfo
 	ID "IDS_PLANETBONUS_INDUSTRIALPOWERHOUSE_NAME"
 	Value "Industrial Powerhouse"
 StringInfo
 	ID "IDS_PLANETBONUS_INDUSTRIALPOWERHOUSE_DESC"
-	Value "This planet is an industrial juggernaut. Grants bonuses to logistics slots, trade income, structure build rate, planet upgrade costs and rates, and reduces ship costs."
+	Value "This planet is an industrial juggernaut."
 StringInfo
 	ID "IDS_PLANETBONUS_JEWELOFTHEGALAXY_NAME"
 	Value "Jewel of the Galaxy"
 StringInfo
 	ID "IDS_PLANETBONUS_JEWELOFTHEGALAXY_DESC"
-	Value "This planet is a jewel in the crown of your empire. Grants bonuses to tax income, max population, population growth, culture rate, and max allegiance."
+	Value "This planet is a jewel in the crown of your empire."
 StringInfo
 	ID "IDS_PLANETBONUS_LOYAL_NAME"
 	Value "Loyal"
 StringInfo
 	ID "IDS_PLANETBONUS_LOYAL_DESC"
-	Value "This planet is very loyal to your empire, boosting its max allegiance."
+	Value "This planet is very loyal to your empire."
 StringInfo
 	ID "IDS_PLANETBONUS_METALBONANZA_NAME"
 	Value "Metal Bonanza"
 StringInfo
 	ID "IDS_PLANETBONUS_METALBONANZA_DESC"
-	Value "An incredible amount and variety of metals have been found on this planet. Significantly boosts metal income on this planet."
+	Value "An incredible amount and variety of metals have been found on this planet."
 StringInfo
 	ID "IDS_PLANETBONUS_GOODCLIMATE_NAME"
 	Value "Perfect Climate"
 StringInfo
 	ID "IDS_PLANETBONUS_GOODCLIMATE_DESC"
-	Value "The absolutely perfect climate of this planet is a draw for many people, and it makes construction easier, since you don't need to harden buildings against weather. Population is increased, and planet upgrades cost less and take less time."
+	Value "The absolutely perfect climate of this planet is a draw for many people."
 StringInfo
 	ID "IDS_PLANETBONUS_NICE_NAME"
 	Value "Pleasant Planet"
 StringInfo
 	ID "IDS_PLANETBONUS_NICE_DESC"
-	Value "This planet has proven easy to colonize and improve. Upgrade time and costs are reduced, and it has more health."
+	Value "This planet has proven easy to colonize and develop."
 StringInfo
 	ID "IDS_PLANETBONUS_PARTIALLYTERRAFORMED_NAME"
 	Value "Partially Terraformed World"
@@ -3251,7 +3254,7 @@ StringInfo
 	Value "Porous Core"
 StringInfo
 	ID "IDS_PLANETBONUS_POROUSCORE_DESC"
-	Value "This planet has a porous core, affecting its gravity. The size of its gravity well is smaller, and it can support fewer logistics and tactical structures."
+	Value "This planet has a porous core, affecting its gravity."
 StringInfo
 	ID "IDS_PLANETBONUS_PROMINENT_NAME"
 	Value "Prominent Planet"
@@ -3269,19 +3272,19 @@ StringInfo
 	Value "Slavery"
 StringInfo
 	ID "IDS_PLANETBONUS_SLAVERY_DESC"
-	Value "An empire must learn to overlook terrible things when it benefits from them—and learn to tolerate the costs. Greatly benefits build rates and costs, but severely reduces culture rate, planet health, and max allegiance."
+	Value "An empire must learn to overlook terrible things when it benefits from them—and learn to tolerate the costs."
 StringInfo
 	ID "IDS_PLANETBONUS_SLUMS_NAME"
 	Value "Slums"
 StringInfo
 	ID "IDS_PLANETBONUS_SLUMS_DESC"
-	Value "This planet's rulers have prioritized population growth, but not the infrastructure to support so many people. Increases max population and population rate, but reduces planet health and bombing resistance."
+	Value "This planet's rulers have prioritized population growth, but not the infrastructure to support so many people."
 StringInfo
 	ID "IDS_PLANETBONUS_STRATEGICALLYVALUABLE_NAME"
 	Value "Strategically Valuable"
 StringInfo
 	ID "IDS_PLANETBONUS_STRATEGICALLYVALUABLE_DESC"
-	Value "Your empire has decided that this planet is important enough to be worth defending more than normal. Increases tactical slots, speeds up structure build rates, increases planet health, and reduces bombing damage taken."
+	Value "Your empire has decided that this planet is important enough to be worth investing in and defending more than normal."
 StringInfo
 	ID "IDS_PLANETBONUS_SUBSURFACECRYSTALDEPOSITS_NAME"
 	Value "Subsurface Crystal Deposits"
@@ -3299,31 +3302,31 @@ StringInfo
 	Value "Benefits of Urbanization"
 StringInfo
 	ID "IDS_PLANETBONUS_URBANBENEFITS_DESC"
-	Value "This planet is one giant city, making it a well-connected and peerless economic powerhouse. It has bonuses to max population, population rate, trade income, culture rate, and logistics slots."
+	Value "This planet is one giant city, making it a well-connected and peerless economic and cultural powerhouse."
 StringInfo
 	ID "IDS_PLANETBONUS_URBANCOSTS_NAME"
 	Value "Costs of Urbanization"
 StringInfo
 	ID "IDS_PLANETBONUS_URBANCOSTS_DESC"
-	Value "This planet is one giant city — unfortunately that doesn't leave much room for a military presence. It has no tactical slots and takes ten times damage from bombing. This planet is extremely valuable, but may prove hard to defend."
+	Value "This planet is one giant city — unfortunately that doesn't leave much room for a military presence, making it extremely hard to defend regardless of how valuable it is."
 StringInfo
 	ID "IDS_PLANETBONUS_VACATIONDESTINATION_NAME"
 	Value "Vacation Destination"
 StringInfo
 	ID "IDS_PLANETBONUS_VACATIONDESTINATION_DESC"
-	Value "This planet has successfully marketed itself as a nice place to visit. Max population and tax income increased."
+	Value "This planet has successfully marketed itself as a nice place to visit."
 StringInfo
 	ID "IDS_PLANETBONUS_VIOLENTSTORMS_NAME"
 	Value "Violent Storms"
 StringInfo
 	ID "IDS_PLANETBONUS_VIOLENTSTORMS_DESC"
-	Value "The atmosphere generates frequent, highly destructive storms. Reduces population and increases development costs and development build rate."
+	Value "The atmosphere generates frequent, highly destructive storms."
 StringInfo
 	ID "IDS_PLANETBONUS_VOLATILEDEPOSITS_NAME"
 	Value "Volatile Deposits"
 StringInfo
 	ID "IDS_PLANETBONUS_VOLATILEDEPOSITS_DESC"
-	Value "However hazardous you think the surface is, underneath, it's worse. Makes planet upgrades slower and costlier, reduces population growth rate, and leaves the planet particularly delicate against bombing."
+	Value "However hazardous you think the surface is, underneath, it's worse. This hinders development and leaves the planet particularly delicate against bombing."
 StringInfo
 	ID "IDS_PLANETTYPE_URBAN"
 	Value "Urban Planet"

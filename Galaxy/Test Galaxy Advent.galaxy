@@ -6,7 +6,7 @@ browsePictureName ""
 browseName "Test Advent Galaxy"
 browseDescription "Test"
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.000000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4

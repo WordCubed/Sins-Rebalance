@@ -36,7 +36,7 @@ periodicAction
 		Level:1 12500.000000
 		Level:2 12500.000000
 		Level:3 12500.000000
-	travelSpeed 250.000000
+	travelSpeed 500.000000
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
@@ -47,15 +47,15 @@ periodicAction
 	buffInstantActionType "ConvertNearbyDebrisToHull"
 	instantActionTriggerType "AlwaysPerform"
 	range
-		Level:0 150.000000
-		Level:1 150.000000
-		Level:2 150.000000
-		Level:3 150.000000
+		Level:0 500.000000
+		Level:1 500.000000
+		Level:2 500.000000
+		Level:3 500.000000
 	hullPerDebris
-		Level:0 45.000000
-		Level:1 90.000000
-		Level:2 90.000000
-		Level:3 90.000000
+		Level:0 60.000000
+		Level:1 120.000000
+		Level:2 120.000000
+		Level:3 120.000000
 	debrisCleanupSounds
 		soundCount 4
 		sound "EFFECT_DEBRISDISAPPEAR"

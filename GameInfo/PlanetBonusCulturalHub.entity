@@ -6,7 +6,7 @@ maxUpgradeLevelNeeded 3
 nameStringID "IDS_PLANETBONUS_CULTURALHUB_NAME"
 descStringID "IDS_PLANETBONUS_CULTURALHUB_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.400000
-floatBonus:AdditivePopulation 36.000000
+floatBonus:AdditivePopulation 40.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 1.000000
 floatBonus:AdditiveSlotsTactical 0.000000

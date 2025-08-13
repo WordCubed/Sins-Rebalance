@@ -170,17 +170,17 @@ nameStringID "IDS_STARBASEPSI_NAME"
 picture "PICTURE_STARBASEPSI"
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployStarBasePsi"
-maxUpgradeLevelCount 16
+maxUpgradeLevelCount 15
 UpgradeTypeCount 9
+UpgradeType "StarBaseUpgradePsiHangar"
 UpgradeType "StarBaseUpgradePsiWeapons"
 UpgradeType "StarBaseUpgradePsiToughness"
-UpgradeType "StarBaseUpgradePsiHangar"
-UpgradeType "StarBaseUpgradePsiTradePort"
-UpgradeType "StarBaseUpgradePsiBlockColonize"
-UpgradeType "StarBaseUpgradePsiCulture"
-UpgradeType "StarBaseUpgradePsiMaxAllegiance"
 UpgradeType "StarBaseUpgradePsiMassDisorientation"
 UpgradeType "StarBaseUpgradePsiControlMeteoroids"
+UpgradeType "StarBaseUpgradePsiBlockColonize"
+UpgradeType "StarBaseUpgradePsiTradePort"
+UpgradeType "StarBaseUpgradePsiCulture"
+UpgradeType "StarBaseUpgradePsiPhaseGate"
 MeshNameInfoCount 12
 MeshNameInfo
 	meshName "StarBasePsi"

@@ -166,15 +166,15 @@ statCountType "StarBase"
 creationSourceAbility "AbilityDeployStarBasePhase"
 maxUpgradeLevelCount 15
 UpgradeTypeCount 9
-UpgradeType "StarBaseUpgradePhaseWeaponsFree"
 UpgradeType "StarBaseUpgradePhaseHangarFree"
+UpgradeType "StarBaseUpgradePhaseWeaponsFree"
 UpgradeType "StarBaseUpgradePhaseToughnessFree"
 UpgradeType "StarBaseUpgradePhaseDirectionalShieldFree"
 UpgradeType "StarBaseUpgradePhaseDebrisVacuumFree"
 UpgradeType "StarBaseUpgradePhaseBlockColonizeFree"
 UpgradeType "StarBaseUpgradePhaseTradePortFree"
-UpgradeType "StarBaseUpgradePhasePhaseGateFree"
 UpgradeType "StarBaseUpgradePhaseCityPopulationFree"
+UpgradeType "StarBaseUpgradePhasePhaseGateFree"
 MeshNameInfoCount 6
 MeshNameInfo
 	meshName "StarBasePhase"
