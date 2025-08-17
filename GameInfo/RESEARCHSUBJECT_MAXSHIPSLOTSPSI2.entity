@@ -21,7 +21,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 180.000000
+BaseUpgradeTime 120.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
 	credits 3000.000000

@@ -16,7 +16,7 @@ Prerequisites
 		Subject "RESEARCHSUBJECT_STRIPPED_TO_THE_CORE"
 		Level 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_SOLITARY_PATH"
+		Subject "RESEARCHSUBJECT_EMPTYTHRONE"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

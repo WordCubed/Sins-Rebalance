@@ -29,18 +29,18 @@ statCountType "ModuleUtility"
 Prerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DUMMYPHASE0"
+		Subject "RESEARCHSUBJECT_DUMMYPHASE1"
 		Level 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DUMMYPHASE1"
+		Subject "RESEARCHSUBJECT_DUMMYPHASE2"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MaxHullPoints 1.000000
 HullPointRestoreRate 1.000000
 BaseArmorPoints 0.000000
-MaxShieldPoints 0.000000
-ShieldPointRestoreRate 0.000000
+MaxShieldPoints 0.001000
+ShieldPointRestoreRate 0.001000
 maxShieldMitigation 0.000000
 ExperiencePointsForDestroying 0.000000
 resourceExtractionType "Invalid"

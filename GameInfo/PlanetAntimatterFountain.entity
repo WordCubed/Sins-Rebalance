@@ -202,7 +202,7 @@ planetRuinDef
 	creditsOnStrippedToTheCore 0.000000
 	metalOnStrippedToTheCore 0.000000
 	crystalOnStrippedToTheCore 0.000000
-	extraScuttleTimeOnStrip 0.000000
+	extraScuttleTimeOnStrip 5.000000
 dlcId 255910
 ShieldMeshName "Shield_PlanetAsteroid"
 renderShield TRUE

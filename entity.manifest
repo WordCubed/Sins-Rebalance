@@ -1,5 +1,12 @@
 TXT
-entityNameCount 2351
+entityNameCount 2358
+entityName "BuffAutoDeployStarBaseTechPlanet.entity"
+entityName "StarBaseTechAuto.entity"
+entityName "AbilityAutoStarBaseTechCreateFrigate.entity"
+entityName "BuffAutoStarBaseTechCreateFrigate.entity"
+entityName "FrigateTechStarBaseAuto.entity"
+entityName "AbilityAutoDeployStarBaseTech.entity"
+entityName "BuffAutoDeployStarBaseTechSelf.entity"
 entityName "AbilityAISummonTitanPsiLoyalist.entity"
 entityName "AbilityAISummonTitanPsiRebel.entity"
 entityName "AbilityAbilityGuidance.entity"

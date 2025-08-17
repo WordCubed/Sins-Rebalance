@@ -176,7 +176,7 @@ planetUpgradeDef
 				crystal 600.000000
 			upgradeTime 20.000000
 			isHomePlanet TRUE
-			homePlanetTaxRateBonus 28.550000
+			homePlanetTaxRateBonus 30.000000
 			homePlanetMetalIncomeBonus 6.000000
 			homePlanetCrystalIncomeBonus 6.000000
 	path:ArtifactLevel
@@ -342,7 +342,7 @@ planetRuinDef
 	creditsOnStrippedToTheCore 72000.000000
 	metalOnStrippedToTheCore 3000.000000
 	crystalOnStrippedToTheCore 3000.000000
-	extraScuttleTimeOnStrip 0.000000
+	extraScuttleTimeOnStrip 5.000000
 dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"
 renderShield TRUE

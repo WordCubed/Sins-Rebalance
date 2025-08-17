@@ -34,7 +34,7 @@ researchFloatModifiers 1
 researchModifier
 	modifierType "CapitalShipTaxIncome"
 	baseValue 0.000000
-	perLevelValue 1.000000
+	perLevelValue 1.875000
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

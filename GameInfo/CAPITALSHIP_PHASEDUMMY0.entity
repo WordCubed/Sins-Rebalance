@@ -55,7 +55,7 @@ Prerequisites
 		Subject "RESEARCHSUBJECT_DUMMYPHASE0"
 		Level 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DUMMYPHASE1"
+		Subject "RESEARCHSUBJECT_DUMMYPHASE2"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

@@ -1,8 +1,20 @@
 TXT
-NumStrings 8944
+NumStrings 8948
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH0_NAME"
+	Value "Temperate Housing Policy I"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH0_DESCRIPTION"
+	Value "Shifts in urban planning philosophies favor dense urban metropolises, increasing the population cap on temperate planets under your empire's control."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH1_NAME"
+	Value "Temperate Housing Policy II"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH1_DESCRIPTION"
+	Value "Breakthroughs in sustainable housing allow for increases of the population cap on temperate planets under your empire's control."
 StringInfo
 	ID "IDS_STARBASEUPGRADEPSICULTURE_DESC"
-	Value "PsiTech telepathy equipment is installed into the starbase, allowing it to broadcast your empire's culture, repel enemy culture, and increase your local colony's allegiance."
+	Value "PsiTech equipment is installed in the starbase, broadcasting your culture, repelling enemy culture, and boosting your local colony's allegiance."
 StringInfo
 	ID "IDSGameOptionsVictorySpeedSlow"
 	Value "Half Speed"
@@ -926,13 +938,13 @@ StringInfo
 	Value "Insulative Domes"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPICEPSI0_DESCRIPTION"
-	Value "Unity scientists have developed arcologies better able to insulate your populations on Ice planets."
+	Value "Unity scientists have developed arcologies better able to insulate your populations on frigid planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPICEPSI1_NAME"
-	Value "Arctic Pilgrimage"
+	Value "Frigid Pilgrimage"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPICEPSI1_DESCRIPTION"
-	Value "The Unity has deemed all Ice planets 'cold deserts', inspiring throngs of believers to call them home."
+	Value "The Unity has deemed all frigid planets 'cold deserts', inspiring throngs of believers to call them home."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HEALTHFINALPSI_NAME"
 	Value "Substance Mastery"
@@ -1211,19 +1223,19 @@ StringInfo
 	Value "Metal & Small Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_DESCRIPTION"
-	Value "Allows colonization of Metallic and of Small planets."
+	Value "Allows colonization of metallic and of small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_NAME"
 	Value "Metal & Small Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE0_DESCRIPTION"
-	Value "Inhabitants are genetically modified to slow their metabolisms to survive more easily in non-organic environements, increasing the population that Metal and Small planets can support."
+	Value "Inhabitants are genetically modified to slow their metabolisms to survive more easily in non-organic environements, increasing the population that metal and small planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_NAME"
 	Value "Metal & Small Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPIRONPHASE1_DESCRIPTION"
-	Value "Organic life is introduced in an effort to terraform the planet, making the environment less hostile and increasing the population that Metal and Small planets can support."
+	Value "Organic life is introduced in an effort to terraform the planet, making the environment less hostile and increasing the population that metal and small planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_VOLCANICPHASE_NAME"
 	Value "Hazardous Occupation"
@@ -1235,13 +1247,13 @@ StringInfo
 	Value "Hazardous Subjugation 1"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPVOLCANICPHASE0_DESCRIPTION"
-	Value "Basic metabolic processes of all inhabitants are re-engineered to catalyze at the extreme temperatures on all Hazardous planets, increasing the population those planets can support."
+	Value "Basic metabolic processes of all inhabitants are re-engineered to catalyze at the extreme temperatures on all hazardous planets, increasing the population those planets can support."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPVOLCANICPHASE1_NAME"
 	Value "Hazardous Subjugation 2"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPVOLCANICPHASE1_DESCRIPTION"
-	Value "Genetic alteration granting the ability to breathe normally toxic atmospheric gases is imposed on all inhabitants of Hazardous planets, thus raising the population cap."
+	Value "Genetic alteration granting the ability to breathe normally toxic atmospheric gases is imposed on all inhabitants of hazardous planets, thus raising the population cap."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILPHASE_NAME"
 	Value "Superweapon Prototype"
@@ -1808,19 +1820,19 @@ StringInfo
 	Value "Metal & Small Occupation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPHASE_DESCRIPTION"
-	Value "Allows colonization of Metal-type and small planets."
+	Value "Allows colonization of metal-type and small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPSI_NAME"
 	Value "Metal & Small Evangelism"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONPSI_DESCRIPTION"
-	Value "Allows colonization of Metal-type and small planets."
+	Value "Allows colonization of metal-type and small planets."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONTECH_NAME"
 	Value "Metal & Small Exploitation"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETACCESS_IRONTECH_DESCRIPTION"
-	Value "Allows colonization of Metal-type and small planets."
+	Value "Allows colonization of metal-type and small planets."
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat1Tech"
 	Value "Exploration"
@@ -2084,13 +2096,13 @@ StringInfo
 	Value "Random Vasari-Favored Planet"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetRandomTerran"
-	Value "Random Terran Planet"
+	Value "Random Temperate Planet"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetWater"
-	Value "Random Water Planet"
+	Value "Random Aquatic Planet"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetRandomIce"
-	Value "Random Ice Planet"
+	Value "Random Frigid Planet"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetArid"
 	Value "Random Arid Planet"
@@ -11300,13 +11312,13 @@ StringInfo
 	Value "High Density Zoning"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH0_DESCRIPTION"
-	Value "Shifts in urban planning philosophies favor dense urban metropolises, increasing the population cap on Terran planets under your empire's control."
+	Value "Shifts in urban planning philosophies favor dense urban metropolises, increasing the population cap on temperate planets under your empire's control."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH1_NAME"
 	Value "Advanced Civic Design"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH1_DESCRIPTION"
-	Value "Breakthroughs in sustainable housing allow for increases of the population cap on Terran planets under your empire's control."
+	Value "Breakthroughs in sustainable housing allow for increases of the population cap on temperate planets under your empire's control."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANPSI0_NAME"
 	Value "Inspired Architecture"

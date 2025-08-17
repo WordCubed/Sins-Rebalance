@@ -46,8 +46,8 @@ SoundID "MINE_TECH_ONSELECTED"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 maxHullPoints 150.000000
 hullPointRestoreRate 0.000000
-maxShieldPoints 0.000000
-shieldPointRestoreRate 0.000000
+maxShieldPoints 0.001000
+shieldPointRestoreRate 0.001000
 maxShieldMitigation 0.000000
 armorPoints 5.000000
 experiencePointsForDestroying 0.000000

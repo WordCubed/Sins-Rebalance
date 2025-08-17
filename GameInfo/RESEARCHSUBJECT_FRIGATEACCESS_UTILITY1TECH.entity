@@ -14,11 +14,11 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_PLANETMODULEIMPROVEMENT_TECHREPAIRPLATFORM"
-		Level 1
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 60.000000
+BaseUpgradeTime 45.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
 	credits 500.000000

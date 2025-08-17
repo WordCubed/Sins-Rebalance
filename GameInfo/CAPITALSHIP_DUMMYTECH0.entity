@@ -55,7 +55,7 @@ Prerequisites
 		Subject "RESEARCHSUBJECT_DUMMYTECH0"
 		Level 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_DUMMYTECH1"
+		Subject "RESEARCHSUBJECT_DUMMYTECH2"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

@@ -7,8 +7,7 @@ buffType "BuffMeteorStrikeShipsSpawn"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 6
-	object "Corvette"
+	numObjects 5
 	object "Frigate"
 	object "CapitalShip"
 	object "Titan"

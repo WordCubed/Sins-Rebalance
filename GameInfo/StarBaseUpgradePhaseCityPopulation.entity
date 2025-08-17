@@ -40,7 +40,7 @@ stage
 	upgradePropertyCount 2
 	upgradeProperty
 		propertyType "Population"
-		value 30.000000
+		value 15.000000
 	upgradeProperty
 		propertyType "EnemyCultureRepelRate"
 		value 0.500000
@@ -63,7 +63,7 @@ stage
 	upgradePropertyCount 2
 	upgradeProperty
 		propertyType "Population"
-		value 60.000000
+		value 30.000000
 	upgradeProperty
 		propertyType "EnemyCultureRepelRate"
 		value 1.000000

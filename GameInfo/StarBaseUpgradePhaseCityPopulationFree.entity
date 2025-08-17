@@ -20,6 +20,6 @@ stage
 	upgradePropertyCount 1
 	upgradeProperty
 		propertyType "Population"
-		value 60.000000
+		value 30.000000
 	upgradeBoolPropertyCount 0
 xpModifier 200.000000

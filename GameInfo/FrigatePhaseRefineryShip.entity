@@ -24,7 +24,7 @@ BuildTime 4.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
 MaxHullPoints 750.000000
-MaxShieldPoints 0.000000
+MaxShieldPoints 0.001000
 HullPointRestoreRate 3.125000
 ShieldPointRestoreRate 0.000000
 BaseArmorPoints 5.000000
