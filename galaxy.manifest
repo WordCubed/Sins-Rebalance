@@ -1,5 +1,5 @@
 TXT
-fileCount 76
+fileCount 75
 fileName "Agamemnon's Bounty (Rebalance)"
 fileName "Alternate Paths"
 fileName "Ancient Gifts (Rebalance)"
@@ -19,8 +19,6 @@ fileName "Entanglement (Rebalance)"
 fileName "Entrenchment"
 fileName "Fire And Ice (Rebalance)"
 fileName "Tempest (Rebalance)"
-fileName "Test Galaxy Advent"
-fileName "Test Galaxy Vasari"
 fileName "Typecast (Random)"
 fileName "Typecast (ATV)"
 fileName "Typecast (AVT)"
@@ -59,6 +57,7 @@ fileName "Random Vast (Multi-Star)"
 fileName "Razor's Edge (Rebalance)"
 fileName "Return to War (Rebalance)"
 fileName "Ring Around"
+fileName "Secrets (Rebalance)"
 fileName "Slim Pickings (Rebalance)"
 fileName "Starfall"
 fileName "Systems Of War (Rebalance)"

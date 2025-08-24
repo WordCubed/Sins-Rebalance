@@ -14,7 +14,7 @@ Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "RESEARCHSUBJECT_WEAPONFINALPHASE"
-		Level 1
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
