@@ -19,7 +19,7 @@ basePrice
 	credits 160.000000
 	metal 30.000000
 	crystal 20.000000
-slotCount 1.000000
+slotCount 0.000000
 BuildTime 4.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
@@ -89,7 +89,7 @@ ExhaustParticleSystemName "Exhaust_TechTradeShip"
 ExplosionName "Frigate1"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityAutoDeployStarBaseTech"
-ability:1 ""
+ability:1 "AbilityAutoDeployStarBaseFrigateCheck"
 ability:2 ""
 ability:3 ""
 ability:4 ""

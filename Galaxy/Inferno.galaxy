@@ -1,0 +1,87 @@
+﻿TXT2
+SinsArchiveVersion 194
+versionNumber 193
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-UserGenerated"
+browseName "Inferno"
+browseDescription "The constant flare-ups from this star have rendered its inner planets almost inhospitable. But the far rim is scarcely better."
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.350000
+planetBonusDensity 1.000000
+normalStartHomePlanetUpgradeLevel:Population 4
+normalStartHomePlanetUpgradeLevel:CivilianModules 4
+normalStartHomePlanetUpgradeLevel:TacticalModules 4
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 4
+normalStartHomePlanetUpgradeLevel:Infrastructure 4
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 4
+quickStartHomePlanetUpgradeLevel:TacticalModules 4
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
+quickStartHomePlanetUpgradeLevel:Infrastructure 4
+recommendedGameTypeCount 1
+recommendedGameType "FFA"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 3.199999
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.0
+		maxPercentage 15.0
+	playerParams
+		startingCredits 20000
+		startingMetal 4000
+		startingCrystal 4000
+		homePlanetType "DesertHome"
+		homePlanetStarRadiusRange
+			minPercentage 0.50
+			maxPercentage 0.55
+		areExtraPlanetsColonized FALSE
+		extraPlanetsMaxRadius 30
+		extraPlanetsRadiusRange
+			minPercentage 0.45
+			maxPercentage 0.60
+		extraPlanetGroupCount 1
+		extraPlanetGroup
+			minCount 2
+			maxCount 2
+			planetTypeCount 1
+			planetType "Desert"
+starCount 1
+	star
+		type "RandomStar"
+		radius 150
+		connectionStarRadiusRange 0.85
+		connectionChance 0.90
+		maxPlayerCount 5
+		ringCount 2
+		ring
+			starRadiusRange
+				minPercentage 0.10
+				maxPercentage 0.30
+			militiaColonizationPerc 0
+			planetGroupCount 2
+			planetGroup
+				minCount 10
+				maxCount 10
+				planetTypeCount 1
+				planetType "Volcanic"
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.70
+				maxPercentage 0.99
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 23
+				maxCount 23
+				planetTypeCount 1
+				planetType "Asteroid"
+dlcID 204880

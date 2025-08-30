@@ -13,7 +13,7 @@ ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
-	RequiredCompletedResearchSubjects 0
+	RequiredCompletedResearchSubjects 16
 MinimumArtifactLevel -1
 BaseUpgradeTime 10.000000
 PerLevelUpgradeTime 0.000000
@@ -28,8 +28,14 @@ PerLevelCostIncrease
 Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
-priority 1.000000
-researchBoolModifiers 0
+priority 99.000000
+researchBoolModifiers 2
+researchModifier
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffAutoStarBaseTech00"
+researchModifier
+	modifierType "ApplyBuffToShipsAfterHyperspace"
+	buffToApply "BuffAutoStarBaseTech04"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

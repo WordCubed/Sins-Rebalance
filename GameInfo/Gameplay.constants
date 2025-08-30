@@ -436,7 +436,7 @@ GameplayConstants
 	PhysicsData
 		shipLinearMaxSpeedWhileSafeScalar 4.0
 		shipLinearAccelerationWhileSafeScalar 1.0
-		shipLinearDecelerationWhileSafeScalar 4.0
+		shipLinearDecelerationWhileSafeScalar 400.0
 	pirateRaidDef
 		arrivalDelayTime 6.0
 		minSupply 0
@@ -636,11 +636,11 @@ GameplayConstants
 	shipPhysicsSpeedData-Fast
 		shipLinearMaxSpeedGameSpeedScalar 4.0
 		shipLinearAccelerationGameSpeedScalar 2.0
-		shipLinearDecelerationGameSpeedScalar 4.0
+		shipLinearDecelerationGameSpeedScalar 400.0
 	shipPhysicsSpeedData-Faster
 		shipLinearMaxSpeedGameSpeedScalar 8.0
 		shipLinearAccelerationGameSpeedScalar 4.0
-		shipLinearDecelerationGameSpeedScalar 8.0
+		shipLinearDecelerationGameSpeedScalar 800.0
 	victorySpeedData-Slow
 		diplomaticPointsRateSpeedScalar 0.5
 		occupyVictoryTimeScalar 2.0

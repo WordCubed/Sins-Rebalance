@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffAutoDeployStarBaseTechSelf"
+buffType "BuffPlanetAutoStarBase2Check"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -12,36 +12,25 @@ effectInfo
 	largeEffectName ""
 	soundID ""
 needsToFaceTarget FALSE
-canCollideWithTarget FALSE
+canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "AntiMatter"
-antiMatterCost
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
-cooldownTime
-	Level:0 1.000000
-	Level:1 1.000000
-	Level:2 1.000000
-	Level:3 1.000000
-orderAcknowledgementType "ONATTACKORDERISSUED"
+useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ABILITY_DEPLOYSTARBASETECH_NAME"
-descStringID "IDS_ABILITY_DEPLOYSTARBASETECH_DESC"
-hudIcon "HUDICON_ABILITY_DEPLOYSTARBASETECH"
-smallHudIcon "HUDICON_ABILITY_DEPLOYSTARBASETECH"
+nameStringID ""
+descStringID ""
+hudIcon ""
+smallHudIcon ""
 infoCardIcon ""

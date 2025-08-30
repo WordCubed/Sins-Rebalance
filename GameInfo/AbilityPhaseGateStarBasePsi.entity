@@ -16,8 +16,8 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility TRUE
 maxNumLevels 1
-levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATEPSI"
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE

@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "IncomePercLost"
 	baseValue 0.000000
-	perLevelValue -0.100000
+	perLevelValue -0.050000
 artifactPicture "ArtifactPictureOrganicAI"
 uniqueOverlayBrush ""
 dlcId 204880
