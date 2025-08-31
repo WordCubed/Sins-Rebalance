@@ -29,10 +29,7 @@ Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 99.000000
-researchBoolModifiers 1
-researchModifier
-	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffAutoStarBasePhase00"
+researchBoolModifiers 0
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

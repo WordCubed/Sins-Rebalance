@@ -16,11 +16,11 @@ floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus 0.000000
 floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000
-floatBonus:GravityWellRadiusPerc 0.200000
+floatBonus:GravityWellRadiusPerc 0.150000
 floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.200000
 floatBonus:PlanetUpgradeBuildCostPerc 0.000000
-floatBonus:PlanetUpgradeBuildRatePerc 0.200000
+floatBonus:PlanetUpgradeBuildRatePerc 0.000000
 floatBonus:PopulationGrowthPerc 0.200000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000

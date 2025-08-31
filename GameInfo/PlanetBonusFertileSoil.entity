@@ -19,8 +19,8 @@ floatBonus:CrystalIncomePerc 0.000000
 floatBonus:GravityWellRadiusPerc 0.000000
 floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
-floatBonus:PlanetUpgradeBuildCostPerc -0.200000
-floatBonus:PlanetUpgradeBuildRatePerc 0.200000
+floatBonus:PlanetUpgradeBuildCostPerc -0.000000
+floatBonus:PlanetUpgradeBuildRatePerc 0.000000
 floatBonus:PopulationGrowthPerc 0.800000
 floatBonus:ShipBuildCostAdjustment 0.000000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000

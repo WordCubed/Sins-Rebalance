@@ -4,7 +4,7 @@ entityType "StarBase"
 ability:0 "AbilityMassDisorientation"
 ability:1 "AbilityMeteorStrikeShips"
 ability:2 "AbilityMeteorStrikePlanet"
-ability:3 "AbilityPhaseGateStarBasePsiFree"
+ability:3 "AbilityPhaseGateStarBasePsi"
 ability:4 "AbilityDestabilizeHyperspacePsi"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -313,7 +313,7 @@ formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
 cargoShipType "FrigatePsiTradeShip"
-maxCargoShipCount 2
+maxCargoShipCount 1
 cargoShipRespawnTime 30.000000
 baseBuildTime 120.000000
 buildEffectName ""

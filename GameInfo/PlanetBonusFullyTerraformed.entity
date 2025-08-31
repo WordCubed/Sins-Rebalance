@@ -12,13 +12,13 @@ floatBonus:AdditiveSlotsCivilian 1.000000
 floatBonus:AdditiveSlotsTactical 2.000000
 floatBonus:AdditiveTaxIncome 1.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
-floatBonus:BombingDamageAsDamageTargetAdjustment -0.100000
+floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus 0.000000
 floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000
 floatBonus:GravityWellRadiusPerc 0.100000
-floatBonus:ModuleBuildCostPerc -0.100000
-floatBonus:ModuleBuildRatePerc 0.200000
+floatBonus:ModuleBuildCostPerc -0.000000
+floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc -3.000000
 floatBonus:PlanetUpgradeBuildRatePerc 9.000000
 floatBonus:PopulationGrowthPerc 0.400000

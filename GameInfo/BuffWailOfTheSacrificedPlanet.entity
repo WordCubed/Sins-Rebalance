@@ -2,18 +2,30 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
+buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	buffType "BuffWailOfTheSacrificedCheckPass"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffWailOfTheSacrificedCheck"
+	buffType "BuffWailOfTheSacrificedCheckFail"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -27,4 +39,4 @@ numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "OwnerChanged"

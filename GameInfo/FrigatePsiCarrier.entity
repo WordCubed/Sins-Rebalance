@@ -99,7 +99,7 @@ ExplosionName "Frigate0"
 EngineSoundID "ENGINE_PSICAPITALSHIP"
 ability:0 ""
 ability:1 ""
-ability:2 ""
+ability:2 "AbilityShipAutoStarBasePsi"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 80.000000

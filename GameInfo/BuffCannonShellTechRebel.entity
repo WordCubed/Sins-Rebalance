@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "PerPlayer"
-stackingLimit 3
+stackingLimit 2
 allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE

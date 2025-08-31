@@ -12,7 +12,7 @@ numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToAllFirstSpawnerShipsAndStructures"
 	instantActionTriggerType "OnOwnerDeath"
-	buffType "BuffEmptyThronePlanet"
+	buffType "BuffPlanetLossEffect"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"

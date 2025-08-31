@@ -22,7 +22,7 @@ minExperienceLevelRequired
 	Level:1 4.000000
 	Level:2 7.000000
 	Level:3 7.000000
-aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

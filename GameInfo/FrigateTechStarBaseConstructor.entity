@@ -92,10 +92,10 @@ ExhaustParticleSystemName "Exhaust_TechTradeShip"
 ExplosionName "Frigate1"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 "AbilityDeployStarBaseTech"
-ability:1 ""
+ability:1 "AbilityDeployStarBaseTechAI"
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityDeployStarBaseTechAI"
+ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"

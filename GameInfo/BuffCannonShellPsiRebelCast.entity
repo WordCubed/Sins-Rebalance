@@ -1,0 +1,42 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "PerPlayer"
+stackingLimit -1
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellPsiApplyOnShipsRebel"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelfWithFilter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellPsiApplyOnPlanetRebel"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

@@ -57,8 +57,7 @@ instantAction
 		object "Titan"
 		object "StarBase"
 		object "PlanetModule"
-		numSpaces 1
-		space "Normal"
+		numSpaces 0
 		numConstraints 1
 		constraint "HasWeapons"
 	effectInfo
@@ -84,8 +83,7 @@ instantAction
 		object "Titan"
 		object "StarBase"
 		object "PlanetModule"
-		numSpaces 1
-		space "Normal"
+		numSpaces 0
 		numConstraints 1
 		constraint "HasAntiMatterPool"
 	effectInfo
@@ -139,4 +137,4 @@ numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "LastSpawnerNoLongerHasBuff"
-	buffTypeToQuery "BuffCannonShellPsiRebel"
+	buffTypeToQuery "BuffCannonShellPsi"

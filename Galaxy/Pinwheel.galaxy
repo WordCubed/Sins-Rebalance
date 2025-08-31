@@ -7,7 +7,7 @@ browseName "Pinwheel"
 browseDescription "Your empire is caught on the edge of a pinwheel. The most valuable planets are on the edges—but ignore the center at your peril."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.350000
+planetArtifactDensity 0.340000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -36,7 +36,7 @@ starCount 1
 star
 	designName "Star0"
 	inGameName ""
-	type "SpecialStar"
+	type "NonSpecialStar"
 	pos [ 200 , 200 ]
 	radius 200.000000
 	planetCount 46

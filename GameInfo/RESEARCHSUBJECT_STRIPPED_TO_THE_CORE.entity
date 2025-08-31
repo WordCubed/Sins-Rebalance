@@ -43,7 +43,7 @@ researchModifier
 	buffToApply "BuffPlanetLossEffect"
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffPlanetLossCaster"
+	buffToApply "BuffPlanetLossSelf"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush "RebellionResearchOverlay"

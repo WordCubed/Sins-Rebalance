@@ -242,9 +242,10 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
 	starBaseInfo
-		count 2
+		count 3
 		entityDefName "StarBasePsi"
 		entityDefName "StarBasePsiFree"
+		entityDefName "StarBasePsiAuto"
 	flagship "FrigatePsiFlagship"
 debrisData
 	numRandomMeshNamesLarge 10

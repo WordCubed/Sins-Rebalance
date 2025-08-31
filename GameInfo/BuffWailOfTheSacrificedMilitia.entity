@@ -2,42 +2,38 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
+buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
 	instantActionTriggerType "OnDelay"
-	delayTime 2.000000
+	delayTime 1.000000
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
 		maxFleetPoints 300.000000
-		requiredShipCount 5
+		requiredShipCount 4
 		requiredShip
 			type "FrigatePsiAntiFighterFree"
-			minCount 4
-			maxCount 4
+			minCount 3
+			maxCount 3
 		requiredShip
 			type "FrigatePsiUtility0Free"
-			minCount 4
-			maxCount 4
+			minCount 3
+			maxCount 3
 		requiredShip
 			type "FrigatePsiUtility1Free"
-			minCount 8
-			maxCount 8
-		requiredShip
-			type "FrigatePsiAntiModuleFree"
-			minCount 4
-			maxCount 4
+			minCount 6
+			maxCount 6
 		requiredShip
 			type "FrigatePsiHeavyFree"
-			minCount 8
-			maxCount 8
+			minCount 6
+			maxCount 6
 		randomShipCount 0
 	spawnShipsArrivalDelayTime 1.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"

@@ -2,10 +2,10 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
+buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1

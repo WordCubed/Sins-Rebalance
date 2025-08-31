@@ -40,7 +40,7 @@ Prerequisites
 numRandomDebrisLarge 1
 numRandomDebrisSmall 9
 numSpecificDebris 0
-armorType "Light"
+armorType "Heavy"
 hudIcon "HUDICON_FRIGATE_PHASECOLONY"
 smallHudIcon "HUDICONSMALL_FRIGATE_PHASECOLONY"
 infoCardIcon "INFOCARDICON_FRIGATE_PHASECOLONY"
@@ -101,10 +101,10 @@ ExhaustParticleSystemName "Exhaust_FrigatePhaseColony"
 ExplosionName "Frigate0"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
 ability:0 "AbilityDeployStarBasePhase"
-ability:1 ""
+ability:1 "AbilityDeployStarBasePhaseAI"
 ability:2 ""
 ability:3 ""
-ability:4 "AbilityDeployStarBasePhaseAI"
+ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"

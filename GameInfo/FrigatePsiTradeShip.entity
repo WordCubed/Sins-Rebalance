@@ -88,7 +88,7 @@ ExplosionName "TradeShip"
 EngineSoundID "ENGINE_PSISUPPORTSHIP"
 ability:0 "AbilityRevengeBounty"
 ability:1 ""
-ability:2 ""
+ability:2 "AbilityShipAutoStarBasePsi"
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 0.000000

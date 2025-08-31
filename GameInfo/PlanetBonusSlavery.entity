@@ -5,7 +5,7 @@ minUpgradeLevelNeeded 2
 maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_SLAVERY_NAME"
 descStringID "IDS_PLANETBONUS_SLAVERY_DESC"
-floatBonus:AdditiveCultureSpreadPerc -10.000000
+floatBonus:AdditiveCultureSpreadPerc -100.000000
 floatBonus:AdditivePopulation 0.000000
 floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
@@ -17,10 +17,10 @@ floatBonus:MaxAllegiancePercBonus -0.150000
 floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000
 floatBonus:GravityWellRadiusPerc 0.000000
-floatBonus:ModuleBuildCostPerc -0.666667
+floatBonus:ModuleBuildCostPerc -0.750000
 floatBonus:ModuleBuildRatePerc 2.000000
-floatBonus:PlanetUpgradeBuildCostPerc -0.666667
-floatBonus:PlanetUpgradeBuildRatePerc 0.666667
+floatBonus:PlanetUpgradeBuildCostPerc -0.750000
+floatBonus:PlanetUpgradeBuildRatePerc 0.750000
 floatBonus:PopulationGrowthPerc 0.000000
 floatBonus:ShipBuildCostAdjustment -0.500000
 floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000

@@ -16,7 +16,7 @@ entities
 			entityDefName "PLANETMODULE_PSIORBITALNONCOMBATLABORATORY"
 			entityDefName "PLANETMODULE_PSIORBITALTRADEPORT"
 			entityDefName "PLANETMODULE_PSIORBITALCULTURECENTER"
-			entityDefName "PLANETMODULE_DUMMYPHASE0"
+			entityDefName "PLANETMODULE_DUMMYPSI0"
 			entityDefName "PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
 			entityDefName "PLANETMODULE_PSIORBITALCOMBATLABORATORY"
 		Page:1
@@ -237,9 +237,10 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSPSI7"
 	starBaseInfo
-		count 2
+		count 3
 		entityDefName "StarBasePsi"
 		entityDefName "StarBasePsiFree"
+		entityDefName "StarBasePsiAuto"
 	flagship "FrigatePsiFlagship"
 debrisData
 	numRandomMeshNamesLarge 10

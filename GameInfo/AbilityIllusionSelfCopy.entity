@@ -18,7 +18,7 @@ isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_ILLUSIONSELFCOPY"
-aiUseTime "OnlyWhenTakingDamage"
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

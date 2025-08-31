@@ -5,12 +5,12 @@ minUpgradeLevelNeeded 2
 maxUpgradeLevelNeeded 2
 nameStringID "IDS_PLANETBONUS_FORTIFIED_NAME"
 descStringID "IDS_PLANETBONUS_FORTIFIED_DESC"
-floatBonus:AdditiveCultureSpreadPerc -0.050000
+floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation -1.000000
 floatBonus:AdditivePlanetHealth 2000.000000
 floatBonus:AdditiveSlotsCivilian -2.000000
 floatBonus:AdditiveSlotsTactical 4.000000
-floatBonus:AdditiveTaxIncome -1.000000
+floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
 floatBonus:BombingDamageAsDamageTargetAdjustment -0.500000
 floatBonus:MaxAllegiancePercBonus 0.000000
@@ -21,9 +21,9 @@ floatBonus:ModuleBuildCostPerc 0.000000
 floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc 0.000000
 floatBonus:PlanetUpgradeBuildRatePerc 0.000000
-floatBonus:PopulationGrowthPerc -0.400000
+floatBonus:PopulationGrowthPerc 0.000000
 floatBonus:ShipBuildCostAdjustment 0.000000
-floatBonus:WeaponDamageAtGravityWellMultiplier -0.250000
+floatBonus:WeaponDamageAtGravityWellMultiplier 0.000000
 intBonus:MaxSpaceMines 0
 intBonus:MaxStarbases 1
 intBonus:ModuleConstructors 2
