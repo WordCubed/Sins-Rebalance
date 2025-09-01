@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffPirateMercenaryTempShips"
+buffType "BuffPirateMercenaryTempShipsSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Center"
@@ -17,25 +17,14 @@ moveThruTarget FALSE
 isUltimateAbility TRUE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
-aiUseTime "OnlyInCombat"
-aiUseTargetCondition "Any"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "AntiMatter"
-antiMatterCost
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
-cooldownTime
-	Level:0 480.000000
-	Level:1 480.000000
-	Level:2 480.000000
-	Level:3 480.000000
-orderAcknowledgementType "ONGENERALORDERISSUED"
+useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

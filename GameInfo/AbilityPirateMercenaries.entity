@@ -6,7 +6,7 @@ instantActionTriggerType "AlwaysPerform"
 spawnShipsLevelCount 1
 spawnShips
 	minFleetPoints 0.000000
-	maxFleetPoints 0.000000
+	maxFleetPoints 300.000000
 	requiredShipCount 5
 	requiredShip
 		type "CAPITALSHIP_PIRATETEMP"

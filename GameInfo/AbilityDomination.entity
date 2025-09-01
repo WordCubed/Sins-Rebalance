@@ -1,16 +1,41 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffCreateCapitalship"
-effectInfo
-	effectAttachInfo
-		attachType "Center"
-	smallEffectName "Ability_DominationActivate"
-	mediumEffectName "Ability_DominationActivate"
-	largeEffectName "Ability_DominationActivate"
-	soundID "EFFECT_DOMINATION"
+spawnShipsLevelCount 3
+spawnShips
+	minFleetPoints 0.000100
+	maxFleetPoints 0.000100
+	requiredShipCount 1
+	requiredShip
+		type "CAPITALSHIP_PSIBATTLESHIPFREE"
+		minCount 1
+		maxCount 1
+	randomShipCount 0
+spawnShips
+	minFleetPoints 0.000100
+	maxFleetPoints 0.000100
+	requiredShipCount 1
+	requiredShip
+		type "CAPITALSHIP_PSIBATTLESHIPFREE"
+		minCount 1
+		maxCount 1
+	randomShipCount 0
+spawnShips
+	minFleetPoints 0.000100
+	maxFleetPoints 0.000100
+	requiredShipCount 1
+	requiredShip
+		type "CAPITALSHIP_PSIBATTLESHIPFREE"
+		minCount 1
+		maxCount 1
+	randomShipCount 0
+spawnShipsArrivalDelayTime 1.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

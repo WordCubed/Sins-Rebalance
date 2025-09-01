@@ -1,7 +1,7 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeNewBuffs"
+onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
@@ -10,22 +10,10 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffDeathRitesPlanet"
-	targetFilter
-		numOwnerships 4
-		ownership "Enemy"
-		ownership "NoOwner"
-		ownership "Friendly"
-		ownership "UncontrolledMinorFaction"
-		numObjects 2
-		object "Planet"
-		object "Star"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
+	buffType "BuffPirateMercenaryTempShipsEffect"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -39,4 +27,4 @@ numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "OwnerChanged"

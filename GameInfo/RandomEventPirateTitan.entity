@@ -16,7 +16,7 @@ instantAction
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
-		maxFleetPoints 0.000000
+		maxFleetPoints 300.000000
 		requiredShipCount 1
 		requiredShip
 			type "TITAN_MADVASARI"

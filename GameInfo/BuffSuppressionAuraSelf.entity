@@ -24,10 +24,10 @@ numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 1.000000
-		Level:1 1.000000
-		Level:2 1.000000
-		Level:3 1.000000
+		Level:0 1.500000
+		Level:1 1.500000
+		Level:2 1.500000
+		Level:3 1.500000
 	buffInstantActionType "ApplyBuffToTargetsInRadius"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "BuffSuppressionAuraTarget"

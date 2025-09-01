@@ -16,10 +16,10 @@ instantAction
 	buffType "BuffEnduringSpiritPlanet"
 	targetFilter
 		numOwnerships 4
-		ownership "Friendly"
 		ownership "Enemy"
-		ownership "UncontrolledMinorFaction"
 		ownership "NoOwner"
+		ownership "Friendly"
+		ownership "UncontrolledMinorFaction"
 		numObjects 2
 		object "Planet"
 		object "Star"

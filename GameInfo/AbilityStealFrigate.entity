@@ -1,16 +1,53 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "SpawnShipsAtPlanet"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffCreateCruisers"
-effectInfo
-	effectAttachInfo
-		attachType "Center"
-	smallEffectName "Ability_CloneFrigateActivate"
-	mediumEffectName "Ability_CloneFrigateActivate"
-	largeEffectName "Ability_CloneFrigateActivate"
-	soundID ""
+spawnShipsLevelCount 3
+spawnShips
+	minFleetPoints 0.000400
+	maxFleetPoints 0.000400
+	requiredShipCount 2
+	requiredShip
+		type "FrigatePsiUtility0Free"
+		minCount 2
+		maxCount 2
+	requiredShip
+		type "FrigatePsiUtility1Free"
+		minCount 2
+		maxCount 2
+	randomShipCount 0
+spawnShips
+	minFleetPoints 0.000600
+	maxFleetPoints 0.000600
+	requiredShipCount 2
+	requiredShip
+		type "FrigatePsiUtility0Free"
+		minCount 3
+		maxCount 3
+	requiredShip
+		type "FrigatePsiUtility1Free"
+		minCount 3
+		maxCount 3
+	randomShipCount 0
+spawnShips
+	minFleetPoints 0.000800
+	maxFleetPoints 0.000800
+	requiredShipCount 2
+	requiredShip
+		type "FrigatePsiUtility0Free"
+		minCount 4
+		maxCount 4
+	requiredShip
+		type "FrigatePsiUtility1Free"
+		minCount 4
+		maxCount 4
+	randomShipCount 0
+spawnShipsArrivalDelayTime 1.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

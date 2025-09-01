@@ -183,7 +183,7 @@ EngineSoundID "ENGINE_PSICAPITALSHIP"
 ability:0 "AbilityEnergyDisruption"
 ability:1 ""
 ability:2 ""
-ability:3 ""
+ability:3 "AbilityTempFreeShips"
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000

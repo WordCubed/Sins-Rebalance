@@ -27,15 +27,11 @@ instantAction
 	delayTime 2.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 0.000000
-		maxFleetPoints 300.000000
-		requiredShipCount 6
+		minFleetPoints 0.002000
+		maxFleetPoints 0.002000
+		requiredShipCount 5
 		requiredShip
 			type "FrigateTechAntiFighterFree"
-			minCount 4
-			maxCount 4
-		requiredShip
-			type "FrigateTechSiegeFree"
 			minCount 4
 			maxCount 4
 		requiredShip

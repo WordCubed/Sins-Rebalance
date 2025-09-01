@@ -34,10 +34,10 @@ periodicAction
 		numConstraints 1
 		constraint "NotIsIllusionShip"
 	range
-		Level:0 5000.000000
-		Level:1 7500.000000
-		Level:2 10000.000000
-		Level:3 10000.000000
+		Level:0 6250.000000
+		Level:1 9375.000000
+		Level:2 12500.000000
+		Level:3 12500.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
