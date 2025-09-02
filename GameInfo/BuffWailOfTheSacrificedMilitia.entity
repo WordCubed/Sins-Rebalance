@@ -15,23 +15,23 @@ instantAction
 	delayTime 1.000000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 0.000000
-		maxFleetPoints 300.000000
+		minFleetPoints 0.001800
+		maxFleetPoints 0.001800
 		requiredShipCount 4
 		requiredShip
-			type "FrigatePsiAntiFighterFree"
+			type "FrigatePsiAntiFighterTempSW"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiUtility0Free"
+			type "FrigatePsiUtility0TempSW"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiUtility1Free"
+			type "FrigatePsiUtility1TempSW"
 			minCount 6
 			maxCount 6
 		requiredShip
-			type "FrigatePsiHeavyFree"
+			type "FrigatePsiHeavyTempSW"
 			minCount 6
 			maxCount 6
 		randomShipCount 0

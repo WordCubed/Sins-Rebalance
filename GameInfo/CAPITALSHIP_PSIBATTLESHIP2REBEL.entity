@@ -94,7 +94,47 @@ hudIcon "HUDICON_CAPITALSHIP_PSIBATTLESHIP2"
 smallHudIcon "MAINVIEWICON_CAPITALSHIP_PSIBATTLESHIP2"
 infoCardIcon "INFOCARDICON_CAPITALSHIP_PSIBATTLESHIP2"
 minZoomDistanceMult 1.350000
-NumWeapons 0
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "POINTDEFENSELASER"
+	DamagePerBank:FRONT 0.000100
+	DamagePerBank:BACK 0.000100
+	DamagePerBank:LEFT 0.000100
+	DamagePerBank:RIGHT 0.000100
+	Range 6000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 4500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 6
+		burstDelay 0.100000
+		fireDelay 0.150000
+		muzzleEffectName "Weapon_Psi_PointDefense_Large_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PointDefense_Large_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PointDefense_Large_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

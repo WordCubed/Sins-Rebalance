@@ -5,7 +5,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-autoJoinFleetDefault FALSE
+autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
 frigateRoleType "Lrm"

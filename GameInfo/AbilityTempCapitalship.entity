@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffFreeCapitalship"
+buffType "BuffTempCapitalshipSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -19,18 +19,12 @@ maxNumLevels 1
 levelSourceType "FixedLevel0"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "None"
-cooldownTime
-	Level:0 120.000000
-	Level:1 120.000000
-	Level:2 120.000000
-	Level:3 120.000000
-orderAcknowledgementType "ONGENERALORDERISSUED"
+useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

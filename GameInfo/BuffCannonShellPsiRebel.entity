@@ -31,23 +31,23 @@ instantAction
 		maxFleetPoints 0.001500
 		requiredShipCount 5
 		requiredShip
-			type "FrigatePsiAntiFighterFree"
+			type "FrigatePsiAntiFighterTempSW"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiUtility0Free"
+			type "FrigatePsiUtility0TempSW"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiUtility1Free"
+			type "FrigatePsiUtility1TempSW"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiAntiModuleFree"
+			type "FrigatePsiAntiModuleTempSW"
 			minCount 3
 			maxCount 3
 		requiredShip
-			type "FrigatePsiHeavyFree"
+			type "FrigatePsiHeavyTempSW"
 			minCount 3
 			maxCount 3
 		randomShipCount 0

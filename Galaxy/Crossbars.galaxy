@@ -259,8 +259,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -285,8 +284,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -611,8 +609,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -637,8 +634,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -663,8 +659,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -789,8 +784,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -840,8 +834,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -891,8 +884,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -2042,8 +2034,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
@@ -2193,8 +2184,7 @@ star
 		quickStartUpgradeLevelForInfrastructure 2
 		planetItems
 			templateName ""
-			subTemplates 1
-			template "PreExplored6P"
+			subTemplates 0
 			groups 0
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
