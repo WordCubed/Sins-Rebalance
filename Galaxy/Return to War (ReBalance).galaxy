@@ -180,7 +180,7 @@ star
 	planet
 		designName "Planet5"
 		inGameName ""
-		type "Mountains"
+		type "Alpine"
 		pos [ 140 , 90 ]
 		owner ""
 		isHomePlanet FALSE
@@ -205,7 +205,7 @@ star
 	planet
 		designName "Planet6"
 		inGameName ""
-		type "Mountains"
+		type "Alpine"
 		pos [ 140 , 210 ]
 		owner ""
 		isHomePlanet FALSE

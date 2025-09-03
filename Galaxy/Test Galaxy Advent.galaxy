@@ -24,14 +24,14 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 1
 recommendedGameType "Solo"
 metersPerGalaxyUnit 25000.000000
-pixelsPerGalaxyUnit 4.039998
+pixelsPerGalaxyUnit 2.120000
 useRandomGenerator FALSE
 galaxyWidth 1707.000000
 galaxyHeight 980.000000
-nextStarNameUniqueId 1
-nextPlanetNameUniqueId 9
+nextStarNameUniqueId 4
+nextPlanetNameUniqueId 12
 triggerCount 0
-starCount 1
+starCount 4
 star
 	designName "Star0"
 	inGameName ""
@@ -298,6 +298,126 @@ star
 	connection
 		planetIndexA 6
 		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	entityCount 0
+	spawnProbability 1.000000
+star
+	designName "Star1"
+	inGameName ""
+	type "YellowStar"
+	pos [ 275 , 100 ]
+	radius 50.000000
+	planetCount 1
+	planet
+		designName "Planet11"
+		inGameName ""
+		type "PirateBase"
+		pos [ 250 , 100 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 1
+	connection
+		planetIndexA 0
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	entityCount 0
+	spawnProbability 1.000000
+star
+	designName "Star2"
+	inGameName ""
+	type "YellowStar"
+	pos [ 275 , 275 ]
+	radius 50.000000
+	planetCount 1
+	planet
+		designName "Planet9"
+		inGameName ""
+		type "PirateBase"
+		pos [ 250 , 250 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 1
+	connection
+		planetIndexA 0
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	entityCount 0
+	spawnProbability 1.000000
+star
+	designName "Star3"
+	inGameName ""
+	type "YellowStar"
+	pos [ 100 , 275 ]
+	radius 50.000000
+	planetCount 1
+	planet
+		designName "Planet10"
+		inGameName ""
+		type "PirateBase"
+		pos [ 100 , 250 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 1
+	connection
+		planetIndexA 0
+		planetIndexB -1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0

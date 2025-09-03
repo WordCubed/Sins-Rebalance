@@ -167,7 +167,7 @@ star
 	planet
 		designName "Planet5"
 		inGameName ""
-		type "Mountains"
+		type "Alpine"
 		pos [ 171 , 75 ]
 		owner ""
 		isHomePlanet FALSE
@@ -292,7 +292,7 @@ star
 	planet
 		designName "Planet11"
 		inGameName ""
-		type "Mountains"
+		type "Alpine"
 		pos [ 294 , 137 ]
 		owner ""
 		isHomePlanet FALSE
@@ -692,7 +692,7 @@ star
 	planet
 		designName "Planet27"
 		inGameName ""
-		type "Mountains"
+		type "Alpine"
 		pos [ 102 , 197 ]
 		owner ""
 		isHomePlanet FALSE
@@ -917,7 +917,7 @@ star
 	planet
 		designName "Planet36"
 		inGameName ""
-		type "Mountains"
+		type "Alpine"
 		pos [ 300 , 253 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1017,7 +1017,7 @@ star
 	planet
 		designName "Planet40"
 		inGameName ""
-		type "Mountains"
+		type "Alpine"
 		pos [ 145 , 296 ]
 		owner ""
 		isHomePlanet FALSE

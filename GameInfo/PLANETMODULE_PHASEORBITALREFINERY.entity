@@ -75,5 +75,5 @@ formationRank 3
 baseBuildTime 60.000000
 buildEffectName ""
 cargoShipType "FrigatePhaseRefineryShip"
-maxCargoShipCount 1
+maxCargoShipCount 2
 cargoShipRespawnTime 30.000000

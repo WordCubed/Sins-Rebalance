@@ -72,6 +72,6 @@ formationRank 3
 baseBuildTime 0.000000
 buildEffectName ""
 cargoShipType "FrigateTechTradeShip"
-maxCargoShipCount 1
+maxCargoShipCount 2
 cargoShipRespawnTime 30.000000
 baseTradeIncomeRate 1.000000

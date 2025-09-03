@@ -3142,7 +3142,7 @@ star
 	planet
 		designName "Planet95"
 		inGameName ""
-		type "Mountains"
+		type "Alpine"
 		pos [ 695 , 1098 ]
 		owner ""
 		isHomePlanet FALSE
