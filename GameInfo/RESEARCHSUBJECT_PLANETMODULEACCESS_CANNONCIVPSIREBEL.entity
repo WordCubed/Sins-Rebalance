@@ -13,7 +13,7 @@ ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_CULTURERATEPSI3REBEL"
+		Subject "RESEARCHSUBJECT_CULTURERATEPSI3"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

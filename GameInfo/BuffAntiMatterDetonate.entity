@@ -61,7 +61,7 @@ instantAction
 	buffType "BuffAntiMatterDetonateDouble"
 	effectInfo
 		effectAttachInfo
-			attachType "Center"
+			attachType "Invalid"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""

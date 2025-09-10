@@ -36,7 +36,7 @@ instantAction
 		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Center"
+			attachType "Invalid"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""
@@ -45,10 +45,6 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 3
+numFinishConditions 1
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
-finishCondition
-	finishConditionType "EnterHyperspace"
-finishCondition
-	finishConditionType "OwnerChanged"

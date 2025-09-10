@@ -249,7 +249,7 @@ maxShadow 0.300000
 cargoShipType "FrigateTechTradeShip"
 maxCargoShipCount 2
 cargoShipRespawnTime 30.000000
-baseBuildTime 120.000000
+baseBuildTime 90.000000
 buildEffectName ""
 angularSpeed 0.500000
 rotateSoundName ""
@@ -257,9 +257,9 @@ rotateFacingType "AwayFromOrbitBody"
 rotateConstantly FALSE
 maxAccelerationLinear 0.000000
 maxAccelerationStrafe 0.000000
-maxDecelerationLinear 500.000000
+maxDecelerationLinear 5000.000000
 maxAccelerationAngular 1.000000
-maxDecelerationAngular 10.000000
+maxDecelerationAngular 100.000000
 maxSpeedLinear -1.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000

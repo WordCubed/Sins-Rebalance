@@ -38,7 +38,7 @@ researchFloatModifiers 3
 researchModifier
 	modifierType "HyperspaceExitDistanceAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.100000
+	perLevelValue -0.450000
 researchModifier
 	modifierType "HyperspaceAntimatterCostAdjustment"
 	baseValue 0.000000

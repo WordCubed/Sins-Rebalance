@@ -22,7 +22,7 @@ quickStartHomePlanetUpgradeLevel:Home 1
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 0
-metersPerGalaxyUnit 25000.000000
+metersPerGalaxyUnit 250000.000000
 pixelsPerGalaxyUnit 2.000000
 useRandomGenerator FALSE
 galaxyWidth 625.000000

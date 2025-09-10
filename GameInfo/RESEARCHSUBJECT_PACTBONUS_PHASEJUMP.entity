@@ -32,24 +32,24 @@ priority 1.000000
 researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffPactTravelSelf"
+	buffToApply "BuffPactTravel"
 researchFloatModifiers 4
 researchModifier
 	modifierType "HyperspaceChargeUpRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.333333
+	perLevelValue 0.500000
 researchModifier
 	modifierType "HyperspaceInSystemSpeedAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.333333
+	perLevelValue 0.500000
 researchModifier
 	modifierType "HyperspaceSpeedPhaseGateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.333333
+	perLevelValue 0.500000
 researchModifier
 	modifierType "HyperspaceBetweenSystemSpeedAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.333333
+	perLevelValue 0.500000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

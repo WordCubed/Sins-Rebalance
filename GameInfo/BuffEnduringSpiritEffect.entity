@@ -5,7 +5,7 @@ onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 0
@@ -31,4 +31,11 @@ numFinishConditions 2
 finishCondition
 	finishConditionType "EnterHyperspace"
 finishCondition
-	finishConditionType "OwnerChanged"
+	finishConditionType "ResearchNotMet"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_PLANET_FOR_A_PLANET"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0

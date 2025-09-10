@@ -287,10 +287,10 @@ mass 100000.000000
 ShieldMeshName "Titan_PhaseLoyalist_Shield"
 renderShield TRUE
 maxAccelerationLinear 80.000000
-maxAccelerationStrafe 10.000000
-maxDecelerationLinear 500.000000
+maxAccelerationStrafe 1.000000
+maxDecelerationLinear 5000.000000
 maxAccelerationAngular 0.900000
-maxDecelerationAngular 10.000000
+maxDecelerationAngular 100.000000
 maxSpeedLinear 450.000000
 maxRollRate 1.650000
 maxRollAngle 35.000000

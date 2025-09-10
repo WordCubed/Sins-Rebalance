@@ -30,11 +30,15 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 0
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
 researchModifier
 	modifierType "StarBaseBuildRateAtEnemyOrbitBodyAdjustment"
 	baseValue 2.000000
 	perLevelValue 0.000000
+researchModifier
+	modifierType "MassReduction"
+	baseValue 0.000000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "ExperienceAwardedAdjustment"
 	baseValue 0.150000

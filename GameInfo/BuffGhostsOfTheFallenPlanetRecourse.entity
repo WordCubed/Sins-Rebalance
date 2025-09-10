@@ -2,27 +2,33 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "ForAllPlayers"
+buffStackingLimitType "PerPlayer"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusiveForAllPlayers"
+buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
-	delayTime 2.000000
-	buffType "BuffPactSquadBoostTarget"
+	delayTime 0.000000
+	buffType "BuffGhostsOfTheFallenEffect"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"
-		numObjects 1
+		numObjects 7
 		object "Fighter"
+		object "Corvette"
+		object "Frigate"
+		object "CapitalShip"
+		object "StarBase"
+		object "PlanetModule"
+		object "Titan"
 		numSpaces 1
 		space "Normal"
 		numConstraints 1
-		constraint "HasWeapons"
+		constraint "NotIsIllusionShip"
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
@@ -30,7 +36,7 @@ instantAction
 		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Center"
+			attachType "Invalid"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""
@@ -39,15 +45,6 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 2
-finishCondition
-	finishConditionType "ResearchNotMet"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_PACTBONUS_MASS_REDUCTION"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
+numFinishConditions 1
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"

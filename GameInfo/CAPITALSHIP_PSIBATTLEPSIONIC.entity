@@ -190,10 +190,10 @@ mass 10000.000000
 ShieldMeshName "Shield_PsiBattlePsionic"
 renderShield TRUE
 maxAccelerationLinear 100.000000
-maxAccelerationStrafe 10.000000
-maxDecelerationLinear 500.000000
-maxAccelerationAngular 2.000000
-maxDecelerationAngular 10.000000
+maxAccelerationStrafe 1.000000
+maxDecelerationLinear 5000.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 100.000000
 maxSpeedLinear 525.000000
 maxRollRate 2.000000
 maxRollAngle 35.000000

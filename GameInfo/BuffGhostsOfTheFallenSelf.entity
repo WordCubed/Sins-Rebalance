@@ -1,11 +1,11 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
@@ -16,13 +16,12 @@ instantAction
 	buffType "BuffGhostsOfTheFallenPlanet"
 	targetFilter
 		numOwnerships 4
+		ownership "NoOwner"
+		ownership "UncontrolledMinorFaction"
 		ownership "Friendly"
 		ownership "Enemy"
-		ownership "UncontrolledMinorFaction"
-		ownership "NoOwner"
-		numObjects 2
+		numObjects 1
 		object "Planet"
-		object "Star"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0

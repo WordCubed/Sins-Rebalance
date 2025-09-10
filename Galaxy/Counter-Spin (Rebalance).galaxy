@@ -24,7 +24,7 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 2
 recommendedGameType "FFA"
 recommendedGameType "TwoTeamsOfTwo"
-metersPerGalaxyUnit 25000.000000
+metersPerGalaxyUnit 250000.000000
 pixelsPerGalaxyUnit 5.499999
 useRandomGenerator FALSE
 galaxyWidth 1707.000000

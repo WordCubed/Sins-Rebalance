@@ -22,7 +22,7 @@ quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
 quickStartHomePlanetUpgradeLevel:Infrastructure 2
 recommendedGameTypeCount 1
 recommendedGameType "FFA"
-metersPerGalaxyUnit 20000.000000
+metersPerGalaxyUnit 250000.000000
 pixelsPerGalaxyUnit 1
 useRandomGenerator TRUE
 randomizerParams

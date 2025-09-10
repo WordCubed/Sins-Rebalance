@@ -19,9 +19,8 @@ instantAction
 		ownership "Enemy"
 		ownership "NoOwner"
 		ownership "UncontrolledMinorFaction"
-		numObjects 2
+		numObjects 1
 		object "Planet"
-		object "Star"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0

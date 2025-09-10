@@ -6,7 +6,7 @@ instantActionTriggerType "AlwaysPerform"
 buffType "BuffVolleyFire"
 effectInfo
 	effectAttachInfo
-		attachType "Center"
+		attachType "Invalid"
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""

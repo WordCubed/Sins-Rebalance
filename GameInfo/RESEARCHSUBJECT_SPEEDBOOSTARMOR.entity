@@ -32,9 +32,9 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
-	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
+	modifierType "MassReduction"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.050000
 researchModifier
 	modifierType "ArmorBaseAdjustment"
 	baseValue 0.000000

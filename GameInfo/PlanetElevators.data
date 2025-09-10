@@ -1,7 +1,7 @@
 TXT
 carWidth 40
 carHeight 64
-numCars 24
+numCars 12
 carPathMinTDelta .6
 carPathOffsetDist 2
 carPathMaxTravelTimeOffset 20

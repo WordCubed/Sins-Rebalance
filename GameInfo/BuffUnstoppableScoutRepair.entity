@@ -1,10 +1,10 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeNewBuffs"
+onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
-allowFirstSpawnerToStack TRUE
+allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
@@ -14,19 +14,19 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	hullPerc
-		Level:0 1.000000
-		Level:1 1.000000
-		Level:2 1.000000
-		Level:3 1.000000
+		Level:0 0.700000
+		Level:1 0.700000
+		Level:2 0.700000
+		Level:3 0.700000
 instantAction
 	buffInstantActionType "RestoreShieldPointsPerc"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	shieldPerc
-		Level:0 1.000000
-		Level:1 1.000000
-		Level:2 1.000000
-		Level:3 1.000000
+		Level:0 0.700000
+		Level:1 0.700000
+		Level:2 0.700000
+		Level:3 0.700000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

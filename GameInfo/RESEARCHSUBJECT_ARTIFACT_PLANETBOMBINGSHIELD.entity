@@ -29,11 +29,13 @@ Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 1
+researchBoolModifiers 0
+researchFloatModifiers 4
 researchModifier
-	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffArtifactPlanetDefenseSelf"
-researchFloatModifiers 3
+	modifierType "WeaponDamageAdjustmentWhenInFriendlyGravityWell"
+	baseValue 0.000000
+	perLevelValue 0.150000
+	linkedWeaponClass "Invalid"
 researchModifier
 	modifierType "PlanetSlotsTacticalIncrease"
 	baseValue 0.000000

@@ -9,7 +9,7 @@ GameplayConstants
 	zoomDistanceLevel2 4000000
 	nearFarThreshold 180000
 	baseHyperspaceRange 1000000.0
-	jumpAngle 0
+	jumpAngle 45
 	timeForPeaceTreatyCooldown 100
 	defaultGravWellColor FFFFFFFF
 	phaseLaneWidth 4
@@ -153,9 +153,9 @@ GameplayConstants
 		MinInterPlanetGravityDistance 50000.0
 		MaxInterPlanetGravityDistance 100000.0
 	StarBaseData
-		friendlyOrbitBodyBuildTimeScalar 1.0
-		neutralOrbitBodyBuildTimeScalar 1.5
-		enemyOrbitBodyBuildTimeScalar 2.00
+		friendlyOrbitBodyBuildTimeScalar 0.5
+		neutralOrbitBodyBuildTimeScalar 1.0
+		enemyOrbitBodyBuildTimeScalar 1.50
 	DamageData
 		ChanceToHitTargetType:ANTIVERYLIGHT
 			CAPITALSHIP 1.00000
@@ -435,8 +435,8 @@ GameplayConstants
 		veryDistantIconFadeFarThresholdDistance 10000000
 	PhysicsData
 		shipLinearMaxSpeedWhileSafeScalar 4.0
-		shipLinearAccelerationWhileSafeScalar 1.0
-		shipLinearDecelerationWhileSafeScalar 400.0
+		shipLinearAccelerationWhileSafeScalar 2.0
+		shipLinearDecelerationWhileSafeScalar 40.0
 	pirateRaidDef
 		arrivalDelayTime 6.0
 		minSupply 0
@@ -636,11 +636,11 @@ GameplayConstants
 	shipPhysicsSpeedData-Fast
 		shipLinearMaxSpeedGameSpeedScalar 4.0
 		shipLinearAccelerationGameSpeedScalar 2.0
-		shipLinearDecelerationGameSpeedScalar 400.0
+		shipLinearDecelerationGameSpeedScalar 4.0
 	shipPhysicsSpeedData-Faster
 		shipLinearMaxSpeedGameSpeedScalar 8.0
 		shipLinearAccelerationGameSpeedScalar 4.0
-		shipLinearDecelerationGameSpeedScalar 800.0
+		shipLinearDecelerationGameSpeedScalar 8.0
 	victorySpeedData-Slow
 		diplomaticPointsRateSpeedScalar 0.5
 		occupyVictoryTimeScalar 2.0
@@ -1194,9 +1194,9 @@ GameplayConstants
 		planet "PlanetRenegadeAlliance"
 		planet "PlanetRockGiant"
 		planet "PlanetUrban"
-		colonizablePlanetsWithMinorFactionsPercent 0.35
-		minConnectionDistanceToColonizedPlanets 4
-		minConnectionDistanceToSameFactionPlanets 1
+		colonizablePlanetsWithMinorFactionsPercent 0.333333
+		minConnectionDistanceToColonizedPlanets 3
+		minConnectionDistanceToSameFactionPlanets 2
 		minAdjacentPlanetCount 2
 		infrastructurePlanetUpgradeLevel 4
 		populationPlanetUpgradeLevel 4

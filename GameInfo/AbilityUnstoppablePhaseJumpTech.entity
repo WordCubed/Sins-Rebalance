@@ -20,23 +20,12 @@ levelSourceType "ResearchWithoutBase"
 improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
-onlyAutoCastWhenDamageTakenExceedsPerc 0.500000
-useCostType "AntiMatter"
-antiMatterCost
-	Level:0 0.000000
-	Level:1 0.000000
-	Level:2 0.000000
-	Level:3 0.000000
-cooldownTime
-	Level:0 60.000000
-	Level:1 60.000000
-	Level:2 60.000000
-	Level:3 60.000000
-orderAcknowledgementType "ONGENERALORDERISSUED"
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite

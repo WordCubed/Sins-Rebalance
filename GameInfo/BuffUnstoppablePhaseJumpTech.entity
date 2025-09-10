@@ -8,12 +8,22 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffUnstoppableScout"
+	instantActionTriggerType "OnHyperspaceExit"
+	buffType "BuffUnstoppableScoutRepair"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnHyperspaceExit"
+	buffType "BuffUnstoppableScoutEffectTech"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -23,18 +33,11 @@ instantAction
 		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 1
-entityModifier
-	buffEntityModifierType "ChanceToHitAsDamageTarget"
-	value
-		Level:0 -0.500000
-		Level:1 -0.500000
-		Level:2 -0.500000
-		Level:3 -0.500000
-numEntityBoolModifiers 2
-entityBoolModifier "JumpBlockerImmune"
-entityBoolModifier "CancelPhaseOut"
-numFinishConditions 1
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
 finishCondition
 	finishConditionType "ResearchNotMet"
 	researchPrerequisites

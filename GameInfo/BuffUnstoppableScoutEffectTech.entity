@@ -11,38 +11,26 @@ isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 3
-entityModifier
-	buffEntityModifierType "LinearMaxSpeed"
-	value
-		Level:0 0.150000
-		Level:1 0.150000
-		Level:2 0.150000
-		Level:3 0.150000
-entityModifier
-	buffEntityModifierType "AngularThrust"
-	value
-		Level:0 0.150000
-		Level:1 0.150000
-		Level:2 0.150000
-		Level:3 0.150000
+numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "ChanceToHitAsDamageTarget"
 	value
-		Level:0 -0.150000
-		Level:1 -0.150000
-		Level:2 -0.150000
-		Level:3 -0.150000
-numEntityBoolModifiers 0
+		Level:0 -0.500000
+		Level:1 -0.500000
+		Level:2 -0.500000
+		Level:3 -0.500000
+numEntityBoolModifiers 2
+entityBoolModifier "JumpBlockerImmune"
+entityBoolModifier "CancelPhaseOut"
 numFinishConditions 2
-finishCondition
-	finishConditionType "OwnerChanged"
 finishCondition
 	finishConditionType "ResearchNotMet"
 	researchPrerequisites
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
+			Subject "RESEARCHSUBJECT_ABILITYACCESS_UNSTOPPABLEPHASEJUMPTECH"
 			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
+finishCondition
+	finishConditionType "OwnerChanged"

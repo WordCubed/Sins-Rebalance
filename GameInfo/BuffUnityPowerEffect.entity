@@ -4,8 +4,8 @@ entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 30
-allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+allowFirstSpawnerToStack TRUE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 0
@@ -22,9 +22,15 @@ entityModifier
 numEntityBoolModifiers 0
 numFinishConditions 3
 finishCondition
-	finishConditionType "LastSpawnerNoLongerHasBuff"
-	buffTypeToQuery "BuffUnityPowerCheck"
-finishCondition
 	finishConditionType "EnterHyperspace"
 finishCondition
 	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "ResearchNotMet"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_POWER_OF_THE_UNITY"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0

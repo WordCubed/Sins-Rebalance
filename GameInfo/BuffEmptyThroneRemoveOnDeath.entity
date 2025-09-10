@@ -34,7 +34,7 @@ instantAction
 		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Center"
+			attachType "Invalid"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""

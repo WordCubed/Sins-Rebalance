@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-UserGenerated"
 browseName "Ring Around"
 browseDescription "Valuable resources can be found in the outer ring around this star."
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
@@ -23,10 +23,10 @@ quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 3
 recommendedGameType "TwoTeamsOfTwo"
-recommendedGameType "Solo"
 recommendedGameType "FFA"
+recommendedGameType "Solo"
 metersPerGalaxyUnit 250000.000000
-pixelsPerGalaxyUnit 2.079999
+pixelsPerGalaxyUnit 1.959999
 useRandomGenerator FALSE
 galaxyWidth 1707.000000
 galaxyHeight 980.000000
@@ -46,7 +46,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 130 , 250 ]
-		owner "NewPlayer0"
+		owner "NewPlayer3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -96,7 +96,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 250 , 130 ]
-		owner "NewPlayer2"
+		owner "NewPlayer0"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -121,7 +121,7 @@ star
 		inGameName ""
 		type "TerranHome"
 		pos [ 250 , 370 ]
-		owner "NewPlayer3"
+		owner "NewPlayer2"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 3
 		normalStartUpgradeLevelForCivilianModules 1
@@ -2603,7 +2603,7 @@ player
 	designName "NewPlayer1"
 	inGameName "NewPlayer1"
 	overrideRaceName ""
-	teamIndex 1
+	teamIndex 0
 	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
@@ -2616,7 +2616,7 @@ player
 	designName "NewPlayer2"
 	inGameName "NewPlayer2"
 	overrideRaceName ""
-	teamIndex 0
+	teamIndex 1
 	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000

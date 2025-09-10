@@ -29,15 +29,16 @@ Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 1
-researchModifier
-	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffArtifactShipSpeedSelf"
-researchFloatModifiers 1
+researchBoolModifiers 0
+researchFloatModifiers 2
 researchModifier
 	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.300000
+researchModifier
+	modifierType "MassReduction"
+	baseValue 0.000000
+	perLevelValue 0.150000
 artifactPicture "ArtifactPictureHyperspaceSpeed"
 uniqueOverlayBrush ""
 dlcId 204880

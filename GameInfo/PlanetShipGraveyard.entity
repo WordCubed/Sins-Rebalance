@@ -348,7 +348,7 @@ dlcId 255910
 ShieldMeshName "Shield_PlanetSmall"
 renderShield TRUE
 moveAreaRadius 18000.000000
-hyperspaceExitRadius 18000.000000
+hyperspaceExitRadius 15000.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 1
 maxSpaceMineCountPerPlayer 0

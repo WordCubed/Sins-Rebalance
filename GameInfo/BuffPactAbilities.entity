@@ -27,6 +27,15 @@ entityModifier
 		Level:2 -0.200000
 		Level:3 -0.200000
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "ResearchNotMet"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "RESEARCHSUBJECT_PACTBONUS_ENERGY_WEAPON_COOLDOWN"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0

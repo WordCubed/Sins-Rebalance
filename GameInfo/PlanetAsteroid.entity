@@ -418,7 +418,7 @@ dlcId 204880
 ShieldMeshName "Shield_PlanetVerySmall"
 renderShield TRUE
 moveAreaRadius 15000.000000
-hyperspaceExitRadius 15000.000000
+hyperspaceExitRadius 12500.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 1
 maxSpaceMineCountPerPlayer 0

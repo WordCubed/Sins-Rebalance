@@ -356,7 +356,7 @@ dlcId 204880
 ShieldMeshName "Shield_PlanetNormal"
 renderShield TRUE
 moveAreaRadius 30000.000000
-hyperspaceExitRadius 30000.000000
+hyperspaceExitRadius 25000.000000
 isWormhole FALSE
 maxStarBaseCountPerPlayer 1
 maxSpaceMineCountPerPlayer 0

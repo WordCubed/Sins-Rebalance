@@ -1,11 +1,11 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeOldBuffs"
+onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
@@ -15,7 +15,11 @@ instantAction
 	delayTime 0.000000
 	buffType "BuffUnityPowerPlanet"
 	targetFilter
-		numOwnerships 0
+		numOwnerships 4
+		ownership "Friendly"
+		ownership "UncontrolledMinorFaction"
+		ownership "NoOwner"
+		ownership "Enemy"
 		numObjects 1
 		object "Planet"
 		numSpaces 1

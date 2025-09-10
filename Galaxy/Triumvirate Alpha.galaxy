@@ -4,7 +4,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-Triumvirate"
 browseName "Triumvirate Alpha"
-browseDescription "Will your neighbour help or hinder your conquest of the Liladi system? Choose your diplomatic posture wisely-other factions may be enlisting allies of their own. This version of the map has more harsh planets than Triumvirate (Rebalance)."
+browseDescription "Will your neighbour help or hinder your conquest of the Liladi system? Choose your diplomatic posture wisely—other factions may be enlisting allies of their own. This version of the map has harsher planets than Triumvirate (Rebalance)."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions TRUE
 planetArtifactDensity 0.350000
@@ -24,7 +24,7 @@ quickStartHomePlanetUpgradeLevel:Infrastructure 4
 recommendedGameTypeCount 2
 recommendedGameType "ThreeTeamsOfTwo"
 recommendedGameType "FFA"
-metersPerGalaxyUnit 25000.000000
+metersPerGalaxyUnit 250000.000000
 pixelsPerGalaxyUnit 1.399999
 useRandomGenerator FALSE
 galaxyWidth 1707.000000
@@ -93,7 +93,7 @@ star
 	planet
 		designName "Planet2"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 70 , 86 ]
 		owner ""
 		isHomePlanet FALSE
@@ -118,7 +118,7 @@ star
 	planet
 		designName "Planet3"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 130 , 86 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1023,7 +1023,7 @@ star
 	planet
 		designName "Planet58"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 670 , 86 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1098,7 +1098,7 @@ star
 	planet
 		designName "Planet61"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 730 , 86 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1778,7 +1778,7 @@ star
 	planet
 		designName "Planet82"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 430 , 634 ]
 		owner ""
 		isHomePlanet FALSE
@@ -1803,7 +1803,7 @@ star
 	planet
 		designName "Planet83"
 		inGameName ""
-		type "RockGiant"
+		type "IceGiant"
 		pos [ 370 , 634 ]
 		owner ""
 		isHomePlanet FALSE
