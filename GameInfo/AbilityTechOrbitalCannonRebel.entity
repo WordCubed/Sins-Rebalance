@@ -51,7 +51,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH"
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

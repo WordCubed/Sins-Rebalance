@@ -201,9 +201,9 @@ mass 100000.000000
 ShieldMeshName "Titan_PsiLoyalist_Shield"
 renderShield TRUE
 maxAccelerationLinear 100.000000
-maxAccelerationStrafe 1.000000
+maxAccelerationStrafe 8.000000
 maxDecelerationLinear 5000.000000
-maxAccelerationAngular 1.000000
+maxAccelerationAngular 4.000000
 maxDecelerationAngular 100.000000
 maxSpeedLinear 450.000000
 maxRollRate 1.650000

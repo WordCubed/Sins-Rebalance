@@ -247,7 +247,7 @@ rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
 maxAccelerationLinear 200.000000
-maxAccelerationStrafe 1.000000
+maxAccelerationStrafe 8.000000
 maxDecelerationLinear 5000.000000
 maxAccelerationAngular 3.700000
 maxDecelerationAngular 100.000000

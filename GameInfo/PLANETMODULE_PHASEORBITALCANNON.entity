@@ -29,7 +29,7 @@ statCountType "ModuleCannon"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILPHASE"
+		Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONPHASE"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

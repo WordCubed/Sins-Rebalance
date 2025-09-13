@@ -2,19 +2,31 @@ TXT
 NumStrings 8948
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH0_NAME"
-	Value "Temperate Housing Policy I"
+	Value "Temperate Urban Policy I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH0_DESCRIPTION"
 	Value "Shifts in urban planning philosophies favor dense urban metropolises, increasing the population cap on temperate planets under your empire's control."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH1_NAME"
-	Value "Temperate Housing Policy II"
+	Value "Temperate Urban Policy II"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH1_DESCRIPTION"
 	Value "Breakthroughs in sustainable housing allow for increases of the population cap on temperate planets under your empire's control."
 StringInfo
 	ID "IDS_STARBASEUPGRADEPSICULTURE_DESC"
 	Value "PsiTech equipment is installed in the starbase, broadcasting your culture, repelling enemy culture, and boosting your local colony's allegiance."
+StringInfo
+	ID "IDSGameOptionsIncomeSpeedSlow"
+	Value "Half Rate"
+StringInfo
+	ID "IDSGameOptionsIncomeSpeedNormal"
+	Value "Normal Rate"
+StringInfo
+	ID "IDSGameOptionsIncomeSpeedFast"
+	Value "1.4x Rate"
+StringInfo
+	ID "IDSGameOptionsIncomeSpeedFaster"
+	Value "1.8x Rate"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedSlow"
 	Value "Half Speed"
@@ -63,18 +75,6 @@ StringInfo
 StringInfo
 	ID "IDSGameOptionsResearchSpeedFaster"
 	Value "Quadruple Speed"
-StringInfo
-	ID "IDSGameOptionsIncomeSpeedSlow"
-	Value "Half Rate"
-StringInfo
-	ID "IDSGameOptionsIncomeSpeedNormal"
-	Value "Normal Rate"
-StringInfo
-	ID "IDSGameOptionsIncomeSpeedFast"
-	Value "1.5x Rate"
-StringInfo
-	ID "IDSGameOptionsIncomeSpeedFaster"
-	Value "Double Rate"
 StringInfo
 	ID "IDSGameOptionsShipPhysicsSpeedSlow"
 	Value "Half Speeds"

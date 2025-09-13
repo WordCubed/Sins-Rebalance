@@ -127,7 +127,7 @@ mass 100.000000
 ShieldMeshName ""
 renderShield FALSE
 maxAccelerationLinear 200.000000
-maxAccelerationStrafe 1.000000
+maxAccelerationStrafe 8.000000
 maxDecelerationLinear 5000.000000
 maxAccelerationAngular 3.700000
 maxDecelerationAngular 9.999996

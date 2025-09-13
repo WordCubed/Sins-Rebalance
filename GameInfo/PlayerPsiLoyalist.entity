@@ -174,7 +174,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_CULTURERATEPSI1"
 		entityDefName "RESEARCHSUBJECT_CULTURERATEPSI2"
 		entityDefName "RESEARCHSUBJECT_CULTURERATEPSI3"
-		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONCIVPSI"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONPSI"
 		entityDefName "RESEARCHSUBJECT_ASSIMILATED_POPULACE"
 		entityDefName "RESEARCHSUBJECT_PROTECTION_OF_THE_UNITY"
 		entityDefName "RESEARCHSUBJECT_FURY_OF_THE_UNITY"
@@ -300,7 +300,7 @@ hyperspaceData
 	hyperspaceSpeedBetweenStarsMultiplier 4.000000
 	hyperspaceSpeedToFriendlyOrbitBodiesMultiplier 1.000000
 	baseHyperspaceAntiMatterCost 120.000000
-	baseHyperspaceChargeUpTime 10.000000
+	baseHyperspaceChargeUpTime 30.000000
 shieldData
 	shieldAbsorbGrowthPerDamage 0.005000
 	shieldAbsorbDecayRate 0.000100

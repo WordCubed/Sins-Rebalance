@@ -178,7 +178,7 @@ entities
 		entityDefName "RESEARCHSUBJECT_CULTURERATEPSI1"
 		entityDefName "RESEARCHSUBJECT_CULTURERATEPSI2"
 		entityDefName "RESEARCHSUBJECT_CULTURERATEPSI3"
-		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONCIVPSIREBEL"
+		entityDefName "RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONPSIREBEL"
 		entityDefName "RESEARCHSUBJECT_ASSIMILATED_POPULACE"
 		entityDefName "RESEARCHSUBJECT_DEATH_RITES"
 		entityDefName "RESEARCHSUBJECT_DUMMYPSI1"
@@ -299,7 +299,7 @@ hyperspaceData
 	hyperspaceSpeedBetweenStarsMultiplier 4.000000
 	hyperspaceSpeedToFriendlyOrbitBodiesMultiplier 1.000000
 	baseHyperspaceAntiMatterCost 120.000000
-	baseHyperspaceChargeUpTime 10.000000
+	baseHyperspaceChargeUpTime 30.000000
 shieldData
 	shieldAbsorbGrowthPerDamage 0.005000
 	shieldAbsorbDecayRate 0.000100

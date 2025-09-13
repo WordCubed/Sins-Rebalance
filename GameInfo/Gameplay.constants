@@ -9,8 +9,8 @@ GameplayConstants
 	zoomDistanceLevel2 4000000
 	nearFarThreshold 180000
 	baseHyperspaceRange 1000000.0
-	jumpAngle 45
-	timeForPeaceTreatyCooldown 100
+	jumpAngle 25
+	timeForPeaceTreatyCooldown 120
 	defaultGravWellColor FFFFFFFF
 	phaseLaneWidth 4
 	unexploredPhaseLaneWidth 1.0
@@ -57,7 +57,7 @@ GameplayConstants
 		allegiance 0.10
 		allegiance 0.10
 		planetCultureTakeOverPercWarning 0.20
-		experienceGainedForDestroying 1000.0
+		experienceGainedForDestroying 1500.0
 		scuttleTime 10.0
 		stripTime 10.0
 	CapitalShipData
@@ -616,9 +616,9 @@ GameplayConstants
 	incomeSpeedData-Normal
 		incomeRateGameSpeedScalar 0.0
 	incomeSpeedData-Fast
-		incomeRateGameSpeedScalar 0.5
+		incomeRateGameSpeedScalar 0.4
 	incomeSpeedData-Faster
-		incomeRateGameSpeedScalar 1.0
+		incomeRateGameSpeedScalar 0.8
 	fleetSupplyData-Small
 		fleetSupplyScalar 0.5
 	fleetSupplyData-Normal
@@ -925,18 +925,18 @@ GameplayConstants
 		flavorTextLevel:Beneficial 16.0
 		flavorTextLevel:Symbiotic 18.0
 		flavorTextLevel:Devoted 20.0
-		relationshipLevelMissionBonus:Hateful 1.00
+		relationshipLevelMissionBonus:Hateful 0.90
 		relationshipLevelMissionBonus:Abysmal 1.00
-		relationshipLevelMissionBonus:Warming 1.05
-		relationshipLevelMissionBonus:Neutral 1.10
-		relationshipLevelMissionBonus:Friendly 1.15
-		relationshipLevelMissionBonus:Peaceful 1.20
-		relationshipLevelMissionBonus:Cooperative 1.25
-		relationshipLevelMissionBonus:Beneficial 1.30
-		relationshipLevelMissionBonus:Symbiotic 1.35
-		relationshipLevelMissionBonus:Devoted 1.40
-		aiBonusMax 2.0
-		aiBonusRate 0.0002
+		relationshipLevelMissionBonus:Warming 1.10
+		relationshipLevelMissionBonus:Neutral 1.20
+		relationshipLevelMissionBonus:Friendly 1.30
+		relationshipLevelMissionBonus:Peaceful 1.40
+		relationshipLevelMissionBonus:Cooperative 1.50
+		relationshipLevelMissionBonus:Beneficial 1.60
+		relationshipLevelMissionBonus:Symbiotic 1.70
+		relationshipLevelMissionBonus:Devoted 1.80
+		aiBonusMax 3.0
+		aiBonusRate 0.0005
 		QuestTypeBombAnyPlanetLevelInfos
 			QuestDefNameCount 1
 				QuestDefName "QuestBombPlanet"
@@ -1187,49 +1187,61 @@ GameplayConstants
 		npcIconOffset:PlanetIcon
 			xOffset 0
 			yOffset -52
-		colonizePlanetBlackListCount 6
-		planet "PlanetGasGiant"
-		planet "PlanetIceGiant"
-		planet "PlanetIndustrial"
-		planet "PlanetRenegadeAlliance"
-		planet "PlanetRockGiant"
+		colonizePlanetBlackListCount 2
 		planet "PlanetUrban"
-		colonizablePlanetsWithMinorFactionsPercent 0.333333
+		planet "PlanetIndustrial"
+		colonizablePlanetsWithMinorFactionsPercent 0.35
 		minConnectionDistanceToColonizedPlanets 3
-		minConnectionDistanceToSameFactionPlanets 2
+		minConnectionDistanceToSameFactionPlanets 1
 		minAdjacentPlanetCount 2
-		infrastructurePlanetUpgradeLevel 4
-		populationPlanetUpgradeLevel 4
-		civilianModulesUpgradeLevel 4
-		tacticalModulesUpgradeLevel 4
+		infrastructurePlanetUpgradeLevel 3
+		populationPlanetUpgradeLevel 3
+		civilianModulesUpgradeLevel 3
+		tacticalModulesUpgradeLevel 3
 		planetIncomeScalar 0.33333
 		planetCultureRepelAdditiveBonus 1.5
-		spawnTime 300
-		spawnTimeVariance 60
-		minorFactionPlayerDefCount 13
+		spawnTime 600
+		spawnTimeVariance 120
+		minorFactionPlayerDefCount 17
 		minorFactionPlayerDef
 			name "DefaultTech"
 			planetAbilities
-				ability:0 "AbilityMinorFactionArmorBonus"
-				ability:1 "AbilityMinorFactionRepairShips"
-				ability:2 "AbilityMinorFactionSpawnAttackRaidTech"
-				ability:3 "AbilityMinorFactionSpawnDefenseRaidTech"
+				ability:0 "AbilityMinorFactionRepairShips"
+				ability:1 "AbilityMinorFactionTradeMetalForCredits"
+				ability:2 "AbilityMinorFactionSpawnDefenseRaidTech"
+				ability:3 "AbilityMinorFactionSpawnAttackRaidTech"
 				ability:4 ""
 		minorFactionPlayerDef
 			name "DefaultPsi"
 			planetAbilities
 				ability:0 "AbilityMinorFactionFarSight"
-				ability:1 "AbilityMinorFactionSpreadCulture"
+				ability:1 "AbilityMinorFactionTradeCrystalForCredits"
 				ability:2 "AbilityMinorFactionSpawnDefenseRaidPsi"
 				ability:3 "AbilityMinorFactionSpawnAttackRaidPsi"
 				ability:4 ""
 		minorFactionPlayerDef
 			name "DefaultPhase"
 			planetAbilities
-				ability:0 "AbilityMinorFactionWeaponDamageBonus"
-				ability:1 "AbilityMinorFactionBombingDamageBonusPhase"
-				ability:2 "AbilityMinorFactionSpawnAttackRaidPhase"
-				ability:3 "AbilityMinorFactionSpawnDefenseRaidPhase"
+				ability:0 "AbilityMinorFactionSpawnAttackRaidPhase"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidPhase"
+				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechMiners"
+			planetAbilities
+				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
+				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechScrappers"
+			planetAbilities
+				ability:0 "AbilityMinorFactionScrapFrigates"
+				ability:1 "AbilityMinorFactionArmorBonus"
+				ability:2 "AbilityMinorFactionRepairShips"
+				ability:3 "AbilityMinorFactionTradeMetalForCredits"
 				ability:4 ""
 		minorFactionPlayerDef
 			name "TechSiegeRaiders"
@@ -1237,54 +1249,62 @@ GameplayConstants
 				ability:0 "AbilityMinorFactionSpawnAttackRaidTech"
 				ability:1 "AbilityMinorFactionSpawnSiegeRaidTech"
 				ability:2 "AbilityMinorFactionBombingDamageBonus"
-				ability:3 ""
+				ability:3 "AbilityMinorFactionTradeCreditsForCrystal"
 				ability:4 ""
 		minorFactionPlayerDef
 			name "TechDemolitionists"
 			planetAbilities
-				ability:0 "AbilityMinorFactionAntiModuleDamageBonus"
-				ability:1 "AbilityMinorFactionSpawnAntiModuleRaidTech"
+				ability:0 "AbilityMinorFactionSpawnAntiModuleRaidTech"
+				ability:1 "AbilityMinorFactionAntiModuleDamageBonus"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "TechXenophobes"
 			planetAbilities
-				ability:0 "AbilityMinorFactionCultureResistance"
-				ability:1 "AbilityMinorFactionSpawnAttackRaidNonTechTarget0"
-				ability:2 "AbilityMinorFactionSpawnAttackRaidNonTechTarget1"
-				ability:3 ""
+				ability:0 "AbilityMinorFactionSpawnAttackRaidNonTechTarget0"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidNonTechTarget1"
+				ability:2 "AbilityMinorFactionCultureResistance"
+				ability:3 "AbilityMinorFactionTradeCreditsForMetal"
 				ability:4 ""
 		minorFactionPlayerDef
 			name "TechDefensive"
 			planetAbilities
 				ability:0 "AbilityMinorFactionRepairShips"
-				ability:1 "AbilityMinorFactionArmorBonus"
-				ability:2 "AbilityMinorFactionSpawnDefenseRaidTech"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidTech"
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechUsedFrigates"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSellFrigatesAntiFighter"
+				ability:1 "AbilityMinorFactionSellFrigatesLongRange"
+				ability:2 "AbilityMinorFactionSellFrigatesHeavy"
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "PsiPacifists"
 			planetAbilities
-				ability:0 "AbilityMinorFactionFarSightSuper"
+				ability:0 "AbilityMinorFactionFarSight"
 				ability:1 "AbilityMinorFactionAntiMatterRestoreBonus"
 				ability:2 "AbilityMinorFactionShieldRestoreBonus"
-				ability:3 "AbilityMinorFactionSpreadCultureSuper"
+				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "PsiCulture"
 			planetAbilities
-				ability:0 "AbilityMinorFactionSpreadCultureSuper"
+				ability:0 "AbilityMinorFactionSpreadCulture"
 				ability:1 "AbilityMinorFactionSpawnDefenseRaidPsiUtility"
-				ability:2 ""
+				ability:2 "AbilityMinorFactionTradeCreditsForCrystal"
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
 			name "PsiDoomCult"
 			planetAbilities
 				ability:0 "AbilityMinorFactionSpawnRandomAttackRaids"
-				ability:1 "AbilityMinorFactionSacrificePopulationForDamage"
-				ability:2 ""
+				ability:1 "AbilityMinorFactionStealAdjacentPlanetPopulation"
+				ability:2 "AbilityMinorFactionSacrificePopulationForDamage"
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
@@ -1298,17 +1318,25 @@ GameplayConstants
 		minorFactionPlayerDef
 			name "PhaseTransporters"
 			planetAbilities
-				ability:0 "AbilityMinorFactionSellCapitalShipPhaseScout"
+				ability:0 "AbilityMinorFactionSpawnRemoteAttackRaidPhase"
 				ability:1 "AbilityMinorFactionHyperspaceSpeedBonus"
-				ability:2 "AbilityMinorFactionSpawnRemoteAttackRaidPhase"
+				ability:2 "AbilityMinorFactionSellCapitalShipPhaseScout"
 				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "PhaseExpedition"
+			planetAbilities
+				ability:0 "AbilityMinorFactionExploreNearbyPlanets"
+				ability:1 "AbilityMinorFactionColonizeBonus"
+				ability:2 "AbilityMinorFactionSpawnScoutRaidPhase"
+				ability:3 "AbilityMinorFactionSpeedBonus"
 				ability:4 ""
 		minorFactionPlayerDef
 			name "PhaseArmsDealers"
 			planetAbilities
 				ability:0 "AbilityMinorFactionWeaponDamageBonus"
 				ability:1 "AbilityMinorFactionBombingDamageBonusPhase"
-				ability:2 "AbilityMinorFactionSellCapitalShipPhaseScout"
+				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
 				ability:3 ""
 				ability:4 ""
 	miscEntityDefNames

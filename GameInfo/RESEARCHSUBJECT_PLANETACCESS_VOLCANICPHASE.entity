@@ -32,7 +32,7 @@ priority 0.000000
 researchBoolModifiers 1
 researchModifier
 	modifierType "PlanetIsColonizable"
-	linkedPlanetType "Greenhouse"
+	linkedPlanetType "Volcanic"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""

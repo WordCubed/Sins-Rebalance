@@ -57,7 +57,7 @@ renderShield FALSE
 maxAccelerationLinear 0.000000
 maxAccelerationStrafe 0.000000
 maxDecelerationLinear 0.000000
-maxAccelerationAngular 1.000000
+maxAccelerationAngular 4.000000
 maxDecelerationAngular 100.000000
 maxSpeedLinear 1000.000000
 maxRollRate 0.000000
