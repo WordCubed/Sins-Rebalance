@@ -174,7 +174,7 @@ UpgradeType "StarBaseUpgradePhaseDebrisVacuum"
 UpgradeType "StarBaseUpgradePhaseBlockColonize"
 UpgradeType "StarBaseUpgradePhaseTradePort"
 UpgradeType "StarBaseUpgradePhaseCityPopulation"
-UpgradeType "StarBaseUpgradePhasePhaseGate"
+UpgradeType "StarBaseUpgradePhasePhaseGateRebel"
 MeshNameInfoCount 6
 MeshNameInfo
 	meshName "StarBasePhase"

@@ -747,7 +747,7 @@ orbitBodyType
 	defaultTemplateName "Template:PirateBase"
 orbitBodyType
 	typeName "Barren"
-	entityDefName "PlanetBarren"
+	entityDefName "PlanetDesolate"
 	defaultTemplateName "Template:DefaultStart_Barren"
 orbitBodyType
 	typeName "Ferrus"

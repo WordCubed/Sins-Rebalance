@@ -38,7 +38,7 @@ researchModifier
 researchModifier
 	modifierType "ResearchBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 2.500000
+	perLevelValue 4.000000
 artifactPicture "ArtifactPictureResearchArchive"
 uniqueOverlayBrush ""
 dlcId 204880

@@ -13,7 +13,7 @@ ResearchField "Defense"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_PHASEGATEREBEL"
+		Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_DIRECTIONALSHIELD"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

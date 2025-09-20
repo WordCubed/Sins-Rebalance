@@ -10,17 +10,9 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
 instantAction
-	buffInstantActionType "DoDamage"
+	buffInstantActionType "MakeDead"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	damage
-		Level:0 9999999.000000
-		Level:1 9999999.000000
-		Level:2 9999999.000000
-		Level:3 9999999.000000
-	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
-	damageType "ENERGY"
-	isDamageShared TRUE
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

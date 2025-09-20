@@ -1,8 +1,8 @@
 TXT2
 SinsArchiveVersion 194
 entityType "PlanetBonus"
-minUpgradeLevelNeeded 2
-maxUpgradeLevelNeeded 2
+minUpgradeLevelNeeded 1
+maxUpgradeLevelNeeded 1
 nameStringID "IDS_PLANETBONUS_DEPLETEDMINES_NAME"
 descStringID "IDS_PLANETBONUS_DEPLETEDMINES_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
@@ -11,7 +11,7 @@ floatBonus:AdditivePlanetHealth 0.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 0.000000
-floatBonus:AdditiveTradeIncomePerc -0.150000
+floatBonus:AdditiveTradeIncomePerc -0.200000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus 0.000000
 floatBonus:MetalIncomePerc -0.500000

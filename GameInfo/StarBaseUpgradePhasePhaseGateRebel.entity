@@ -30,7 +30,7 @@ stage
 	researchPrerequisites
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_PHASEGATEREBEL"
+			Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATEREBEL"
 			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0

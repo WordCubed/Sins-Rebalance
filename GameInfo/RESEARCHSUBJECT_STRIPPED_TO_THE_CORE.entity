@@ -32,7 +32,7 @@ Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
-researchBoolModifiers 4
+researchBoolModifiers 5
 researchModifier
 	modifierType "StripPlanetsOnScuttle"
 researchModifier
@@ -41,6 +41,9 @@ researchModifier
 researchModifier
 	modifierType "ApplyBuffToAllOwnedShipsWhenOwnedPlanetFalls"
 	buffToApply "BuffPlanetLossEffect"
+researchModifier
+	modifierType "ApplyBuffToPlanetAfterColonization"
+	buffToApply "BuffPlanetLossPlanet"
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
 	buffToApply "BuffPlanetLossSelf"

@@ -48,7 +48,7 @@ nearPlacementDistOffset 0.000000
 farPlacementDistOffset 8000.000000
 spawnCount 1
 swapMineType ""
-angularSpeed 50.000000
+angularSpeed 100.000000
 rotateSoundName "WEAPON_PSIORBITALCANNONROTATE_LOOP"
 rotateFacingType "None"
 rotateConstantly FALSE
@@ -72,5 +72,5 @@ picture "PLANETMODULEPICTURE_PSIORBITALCANNON"
 minShadow 0.000000
 maxShadow 0.300000
 formationRank 3
-baseBuildTime 240.000000
+baseBuildTime 720.000000
 buildEffectName ""

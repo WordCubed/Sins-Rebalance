@@ -8,7 +8,7 @@ NameStringID "IDS_RESEARCHSUBJECT_PIRATESTUFF_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PIRATESTUFF_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 3 , 1 ]
+	pos [ 3 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -25,18 +25,14 @@ PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 1
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 1
 researchModifier
 	modifierType "HullPointsMaxAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.100000
-researchModifier
-	modifierType "HullPointsRegenAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.100000
 artifactPicture ""

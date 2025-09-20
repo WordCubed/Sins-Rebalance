@@ -7,7 +7,7 @@ nameStringID "IDS_PLANETBONUS_VERYNICE_NAME"
 descStringID "IDS_PLANETBONUS_VERYNICE_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation 0.000000
-floatBonus:AdditivePlanetHealth 1000.000000
+floatBonus:AdditivePlanetHealth 500.000000
 floatBonus:AdditiveSlotsCivilian 0.000000
 floatBonus:AdditiveSlotsTactical 0.000000
 floatBonus:AdditiveTaxIncome 0.000000

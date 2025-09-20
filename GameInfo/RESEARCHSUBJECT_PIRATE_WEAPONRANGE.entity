@@ -8,7 +8,7 @@ NameStringID "IDS_RESEARCHSUBJECT_WEAPONRANGE_MISSILE_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_WEAPONRANGE_MISSILE_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 0 , 3 ]
+	pos [ 4 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -25,7 +25,7 @@ PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 1
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000

@@ -7,7 +7,7 @@ nameStringID "IDS_PLANETBONUS_STRATEGICALLYVALUABLE_NAME"
 descStringID "IDS_PLANETBONUS_STRATEGICALLYVALUABLE_DESC"
 floatBonus:AdditiveCultureSpreadPerc 0.000000
 floatBonus:AdditivePopulation 0.000000
-floatBonus:AdditivePlanetHealth 1000.000000
+floatBonus:AdditivePlanetHealth 1250.000000
 floatBonus:AdditiveSlotsCivilian 2.000000
 floatBonus:AdditiveSlotsTactical 4.000000
 floatBonus:AdditiveTaxIncome 0.000000

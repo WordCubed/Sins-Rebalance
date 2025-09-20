@@ -30,7 +30,7 @@ stage
 	researchPrerequisites
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_STARBASEUPGRADEACCESS_PHASEGATE"
+			Subject "RESEARCHSUBJECT_PLANETMODULEACCESS_PHASEGATE"
 			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0

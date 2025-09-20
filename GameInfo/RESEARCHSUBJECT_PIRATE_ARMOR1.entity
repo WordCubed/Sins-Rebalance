@@ -8,7 +8,7 @@ NameStringID "IDS_RESEARCHSUBJECT_PIRATESTUFF_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PIRATESTUFF_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 0 , 0 ]
+	pos [ 0 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -25,7 +25,7 @@ PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 1
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
@@ -38,7 +38,7 @@ researchModifier
 researchModifier
 	modifierType "ShieldMaxMitigationAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.040000
+	perLevelValue 0.010000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

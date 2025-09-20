@@ -48,7 +48,7 @@ nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
 swapMineType ""
-angularSpeed 50.000000
+angularSpeed 100.000000
 rotateSoundName "WEAPON_PHASEORBITALCANNONROTATE_LOOP"
 rotateFacingType "None"
 rotateConstantly FALSE
@@ -72,5 +72,5 @@ picture "PLANETMODULEPICTURE_PHASEORBITALCANNON"
 minShadow 0.000000
 maxShadow 1.000000
 formationRank 3
-baseBuildTime 240.000000
+baseBuildTime 1080.000000
 buildEffectName ""

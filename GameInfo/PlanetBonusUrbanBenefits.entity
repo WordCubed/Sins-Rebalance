@@ -17,8 +17,8 @@ floatBonus:MaxAllegiancePercBonus 0.000000
 floatBonus:MetalIncomePerc 0.000000
 floatBonus:CrystalIncomePerc 0.000000
 floatBonus:GravityWellRadiusPerc 0.000000
-floatBonus:ModuleBuildCostPerc -0.400000
-floatBonus:ModuleBuildRatePerc 1.000000
+floatBonus:ModuleBuildCostPerc -0.000000
+floatBonus:ModuleBuildRatePerc 0.000000
 floatBonus:PlanetUpgradeBuildCostPerc -3.000000
 floatBonus:PlanetUpgradeBuildRatePerc 9.000000
 floatBonus:PopulationGrowthPerc 9.000000

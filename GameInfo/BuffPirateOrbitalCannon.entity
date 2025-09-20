@@ -41,9 +41,9 @@ numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 7.000000
-		Level:1 7.000000
-		Level:2 7.000000
-		Level:3 7.000000
+		Level:0 2.500000
+		Level:1 2.500000
+		Level:2 2.500000
+		Level:3 2.500000
 finishCondition
 	finishConditionType "OwnerChanged"

@@ -1,5 +1,11 @@
 TXT
-NumStrings 8948
+NumStrings 8950
+StringInfo
+	ID "IDS_ABILITY_NOAUTODEPLOY_NAME"
+	Value "Civilian Planet"
+StringInfo
+	ID "IDS_ABILITY_NOAUTODEPLOY_DESCRIPTION"
+	Value "Prevents AI players from deploying Starbases around this planet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH0_NAME"
 	Value "Temperate Urban Policy I"
@@ -890,7 +896,7 @@ StringInfo
 	Value "Death Rites"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_DESCRIPTION"
-	Value "The Unity's death rites empower the survivors of a battle to grow stronger from a fallen enemy, activating a permanent 50% damage boost and 4% shield mitigation boost for all your units present in the gravity well."
+	Value "The Unity's death rites empower the survivors of a battle to grow stronger from a fallen enemy, activating a 50% damage boost & 3% shield mitigation boost for all your units present in the gravity well. (Stacks up to 3 times & resets on phase jump.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_TITANACCESS_PSIREBEL_1_DESCRIPTION"
 	Value "Grants access to the Titan Foundry and allows you to begin construction on the Eradica Titan, a massive warship of immense power. This Titan manipulates life and death, and brainwashes its enemies into switching sides."

@@ -6,7 +6,7 @@ browsePictureName "ScenarioPicture-HostileOrbits"
 browseName "Hostile Orbits (Rebalance)"
 browseDescription "Your home system orbits close to the cool, red star of this system, but so do numerous pirate bases. Fight your way outward to claim the riches that lie on the edges of this deadly system."
 isFirstCapitalShipIsFlagship TRUE
-randomizeStartingPositions TRUE
+randomizeStartingPositions FALSE
 planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4

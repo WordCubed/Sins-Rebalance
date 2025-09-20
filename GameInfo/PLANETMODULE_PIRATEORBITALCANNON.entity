@@ -45,7 +45,7 @@ nearPlacementDistOffset 0.000000
 farPlacementDistOffset 8000.000000
 spawnCount 1
 swapMineType ""
-angularSpeed 50.000000
+angularSpeed 100.000000
 rotateSoundName "WEAPON_TECHORBITALCANNONROTATE_LOOP"
 rotateFacingType "None"
 rotateConstantly FALSE
@@ -69,5 +69,5 @@ picture "PLANETMODULEPICTURE_TECHORBITALCANNON"
 minShadow 0.000000
 maxShadow 0.600000
 formationRank 3
-baseBuildTime 240.000000
+baseBuildTime 300.000000
 buildEffectName ""
