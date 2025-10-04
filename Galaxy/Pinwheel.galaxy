@@ -4,7 +4,7 @@ versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-UserGenerated"
 browseName "Pinwheel"
-browseDescription "Your empire is caught on the edge of a pinwheel. The most valuable planets are on the edges—but ignore the center at your peril."
+browseDescription "Your empire is caught in the pinwheel of this star. The most valuable planets are on the edges—but ignore the center at your peril."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
 planetArtifactDensity 0.350000

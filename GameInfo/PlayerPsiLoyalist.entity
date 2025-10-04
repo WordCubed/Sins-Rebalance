@@ -302,9 +302,9 @@ hyperspaceData
 	baseHyperspaceAntiMatterCost 120.000000
 	baseHyperspaceChargeUpTime 24.000000
 shieldData
-	shieldAbsorbGrowthPerDamage 0.005000
-	shieldAbsorbDecayRate 0.000100
-	shieldAbsorbBaseMin 0.333333
+	shieldAbsorbGrowthPerDamage 0.002500
+	shieldAbsorbDecayRate 0.001000
+	shieldAbsorbBaseMin 0.300000
 	shieldColor ff0eadff
 gameEventData
 	GameEventSound:AllianceCeaseFireBroken "EVENTPSI_ALLIANCECEASEFIREBROKEN"

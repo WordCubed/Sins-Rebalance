@@ -16,15 +16,17 @@ instantAction
 	targetFilter
 		numOwnerships 1
 		ownership "Player"
-		numObjects 6
+		numObjects 7
 		object "Fighter"
 		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
 		object "Titan"
 		object "StarBase"
-		numSpaces 1
+		object "PlanetModule"
+		numSpaces 2
 		space "Normal"
+		space "Phase"
 		numConstraints 1
 		constraint "HasWeapons"
 	effectInfo

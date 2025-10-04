@@ -43,7 +43,7 @@ stage
 		value 15.000000
 	upgradeProperty
 		propertyType "EnemyCultureRepelRate"
-		value 0.500000
+		value 2.000000
 	upgradeBoolPropertyCount 0
 stage
 	price
@@ -66,6 +66,6 @@ stage
 		value 30.000000
 	upgradeProperty
 		propertyType "EnemyCultureRepelRate"
-		value 1.000000
+		value 4.000000
 	upgradeBoolPropertyCount 0
 xpModifier 200.000000

@@ -7,7 +7,7 @@ browseName "Entanglement (Rebalance)"
 browseDescription "Plan expansion carefully in this clustered system: over-extended fleets can leave an opening for hostile empires to strike."
 isFirstCapitalShipIsFlagship TRUE
 randomizeStartingPositions FALSE
-planetArtifactDensity 0.340000
+planetArtifactDensity 0.350000
 planetBonusDensity 1.000000
 normalStartHomePlanetUpgradeLevel:Population 4
 normalStartHomePlanetUpgradeLevel:CivilianModules 4
@@ -295,7 +295,7 @@ star
 		designName "Planet10"
 		inGameName ""
 		type "Moon"
-		pos [ 327 , 202 ]
+		pos [ 317 , 215 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -320,7 +320,7 @@ star
 		designName "Planet11"
 		inGameName ""
 		type "Moon"
-		pos [ 200 , 268 ]
+		pos [ 215 , 284 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -545,7 +545,7 @@ star
 		designName "Planet20"
 		inGameName ""
 		type "PirateBase"
-		pos [ 217 , 313 ]
+		pos [ 240 , 320 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -570,7 +570,7 @@ star
 		designName "Planet21"
 		inGameName ""
 		type "PirateBase"
-		pos [ 297 , 232 ]
+		pos [ 297 , 237 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -670,7 +670,7 @@ star
 		designName "Planet25"
 		inGameName ""
 		type "GasGiant"
-		pos [ 121 , 372 ]
+		pos [ 116 , 375 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -695,7 +695,7 @@ star
 		designName "Planet26"
 		inGameName ""
 		type "Moon"
-		pos [ 196 , 349 ]
+		pos [ 209 , 368 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -745,7 +745,7 @@ star
 		designName "Planet28"
 		inGameName ""
 		type "Copper"
-		pos [ 145 , 471 ]
+		pos [ 143 , 476 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -770,7 +770,7 @@ star
 		designName "Planet29"
 		inGameName ""
 		type "Savannah"
-		pos [ 160 , 414 ]
+		pos [ 162 , 420 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -820,7 +820,7 @@ star
 		designName "Planet31"
 		inGameName ""
 		type "Moon"
-		pos [ 382 , 255 ]
+		pos [ 395 , 250 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1095,7 +1095,7 @@ star
 		designName "Planet42"
 		inGameName ""
 		type "GasGiant"
-		pos [ 398 , 434 ]
+		pos [ 405 , 416 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1470,7 +1470,7 @@ star
 		designName "Planet57"
 		inGameName ""
 		type "Moon"
-		pos [ 265 , 399 ]
+		pos [ 286 , 416 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1641,7 +1641,7 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 123
+	connectionCount 127
 	connection
 		planetIndexA 2
 		planetIndexB 0
@@ -1714,11 +1714,6 @@ star
 		type "PhaseLane"
 	connection
 		planetIndexA 26
-		planetIndexB 25
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 26
 		planetIndexB 11
 		spawnProbability 1.000000
 		type "PhaseLane"
@@ -1765,11 +1760,6 @@ star
 	connection
 		planetIndexA 39
 		planetIndexB 37
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 42
-		planetIndexB 41
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1898,11 +1888,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 61
-		planetIndexB 31
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 18
 		planetIndexB 12
 		spawnProbability 1.000000
@@ -1963,11 +1948,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 29
-		planetIndexB 11
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 7
 		planetIndexB 31
 		spawnProbability 1.000000
@@ -2018,16 +1998,6 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 33
-		planetIndexB 10
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 39
-		planetIndexB 41
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 40
 		planetIndexB 41
 		spawnProbability 1.000000
@@ -2050,16 +2020,6 @@ star
 	connection
 		planetIndexA 52
 		planetIndexB 26
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 29
-		planetIndexB 57
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 19
-		planetIndexB 11
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -2255,6 +2215,66 @@ star
 	connection
 		planetIndexA 6
 		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB 62
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 29
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 25
+		planetIndexB 11
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 33
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 61
+		planetIndexB 41
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 39
+		planetIndexB 63
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 61
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 42
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 53
+		planetIndexB 11
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 58
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 9
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 25
+		planetIndexB 57
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0

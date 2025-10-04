@@ -38,7 +38,7 @@ HullPointRestoreRate 9.375000
 BaseArmorPoints 10.000000
 MaxShieldPoints 4500.000000
 ShieldPointRestoreRate 18.750000
-maxShieldMitigation 0.466667
+maxShieldMitigation 0.470000
 ExperiencePointsForDestroying 150.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 1.000000

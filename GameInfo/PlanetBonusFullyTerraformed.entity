@@ -10,7 +10,7 @@ floatBonus:AdditivePopulation 100.000000
 floatBonus:AdditivePlanetHealth 1500.000000
 floatBonus:AdditiveSlotsCivilian 1.000000
 floatBonus:AdditiveSlotsTactical 2.000000
-floatBonus:AdditiveTaxIncome 1.000000
+floatBonus:AdditiveTaxIncome 0.000000
 floatBonus:AdditiveTradeIncomePerc 0.000000
 floatBonus:BombingDamageAsDamageTargetAdjustment 0.000000
 floatBonus:MaxAllegiancePercBonus 0.000000

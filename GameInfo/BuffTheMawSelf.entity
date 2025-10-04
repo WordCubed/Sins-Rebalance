@@ -45,10 +45,10 @@ instantAction
 		Level:2 2.600000
 		Level:3 2.600000
 	maxTargetCount
-		Level:0 16.000000
-		Level:1 16.000000
-		Level:2 16.000000
-		Level:3 16.000000
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Center"
@@ -92,10 +92,10 @@ periodicAction
 		Level:2 1.570000
 		Level:3 1.570000
 	maxTargetCount
-		Level:0 16.000000
-		Level:1 16.000000
-		Level:2 16.000000
-		Level:3 16.000000
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 20.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Center"

@@ -81,7 +81,7 @@ engineSoundID "ENGINE_PSISUPPORTSHIP"
 maxHullPoints 300.000000
 hullPointRestoreRate 0.625000
 armorPoints 5.000000
-maxMitigation 0.400000
+maxMitigation 0.390000
 experiencePointsForDestroying 20.000000
 minShadow 0.000000
 maxShadow 0.500000

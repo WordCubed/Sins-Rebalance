@@ -21,10 +21,10 @@ sourcePropertyType "AbilityALevel"
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "HullDamageExceedsAmount"
 onlyAutoCastWhenTargetHullDamageExceedsAmount
-	Level:0 10000.000000
-	Level:1 15000.000000
-	Level:2 20000.000000
-	Level:3 20000.000000
+	Level:0 2000.000000
+	Level:1 3000.000000
+	Level:2 4000.000000
+	Level:3 4000.000000
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE

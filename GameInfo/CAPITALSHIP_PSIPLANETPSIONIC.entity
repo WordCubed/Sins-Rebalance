@@ -13,9 +13,9 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 480.000000
-basePopulationKilled 2.000000
-bombingFreqTime 6.000000
+baseDamage 600.000000
+basePopulationKilled 10.000000
+bombingFreqTime 5.000000
 baseRange 6000.000000
 bombTransitTime 6.000000
 bombEffectCount 3

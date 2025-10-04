@@ -21,29 +21,31 @@ quickStartHomePlanetUpgradeLevel:TacticalModules 4
 quickStartHomePlanetUpgradeLevel:Home 1
 quickStartHomePlanetUpgradeLevel:ArtifactLevel 4
 quickStartHomePlanetUpgradeLevel:Infrastructure 4
-recommendedGameTypeCount 1
+recommendedGameTypeCount 3
+recommendedGameType "ThreeTeamsOfTwo"
+recommendedGameType "TwoTeamsOfThree"
 recommendedGameType "FFA"
 metersPerGalaxyUnit 250000.000000
-pixelsPerGalaxyUnit 3.439999
+pixelsPerGalaxyUnit 3.319999
 useRandomGenerator FALSE
 galaxyWidth 1707.000000
 galaxyHeight 980.000000
 nextStarNameUniqueId 0
-nextPlanetNameUniqueId 5
+nextPlanetNameUniqueId 20
 triggerCount 0
 starCount 1
 star
 	designName "RandomStar-0"
 	inGameName ""
-	type "RandomStar"
+	type "SpecialStar"
 	pos [ 150 , 150 ]
 	radius 150.000000
-	planetCount 55
+	planetCount 64
 	planet
 		designName "PirateBase-0"
 		inGameName ""
-		type "PirateBase"
-		pos [ 190 , 141 ]
+		type "Volcanic"
+		pos [ 197 , 160 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -68,7 +70,7 @@ star
 		designName "Volcanic-1"
 		inGameName ""
 		type "Volcanic"
-		pos [ 161 , 165 ]
+		pos [ 161 , 175 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -93,7 +95,7 @@ star
 		designName "Volcanic-2"
 		inGameName ""
 		type "Volcanic"
-		pos [ 146 , 183 ]
+		pos [ 151 , 193 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -118,7 +120,7 @@ star
 		designName "Volcanic-3"
 		inGameName ""
 		type "Volcanic"
-		pos [ 139 , 163 ]
+		pos [ 138 , 174 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -143,7 +145,7 @@ star
 		designName "Volcanic-4"
 		inGameName ""
 		type "Volcanic"
-		pos [ 123 , 176 ]
+		pos [ 116 , 192 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -168,7 +170,7 @@ star
 		designName "Volcanic-5"
 		inGameName ""
 		type "Volcanic"
-		pos [ 106 , 162 ]
+		pos [ 91 , 156 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -193,7 +195,7 @@ star
 		designName "Volcanic-8"
 		inGameName ""
 		type "Volcanic"
-		pos [ 112 , 136 ]
+		pos [ 94 , 131 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -218,7 +220,7 @@ star
 		designName "Volcanic-7"
 		inGameName ""
 		type "Volcanic"
-		pos [ 135 , 138 ]
+		pos [ 116 , 126 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -243,7 +245,7 @@ star
 		designName "Piratebase-6"
 		inGameName ""
 		type "PirateBase"
-		pos [ 143 , 120 ]
+		pos [ 116 , 104 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -268,7 +270,7 @@ star
 		designName "Volcanic-9"
 		inGameName ""
 		type "Volcanic"
-		pos [ 164 , 119 ]
+		pos [ 185 , 117 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -293,7 +295,7 @@ star
 		designName "Volcanic-10"
 		inGameName ""
 		type "Volcanic"
-		pos [ 167 , 138 ]
+		pos [ 174 , 141 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -317,8 +319,8 @@ star
 	planet
 		designName "Volcanic-11"
 		inGameName ""
-		type "Volcanic"
-		pos [ 184 , 167 ]
+		type "PirateBase"
+		pos [ 185 , 179 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -343,32 +345,7 @@ star
 		designName "Asteroid-12"
 		inGameName ""
 		type "Asteroid"
-		pos [ 267 , 162 ]
-		owner ""
-		isHomePlanet FALSE
-		normalStartUpgradeLevelForPopulation 0
-		normalStartUpgradeLevelForCivilianModules 0
-		normalStartUpgradeLevelForTacticalModules 0
-		normalStartUpgradeLevelForArtifacts 0
-		normalStartUpgradeLevelForInfrastructure 0
-		quickStartUpgradeLevelForPopulation 0
-		quickStartUpgradeLevelForCivilianModules 0
-		quickStartUpgradeLevelForTacticalModules 0
-		quickStartUpgradeLevelForArtifacts 0
-		quickStartUpgradeLevelForInfrastructure 0
-		planetItems
-			templateName ""
-			subTemplates 0
-			groups 0
-		spawnProbability 1.000000
-		useDefaultTemplate TRUE
-		entityCount 0
-		asteroidCount 0
-	planet
-		designName "Asteroid-13"
-		inGameName ""
-		type "Asteroid"
-		pos [ 262 , 186 ]
+		pos [ 264 , 171 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -392,8 +369,8 @@ star
 	planet
 		designName "Asteroid-14"
 		inGameName ""
-		type "Asteroid"
-		pos [ 249 , 208 ]
+		type "Moon"
+		pos [ 255 , 205 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -417,8 +394,8 @@ star
 	planet
 		designName "Asteroid-15"
 		inGameName ""
-		type "Asteroid"
-		pos [ 232 , 236 ]
+		type "ShipGraveyard"
+		pos [ 219 , 239 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -443,7 +420,7 @@ star
 		designName "Asteroid-16"
 		inGameName ""
 		type "Asteroid"
-		pos [ 197 , 252 ]
+		pos [ 185 , 238 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -467,8 +444,8 @@ star
 	planet
 		designName "Asteroid-17"
 		inGameName ""
-		type "Asteroid"
-		pos [ 171 , 259 ]
+		type "Moon"
+		pos [ 138 , 268 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -492,8 +469,8 @@ star
 	planet
 		designName "Asteroid-18"
 		inGameName ""
-		type "Asteroid"
-		pos [ 143 , 260 ]
+		type "ShipGraveyard"
+		pos [ 121 , 279 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -518,7 +495,7 @@ star
 		designName "Asteroid-19"
 		inGameName ""
 		type "Asteroid"
-		pos [ 108 , 256 ]
+		pos [ 97 , 255 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -543,32 +520,7 @@ star
 		designName "Asteroid-20"
 		inGameName ""
 		type "Asteroid"
-		pos [ 74 , 233 ]
-		owner ""
-		isHomePlanet FALSE
-		normalStartUpgradeLevelForPopulation 0
-		normalStartUpgradeLevelForCivilianModules 0
-		normalStartUpgradeLevelForTacticalModules 0
-		normalStartUpgradeLevelForArtifacts 0
-		normalStartUpgradeLevelForInfrastructure 0
-		quickStartUpgradeLevelForPopulation 0
-		quickStartUpgradeLevelForCivilianModules 0
-		quickStartUpgradeLevelForTacticalModules 0
-		quickStartUpgradeLevelForArtifacts 0
-		quickStartUpgradeLevelForInfrastructure 0
-		planetItems
-			templateName ""
-			subTemplates 0
-			groups 0
-		spawnProbability 1.000000
-		useDefaultTemplate TRUE
-		entityCount 0
-		asteroidCount 0
-	planet
-		designName "Asteroid-21"
-		inGameName ""
-		type "Asteroid"
-		pos [ 50 , 211 ]
+		pos [ 71 , 253 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -592,8 +544,8 @@ star
 	planet
 		designName "Asteroid-22"
 		inGameName ""
-		type "Asteroid"
-		pos [ 28 , 187 ]
+		type "Moon"
+		pos [ 24 , 213 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -617,8 +569,8 @@ star
 	planet
 		designName "Asteroid-23"
 		inGameName ""
-		type "Asteroid"
-		pos [ 27 , 153 ]
+		type "ShipGraveyard"
+		pos [ 26 , 188 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -643,7 +595,7 @@ star
 		designName "Asteroid-24"
 		inGameName ""
 		type "Asteroid"
-		pos [ 5 , 127 ]
+		pos [ 13 , 156 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -668,7 +620,7 @@ star
 		designName "Asteroid-25"
 		inGameName ""
 		type "Asteroid"
-		pos [ 31 , 95 ]
+		pos [ 17 , 124 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -692,8 +644,8 @@ star
 	planet
 		designName "Asteroid-26"
 		inGameName ""
-		type "Asteroid"
-		pos [ 43 , 63 ]
+		type "Moon"
+		pos [ 25 , 95 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -718,7 +670,7 @@ star
 		designName "Asteroid-27"
 		inGameName ""
 		type "Asteroid"
-		pos [ 84 , 29 ]
+		pos [ 89 , 65 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -743,7 +695,7 @@ star
 		designName "Asteroid-28"
 		inGameName ""
 		type "Asteroid"
-		pos [ 127 , 47 ]
+		pos [ 112 , 48 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -767,8 +719,8 @@ star
 	planet
 		designName "Asteroid-29"
 		inGameName ""
-		type "Asteroid"
-		pos [ 143 , 16 ]
+		type "Moon"
+		pos [ 132 , 22 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -793,7 +745,7 @@ star
 		designName "Asteroid-30"
 		inGameName ""
 		type "Asteroid"
-		pos [ 193 , 14 ]
+		pos [ 214 , 42 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -817,33 +769,8 @@ star
 	planet
 		designName "Asteroid-31"
 		inGameName ""
-		type "Asteroid"
-		pos [ 210 , 48 ]
-		owner ""
-		isHomePlanet FALSE
-		normalStartUpgradeLevelForPopulation 0
-		normalStartUpgradeLevelForCivilianModules 0
-		normalStartUpgradeLevelForTacticalModules 0
-		normalStartUpgradeLevelForArtifacts 0
-		normalStartUpgradeLevelForInfrastructure 0
-		quickStartUpgradeLevelForPopulation 0
-		quickStartUpgradeLevelForCivilianModules 0
-		quickStartUpgradeLevelForTacticalModules 0
-		quickStartUpgradeLevelForArtifacts 0
-		quickStartUpgradeLevelForInfrastructure 0
-		planetItems
-			templateName ""
-			subTemplates 0
-			groups 0
-		spawnProbability 1.000000
-		useDefaultTemplate TRUE
-		entityCount 0
-		asteroidCount 0
-	planet
-		designName "Asteroid-32"
-		inGameName ""
-		type "Asteroid"
-		pos [ 243 , 60 ]
+		type "Moon"
+		pos [ 257 , 94 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -867,8 +794,8 @@ star
 	planet
 		designName "Asteroid-33"
 		inGameName ""
-		type "Asteroid"
-		pos [ 255 , 92 ]
+		type "ShipGraveyard"
+		pos [ 275 , 132 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -893,7 +820,7 @@ star
 		designName "Asteroid-34"
 		inGameName ""
 		type "Asteroid"
-		pos [ 286 , 126 ]
+		pos [ 282 , 154 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -918,8 +845,8 @@ star
 		designName "DesertHome-35"
 		inGameName ""
 		type "DesertHome"
-		pos [ 215 , 179 ]
-		owner "Player-0"
+		pos [ 215 , 190 ]
+		owner "Player-3"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -943,7 +870,7 @@ star
 		designName "Desert-36"
 		inGameName ""
 		type "Desert"
-		pos [ 230 , 163 ]
+		pos [ 239 , 183 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -968,7 +895,7 @@ star
 		designName "Desert-37"
 		inGameName ""
 		type "Desert"
-		pos [ 199 , 191 ]
+		pos [ 217 , 214 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -993,8 +920,8 @@ star
 		designName "DesertHome-38"
 		inGameName ""
 		type "DesertHome"
-		pos [ 138 , 219 ]
-		owner "Player-1"
+		pos [ 140 , 242 ]
+		owner "Player-4"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -1018,7 +945,7 @@ star
 		designName "Desert-39"
 		inGameName ""
 		type "Desert"
-		pos [ 157 , 219 ]
+		pos [ 164 , 245 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1043,7 +970,7 @@ star
 		designName "Desert-40"
 		inGameName ""
 		type "Desert"
-		pos [ 119 , 212 ]
+		pos [ 118 , 238 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1068,8 +995,8 @@ star
 		designName "DesertHome-41"
 		inGameName ""
 		type "DesertHome"
-		pos [ 66 , 154 ]
-		owner "Player-2"
+		pos [ 62 , 193 ]
+		owner "Player-5"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -1093,7 +1020,7 @@ star
 		designName "Desert-42"
 		inGameName ""
 		type "Desert"
-		pos [ 71 , 171 ]
+		pos [ 70 , 213 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1118,7 +1045,7 @@ star
 		designName "Desert-43"
 		inGameName ""
 		type "Desert"
-		pos [ 68 , 134 ]
+		pos [ 55 , 173 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1143,8 +1070,8 @@ star
 		designName "DesertHome-44"
 		inGameName ""
 		type "DesertHome"
-		pos [ 112 , 82 ]
-		owner "Player-3"
+		pos [ 57 , 95 ]
+		owner "Player-0"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -1168,7 +1095,7 @@ star
 		designName "Desert-45"
 		inGameName ""
 		type "Desert"
-		pos [ 133 , 78 ]
+		pos [ 81 , 88 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1193,7 +1120,7 @@ star
 		designName "Desert-46"
 		inGameName ""
 		type "Desert"
-		pos [ 94 , 86 ]
+		pos [ 65 , 115 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1218,8 +1145,8 @@ star
 		designName "DesertHome-47"
 		inGameName ""
 		type "DesertHome"
-		pos [ 201 , 106 ]
-		owner "Player-4"
+		pos [ 223 , 120 ]
+		owner "Player-2"
 		isHomePlanet TRUE
 		normalStartUpgradeLevelForPopulation 0
 		normalStartUpgradeLevelForCivilianModules 0
@@ -1243,7 +1170,7 @@ star
 		designName "Desert-48"
 		inGameName ""
 		type "Desert"
-		pos [ 214 , 119 ]
+		pos [ 248 , 127 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1268,7 +1195,7 @@ star
 		designName "Desert-49"
 		inGameName ""
 		type "Desert"
-		pos [ 183 , 97 ]
+		pos [ 234 , 99 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 0
@@ -1292,8 +1219,8 @@ star
 	planet
 		designName "Planet0"
 		inGameName ""
-		type "Asteroid"
-		pos [ 197 , 224 ]
+		type "Moon"
+		pos [ 191 , 217 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1317,8 +1244,8 @@ star
 	planet
 		designName "Planet1"
 		inGameName ""
-		type "Asteroid"
-		pos [ 161 , 48 ]
+		type "Moon"
+		pos [ 102 , 83 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1342,8 +1269,8 @@ star
 	planet
 		designName "Planet2"
 		inGameName ""
-		type "Asteroid"
-		pos [ 87 , 210 ]
+		type "Moon"
+		pos [ 96 , 233 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1367,8 +1294,8 @@ star
 	planet
 		designName "Planet3"
 		inGameName ""
-		type "Asteroid"
-		pos [ 245 , 123 ]
+		type "Moon"
+		pos [ 236 , 152 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1392,8 +1319,8 @@ star
 	planet
 		designName "Planet4"
 		inGameName ""
-		type "Asteroid"
-		pos [ 60 , 95 ]
+		type "Moon"
+		pos [ 47 , 152 ]
 		owner ""
 		isHomePlanet FALSE
 		normalStartUpgradeLevelForPopulation 3
@@ -1414,7 +1341,307 @@ star
 		useDefaultTemplate TRUE
 		entityCount 0
 		asteroidCount 0
-	connectionCount 100
+	planet
+		designName "Planet5"
+		inGameName ""
+		type "Desert"
+		pos [ 135 , 74 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet6"
+		inGameName ""
+		type "DesertHome"
+		pos [ 150 , 59 ]
+		owner "Player-1"
+		isHomePlanet TRUE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet7"
+		inGameName ""
+		type "Desert"
+		pos [ 168 , 74 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet8"
+		inGameName ""
+		type "Moon"
+		pos [ 186 , 87 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet9"
+		inGameName ""
+		type "Volcanic"
+		pos [ 158 , 124 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet10"
+		inGameName ""
+		type "Volcanic"
+		pos [ 118 , 157 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet11"
+		inGameName ""
+		type "Volcanic"
+		pos [ 138 , 118 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet14"
+		inGameName ""
+		type "ShipGraveyard"
+		pos [ 189 , 51 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet16"
+		inGameName ""
+		type "PirateBase"
+		pos [ 93 , 191 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet17"
+		inGameName ""
+		type "ShipGraveyard"
+		pos [ 68 , 61 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet18"
+		inGameName ""
+		type "Asteroid"
+		pos [ 226 , 76 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet19"
+		inGameName ""
+		type "Asteroid"
+		pos [ 188 , 262 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 106
 	connection
 		planetIndexA 0
 		planetIndexB 11
@@ -1431,33 +1658,13 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 12
-		planetIndexB 13
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 12
-		planetIndexB 36
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 12
-		planetIndexB 34
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 13
-		planetIndexB 36
+		planetIndexB 14
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 14
 		planetIndexB 15
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 15
-		planetIndexB 16
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1476,18 +1683,13 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 19
-		planetIndexB 20
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 20
 		planetIndexB 21
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 20
-		planetIndexB 40
+		planetIndexB 39
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1501,48 +1703,8 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 22
-		planetIndexB 42
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
 		planetIndexA 23
 		planetIndexB 24
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 24
-		planetIndexB 25
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 25
-		planetIndexB 26
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 26
-		planetIndexB 27
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 27
-		planetIndexB 29
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 28
-		planetIndexB 29
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 28
-		planetIndexB 45
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 29
-		planetIndexB 30
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1551,18 +1713,13 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 31
-		planetIndexB 32
+		planetIndexA 30
+		planetIndexB 45
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 33
-		planetIndexB 34
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 33
-		planetIndexB 48
+		planetIndexA 32
+		planetIndexB 33
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1571,18 +1728,13 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 38
-		planetIndexB 39
+		planetIndexA 41
+		planetIndexB 43
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 44
-		planetIndexB 46
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 44
-		planetIndexB 45
+		planetIndexA 41
+		planetIndexB 42
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1596,8 +1748,8 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 40
-		planetIndexB 38
+		planetIndexA 37
+		planetIndexB 35
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1606,53 +1758,28 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 41
-		planetIndexB 43
+		planetIndexA 38
+		planetIndexB 40
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 46
-		planetIndexB 26
+		planetIndexA 43
+		planetIndexB 24
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 48
-		planetIndexB 47
+		planetIndexA 45
+		planetIndexB 44
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 13
-		planetIndexB 14
+		planetIndexA 44
+		planetIndexB 46
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 40
-		planetIndexB 4
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 27
-		planetIndexB 28
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 47
-		planetIndexB 49
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 33
-		planetIndexB 32
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 35
-		planetIndexB 37
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 35
-		planetIndexB 14
+		planetIndexA 32
+		planetIndexB 34
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1661,18 +1788,13 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 41
-		planetIndexB 42
+		planetIndexA 38
+		planetIndexB 39
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 8
 		planetIndexB 6
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 5
-		planetIndexB -1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1716,62 +1838,27 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 37
-		planetIndexB 15
+		planetIndexA 34
+		planetIndexB 14
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 49
-		planetIndexB 31
+		planetIndexA 46
+		planetIndexB 29
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 47
-		planetIndexB 32
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 49
-		planetIndexB 30
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 37
+		planetIndexA 34
 		planetIndexB 1
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 38
-		planetIndexB 19
+		planetIndexA 36
+		planetIndexB 16
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 39
-		planetIndexB 18
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 39
-		planetIndexB 17
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 43
-		planetIndexB 24
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 41
-		planetIndexB 23
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 44
-		planetIndexB 27
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 48
+		planetIndexA 45
 		planetIndexB 10
 		spawnProbability 1.000000
 		type "PhaseLane"
@@ -1781,98 +1868,38 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 9
-		planetIndexB -1
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 50
+		planetIndexA 47
 		planetIndexB 15
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 50
-		planetIndexB 16
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 50
+		planetIndexA 47
 		planetIndexB 2
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 31
+		planetIndexA 18
+		planetIndexB 49
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 49
+		planetIndexB 37
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 40
 		planetIndexB 51
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 51
-		planetIndexB 28
+		planetIndexA 42
+		planetIndexB 48
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 51
-		planetIndexB 9
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 21
-		planetIndexB 52
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 19
-		planetIndexB 52
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 52
-		planetIndexB 5
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 53
-		planetIndexB 12
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 53
-		planetIndexB 33
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 53
-		planetIndexB 11
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 0
-		planetIndexB 34
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 52
-		planetIndexB 40
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 54
-		planetIndexB 26
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 43
-		planetIndexB 54
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 45
-		planetIndexB 51
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 37
-		planetIndexB 50
+		planetIndexA 34
+		planetIndexB 47
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
@@ -1891,39 +1918,269 @@ star
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 48
-		planetIndexB 53
-		spawnProbability 1.000000
-		type "PhaseLane"
-	connection
-		planetIndexA 25
-		planetIndexB 43
+		planetIndexA 45
+		planetIndexB 50
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
 		planetIndexA 3
-		planetIndexB 43
+		planetIndexB 40
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 54
+		planetIndexA 51
 		planetIndexB 6
 		spawnProbability 1.000000
 		type "PhaseLane"
 	connection
-		planetIndexA 45
+		planetIndexA 42
 		planetIndexB 7
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 53
+		planetIndexB 54
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 53
+		planetIndexB 52
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 48
+		planetIndexB 9
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 55
+		planetIndexB 54
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 57
+		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 57
+		planetIndexB 6
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 37
+		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 49
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 3
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 58
+		planetIndexB 54
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 57
+		planetIndexB 58
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 56
+		planetIndexB 58
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 56
+		planetIndexB 55
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 50
+		planetIndexB 0
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 59
+		planetIndexB 27
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 33
+		planetIndexB 13
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 56
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 7
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 11
+		planetIndexB 12
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 40
+		planetIndexB 21
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 51
+		planetIndexB 22
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 60
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 5
+		planetIndexB 60
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 60
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 60
+		planetIndexB 19
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 37
+		planetIndexB 17
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 61
+		planetIndexB 42
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 61
+		planetIndexB 24
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 61
+		planetIndexB 25
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 48
+		planetIndexB 25
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 8
+		planetIndexB 26
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 26
+		planetIndexB 25
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 26
+		planetIndexB 27
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 50
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 52
+		planetIndexB 27
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 59
+		planetIndexB 28
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 62
+		planetIndexB 29
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 62
+		planetIndexB 28
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 56
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 12
+		planetIndexB 31
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 12
+		planetIndexB 13
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 63
+		planetIndexB 15
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 63
+		planetIndexB 16
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 19
+		planetIndexB 20
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 54
+		planetIndexB 59
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 55
+		planetIndexB 28
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 29
+		planetIndexB 30
 		spawnProbability 1.000000
 		type "PhaseLane"
 	entityCount 0
 	spawnProbability 1.000000
 interStarConnectionCount 0
-playerCount 10
+playerCount 6
 player
 	designName "Player-0"
 	inGameName ""
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 0
 	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
@@ -1936,7 +2193,7 @@ player
 	designName "Player-1"
 	inGameName ""
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 0
 	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
@@ -1949,7 +2206,7 @@ player
 	designName "Player-2"
 	inGameName ""
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
@@ -1962,7 +2219,7 @@ player
 	designName "Player-3"
 	inGameName ""
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 1
 	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
@@ -1975,7 +2232,7 @@ player
 	designName "Player-4"
 	inGameName ""
 	overrideRaceName ""
-	teamIndex -1
+	teamIndex 2
 	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000
@@ -1988,59 +2245,7 @@ player
 	designName "Player-5"
 	inGameName ""
 	overrideRaceName ""
-	teamIndex -1
-	startingCredits 20000
-	startingMetal 4000
-	startingCrystal 4000
-	playerType "Normal"
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player-6"
-	inGameName ""
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 20000
-	startingMetal 4000
-	startingCrystal 4000
-	playerType "Normal"
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player-7"
-	inGameName ""
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 20000
-	startingMetal 4000
-	startingCrystal 4000
-	playerType "Normal"
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player-8"
-	inGameName ""
-	overrideRaceName ""
-	teamIndex -1
-	startingCredits 20000
-	startingMetal 4000
-	startingCrystal 4000
-	playerType "Normal"
-	themeGroup ""
-	themeIndex 0
-	pictureGroup ""
-	pictureIndex 0
-player
-	designName "Player-9"
-	inGameName ""
-	overrideRaceName ""
-	teamIndex -1
+	teamIndex 2
 	startingCredits 20000
 	startingMetal 4000
 	startingCrystal 4000

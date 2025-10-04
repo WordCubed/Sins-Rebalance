@@ -9,7 +9,7 @@ GameplayConstants
 	zoomDistanceLevel2 4000000
 	nearFarThreshold 180000
 	baseHyperspaceRange 1000000.0
-	jumpAngle 35
+	jumpAngle 60
 	timeForPeaceTreatyCooldown 120
 	defaultGravWellColor FFFFFFFF
 	phaseLaneWidth 4

@@ -20,10 +20,10 @@ levelSourceType "TitanUpgradeLevel"
 sourcePropertyType "AbilityBLevel"
 aiUseTime "OnlyWhenManyTargetsHaveHullDamage"
 onlyAutoCastWhenTotalHullDamageExceedsAmount
-	Level:0 6000.000000
-	Level:1 9000.000000
-	Level:2 12000.000000
-	Level:3 12000.000000
+	Level:0 4000.000000
+	Level:1 6000.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -32,10 +32,10 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "HullAndAntimatter"
 hullCost
-	Level:0 5000.000000
-	Level:1 7500.000000
-	Level:2 10000.000000
-	Level:3 10000.000000
+	Level:0 4000.000000
+	Level:1 6000.000000
+	Level:2 8000.000000
+	Level:3 8000.000000
 antiMatterCost
 	Level:0 60.000000
 	Level:1 60.000000

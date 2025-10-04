@@ -8,9 +8,9 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 240.000000
-basePopulationKilled 1.000000
-bombingFreqTime 6.000000
+baseDamage 300.000000
+basePopulationKilled 5.000000
+bombingFreqTime 5.000000
 baseRange 4000.000000
 bombTransitTime 4.000000
 bombEffectCount 2
@@ -62,7 +62,7 @@ MaxShieldPoints 1875.000000
 HullPointRestoreRate 3.125000
 ShieldPointRestoreRate 6.250000
 BaseArmorPoints 10.000000
-maxMitigation 0.466667
+maxMitigation 0.470000
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1

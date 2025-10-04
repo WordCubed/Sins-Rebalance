@@ -1,5 +1,8 @@
 TXT
-NumStrings 8950
+NumStrings 8951
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET_DESCRIPTION"
+	Value "Grants the Dark Combat Fleet, Dark Support Fleet and Dark Capital Ship abilities to Phase Gates, allowing them to summon remnants of the Dark Fleet to aid your empire."
 StringInfo
 	ID "IDS_ABILITY_NOAUTODEPLOY_NAME"
 	Value "Civilian Planet"
@@ -8,13 +11,13 @@ StringInfo
 	Value "Prevents AI players from deploying Starbases around this planet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH0_NAME"
-	Value "Temperate Urban Policy I"
+	Value "Temperate Urbanism I"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH0_DESCRIPTION"
 	Value "Shifts in urban planning philosophies favor dense urban metropolises, increasing the population cap on temperate planets under your empire's control."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH1_NAME"
-	Value "Temperate Urban Policy II"
+	Value "Temperate Urbanism II"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POPULATIONCAPTERRANTECH1_DESCRIPTION"
 	Value "Breakthroughs in sustainable housing allow for increases of the population cap on temperate planets under your empire's control."
@@ -152,7 +155,7 @@ StringInfo
 	Value "The heightened fear your people feel whenever they witness a superweapon impact drives your units to fight harder. Grants a temporary +30% damage and +10 armor boost to your units when a superweapon hits the planet (or neighboring planet) they're orbiting."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_NAME"
-	Value "The Empty Throne"
+	Value "Foreign Space"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_DESCRIPTION"
 	Value "Your Titan and Starbases become powerful symbols of your empire, increasing damage by +30% when you have a Titan or Starbase in a gravity well you don't have a colony in."

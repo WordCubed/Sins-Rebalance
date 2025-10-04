@@ -71,10 +71,10 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
-		Level:0 -0.166667
-		Level:1 -0.250000
-		Level:2 -0.333333
-		Level:3 -0.333333
+		Level:0 -0.150000
+		Level:1 -0.225000
+		Level:2 -0.300000
+		Level:3 -0.300000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

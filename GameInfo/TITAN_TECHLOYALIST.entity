@@ -13,9 +13,9 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 720.000000
-basePopulationKilled 3.000000
-bombingFreqTime 6.000000
+baseDamage 900.000000
+basePopulationKilled 15.000000
+bombingFreqTime 5.000000
 baseRange 10000.000000
 bombTransitTime 6.000000
 bombEffectCount 8
@@ -65,7 +65,7 @@ ArmorPointsFromExperience
 	StartValue 20.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
-	StartValue 0.666667
+	StartValue 0.650000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
 	StartValue 480.000000
