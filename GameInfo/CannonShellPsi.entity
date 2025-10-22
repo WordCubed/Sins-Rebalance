@@ -1,9 +1,9 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "CannonShell"
-acceleration 300000.000000
-startingSpeed 300000.000000
-maxSpeed 3000000.000000
+acceleration 400000.000000
+startingSpeed 400000.000000
+maxSpeed 4000000.000000
 buffToApplyOnImpact "BuffCannonShellPsi"
 planetImpactEffectName "Ability_OrbitalCannonPsiSurfaceImpact"
 planetImpactSounds

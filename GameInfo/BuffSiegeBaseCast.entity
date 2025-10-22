@@ -1,0 +1,56 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffSiegeBaseTarget"
+	travelSpeed 10000.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Ability_OrbitalCannonTechMuzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_TECHORBITALCANNON_MUZZLE"
+		hitEffectName "Ability_OrbitalCannonTechSurfaceImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "EXPLOSION_CANNONSHELLTECH"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "EXPLOSION_CANNONSHELLTECH"
+		projectileTravelEffectName "CapitalAbility_RazePlanetShellTravel"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"
+finishCondition
+	finishConditionType "TargetOwnerIsNeutral"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"
+finishCondition
+	finishConditionType "OwnerChanged"

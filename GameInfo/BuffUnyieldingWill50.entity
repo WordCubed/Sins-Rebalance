@@ -10,36 +10,43 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
-numOverTimeActions 1
-overTimeAction
-	buffOverTimeActionType "RestoreShields"
-	shieldRestoreRate
-		Level:0 675.000000
-		Level:1 675.000000
-		Level:2 675.000000
-		Level:3 675.000000
-numEntityModifiers 3
+numOverTimeActions 0
+numEntityModifiers 5
 entityModifier
-	buffEntityModifierType "AbilityCooldownRate"
+	buffEntityModifierType "ShieldPointRestoreRate"
 	value
-		Level:0 0.500000
-		Level:1 0.500000
-		Level:2 0.500000
-		Level:3 0.500000
+		Level:0 7.500000
+		Level:1 7.500000
+		Level:2 7.500000
+		Level:3 7.500000
 entityModifier
 	buffEntityModifierType "AntimatterRestoreRate"
 	value
-		Level:0 0.500000
-		Level:1 0.500000
-		Level:2 0.500000
-		Level:3 0.500000
+		Level:0 0.300000
+		Level:1 0.300000
+		Level:2 0.300000
+		Level:3 0.300000
+entityModifier
+	buffEntityModifierType "AbilityCooldownRate"
+	value
+		Level:0 0.333333
+		Level:1 0.333333
+		Level:2 0.333333
+		Level:3 0.333333
+entityModifier
+	buffEntityModifierType "ChanceToIgnoreShieldsAsDamageTarget"
+	value
+		Level:0 -0.750000
+		Level:1 -0.750000
+		Level:2 -0.750000
+		Level:3 -0.750000
 entityModifier
 	buffEntityModifierType "DamageAsDamageTarget"
 	value
-		Level:0 -0.500000
-		Level:1 -0.500000
-		Level:2 -0.500000
-		Level:3 -0.500000
+		Level:0 -0.250000
+		Level:1 -0.250000
+		Level:2 -0.250000
+		Level:3 -0.250000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition

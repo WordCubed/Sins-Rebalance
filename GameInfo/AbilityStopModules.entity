@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffMagneticCloud"
+buffType "BuffSiegeTurretEffects"
 targetFilter
 	numOwnerships 2
 	ownership "Enemy"

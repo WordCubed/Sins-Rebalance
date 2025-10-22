@@ -8,31 +8,45 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 0
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfOwnerHasBuff"
+	conditionBuffType "BuffMicroPhaseTrapTarget"
+	conditionBuffShortName ""
+	buffType "BuffGravityPulseBonusEffect"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 3
 entityModifier
 	buffEntityModifierType "LinearMaxSpeed"
 	value
-		Level:0 -0.300000
-		Level:1 -0.450000
-		Level:2 -0.600000
-		Level:3 -0.600000
+		Level:0 -0.400000
+		Level:1 -0.600000
+		Level:2 -0.800000
+		Level:3 -0.800000
 entityModifier
 	buffEntityModifierType "LinearThrust"
 	value
-		Level:0 -0.300000
-		Level:1 -0.450000
-		Level:2 -0.600000
-		Level:3 -0.600000
+		Level:0 -0.400000
+		Level:1 -0.600000
+		Level:2 -0.800000
+		Level:3 -0.800000
 entityModifier
 	buffEntityModifierType "AngularThrust"
 	value
-		Level:0 -0.300000
-		Level:1 -0.450000
-		Level:2 -0.600000
-		Level:3 -0.600000
+		Level:0 -0.400000
+		Level:1 -0.600000
+		Level:2 -0.800000
+		Level:3 -0.800000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

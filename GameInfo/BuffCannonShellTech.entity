@@ -2,18 +2,30 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
-stackingLimit 3
-allowFirstSpawnerToStack TRUE
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 3
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffCannonShellTechCast"
+	buffType "BuffCannonShellTechEMPCast"
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CannonShellTechEMP"
+		mediumEffectName "CannonShellTechEMP"
+		largeEffectName "CannonShellTechEMP"
+		soundID "Effect_EMPBlast"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellTechBlockadeCast"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -21,6 +33,25 @@ instantAction
 		mediumEffectName ""
 		largeEffectName ""
 		soundID ""
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 0.000000
+		maxFleetPoints 1.000000
+		requiredShipCount 1
+		requiredShip
+			type "FrigateTechFireBaseConstructor"
+			minCount 1
+			maxCount 1
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 0.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

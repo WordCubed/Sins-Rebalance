@@ -62,7 +62,7 @@ instantAction
 	delayTime 0.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Center"
+			attachType "Invalid"
 		smallEffectName ""
 		mediumEffectName ""
 		largeEffectName ""

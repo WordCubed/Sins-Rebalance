@@ -8,26 +8,12 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 3
-instantAction
-	buffInstantActionType "ApplyBuffToSelf"
-	instantActionTriggerType "OnCondition"
-	instantActionConditionType "IfOwnerHasBuff"
-	conditionBuffType "BuffMicroPhaseJumpSelf"
-	conditionBuffShortName ""
-	buffType "BuffGravityPulseSelfBuff"
-	effectInfo
-		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
+numInstantActions 2
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffGravityPulseTarget"
+	buffType "BuffGravityPulseTargetSlowed"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
@@ -49,20 +35,20 @@ instantAction
 		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
+			attachType "Ability"
+				abilityIndex 0
+		smallEffectName "TitanAbility_GravityPulse"
+		mediumEffectName "TitanAbility_GravityPulse"
+		largeEffectName "TitanAbility_GravityPulse"
+		soundID "EFFECT_GRAVITYPULSE"
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "BuffGravityPulseTargetSped"
 	targetFilter
-		numOwnerships 2
+		numOwnerships 1
 		ownership "Friendly"
-		ownership "Player"
 		numObjects 6
 		object "Fighter"
 		object "Corvette"
@@ -70,7 +56,8 @@ instantAction
 		object "CapitalShip"
 		object "Titan"
 		object "StarBase"
-		numSpaces 0
+		numSpaces 1
+		space "Normal"
 		numConstraints 1
 		constraint "NotSelf"
 	maxTargetCount
@@ -80,15 +67,21 @@ instantAction
 		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
-			attachType "Invalid"
-		smallEffectName ""
-		mediumEffectName ""
-		largeEffectName ""
-		soundID ""
+			attachType "Ability"
+				abilityIndex 0
+		smallEffectName "TitanAbility_GravityPulse"
+		mediumEffectName "TitanAbility_GravityPulse"
+		largeEffectName "TitanAbility_GravityPulse"
+		soundID "EFFECT_GRAVITYPULSE"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000

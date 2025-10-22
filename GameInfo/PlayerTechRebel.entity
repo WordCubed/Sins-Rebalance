@@ -245,10 +245,11 @@ entities
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH6"
 		entityDefName "RESEARCHSUBJECT_MAXSHIPSLOTSTECH7"
 	starBaseInfo
-		count 3
+		count 4
 		entityDefName "StarBaseTech"
 		entityDefName "StarBaseTechFree"
 		entityDefName "StarBaseTechAuto"
+		entityDefName "StarBaseFireBase"
 	flagship "FrigateTechFlagship"
 debrisData
 	numRandomMeshNamesLarge 8

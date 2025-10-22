@@ -43,7 +43,7 @@ GameplayConstants
 		populationGrowthPercWhenBombed 0.10
 		moduleConstructorRespawnTime 30
 		moduleConstructorRespawnTimeWithEnemies 60
-		baseTaxRatePerPopulation 0.200
+		baseTaxRatePerPopulation 0.150
 		planetBaseAllegianceAtDistanceCount 11
 		allegiance 1.00
 		allegiance 0.90
@@ -983,7 +983,7 @@ GameplayConstants
 			FactionName "IDS_PLAYERFACTIONNAME_REBEL"
 			FactionName "IDS_PLAYERFACTIONNAME_LOYALIST"
 	playerTradeNetworkDef
-		incomeRateBonusPerLongestNodeDistanceNode .05
+		incomeRateBonusPerLongestNodeDistanceNode .0375
 	targetTypeCounterData
 	aiData
 		aiRetreatThreshold 0.25

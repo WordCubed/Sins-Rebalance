@@ -24,7 +24,7 @@ instantAction
 instantAction
 	buffInstantActionType "ApplyBuffToLocalOrbitBody"
 	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
+	delayTime 1.000000
 	buffType "BuffPhaseGateStarBaseTarget"
 	targetFilter
 		numOwnerships 3
@@ -52,7 +52,7 @@ numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 120.000000
-		Level:1 120.000000
-		Level:2 120.000000
-		Level:3 120.000000
+		Level:0 6.000000
+		Level:1 6.000000
+		Level:2 6.000000
+		Level:3 6.000000

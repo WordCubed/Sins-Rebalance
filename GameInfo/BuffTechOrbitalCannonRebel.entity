@@ -22,8 +22,7 @@ instantAction
 		soundID "WEAPON_TECHORBITALCANNON_CHARGE"
 instantAction
 	buffInstantActionType "CreateCannonShell"
-	instantActionTriggerType "OnDelay"
-	delayTime 6.000000
+	instantActionTriggerType "OnBuffFinish"
 	cannonShellType "CannonShellTechRebel"
 	effectInfo
 		effectAttachInfo

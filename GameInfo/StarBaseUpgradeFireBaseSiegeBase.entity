@@ -1,0 +1,25 @@
+TXT2
+SinsArchiveVersion 194
+entityType "StarBaseUpgrade"
+stageCount 1
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_ABILITY_SIEGEBASE_NAME"
+	descStringID "IDS_ABILITY_SIEGEBASE_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
+	smallHudIcon "HUDICON_ABILITY_TECHORBITALCANNON"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityALevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+xpModifier 0.000000

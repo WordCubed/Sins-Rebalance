@@ -19,7 +19,7 @@ isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "AntiMatterAndNotBeAtStar"
+useCostType "AntiMatter"
 antiMatterCost
 	Level:0 240.000000
 	Level:1 180.000000

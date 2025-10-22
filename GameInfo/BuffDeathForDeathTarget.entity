@@ -11,22 +11,23 @@ isChannelling FALSE
 numInstantActions 1
 instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
-	instantActionTriggerType "OnDelay"
-	delayTime 0.000000
-	buffType "BuffCannonShellTechOnShips"
+	instantActionTriggerType "OnOwnerDeath"
+	buffType "BuffDeathForDeathRecourse"
 	targetFilter
 		numOwnerships 1
-		ownership "Enemy"
-		numObjects 6
+		ownership "Player"
+		numObjects 7
 		object "Fighter"
 		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
 		object "Titan"
 		object "StarBase"
+		object "PlanetModule"
 		numSpaces 1
 		space "Normal"
-		numConstraints 0
+		numConstraints 1
+		constraint "NotIsIllusionShip"
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
@@ -43,11 +44,11 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 3
 finishCondition
-	finishConditionType "TimeElapsed"
-	time
-		Level:0 180.000000
-		Level:1 180.000000
-		Level:2 180.000000
-		Level:3 180.000000
+	finishConditionType "AnyInstantActionWithTriggerTypeDone"
+	instantActionTriggerType "OnOwnerDeath"
+finishCondition
+	finishConditionType "EnterHyperspace"
+finishCondition
+	finishConditionType "OwnerChanged"

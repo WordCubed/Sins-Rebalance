@@ -7,22 +7,19 @@ buffType "BuffMicroPhaseTrapTarget"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 5
+	numObjects 2
 	object "Frigate"
 	object "CapitalShip"
-	object "Titan"
-	object "PlanetModule"
-	object "StarBase"
 	numSpaces 1
 	space "Normal"
 	numConstraints 2
 	constraint "HasAntiMatterPool"
 	constraint "HasWeapons"
 range
-	Level:0 12500.000000
-	Level:1 12500.000000
-	Level:2 12500.000000
-	Level:3 12500.000000
+	Level:0 6250.000000
+	Level:1 6250.000000
+	Level:2 6250.000000
+	Level:3 6250.000000
 maxTargetCount
 	Level:0 12.000000
 	Level:1 18.000000
@@ -42,7 +39,12 @@ isUltimateAbility FALSE
 maxNumLevels 3
 levelSourceType "TitanUpgradeLevel"
 sourcePropertyType "AbilityALevel"
-aiUseTime "OnlyInCombat"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -51,15 +53,15 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 45.000000
-	Level:1 45.000000
-	Level:2 45.000000
-	Level:3 45.000000
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
 cooldownTime
-	Level:0 45.000000
-	Level:1 45.000000
-	Level:2 45.000000
-	Level:3 45.000000
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

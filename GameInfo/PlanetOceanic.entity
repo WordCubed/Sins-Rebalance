@@ -57,26 +57,26 @@ planetResourceSetupInfo
 	metalResourceAsteroidSetup
 		minCount 1
 		maxCount 1
-		extractionRate 1.000000
-		refineryRate 0.100000
+		extractionRate 1.100000
+		refineryRate 0.110000
 		maxRefineryCount 3
 	crystalResourceAsteroidSetup
 		minCount 1
 		maxCount 1
-		extractionRate 1.000000
-		refineryRate 0.100000
+		extractionRate 1.100000
+		refineryRate 0.110000
 		maxRefineryCount 3
 	neutralMetalResourceAsteroidSetup
 		minCount 0
 		maxCount 0
-		extractionRate 1.000000
-		refineryRate 0.100000
+		extractionRate 1.100000
+		refineryRate 0.110000
 		maxRefineryCount 3
 	neutralCrystalResourceAsteroidSetup
 		minCount 0
 		maxCount 0
-		extractionRate 1.000000
-		refineryRate 0.100000
+		extractionRate 1.100000
+		refineryRate 0.110000
 		maxRefineryCount 3
 isAsteroid FALSE
 healthRegenRate 25.000000
@@ -207,8 +207,8 @@ planetUpgradeDef
 			upgradeTime 20.000000
 			isHomePlanet TRUE
 			homePlanetTaxRateBonus 30.000000
-			homePlanetMetalIncomeBonus 6.000000
-			homePlanetCrystalIncomeBonus 6.000000
+			homePlanetMetalIncomeBonus 8.540000
+			homePlanetCrystalIncomeBonus 8.540000
 	path:ArtifactLevel
 		stageCount 4
 		stage

@@ -1,5 +1,44 @@
 TXT
-NumStrings 8951
+NumStrings 8954
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_DEATH_FOR_DEATH_NAME"
+	Value "Death for Death"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_DEATH_FOR_DEATH_DESCRIPTION"
+	Value "Your warriors grow stronger in the presence of death—their own, or others'. Grants a +50% damage and +4% shield mitigation buff for the first enemy or friendly unit to die in battle. (Buff dispels on on phase jump)."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH_NAME"
+	Value "Superweapon Prototype"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH_DESC"
+	Value "Grants access to the Siege Superweapon, allowing your empire to siege enemy planets from afar."
+StringInfo
+	ID "IDS_STARBASEFIREBASE_NAME"
+	Value "Firebase"
+StringInfo
+	ID "IDS_ABILITY_DESPERATION_DESCRIPTION"
+	Value "Negates some of the damage that the Titan takes and grants the Titan's weapons splash damage. When the Titan takes damage, it gains a short bonus to weapon cooldown that stacks up to 5 times."
+StringInfo
+	ID "IDS_ABILITY_SIEGEBASE_NAME"
+	Value "Orbital Siege"
+StringInfo
+	ID "IDS_ABILITY_SIEGEBASE_DESCRIPTION"
+	Value "The Firebase directly attacks the local enemy colony."
+StringInfo
+	ID "IDS_ABILITY_EXPLOSION_NAME"
+	Value "Explosion"
+StringInfo
+	ID "IDS_ABILITY_EXPLOSION_DESCRIPTION"
+	Value "The Firebase self-destructs, instantly killing all fighters and corvettes in the area, and dealing substantial damage to larger units as well."
+StringInfo
+	ID "IDS_STARBASEUPGRADEEXPLOSION_NAME"
+	Value "Explosion Upgrade"
+StringInfo
+	ID "IDS_STARBASEUPGRADEEXPLOSION_DESC"
+	Value "Grants the Firebase the Explosion ability, enabling it to self-destruct when it dies, destroying or damaging all enemy ships in the area."
+StringInfo
+	ID "IDS_STARBASEUPGRADETECHSELFDESTRUCT_DESC"
+	Value "Grants the Starbase the Last Resort ability, which allows the crew to overload the starbase's main reactor and self-destruct, damaging all units and structures within a large area."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET_DESCRIPTION"
 	Value "Grants the Dark Combat Fleet, Dark Support Fleet and Dark Capital Ship abilities to Phase Gates, allowing them to summon remnants of the Dark Fleet to aid your empire."
@@ -371,49 +410,16 @@ StringInfo
 	Value "Temporary Force"
 StringInfo
 	ID "IDS_ABILITYTEMPFREESHIPS_DESC"
-	Value "This ship only exists briefly and cannot Phase Jump."
+	Value "This ship only exists briefly and cannot phase jump."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_LIBERATED_RESISTANCE_DESCRIPTION"
-	Value "When your Superweapon fires upon an enemy planet, it inspires temporary rebel forces on that planet to rise up under your command."
-StringInfo
-	ID "IDS_CANNONSHELLTECHMILITIA_NAME"
-	Value "Liberation Payload"
-StringInfo
-	ID "IDS_CANNONSHELLTECHMILITIA_DESC"
-	Value "Rebel forces on the targeted planet will be inspired by this and temporarily rise up against their occupiers."
-StringInfo
-	ID "IDS_CANNONSHELLTECH_DESC"
-	Value "The apex of TEC ordnance technology; it will cause tremendous damage to a planet's infrastructure on impact, cripple its economy, and temporarily disable enemy ship movement."
-StringInfo
-	ID "IDS_CANNONSHELLPSIMILITIA_NAME"
-	Value "Reanimation Signal"
-StringInfo
-	ID "IDS_CANNONSHELLPSIMILITIA_DESC"
-	Value "A powerful burst of aura fired from the Cultural Superweapon, it spontaneously resurrects some of your formerly dead ships around the target."
-StringInfo
-	ID "IDS_ABILITY_TECHORBITALCANNONMILITIA_DESC"
-	Value "Fire the TEC Rebel's secondary superweapon, which signals for an uprising of militia sympathetic to your cause to briefly appear at an enemy planet."
-StringInfo
-	ID "IDS_ABILITY_TECHORBITALCANNONMILITIA_NAME"
-	Value "Liberation Strike"
-StringInfo
-	ID "IDS_ABILITY_PSIORBITALCANNONMILITIA_DESC"
-	Value "Fire the Advent Rebel's secondary superweapon, which spontaneously resurrects the dead souls of your fleet to attack a targeted planet."
-StringInfo
-	ID "IDS_ABILITY_PSIORBITALCANNONMILITIA_NAME"
-	Value "Activate Remote Resurection"
+	Value "When your superweapon fires upon an enemy planet, it inspires temporary rebel forces there to rise up under your command."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCANNONREBEL_DESC"
-	Value "A weapon that destroys an enemy planet's health, population, and economy for several minutes. It also temporarily disables enemy ship movement and can inspire local rebels to rise up under your command at the target planet."
+	Value "A weapon that disables enemy ship movement and deploys a specialized Starbase to assault a planet. It can also inspire local rebels to rise up under your command at the target planet."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCANNON_DESC"
-	Value "A weapon that destroys an enemy planet's health, population, and economy for several minutes. Also disables enemy ship movement."
-StringInfo
-	ID "IDS_ABILITY_SELFDESTRUCT_NAME"
-	Value "Auto Self-Detonate"
-StringInfo
-	ID "IDS_ABILITY_SELFDESTRUCT_DESCRIPTION"
-	Value "This unit immediately self-destructs."
+	Value "A weapon that disables enemy ship movement and deploys a specialized Starbase to assault a planet."
 StringInfo
 	ID "IDS_FRIGATE_FREESCOUT_NAME"
 	Value "Temporary Scout"
@@ -791,7 +797,7 @@ StringInfo
 	Value "Spawns a Phase Gate module in the current gravity well. When paired with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSION_DESCRIPTION"
-	Value "When the last enemy ship in your planet's gravity well leaves or is destroyed, that planet receives a temporary bonus to tax income and culture generation, and a permanent 40% damage bonus to all ships that were present for the battle (or witnessed it from a neighboring planet)."
+	Value "When the last enemy ship in your colony's gravity well leaves or is destroyed, all of your units who witnessed this successful invasion repel—including at neighboring planets—gain a permanent 40% damage bonus."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EXPULSIONTECH_NAME"
 	Value "Homeland Defense"
@@ -806,7 +812,7 @@ StringInfo
 	Value "When you scuttle a planet you consume it, generating a large amount of credits, metal, and crystal. The planet is reduced to a useless Stripped Asteroid. Furthermore, when you lose a planet—by your own hand or your enemies'—you gain permanent bonuses of +40% damage, +5 armor, and +2% shield mitigation."
 StringInfo
 	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
-	Value "As the Titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken."
+	Value "As the Titan's hull is damaged, it becomes harder and harder to kill. Boosts antimatter regen, ability cooldowns, shield regen, and directly reduces damage taken. If these measures fail, and the Titan dies, its death will be delayed for 3 minutes while it becomes invincible, invisible, with zero-cost and rapidly-recharging abilities."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_PLASMA0_DESCRIPTION"
 	Value "Plasma and Psionic Surge projectiles consistently retain their desired shape, increasing their damage."
@@ -893,7 +899,7 @@ StringInfo
 	Value "The Unity focuses its protection around a chosen friendly ship or structure, rendering it invincible for a brief time."
 StringInfo
 	ID "IDS_ABILITY_GRAVITYPULSE_DESCRIPTION"
-	Value "The Titan manipulates the gravity of the local planet, slowing down all enemies and speeding up all allies in the gravity well."
+	Value "The Titan manipulates the gravity of the local planet, slowing down all enemies and speeding up all allies in the gravity well. Enemies affected by Micro Phase Trap also become more vulnerable to shield-skipping weapons."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_RITES_NAME"
 	Value "Death Rites"
@@ -1538,7 +1544,7 @@ StringInfo
 	Value "Sabotage Structures"
 StringInfo
 	ID "IDS_ABILITY_STOPMODULES_DESCRIPTION"
-	Value "Sends covert teams to enemy structures in the planet's orbit to prevent their abilities, hull regeneration, and construction."
+	Value "Sends covert teams to enemy structures in the planet's orbit, sabotaging their construction, regeneration, abilities, squadrons, and any invulnerability buffs."
 StringInfo
 	ID "IDS_ABILITY_BONUSMODULEDAMAGE_NAME"
 	Value "Anti-Orbital Assault"
@@ -2630,10 +2636,10 @@ StringInfo
 	Value "Vasari Starbase"
 StringInfo
 	ID "IDS_CANNONSHELLPSI_NAME"
-	Value "Cultural Signal"
+	Value "Culture Signal"
 StringInfo
 	ID "IDS_CANNONSHELLPSI_DESC"
-	Value "A powerful burst of energy fired from the Cultural Superweapon, it will impose the firing empire's culture on the populace of its target."
+	Value "A powerful burst of energy fired from the Cultural Superweapon, it will impose the attacking empire's culture on its target."
 StringInfo
 	ID "IDS_ABILITY_PSIORBITALCANNON_NAME"
 	Value "Activate Cultural Superweapon"
@@ -2651,22 +2657,16 @@ StringInfo
 	Value "Fire Siege Superweapon"
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNON_DESC"
-	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 60 seconds (after which enemy ships are immune to further EMP bursts for 120 seconds)."
+	Value "Fires the siege superweapon at a planet. The energy from the impact produces an EMP burst that disables enemy ship engines & lowers their shield mitigation for 90 seconds. The physical payload deploys a Firebase & a blockade that prevents any enemy phase jumps to & from the planet. (After the first shot, the planet is immune to any further siege cannon rounds for 3 minutes.)"
 StringInfo
 	ID "IDS_ABILITY_TECHORBITALCANNONREBEL_DESC"
-	Value "Launches the cannon payload at an enemy planet, wiping out the population and the planet's health, and zeroing all trade and tax income for 4 minutes. Also produces an EMP burst that disables enemy ships' engines for 60 seconds. As the TEC Rebel faction, this will also inspire an uprising of friendly ships around the target planet."
+	Value "Fires the siege superweapon at a planet. The energy from the impact produces an EMP burst that disables enemy ship engines & lowers their shield mitigation for 90 seconds. The physical payload deploys a Firebase & a blockade that prevents any enemy phase jumps to & from the planet. (After the first shot, the planet is immune to any further siege cannon rounds for 3 minutes.) As the TEC Rebel faction, this will also inspire an uprising of friendly ships around the target planet."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH_NAME"
 	Value "Superweapon Prototype"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONMILTECH_DESC"
 	Value "Advancements in science, weapon design and construction finally allow you to build the epitome of TEC power: a superweapon that can assault enemy planets from across the galaxy."
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_NOVALITH_BREAKTHROUGH_NAME"
-	Value "Superweapon Breakthrough"
-StringInfo
-	ID "IDS_RESEARCHSUBJECT_NOVALITH_BREAKTHROUGH_DESCRIPTION"
-	Value "Unlocks the Siege Superweapon, allowing you to bombard enemy planets from afar."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_NOVALITH_DEREGULATION_NAME"
 	Value "Civil Defense Act IV"
@@ -2675,7 +2675,10 @@ StringInfo
 	Value "TEC leadership has determined that there is no greater defense of its valuable worlds than the ultimate offense. Authorizes building extra superweapons."
 StringInfo
 	ID "IDS_CANNONSHELLTECH_NAME"
-	Value "Siege Warhead"
+	Value "Siege Payload"
+StringInfo
+	ID "IDS_CANNONSHELLTECH_DESC"
+	Value "The apex of TEC ordnance technology, this warhead blockades its target planet and deploys a Firebase to assault enemies."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALCANNON_NAME"
 	Value "Siege Superweapon"
@@ -3006,6 +3009,12 @@ StringInfo
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_FRIGATEACCESS_STARBASECONSTRUCTORPHASE_DESCRIPTION"
 	Value "Grants access to Starbase Constructors - construction ships able to deploy Vasari Starbases."
+StringInfo
+	ID "IDS_FRIGATE_FIREBASECONSTRUCTOR_DESC"
+	Value "An unarmed cruiser used to construct a Firebase."
+StringInfo
+	ID "IDS_FRIGATE_FIREBASECONSTRUCTOR_NAME"
+	Value "Firebase Constructor"
 StringInfo
 	ID "IDS_FRIGATE_PSISTARBASECONSTRUCTOR_NAME"
 	Value "Starbase Constructor"
@@ -22613,7 +22622,7 @@ StringInfo
 	Value "Safety Override Protocol"
 StringInfo
 	ID "IDS_STARBASEUPGRADETECHSELFDESTRUCT_DESC"
-	Value "Grants the starbase the Last Resort ability, which allows to crew to overload the starbase's main reactor and self-destruct, damaging all units and structures within a large area."
+	Value "Grants the starbase the Last Resort ability, which allows the crew to overload the starbase's main reactor and self-destruct, damaging all units and structures within a large area."
 StringInfo
 	ID "IDS_STARBASEUPGRADEPSIWEAPONS_NAME"
 	Value "Punitive Measures"

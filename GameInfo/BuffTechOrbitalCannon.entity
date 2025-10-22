@@ -3,8 +3,9 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit -1
-buffExclusivityForAIType "NotExclusive"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable TRUE
 isChannelling TRUE
 numInstantActions 2
@@ -22,8 +23,7 @@ instantAction
 		soundID "WEAPON_TECHORBITALCANNON_CHARGE"
 instantAction
 	buffInstantActionType "CreateCannonShell"
-	instantActionTriggerType "OnDelay"
-	delayTime 6.000000
+	instantActionTriggerType "OnBuffFinish"
 	cannonShellType "CannonShellTech"
 	effectInfo
 		effectAttachInfo

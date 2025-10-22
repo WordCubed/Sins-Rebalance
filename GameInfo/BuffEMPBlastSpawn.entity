@@ -42,7 +42,7 @@ instantAction
 		smallEffectName "Buff_EMPBlastSpawn"
 		mediumEffectName "Buff_EMPBlastSpawn"
 		largeEffectName "Buff_EMPBlastSpawn"
-		soundID "EFFECT_EMPBLAST"
+		soundID "Effect_EMPBlast"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

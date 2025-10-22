@@ -2,18 +2,30 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
-stackingLimit 2
-allowFirstSpawnerToStack TRUE
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 4
 instantAction
 	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffCannonShellTechCast"
+	buffType "BuffCannonShellTechEMPCast"
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CannonShellTechEMP"
+		mediumEffectName "CannonShellTechEMP"
+		largeEffectName "CannonShellTechEMP"
+		soundID "Effect_EMPBlast"
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffCannonShellTechBlockadeCast"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -24,32 +36,65 @@ instantAction
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
 	instantActionTriggerType "OnDelay"
-	delayTime 2.000000
-	spawnShipsLevelCount 1
+	delayTime 0.000000
+	spawnShipsLevelCount 2
 	spawnShips
-		minFleetPoints 0.002000
-		maxFleetPoints 0.002000
+		minFleetPoints 0.000000
+		maxFleetPoints 1.000000
+		requiredShipCount 1
+		requiredShip
+			type "FrigateTechFireBaseConstructor"
+			minCount 1
+			maxCount 1
+		randomShipCount 0
+	spawnShips
+		minFleetPoints 0.000000
+		maxFleetPoints 1.000000
+		requiredShipCount 1
+		requiredShip
+			type "FrigateTechFireBase"
+			minCount 1
+			maxCount 1
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 0.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.000000
+	spawnShipsMaxStartingHullPerc 1.000000
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 2
+	spawnShips
+		minFleetPoints 0.000000
+		maxFleetPoints 0.000000
+		requiredShipCount 0
+		randomShipCount 0
+	spawnShips
+		minFleetPoints 0.000000
+		maxFleetPoints 300.000000
 		requiredShipCount 5
 		requiredShip
 			type "FrigateTechAntiFighterFree"
-			minCount 4
-			maxCount 4
+			minCount 5
+			maxCount 5
 		requiredShip
 			type "FrigateTechUtility0Free"
-			minCount 4
-			maxCount 4
+			minCount 5
+			maxCount 5
 		requiredShip
 			type "FrigateTechUtility1Free"
-			minCount 4
-			maxCount 4
+			minCount 5
+			maxCount 5
 		requiredShip
 			type "FrigateTechAntiModuleFree"
-			minCount 4
-			maxCount 4
+			minCount 5
+			maxCount 5
 		requiredShip
 			type "FrigateTechHeavyFree"
-			minCount 4
-			maxCount 4
+			minCount 5
+			maxCount 5
 		randomShipCount 0
 	spawnShipsArrivalDelayTime 1.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
@@ -60,16 +105,7 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 2
-finishCondition
-	finishConditionType "ResearchNotMet"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_LIBERATED_RESISTANCE"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
+numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
 	time

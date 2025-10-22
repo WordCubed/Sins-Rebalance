@@ -177,8 +177,8 @@ planetUpgradeDef
 			upgradeTime 20.000000
 			isHomePlanet TRUE
 			homePlanetTaxRateBonus 30.000000
-			homePlanetMetalIncomeBonus 6.000000
-			homePlanetCrystalIncomeBonus 6.000000
+			homePlanetMetalIncomeBonus 8.540000
+			homePlanetCrystalIncomeBonus 8.540000
 	path:ArtifactLevel
 		stageCount 4
 		stage

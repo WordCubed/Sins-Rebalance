@@ -1,10 +1,10 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeNewBuffs"
+onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
-allowFirstSpawnerToStack FALSE
+allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
@@ -13,25 +13,22 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 2
 entityModifier
-	buffEntityModifierType "PlanetTaxRate"
+	buffEntityModifierType "AntimatterCostOfNonUltimates"
 	value
 		Level:0 -1.000000
 		Level:1 -1.000000
 		Level:2 -1.000000
 		Level:3 -1.000000
 entityModifier
-	buffEntityModifierType "TradeIncome"
+	buffEntityModifierType "AbilityCooldownRate"
 	value
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-numEntityBoolModifiers 0
+		Level:0 9.000000
+		Level:1 9.000000
+		Level:2 9.000000
+		Level:3 9.000000
+numEntityBoolModifiers 1
+entityBoolModifier "IsInvisible"
 numFinishConditions 1
 finishCondition
-	finishConditionType "TimeElapsed"
-	time
-		Level:0 300.000000
-		Level:1 300.000000
-		Level:2 300.000000
-		Level:3 300.000000
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "BuffUnyieldingWillRecourse"

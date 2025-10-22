@@ -1,0 +1,25 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 7
+entityBoolModifier "CancelCannotBeDamaged"
+entityBoolModifier "CancelPhaseOut"
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "DisableConstruction"
+entityBoolModifier "DisableFighterLaunch"
+entityBoolModifier "DisableModuleFunctionality"
+entityBoolModifier "DisableRegeneration"
+numFinishConditions 1
+finishCondition
+	finishConditionType "OwnerChanged"

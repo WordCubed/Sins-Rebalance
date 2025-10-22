@@ -32,7 +32,7 @@ stage
 		value 41.666667
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.666667
+		value 0.650000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
 		value 20.000000
@@ -67,7 +67,7 @@ stage
 		value 52.083333
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.666667
+		value 0.650000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
 		value 20.000000
@@ -102,7 +102,7 @@ stage
 		value 62.500000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.666667
+		value 0.650000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
 		value 20.000000

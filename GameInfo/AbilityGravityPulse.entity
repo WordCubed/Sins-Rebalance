@@ -1,30 +1,21 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Ability"
-buffInstantActionType "ApplyTargettedBuffToSelf"
+buffInstantActionType "ApplyBuffToLocalOrbitBody"
 instantActionTriggerType "AlwaysPerform"
-buffType "BuffGravityPulseSelf"
+buffType "BuffGravityPulsePlanet"
 targetFilter
-	numOwnerships 3
+	numOwnerships 4
 	ownership "Enemy"
+	ownership "NoOwner"
 	ownership "Friendly"
-	ownership "Player"
-	numObjects 6
-	object "Fighter"
-	object "Corvette"
-	object "Frigate"
-	object "CapitalShip"
-	object "Titan"
-	object "StarBase"
+	ownership "UncontrolledMinorFaction"
+	numObjects 2
+	object "Planet"
+	object "Star"
 	numSpaces 1
 	space "Normal"
-	numConstraints 1
-	constraint "NotSelf"
-range
-	Level:0 15000.000000
-	Level:1 15000.000000
-	Level:2 15000.000000
-	Level:3 15000.000000
+	numConstraints 0
 effectInfo
 	effectAttachInfo
 		attachType "Ability"
@@ -40,12 +31,7 @@ isUltimateAbility FALSE
 maxNumLevels 3
 levelSourceType "TitanUpgradeLevel"
 sourcePropertyType "AbilityBLevel"
-aiUseTime "OnlyWhenManyTargetsInRange"
-onlyAutoCastWhenTargetCountExceedsAmount
-	Level:0 3.000000
-	Level:1 3.000000
-	Level:2 3.000000
-	Level:3 3.000000
+aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE

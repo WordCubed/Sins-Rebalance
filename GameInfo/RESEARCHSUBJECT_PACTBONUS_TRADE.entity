@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "ExtractionRateFromResourceFocus"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.165000
 researchModifier
 	modifierType "CargoShipHullPointsMaxAdjustment"
 	baseValue 0.000000
