@@ -3,7 +3,7 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeNewBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 5
+stackingLimit 4
 allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
@@ -14,10 +14,10 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	antiMatter
-		Level:0 12.000000
-		Level:1 18.000000
-		Level:2 24.000000
-		Level:3 24.000000
+		Level:0 12.500000
+		Level:1 18.750000
+		Level:2 25.000000
+		Level:3 25.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 2
@@ -31,10 +31,10 @@ entityModifier
 entityModifier
 	buffEntityModifierType "ShieldMitigation"
 	value
-		Level:0 0.004000
-		Level:1 0.006000
-		Level:2 0.008000
-		Level:3 0.008000
+		Level:0 0.005000
+		Level:1 0.007500
+		Level:2 0.010000
+		Level:3 0.010000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

@@ -62,7 +62,7 @@ ShieldPointRestoreRate
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 ArmorPointsFromExperience
-	StartValue 20.000000
+	StartValue 16.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
 	StartValue 0.600000
@@ -74,7 +74,7 @@ AntiMatterRestoreRate
 	StartValue 0.500000
 	ValueIncreasePerLevel 0.000000
 CultureProtectRate
-	StartValue 20.000000
+	StartValue 1.000000
 	ValueIncreasePerLevel 0.000000
 NameStringID "IDS_PIRATE_TEMP_NAME"
 DescriptionStringID "IDS_PIRATE_TEMP_DESC"

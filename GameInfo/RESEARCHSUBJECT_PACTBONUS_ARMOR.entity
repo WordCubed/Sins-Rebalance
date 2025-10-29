@@ -42,7 +42,7 @@ researchModifier
 researchModifier
 	modifierType "ArmorBaseAdjustment"
 	baseValue 0.000000
-	perLevelValue 5.000000
+	perLevelValue 4.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

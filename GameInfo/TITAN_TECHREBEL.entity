@@ -62,13 +62,13 @@ ShieldPointRestoreRate
 	StartValue 62.500000
 	ValueIncreasePerLevel 0.000000
 ArmorPointsFromExperience
-	StartValue 20.000000
+	StartValue 16.000000
 	ValueIncreasePerLevel 0.000000
 maxMitigation
 	StartValue 0.650000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 480.000000
+	StartValue 400.000000
 	ValueIncreasePerLevel 0.000100
 AntiMatterRestoreRate
 	StartValue 0.500000

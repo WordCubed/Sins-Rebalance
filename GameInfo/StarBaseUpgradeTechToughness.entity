@@ -20,22 +20,22 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 20000.000000
+		value 16000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
-		value 62.500000
+		value 50.000000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 10000.000000
+		value 8000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
-		value 41.666667
+		value 33.333333
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.650000
+		value 0.400000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
-		value 20.000000
+		value 8.000000
 	upgradeBoolPropertyCount 0
 stage
 	price
@@ -55,22 +55,22 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 25000.000000
+		value 20000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
-		value 78.125000
+		value 62.500000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 12500.000000
+		value 10000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
-		value 52.083333
+		value 41.666667
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.650000
+		value 0.500000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
-		value 20.000000
+		value 12.000000
 	upgradeBoolPropertyCount 0
 stage
 	price
@@ -90,21 +90,21 @@ stage
 	upgradePropertyCount 6
 	upgradeProperty
 		propertyType "MaxHullPoints"
-		value 30000.000000
+		value 24000.000000
 	upgradeProperty
 		propertyType "HullPointRestoreRate"
-		value 93.750000
+		value 75.000000
 	upgradeProperty
 		propertyType "MaxShieldPoints"
-		value 15000.000000
+		value 12000.000000
 	upgradeProperty
 		propertyType "ShieldPointRestoreRate"
-		value 62.500000
+		value 50.000000
 	upgradeProperty
 		propertyType "MaxShieldMitigation"
-		value 0.650000
+		value 0.600000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
-		value 20.000000
+		value 16.000000
 	upgradeBoolPropertyCount 0
 xpModifier 200.000000

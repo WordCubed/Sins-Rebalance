@@ -33,7 +33,7 @@ researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
 	modifierType "ArmorBaseAdjustment"
-	baseValue 5.000000
+	baseValue 4.000000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "ShieldMaxMitigationAdjustment"

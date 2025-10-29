@@ -118,7 +118,7 @@ Weapon
 	Range 250000.000000
 	PreBuffCooldownTime 20.000000
 	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
+	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.250000
 	TravelSpeed 0.000000
 	Duration 4.000000

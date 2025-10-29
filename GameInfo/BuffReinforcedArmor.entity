@@ -24,10 +24,10 @@ numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "ArmorAsDamageTarget"
 	value
-		Level:0 2.500000
-		Level:1 5.000000
-		Level:2 5.000000
-		Level:3 5.000000
+		Level:0 2.000000
+		Level:1 4.000000
+		Level:2 4.000000
+		Level:3 4.000000
 entityModifier
 	buffEntityModifierType "MaxHullPoints"
 	value

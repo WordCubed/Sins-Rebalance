@@ -41,7 +41,7 @@ stage
 		value 15.625000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
-		value 5.000000
+		value 4.000000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
@@ -69,7 +69,7 @@ stage
 		value 31.250000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
-		value 10.000000
+		value 8.000000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
@@ -97,7 +97,7 @@ stage
 		value 46.875000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
-		value 15.000000
+		value 12.000000
 	upgradeBoolPropertyCount 0
 stage
 	nameStringID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
@@ -125,5 +125,5 @@ stage
 		value 62.500000
 	upgradeProperty
 		propertyType "BaseArmorPoints"
-		value 20.000000
+		value 16.000000
 	upgradeBoolPropertyCount 0

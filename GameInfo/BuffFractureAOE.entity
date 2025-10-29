@@ -26,10 +26,10 @@ numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "ArmorAsDamageTarget"
 	value
-		Level:0 -15.000000
-		Level:1 -22.500000
-		Level:2 -30.000000
-		Level:3 -30.000000
+		Level:0 -12.000000
+		Level:1 -18.000000
+		Level:2 -24.000000
+		Level:3 -24.000000
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition

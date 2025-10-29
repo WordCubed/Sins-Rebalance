@@ -42,15 +42,15 @@ researchModifier
 researchModifier
 	modifierType "ExtractionRateFromResourceFocus"
 	baseValue 0.000000
-	perLevelValue 0.165000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "CargoShipHullPointsMaxAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.100000
 researchModifier
 	modifierType "CargoShipArmorBaseAdjustment"
 	baseValue 0.000000
-	perLevelValue 10.000000
+	perLevelValue 4.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

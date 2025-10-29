@@ -42,11 +42,11 @@ researchModifier
 researchModifier
 	modifierType "CreditCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.066667
 researchModifier
 	modifierType "ResourceCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.050000
+	perLevelValue 0.066667
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
