@@ -34,11 +34,11 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.150000
+	perLevelValue 0.300000
 researchModifier
 	modifierType "MassReduction"
 	baseValue 0.000000
-	perLevelValue 0.040000
+	perLevelValue 0.100000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

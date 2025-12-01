@@ -34,7 +34,7 @@ researchFloatModifiers 2
 researchModifier
 	modifierType "MassReduction"
 	baseValue 0.000000
-	perLevelValue 0.030000
+	perLevelValue 0.050000
 researchModifier
 	modifierType "ArmorBaseAdjustment"
 	baseValue 0.000000

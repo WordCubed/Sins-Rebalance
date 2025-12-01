@@ -8,7 +8,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 3
 instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
@@ -19,6 +19,11 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffTypeToRemove "BuffPhaseGateModuleSpawnerCaster"
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "BuffPhaseGateModuleTarget"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

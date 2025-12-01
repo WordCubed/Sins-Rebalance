@@ -1,11 +1,11 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_ORGANICAI"
-smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_ORGANICAI"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 2 , 3 ]
@@ -30,19 +30,15 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 2
 researchModifier
-	modifierType "PopulationTaxRateAdjustment"
+	modifierType "CapitalShipAndTitanAngularThrustAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 0.500000
 researchModifier
-	modifierType "TradeGoodsValueAdjustment"
+	modifierType "MassReduction"
 	baseValue 0.000000
-	perLevelValue 0.100000
-researchModifier
-	modifierType "IncomePercLost"
-	baseValue 0.000000
-	perLevelValue -0.050000
-artifactPicture "ArtifactPictureOrganicAI"
+	perLevelValue 0.150000
+artifactPicture "ArtifactPictureHyperspaceSpeed"
 uniqueOverlayBrush ""
 dlcId 204880

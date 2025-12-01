@@ -1,14 +1,14 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE"
-smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 2 ]
+	pos [ 1 , 1 ]
 ResearchField "Artifact"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -30,15 +30,23 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 4
 researchModifier
-	modifierType "ResearchCostAdjustment"
+	modifierType "CultureSpreadRateAdjustment"
 	baseValue 0.000000
-	perLevelValue -0.100000
+	perLevelValue 0.100000
 researchModifier
-	modifierType "ResearchBuildRateAdjustment"
+	modifierType "AllegianceFromCultureMaxPerc"
+	baseValue 0.000000
+	perLevelValue 0.100000
+researchModifier
+	modifierType "CultureResistPercent"
 	baseValue 0.000000
 	perLevelValue 4.000000
-artifactPicture "ArtifactPictureResearchArchive"
+researchModifier
+	modifierType "CultureModuleCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.000000
+artifactPicture "ArtifactPictureStrongCulture"
 uniqueOverlayBrush ""
 dlcId 204880

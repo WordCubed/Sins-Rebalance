@@ -10,7 +10,7 @@ effectInfo
 	smallEffectName ""
 	mediumEffectName ""
 	largeEffectName ""
-	soundID "EFFECT_LASTRESORT"
+	soundID ""
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -18,20 +18,14 @@ isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "StarBaseUpgradeLevel"
 sourcePropertyType "AbilityBLevel"
-aiUseTime "OnlyWhenAboutToDie"
-aiUseTargetCondition "Any"
-isAutoCastAvailable TRUE
-isAutoCastOnByDefault TRUE
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "None"
-cooldownTime
-	Level:0 5.000000
-	Level:1 5.000000
-	Level:2 5.000000
-	Level:3 5.000000
-orderAcknowledgementType "ONGENERALORDERISSUED"
+useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

@@ -1,14 +1,14 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE"
-smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 0 , 1 ]
+	pos [ 2 , 0 ]
 ResearchField "Artifact"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -32,21 +32,22 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 4
 researchModifier
-	modifierType "CultureSpreadRateAdjustment"
+	modifierType "ShipBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 9.000000
 researchModifier
-	modifierType "AllegianceFromCultureMaxPerc"
+	modifierType "ModuleBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.100000
+	perLevelValue 9.000000
 researchModifier
-	modifierType "CultureResistPercent"
+	modifierType "PlanetUpgradeBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 4.000000
+	perLevelValue 9.000000
+	linkedPlanetUpgradeType "Invalid"
 researchModifier
-	modifierType "CultureModuleCostAdjustment"
+	modifierType "ModuleCostForSimilarTypesAdjustment"
 	baseValue 0.000000
 	perLevelValue 1.000000
-artifactPicture "ArtifactPictureStrongCulture"
+artifactPicture "ArtifactPictureShipBuildTimeReduction"
 uniqueOverlayBrush ""
 dlcId 204880

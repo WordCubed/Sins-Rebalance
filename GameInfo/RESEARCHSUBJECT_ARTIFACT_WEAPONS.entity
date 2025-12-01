@@ -1,11 +1,11 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME"
-smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 1 , 3 ]
@@ -30,23 +30,17 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 4
+researchFloatModifiers 2
 researchModifier
-	modifierType "ExtractionRateMetalAdjustment"
+	modifierType "WeaponDamageAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.150000
+	linkedWeaponClass "Invalid"
 researchModifier
-	modifierType "ExtractionRateCrystalAdjustment"
+	modifierType "WeaponRangeAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.150000
-researchModifier
-	modifierType "RefineryShipCapacityAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.500000
-researchModifier
-	modifierType "ExtractionRateFromResourceFocus"
-	baseValue 0.000000
-	perLevelValue 0.247500
-artifactPicture "ArtifactPictureTradeIncome"
+	perLevelValue 0.250000
+	linkedWeaponClass "Invalid"
+artifactPicture "ArtifactPictureWeaponBoost"
 uniqueOverlayBrush ""
 dlcId 204880

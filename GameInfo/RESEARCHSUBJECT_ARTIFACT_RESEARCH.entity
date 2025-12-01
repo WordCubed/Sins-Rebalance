@@ -1,14 +1,14 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"
-smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 0 , 0 ]
+	pos [ 0 , 1 ]
 ResearchField "Artifact"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -32,15 +32,13 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 2
 researchModifier
-	modifierType "WeaponDamageAdjustment"
+	modifierType "ResearchCostAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.150000
-	linkedWeaponClass "Invalid"
+	perLevelValue -0.100000
 researchModifier
-	modifierType "WeaponRangeAdjustment"
+	modifierType "ResearchBuildRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
-	linkedWeaponClass "Invalid"
-artifactPicture "ArtifactPictureWeaponBoost"
+	perLevelValue 4.000000
+artifactPicture "ArtifactPictureResearchArchive"
 uniqueOverlayBrush ""
 dlcId 204880

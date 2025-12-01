@@ -1,14 +1,14 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"
-smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 1 , 0 ]
+	pos [ 1 , 2 ]
 ResearchField "Artifact"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -32,22 +32,21 @@ priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 4
 researchModifier
-	modifierType "ShipBuildRateAdjustment"
+	modifierType "ExtractionRateMetalAdjustment"
 	baseValue 0.000000
-	perLevelValue 9.000000
+	perLevelValue 0.150000
 researchModifier
-	modifierType "ModuleBuildRateAdjustment"
+	modifierType "ExtractionRateCrystalAdjustment"
 	baseValue 0.000000
-	perLevelValue 9.000000
+	perLevelValue 0.150000
 researchModifier
-	modifierType "PlanetUpgradeBuildRateAdjustment"
+	modifierType "RefineryShipCapacityAdjustment"
 	baseValue 0.000000
-	perLevelValue 9.000000
-	linkedPlanetUpgradeType "Invalid"
+	perLevelValue 0.500000
 researchModifier
-	modifierType "ModuleCostForSimilarTypesAdjustment"
+	modifierType "ExtractionRateFromResourceFocus"
 	baseValue 0.000000
-	perLevelValue 1.000000
-artifactPicture "ArtifactPictureShipBuildTimeReduction"
+	perLevelValue 0.247500
+artifactPicture "ArtifactPictureTradeIncome"
 uniqueOverlayBrush ""
 dlcId 204880

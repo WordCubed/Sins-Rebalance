@@ -37,7 +37,7 @@ researchModifier
 	perLevelValue 0.000000
 researchModifier
 	modifierType "MassReduction"
-	baseValue 0.060000
+	baseValue 0.100000
 	perLevelValue 0.000000
 researchModifier
 	modifierType "ExperienceAwardedAdjustment"

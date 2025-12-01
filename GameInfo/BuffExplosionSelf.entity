@@ -8,100 +8,23 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 4
+numInstantActions 1
 instantAction
-	buffInstantActionType "PlayAttachedEffect"
+	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
-	delayTime 180.000000
+	delayTime 0.000000
+	buffType "BuffExplosionCast"
 	effectInfo
 		effectAttachInfo
-			attachType "Above"
-		smallEffectName "Explosion_TechStarbase"
-		mediumEffectName "Explosion_TechStarbase"
-		largeEffectName "Explosion_TechStarbase"
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
 		soundID ""
-instantAction
-	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
-	instantActionTriggerType "OnDelay"
-	delayTime 180.000000
-	buffType "BuffExplosionTargetFighters"
-	targetFilter
-		numOwnerships 2
-		ownership "Enemy"
-		ownership "UncontrolledMinorFaction"
-		numObjects 4
-		object "Frigate"
-		object "CapitalShip"
-		object "Titan"
-		object "StarBase"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
-	range
-		Level:0 400000.000000
-		Level:1 400000.000000
-		Level:2 400000.000000
-		Level:3 400000.000000
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Center"
-		smallEffectName "Buff_CannonShellPhaseImpactWave"
-		mediumEffectName "Buff_CannonShellPhaseImpactWave"
-		largeEffectName "Buff_CannonShellPhaseImpactWave"
-		soundID ""
-	travelSpeed 50000.000000
-	effectStaggerDelay 0.000000
-	hasWeaponEffects FALSE
-instantAction
-	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
-	instantActionTriggerType "OnDelay"
-	delayTime 180.000000
-	buffType "BuffExplosionTargetShips"
-	targetFilter
-		numOwnerships 2
-		ownership "Enemy"
-		ownership "UncontrolledMinorFaction"
-		numObjects 4
-		object "Frigate"
-		object "CapitalShip"
-		object "Titan"
-		object "StarBase"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
-	range
-		Level:0 400000.000000
-		Level:1 400000.000000
-		Level:2 400000.000000
-		Level:3 400000.000000
-	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-	effectInfo
-		effectAttachInfo
-			attachType "Center"
-		smallEffectName "Buff_CannonShellPhaseImpactWave"
-		mediumEffectName "Buff_CannonShellPhaseImpactWave"
-		largeEffectName "Buff_CannonShellPhaseImpactWave"
-		soundID ""
-	travelSpeed 50000.000000
-	effectStaggerDelay 0.000000
-	hasWeaponEffects FALSE
-instantAction
-	buffInstantActionType "MakeDead"
-	instantActionTriggerType "OnDelay"
-	delayTime 181.000000
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "OwnerChanged"

@@ -191,7 +191,7 @@ StringInfo
 	Value "Siege Mentality"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SIEGE_MENTALITY_DESCRIPTION"
-	Value "The heightened fear your people feel whenever they witness a superweapon impact drives your units to fight harder. Grants a temporary +30% damage and +10 armor boost to your units when a superweapon hits the planet (or neighboring planet) they're orbiting."
+	Value "The heightened fear your people feel whenever they witness a superweapon impact drives your units to fight harder. Grants a temporary +30% damage and +8 armor boost to your units when a superweapon hits the planet (or neighboring planet) they're orbiting."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_EMPTYTHRONE_NAME"
 	Value "Foreign Space"
@@ -722,7 +722,7 @@ StringInfo
 	Value "Wail of the Lost"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WAIL_OF_THE_SACRIFICED_DESCRIPTION"
-	Value "When you lose a planet, vengeful spirits gather around it and summon a temporary fleet of ships. Enemy ships present in the gravity well also get reductions of -10 armor, -4% shield mitigation, and -10% weapon damage. The effects on enemy ships are permanent and can stack up to 2 times."
+	Value "When you lose a planet, vengeful spirits gather around it and summon a temporary fleet of ships. Enemy ships present in the gravity well also get reductions of -8 armor, -4% shield mitigation, and -10% weapon damage. The effects on enemy ships are permanent and can stack up to 2 times."
 StringInfo
 	ID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_NAME"
 	Value "Culture Center"
@@ -1091,76 +1091,76 @@ StringInfo
 	Value "Your ships become immune to Jump Blockers."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_NAME"
-	Value "Jump Drive Relic"
+	Value "Hyperspace Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL_DESCRIPTION"
-	Value "This ancient, powerful relic contains highly advanced jump drive designs. Greatly increases hyperspace speeds and allows your ships to use wormholes and travel between stars."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_NAME"
-	Value "Exotic Hull Designs"
+	Value "Alien Hull Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_DESCRIPTION"
-	Value "This ancient, powerful relic contains designs that increase your armor, hull points, and hull regen."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_NAME"
-	Value "Exotic Engine Design"
+	Value "Agility Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED_DESCRIPTION"
-	Value "This ancient, powerful relic contains designs for exotic ship engines, increasing ships' speed, maneuverability, and chance to dodge attacks all by +15%."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_NAME"
-	Value "Power Core Relic"
+	Value "Antimatter Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_DESCRIPTION"
-	Value "This ancient, powerful relic increases antimatter capacity and regeneration."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_NAME"
-	Value "Ion Field Generator"
+	Value "Defensive Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD_DESCRIPTION"
-	Value "This ancient, powerful relic emits a strange field that protects your planet, reducing the damage your planets take from bombardment, creating room for more tactical structures, and reducing the weapon damage of any invaders."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_NAME"
-	Value "Artificial Intelligence"
+	Value "Artificial Intelligence Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_DESCRIPTION"
-	Value "This ancient, powerful relic houses an Artificial Intelligence that more effectively manages your economy, boosting tax income and trade income while reducing the income lost from expanding your fleet."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_NAME"
-	Value "Data Archive"
+	Value "Research Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE_DESCRIPTION"
-	Value "This ancient, powerful relic contains a partial archive of technologies that are eerily similiar to your own, reducing research time & cost."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_NAME"
-	Value "Construction Time Compressor"
+	Value "Alien Production Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
-	Value "This ancient, powerful relic contains an alien factory design that can build ships, structures, and develop planets faster than previously imaginable. Also reduces build costs for some structures."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
-	Value "Manifest Dominion"
+	Value "Cultural Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_DESCRIPTION"
-	Value "Ancient documents prophesize your empire will conquer the galaxy. Boosts culture rate, resistance to enemy culture, and planets' allegiance cap. Also makes Culture Centers have zero construction costs."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_NAME"
-	Value "Matter Compressor"
+	Value "Resource Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_TRADEINCOME_DESCRIPTION"
-	Value "This ancient, powerful relic contains technology that increases your metal and crystal extraction rates and boosts refinery rates."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_NAME"
-	Value "Kinetic Intensifier"
+	Value "Alien Weapons Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST_DESCRIPTION"
-	Value "This ancient, powerful relic contains accelerator technology that increases the damage and range of your weapons."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_NAME"
-	Value "Jump Field Generator"
+	Value "Jump Field Relic"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_DESCRIPTION"
-	Value "This ancient, powerful relic greatly affects Phase Jump entries and exits. It makes your ships immune to enemy Phase Jump Disruptors and protects you from Starbase Phase Destabilization. It reduces Phase Jump charge time, antimatter cost, and allows ships to enter and exit Phase Space closer to the center of gravity wells."
+	Value "An ancient, powerful relic."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DEPLOYSTARBASEPHASE_NAME"
 	Value "Starbase Assembly"
@@ -2054,31 +2054,31 @@ StringInfo
 	Value "Demoralizes an enemy ship's crew so thoroughly that it can no longer move and fight as effectively."
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECH_DESCRIPTION"
-	Value "The Trader Emergency Coalition favors terran & aquatic planets. They have the strongest economy & logistics, but the weakest culture. TEC ships emphasize hull points & armor over shield points & mitigation."
+	Value "The Trader Emergency Coalition has the best economy & strongest early game. Fast build times & Starbase factories let them rapidly replace ships mid-battle. But their culture is weak & they may have trouble expanding late-game"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSI_DESCRIPTION"
-	Value "The Advent favor arid, desolate, & cold planets. They have the strongest culture, which they depend on to bolster their weaker economy. Advent units emphasize shield points & shield mitigation over hull points & armor."
+	Value "The Advent have the strongest culture, letting them easily dominate the map. Strongest in the late-game, a handful of their superweapons can crush whole empires. Fairly robust if played right, surprisingly fragile if played wrong"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASE_DESCRIPTION"
-	Value "The Vasari favor hazardous, metallic, & giant planets. Their economy, logistics, & culture are all moderately good. Vasari units are evenly balanced between hull & shield."
+	Value "The Vasari are highly mobile, able to strike deep at the heart of enemy empires. Their economy & culture are both moderately good. Played right, they can counter even the Advent's culture. Powerful and hardy with no real downsides"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHLOYALIST_DESCRIPTION"
-	Value "TEC Loyalists are meant for turtling. They get large buffs when fighting at any colony they or an ally own. They can build an extra starbase in each gravity well, their tactical structures are harder to kill & do more damage, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% at friendly colony; +50% for repelling invasion"
+	Value "TEC Loyalists are meant for turtling. They get strong buffs when fighting at any friendly colony. They can build an extra starbase in each gravity well, their tactical structures are harder to kill & do more damage, & their planetary shields block all damage to colonies. Their superweapons are cheaper & they can build more of them. MAIN DAMAGE BUFFS: +50% at friendly colony; +40% for repelling invasion; +30% for surviving a superweapon"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_TECHREBEL_DESCRIPTION"
-	Value "TEC Rebels are meant for aggressive play. They gain incredible buffs for invading & destroying enemy colonies, allowing them to steamroll deep into enemy territory. Their ships get more powerful after killing an enemy. Their superweapon can summon a temporary rebellion around a target planet. MAIN DAMAGE BUFFS: +50% at enemy colony; +50% for killing 1st enemy unit; +50% for killing 1st enemy colony"
+	Value "TEC Rebels are meant for aggressive play. They gain incredible buffs for invading & destroying enemy colonies, letting them steamroll deep into enemy territory. Their ships get more powerful after killing an enemy. Their superweapon can summon a temporary rebellion around a target planet. MAIN DAMAGE BUFFS: +50% at enemy colony; +50% for killing 1st enemy unit; +50% for killing 1st enemy colony"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSILOYALIST_DESCRIPTION"
-	Value "Advent Loyalists can win almost any culture war, overwhelming enemy cultures while enjoying the many military bonuses their own give. Their +80% allegiance bonus is the highest in the game, allowing their empires to sprawl farther with fewer downsides. However, their fleets are relatively weak outside of their own culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +50% for repelling invasion"
+	Value "Advent Loyalists can win almost any culture war, overwhelming enemy cultures while enjoying the combat bonuses their own give. Their +80% allegiance bonus is the highest in the game, allowing their empires to sprawl farther with fewer downsides. But their fleets are relatively weak outside their culture, so keep an eye on those colored lines. MAIN DAMAGE BUFFS: +50% in own culture; +40% for repelling invasion; +30% for large fleet"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PSIREBEL_DESCRIPTION"
-	Value "Advent Rebels have some nasty abilities. Lose a colony? The invader's fleet is severely crippled—and some of the effects are permanent. Lose a unit? The survivors become stronger. Some deaths even briefly conjure powerful reinforcements. Their superweapon can briefly conjure a fleet around a target planet. MAIN DAMAGE BUFFS: +50% for 1st unit lost; +50% for 1st enemy killed; +50% after 2.5 minutes in combat"
+	Value "Advent Rebels are a flexible faction that draws power from death and loss—their own, and others'. Enemy gains are sabotaged, & enemy losses are worsened. Their fleets can also grow stronger with each unit—friendly or enemy—in a well. MAIN DAMAGE BUFFS: +50% for 1st unit lost or killed; +50% for 1st planet lost or killed; +50% for large fleet"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASELOYALIST_DESCRIPTION"
-	Value "Vasari Loyalists have a unique, powerful strategy: they can survive without colonies & raze planets to uncolonizable dust. This allows them to permanently deny valuable planets to their enemies. Their units heal quickly & their titan can repair a fleet even under heavy fire. Ships they do lose can be replaced with their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +50% for 1st colony loss; +50% in uncolonized gravity well"
+	Value "Vasari Loyalists have a unique, powerful strategy: they can survive without colonies & raze planets to unusable dust, letting them permanently deny valuable planets to their enemies. Their units heal quickly & their titan can repair a fleet even under heavy fire. Any ships lost can be replaced with their Dark Fleet summons ability. MAIN DAMAGE BUFFS: +50% in neutral well; +40% for 1st colony loss; +30% if starbase or titan present in foreign well"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PHASEREBEL_DESCRIPTION"
-	Value "Vasari Rebels favor hit-and-run tactics. Their ships briefly gain huge damage buffs when entering a gravity well & they can retreat very quickly. They're the only faction that can phase jump a finished starbase into a well. A good ally, they gain damage buffs when reinforcing allies & can let allies use their phase gates. MAIN DAMAGE BUFFS: +150% on phase jump end; +10% per ally present in gravity well"
+	Value "Vasari Rebels favor hit-and-run tactics. Their ships briefly gain huge damage buffs when entering a gravity well & they can retreat very quickly. They're the only faction that can phase jump a finished starbase into a well. A good ally, they gain damage buffs when reinforcing allies & can let allies use their phase gates. MAIN DAMAGE BUFFS: +150% on phase jump end; +20% per ally present in well"
 StringInfo
 	ID "IDS_FRIGATE_PIRATESIEGE_DESCRIPTION"
 	Value "A medium frigate that sacrifices conventional combat strength for planetary bombardment weapons."

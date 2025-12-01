@@ -1,14 +1,14 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER"
-smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_ORGANICAI"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_ORGANICAI"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_ORGANICAI_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 1 ]
+	pos [ 1 , 0 ]
 ResearchField "Artifact"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -30,15 +30,19 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
 researchModifier
-	modifierType "AntimatterCapacityAdjustment"
+	modifierType "PopulationTaxRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
+	perLevelValue 0.100000
 researchModifier
-	modifierType "AntimatterRegenAdjustment"
+	modifierType "TradeGoodsValueAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.200000
-artifactPicture "ArtifactPicturePassiveRegenAntiMatter"
+	perLevelValue 0.100000
+researchModifier
+	modifierType "IncomePercLost"
+	baseValue 0.000000
+	perLevelValue -0.050000
+artifactPicture "ArtifactPictureOrganicAI"
 uniqueOverlayBrush ""
 dlcId 204880

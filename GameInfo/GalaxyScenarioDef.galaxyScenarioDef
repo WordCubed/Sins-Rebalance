@@ -1313,41 +1313,41 @@ planetItemType
 	designName "Pirate:Frigate:AntiFighter"
 	entityDefName "FrigatePirateAntiFighter"
 planetItemType
-	designName "Artifact:WeaponBoost"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_WEAPONBOOST"
+	designName "Artifact:Weapons"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_WEAPONS"
 planetItemType
-	designName "Artifact:AntimatterRegen"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER"
+	designName "Artifact:Antimatter"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_ANTIMATTER"
 planetItemType
-	designName "Artifact:HullRepair"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE"
+	designName "Artifact:Hull"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_HULL"
 planetItemType
-	designName "Artifact:HyperspaceSpeed"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_HYPERSPACESPEED"
+	designName "Artifact:Agility"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_AGILITY"
 planetItemType
-	designName "Artifact:GalaxyTravel"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_GALAXYTRAVEL"
+	designName "Artifact:Hyperspace"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_HYPERSPACE"
 planetItemType
-	designName "Artifact:ResearchArchive"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_RESEARCHARCHIVE"
+	designName "Artifact:Research"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_RESEARCH"
 planetItemType
-	designName "Artifact:StrongCulture"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE"
+	designName "Artifact:Culture"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_CULTURE"
 planetItemType
-	designName "Artifact:WormholeTravel"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL"
+	designName "Artifact:Jumptime"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_JUMPTIME"
 planetItemType
-	designName "Artifact:BuildTimeReduction"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"
+	designName "Artifact:Construction"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_CONSTRUCTION"
 planetItemType
-	designName "Artifact:PlanetaryOrganicAI"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_ORGANICAI"
+	designName "Artifact:Credits"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_CREDITS"
 planetItemType
-	designName "Artifact:IonField"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_PLANETBOMBINGSHIELD"
+	designName "Artifact:Defenses"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_DEFENSES"
 planetItemType
-	designName "Artifact:MatterCompressor"
-	entityDefName "RESEARCHSUBJECT_ARTIFACT_TRADEINCOME"
+	designName "Artifact:Resources"
+	entityDefName "RESEARCHSUBJECT_ARTIFACT_RESOURCES"
 planetItemType
 	designName "Cosmetic:TitanTechLoyalist"
 	entityDefName "TITAN_TECHLOYALIST_COSMETIC"

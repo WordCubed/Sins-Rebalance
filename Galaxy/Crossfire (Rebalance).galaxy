@@ -442,7 +442,7 @@ star
 				owner "PlanetOwner"
 				colonizeChance 0.000000
 				items 1
-				item "Artifact:StrongCulture"
+				item "Artifact:Culture"
 		spawnProbability 1.000000
 		useDefaultTemplate TRUE
 		entityCount 0

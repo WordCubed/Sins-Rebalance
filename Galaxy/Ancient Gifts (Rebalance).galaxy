@@ -4152,5 +4152,5 @@ template
 		owner "NoOwner"
 		colonizeChance 0.000000
 		items 1
-		item "Artifact:WormholeTravel"
+		item "Artifact:Hyperspace"
 dlcID 204880

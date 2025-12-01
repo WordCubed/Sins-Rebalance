@@ -80,32 +80,16 @@ nameStringID "IDS_STARBASEFIREBASE_NAME"
 picture "PICTURE_STARBASETECH"
 statCountType "StarBase"
 creationSourceAbility "AbilityDeployFireBase"
-maxUpgradeLevelCount 3
+maxUpgradeLevelCount 4
 UpgradeTypeCount 4
 UpgradeType "StarBaseUpgradeFireBaseWeapons"
 UpgradeType "StarBaseUpgradeFireBaseToughness"
 UpgradeType "StarBaseUpgradeFireBaseSiegeBase"
 UpgradeType "StarBaseUpgradeFireBaseExplosion"
-MeshNameInfoCount 3
-MeshNameInfo
-	meshName "StarBaseTech"
-	criteriaType "None"
-MeshNameInfo
-	meshName "StarBaseTech-Weapon1"
-	criteriaType "StarBaseUpgradeLevel"
-	levelRequirements
-		levelRequirementCount 1
-		levelRequirement
-			upgradePropertyType "WeaponUpgradeLevel"
-			upgradeLevel 1
+MeshNameInfoCount 1
 MeshNameInfo
 	meshName "StarBaseTech-Weapon2"
-	criteriaType "StarBaseUpgradeLevel"
-	levelRequirements
-		levelRequirementCount 1
-		levelRequirement
-			upgradePropertyType "WeaponUpgradeLevel"
-			upgradeLevel 2
+	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 NumSoundsFor:ONATTACKORDERISSUED 0
