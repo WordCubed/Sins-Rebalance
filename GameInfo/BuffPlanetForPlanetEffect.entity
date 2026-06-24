@@ -3,9 +3,9 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 3
-allowFirstSpawnerToStack TRUE
-buffExclusivityForAIType "ExclusiveForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 0
@@ -27,8 +27,6 @@ entityModifier
 		Level:2 0.030000
 		Level:3 0.030000
 numEntityBoolModifiers 0
-numFinishConditions 2
+numFinishConditions 1
 finishCondition
 	finishConditionType "OwnerChanged"
-finishCondition
-	finishConditionType "EnterHyperspace"

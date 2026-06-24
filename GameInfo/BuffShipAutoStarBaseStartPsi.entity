@@ -14,13 +14,10 @@ instantAction
 	instantActionTriggerType "OnHyperspaceExit"
 	buffType "BuffShipAutoStarBaseCastPsi"
 	targetFilter
-		numOwnerships 4
-		ownership "Friendly"
-		ownership "Enemy"
-		ownership "NoOwner"
-		ownership "UncontrolledMinorFaction"
-		numObjects 1
+		numOwnerships 0
+		numObjects 2
 		object "Planet"
+		object "Star"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0

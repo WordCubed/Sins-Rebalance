@@ -26,8 +26,7 @@ instantAction
 		object "PlanetModule"
 		numSpaces 1
 		space "Normal"
-		numConstraints 2
-		constraint "IsPsi"
+		numConstraints 1
 		constraint "HasWeapons"
 	maxTargetCount
 		Level:0 -1.000000

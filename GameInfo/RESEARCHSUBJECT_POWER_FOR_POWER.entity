@@ -1,42 +1,42 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_CONFLUENCEOFTHEUNITY"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_CONFLUENCEOFTHEUNITY"
+hudIcon "HUDICON_RESEARCHSUBJECT_ACCLIMATIZATIONOFWILL"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ACCLIMATIZATIONOFWILL"
 infoCardIcon ""
-NameStringID "IDS_RESEARCHSUBJECT_DEATH_RITES_NAME"
-DescriptionStringID "IDS_RESEARCHSUBJECT_DEATH_RITES_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_POWER_FOR_POWER_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_POWER_FOR_POWER_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 2 , 1 ]
+	pos [ 6 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "RESEARCHSUBJECT_CULTURERATEPSI1"
-		Level 2
+		Subject "RESEARCHSUBJECT_PLANET_FOR_PLANET"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 45.000000
+BaseUpgradeTime 105.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
-	credits 500.000000
-	metal 70.000000
-	crystal 140.000000
+	credits 2300.000000
+	metal 350.000000
+	crystal 700.000000
 PerLevelCostIncrease
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 2
+Tier 6
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 1
 researchModifier
 	modifierType "ApplyBuffToShipsAfterHyperspace"
-	buffToApply "BuffDeathRitesSelf"
+	buffToApply "BuffPowerForPowerSelf"
 researchFloatModifiers 0
 artifactPicture ""
-uniqueOverlayBrush ""
+uniqueOverlayBrush "RebellionResearchOverlay"
 dlcId 204880

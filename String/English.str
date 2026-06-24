@@ -1,11 +1,23 @@
 TXT
-NumStrings 8954
+NumStrings 8958
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POWER_FOR_POWER_NAME"
+	Value "Power for Power"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_POWER_FOR_POWER_DESCRIPTION"
+	Value "The Unity grows in power for every ship on the battlefield—your own, or others. Grants a +1% damage buff for every friendly or enemy unit in a gravity well (stacks up to +50%)."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_PLANET_NAME"
+	Value "Planet for Planet"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_PLANET_DESCRIPTION"
+	Value "Every world is infinitely precious, and the Unity cries out for every one destroyed—be it your own, or others'. Grants a permanent +50% damage and +4% shield mitigation buff for the first colony you lose or the first enemy colony you destroy."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_FOR_DEATH_NAME"
 	Value "Death for Death"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_FOR_DEATH_DESCRIPTION"
-	Value "Your warriors grow stronger in the presence of death—their own, or others'. Grants a +50% damage and +4% shield mitigation buff for the first enemy or friendly unit to die in battle. (Buff dispels on on phase jump)."
+	Value "Your warriors grow stronger in the presence of death—their own, or others'. Grants a +50% damage and +4% shield mitigation buff for the first enemy or friendly unit to die in battle. (Buff dispels on phase jump)."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH_NAME"
 	Value "Superweapon Prototype"
@@ -71,10 +83,10 @@ StringInfo
 	Value "Normal Rate"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedFast"
-	Value "1.4x Rate"
+	Value "1.5x Rate"
 StringInfo
 	ID "IDSGameOptionsIncomeSpeedFaster"
-	Value "1.8x Rate"
+	Value "2.0x Rate"
 StringInfo
 	ID "IDSGameOptionsVictorySpeedSlow"
 	Value "Half Speed"
@@ -185,7 +197,7 @@ StringInfo
 	Value "Strength in Unity"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_DESCRIPTION"
-	Value "Your ships become stronger with every member of the Unity present. Grants your ships +1% damage for every Advent ship (your own, friend, or enemy) in the gravity well. Stacks up to +30%."
+	Value "Your ships become stronger with every member of the Unity present. Grants your ships +1% damage for every ship you have in the gravity well. Stacks up to +30%."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SIEGE_MENTALITY_NAME"
 	Value "Siege Mentality"

@@ -1,8 +1,8 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_CONFLUENCEOFTHEUNITY"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_CONFLUENCEOFTHEUNITY"
+hudIcon "HUDICON_RESEARCHSUBJECT_ACCLIMATIZATIONOFWILL"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ACCLIMATIZATIONOFWILL"
 infoCardIcon ""
 NameStringID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_DESCRIPTION"
@@ -18,7 +18,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 140.000000
+BaseUpgradeTime 105.000000
 PerLevelUpgradeTime 0.000000
 BaseCost
 	credits 2300.000000

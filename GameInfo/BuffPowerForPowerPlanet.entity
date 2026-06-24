@@ -2,10 +2,10 @@
 SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
-buffStackingLimitType "PerPlayer"
+buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusiveForAllPlayers"
+buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 1
@@ -13,28 +13,27 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffDeathRitesTarget"
+	buffType "BuffPowerForPowerCheck"
 	targetFilter
 		numOwnerships 3
+		ownership "Friendly"
 		ownership "Enemy"
-		ownership "NoOwner"
 		ownership "UncontrolledMinorFaction"
-		numObjects 6
+		numObjects 5
 		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
 		object "Titan"
 		object "StarBase"
-		object "PlanetModule"
 		numSpaces 1
 		space "Normal"
 		numConstraints 1
-		constraint "NotIsIllusionShip"
+		constraint "HasWeapons"
 	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
+		Level:0 50.000000
+		Level:1 50.000000
+		Level:2 50.000000
+		Level:3 50.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -46,6 +45,8 @@ numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 2
 finishCondition
 	finishConditionType "AllOnDelayInstantActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"

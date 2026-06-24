@@ -1,7 +1,7 @@
 ﻿TXT2
 SinsArchiveVersion 194
 entityType "Buff"
-onReapplyDuplicateType "PrioritizeNewBuffs"
+onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
@@ -15,27 +15,23 @@ instantAction
 	delayTime 0.000000
 	buffType "BuffUnityPowerCheck"
 	targetFilter
-		numOwnerships 3
-		ownership "Enemy"
-		ownership "Friendly"
-		ownership "UncontrolledMinorFaction"
-		numObjects 6
+		numOwnerships 1
+		ownership "Player"
+		numObjects 5
 		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
 		object "Titan"
 		object "StarBase"
-		object "PlanetModule"
 		numSpaces 1
 		space "Normal"
-		numConstraints 2
-		constraint "IsPsi"
+		numConstraints 1
 		constraint "HasWeapons"
 	maxTargetCount
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
+		Level:0 30.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

@@ -24,7 +24,7 @@ instantAction
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
 	instantActionTriggerType "OnDelay"
-	delayTime 2.000000
+	delayTime 1.000000
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.001500
@@ -58,18 +58,16 @@ instantAction
 	spawnShipsMaxStartingHullPerc 1.000000
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "CultureSpread"
+	value
+		Level:0 60.000000
+		Level:1 60.000000
+		Level:2 60.000000
+		Level:3 60.000000
 numEntityBoolModifiers 0
-numFinishConditions 2
-finishCondition
-	finishConditionType "ResearchNotMet"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_REANIMATION"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
+numFinishConditions 1
 finishCondition
 	finishConditionType "TimeElapsed"
 	time

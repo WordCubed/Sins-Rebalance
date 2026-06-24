@@ -8,7 +8,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusivePerPlayer"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
+numInstantActions 4
 instantAction
 	buffInstantActionType "ApplyBuffToLocalOrbitBody"
 	instantActionTriggerType "OnDelay"
@@ -20,8 +20,52 @@ instantAction
 		ownership "Enemy"
 		ownership "NoOwner"
 		ownership "UncontrolledMinorFaction"
-		numObjects 2
+		numObjects 1
 		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnOwnerDeath"
+	buffType "BuffShipAutoStarBaseCheckRemoveTech"
+	targetFilter
+		numOwnerships 4
+		ownership "Friendly"
+		ownership "Enemy"
+		ownership "NoOwner"
+		ownership "UncontrolledMinorFaction"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffShipAutoStarBaseCheckFailTech"
+	targetFilter
+		numOwnerships 4
+		ownership "Friendly"
+		ownership "Enemy"
+		ownership "NoOwner"
+		ownership "UncontrolledMinorFaction"
+		numObjects 1
 		object "Star"
 		numSpaces 1
 		space "Normal"
@@ -43,8 +87,7 @@ instantAction
 		ownership "Enemy"
 		ownership "NoOwner"
 		ownership "UncontrolledMinorFaction"
-		numObjects 2
-		object "Planet"
+		numObjects 1
 		object "Star"
 		numSpaces 1
 		space "Normal"

@@ -3,39 +3,34 @@ SinsArchiveVersion 194
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
-stackingLimit 1
-allowFirstSpawnerToStack FALSE
+stackingLimit 50
+allowFirstSpawnerToStack TRUE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 0
 numPeriodicActions 0
 numOverTimeActions 0
-numEntityModifiers 2
+numEntityModifiers 1
 entityModifier
 	buffEntityModifierType "DamageAsDamageDealer"
 	value
-		Level:0 0.500000
-		Level:1 0.500000
-		Level:2 0.500000
-		Level:3 0.500000
-entityModifier
-	buffEntityModifierType "ShieldMitigation"
-	value
-		Level:0 0.040000
-		Level:1 0.040000
-		Level:2 0.040000
-		Level:3 0.040000
+		Level:0 0.010000
+		Level:1 0.010000
+		Level:2 0.010000
+		Level:3 0.010000
 numEntityBoolModifiers 0
-numFinishConditions 2
+numFinishConditions 3
 finishCondition
 	finishConditionType "EnterHyperspace"
+finishCondition
+	finishConditionType "OwnerChanged"
 finishCondition
 	finishConditionType "ResearchNotMet"
 	researchPrerequisites
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
-			Subject "RESEARCHSUBJECT_PLANET_FOR_A_PLANET"
+			Subject "RESEARCHSUBJECT_POWER_FOR_POWER"
 			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0

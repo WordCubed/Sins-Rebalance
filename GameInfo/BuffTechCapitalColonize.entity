@@ -8,7 +8,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 1
+numInstantActions 2
 instantAction
 	buffInstantActionType "SpawnResourceExtractors"
 	instantActionTriggerType "OnDelay"
@@ -18,6 +18,37 @@ instantAction
 		Level:1 6.000000
 		Level:2 8.000000
 		Level:3 8.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "BuffSolitaryPathRemove"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 7
+		object "Fighter"
+		object "Corvette"
+		object "Frigate"
+		object "CapitalShip"
+		object "Titan"
+		object "StarBase"
+		object "PlanetModule"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
 numPeriodicActions 1
 periodicAction
 	actionCountType "Infinite"

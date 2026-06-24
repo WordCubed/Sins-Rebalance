@@ -33,7 +33,7 @@ entryVehicleLaunchInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-afterColonizeBuffType ""
+afterColonizeBuffType "BuffSolitaryPathRemoveCaster"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

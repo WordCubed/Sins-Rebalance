@@ -37,22 +37,13 @@ instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	spawnShipsLevelCount 2
+	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 0.000000
 		maxFleetPoints 1.000000
 		requiredShipCount 1
 		requiredShip
 			type "FrigateTechFireBaseConstructor"
-			minCount 1
-			maxCount 1
-		randomShipCount 0
-	spawnShips
-		minFleetPoints 0.000000
-		maxFleetPoints 1.000000
-		requiredShipCount 1
-		requiredShip
-			type "FrigateTechFireBase"
 			minCount 1
 			maxCount 1
 		randomShipCount 0
