@@ -46,9 +46,9 @@ numEntityModifiers 0
 numEntityBoolModifiers 0
 numFinishConditions 3
 finishCondition
-	finishConditionType "AnyInstantActionWithTriggerTypeDone"
-	instantActionTriggerType "OnOwnerDeath"
+	finishConditionType "OwnerChanged"
 finishCondition
 	finishConditionType "EnterHyperspace"
 finishCondition
-	finishConditionType "OwnerChanged"
+	finishConditionType "AnyInstantActionWithTriggerTypeDone"
+	instantActionTriggerType "OnOwnerDeath"

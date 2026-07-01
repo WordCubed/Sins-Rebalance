@@ -15,25 +15,25 @@ instantAction
 	delayTime 0.000000
 	buffType "BuffPowerForPowerCheck"
 	targetFilter
-		numOwnerships 3
-		ownership "Friendly"
-		ownership "Enemy"
-		ownership "UncontrolledMinorFaction"
-		numObjects 5
+		numOwnerships 1
+		ownership "Player"
+		numObjects 7
+		object "Fighter"
 		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
 		object "Titan"
 		object "StarBase"
+		object "PlanetModule"
 		numSpaces 1
 		space "Normal"
 		numConstraints 1
 		constraint "HasWeapons"
 	maxTargetCount
-		Level:0 50.000000
-		Level:1 50.000000
-		Level:2 50.000000
-		Level:3 50.000000
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

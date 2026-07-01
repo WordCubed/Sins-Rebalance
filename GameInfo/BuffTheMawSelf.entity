@@ -45,10 +45,10 @@ instantAction
 		Level:2 2.600000
 		Level:3 2.600000
 	maxTargetCount
-		Level:0 24.000000
-		Level:1 24.000000
-		Level:2 24.000000
-		Level:3 24.000000
+		Level:0 12.000000
+		Level:1 12.000000
+		Level:2 12.000000
+		Level:3 12.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -92,10 +92,10 @@ periodicAction
 		Level:2 1.570000
 		Level:3 1.570000
 	maxTargetCount
-		Level:0 24.000000
-		Level:1 24.000000
-		Level:2 24.000000
-		Level:3 24.000000
+		Level:0 12.000000
+		Level:1 12.000000
+		Level:2 12.000000
+		Level:3 12.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

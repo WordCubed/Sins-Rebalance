@@ -5,19 +5,19 @@ StringInfo
 	Value "Power for Power"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POWER_FOR_POWER_DESCRIPTION"
-	Value "The Unity grows in power for every ship on the battlefield—your own, or others. Grants a +1% damage buff for every friendly or enemy unit in a gravity well (stacks up to +50%)."
+	Value "Your units grow stronger in reponse to your enemies. Grants units a +50% damage buff when an another faction's starbase or titan is present. (Buff dispels on phase jump, but persists if enemy starbase/titan is merely destroyed or leaves.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_PLANET_NAME"
 	Value "Planet for Planet"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANET_FOR_PLANET_DESCRIPTION"
-	Value "Every world is infinitely precious, and the Unity cries out for every one destroyed—be it your own, or others'. Grants a permanent +50% damage and +4% shield mitigation buff for the first colony you lose or the first enemy colony you destroy."
+	Value "Every world is infinitely precious, and the Unity cries out for every one destroyed—be it your own, or others'. Grants a permanent +50% damage and +5% shield mitigation buff for the first colony you lose or the first enemy colony you destroy."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_FOR_DEATH_NAME"
 	Value "Death for Death"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_DEATH_FOR_DEATH_DESCRIPTION"
-	Value "Your warriors grow stronger in the presence of death—their own, or others'. Grants a +50% damage and +4% shield mitigation buff for the first enemy or friendly unit to die in battle. (Buff dispels on phase jump)."
+	Value "Your warriors grow stronger in the presence of death—their own, or others'. Grants a +50% damage and +5% shield mitigation buff for the first enemy or friendly unit to die in battle. (Buff dispels on phase jump.)"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PLANETMODULEACCESS_CANNONTECH_NAME"
 	Value "Superweapon Prototype"
@@ -194,10 +194,10 @@ StringInfo
 	Value "Arctic Planet"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_NAME"
-	Value "Strength in Unity"
+	Value "Resiliency"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_POWER_OF_THE_UNITY_DESCRIPTION"
-	Value "Your ships become stronger with every member of the Unity present. Grants your ships +1% damage for every ship you have in the gravity well. Stacks up to +30%."
+	Value "Your ships grow stronger over time. After a phase jump, all units gain +3% damage and +0.3% mitigation every 9 seconds, capping at +30% damage and +3% mitigation after 90 seconds. The counter resets to zero after entering Phase Space."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_SIEGE_MENTALITY_NAME"
 	Value "Siege Mentality"
@@ -632,7 +632,7 @@ StringInfo
 	Value "Creates an offense-oriented nanite swarm which has a basic pulse beam weapon. Weapon damage, hull, shields, hull regen, and shield regen all increase with the level of the host ship that spawned it."
 StringInfo
 	ID "IDS_ABILITY_PSIORBITALCANNONREBEL_DESC"
-	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage. Advent Rebels can also summon the ghosts of dead ships around the targeted planet."
+	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage."
 StringInfo
 	ID "IDS_ABILITY_PSIORBITALCANNON_DESC"
 	Value "The Unity's will is channeled toward a distant planet, telepathically coercing its populace into promoting your empire's culture for a brief time. Enemy units in orbit of this planet also have their antimatter drained and deal reduced damage."

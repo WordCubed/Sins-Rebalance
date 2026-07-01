@@ -13,25 +13,26 @@ instantAction
 	buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffUnityPowerCheck"
+	buffType "BuffUnityPowerShip"
 	targetFilter
 		numOwnerships 1
 		ownership "Player"
-		numObjects 5
+		numObjects 7
+		object "Fighter"
 		object "Corvette"
 		object "Frigate"
 		object "CapitalShip"
 		object "Titan"
 		object "StarBase"
-		numSpaces 1
-		space "Normal"
+		object "PlanetModule"
+		numSpaces 0
 		numConstraints 1
 		constraint "HasWeapons"
 	maxTargetCount
-		Level:0 30.000000
-		Level:1 30.000000
-		Level:2 30.000000
-		Level:3 30.000000
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

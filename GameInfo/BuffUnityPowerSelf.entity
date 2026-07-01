@@ -5,26 +5,15 @@ onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
 stackingLimit 1
 allowFirstSpawnerToStack FALSE
-buffExclusivityForAIType "ExclusivePerPlayer"
+buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 2
 instantAction
-	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	buffInstantActionType "ApplyBuffToSelf"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "BuffUnityPowerPlanet"
-	targetFilter
-		numOwnerships 4
-		ownership "Friendly"
-		ownership "UncontrolledMinorFaction"
-		ownership "NoOwner"
-		ownership "Enemy"
-		numObjects 1
-		object "Planet"
-		numSpaces 1
-		space "Normal"
-		numConstraints 0
+	buffType "BuffUnityPowerShip"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -38,10 +27,13 @@ instantAction
 	delayTime 0.000000
 	buffType "BuffUnityPowerPlanet"
 	targetFilter
-		numOwnerships 1
+		numOwnerships 4
+		ownership "Friendly"
+		ownership "UncontrolledMinorFaction"
 		ownership "NoOwner"
+		ownership "Enemy"
 		numObjects 1
-		object "Star"
+		object "Planet"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0
